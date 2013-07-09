@@ -4,17 +4,19 @@ using System.Collections.Generic;
 namespace PublicHoliday
 {
     /// <summary>
-    /// Finds UK Bank (public) Holidays. Adjusted for weekends.
+    /// Finds Canada federal public (statutory) Holidays. Adjusted for weekends.
     /// <description>
-    /// UK Bank Holidays since 1971 Banking and Financial Dealings Act with additions and variations.
-    /// See http://www.dti.gov.uk/employment/bank-public-holidays/index.html
-    /// <para>Additions: 1974 New Years Day and 1978 May Day</para>
-    /// <para>Variations: 1995 VE Day May Day, 2002 Golden Jubilee, 2011 Royal Wedding, 2012 Diamond Jubilee</para>
-    /// <para>You can call by IsBankHoliday(date), get the specific holiday name
-    /// ( <see cref="Christmas"/>), or a list of dates for the year (<see cref="BankHolidays"/>)</para>
+    /// Federally regulated workers are entitled to nine paid statutory holidays every year –
+    /// New Year’s Day, Good Friday, Victoria Day, Canada Day, Labour Day, Thanksgiving Day, Remembrance Day, Christmas Day, and Boxing Day.
+    /// See http://www.hrsdc.gc.ca/eng/labour/overviews/employment_standards/holidays.shtml
+    /// <para>When New Year’s Day, Canada Day, Remembrance Day, Christmas Day or Boxing Day fall on a Saturday or Sunday that are not normal work days, workers are entitled to a holiday with pay on the working day immediately before or after the holiday</para>
+    /// <para>There are additional regional and provincal dates, and not all federal holidays may be observed by private businesses. Banks follow the federal holidays, however.</para>
     /// </description>
     /// </summary>
-    public class UKBankHoliday : IPublicHolidays
+    /// <remarks>
+    /// Federal nation-wide holidays only. Provincal holidays (eg Family Day in Feb) are excluded and are not observed by Federal employees.
+    /// </remarks>
+    public class CanadaPublicHoliday : IPublicHolidays
     {
         #region Individual Holidays
         /// <summary>
@@ -48,55 +50,88 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Date of New Year bank holiday. This is 1974 on only but will return pre 1974 dates.
+        /// Date of New Year bank holiday.
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
         public static DateTime NewYear(int year)
         {
-            //since 1974 only
-            DateTime hol = new DateTime(year, 1, 1);
+            var hol = new DateTime(year, 1, 1);
             hol = HolidayCalculator.FixWeekend(hol);
             return hol;
         }
         /// <summary>
-        /// Returns "Early Spring"/"May Day" holiday (first Monday in May). Created in 1978.
+        /// Canada day, 1 July or following Monday 
         /// </summary>
         /// <param name="year"></param>
-        /// <returns>(Nullable)date for Early May Bank Holiday (null before 1978)</returns>
-        public static DateTime? MayDay(int year)
+        /// <returns></returns>
+        public static DateTime CanadaDay(int year)
         {
-            //warning- should be null for < 1977
-            if (year < 1978) return null;
-            if (year == 1995)
-                return new DateTime(1995, 5, 8); //1995 moved for 50th anniversary of VE day
-            DateTime hol = new DateTime(year, 5, 1);
+            var hol = new DateTime(year, 7, 1);
             hol = HolidayCalculator.FindFirstMonday(hol);
             return hol;
         }
         /// <summary>
-        /// The Spring/Last Monday in May holiday (replaced variable Whit Monday in 1971)
+        /// Monday on or before May 24
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
-        public static DateTime Spring(int year)
+        public static DateTime VictoriaDay(int year)
         {
-            if (year == 2002) return new DateTime(2002, 6, 4); //Golden Jubilee of Elizabeth II
-            if (year == 2012) return new DateTime(2012, 6, 4); //Queen's Diamond Jubilee
-            DateTime hol = new DateTime(year, 5, 24);
+            var hol = new DateTime(year, 5, 24);
+            //skip back to previous Monday
+            while (hol.DayOfWeek != DayOfWeek.Monday)
+            {
+                hol = hol.AddDays(-1);
+            }
+            return hol;
+        }
+
+        /// <summary>
+        /// First Monday in August. Only available in certain provinces, under different names- Saskatchewan day,  Regatta Day 
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime CivicHoliday(int year)
+        {
+            var hol = new DateTime(year, 8, 1);
             hol = HolidayCalculator.FindFirstMonday(hol);
             return hol;
         }
 
         /// <summary>
-        /// Summer bank holiday (last Monday in August)
+        /// First Monday in September
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
-        public static DateTime Summer(int year)
+        public static DateTime LabourDay(int year)
         {
-            DateTime hol = new DateTime(year, 8, 25);
+            var hol = new DateTime(year, 9, 1);
             hol = HolidayCalculator.FindFirstMonday(hol);
+            return hol;
+        }
+
+        /// <summary>
+        /// Second Monday in October
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime Thanksgiving(int year)
+        {
+            var hol = new DateTime(year, 10, 8);
+            hol = HolidayCalculator.FindFirstMonday(hol);
+            return hol;
+        }
+
+        /// <summary>
+        /// November 11
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime RemembranceDay(int year)
+        {
+            var hol = new DateTime(year, 11, 11);
+            hol = HolidayCalculator.FixWeekend(hol);
             return hol;
         }
 
@@ -107,7 +142,7 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime GoodFriday(int year)
         {
-            DateTime hol = HolidayCalculator.GetEaster(year);
+            var hol = HolidayCalculator.GetEaster(year);
             hol = hol.AddDays(-2);
             return hol;
         }
@@ -119,7 +154,7 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime EasterMonday(int year)
         {
-            DateTime hol = HolidayCalculator.GetEaster(year);
+            var hol = HolidayCalculator.GetEaster(year);
             hol = hol.AddDays(1);
             return hol;
         }
@@ -128,12 +163,12 @@ namespace PublicHoliday
         /// </summary>
         private static DateTime GoodFriday(DateTime easter)
         {
-            DateTime hol = easter.AddDays(-2);
+            var hol = easter.AddDays(-2);
             return hol;
         }
         private static DateTime EasterMonday(DateTime easter)
         {
-            DateTime hol = easter.AddDays(1);
+            var hol = easter.AddDays(1);
             return hol;
         }
         #endregion
@@ -143,29 +178,19 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year</param>
         /// <returns>List of bank holidays</returns>
-        public static IList<DateTime> BankHolidays(int year)
+        public virtual IList<DateTime> PublicHolidays(int year)
         {
             var bHols = new List<DateTime>();
-            if (year > 1973)
-                bHols.Add(NewYear(year)); //New Year only in 1974
+            bHols.Add(NewYear(year));
 
             var easter = HolidayCalculator.GetEaster(year);
             bHols.Add(GoodFriday(easter));
             bHols.Add(EasterMonday(easter));
-
-            var dt = MayDay(year);
-            if (dt.HasValue)
-                bHols.Add(dt.Value);
-            bHols.Add(Spring(year));
-
-            if (year == 2002)
-                bHols.Add(new DateTime(2002, 6, 3)); //Golden Jubilee of Elizabeth II
-            if (year == 2011)
-                bHols.Add(new DateTime(2012, 4, 29)); //Royal Wedding
-            if (year == 2012)
-                bHols.Add(new DateTime(2012, 6, 5)); //Queen's Diamond Jubilee
-
-            bHols.Add(Summer(year));
+            bHols.Add(VictoriaDay(year));
+            bHols.Add(CanadaDay(year));
+            bHols.Add(LabourDay(year));
+            bHols.Add(Thanksgiving(year));
+            bHols.Add(RemembranceDay(year));
             bHols.Add(Christmas(year));
             bHols.Add(BoxingDay(year));
             return bHols;
@@ -178,44 +203,23 @@ namespace PublicHoliday
         public virtual IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
             var bHols = new Dictionary<DateTime, string>();
-            if (year > 1973)
-                bHols.Add(NewYear(year), "New Year"); //New Year only in 1974
+            bHols.Add(NewYear(year), "New Year");
 
             var easter = HolidayCalculator.GetEaster(year);
             bHols.Add(GoodFriday(easter), "Good Friday");
             bHols.Add(EasterMonday(easter), "Easter Monday");
-
-            if (year == 2011)
-                bHols.Add(new DateTime(2011, 4, 29), "Royal Wedding"); //Royal Wedding
-
-            var dt = MayDay(year);
-            if (dt.HasValue)
-                bHols.Add(dt.Value, "Early May");
-            bHols.Add(Spring(year), "Spring");
-
-            if (year == 2002)
-                bHols.Add(new DateTime(2002, 6, 3), "Golden Jubilee"); //Golden Jubilee of Elizabeth II
-            if (year == 2012)
-                bHols.Add(new DateTime(2012, 6, 5), "Queen's Diamond Jubilee"); //Queen's Diamond Jubilee
-
-            bHols.Add(Summer(year), "Summer");
+            bHols.Add(VictoriaDay(year), "Victoria Day");
+            bHols.Add(CanadaDay(year), "Canada Day");
+            bHols.Add(LabourDay(year), "Labour Day");
+            bHols.Add(Thanksgiving(year), "Thanksgiving");
+            bHols.Add(RemembranceDay(year), "Remembrance Day");
             bHols.Add(Christmas(year), "Christmas");
             bHols.Add(BoxingDay(year), "Boxing Day");
             return bHols;
         }
 
         /// <summary>
-        /// Get a list of dates for all holidays in a year.
-        /// </summary>
-        /// <param name="year">The year.</param>
-        /// <returns></returns>
-        public virtual IList<DateTime> PublicHolidays(int year)
-        {
-            return BankHolidays(year);
-        }
-
-        /// <summary>
-        /// Returns the next working day (Mon-Fri, not bank holiday)
+        /// Returns the next working day (Mon-Fri, not public holiday)
         /// after the specified date (or the same date)
         /// </summary>
         /// <param name="dt">The date you wish to check</param>
@@ -234,28 +238,17 @@ namespace PublicHoliday
         /// </returns>
         public virtual bool IsPublicHoliday(DateTime dt)
         {
-            return IsBankHoliday(dt);
+            return IsPublicHoliday(dt, null);
         }
 
-        /// <summary>
-        /// Check if a specific date is a bank holiday.
-        /// Obviously the BankHoliday list is more efficient for repeated checks
-        /// </summary>
-        /// <param name="dt">The date you wish to check</param>
-        /// <returns>True if date is a bank holiday (excluding weekends)</returns>
-        public virtual bool IsBankHoliday(DateTime dt)
-        {
-            return IsBankHoliday(dt, null);
-        }
-
-        private static bool IsBankHoliday(DateTime dt, DateTime? easter)
+        private static bool IsPublicHoliday(DateTime dt, DateTime? easter)
         {
             int year = dt.Year;
 
             switch (dt.Month)
             {
                 case 1:
-                    if ((year > 1973) && (NewYear(year) == dt))
+                    if (NewYear(year) == dt)
                         return true;
                     break;
                 case 3:
@@ -272,17 +265,29 @@ namespace PublicHoliday
                         return true;
                     break;
                 case 5:
-                    if (dt.DayOfWeek != DayOfWeek.Monday)
+                    if (dt.DayOfWeek != DayOfWeek.Monday) 
                         return false;
-                    if (MayDay(year) == dt)
-                        return true;
-                    if (Spring(year) == dt)
+                    if (VictoriaDay(year) == dt)
                         return true;
                     break;
-                case 8:
-                    if (dt.DayOfWeek != DayOfWeek.Monday)
+                case 7:
+                    if (CanadaDay(year) == dt)
+                        return true;
+                    break;
+                case 9:
+                    if (dt.DayOfWeek != DayOfWeek.Monday) 
                         return false;
-                    if (Summer(year) == dt)
+                    if (LabourDay(year) == dt)
+                        return true;
+                    break;
+                case 10:
+                    if (dt.DayOfWeek != DayOfWeek.Monday) 
+                        return false;
+                    if (Thanksgiving(year) == dt)
+                        return true;
+                    break;
+                case 11:
+                    if (RemembranceDay(year) == dt)
                         return true;
                     break;
                 case 12:
@@ -292,18 +297,6 @@ namespace PublicHoliday
                         return true;
                     break;
             }
-            if ((year == 2002) &&
-               (dt.Month == 6) &&
-               ((dt.Day == 3) || (dt.Day == 4)))
-                return true; //Golden Jubilee of Elizabeth II
-            if ((year == 2011) &&
-               (dt.Month == 4) &&
-               ((dt.Day == 29)))
-                return true; //Royal Wedding
-            if ((year == 2012) &&
-               (dt.Month == 6) &&
-               ((dt.Day == 5)))
-                return true; //Queen's Diamond Jubilee
 
             return false;
         }

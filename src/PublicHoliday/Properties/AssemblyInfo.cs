@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Holiday")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("PublicHoliday")]
+[assembly: AssemblyDescription("Calculate national public holidays for countries including US, UK, France, Belgium and Canada for any year")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Martin Willey")]
 [assembly: AssemblyProduct("Holiday")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCopyright("Copyright © Martin Willey 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

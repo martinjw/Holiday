@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
 
@@ -18,8 +17,8 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestEasterMonday()
         {
-            DateTime expected = new DateTime(2006, 4, 17);
-            DateTime actual = UKBankHoliday.EasterMonday(2006);
+            var expected = new DateTime(2006, 4, 17);
+            var actual = UKBankHoliday.EasterMonday(2006);
             Assert.AreEqual(expected, actual);
         }
 
@@ -29,8 +28,8 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestSpring()
         {
-            DateTime expected = new DateTime(2002, 6, 4);
-            DateTime actual = UKBankHoliday.Spring(2002);
+            var expected = new DateTime(2002, 6, 4);
+            var actual = UKBankHoliday.Spring(2002);
             Assert.AreEqual(expected, actual);
         }
 
@@ -40,7 +39,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestMayDayPre78()
         {
-            DateTime? actual = UKBankHoliday.MayDay(1977);
+            var actual = UKBankHoliday.MayDay(1977);
             Assert.IsNull(actual);
         }
 
@@ -50,8 +49,8 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestMayDayPost78()
         {
-            DateTime expected = new DateTime(1978, 5, 1);
-            DateTime? actual = UKBankHoliday.MayDay(1978);
+            var expected = new DateTime(1978, 5, 1);
+            var actual = UKBankHoliday.MayDay(1978);
             Assert.AreEqual(expected, actual.Value);
         }
 
@@ -61,8 +60,8 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestMayDay79()
         {
-            DateTime expected = new DateTime(1979, 5, 7);
-            DateTime? actual = UKBankHoliday.MayDay(1979);
+            var expected = new DateTime(1979, 5, 7);
+            var actual = UKBankHoliday.MayDay(1979);
             Assert.AreEqual(expected, actual.Value);
         }
 
@@ -72,7 +71,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestWeekendNotHoliday()
         {
-            Assert.IsFalse(UKBankHoliday.IsBankHoliday(new DateTime(2006, 1, 1)));
+            Assert.IsFalse(new UKBankHoliday().IsBankHoliday(new DateTime(2006, 1, 1)));
         }
 
         /// <summary>
@@ -81,7 +80,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestHolidayInLieu()
         {
-            Assert.IsTrue(UKBankHoliday.IsBankHoliday(new DateTime(2006, 1, 2)));
+            Assert.IsTrue(new UKBankHoliday().IsBankHoliday(new DateTime(2006, 1, 2)));
         }
 
         /// <summary>
@@ -90,7 +89,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestAfterHolidayInLieu()
         {
-            Assert.IsFalse(UKBankHoliday.IsBankHoliday(new DateTime(2006, 1, 3)));
+            Assert.IsFalse(new UKBankHoliday().IsBankHoliday(new DateTime(2006, 1, 3)));
         }
 
         /// <summary>
@@ -99,8 +98,8 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestNextWorkingDaySat()
         {
-            DateTime expected = new DateTime(2006, 12, 18);
-            DateTime actual = UKBankHoliday.NextWorkingDay(new DateTime(2006, 12, 16));
+            var expected = new DateTime(2006, 12, 18);
+            var actual = new UKBankHoliday().NextWorkingDay(new DateTime(2006, 12, 16));
             Assert.AreEqual(expected, actual);
         }
 
@@ -110,8 +109,8 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestNextWorkingDaySunday()
         {
-            DateTime expected = new DateTime(2006, 12, 27);
-            DateTime actual = UKBankHoliday.NextWorkingDay(new DateTime(2006, 12, 24));
+            var expected = new DateTime(2006, 12, 27);
+            var actual = new UKBankHoliday().NextWorkingDay(new DateTime(2006, 12, 24));
             Assert.AreEqual(expected, actual);
         }
 
@@ -121,8 +120,8 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestNextWorkingDayXmas()
         {
-            DateTime expected = new DateTime(2006, 12, 27);
-            DateTime actual = UKBankHoliday.NextWorkingDay(new DateTime(2006, 12, 25));
+            var expected = new DateTime(2006, 12, 27);
+            var actual = new UKBankHoliday().NextWorkingDay(new DateTime(2006, 12, 25));
             Assert.AreEqual(expected, actual);
         }
 
@@ -132,8 +131,8 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestNextWorkingDayBoxingDay()
         {
-            DateTime expected = new DateTime(2006, 12, 27);
-            DateTime actual = UKBankHoliday.NextWorkingDay(new DateTime(2006, 12, 26));
+            var expected = new DateTime(2006, 12, 27);
+            var actual = new UKBankHoliday().NextWorkingDay(new DateTime(2006, 12, 26));
             Assert.AreEqual(expected, actual);
         }
 
@@ -143,8 +142,8 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestNextWorkingDayAfterHoliday()
         {
-            DateTime expected = new DateTime(2006, 12, 27);
-            DateTime actual = UKBankHoliday.NextWorkingDay(new DateTime(2006, 12, 27));
+            var expected = new DateTime(2006, 12, 27);
+            var actual = new UKBankHoliday().NextWorkingDay(new DateTime(2006, 12, 27));
             Assert.AreEqual(expected, actual);
         }
 
@@ -154,8 +153,8 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestNextWorkingDayOverNewYear()
         {
-            DateTime expected = new DateTime(2007, 1, 2);
-            DateTime actual = UKBankHoliday.NextWorkingDay(new DateTime(2006, 12, 30));
+            var expected = new DateTime(2007, 1, 2);
+            var actual = new UKBankHoliday().NextWorkingDay(new DateTime(2006, 12, 30));
             Assert.AreEqual(expected, actual);
         }
 
@@ -165,7 +164,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestHolidayCount()
         {
-            IList<DateTime> bankHolidays = UKBankHoliday.BankHolidays(2006);
+            var bankHolidays = UKBankHoliday.BankHolidays(2006);
             Assert.AreEqual(bankHolidays.Count, 8);
         }
 
@@ -175,7 +174,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestHolidayCount2002()
         {
-            IList<DateTime> bankHolidays = UKBankHoliday.BankHolidays(2002);
+            var bankHolidays = UKBankHoliday.BankHolidays(2002);
             Assert.AreEqual(bankHolidays.Count, 9);
         }
 
@@ -185,14 +184,14 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestHolidayCount1977()
         {
-            IList<DateTime> bankHolidays = UKBankHoliday.BankHolidays(1977);
+            var bankHolidays = UKBankHoliday.BankHolidays(1977);
             Assert.AreEqual(bankHolidays.Count, 7);
         }
 
         [TestMethod]
         public void TestRoyalWedding2011()
         {
-            bool isWeddingHoliday = UKBankHoliday.IsBankHoliday(new DateTime(2011, 4, 29));
+            var isWeddingHoliday = new UKBankHoliday().IsBankHoliday(new DateTime(2011, 4, 29));
             Assert.IsTrue(isWeddingHoliday);
         }
 
@@ -201,14 +200,14 @@ namespace PublicHolidayTests
         public void TestNextWorkingDayAfterRoyalWedding2011()
         {
             var royalWedding = new DateTime(2011, 4, 29);
-            DateTime nextWorkingDay = UKBankHoliday.NextWorkingDay(royalWedding);
+            var nextWorkingDay = new UKBankHoliday().NextWorkingDay(royalWedding);
             //next working day is Tuesday 3rd May (Monday 2nd is MayDay)
-            DateTime expected = new DateTime(2011, 5, 3);
+            var expected = new DateTime(2011, 5, 3);
             Assert.AreEqual(expected, nextWorkingDay);
         }
 
         [TestMethod]
-        public void Test2015()
+        public void TestSummer2015()
         {
             var dt = UKBankHoliday.Summer(2015);
             Assert.AreEqual(31, dt.Day);

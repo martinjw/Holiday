@@ -8,7 +8,7 @@ namespace PublicHoliday
     /// If a holiday falls on a Saturday it is celebrated the preceding Friday;
     /// if a holiday falls on a Sunday it is celebrated the following Monday.
     /// </summary>
-    public static class USAPublicHoliday
+    public class USAPublicHoliday : IPublicHolidays
     {
         #region Holiday Adjustments
         private static DateTime FixWeekend(DateTime hol)
@@ -17,14 +17,6 @@ namespace PublicHoliday
                 hol = hol.AddDays(1);
             else if (hol.DayOfWeek == DayOfWeek.Saturday)
                 hol = hol.AddDays(-1);
-            return hol;
-        }
-        private static DateTime FindFirstMonday(DateTime hol)
-        {
-            while (hol.DayOfWeek != DayOfWeek.Monday)
-            {
-                hol = hol.AddDays(1);
-            }
             return hol;
         }
         #endregion
@@ -48,8 +40,8 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime MartinLutherKing(int year)
         {
-            DateTime hol = new DateTime(year, 1, 15);
-            hol = FindFirstMonday(hol);
+            var hol = new DateTime(year, 1, 15);
+            hol = HolidayCalculator.FindFirstMonday(hol);
             return hol;
         }
 
@@ -60,8 +52,8 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime PresidentsDay(int year)
         {
-            DateTime hol = new DateTime(year, 2, 15);
-            hol = FindFirstMonday(hol);
+            var hol = new DateTime(year, 2, 15);
+            hol = HolidayCalculator.FindFirstMonday(hol);
             return hol;
         }
 
@@ -72,8 +64,8 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime MemorialDay(int year)
         {
-            DateTime hol = new DateTime(year, 5, 25);
-            hol = FindFirstMonday(hol);
+            var hol = new DateTime(year, 5, 25);
+            hol = HolidayCalculator.FindFirstMonday(hol);
             return hol;
         }
 
@@ -84,7 +76,7 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime IndependenceDay(int year)
         {
-            DateTime hol = new DateTime(year, 7, 4);
+            var hol = new DateTime(year, 7, 4);
             hol = FixWeekend(hol);
             return hol;
         }
@@ -96,8 +88,8 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime LaborDay(int year)
         {
-            DateTime hol = new DateTime(year, 9, 1);
-            hol = FindFirstMonday(hol);
+            var hol = new DateTime(year, 9, 1);
+            hol = HolidayCalculator.FindFirstMonday(hol);
             return hol;
         }
 
@@ -108,8 +100,8 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime ColumbusDay(int year)
         {
-            DateTime hol = new DateTime(year, 10, 8);
-            hol = FindFirstMonday(hol);
+            var hol = new DateTime(year, 10, 8);
+            hol = HolidayCalculator.FindFirstMonday(hol);
             return hol;
         }
 
@@ -130,7 +122,7 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime Thanksgiving(int year)
         {
-            DateTime hol = new DateTime(year, 11, 23);
+            var hol = new DateTime(year, 11, 23);
             while (hol.DayOfWeek != DayOfWeek.Thursday)
             {
                 hol = hol.AddDays(1);
@@ -150,13 +142,13 @@ namespace PublicHoliday
         #endregion
 
         /// <summary>
-        /// Publics the holidays.
+        /// Get a list of dates for all holidays in a year.
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static IEnumerable<DateTime> PublicHolidays(int year)
+        public virtual IList<DateTime> PublicHolidays(int year)
         {
-            List<DateTime> bHols = new List<DateTime>();
+            var bHols = new List<DateTime>();
             bHols.Add(NewYear(year)); //1st January
             bHols.Add(MartinLutherKing(year)); // Third Monday in January
             bHols.Add(PresidentsDay(year)); //Third Monday in February
@@ -171,13 +163,13 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Publics the holiday names.
+        /// Get a list of dates with names for all holidays in a year.
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static Dictionary<DateTime, string> PublicHolidayNames(int year)
+        public virtual IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
-            Dictionary<DateTime, string> bHols = new Dictionary<DateTime, string>();
+            var bHols = new Dictionary<DateTime, string>();
             bHols.Add(NewYear(year), "New Year"); //1st January
             bHols.Add(MartinLutherKing(year), "Martin Luther King Day"); // Third Monday in January
             bHols.Add(PresidentsDay(year), "President's Day"); //Third Monday in February
@@ -196,7 +188,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="dt">The date you wish to check</param>
         /// <returns>True if date is a federal holiday (excluding weekends)</returns>
-        public static bool IsPublicHoliday(DateTime dt)
+        public virtual bool IsPublicHoliday(DateTime dt)
         {
             int year = dt.Year;
 
@@ -242,6 +234,17 @@ namespace PublicHoliday
                     break;
             }
             return false;
+        }
+
+        /// <summary>
+        /// Returns the next working day (Mon-Fri, not public holiday)
+        /// after the specified date (or the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <returns>A date that is a working day</returns>
+        public virtual DateTime NextWorkingDay(DateTime dt)
+        {
+            return HolidayCalculator.NextWorkingDay(this, dt);
         }
     }
 }

@@ -4,20 +4,17 @@ using System.Collections.Generic;
 namespace PublicHoliday
 {
     /// <summary>
-    /// Finds Belgium public holidays. 
+    /// Finds France public holidays. 
     /// Public holidays on Sundays are not deferred to following weekday automatically- 
     /// they may be taken at an arbitary date.
     /// </summary>
-    /// <remarks>
-    /// Strictly Easter Sunday is also a public holiday
-    /// </remarks>
-    public class BelgiumPublicHoliday : IPublicHolidays
+    public class FrancePublicHoliday : IPublicHolidays
     {
 
         #region Individual Holidays
 
         /// <summary>
-        /// New Year's Day January 1 Nieuwjaar / Nouvel An 
+        /// New Year's Day January 1 Nouvel An 
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
@@ -27,7 +24,7 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Easter Monday 1st Monday after Easter Paasmaandag / Lundi de Pâques
+        /// Easter Monday 1st Monday after Easter - Lundi de Pâques
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
@@ -43,7 +40,7 @@ namespace PublicHoliday
             return easter.AddDays(1);
         }
 
-        //Labor Day May 1 Dag van de arbeid / Fête du Travail
+        //Labor Day May 1 - Fête du Travail
         /// <summary>
         /// Mays the day.
         /// </summary>
@@ -54,9 +51,19 @@ namespace PublicHoliday
             return new DateTime(year, 5, 1);
         }
 
+        /// <summary>
+        /// Victory in Europe Day, 8 May - Fête de la Victoire
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <returns></returns>
+        public static DateTime VictoryInEuropeDay(int year)
+        {
+            return new DateTime(year, 5, 8);
+        }
+
 
         /// <summary>
-        /// Ascension 6th Thursday after Easter- Hemelvaartsdag / Ascension
+        /// Ascension 6th Thursday after Easter- Ascension
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
@@ -72,7 +79,7 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Whit Monday - Pentecost Monday 7th Monday after Easter Pinkstermaandag / Lundi de Pentecôte
+        /// Whit Monday - Pentecost Monday 7th Monday after Easter - Lundi de Pentecôte
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
@@ -88,17 +95,17 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// National holiday July 21 Nationale feestdag / Fête nationale
+        /// Fête nationale française, 14 July
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
         public static DateTime National(int year)
         {
-            return new DateTime(year, 7, 21);
+            return new DateTime(year, 7, 14);
         }
 
         /// <summary>
-        /// Assumption of Mary August 15 Onze Lieve Vrouw hemelvaart / Assomption
+        /// Assumption of Mary August 15 - Assomption
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
@@ -108,7 +115,7 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// All Saints November 1 Allerheiligen / Toussaint 
+        /// All Saints November 1 - Toussaint 
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
@@ -118,7 +125,7 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Armistice Day November 11 Wapenstilstand / Jour de l'armistice
+        /// Armistice Day November 11- Jour de l'armistice
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
@@ -128,7 +135,7 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Christmas December 25  Kerstmis / Noël
+        /// Christmas December 25  - Noël
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
@@ -154,6 +161,7 @@ namespace PublicHoliday
             if (ascension == mayday) ascension = ascension.AddSeconds(1); //ascension can fall on Mayday
             bHols.Add(mayday);
             bHols.Add(ascension);
+            bHols.Add(VictoryInEuropeDay(year));
             bHols.Add(PentecostMonday(easter));
             bHols.Add(National(year));
 
@@ -165,37 +173,11 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Public holiday names in Dutch.
-        /// </summary>
-        /// <param name="year">The year.</param>
-        /// <returns></returns>
-        public virtual IDictionary<DateTime, string> PublicHolidayNames(int year)
-        {
-            var bHols = new Dictionary<DateTime, string>();
-            bHols.Add(NewYear(year), "Nieuwjaar");
-            DateTime easter = HolidayCalculator.GetEaster(year);
-            bHols.Add(EasterMonday(easter), "Paasmaandag");
-            DateTime mayday = MayDay(year);
-            DateTime ascension = Ascension(easter);
-            if (ascension == mayday) ascension = ascension.AddSeconds(1); //ascension can fall on Mayday
-            bHols.Add(mayday, "Dag van de arbeid");
-            bHols.Add(ascension, "Hemelvaartsdag");
-            bHols.Add(PentecostMonday(easter), "Pinkstermaandag");
-            bHols.Add(National(year), "Nationale feestdag");
-
-            bHols.Add(Assumption(year), "Onze Lieve Vrouw hemelvaart");
-            bHols.Add(AllSaints(year), "Allerheiligen");
-            bHols.Add(Armistice(year), "Wapenstilstand");
-            bHols.Add(Christmas(year), "Kerstmis");
-            return bHols;
-        }
-
-        /// <summary>
         /// Public holiday names in French.
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public virtual IDictionary<DateTime, string> PublicHolidayNamesFrench(int year)
+        public virtual IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
 
             var bHols = new Dictionary<DateTime, string>();
@@ -207,6 +189,7 @@ namespace PublicHoliday
             DateTime ascension = Ascension(easter);
             if (ascension == mayday) ascension = ascension.AddSeconds(1); //ascension can fall on Mayday
             bHols.Add(ascension, "Ascension");
+            bHols.Add(VictoryInEuropeDay(year), "Fête de la Victoire");
             bHols.Add(PentecostMonday(easter), "Lundi de Pentecôte");
             bHols.Add(National(year), "Fête nationale");
 
@@ -216,7 +199,6 @@ namespace PublicHoliday
             bHols.Add(Christmas(year), "Noël");
             return bHols;
         }
-
 
         /// <summary>
         /// Returns the next working day (Mon-Fri, not public holiday)
@@ -228,7 +210,6 @@ namespace PublicHoliday
         {
             return HolidayCalculator.NextWorkingDay(this, dt);
         }
-
 
         /// <summary>
         /// Check if a specific date is a public holiday.
@@ -257,6 +238,8 @@ namespace PublicHoliday
                         return true;
                     if (Ascension(year) == dt)
                         return true; //usually in May (may 25, 2006)
+                    if (VictoryInEuropeDay(year) == dt)
+                        return true; // May 8, fixed
                     if (PentecostMonday(year) == dt)
                         return true; // May 20 2004
                     break;
