@@ -52,8 +52,11 @@ namespace PublicHoliday
         /// Returns the next working day (Mon-Fri, not public holiday)
         /// after the specified date (or the same date)
         /// </summary>
+        /// <param name="holidayCalendar">The holiday calendar.</param>
         /// <param name="dt">The date you wish to check</param>
-        /// <returns>A date that is a working day</returns>
+        /// <returns>
+        /// A date that is a working day
+        /// </returns>
         public static DateTime NextWorkingDay(IPublicHolidays holidayCalendar, DateTime dt)
         {
             bool isWorkingDay = false;
@@ -83,6 +86,6 @@ namespace PublicHoliday
                 //(2 adjacent bank holidays)
             }
             return dt;
-        } 
+        }
     }
 }
