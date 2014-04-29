@@ -30,6 +30,7 @@ There are libraries for:
 - France : FrancePublicHoliday
 - Belgium : BelgiumPublicHoliday
 - Canada : CanadaPublicHoliday
+- Netherlands : DutchPublicHoliday
 
 All use the common interface IPublicHoliday containing:
 - IsBankHoliday(DateTime)
