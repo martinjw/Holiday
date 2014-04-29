@@ -51,6 +51,7 @@
     <Compile Include="TestUKBankHoliday.cs" />
     <Compile Include="TestUSPublicHoliday.cs" />
     <Compile Include="TestFrancePublicHoliday.cs" />
+    <Compile Include="TestDutchPublicHoliday.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\PublicHoliday\PublicHoliday.csproj">
