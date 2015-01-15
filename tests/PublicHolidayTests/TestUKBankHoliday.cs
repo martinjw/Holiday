@@ -219,5 +219,13 @@ namespace PublicHolidayTests
             var dt = UKBankHoliday.BoxingDay(2015);
             Assert.AreEqual(28, dt.Day);
         }
+
+        [TestMethod]
+        public void TestSpringLastDayOfMonthIsAMonday()
+        {
+            var dt = UKBankHoliday.Spring(2021);
+            var expected = new DateTime(2021, 5, 31);
+            Assert.AreEqual(dt, expected);
+        }
     }
 }

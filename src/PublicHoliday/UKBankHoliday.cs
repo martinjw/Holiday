@@ -83,8 +83,8 @@ namespace PublicHoliday
         {
             if (year == 2002) return new DateTime(2002, 6, 4); //Golden Jubilee of Elizabeth II
             if (year == 2012) return new DateTime(2012, 6, 4); //Queen's Diamond Jubilee
-            DateTime hol = new DateTime(year, 5, 24);
-            hol = HolidayCalculator.FindFirstMonday(hol);
+            DateTime hol = new DateTime(year, 5, 31);
+            hol = HolidayCalculator.FindPrevious(hol, DayOfWeek.Monday);
             return hol;
         }
 
