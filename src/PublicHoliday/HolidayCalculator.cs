@@ -48,6 +48,14 @@ namespace PublicHoliday
             return hol;
         }
 
+        public static DateTime FindPrevious(DateTime hol, DayOfWeek day)
+        {
+            while (hol.DayOfWeek != day)
+                hol = hol.AddDays(-1);
+
+            return hol;
+        }
+
         /// <summary>
         /// Returns the next working day (Mon-Fri, not public holiday)
         /// after the specified date (or the same date)
