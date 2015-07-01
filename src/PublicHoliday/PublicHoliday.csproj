@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="BelgiumPublicHoliday.cs" />
     <Compile Include="CanadaPublicHoliday.cs" />
+    <Compile Include="NorwayPublicHoliday.cs" />
     <Compile Include="DutchPublicHoliday.cs" />
     <Compile Include="FrancePublicHoliday.cs" />
     <Compile Include="HolidayCalculator.cs" />
