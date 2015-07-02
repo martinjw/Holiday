@@ -31,6 +31,14 @@ namespace PublicHoliday
         DateTime NextWorkingDay(DateTime dt);
 
         /// <summary>
+        /// Returns the previous working day (Mon-Fri, not public holiday)
+        /// before the specified date (or the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <returns>A date that is a working day</returns>
+        DateTime PreviousWorkingDay(DateTime dt);
+
+        /// <summary>
         /// Check if a specific date is a public holiday.
         /// Obviously the <see cref="PublicHolidays"/> list is more efficient for repeated checks
         /// </summary>
