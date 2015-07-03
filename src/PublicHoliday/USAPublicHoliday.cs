@@ -246,5 +246,16 @@ namespace PublicHoliday
         {
             return HolidayCalculator.NextWorkingDay(this, dt);
         }
+
+        /// <summary>
+        /// Returns the previous working day (Mon-Fri, not public holiday)
+        /// before the specified date (or the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <returns>A date that is a working day</returns>
+        public DateTime PreviousWorkingDay(DateTime dt)
+        {
+            return HolidayCalculator.PreviousWorkingDay(this, dt);
+        }
     }
 }

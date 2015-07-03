@@ -35,8 +35,15 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestNextWorkingDay()
         {
-            var result = new NorwayPublicHoliday().NextWorkingDay(new DateTime(2006, 05, 25));
-            Assert.AreEqual(new DateTime(2006, 05, 26), result);
+            var result = new NorwayPublicHoliday().NextWorkingDay(new DateTime(2015, 4, 2)); //Maundy thursday
+            Assert.AreEqual(new DateTime(2015, 4, 7), result); //Day after easter monday
+        }
+
+        [TestMethod]
+        public void TestPreviousWorkingDay()
+        {
+            var result = new NorwayPublicHoliday().PreviousWorkingDay(new DateTime(2015, 4, 6)); //Easter monday
+            Assert.AreEqual(new DateTime(2015, 4, 1), result); //Day before Maundy thursday
         }
 
         [TestMethod]

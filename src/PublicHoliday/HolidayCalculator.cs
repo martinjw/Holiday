@@ -95,5 +95,42 @@ namespace PublicHoliday
             }
             return dt;
         }
+
+        /// <summary>
+        /// Returns the previous working day (Mon-Fri, not public holiday)
+        /// before the specified date (or the same date)
+        /// </summary>
+        /// <param name="holidayCalendar">The holiday calendar.</param>
+        /// <param name="dt">The date you wish to check</param>
+        /// <returns>
+        /// A date that is a working day
+        /// </returns>
+        public static DateTime PreviousWorkingDay(IPublicHolidays holidayCalendar, DateTime dt)
+        {
+            bool isWorkingDay = false;
+
+            //loops through
+            while (isWorkingDay == false)
+            {
+                //Mon-Fri and not bank holiday, it's okay
+                if (dt.DayOfWeek != DayOfWeek.Saturday &&
+                    dt.DayOfWeek != DayOfWeek.Sunday &&
+                    !holidayCalendar.IsPublicHoliday(dt))
+                    isWorkingDay = true;
+                //it's Sunday, so skip to Friday
+                else if (dt.DayOfWeek == DayOfWeek.Sunday)
+                    dt = dt.AddDays(-2);
+                //it's Saturday, so skip to Friday
+                else if (dt.DayOfWeek == DayOfWeek.Saturday)
+                    dt = dt.AddDays(-1);
+                //it's Monday (bank holiday), so skip to Friday
+                else if (dt.DayOfWeek == DayOfWeek.Monday)
+                    dt = dt.AddDays(-3);
+                //it's Thi-Fr (bank holiday), so previous day
+                else
+                    dt = dt.AddDays(-1);
+            }
+            return dt;
+        }
     }
 }
