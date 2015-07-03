@@ -8,7 +8,7 @@ namespace PublicHoliday
     /// If a holiday falls on a Saturday it is celebrated the preceding Friday;
     /// if a holiday falls on a Sunday it is celebrated the following Monday.
     /// </summary>
-    public class USAPublicHoliday : IPublicHolidays
+    public class USAPublicHoliday : PublicHolidayBase
     {
         #region Holiday Adjustments
         private static DateTime FixWeekend(DateTime hol)
@@ -146,7 +146,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public virtual IList<DateTime> PublicHolidays(int year)
+        public override IList<DateTime> PublicHolidays(int year)
         {
             var bHols = new List<DateTime>();
             bHols.Add(NewYear(year)); //1st January
@@ -167,7 +167,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public virtual IDictionary<DateTime, string> PublicHolidayNames(int year)
+        public override IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
             var bHols = new Dictionary<DateTime, string>();
             bHols.Add(NewYear(year), "New Year"); //1st January
@@ -188,7 +188,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="dt">The date you wish to check</param>
         /// <returns>True if date is a federal holiday (excluding weekends)</returns>
-        public virtual bool IsPublicHoliday(DateTime dt)
+        public override bool IsPublicHoliday(DateTime dt)
         {
             int year = dt.Year;
 
@@ -234,28 +234,6 @@ namespace PublicHoliday
                     break;
             }
             return false;
-        }
-
-        /// <summary>
-        /// Returns the next working day (Mon-Fri, not public holiday)
-        /// after the specified date (or the same date)
-        /// </summary>
-        /// <param name="dt">The date you wish to check</param>
-        /// <returns>A date that is a working day</returns>
-        public virtual DateTime NextWorkingDay(DateTime dt)
-        {
-            return HolidayCalculator.NextWorkingDay(this, dt);
-        }
-
-        /// <summary>
-        /// Returns the previous working day (Mon-Fri, not public holiday)
-        /// before the specified date (or the same date)
-        /// </summary>
-        /// <param name="dt">The date you wish to check</param>
-        /// <returns>A date that is a working day</returns>
-        public DateTime PreviousWorkingDay(DateTime dt)
-        {
-            return HolidayCalculator.PreviousWorkingDay(this, dt);
         }
     }
 }

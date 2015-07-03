@@ -48,6 +48,7 @@
     <Compile Include="FrancePublicHoliday.cs" />
     <Compile Include="HolidayCalculator.cs" />
     <Compile Include="IPublicHolidays.cs" />
+    <Compile Include="PublicHolidayBase.cs" />
     <Compile Include="UKBankHoliday.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="USAPublicHoliday.cs" />

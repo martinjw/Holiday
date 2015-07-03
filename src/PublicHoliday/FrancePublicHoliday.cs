@@ -8,7 +8,7 @@ namespace PublicHoliday
     /// Public holidays on Sundays are not deferred to following weekday automatically- 
     /// they may be taken at an arbitary date.
     /// </summary>
-    public class FrancePublicHoliday : IPublicHolidays
+    public class FrancePublicHoliday : PublicHolidayBase
     {
 
         #region Individual Holidays
@@ -150,7 +150,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year</param>
         /// <returns>List of public holidays</returns>
-        public virtual IList<DateTime> PublicHolidays(int year)
+        public override IList<DateTime> PublicHolidays(int year)
         {
             var bHols = new List<DateTime>();
             bHols.Add(NewYear(year));
@@ -177,7 +177,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public virtual IDictionary<DateTime, string> PublicHolidayNames(int year)
+        public override IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
 
             var bHols = new Dictionary<DateTime, string>();
@@ -201,35 +201,13 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Returns the next working day (Mon-Fri, not public holiday)
-        /// after the specified date (or the same date)
-        /// </summary>
-        /// <param name="dt">The date you wish to check</param>
-        /// <returns>A date that is a working day</returns>
-        public virtual DateTime NextWorkingDay(DateTime dt)
-        {
-            return HolidayCalculator.NextWorkingDay(this, dt);
-        }
-
-        /// <summary>
-        /// Returns the previous working day (Mon-Fri, not public holiday)
-        /// before the specified date (or the same date)
-        /// </summary>
-        /// <param name="dt">The date you wish to check</param>
-        /// <returns>A date that is a working day</returns>
-        public DateTime PreviousWorkingDay(DateTime dt)
-        {
-            return HolidayCalculator.PreviousWorkingDay(this, dt);
-        }
-
-        /// <summary>
         /// Check if a specific date is a public holiday.
         /// Obviously the PublicHoliday list is more efficient for repeated checks
         /// Note holidays can fall on weekends and there is no fixed moving of such dates.
         /// </summary>
         /// <param name="dt">The date you wish to check</param>
         /// <returns>True if date is a public holiday</returns>
-        public virtual bool IsPublicHoliday(DateTime dt)
+        public override bool IsPublicHoliday(DateTime dt)
         {
             var year = dt.Year;
 

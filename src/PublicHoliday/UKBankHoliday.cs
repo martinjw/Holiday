@@ -14,7 +14,7 @@ namespace PublicHoliday
     /// ( <see cref="Christmas"/>), or a list of dates for the year (<see cref="BankHolidays"/>)</para>
     /// </description>
     /// </summary>
-    public class UKBankHoliday : IPublicHolidays
+    public class UKBankHoliday : PublicHolidayBase
     {
         #region Individual Holidays
         /// <summary>
@@ -175,7 +175,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year</param>
         /// <returns>Dictionary of bank holidays</returns>
-        public virtual IDictionary<DateTime, string> PublicHolidayNames(int year)
+        public override IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
             var bHols = new Dictionary<DateTime, string>();
             if (year > 1973)
@@ -209,32 +209,11 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public virtual IList<DateTime> PublicHolidays(int year)
+        public override IList<DateTime> PublicHolidays(int year)
         {
             return BankHolidays(year);
         }
 
-        /// <summary>
-        /// Returns the next working day (Mon-Fri, not bank holiday)
-        /// after the specified date (or the same date)
-        /// </summary>
-        /// <param name="dt">The date you wish to check</param>
-        /// <returns>A date that is a working day</returns>
-        public virtual DateTime NextWorkingDay(DateTime dt)
-        {
-            return HolidayCalculator.NextWorkingDay(this, dt);
-        }
-
-        /// <summary>
-        /// Returns the previous working day (Mon-Fri, not public holiday)
-        /// before the specified date (or the same date)
-        /// </summary>
-        /// <param name="dt">The date you wish to check</param>
-        /// <returns>A date that is a working day</returns>
-        public DateTime PreviousWorkingDay(DateTime dt)
-        {
-            return HolidayCalculator.PreviousWorkingDay(this, dt);
-        }
 
         /// <summary>
         /// Check if a specific date is a public holiday.
@@ -243,7 +222,7 @@ namespace PublicHoliday
         /// <returns>
         /// True if date is a bank holiday (excluding weekends)
         /// </returns>
-        public virtual bool IsPublicHoliday(DateTime dt)
+        public override bool IsPublicHoliday(DateTime dt)
         {
             return IsBankHoliday(dt);
         }
