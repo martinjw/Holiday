@@ -233,11 +233,12 @@ namespace PublicHoliday
         private static bool IsPublicHoliday(DateTime dt, DateTime? easter)
         {
             int year = dt.Year;
+            var date = dt.Date;
 
             switch (dt.Month)
             {
                 case 1:
-                    if (NewYear(year) == dt)
+                    if (NewYear(year) == date)
                         return true;
                     break;
                 case 3:
@@ -248,41 +249,41 @@ namespace PublicHoliday
                         return false;
                     //easter can be in March or April
                     var easterDate = !easter.HasValue ? HolidayCalculator.GetEaster(year) : easter.Value;
-                    if (GoodFriday(easterDate) == dt)
+                    if (GoodFriday(easterDate) == date)
                         return true;
-                    if (EasterMonday(easterDate) == dt)
+                    if (EasterMonday(easterDate) == date)
                         return true;
                     break;
                 case 5:
                     if (dt.DayOfWeek != DayOfWeek.Monday)
                         return false;
-                    if (VictoriaDay(year) == dt)
+                    if (VictoriaDay(year) == date)
                         return true;
                     break;
                 case 7:
-                    if (CanadaDay(year) == dt)
+                    if (CanadaDay(year) == date)
                         return true;
                     break;
                 case 9:
                     if (dt.DayOfWeek != DayOfWeek.Monday)
                         return false;
-                    if (LabourDay(year) == dt)
+                    if (LabourDay(year) == date)
                         return true;
                     break;
                 case 10:
                     if (dt.DayOfWeek != DayOfWeek.Monday)
                         return false;
-                    if (Thanksgiving(year) == dt)
+                    if (Thanksgiving(year) == date)
                         return true;
                     break;
                 case 11:
-                    if (RemembranceDay(year) == dt)
+                    if (RemembranceDay(year) == date)
                         return true;
                     break;
                 case 12:
-                    if (Christmas(year) == dt)
+                    if (Christmas(year) == date)
                         return true;
-                    if (BoxingDay(year) == dt)
+                    if (BoxingDay(year) == date)
                         return true;
                     break;
             }

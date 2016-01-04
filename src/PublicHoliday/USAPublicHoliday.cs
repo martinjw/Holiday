@@ -191,45 +191,46 @@ namespace PublicHoliday
         public override bool IsPublicHoliday(DateTime dt)
         {
             int year = dt.Year;
+            var date = dt.Date;
 
             switch (dt.Month)
             {
                 case 1:
-                    if (NewYear(year) == dt)
+                    if (NewYear(year) == date)
                         return true;
-                    if (MartinLutherKing(year) == dt)
+                    if (MartinLutherKing(year) == date)
                         return true;
                     break;
                 case 2:
-                    if (PresidentsDay(year) == dt)
+                    if (PresidentsDay(year) == date)
                         return true;
                     break;
                 case 5:
-                    if (MemorialDay(year) == dt)
+                    if (MemorialDay(year) == date)
                         return true;
                     break;
                 case 7:
-                    if (IndependenceDay(year) == dt)
+                    if (IndependenceDay(year) == date)
                         return true;
                     break;
                 case 9:
-                    if (LaborDay(year) == dt)
+                    if (LaborDay(year) == date)
                         return true;
                     break;
                 case 10:
-                    if (ColumbusDay(year) == dt)
+                    if (ColumbusDay(year) == date)
                         return true;
                     break;
                 case 11:
-                    if (VeteransDay(year) == dt)
+                    if (VeteransDay(year) == date)
                         return true;
-                    if (Thanksgiving(year) == dt)
+                    if (Thanksgiving(year) == date)
                         return true;
                     break;
                 case 12:
-                    if (Christmas(year) == dt)
+                    if (Christmas(year) == date)
                         return true;
-                    if (NewYear(year + 1) == dt)
+                    if (NewYear(year + 1) == date)
                         return true; //31st December if New Year is Saturday
                     break;
             }

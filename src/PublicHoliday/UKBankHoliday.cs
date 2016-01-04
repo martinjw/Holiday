@@ -241,11 +241,12 @@ namespace PublicHoliday
         private static bool IsBankHoliday(DateTime dt, DateTime? easter)
         {
             int year = dt.Year;
+            var date = dt.Date;
 
             switch (dt.Month)
             {
                 case 1:
-                    if ((year > 1973) && (NewYear(year) == dt))
+                    if ((year > 1973) && (NewYear(year) == date))
                         return true;
                     break;
                 case 3:
@@ -256,29 +257,29 @@ namespace PublicHoliday
                         return false;
                     //easter can be in March or April
                     var easterDate = !easter.HasValue ? HolidayCalculator.GetEaster(year) : easter.Value;
-                    if (GoodFriday(easterDate) == dt)
+                    if (GoodFriday(easterDate) == date)
                         return true;
-                    if (EasterMonday(easterDate) == dt)
+                    if (EasterMonday(easterDate) == date)
                         return true;
                     break;
                 case 5:
                     if (dt.DayOfWeek != DayOfWeek.Monday)
                         return false;
-                    if (MayDay(year) == dt)
+                    if (MayDay(year) == date)
                         return true;
-                    if (Spring(year) == dt)
+                    if (Spring(year) == date)
                         return true;
                     break;
                 case 8:
                     if (dt.DayOfWeek != DayOfWeek.Monday)
                         return false;
-                    if (Summer(year) == dt)
+                    if (Summer(year) == date)
                         return true;
                     break;
                 case 12:
-                    if (Christmas(year) == dt)
+                    if (Christmas(year) == date)
                         return true;
-                    if (BoxingDay(year) == dt)
+                    if (BoxingDay(year) == date)
                         return true;
                     break;
             }

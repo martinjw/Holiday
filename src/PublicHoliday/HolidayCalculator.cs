@@ -68,6 +68,7 @@ namespace PublicHoliday
         public static DateTime NextWorkingDay(IPublicHolidays holidayCalendar, DateTime dt)
         {
             bool isWorkingDay = false;
+            dt = dt.Date; //we don't care about time part
 
             //loops through
             while (isWorkingDay == false)
@@ -108,6 +109,7 @@ namespace PublicHoliday
         public static DateTime PreviousWorkingDay(IPublicHolidays holidayCalendar, DateTime dt)
         {
             bool isWorkingDay = false;
+            dt = dt.Date; //we don't care about time part
 
             //loops through
             while (isWorkingDay == false)

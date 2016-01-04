@@ -216,3 +216,4 @@ pip-log.txt
 nuget/NuGet.exe
 *.bat
 *.nupkg
+PublicHoliday.sln.GhostDoc.xml

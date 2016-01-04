@@ -227,5 +227,28 @@ namespace PublicHolidayTests
             var expected = new DateTime(2021, 5, 31);
             Assert.AreEqual(dt, expected);
         }
+
+
+        /// <summary>
+        /// Sat before bhol
+        /// </summary>
+        [TestMethod]
+        public void TestPreviousWorkingDayOverNewYear()
+        {
+            var actual = new UKBankHoliday().PreviousWorkingDay(new DateTime(2016, 1, 1)); //Friday
+            Assert.AreEqual(new DateTime(2015, 12, 31), actual);
+
+            actual = new UKBankHoliday().PreviousWorkingDay(new DateTime(2016, 1, 2)); //Sat
+            Assert.AreEqual(new DateTime(2015, 12, 31), actual);
+
+            actual = new UKBankHoliday().PreviousWorkingDay(new DateTime(2016, 1, 3)); //Sun
+            Assert.AreEqual(new DateTime(2015, 12, 31), actual);
+
+            actual = new UKBankHoliday().PreviousWorkingDay(new DateTime(2016, 1, 4)); //Mon
+            Assert.AreEqual(new DateTime(2016, 1, 4), actual); //is a working day
+
+            actual = new UKBankHoliday().PreviousWorkingDay(new DateTime(2016, 1, 3, 11, 31, 0, 0)); //Sun with date
+            Assert.AreEqual(new DateTime(2015, 12, 31), actual);
+        }
     }
 }

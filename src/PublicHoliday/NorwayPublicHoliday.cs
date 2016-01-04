@@ -220,50 +220,51 @@ namespace PublicHoliday
         public override bool IsPublicHoliday(DateTime dt)
         {
             var year = dt.Year;
+            var date = dt.Date;
 
             switch (dt.Month)
             {
                 case 1:
-                    if (NewYear(year) == dt)
+                    if (NewYear(year) == date)
                         return true;
                     break;
                 case 3:
                 case 4:
-                    if (MaundyThursday(year) == dt)
+                    if (MaundyThursday(year) == date)
                         return true;
-                    if (GoodFriday(year) == dt)
+                    if (GoodFriday(year) == date)
                         return true;
-                    if (HolidayCalculator.GetEaster(year) == dt)
+                    if (HolidayCalculator.GetEaster(year) == date)
                         return true;
-                    if (EasterMonday(year) == dt)
+                    if (EasterMonday(year) == date)
                         return true;
-                    if (Ascension(year) == dt)
+                    if (Ascension(year) == date)
                         return true;
                     break;
                 case 5:
-                    if (LabourDay(year) == dt)
+                    if (LabourDay(year) == date)
                         return true;
-                    if (ConstitutionDay(year) == dt)
+                    if (ConstitutionDay(year) == date)
                         return true;
-                    if (Ascension(year) == dt)
+                    if (Ascension(year) == date)
                         return true;
-                    if (WhitSunday(year) == dt)
+                    if (WhitSunday(year) == date)
                         return true;
-                    if (WhitMonday(year) == dt)
+                    if (WhitMonday(year) == date)
                         return true;
                     break;
                 case 6:
-                    if (Ascension(year) == dt)
+                    if (Ascension(year) == date)
                         return true;
-                    if (WhitSunday(year) == dt)
+                    if (WhitSunday(year) == date)
                         return true;
-                    if (WhitMonday(year) == dt)
+                    if (WhitMonday(year) == date)
                         return true;
                     break;
                 case 12:
-                    if (Christmas(year) == dt)
+                    if (Christmas(year) == date)
                         return true;
-                    if (BoxingDay(year) == dt)
+                    if (BoxingDay(year) == date)
                         return true;
                     break;
             }

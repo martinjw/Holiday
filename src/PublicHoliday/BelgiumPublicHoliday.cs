@@ -228,48 +228,49 @@ namespace PublicHoliday
         public override bool IsPublicHoliday(DateTime dt)
         {
             var year = dt.Year;
+            var date = dt.Date;
 
             switch (dt.Month)
             {
                 case 1:
-                    if (NewYear(year) == dt)
+                    if (NewYear(year) == date)
                         return true;
                     break;
                 case 3:
                 case 4:
-                    if (EasterMonday(year) == dt)
+                    if (EasterMonday(year) == date)
                         return true;
                     break;
                 case 5:
-                    if (MayDay(year) == dt)
+                    if (MayDay(year) == date)
                         return true;
-                    if (Ascension(year) == dt)
+                    if (Ascension(year) == date)
                         return true; //usually in May (may 25, 2006)
-                    if (PentecostMonday(year) == dt)
+                    if (PentecostMonday(year) == date)
                         return true; // May 20 2004
                     break;
                 case 6:
-                    if (Ascension(year) == dt)
+                    if (Ascension(year) == date)
                         return true; //Ascension was June 1 2000
-                    if (PentecostMonday(year) == dt)
+                    if (PentecostMonday(year) == date)
                         return true; // June 12 2006
                     break;
                 case 7:
-                    if (National(year) == dt)
+                    if (National(year) == date)
                         return true; //21st July
                     break;
                 case 8:
-                    if (Assumption(year) == dt)
+                    if (Assumption(year) == date)
                         return true; //August 15, fixed
                     break;
                 case 11:
-                    if (AllSaints(year) == dt)
+                    if (AllSaints(year) == date)
                         return true;
-                    if (Armistice(year) == dt)
+                    if (Armistice(year) == date)
                         return true;
                     break;
                 case 12:
-                    if (Christmas(year) == dt)
+                    if (Christmas(year) == date)
                         return true;
                     break;
             }
