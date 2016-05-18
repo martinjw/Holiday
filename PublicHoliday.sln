@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicHoliday", "src\PublicHoliday\PublicHoliday.csproj", "{DA59FA44-F4FE-4794-991F-8B8F495CF1F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicHolidayTests", "tests\PublicHolidayTests\PublicHolidayTests.csproj", "{8318A869-788F-4205-AA19-AA7E13BB0784}"

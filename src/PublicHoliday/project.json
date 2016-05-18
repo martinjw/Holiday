@@ -1,0 +1,25 @@
+﻿{
+  "packOptions": {
+    "summary": "Calculate national public holidays for countries including US, UK, France, Belgium and Canada for any year",
+    "tags": [ "Holiday" ],
+    "owners": [ "Martin Willey" ],
+    "projectUrl": "https://github.com/martinjw/Holiday",
+    "licenseUrl": "http://opensource.org/licenses/MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/martinjw/Holiday"
+    }
+  },
+  "dependencies": {
+    "NETStandard.Library": "1.5.0-rc2-24027"
+  },
+
+  "frameworks": {
+    "netstandard1.3": {
+      "imports": "dnxcore50"
+    },
+    "net35": { },
+    "net40": { }
+  }
+}
+
