@@ -2,16 +2,6 @@
   "locked": false,
   "version": 2,
   "targets": {
-    ".NETFramework,Version=v3.5": {
-      "NETStandard.Library/1.5.0-rc2-24027": {
-        "type": "package"
-      }
-    },
-    ".NETFramework,Version=v4.0": {
-      "NETStandard.Library/1.5.0-rc2-24027": {
-        "type": "package"
-      }
-    },
     ".NETStandard,Version=v1.3": {
       "Microsoft.NETCore.Platforms/1.0.1-rc2-24027": {
         "type": "package",
@@ -330,9 +320,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Linq.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.5/System.Linq.dll": {}
         }
       },
       "System.Net.Http/4.0.1-rc2-24027": {
@@ -362,9 +349,6 @@
         },
         "compile": {
           "ref/netstandard1.1/System.Net.Http.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.4/System.Net.Http.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win7/lib/netstandard1.3/System.Net.Http.dll": {
@@ -521,16 +505,6 @@
         },
         "compile": {
           "ref/netstandard1.3/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.4/System.Security.Cryptography.Algorithms.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win7/lib/netstandard1.4/System.Security.Cryptography.Algorithms.dll": {
-            "assetType": "runtime",
-            "rid": "win7"
-          }
         }
       },
       "System.Security.Cryptography.Encoding/4.0.0-rc2-24027": {
@@ -594,16 +568,6 @@
         },
         "compile": {
           "ref/netstandard1.3/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.4/System.Security.Cryptography.X509Certificates.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win7/lib/netstandard1.4/System.Security.Cryptography.X509Certificates.dll": {
-            "assetType": "runtime",
-            "rid": "win7"
-          }
         }
       },
       "System.Text.Encoding/4.0.11-rc2-24027": {
@@ -3275,12 +3239,10 @@
     }
   },
   "projectFileDependencyGroups": {
-    "": [
+    "": [],
+    ".NETStandard,Version=v1.3": [
       "NETStandard.Library >= 1.5.0-rc2-24027"
-    ],
-    ".NETFramework,Version=v3.5": [],
-    ".NETFramework,Version=v4.0": [],
-    ".NETStandard,Version=v1.3": []
+    ]
   },
   "tools": {},
   "projectFileToolGroups": {}
