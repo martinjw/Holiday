@@ -11,8 +11,8 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestGoodFriday()
         {
-            var ascension = SpainPublicHoliday.GoodFriday(2006);
-            Assert.AreEqual(new DateTime(2006, 4, 14), ascension);
+            var goodFriday = SpainPublicHoliday.GoodFriday(2006);
+            Assert.AreEqual(new DateTime(2006, 4, 14), goodFriday);
         }
 
         [TestMethod]
@@ -25,7 +25,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestPublicHolidays()
         {
-            var assumption = new DateTime(2006, 7, 15);
+            var assumption = new DateTime(2006, 8, 15);
             var result = new SpainPublicHoliday().PublicHolidayNames(2006);
             Assert.AreEqual(10, result.Count);
             Assert.IsTrue(result.ContainsKey(assumption));
