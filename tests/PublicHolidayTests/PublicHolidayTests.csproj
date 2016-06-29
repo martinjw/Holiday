@@ -14,7 +14,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-	<ResolveNuGetPackages>false</ResolveNuGetPackages> 
+    <ResolveNuGetPackages>false</ResolveNuGetPackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,6 +50,7 @@
     <Compile Include="TestBelgiumPublicHoliday.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestNorwayPublicHoliday.cs" />
+    <Compile Include="TestSpainPublicHoliday.cs" />
     <Compile Include="TestUKBankHoliday.cs" />
     <Compile Include="TestUSPublicHoliday.cs" />
     <Compile Include="TestFrancePublicHoliday.cs" />

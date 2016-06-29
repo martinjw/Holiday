@@ -1,29 +1,29 @@
 ﻿{
-  "version": "1.0.0-*",
+    "version": "1.0.0-*",
 
-  "testRunner": "mstest",
+    "testRunner": "mstest",
 
-  "dependencies": {
-    "dotnet-test-mstest": "1.0.0-preview",
-    "MSTest.TestFramework": "1.0.0-preview",
-    "PublicHoliday": {
-      "target": "project"
-    }
-  },
-  "frameworks": {
-    "netcoreapp1.0": {
-      "imports": [
-        "dnxcore50",
-        "portable-net45+win8"
-      ],
-
-      "dependencies": {
-        "Microsoft.NETCore.App": {
-          "version": "1.0.0-rc2-3002702",
-          "type": "platform"
+    "dependencies": {
+        "dotnet-test-mstest": "1.0.0-preview",
+        "MSTest.TestFramework": "1.0.0-preview",
+        "PublicHoliday": {
+            "version": "1.4.0",
+            "target": "project"
         }
-      }
-    }
-  }
-}
+    },
+    "frameworks": {
+        "netcoreapp1.0": {
+            "imports": [
+                "dnxcore50",
+                "portable-net45+win8"
+            ],
 
+            "dependencies": {
+                "Microsoft.NETCore.App": {
+                    "version": "1.0.0-rc2-3002702",
+                    "type": "platform"
+                }
+            }
+        }
+    }
+}
