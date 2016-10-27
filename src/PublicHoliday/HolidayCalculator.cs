@@ -39,19 +39,44 @@ namespace PublicHoliday
             return hol;
         }
 
+        public static DateTime FindOccurrenceOfDayOfWeek(DateTime hol, DayOfWeek day, short occurance)
+        {
+            while (hol.DayOfWeek != day)
+                hol = hol.AddDays(1);
+
+            hol = hol.AddDays(7 * (occurance - 1));
+
+            return hol;
+        }
+
+        public static DateTime FindNearestDayOfWeek(DateTime hol, DayOfWeek day)
+        {
+            int advance = 0;
+            while (((int)hol.DayOfWeek + advance) % 7 != (int)day)
+                advance++;
+
+            if (advance > 3)
+                return hol.AddDays(advance - 7);
+            else return hol.AddDays(advance);
+        }
+
         public static DateTime FindFirstMonday(DateTime hol)
         {
-            while (hol.DayOfWeek != DayOfWeek.Monday)
-            {
-                hol = hol.AddDays(1);
-            }
-            return hol;
+            return FindOccurrenceOfDayOfWeek(hol, DayOfWeek.Monday, 1);
         }
 
         public static DateTime FindPrevious(DateTime hol, DayOfWeek day)
         {
             while (hol.DayOfWeek != day)
                 hol = hol.AddDays(-1);
+
+            return hol;
+        }
+
+        public static DateTime FindNext(DateTime hol, DayOfWeek day)
+        {
+            while (hol.DayOfWeek != day)
+                hol = hol.AddDays(1);
 
             return hol;
         }
