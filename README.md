@@ -44,7 +44,11 @@ There are also static methods for all statutory holidays.
 
 Note for France and Belgium when holidays fall on weekends, there is no standard rule for when the holiday may be taken (unlike the UK and USA, where the preceding Friday or next Monday are taken). Normally these days are just added to the annual leave.
 
-In Canada there are some provincial holidays that vary by region.
+In Canada there are some provincial holidays that vary by region. You can access these by passing in the ISO Code of the province to the constructor
+```
+//Retrieve a list of holidays in Saskatchewan for 2016
+IList<DateTime> result = new CanadaPublicHoliday("SK").PublicHolidays(2016);
+```
 
 License is MIT. You are free to use this software in commercial projects.
 

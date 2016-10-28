@@ -18,36 +18,9 @@ namespace PublicHoliday
     /// </remarks>
     public class CanadaPublicHoliday : PublicHolidayBase
     {
-        #region Individual Holidays
-        /// <summary>
-        /// Christmas day
-        /// </summary>
-        /// <param name="year"></param>
-        /// <returns></returns>
-        public static DateTime Christmas(int year)
-        {
-            DateTime hol = new DateTime(year, 12, 25);
-            hol = HolidayCalculator.FixWeekend(hol);
-            return hol;
-        }
+        public string Province;
 
-        /// <summary>
-        /// Boxing Day
-        /// </summary>
-        /// <param name="year"></param>
-        /// <returns></returns>
-        public static DateTime BoxingDay(int year)
-        {
-            DateTime hol = new DateTime(year, 12, 26);
-            //if Xmas=Sun, it's shifted to Mon and 26 also gets shifted
-            bool isSundayOrMonday =
-                hol.DayOfWeek == DayOfWeek.Sunday ||
-                hol.DayOfWeek == DayOfWeek.Monday;
-            hol = HolidayCalculator.FixWeekend(hol);
-            if (isSundayOrMonday)
-                hol = hol.AddDays(1);
-            return hol;
-        }
+        #region Individual Holidays
 
         /// <summary>
         /// Date of New Year bank holiday.
@@ -60,17 +33,131 @@ namespace PublicHoliday
             hol = HolidayCalculator.FixWeekend(hol);
             return hol;
         }
+
         /// <summary>
-        /// Canada day, 1 July or following Monday 
+        /// Family day (3rd monday of February) (2nd monday for BC)
+        /// </summary>
+        /// <param name="year"></param>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static DateTime FamilyDay(int year, string province = null)
+        {
+            var hol = new DateTime(year, 2, 1);
+            if (province == "BC")
+                hol = HolidayCalculator.FindOccurrenceOfDayOfWeek(hol, DayOfWeek.Monday, 2);
+            else
+                hol = HolidayCalculator.FindOccurrenceOfDayOfWeek(hol, DayOfWeek.Monday, 3);
+
+            return hol;
+        }
+        /// <summary>
+        /// Determines if a province has Family day
+        /// </summary>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasFamilyDay(string province = null)
+        {
+            string[] provs = { "AB", "BC", "MB", "NS", "ON", "PE", "SK" };
+            if (Array.IndexOf(provs, province) > -1)
+                return true;
+            else return false;
+        }
+
+        /// <summary>
+        /// St. Patricks day (March 17)
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
-        public static DateTime CanadaDay(int year)
+        public static DateTime StPatricksDay(int year)
         {
-            var hol = new DateTime(year, 7, 1);
-            hol = HolidayCalculator.FindFirstMonday(hol);
+            var hol = new DateTime(year, 3, 17);
+            hol = HolidayCalculator.FindNearestDayOfWeek(hol, DayOfWeek.Monday);
             return hol;
         }
+        /// <summary>
+        /// Determines if a province has st. Patricks day
+        /// </summary>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasStPatricksDay(string province = null)
+        {
+            if (province == "NL")
+                return true;
+            else return false;
+        }
+
+        /// <summary>
+        /// Good Friday (Friday before Easter)
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime GoodFriday(int year)
+        {
+            var hol = HolidayCalculator.GetEaster(year);
+            hol = hol.AddDays(-2);
+            return hol;
+        }
+
+        /// <summary>
+        /// Easter Monday (Monday after Easter)
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime EasterMonday(int year)
+        {
+            var hol = HolidayCalculator.GetEaster(year);
+            hol = hol.AddDays(1);
+            return hol;
+        }
+        /// <summary>
+        /// Determines if a province has Easter Monday
+        /// </summary>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasEasterMonday(string province = null)
+        {
+            string[] provs = { "AB", "PE", null };
+            if (Array.IndexOf(provs, province) > -1)
+                return true;
+            else return false;
+        }
+        /// <summary>
+        /// Private overloads of GoodFriday and EasterMonday reusing Easter calculation
+        /// </summary>
+        private static DateTime GoodFriday(DateTime easter)
+        {
+            var hol = easter.AddDays(-2);
+            return hol;
+        }
+        private static DateTime EasterMonday(DateTime easter)
+        {
+            var hol = easter.AddDays(1);
+            return hol;
+        }
+
+        /// <summary>
+        /// Saint George's day (April 23)
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime StGeorgesDay(int year)
+        {
+            var hol = new DateTime(year, 4, 23);
+            hol = HolidayCalculator.FixWeekend(hol);
+            return hol;
+        }
+        /// <summary>
+        /// Determines if a province has Saint Georges day
+        /// </summary>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasStGeorgesDay(string province = null)
+        {
+            if (province == "NL")
+                return true;
+            else return false;
+        }
+
         /// <summary>
         /// Monday on or before May 24
         /// </summary>
@@ -86,6 +173,101 @@ namespace PublicHoliday
             }
             return hol;
         }
+        /// <summary>
+        /// Determines if a province has Family day
+        /// </summary>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasVictoriaDay(string province = null)
+        {
+            if (province != "NL")
+                return true;
+            else return false;
+        }
+
+        /// <summary>
+        /// Aboriginal day (June 21)
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime AboriginalDay(int year)
+        {
+            var hol = new DateTime(year, 6, 21);
+            hol = HolidayCalculator.FixWeekend(hol);
+            return hol;
+        }
+        /// <summary>
+        /// Determines if a province has Aboriginal day
+        /// </summary>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasAboriginalDay(string province = null)
+        {
+            if (province == "NT")
+                return true;
+            else return false;
+        }
+
+        /// <summary>
+        /// National holiday (June 24)
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime NationalHoliday(int year)
+        {
+            var hol = new DateTime(year, 6, 24);
+            hol = HolidayCalculator.FixWeekend(hol);
+            return hol;
+        }
+        /// <summary>
+        /// Determines if a province has National holiday
+        /// </summary>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasNationalHoliday(string province = null)
+        {
+            string[] provs = { "NL", "QC", "YT" };
+            if (Array.IndexOf(provs, province) > -1)
+                return true;
+            else return false;
+        }
+
+        /// <summary>
+        /// Canada day, 1 July or following Monday 
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime CanadaDay(int year)
+        {
+            var hol = new DateTime(year, 7, 1);
+            //hol = HolidayCalculator.FindFirstMonday(hol);
+            hol = HolidayCalculator.FixWeekend(hol);
+            return hol;
+        }
+
+        /// <summary>
+        /// Orangemen's day (July 12)
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime OrangemensDay(int year)
+        {
+            var hol = new DateTime(year, 7, 12);
+            hol = HolidayCalculator.FindNearestDayOfWeek(hol, DayOfWeek.Monday);
+            return hol;
+        }
+        /// <summary>
+        /// Determines if a province has Orangemen's day
+        /// </summary>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasOrangemensDay(string province = null)
+        {
+            if (province == "NL")
+                return true;
+            else return false;
+        }
+
 
         /// <summary>
         /// First Monday in August. Only available in certain provinces, under different names- Saskatchewan day,  Regatta Day 
@@ -98,6 +280,66 @@ namespace PublicHoliday
             hol = HolidayCalculator.FindFirstMonday(hol);
             return hol;
         }
+        /// <summary>
+        /// Determines if a province has a civic holiday
+        /// </summary>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasCivicHoliday(string province = null)
+        {
+            string[] notProvs = { "ON", "PE", "QC" };
+            if (Array.IndexOf(notProvs, province) == -1)
+                return true;
+            else return false;
+        }
+
+        /// <summary>
+        /// Gold Cup Parade day (Third friday in August)
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime GoldCupParadeDay(int year)
+        {
+            var hol = new DateTime(year, 8, 1);
+            hol = HolidayCalculator.FindOccurrenceOfDayOfWeek(hol, DayOfWeek.Friday, 3);
+            return hol;
+        }
+        /// <summary>
+        /// Determines if a province has Gold Cup Parade day
+        /// </summary>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasGoldCupParadeDay(string province = null)
+        {
+            if (province == "PE")
+                return true;
+            else return false;
+        }
+
+
+        /// <summary>
+        /// Discovery day (Third monday in August)
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime DiscoveryDay(int year)
+        {
+            var hol = new DateTime(year, 8, 1);
+            hol = HolidayCalculator.FindOccurrenceOfDayOfWeek(hol, DayOfWeek.Monday, 3);
+            return hol;
+        }
+        /// <summary>
+        /// Determines if a province has Discovery day
+        /// </summary>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasDiscoveryDay(string province = null)
+        {
+            if (province == "YT")
+                return true;
+            else return false;
+        }
+
 
         /// <summary>
         /// First Monday in September
@@ -134,43 +376,61 @@ namespace PublicHoliday
             hol = HolidayCalculator.FixWeekend(hol);
             return hol;
         }
+        /// <summary>
+        /// Determines if a province has a Rememberance day
+        /// </summary>
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasRememberanceDay(string province = null)
+        {
+            string[] notProvs = { "MB", "ON", "QC" };
+            if (Array.IndexOf(notProvs, province) == -1)
+                return true;
+            else return false;
+        }
 
         /// <summary>
-        /// Good Friday (Friday before Easter)
+        /// Christmas day
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
-        public static DateTime GoodFriday(int year)
+        public static DateTime Christmas(int year)
         {
-            var hol = HolidayCalculator.GetEaster(year);
-            hol = hol.AddDays(-2);
+            DateTime hol = new DateTime(year, 12, 25);
+            hol = HolidayCalculator.FixWeekend(hol);
             return hol;
         }
 
         /// <summary>
-        /// Easter Monday (Monday after Easter)
+        /// Boxing Day
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
-        public static DateTime EasterMonday(int year)
+        public static DateTime BoxingDay(int year)
         {
-            var hol = HolidayCalculator.GetEaster(year);
-            hol = hol.AddDays(1);
+            DateTime hol = new DateTime(year, 12, 26);
+            //if Xmas=Sun, it's shifted to Mon and 26 also gets shifted
+            bool isSundayOrMonday =
+                hol.DayOfWeek == DayOfWeek.Sunday ||
+                hol.DayOfWeek == DayOfWeek.Monday;
+            hol = HolidayCalculator.FixWeekend(hol);
+            if (isSundayOrMonday)
+                hol = hol.AddDays(1);
             return hol;
         }
         /// <summary>
-        /// Private overloads of GoodFriday and EasterMonday reusing Easter calculation
+        /// Determines if a province has a Boxing day
         /// </summary>
-        private static DateTime GoodFriday(DateTime easter)
+        /// <param name="province"></param>
+        /// <returns></returns>
+        public static bool HasBoxingDay(string province = null)
         {
-            var hol = easter.AddDays(-2);
-            return hol;
+            string[] provs = { "AB", "NB", "NS", "ON", "PE", null };
+            if (Array.IndexOf(provs, province) > -1)
+                return true;
+            else return false;
         }
-        private static DateTime EasterMonday(DateTime easter)
-        {
-            var hol = easter.AddDays(1);
-            return hol;
-        }
+
         #endregion
 
         /// <summary>
@@ -180,21 +440,9 @@ namespace PublicHoliday
         /// <returns>List of bank holidays</returns>
         public override IList<DateTime> PublicHolidays(int year)
         {
-            var bHols = new List<DateTime>();
-            bHols.Add(NewYear(year));
-
-            var easter = HolidayCalculator.GetEaster(year);
-            bHols.Add(GoodFriday(easter));
-            bHols.Add(EasterMonday(easter));
-            bHols.Add(VictoriaDay(year));
-            bHols.Add(CanadaDay(year));
-            bHols.Add(LabourDay(year));
-            bHols.Add(Thanksgiving(year));
-            bHols.Add(RemembranceDay(year));
-            bHols.Add(Christmas(year));
-            bHols.Add(BoxingDay(year));
-            return bHols;
+            return new List<DateTime>(PublicHolidayNames(year).Keys);
         }
+
         /// <summary>
         /// Get a list of dates for all holidays in a year.
         /// </summary>
@@ -205,16 +453,55 @@ namespace PublicHoliday
             var bHols = new Dictionary<DateTime, string>();
             bHols.Add(NewYear(year), "New Year");
 
+            if (HasFamilyDay(Province))
+                bHols.Add(FamilyDay(year, Province), "Family Day");
+
+            if (HasStPatricksDay(Province))
+                bHols.Add(StPatricksDay(year), "St. Patricks's Day");
+
             var easter = HolidayCalculator.GetEaster(year);
             bHols.Add(GoodFriday(easter), "Good Friday");
-            bHols.Add(EasterMonday(easter), "Easter Monday");
-            bHols.Add(VictoriaDay(year), "Victoria Day");
+
+            if(HasEasterMonday(Province))
+                bHols.Add(EasterMonday(easter), "Easter Monday");
+
+            if (HasStGeorgesDay(Province))
+                bHols.Add(StGeorgesDay(year), "Saint George's Day");
+
+            if(HasVictoriaDay(Province))
+                bHols.Add(VictoriaDay(year), "Victoria Day");
+
+            if (HasAboriginalDay(Province))
+                bHols.Add(AboriginalDay(year), "Aboriginal Day");
+
+            if (HasNationalHoliday(Province))
+                bHols.Add(NationalHoliday(year), "National Holiday");
+
             bHols.Add(CanadaDay(year), "Canada Day");
+
+            if (HasOrangemensDay(Province))
+                bHols.Add(OrangemensDay(year), "Orangemen's Day");
+
+            if (HasCivicHoliday(Province))
+                bHols.Add(CivicHoliday(year), "Civic Holiday");
+
+            if (HasGoldCupParadeDay(Province))
+                bHols.Add(GoldCupParadeDay(year), "Gold Cup Parade Day");
+
+            if (HasDiscoveryDay(Province))
+                bHols.Add(DiscoveryDay(year), "Discovery Day");
+
             bHols.Add(LabourDay(year), "Labour Day");
             bHols.Add(Thanksgiving(year), "Thanksgiving");
-            bHols.Add(RemembranceDay(year), "Remembrance Day");
+
+            if(HasRememberanceDay(Province))
+                bHols.Add(RemembranceDay(year), "Remembrance Day");
+
             bHols.Add(Christmas(year), "Christmas");
-            bHols.Add(BoxingDay(year), "Boxing Day");
+
+            if(HasBoxingDay(Province))
+                bHols.Add(BoxingDay(year), "Boxing Day");
+
             return bHols;
         }
 
@@ -230,65 +517,19 @@ namespace PublicHoliday
             return IsPublicHoliday(dt, null);
         }
 
-        private static bool IsPublicHoliday(DateTime dt, DateTime? easter)
+        private bool IsPublicHoliday(DateTime dt, DateTime? easter)
         {
             int year = dt.Year;
             var date = dt.Date;
 
-            switch (dt.Month)
-            {
-                case 1:
-                    if (NewYear(year) == date)
-                        return true;
-                    break;
-                case 3:
-                case 4:
-                    //only Mondays and Fridays are bank holidays
-                    if (dt.DayOfWeek != DayOfWeek.Monday &&
-                        dt.DayOfWeek != DayOfWeek.Friday)
-                        return false;
-                    //easter can be in March or April
-                    var easterDate = !easter.HasValue ? HolidayCalculator.GetEaster(year) : easter.Value;
-                    if (GoodFriday(easterDate) == date)
-                        return true;
-                    if (EasterMonday(easterDate) == date)
-                        return true;
-                    break;
-                case 5:
-                    if (dt.DayOfWeek != DayOfWeek.Monday)
-                        return false;
-                    if (VictoriaDay(year) == date)
-                        return true;
-                    break;
-                case 7:
-                    if (CanadaDay(year) == date)
-                        return true;
-                    break;
-                case 9:
-                    if (dt.DayOfWeek != DayOfWeek.Monday)
-                        return false;
-                    if (LabourDay(year) == date)
-                        return true;
-                    break;
-                case 10:
-                    if (dt.DayOfWeek != DayOfWeek.Monday)
-                        return false;
-                    if (Thanksgiving(year) == date)
-                        return true;
-                    break;
-                case 11:
-                    if (RemembranceDay(year) == date)
-                        return true;
-                    break;
-                case 12:
-                    if (Christmas(year) == date)
-                        return true;
-                    if (BoxingDay(year) == date)
-                        return true;
-                    break;
-            }
+            return PublicHolidays(year).Contains(date);
+        }
 
-            return false;
+        public CanadaPublicHoliday(string province = null) : base()
+        {
+            Province = province;
+            if (Province != null)
+                Province = Province.ToUpper();
         }
     }
 }
