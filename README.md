@@ -34,6 +34,7 @@ There are libraries for:
 - Canada : CanadaPublicHoliday
 - Netherlands : DutchPublicHoliday
 - Norway : NorwayPublicHoliday
+- Spain : SpainPublicHoliday
 
 All use the common interface IPublicHoliday containing:
 - IsBankHoliday(DateTime)
