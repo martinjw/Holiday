@@ -4,21 +4,20 @@
     "testRunner": "mstest",
 
     "dependencies": {
-        "dotnet-test-mstest": "1.1.1-preview",
-        "MSTest.TestFramework": "1.0.3-preview",
+        "dotnet-test-mstest": "1.1.2-preview",
+        "MSTest.TestFramework": "1.0.6-preview",
         "PublicHoliday": {
             "version": "1.4.0",
             "target": "project"
+        },
+        "Microsoft.NETCore.App": {
+            "type": "platform",
+            "version": "1.0.1"
         }
     },
     "frameworks": {
         "netcoreapp1.0": {
-            "dependencies": {
-                "Microsoft.NETCore.App": {
-                    "type": "platform",
-                    "version": "1.0.1"
-                }
-            }
+            "imports": "dnxcore50"
         }
     }
 }

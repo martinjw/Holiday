@@ -1,12 +1,13 @@
 {
   "locked": false,
-  "version": 1,
+  "version": 2,
   "targets": {
     ".NETCoreApp,Version=v1.0": {
-      "dotnet-test-mstest/1.1.1-preview": {
+      "dotnet-test-mstest/1.1.2-preview": {
+        "type": "package",
         "dependencies": {
           "MSTest.ObjectModel": "1.0.1-preview",
-          "MSTest.TestAdapter.Dotnet": "1.0.4-preview",
+          "MSTest.TestAdapter.Dotnet": "1.1.5-preview",
           "Microsoft.Extensions.Testing.Abstractions": "1.0.0-preview2-003121",
           "Microsoft.NETCore.App": "1.0.0"
         },
@@ -18,6 +19,7 @@
         }
       },
       "Libuv/1.9.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1"
         },
@@ -56,8 +58,11 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.Analyzers/1.1.0": {},
+      "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
+        "type": "package"
+      },
       "Microsoft.CodeAnalysis.Common/1.3.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "1.1.0",
           "System.AppContext": "4.1.0",
@@ -107,6 +112,7 @@
         }
       },
       "Microsoft.CodeAnalysis.CSharp/1.3.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.CodeAnalysis.Common": "[1.3.0]"
         },
@@ -118,6 +124,7 @@
         }
       },
       "Microsoft.CodeAnalysis.VisualBasic/1.3.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.CodeAnalysis.Common": "1.3.0"
         },
@@ -129,6 +136,7 @@
         }
       },
       "Microsoft.CSharp/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -155,6 +163,7 @@
         }
       },
       "Microsoft.DiaSymReader/1.0.8": {
+        "type": "package",
         "dependencies": {
           "System.Diagnostics.Debug": "4.0.11",
           "System.Runtime": "4.1.0",
@@ -168,6 +177,7 @@
         }
       },
       "Microsoft.DiaSymReader.Native/1.4.0-rc2": {
+        "type": "package",
         "runtimeTargets": {
           "runtimes/win-x64/native/Microsoft.DiaSymReader.Native.amd64.dll": {
             "assetType": "native",
@@ -196,6 +206,7 @@
         }
       },
       "Microsoft.DotNet.InternalAbstractions/1.0.0": {
+        "type": "package",
         "dependencies": {
           "System.AppContext": "4.1.0",
           "System.Collections": "4.0.11",
@@ -214,6 +225,7 @@
         }
       },
       "Microsoft.DotNet.ProjectModel/1.0.0-rc3-003121": {
+        "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.0.1",
           "Microsoft.Extensions.DependencyModel": "1.0.0",
@@ -236,6 +248,7 @@
         }
       },
       "Microsoft.Extensions.DependencyModel/1.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.DotNet.InternalAbstractions": "1.0.0",
           "Newtonsoft.Json": "9.0.1",
@@ -251,6 +264,7 @@
         }
       },
       "Microsoft.Extensions.Testing.Abstractions/1.0.0-preview2-003121": {
+        "type": "package",
         "dependencies": {
           "Microsoft.DiaSymReader": "1.0.8",
           "Microsoft.DiaSymReader.Native": "1.4.0-rc2",
@@ -267,6 +281,7 @@
         }
       },
       "Microsoft.NETCore.App/1.0.1": {
+        "type": "package",
         "dependencies": {
           "Libuv": "1.9.0",
           "Microsoft.CSharp": "4.0.1",
@@ -317,19 +332,26 @@
           "lib/netcoreapp1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.DotNetHost/1.0.1": {},
+      "Microsoft.NETCore.DotNetHost/1.0.1": {
+        "type": "package"
+      },
       "Microsoft.NETCore.DotNetHostPolicy/1.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.DotNetHostResolver": "1.0.1"
         }
       },
       "Microsoft.NETCore.DotNetHostResolver/1.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.DotNetHost": "1.0.1"
         }
       },
-      "Microsoft.NETCore.Jit/1.0.4": {},
+      "Microsoft.NETCore.Jit/1.0.4": {
+        "type": "package"
+      },
       "Microsoft.NETCore.Platforms/1.0.1": {
+        "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
         },
@@ -338,12 +360,14 @@
         }
       },
       "Microsoft.NETCore.Runtime.CoreCLR/1.0.4": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Jit": "1.0.4",
           "Microsoft.NETCore.Windows.ApiSets": "1.0.1"
         }
       },
       "Microsoft.NETCore.Targets/1.0.1": {
+        "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
         },
@@ -351,8 +375,11 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.Windows.ApiSets/1.0.1": {},
+      "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
+        "type": "package"
+      },
       "Microsoft.VisualBasic/10.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -379,6 +406,7 @@
         }
       },
       "Microsoft.Win32.Primitives/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -389,6 +417,7 @@
         }
       },
       "Microsoft.Win32.Registry/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Collections": "4.0.11",
@@ -413,10 +442,41 @@
           }
         }
       },
-      "MSTest.ObjectModel/1.0.1-preview": {},
-      "MSTest.TestAdapter.Dotnet/1.0.4-preview": {},
-      "MSTest.TestFramework/1.0.3-preview": {},
+      "MSTest.ObjectModel/1.0.1-preview": {
+        "type": "package",
+        "compile": {
+          "lib/dotnet/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll": {}
+        }
+      },
+      "MSTest.TestAdapter.Dotnet/1.1.5-preview": {
+        "type": "package",
+        "compile": {
+          "lib/dotnet/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll": {},
+          "lib/dotnet/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll": {},
+          "lib/dotnet/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll": {},
+          "lib/dotnet/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll": {},
+          "lib/dotnet/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll": {}
+        }
+      },
+      "MSTest.TestFramework/1.0.6-preview": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.Win32.Primitives": "4.0.1",
@@ -465,6 +525,7 @@
         }
       },
       "Newtonsoft.Json/9.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.0.1",
           "System.Collections": "4.0.11",
@@ -497,6 +558,7 @@
         }
       },
       "NuGet.Common/3.5.0-beta2-1484": {
+        "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
           "System.Diagnostics.Process": "4.1.0",
@@ -511,6 +573,7 @@
         }
       },
       "NuGet.Frameworks/3.5.0-beta2-1484": {
+        "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0"
         },
@@ -522,6 +585,7 @@
         }
       },
       "NuGet.Packaging/3.5.0-beta2-1484": {
+        "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
           "NuGet.Common": "3.5.0-beta2-1484",
@@ -536,6 +600,7 @@
         }
       },
       "NuGet.Packaging.Core/3.5.0-beta2-1484": {
+        "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
           "NuGet.Common": "3.5.0-beta2-1484",
@@ -550,6 +615,7 @@
         }
       },
       "NuGet.Packaging.Core.Types/3.5.0-beta2-1484": {
+        "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
           "NuGet.Frameworks": "3.5.0-beta2-1484",
@@ -563,6 +629,7 @@
         }
       },
       "NuGet.RuntimeModel/3.5.0-beta2-1484": {
+        "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
           "Newtonsoft.Json": "6.0.4",
@@ -579,6 +646,7 @@
         }
       },
       "NuGet.Versioning/3.5.0-beta2-1484": {
+        "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0"
         },
@@ -590,6 +658,7 @@
         }
       },
       "runtime.native.System/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1"
@@ -602,6 +671,7 @@
         }
       },
       "runtime.native.System.IO.Compression/4.1.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1"
@@ -614,6 +684,7 @@
         }
       },
       "runtime.native.System.Net.Http/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1"
@@ -626,6 +697,7 @@
         }
       },
       "runtime.native.System.Net.Security/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1"
@@ -638,6 +710,7 @@
         }
       },
       "runtime.native.System.Security.Cryptography/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1"
@@ -650,6 +723,7 @@
         }
       },
       "System.AppContext/4.1.0": {
+        "type": "package",
         "dependencies": {
           "System.Runtime": "4.1.0"
         },
@@ -661,6 +735,7 @@
         }
       },
       "System.Buffers/4.0.0": {
+        "type": "package",
         "dependencies": {
           "System.Diagnostics.Debug": "4.0.11",
           "System.Diagnostics.Tracing": "4.1.0",
@@ -676,6 +751,7 @@
         }
       },
       "System.Collections/4.0.11": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -686,6 +762,7 @@
         }
       },
       "System.Collections.Concurrent/4.0.12": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -706,6 +783,7 @@
         }
       },
       "System.Collections.Immutable/1.2.0": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -724,6 +802,7 @@
         }
       },
       "System.ComponentModel/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Runtime": "4.1.0"
         },
@@ -735,6 +814,7 @@
         }
       },
       "System.ComponentModel.Annotations/4.1.0": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.ComponentModel": "4.0.1",
@@ -756,6 +836,7 @@
         }
       },
       "System.Console/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -768,6 +849,7 @@
         }
       },
       "System.Diagnostics.Debug/4.0.11": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -778,6 +860,7 @@
         }
       },
       "System.Diagnostics.DiagnosticSource/4.0.0": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Tracing": "4.1.0",
@@ -793,6 +876,7 @@
         }
       },
       "System.Diagnostics.FileVersionInfo/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Globalization": "4.0.11",
@@ -819,6 +903,7 @@
         }
       },
       "System.Diagnostics.Process/4.1.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.Win32.Primitives": "4.0.1",
@@ -861,6 +946,7 @@
         }
       },
       "System.Diagnostics.StackTrace/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Collections.Immutable": "1.2.0",
           "System.IO.FileSystem": "4.0.1",
@@ -877,6 +963,7 @@
         }
       },
       "System.Diagnostics.Tools/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -887,6 +974,7 @@
         }
       },
       "System.Diagnostics.Tracing/4.1.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -897,6 +985,7 @@
         }
       },
       "System.Dynamic.Runtime/4.0.11": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -922,6 +1011,7 @@
         }
       },
       "System.Globalization/4.0.11": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -932,6 +1022,7 @@
         }
       },
       "System.Globalization.Calendars/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -943,6 +1034,7 @@
         }
       },
       "System.Globalization.Extensions/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Globalization": "4.0.11",
@@ -966,6 +1058,7 @@
         }
       },
       "System.IO/4.1.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -978,6 +1071,7 @@
         }
       },
       "System.IO.Compression/4.1.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Collections": "4.0.11",
@@ -1009,6 +1103,7 @@
         }
       },
       "System.IO.Compression.ZipFile/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Buffers": "4.0.0",
           "System.IO": "4.1.0",
@@ -1028,6 +1123,7 @@
         }
       },
       "System.IO.FileSystem/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -1043,6 +1139,7 @@
         }
       },
       "System.IO.FileSystem.Primitives/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Runtime": "4.1.0"
         },
@@ -1054,6 +1151,7 @@
         }
       },
       "System.IO.FileSystem.Watcher/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.Win32.Primitives": "4.0.1",
@@ -1091,6 +1189,7 @@
         }
       },
       "System.IO.MemoryMappedFiles/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.IO": "4.1.0",
@@ -1121,6 +1220,7 @@
         }
       },
       "System.IO.UnmanagedMemoryStream/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.IO": "4.1.0",
           "System.IO.FileSystem.Primitives": "4.0.1",
@@ -1138,6 +1238,7 @@
         }
       },
       "System.Linq/4.1.0": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -1153,6 +1254,7 @@
         }
       },
       "System.Linq.Expressions/4.1.0": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -1180,6 +1282,7 @@
         }
       },
       "System.Linq.Parallel/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Collections.Concurrent": "4.0.12",
@@ -1200,6 +1303,7 @@
         }
       },
       "System.Linq.Queryable/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -1218,6 +1322,7 @@
         }
       },
       "System.Net.Http/4.1.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Collections": "4.0.11",
@@ -1261,6 +1366,7 @@
         }
       },
       "System.Net.NameResolution/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Collections": "4.0.11",
@@ -1292,6 +1398,7 @@
         }
       },
       "System.Net.Primitives/4.0.11": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -1303,6 +1410,7 @@
         }
       },
       "System.Net.Requests/4.0.11": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Collections": "4.0.11",
@@ -1333,6 +1441,7 @@
         }
       },
       "System.Net.Security/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.Win32.Primitives": "4.0.1",
@@ -1378,6 +1487,7 @@
         }
       },
       "System.Net.Sockets/4.1.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -1391,6 +1501,7 @@
         }
       },
       "System.Net.WebHeaderCollection/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Resources.ResourceManager": "4.0.1",
@@ -1405,6 +1516,7 @@
         }
       },
       "System.Numerics.Vectors/4.1.1": {
+        "type": "package",
         "dependencies": {
           "System.Globalization": "4.0.11",
           "System.Resources.ResourceManager": "4.0.1",
@@ -1419,6 +1531,7 @@
         }
       },
       "System.ObjectModel/4.0.12": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -1434,6 +1547,7 @@
         }
       },
       "System.Reflection/4.1.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -1446,6 +1560,7 @@
         }
       },
       "System.Reflection.DispatchProxy/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Linq": "4.1.0",
@@ -1466,6 +1581,7 @@
         }
       },
       "System.Reflection.Emit/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.IO": "4.1.0",
           "System.Reflection": "4.1.0",
@@ -1481,6 +1597,7 @@
         }
       },
       "System.Reflection.Emit.ILGeneration/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Reflection": "4.1.0",
           "System.Reflection.Primitives": "4.0.1",
@@ -1494,6 +1611,7 @@
         }
       },
       "System.Reflection.Emit.Lightweight/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Reflection": "4.1.0",
           "System.Reflection.Emit.ILGeneration": "4.0.1",
@@ -1508,6 +1626,7 @@
         }
       },
       "System.Reflection.Extensions/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -1519,6 +1638,7 @@
         }
       },
       "System.Reflection.Metadata/1.3.0": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Collections.Immutable": "1.2.0",
@@ -1544,6 +1664,7 @@
         }
       },
       "System.Reflection.Primitives/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -1554,6 +1675,7 @@
         }
       },
       "System.Reflection.TypeExtensions/4.1.0": {
+        "type": "package",
         "dependencies": {
           "System.Reflection": "4.1.0",
           "System.Runtime": "4.1.0"
@@ -1566,6 +1688,7 @@
         }
       },
       "System.Resources.Reader/4.0.0": {
+        "type": "package",
         "dependencies": {
           "System.IO": "4.1.0",
           "System.Resources.ResourceManager": "4.0.1",
@@ -1581,6 +1704,7 @@
         }
       },
       "System.Resources.ResourceManager/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -1593,6 +1717,7 @@
         }
       },
       "System.Runtime/4.1.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1"
@@ -1602,6 +1727,7 @@
         }
       },
       "System.Runtime.Extensions/4.1.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -1612,6 +1738,7 @@
         }
       },
       "System.Runtime.Handles/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -1622,6 +1749,7 @@
         }
       },
       "System.Runtime.InteropServices/4.1.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -1635,6 +1763,7 @@
         }
       },
       "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Reflection": "4.1.0",
@@ -1659,6 +1788,7 @@
         }
       },
       "System.Runtime.Loader/4.0.0": {
+        "type": "package",
         "dependencies": {
           "System.IO": "4.1.0",
           "System.Reflection": "4.1.0",
@@ -1672,6 +1802,7 @@
         }
       },
       "System.Runtime.Numerics/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Globalization": "4.0.11",
           "System.Resources.ResourceManager": "4.0.1",
@@ -1686,6 +1817,7 @@
         }
       },
       "System.Runtime.Serialization.Primitives/4.1.1": {
+        "type": "package",
         "dependencies": {
           "System.Resources.ResourceManager": "4.0.1",
           "System.Runtime": "4.1.0"
@@ -1698,6 +1830,7 @@
         }
       },
       "System.Security.Claims/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Globalization": "4.0.11",
@@ -1715,6 +1848,7 @@
         }
       },
       "System.Security.Cryptography.Algorithms/4.2.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Collections": "4.0.11",
@@ -1745,6 +1879,7 @@
         }
       },
       "System.Security.Cryptography.Cng/4.2.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.IO": "4.1.0",
@@ -1773,6 +1908,7 @@
         }
       },
       "System.Security.Cryptography.Csp/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.IO": "4.1.0",
@@ -1803,6 +1939,7 @@
         }
       },
       "System.Security.Cryptography.Encoding/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Collections": "4.0.11",
@@ -1832,6 +1969,7 @@
         }
       },
       "System.Security.Cryptography.OpenSsl/4.0.0": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.IO": "4.1.0",
@@ -1861,6 +1999,7 @@
         }
       },
       "System.Security.Cryptography.Primitives/4.0.0": {
+        "type": "package",
         "dependencies": {
           "System.Diagnostics.Debug": "4.0.11",
           "System.Globalization": "4.0.11",
@@ -1878,6 +2017,7 @@
         }
       },
       "System.Security.Cryptography.X509Certificates/4.1.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Collections": "4.0.11",
@@ -1920,6 +2060,7 @@
         }
       },
       "System.Security.Principal/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Runtime": "4.1.0"
         },
@@ -1931,6 +2072,7 @@
         }
       },
       "System.Security.Principal.Windows/4.0.0": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.Win32.Primitives": "4.0.1",
@@ -1962,6 +2104,7 @@
         }
       },
       "System.Text.Encoding/4.0.11": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -1972,6 +2115,7 @@
         }
       },
       "System.Text.Encoding.CodePages/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Collections": "4.0.11",
@@ -2001,6 +2145,7 @@
         }
       },
       "System.Text.Encoding.Extensions/4.0.11": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -2012,6 +2157,7 @@
         }
       },
       "System.Text.RegularExpressions/4.1.0": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Globalization": "4.0.11",
@@ -2028,6 +2174,7 @@
         }
       },
       "System.Threading/4.0.11": {
+        "type": "package",
         "dependencies": {
           "System.Runtime": "4.1.0",
           "System.Threading.Tasks": "4.0.11"
@@ -2040,6 +2187,7 @@
         }
       },
       "System.Threading.Overlapped/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "System.Resources.ResourceManager": "4.0.1",
@@ -2061,6 +2209,7 @@
         }
       },
       "System.Threading.Tasks/4.0.11": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -2071,6 +2220,7 @@
         }
       },
       "System.Threading.Tasks.Dataflow/4.6.0": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Collections.Concurrent": "4.0.12",
@@ -2092,6 +2242,7 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.0.0": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Runtime": "4.1.0",
@@ -2105,6 +2256,7 @@
         }
       },
       "System.Threading.Tasks.Parallel/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Collections.Concurrent": "4.0.12",
           "System.Diagnostics.Debug": "4.0.11",
@@ -2123,6 +2275,7 @@
         }
       },
       "System.Threading.Thread/4.0.0": {
+        "type": "package",
         "dependencies": {
           "System.Runtime": "4.1.0"
         },
@@ -2134,6 +2287,7 @@
         }
       },
       "System.Threading.ThreadPool/4.0.10": {
+        "type": "package",
         "dependencies": {
           "System.Runtime": "4.1.0",
           "System.Runtime.Handles": "4.0.1"
@@ -2146,6 +2300,7 @@
         }
       },
       "System.Threading.Timer/4.0.1": {
+        "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
           "Microsoft.NETCore.Targets": "1.0.1",
@@ -2156,6 +2311,7 @@
         }
       },
       "System.Xml.ReaderWriter/4.0.11": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -2181,6 +2337,7 @@
         }
       },
       "System.Xml.XDocument/4.0.11": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -2203,6 +2360,7 @@
         }
       },
       "System.Xml.XmlDocument/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -2223,6 +2381,7 @@
         }
       },
       "System.Xml.XPath/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
@@ -2242,6 +2401,7 @@
         }
       },
       "System.Xml.XPath.XDocument/4.0.1": {
+        "type": "package",
         "dependencies": {
           "System.Diagnostics.Debug": "4.0.11",
           "System.Linq": "4.1.0",
@@ -2259,16 +2419,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "PublicHoliday/1.4.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.3",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "netstandard1.3/PublicHoliday.dll": {}
+        },
+        "runtime": {
+          "netstandard1.3/PublicHoliday.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "dotnet-test-mstest/1.1.1-preview": {
-      "sha512": "qi+N+zPWs1qn5MZ+sUgWQIigupD6/thgucw3IFzoPhD9f4NEnrAlXlpnQeA47CAS6/D7pMm6VNbqKfNBwz4U3g==",
+    "dotnet-test-mstest/1.1.2-preview": {
+      "sha512": "YzzunZLKa3kSjVv8MwT09GNtfz4sYm9yQRDsmo1xVfrkHnMXvqt88GarBlVtKDKt9SDwfX1nCOnAxc/Wk3Esfg==",
       "type": "package",
-      "path": "dotnet-test-mstest/1.1.1-preview",
+      "path": "dotnet-test-mstest/1.1.2-preview",
       "files": [
-        "dotnet-test-mstest.1.1.1-preview.nupkg.sha512",
+        "dotnet-test-mstest.1.1.2-preview.nupkg.sha512",
         "dotnet-test-mstest.nuspec",
         "lib/net451/dotnet-test-mstest.exe",
         "lib/netcoreapp1.0/dotnet-test-mstest.dll",
@@ -2716,12 +2889,12 @@
         "lib/net20/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll"
       ]
     },
-    "MSTest.TestAdapter.Dotnet/1.0.4-preview": {
-      "sha512": "bwxduMr9NUHIYMUZTvcnhRfX52SD4rkyaz6U8phCXMpXfms2E7A2W3TU2XZPgrdrv7S67OVivdSnkI9mFNzO/A==",
+    "MSTest.TestAdapter.Dotnet/1.1.5-preview": {
+      "sha512": "r5DNx1EhhvYPv2MjidzMXvgDJcvj8l+j8Ae5/2hVTTS7U1d8xqYVP/5iMG7XDY5sjXzdqNE5jAtaPKbnMQwUQg==",
       "type": "package",
-      "path": "MSTest.TestAdapter.Dotnet/1.0.4-preview",
+      "path": "MSTest.TestAdapter.Dotnet/1.1.5-preview",
       "files": [
-        "MSTest.TestAdapter.Dotnet.1.0.4-preview.nupkg.sha512",
+        "MSTest.TestAdapter.Dotnet.1.1.5-preview.nupkg.sha512",
         "MSTest.TestAdapter.Dotnet.nuspec",
         "lib/dotnet/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll",
         "lib/dotnet/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll",
@@ -2732,17 +2905,103 @@
         "lib/net451/msdia140typelib_clr0200.dll"
       ]
     },
-    "MSTest.TestFramework/1.0.3-preview": {
-      "sha512": "GY7MzAndNAXHc8ODzccJFXKcLof2aNcx6DqdVOKElV/kTlEI2muPQmFbZqxeetHSf3LZXKF/aTs5QPrncgRXLQ==",
+    "MSTest.TestFramework/1.0.6-preview": {
+      "sha512": "DA2VqoKFxQkFGfpEh84xWblwwsYO9pJPBT+J4rhQAfCvCA4BbnAgacAucBKjZXyl3mIbcrcY00d3Dhi79cOeag==",
       "type": "package",
-      "path": "MSTest.TestFramework/1.0.3-preview",
+      "path": "MSTest.TestFramework/1.0.6-preview",
       "files": [
-        "MSTest.TestFramework.1.0.3-preview.nupkg.sha512",
+        "MSTest.TestFramework.1.0.6-preview.nupkg.sha512",
         "MSTest.TestFramework.nuspec",
+        "lib/dotnet/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
         "lib/dotnet/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/dotnet/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
         "lib/dotnet/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/dotnet/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/dotnet/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/de/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/dotnet/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/es/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/dotnet/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/dotnet/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/it/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/dotnet/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/dotnet/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/dotnet/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/dotnet/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/dotnet/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/dotnet/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/dotnet/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/dotnet/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/dotnet/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
         "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
-        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll"
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/netcoreapp1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netcoreapp1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netcoreapp1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.XML"
       ]
     },
     "NETStandard.Library/1.6.0": {
@@ -7167,16 +7426,22 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
       ]
+    },
+    "PublicHoliday/1.4.0": {
+      "type": "project",
+      "path": "../../src/PublicHoliday/project.json",
+      "msbuildProject": "../../src/PublicHoliday/PublicHoliday.xproj"
     }
   },
   "projectFileDependencyGroups": {
     "": [
-      "MSTest.TestFramework >= 1.0.3-preview",
+      "MSTest.TestFramework >= 1.0.6-preview",
+      "Microsoft.NETCore.App >= 1.0.1",
       "PublicHoliday >= 1.4.0",
-      "dotnet-test-mstest >= 1.1.1-preview"
+      "dotnet-test-mstest >= 1.1.2-preview"
     ],
-    ".NETCoreApp,Version=v1.0": [
-      "Microsoft.NETCore.App >= 1.0.1"
-    ]
-  }
+    ".NETCoreApp,Version=v1.0": []
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
 }
