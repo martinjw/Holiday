@@ -464,7 +464,7 @@
           "lib/dotnet/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll": {}
         }
       },
-      "MSTest.TestFramework/1.0.6-preview": {
+      "MSTest.TestFramework/1.0.8-rc2": {
         "type": "package",
         "compile": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
@@ -2905,12 +2905,12 @@
         "lib/net451/msdia140typelib_clr0200.dll"
       ]
     },
-    "MSTest.TestFramework/1.0.6-preview": {
-      "sha512": "DA2VqoKFxQkFGfpEh84xWblwwsYO9pJPBT+J4rhQAfCvCA4BbnAgacAucBKjZXyl3mIbcrcY00d3Dhi79cOeag==",
+    "MSTest.TestFramework/1.0.8-rc2": {
+      "sha512": "dKrZPIo2sAIkQTCjMcc6CniF8KT4wB9vnRe6GbTxC8kqshZWSi958rGA5mFZNd1rtUv0dj3pO9nu/diY2EDFog==",
       "type": "package",
-      "path": "MSTest.TestFramework/1.0.6-preview",
+      "path": "MSTest.TestFramework/1.0.8-rc2",
       "files": [
-        "MSTest.TestFramework.1.0.6-preview.nupkg.sha512",
+        "MSTest.TestFramework.1.0.8-rc2.nupkg.sha512",
         "MSTest.TestFramework.nuspec",
         "lib/dotnet/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
         "lib/dotnet/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
@@ -3001,7 +3001,37 @@
         "lib/netcoreapp1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
         "lib/netcoreapp1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
         "lib/netcoreapp1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
-        "lib/netcoreapp1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.XML"
+        "lib/netcoreapp1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.XML"
       ]
     },
     "NETStandard.Library/1.6.0": {
@@ -7435,7 +7465,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "MSTest.TestFramework >= 1.0.6-preview",
+      "MSTest.TestFramework >= 1.0.8-rc2",
       "Microsoft.NETCore.App >= 1.0.1",
       "PublicHoliday >= 1.4.0",
       "dotnet-test-mstest >= 1.1.2-preview"
