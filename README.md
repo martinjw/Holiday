@@ -6,8 +6,8 @@ Nuget: Install-Package PublicHoliday [![Nuget](https://img.shields.io/nuget/v/Pu
 Orders and deliveries, data transfers, and other processes can often only be made on business working days. They cannot be made on national public holidays. Public holidays in many countries can be calculated algorithmically. 
 
 ```C#
-//get a list of all holidays for 2011
-IList<DateTime> result = new USAPublicHoliday().PublicHolidays(2011);
+//get a list of all holidays for 2017
+IList<DateTime> result = new USAPublicHoliday().PublicHolidays(2017);
 
 //get the next working day
 DateTime dayAfterColumbus = new USAPublicHoliday().NextWorkingDay(new DateTime(2006, 10, 8)); //returns 10 October 2006
@@ -35,6 +35,7 @@ There are libraries for:
 - Netherlands : DutchPublicHoliday
 - Norway : NorwayPublicHoliday
 - Spain : SpainPublicHoliday
+- Kazakhstan : KazakhstanPublicHoliday
 
 All use the common interface IPublicHoliday containing:
 - IsBankHoliday(DateTime)
