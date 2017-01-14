@@ -29,13 +29,16 @@ DateTime nextWorkingDayAfterRoyalWedding = new UKBankHoliday().NextWorkingDay(ne
 There are libraries for:
 - USA : USAPublicHoliday
 - UK : UKBankHoliday
-- France : FrancePublicHoliday
 - Belgium : BelgiumPublicHoliday
-- Canada : CanadaPublicHoliday
+- Canada : CanadaPublicHoliday (set Province in constructor for regional holidays)
+- France : FrancePublicHoliday
+- Germany : GermanPublicHoliday (set State property for regional holidays)
+- Luxembourg : LuxembourgPublicHoliday
+- Kazakhstan : KazakhstanPublicHoliday
 - Netherlands : DutchPublicHoliday
 - Norway : NorwayPublicHoliday
 - Spain : SpainPublicHoliday
-- Kazakhstan : KazakhstanPublicHoliday
+- Australia : AustraliaPublicHoliday (set State property for regional holidays, see note below)
 
 All use the common interface IPublicHoliday containing:
 - IsBankHoliday(DateTime)
@@ -44,13 +47,41 @@ All use the common interface IPublicHoliday containing:
 - PublicHolidayNames(int year)
 There are also static methods for all statutory holidays.
 
-Note for France and Belgium when holidays fall on weekends, there is no standard rule for when the holiday may be taken (unlike the UK and USA, where the preceding Friday or next Monday are taken). Normally these days are just added to the annual leave.
+## Weekend Rules
 
-In Canada there are some provincial holidays that vary by region. You can access these by passing in the ISO Code of the province to the constructor
-```
+For many countries, when holidays fall on a weekend, the next working Monday becomes a public holiday (this is sometimes called "Mondayised"). This is the general rule in the UK, and used for certain (but not all) holidays in Australia and New Zealand. In the USA, when holidays fall on Sundays, the holiday is moved to Monday. When the holiday falls on Saturday, the holiday is moved to the preceding Friday.
+
+For most of Europe, there is no standard rule for when the holidays fall on weekends. Normally these days are just added to the annual leave.  
+
+## Variations by states and province 
+
+In **Canada** there are some provincial holidays that vary by region. You can access these by passing in the ISO Code of the province to the constructor
+```C#
 //Retrieve a list of holidays in Saskatchewan for 2016
 IList<DateTime> result = new CanadaPublicHoliday("SK").PublicHolidays(2016);
 ```
+
+In **Germany** specify the state using an enum (the ISO code)
+```C#
+//Calendar for Saxony
+var calendar = new GermanPublicHoliday { State = GermanPublicHoliday.States.SN };
+IList<DateTime> result = calendar.PublicHolidays(2017);
+//result contains 22 November 2017, Repentance and Prayer Day
+```
+
+In **Australia** most holidays are defined by the state or territory. Specify the state using an enum (the ISO code).
+```C#
+//Calendar for Western Australia
+var calendar = AustraliaPublicHoliday { State = AustraliaPublicHoliday.States.WA };
+var westernAustrliaDay = new DateTime(2017, 6, 5);
+//yes it is
+var isHoliday = holidayCalendar.IsPublicHoliday(westernAustrliaDay);
+```
+
+**IMPORTANT** A few Australia state holidays do not have fixed rules, and cannot be calculated.  
+*  For Victoria, AFL Grand Final Day
+*  For Western Australia, Queen's Birthday (we assume end September BUT may change)
+*  The calender does not contain local holidays (Royal Queensland Show day, Royal Hobart Regatta)
 
 License is MIT. You are free to use this software in commercial projects.
 

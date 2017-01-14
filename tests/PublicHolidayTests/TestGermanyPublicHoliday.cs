@@ -73,16 +73,16 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestSaxonyRepetenceDay()
+        public void TestSaxonyRepetanceDay()
         {
-            var actual = GermanPublicHoliday.Repentence(2017);
+            var actual = GermanPublicHoliday.Repentance(2017);
             Assert.AreEqual(new DateTime(2017, 11, 22), actual);
 
             var calendar = new GermanPublicHoliday { State = GermanPublicHoliday.States.SN };
-            Assert.IsTrue(calendar.HasRepentence);
+            Assert.IsTrue(calendar.HasRepentance);
 
             var calendar2 = new GermanPublicHoliday { State = GermanPublicHoliday.States.HE };
-            Assert.IsFalse(calendar2.HasRepentence);
+            Assert.IsFalse(calendar2.HasRepentance);
         }
     }
 }

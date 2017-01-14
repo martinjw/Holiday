@@ -273,10 +273,10 @@ namespace PublicHoliday
         public bool HasAllSaints => Array.IndexOf(new[] { States.BW, States.BY, States.NW, States.RP, States.SL }, State) > -1;
 
         /// <summary>
-        /// Buß- und Bettag - Repentence and Prayer
+        /// Buß- und Bettag - Repentance and Prayer
         /// </summary>
         /// <param name="year"></param>
-        public static DateTime Repentence(int year)
+        public static DateTime Repentance(int year)
         {
             var firstAdvent = HolidayCalculator.FindPrevious(Christmas(year), DayOfWeek.Sunday).AddDays(-28);
             var wednesday = HolidayCalculator.FindPrevious(firstAdvent, DayOfWeek.Wednesday);
@@ -289,7 +289,7 @@ namespace PublicHoliday
         /// <value>
         /// <c>true</c> if this state observes Buß- und Bettag; otherwise, <c>false</c>.
         /// </value>
-        public bool HasRepentence => States.SN == State;
+        public bool HasRepentance => States.SN == State;
 
         /// <summary>
         /// Weihnachtstag - Christmas
@@ -331,7 +331,7 @@ namespace PublicHoliday
             //All states observe Reformation in 2017, 500th anniversary
             if (HasReformation || year == 2017) bHols.Add(Reformation(year));
             if (HasAllSaints) bHols.Add(AllSaints(year));
-            if (HasRepentence) bHols.Add(Repentence(year));
+            if (HasRepentance) bHols.Add(Repentance(year));
             bHols.Add(Christmas(year));
             bHols.Add(StStephen(year));
             return bHols;
@@ -358,7 +358,7 @@ namespace PublicHoliday
             bHols.Add(GermanUnity(year), "Tag der Deutschen Einheit");
             if (HasReformation || year == 2017) bHols.Add(Reformation(year), "Reformationstag");
             if (HasAllSaints) bHols.Add(AllSaints(year), "Allerheiligen");
-            if (HasRepentence) bHols.Add(Repentence(year), "Buß- und Bettag");
+            if (HasRepentance) bHols.Add(Repentance(year), "Buß- und Bettag");
             bHols.Add(Christmas(year), "Weihnachtstag");
             bHols.Add(StStephen(year), "Zweiter Weihnachtsfeiertag");
             return bHols;
@@ -423,7 +423,7 @@ namespace PublicHoliday
                 case 11:
                     if (HasAllSaints && AllSaints(year) == date)
                         return true;
-                    if (HasRepentence && Repentence(year) == date)
+                    if (HasRepentance && Repentance(year) == date)
                         return true;
                     break;
 
