@@ -39,6 +39,7 @@ There are libraries for:
 - Norway : NorwayPublicHoliday
 - Spain : SpainPublicHoliday
 - Australia : AustraliaPublicHoliday (set State property for regional holidays, see note below)
+- New Zealand : NewZealandPublicHoliday
 
 All use the common interface IPublicHoliday containing:
 - IsBankHoliday(DateTime)
@@ -82,6 +83,8 @@ var isHoliday = holidayCalendar.IsPublicHoliday(westernAustrliaDay);
 *  For Victoria, AFL Grand Final Day
 *  For Western Australia, Queen's Birthday (we assume end September BUT may change)
 *  The calender does not contain local holidays (Royal Queensland Show day, Royal Hobart Regatta)
+
+## License
 
 License is MIT. You are free to use this software in commercial projects.
 

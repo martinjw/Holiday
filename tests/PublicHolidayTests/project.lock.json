@@ -7467,7 +7467,7 @@
     "": [
       "MSTest.TestFramework >= 1.0.8-rc2",
       "Microsoft.NETCore.App >= 1.0.1",
-      "PublicHoliday >= 1.4.0",
+      "PublicHoliday >= 1.5.0",
       "dotnet-test-mstest >= 1.1.2-preview"
     ],
     ".NETCoreApp,Version=v1.0": []

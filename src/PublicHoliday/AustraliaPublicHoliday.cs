@@ -65,7 +65,7 @@ namespace PublicHoliday
         #region Individual Holidays
 
         /// <summary>
-        /// Neujahr - New Year's Day
+        /// New Year's Day
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns>Date of in the given year.</returns>
@@ -451,8 +451,6 @@ namespace PublicHoliday
                     break;
 
                 case 12:
-                    //if (QueenBirthday(year) == date)
-                    //    return true;
                     if (Christmas(year) == date)
                         return true;
                     if (BoxingDay(year) == date)
