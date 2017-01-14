@@ -18,7 +18,10 @@ namespace PublicHoliday
     /// </remarks>
     public class CanadaPublicHoliday : PublicHolidayBase
     {
-        public string Province;
+        /// <summary>
+        /// The province
+        /// </summary>
+        public string Province { get; set;  }
 
         #region Individual Holidays
 
