@@ -2420,7 +2420,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "PublicHoliday/1.4.0": {
+      "PublicHoliday/1.5.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.3",
         "dependencies": {
@@ -7457,7 +7457,7 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "PublicHoliday/1.4.0": {
+    "PublicHoliday/1.5.0": {
       "type": "project",
       "path": "../../src/PublicHoliday/project.json",
       "msbuildProject": "../../src/PublicHoliday/PublicHoliday.xproj"

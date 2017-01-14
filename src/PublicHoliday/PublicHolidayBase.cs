@@ -3,9 +3,26 @@ using System.Collections.Generic;
 
 namespace PublicHoliday
 {
+    /// <summary>
+    /// Public Holiday operations
+    /// </summary>
+    /// <seealso cref="PublicHoliday.IPublicHolidays" />
     public abstract class PublicHolidayBase : IPublicHolidays
     {
+        /// <summary>
+        /// Get a list of dates for all holidays in a year.
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <returns></returns>
         public abstract IList<DateTime> PublicHolidays(int year);
+
+        /// <summary>
+        /// Get a list of dates with names for all holidays in a year.
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <returns>
+        /// Dictionary of bank holidays
+        /// </returns>
         public abstract IDictionary<DateTime, string> PublicHolidayNames(int year);
 
         /// <summary>
@@ -30,6 +47,14 @@ namespace PublicHoliday
             return HolidayCalculator.PreviousWorkingDay(this, dt);
         }
 
+        /// <summary>
+        /// Check if a specific date is a public holiday.
+        /// Obviously the <see cref="PublicHolidays" /> list is more efficient for repeated checks
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <returns>
+        /// True if date is a public holiday (excluding weekends)
+        /// </returns>
         public abstract bool IsPublicHoliday(DateTime dt);
     }
 }
