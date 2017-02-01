@@ -27,19 +27,25 @@ DateTime nextWorkingDayAfterRoyalWedding = new UKBankHoliday().NextWorkingDay(ne
 ```
 
 There are libraries for:
-- USA : USAPublicHoliday
-- UK : UKBankHoliday
-- Belgium : BelgiumPublicHoliday
-- Canada : CanadaPublicHoliday (set Province in constructor for regional holidays)
-- France : FrancePublicHoliday
-- Germany : GermanPublicHoliday (set State property for regional holidays)
-- Luxembourg : LuxembourgPublicHoliday
-- Kazakhstan : KazakhstanPublicHoliday
-- Netherlands : DutchPublicHoliday
-- Norway : NorwayPublicHoliday
-- Spain : SpainPublicHoliday
-- Australia : AustraliaPublicHoliday (set State property for regional holidays, see note below)
-- New Zealand : NewZealandPublicHoliday
+- Europe
+  - UK : UKBankHoliday
+  - Belgium : BelgiumPublicHoliday
+  - France : FrancePublicHoliday
+  - Germany : GermanPublicHoliday (set State property for regional holidays)
+  - Ireland : IrelandPublicHoliday
+  - Italy : ItalyPublicHoliday
+  - Luxembourg : LuxembourgPublicHoliday
+  - Netherlands : DutchPublicHoliday
+  - Norway : NorwayPublicHoliday
+  - Spain : SpainPublicHoliday
+- E. Europe/Asia
+  - Kazakhstan : KazakhstanPublicHoliday
+- N America
+  - USA : USAPublicHoliday
+  - Canada : CanadaPublicHoliday (set Province in constructor for regional holidays)
+- Oceania
+  - Australia : AustraliaPublicHoliday (set State property for regional holidays, see note below)
+  - New Zealand : NewZealandPublicHoliday
 
 All use the common interface IPublicHoliday containing:
 - IsBankHoliday(DateTime)
