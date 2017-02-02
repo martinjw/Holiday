@@ -1,12 +1,12 @@
 ﻿{
-    "version": "1.5.0",
+    "version": "1.6.0",
     "packOptions": {
         "summary": "Calculate national public holidays for countries including US, UK, France, Belgium and Canada for any year",
         "tags": [ "Holiday" ],
         "owners": [ "Martin Willey" ],
         "projectUrl": "https://github.com/martinjw/Holiday",
         "licenseUrl": "http://opensource.org/licenses/MIT",
-        "releaseNotes": "1.5: Added Kazakhstan (thanks kant2002), Australia, New Zealand, Italy, Ireland",
+        "releaseNotes": "1.6: Added Australia, Germany, Austria, New Zealand, Italy, Ireland",
         "repository": {
             "type": "git",
             "url": "https://github.com/martinjw/Holiday"

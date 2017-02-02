@@ -8,7 +8,7 @@ namespace PublicHolidayTests
     public class TestIrelandPublicHoliday
     {
         [DataTestMethod]
-        [DataRow(1, 1,"New year")]
+        [DataRow(1, 2,"New year - observed on Monday")]
         [DataRow(3, 17, "St Patrick's")]
         [DataRow(4, 17, "Easter Monday")]
         [DataRow(5, 1, "May Day")]

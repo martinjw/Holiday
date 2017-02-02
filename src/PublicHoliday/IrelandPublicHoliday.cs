@@ -18,7 +18,7 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime NewYear(int year)
         {
-            return new DateTime(year, 1, 1);
+            return HolidayCalculator.FixWeekend(new DateTime(year, 1, 1));
         }
 
         /// <summary>
@@ -28,7 +28,7 @@ namespace PublicHoliday
 
         public static DateTime StPatricksDay(int year)
         {
-            return new DateTime(year, 3, 17);
+            return HolidayCalculator.FixWeekend(new DateTime(year, 3, 17));
         }
 
         /// <summary>
@@ -54,7 +54,7 @@ namespace PublicHoliday
         /// <param name="year">The year.</param>
         public static DateTime MayDay(int year)
         {
-            return new DateTime(year, 5, 1);
+            return HolidayCalculator.FixWeekend(new DateTime(year, 5, 1));
         }
 
         /// <summary>
@@ -92,7 +92,7 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime Christmas(int year)
         {
-            return new DateTime(year, 12, 25);
+            return HolidayCalculator.FixWeekend(new DateTime(year, 12, 25));
         }
 
         /// <summary>
@@ -102,7 +102,14 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime StStephen(int year)
         {
-            return new DateTime(year, 12, 26);
+            var hol = new DateTime(year, 12, 26);
+            bool isSundayOrMonday =
+                hol.DayOfWeek == DayOfWeek.Sunday ||
+                hol.DayOfWeek == DayOfWeek.Monday;
+            hol = HolidayCalculator.FixWeekend(hol);
+            if (isSundayOrMonday)
+                hol = hol.AddDays(1);
+            return hol;
         }
 
         #endregion Individual Holidays
