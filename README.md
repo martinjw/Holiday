@@ -37,6 +37,7 @@ There are libraries for:
   - Luxembourg : LuxembourgPublicHoliday
   - Netherlands : DutchPublicHoliday
   - Norway : NorwayPublicHoliday
+  - Poland : PolandPublicHoliday
   - Spain : SpainPublicHoliday
 - E. Europe/Asia
   - Kazakhstan : KazakhstanPublicHoliday
