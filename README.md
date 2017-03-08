@@ -95,3 +95,8 @@ var isHoliday = holidayCalendar.IsPublicHoliday(westernAustrliaDay);
 
 License is MIT. You are free to use this software in commercial projects.
 
+## Building the Source
+
+* If you use Visual Studio *2017* open PublicHoliday.sln (.net Core)
+  * You cannot use the command line "dotnet build" because Core tooling cannot build v3.5 (see https://github.com/Microsoft/msbuild/issues/1333)
+* If you use Visual Studio *2015* open PublicHoliday2015.sln (does not include .net Core; v3.5-v4.6 only)
