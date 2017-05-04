@@ -49,6 +49,7 @@
     <Compile Include="CanadaPublicHolidayTests.cs" />
     <Compile Include="TestBelgiumPublicHoliday.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestSwedenPublicHoliday.cs" />
     <Compile Include="TestNorwayPublicHoliday.cs" />
     <Compile Include="TestSpainPublicHoliday.cs" />
     <Compile Include="TestUKBankHoliday.cs" />
