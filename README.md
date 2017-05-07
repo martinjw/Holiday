@@ -39,6 +39,7 @@ There are libraries for:
   - Norway : NorwayPublicHoliday
   - Poland : PolandPublicHoliday
   - Spain : SpainPublicHoliday
+  - Sweden : SwedenPublicHoliday
 - E. Europe/Asia
   - Kazakhstan : KazakhstanPublicHoliday
 - N America
@@ -47,9 +48,11 @@ There are libraries for:
 - Oceania
   - Australia : AustraliaPublicHoliday (set State property for regional holidays, see note below)
   - New Zealand : NewZealandPublicHoliday
+- Asia
+  - Japan : JapanPublicHoliday
 
 All use the common interface IPublicHoliday containing:
-- IsBankHoliday(DateTime)
+- IsPublicHoliday(DateTime) (UK: also IsBankHoliday(DateTime))
 - NextWorkingDay(DateTime)
 - PublicHolidays(int year)
 - PublicHolidayNames(int year)
