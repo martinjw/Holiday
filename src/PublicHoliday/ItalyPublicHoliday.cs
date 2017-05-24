@@ -148,7 +148,12 @@ namespace PublicHoliday
                 { Epiphany(year), "Epifania" } };
             DateTime easter = HolidayCalculator.GetEaster(year);
             bHols.Add(EasterMonday(easter), "Pasquetta");
-            bHols.Add(LiberationDay(year), "Festa della Liberazione");
+            var liberationDay = LiberationDay(year);
+            if (!bHols.ContainsKey(liberationDay))
+            {
+                //in 2011, Liberation Day was 25th April, the same day as Easter Monday
+                bHols.Add(liberationDay, "Festa della Liberazione");
+            }
             bHols.Add(LabourDay(year), "Festa del Lavoro");
             bHols.Add(RepublicDay(year), "Festa della Repubblica");
             bHols.Add(Assumption(year), "Ferragosto");

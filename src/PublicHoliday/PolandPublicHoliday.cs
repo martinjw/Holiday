@@ -190,13 +190,11 @@ namespace PublicHoliday
                     break;
 
                 case 5:
+                case 6:
                     if (LabourDay(year) == date)
                         return true;
                     if (ConstitutionDay(year) == date)
                         return true;
-                    break;
-
-                case 6:
                     if (CorpusChristi(year) == date)
                         return true;
                     break;

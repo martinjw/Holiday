@@ -4,6 +4,10 @@ using System.Linq;
 
 namespace PublicHoliday
 {
+    /// <summary>
+    /// Holidays in Norway
+    /// </summary>
+    /// <seealso cref="PublicHoliday.PublicHolidayBase" />
     public class NorwayPublicHoliday : PublicHolidayBase
     {
 
@@ -201,12 +205,17 @@ namespace PublicHoliday
                 {EasterMonday(easter), "Andre påskedag"},
                 {LabourDay(year), "Første mai"},
                 {ConstitutionDay(year), "Grunnlovsdagen"},
-                {Ascension(easter), "Kristi himmelfartsdag"},
-                {WhitSunday(easter), "Første pinsedag"},
-                {WhitMonday(easter), "Andre pinsedag"},
-                {Christmas(year), "Første juledag"},
-                {BoxingDay(year), "Andre juledag"}
             };
+            var ascension = Ascension(easter);
+            if (!bHols.ContainsKey(ascension))
+            {
+                //Ascension in 2012 is 17 May - same as Consitition Day
+                bHols.Add(ascension, "Kristi himmelfartsdag");
+            }
+            bHols.Add(WhitSunday(easter), "Første pinsedag");
+            bHols.Add(WhitMonday(easter), "Andre pinsedag");
+            bHols.Add(Christmas(year), "Første juledag");
+            bHols.Add(BoxingDay(year), "Andre juledag");
             return bHols;
         }
 

@@ -394,13 +394,11 @@ namespace PublicHoliday
                     break;
 
                 case 5:
+                case 6:
                     if (MayDay(year) == date)
                         return true;
                     if (Ascension(year) == date)
                         return true;
-                    break;
-
-                case 6:
                     if (PentecostMonday(year) == date)
                         return true;
                     if (HasCorpusChristi && CorpusChristi(year) == date)

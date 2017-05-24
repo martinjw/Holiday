@@ -225,19 +225,13 @@ namespace PublicHoliday
                     break;
 
                 case 5:
+                case 6:
                     if (LabourDay(year) == date)
                         return true;
                     if (Ascension(year) == date)
                         return true; // usually in May (may 25, 2006)
                     if (PentecostMonday(year) == date)
                         return true; // May 20 2004
-                    break;
-
-                case 6:
-                    if (Ascension(year) == date)
-                        return true; // Ascension was June 1 2000
-                    if (PentecostMonday(year) == date)
-                        return true; // June 12 2006
                     if (CorpusChristi(year) == date)
                         return true;
                     break;

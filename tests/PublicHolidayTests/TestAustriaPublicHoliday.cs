@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
 using System;
+using System.Linq;
 
 namespace PublicHolidayTests
 {
@@ -38,5 +39,26 @@ namespace PublicHolidayTests
             Assert.IsTrue(13 == hols.Count, "Should be 10 holidays in 2017");
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
+
+        [TestMethod]
+        public void TestHolidayListIsPublicHoliday()
+        {
+            //github issue #12, @oliver-h
+            var h = new AustriaPublicHoliday();
+
+            for (int year = 2010; year < 2018; year++)
+            {
+                var days = h.PublicHolidayNames(year);
+                var fd = days.Where(d => !h.IsPublicHoliday(d.Key)).ToArray();
+
+                if (fd.Any())
+                {
+                    var s = string.Join(Environment.NewLine, fd);
+                    Console.WriteLine(s);
+                    Assert.Fail($"Dates in list are not public holidays: {s}");
+                }
+            }
+        }
+
     }
 }
