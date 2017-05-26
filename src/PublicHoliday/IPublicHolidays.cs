@@ -39,6 +39,14 @@ namespace PublicHoliday
         DateTime PreviousWorkingDay(DateTime dt);
 
         /// <summary>
+        /// Gets Holidays between two date times.
+        /// </summary>
+        /// <param name="startDate">The beginning of the date range</param>
+        /// <param name="endDate">The end of the date range</param>
+        /// <returns>A list of holidays</returns>
+        IList<Holiday> GetHolidaysInDateRange(DateTime startDate, DateTime endDate);
+
+        /// <summary>
         /// Check if a specific date is a public holiday.
         /// Obviously the <see cref="PublicHolidays"/> list is more efficient for repeated checks
         /// </summary>

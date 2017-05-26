@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 namespace PublicHoliday
 {
+    using System.Linq;
+
     /// <summary>
     /// Public Holiday operations
     /// </summary>
@@ -45,6 +47,26 @@ namespace PublicHoliday
         public DateTime PreviousWorkingDay(DateTime dt)
         {
             return HolidayCalculator.PreviousWorkingDay(this, dt);
+        }
+
+        /// <summary>
+        /// Gets Holidays between two date times.
+        /// </summary>
+        /// <param name="startDate">The beginning of the date range</param>
+        /// <param name="endDate">The end of the date range</param>
+        /// <returns>A list of holidays between the two dates</returns>
+        public IList<Holiday> GetHolidaysInDateRange(DateTime startDate, DateTime endDate)
+        {
+            IList<Holiday> holidaysInDateRange = new List<Holiday>();
+            for (int year = startDate.Year; year <= endDate.Year; year++)
+            {
+                var yearsHolidaysInRange = PublicHolidayNames(year).Where(d => d.Key >= startDate && d.Key <= endDate);
+                foreach (var kvp in yearsHolidaysInRange)
+                {
+                    holidaysInDateRange.Add(new Holiday(this, kvp.Key, kvp.Value));
+                }
+            }
+            return holidaysInDateRange;
         }
 
         /// <summary>
