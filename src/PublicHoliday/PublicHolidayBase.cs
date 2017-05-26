@@ -50,11 +50,11 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// 
+        /// Gets Holidays between two date times.
         /// </summary>
-        /// <param name="startDate"></param>
-        /// <param name="endDate"></param>
-        /// <returns></returns>
+        /// <param name="startDate">The beginning of the date range</param>
+        /// <param name="endDate">The end of the date range</param>
+        /// <returns>A list of holidays between the two dates</returns>
         public IList<Holiday> GetHolidaysInDateRange(DateTime startDate, DateTime endDate)
         {
             IList<Holiday> holidaysInDateRange = new List<Holiday>();
