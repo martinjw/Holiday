@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PublicHoliday
 {
@@ -9,7 +7,7 @@ namespace PublicHoliday
     /// </summary>
     public class Holiday
     {
-        private IPublicHolidays holidayCalendar;
+        private readonly IPublicHolidays _holidayCalendar;
 
         /// <summary>
         /// Constructs the holiday
@@ -19,7 +17,7 @@ namespace PublicHoliday
         /// <param name="name">The name of the current holiday</param>
         public Holiday(IPublicHolidays holidayCalendar, DateTime date, string name)
         {
-            this.holidayCalendar = holidayCalendar;
+            this._holidayCalendar = holidayCalendar;
             this.HolidayDate = date;
             this.Name = name;
         }
@@ -29,7 +27,7 @@ namespace PublicHoliday
         /// </summary>
         public DateTime PreviousWorkingDay
         {
-            get { return holidayCalendar.PreviousWorkingDay(HolidayDate); }
+            get { return _holidayCalendar.PreviousWorkingDay(HolidayDate); }
         }
 
         /// <summary>
@@ -37,7 +35,7 @@ namespace PublicHoliday
         /// </summary>
         public DateTime NextWorkingDay
         {
-            get { return holidayCalendar.NextWorkingDay(HolidayDate); }
+            get { return _holidayCalendar.NextWorkingDay(HolidayDate); }
         }
 
         /// <summary>

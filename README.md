@@ -56,6 +56,7 @@ All use the common interface IPublicHoliday containing:
 - NextWorkingDay(DateTime)
 - PublicHolidays(int year)
 - PublicHolidayNames(int year)
+- GetHolidaysInDateRange(DateTime, DateTime)
 There are also static methods for all statutory holidays.
 
 ## Weekend Rules

@@ -7,7 +7,7 @@
     <AssemblyName>PublicHoliday</AssemblyName>
     <PackageId>PublicHoliday</PackageId>
     <PackageTags>Holiday</PackageTags>
-    <PackageReleaseNotes>1.6.1: Fix Corpus Christi dates in May</PackageReleaseNotes>
+    <PackageReleaseNotes>1.7.0: Added the ability to get holiday dates within a range (thanks @msmells) Fix Corpus Christi dates in May</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
@@ -21,7 +21,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>1.6.1</Version>
+    <Version>1.7.0</Version>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net35' ">
