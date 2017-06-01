@@ -47,6 +47,7 @@
     <Compile Include="BelgiumPublicHoliday.cs" />
     <Compile Include="CanadaPublicHoliday.cs" />
     <Compile Include="GermanPublicHoliday.cs" />
+    <Compile Include="Holiday.cs" />
     <Compile Include="IrelandPublicHoliday.cs" />
     <Compile Include="ItalyPublicHoliday.cs" />
     <Compile Include="KazakhstanPublicHoliday.cs" />
