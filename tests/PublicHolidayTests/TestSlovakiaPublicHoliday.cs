@@ -719,7 +719,7 @@ namespace PublicHolidayTests
         public void TestNextWorkingDayBoxingDay()
         {
             var expected = new DateTime(2006, 12, 27);
-            var actual = new UKBankHoliday().NextWorkingDay(new DateTime(2006, 12, 26));
+            var actual = new SlovakiaPublicHoliday().NextWorkingDay(new DateTime(2006, 12, 26));
             Assert.AreEqual(expected, actual);
         }
 
