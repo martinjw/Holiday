@@ -180,7 +180,7 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Public holiday names in Norwegian.
+        /// Public holiday names in Russian.
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>

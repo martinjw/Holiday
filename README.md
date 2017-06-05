@@ -28,7 +28,7 @@ DateTime nextWorkingDayAfterRoyalWedding = new UKBankHoliday().NextWorkingDay(ne
 
 There are libraries for:
 - Europe
-  - UK : UKBankHoliday
+  - Austria : AustriaPublicHoliday
   - Belgium : BelgiumPublicHoliday
   - France : FrancePublicHoliday
   - Germany : GermanPublicHoliday (set State property for regional holidays)
@@ -41,11 +41,12 @@ There are libraries for:
   - Slovakia : SlovakiaPublicHoliday
   - Spain : SpainPublicHoliday
   - Sweden : SwedenPublicHoliday
+  - UK : UKBankHoliday
 - E. Europe/Asia
   - Kazakhstan : KazakhstanPublicHoliday
 - N America
-  - USA : USAPublicHoliday
   - Canada : CanadaPublicHoliday (set Province in constructor for regional holidays)
+  - USA : USAPublicHoliday
 - Oceania
   - Australia : AustraliaPublicHoliday (set State property for regional holidays, see note below)
   - New Zealand : NewZealandPublicHoliday
