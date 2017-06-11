@@ -46,6 +46,7 @@
     <Compile Include="AustriaPublicHoliday.cs" />
     <Compile Include="BelgiumPublicHoliday.cs" />
     <Compile Include="CanadaPublicHoliday.cs" />
+    <Compile Include="CzechRepublicPublicHoliday.cs" />
     <Compile Include="EcbTargetClosingDay.cs" />
     <Compile Include="GermanPublicHoliday.cs" />
     <Compile Include="Holiday.cs" />
