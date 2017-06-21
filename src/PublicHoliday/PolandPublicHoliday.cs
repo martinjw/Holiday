@@ -140,7 +140,7 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Public holiday names in Italian.
+        /// Public holiday names in Polish.
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>

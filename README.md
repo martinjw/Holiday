@@ -28,8 +28,10 @@ DateTime nextWorkingDayAfterRoyalWedding = new UKBankHoliday().NextWorkingDay(ne
 
 There are libraries for:
 - Europe
-  - UK : UKBankHoliday
+  - Austria : AustriaPublicHoliday
   - Belgium : BelgiumPublicHoliday
+  - Czech Republic : CzechRepublicPublicHoliday
+  - ECB : EcbTargetClosingDay (European Central Bank SEPA Target Closing days - no exchange rates and no SEPA transactions)
   - France : FrancePublicHoliday
   - Germany : GermanPublicHoliday (set State property for regional holidays)
   - Ireland : IrelandPublicHoliday
@@ -38,13 +40,15 @@ There are libraries for:
   - Netherlands : DutchPublicHoliday
   - Norway : NorwayPublicHoliday
   - Poland : PolandPublicHoliday
+  - Slovakia : SlovakiaPublicHoliday
   - Spain : SpainPublicHoliday
   - Sweden : SwedenPublicHoliday
+  - UK : UKBankHoliday
 - E. Europe/Asia
   - Kazakhstan : KazakhstanPublicHoliday
 - N America
-  - USA : USAPublicHoliday
   - Canada : CanadaPublicHoliday (set Province in constructor for regional holidays)
+  - USA : USAPublicHoliday
 - Oceania
   - Australia : AustraliaPublicHoliday (set State property for regional holidays, see note below)
   - New Zealand : NewZealandPublicHoliday
@@ -56,6 +60,7 @@ All use the common interface IPublicHoliday containing:
 - NextWorkingDay(DateTime)
 - PublicHolidays(int year)
 - PublicHolidayNames(int year)
+- GetHolidaysInDateRange(DateTime, DateTime)
 There are also static methods for all statutory holidays.
 
 ## Weekend Rules
@@ -93,6 +98,17 @@ var isHoliday = holidayCalendar.IsPublicHoliday(westernAustrliaDay);
 *  For Victoria, AFL Grand Final Day
 *  For Western Australia, Queen's Birthday (we assume end September BUT may change)
 *  The calender does not contain local holidays (Royal Queensland Show day, Royal Hobart Regatta)
+
+## Thanks
+@petergaal
+@msmells
+@oliver-h
+@DanielSundberg
+@kant2002
+@zanemcca
+@jcdekoning
+@thelious
+@rickbeerendonk
 
 ## License
 

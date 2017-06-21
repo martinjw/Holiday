@@ -173,7 +173,7 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Public holiday names in Lëtzebuergesch.
+        /// Public holiday names in German.
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>

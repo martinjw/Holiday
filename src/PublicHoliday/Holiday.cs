@@ -9,6 +9,7 @@ namespace PublicHoliday
     /// </summary>
     public class Holiday
     {
+
         /// <summary>
         /// Constructs the holiday
         /// </summary>
