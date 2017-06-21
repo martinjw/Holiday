@@ -19,6 +19,16 @@ namespace PublicHoliday
         public abstract IList<DateTime> PublicHolidays(int year);
 
         /// <summary>
+        /// Returns observed and holiday dates for all holidays
+        /// </summary>
+        /// <param name="year">The current year</param>
+        /// <returns>A list of observed holidays</returns>
+        public virtual IList<Holiday> PublicHolidaysInformation(int year)
+        {
+            return new List<Holiday>();
+        }
+
+        /// <summary>
         /// Get a list of dates with names for all holidays in a year.
         /// </summary>
         /// <param name="year">The year.</param>
@@ -57,16 +67,14 @@ namespace PublicHoliday
         /// <returns>A list of holidays between the two dates</returns>
         public IList<Holiday> GetHolidaysInDateRange(DateTime startDate, DateTime endDate)
         {
-            IList<Holiday> holidaysInDateRange = new List<Holiday>();
-            for (int year = startDate.Year; year <= endDate.Year; year++)
+            var holidays = new List<Holiday>();
+            for (var year = startDate.Year; year <= endDate.Year; year++)
             {
-                var yearsHolidaysInRange = PublicHolidayNames(year).Where(d => d.Key >= startDate && d.Key <= endDate);
-                foreach (var kvp in yearsHolidaysInRange)
-                {
-                    holidaysInDateRange.Add(new Holiday(this, kvp.Key, kvp.Value));
-                }
+                holidays.AddRange(PublicHolidaysInformation(year)
+                                      .Where(d => d.ObservedDate >= startDate && d.ObservedDate <= endDate ||
+                                                  d.HolidayDate >= startDate && d.HolidayDate <= endDate));
             }
-            return holidaysInDateRange;
+            return holidays;
         }
 
         /// <summary>

@@ -28,9 +28,10 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime NewYear(int year)
+        public static Holiday NewYear(int year)
         {
-            return FixWeekend(new DateTime(year, 1, 1));
+            var holiday = new DateTime(year, 1, 1);
+            return new Holiday(holiday, FixWeekend(holiday));
         }
 
         /// <summary>
@@ -38,11 +39,11 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime MartinLutherKing(int year)
+        public static Holiday MartinLutherKing(int year)
         {
             var hol = new DateTime(year, 1, 15);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return hol;
+            return new Holiday(hol, hol);
         }
 
         /// <summary>
@@ -50,11 +51,11 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime PresidentsDay(int year)
+        public static Holiday PresidentsDay(int year)
         {
             var hol = new DateTime(year, 2, 15);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return hol;
+            return new Holiday(hol, hol);
         }
 
         /// <summary>
@@ -62,11 +63,11 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime MemorialDay(int year)
+        public static Holiday MemorialDay(int year)
         {
             var hol = new DateTime(year, 5, 25);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return hol;
+            return new Holiday(hol, hol);
         }
 
         /// <summary>
@@ -74,11 +75,11 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime IndependenceDay(int year)
+        public static Holiday IndependenceDay(int year)
         {
             var hol = new DateTime(year, 7, 4);
-            hol = FixWeekend(hol);
-            return hol;
+            var observed = FixWeekend(hol);
+            return new Holiday(hol, observed);
         }
 
         /// <summary>
@@ -86,11 +87,11 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime LaborDay(int year)
+        public static Holiday LaborDay(int year)
         {
             var hol = new DateTime(year, 9, 1);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return hol;
+            return new Holiday(hol, hol);
         }
 
         /// <summary>
@@ -98,11 +99,11 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime ColumbusDay(int year)
+        public static Holiday ColumbusDay(int year)
         {
             var hol = new DateTime(year, 10, 8);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return hol;
+            return new Holiday(hol, hol);
         }
 
         /// <summary>
@@ -110,9 +111,10 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime VeteransDay(int year)
+        public static Holiday VeteransDay(int year)
         {
-            return FixWeekend(new DateTime(year, 11, 11));
+            var hol = new DateTime(year, 11, 11);
+            return new Holiday(hol, FixWeekend(hol));
         }
 
         /// <summary>
@@ -120,14 +122,14 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime Thanksgiving(int year)
+        public static Holiday Thanksgiving(int year)
         {
             var hol = new DateTime(year, 11, 23);
             while (hol.DayOfWeek != DayOfWeek.Thursday)
             {
                 hol = hol.AddDays(1);
             }
-            return hol;
+            return new Holiday(hol, hol);
         }
 
         /// <summary>
@@ -135,9 +137,10 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime Christmas(int year)
+        public static Holiday Christmas(int year)
         {
-            return FixWeekend(new DateTime(year, 12, 25));
+            var hol = new DateTime(year, 12, 25);
+            return new Holiday(hol, FixWeekend(hol));
         }
         #endregion
 
@@ -149,6 +152,27 @@ namespace PublicHoliday
         public override IList<DateTime> PublicHolidays(int year)
         {
             var bHols = new List<DateTime>();
+            bHols.Add(NewYear(year)); //1st January
+            bHols.Add(MartinLutherKing(year)); // Third Monday in January
+            bHols.Add(PresidentsDay(year)); //Third Monday in February
+            bHols.Add(MemorialDay(year)); //Last Monday in May
+            bHols.Add(IndependenceDay(year)); //4 July
+            bHols.Add(LaborDay(year)); //First Monday in September
+            bHols.Add(ColumbusDay(year)); //Second Monday in October
+            bHols.Add(VeteransDay(year)); //11 November
+            bHols.Add(Thanksgiving(year)); //Fourth Thursday in November
+            bHols.Add(Christmas(year)); //25 December
+            return bHols;
+        }
+
+        /// <summary>
+        /// Gets a list of public holidays with their observed and actual date
+        /// </summary>
+        /// <param name="year">The given year</param>
+        /// <returns></returns>
+        public override IList<Holiday> PublicHolidaysInformation(int year)
+        {
+            var bHols = new List<Holiday>();
             bHols.Add(NewYear(year)); //1st January
             bHols.Add(MartinLutherKing(year)); // Third Monday in January
             bHols.Add(PresidentsDay(year)); //Third Monday in February
