@@ -16,6 +16,13 @@ namespace PublicHoliday
         IList<DateTime> PublicHolidays(int year);
 
         /// <summary>
+        /// Returns observed and holiday dates for all holidays
+        /// </summary>
+        /// <param name="year">The current year</param>
+        /// <returns>A list of observed holidays</returns>
+        IList<Holiday> PublicHolidaysInformation(int year);
+
+        /// <summary>
         /// Get a list of dates with names for all holidays in a year.
         /// </summary>
         /// <param name="year">The year.</param>

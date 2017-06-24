@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace PublicHoliday
 {
@@ -7,36 +9,22 @@ namespace PublicHoliday
     /// </summary>
     public class Holiday
     {
-        private readonly IPublicHolidays _holidayCalendar;
 
         /// <summary>
         /// Constructs the holiday
         /// </summary>
-        /// <param name="holidayCalendar">A holiday calendar object</param>
         /// <param name="date">The date of the current holiday</param>
-        /// <param name="name">The name of the current holiday</param>
-        public Holiday(IPublicHolidays holidayCalendar, DateTime date, string name)
+        /// <param name="observedDate">The date the current holiday is obesrved on</param>
+        public Holiday(DateTime date, DateTime observedDate)
         {
-            this._holidayCalendar = holidayCalendar;
             this.HolidayDate = date;
-            this.Name = name;
+            this.ObservedDate = observedDate;
         }
 
         /// <summary>
-        /// The previous working day for the holiday
+        /// The date the Holiday is actually observed on
         /// </summary>
-        public DateTime PreviousWorkingDay
-        {
-            get { return _holidayCalendar.PreviousWorkingDay(HolidayDate); }
-        }
-
-        /// <summary>
-        /// The next working day after the holiday
-        /// </summary>
-        public DateTime NextWorkingDay
-        {
-            get { return _holidayCalendar.NextWorkingDay(HolidayDate); }
-        }
+        public DateTime ObservedDate { get; set; }
 
         /// <summary>
         /// Date for the current holiday
@@ -44,8 +32,12 @@ namespace PublicHoliday
         public DateTime HolidayDate { get; set; }
 
         /// <summary>
-        /// Name of the current holiday
+        /// Implicitly casts a holiday as its observed date
         /// </summary>
-        public string Name { get; set; }
+        /// <param name="h">The holiday</param>
+        public static implicit operator DateTime(Holiday h)
+        {
+            return h.ObservedDate;
+        }
     }
 }
