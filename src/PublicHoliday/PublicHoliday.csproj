@@ -7,7 +7,7 @@
     <AssemblyName>PublicHoliday</AssemblyName>
     <PackageId>PublicHoliday</PackageId>
     <PackageTags>Holiday</PackageTags>
-    <PackageReleaseNotes>1.8.0: Added CZ and ECB (thanks @petergaal)</PackageReleaseNotes>
+    <PackageReleaseNotes>2.0: Added PublicHolidaysInformation (thanks @msmells). Static individual holiday methods return a Holiday with actual and observed dates (may be different if Saturday/Sundays and country shifts days)</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
@@ -21,7 +21,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>1.9.0</Version>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net35' ">

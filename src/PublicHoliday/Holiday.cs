@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PublicHoliday
 {
@@ -9,7 +7,6 @@ namespace PublicHoliday
     /// </summary>
     public class Holiday
     {
-
         /// <summary>
         /// Constructs the holiday
         /// </summary>
@@ -17,8 +14,8 @@ namespace PublicHoliday
         /// <param name="observedDate">The date the current holiday is obesrved on</param>
         public Holiday(DateTime date, DateTime observedDate)
         {
-            this.HolidayDate = date;
-            this.ObservedDate = observedDate;
+            HolidayDate = date;
+            ObservedDate = observedDate;
         }
 
         /// <summary>

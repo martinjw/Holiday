@@ -25,7 +25,7 @@ namespace PublicHoliday
         /// <returns>A list of observed holidays</returns>
         public virtual IList<Holiday> PublicHolidaysInformation(int year)
         {
-            return new List<Holiday>();
+            return PublicHolidays(year).Select(d => new Holiday(d, d)).ToList();
         }
 
         /// <summary>

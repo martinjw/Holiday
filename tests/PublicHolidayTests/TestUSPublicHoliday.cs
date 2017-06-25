@@ -215,5 +215,18 @@ namespace PublicHolidayTests
             Assert.AreEqual(10, result.Count);
             Assert.IsTrue(result.Contains(thanksgiving));
         }
+
+        [TestMethod]
+        public void TestPublicHolidayInformation()
+        {
+            var usaPublicHoliday = new USAPublicHoliday();
+            var hols = usaPublicHoliday.PublicHolidays(2017);
+            var infos = usaPublicHoliday.PublicHolidaysInformation(2017);
+            Assert.AreEqual(hols.Count, infos.Count);
+            foreach (var info in infos)
+            {
+                Assert.IsTrue(hols.Contains(info), "observed date is implicitly in both lists");
+            }
+        }
     }
 }
