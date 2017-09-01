@@ -54,7 +54,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="dt">The date you wish to check</param>
         /// <returns>A date that is a working day</returns>
-        public DateTime PreviousWorkingDay(DateTime dt)
+        public virtual DateTime PreviousWorkingDay(DateTime dt)
         {
             return HolidayCalculator.PreviousWorkingDay(this, dt);
         }
