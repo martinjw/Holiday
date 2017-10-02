@@ -1,6 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
+using System;
 
 namespace PublicHolidayTests
 {
@@ -23,7 +23,37 @@ namespace PublicHolidayTests
             var holiday = new DateTime(2017, month, day);
             var holidayCalendar = new NewZealandPublicHoliday();
             var actual = holidayCalendar.IsPublicHoliday(holiday);
-            Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday - should be {name}");
+            Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be {name}");
+        }
+
+        [TestMethod]
+        public void TestChristmasAndBoxingDayLandingOnTheEntireWeekend()
+        {
+            Assert.AreEqual(new DateTime(2021, 12, 27), NewZealandPublicHoliday.Christmas(2021));
+            Assert.AreEqual(new DateTime(2021, 12, 28), NewZealandPublicHoliday.BoxingDay(2021));
+        }
+
+        [TestMethod]
+        public void TestChristmasOnSundayWithBoxingOnMonday()
+        {
+            Assert.AreEqual(new DateTime(2016, 12, 26), NewZealandPublicHoliday.Christmas(2016));
+            Assert.AreEqual(new DateTime(2016, 12, 27), NewZealandPublicHoliday.BoxingDay(2016));
+        }
+
+        [TestMethod]
+        public void TestBoxingDayLandingOnSaturday()
+        {
+            var actual = NewZealandPublicHoliday.BoxingDay(2020);
+            var expected = new DateTime(2020, 12, 28);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void AnzacDayIsObservedToMonday()
+        {
+            var actual = NewZealandPublicHoliday.AnzacDay(2020);
+            var expected = new DateTime(2020, 4, 27); // Observed to Monday the 27th.
+            Assert.AreEqual(expected, actual);
         }
 
         [TestMethod]
