@@ -29,6 +29,7 @@ namespace PublicHoliday
             var ny = NewYear(year); //may be shifted to Monday, so we have to add a day
             return HolidayCalculator.FixWeekend(ny.AddDays(1));
         }
+
         /// <summary>
         /// Waitangi Day - 6th February
         /// </summary>
@@ -38,6 +39,7 @@ namespace PublicHoliday
         {
             return HolidayCalculator.FixWeekend(new DateTime(year, 2, 6));
         }
+
         /// <summary>
         /// Good Friday (Friday before Easter)
         /// </summary>
@@ -48,6 +50,7 @@ namespace PublicHoliday
             var easter = HolidayCalculator.GetEaster(year);
             return GoodFriday(easter);
         }
+
         private static DateTime GoodFriday(DateTime easter)
         {
             return easter.AddDays(-2);
@@ -70,13 +73,15 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// ANZAC day, 25th April
+        /// ANZAC day, 25th April. 
+        /// Unless it falls on a weekend and then it becomes a Monday holiday.
         /// </summary>
         /// <param name="year"></param>
 
         public static DateTime AnzacDay(int year)
         {
-            return new DateTime(year, 4, 25);
+            var anzac = new DateTime(year, 4, 25);
+            return year >= 2015 ? HolidayCalculator.FixWeekend(anzac) : anzac;
         }
 
         /// <summary>
@@ -112,13 +117,17 @@ namespace PublicHoliday
         /// <summary>
         /// Boxing Day
         /// </summary>
+        /// <remarks>
+        /// If boxing day lands on a Sunday then the public holiday must be observed on the following Tuesday.
+        /// So xmas and boxing days can be both Saturday and Sunday, followed by public holidays for both Monday and Tuesday.
+        /// </remarks>
         /// <param name="year"></param>
         /// <returns></returns>
         public static DateTime BoxingDay(int year)
         {
-            return HolidayCalculator.FixWeekend(new DateTime(year, 12, 26));
+            var xmas = Christmas(year); // May be shifted to Monday, so we have to add a day.
+            return HolidayCalculator.FixWeekend(xmas.AddDays(1));
         }
-
 
         /// <summary>
         /// Get a list of dates for all holidays in a year.
