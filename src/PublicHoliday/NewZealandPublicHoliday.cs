@@ -80,7 +80,8 @@ namespace PublicHoliday
 
         public static DateTime AnzacDay(int year)
         {
-            return HolidayCalculator.FixWeekend(new DateTime(year, 4, 25));
+            var anzac = new DateTime(year, 4, 25);
+            return year >= 2015 ? HolidayCalculator.FixWeekend(anzac) : anzac;
         }
 
         /// <summary>

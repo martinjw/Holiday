@@ -48,6 +48,22 @@ namespace PublicHolidayTests
             Assert.AreEqual(expected, actual);
         }
 
+		 [TestMethod]
+        public void AnzacDayIsNotObservedToMonday()
+        {
+            var actual = NewZealandPublicHoliday.AnzacDay(2010);
+            var expected = new DateTime(2010, 4, 25);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void AnzacDayIsObservedToMondayFromChangeInLaw()
+        {
+            var actual = NewZealandPublicHoliday.AnzacDay(2015);
+            var expected = new DateTime(2015, 4, 27);
+            Assert.AreEqual(expected, actual);
+        }
+		
         [TestMethod]
         public void AnzacDayIsObservedToMonday()
         {
