@@ -212,7 +212,11 @@ namespace PublicHoliday
                 //Ascension in 2012 is 17 May - same as Consitition Day
                 bHols.Add(ascension, "Kristi himmelfartsdag");
             }
-            bHols.Add(WhitSunday(easter), "Første pinsedag");
+            var whitSunday = WhitSunday(easter);
+            if (!bHols.ContainsKey(whitSunday))
+            {
+                bHols.Add(whitSunday, "Første pinsedag");
+            }
             bHols.Add(WhitMonday(easter), "Andre pinsedag");
             bHols.Add(Christmas(year), "Første juledag");
             bHols.Add(BoxingDay(year), "Andre juledag");
