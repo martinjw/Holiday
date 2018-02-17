@@ -124,11 +124,8 @@ namespace PublicHoliday
         /// <returns></returns>
         public static Holiday Thanksgiving(int year)
         {
-            var hol = new DateTime(year, 11, 23);
-            while (hol.DayOfWeek != DayOfWeek.Thursday)
-            {
-                hol = hol.AddDays(1);
-            }
+            var hol = new DateTime(year, 11, 22);
+            hol = HolidayCalculator.FindOccurrenceOfDayOfWeek(hol, DayOfWeek.Thursday, 1);
             return new Holiday(hol, hol);
         }
 
