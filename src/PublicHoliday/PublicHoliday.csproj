@@ -7,8 +7,7 @@
     <AssemblyName>PublicHoliday</AssemblyName>
     <PackageId>PublicHoliday</PackageId>
     <PackageTags>Holiday</PackageTags>
-    <PackageReleaseNotes>2.0: Added PublicHolidaysInformation (thanks @msmells). Static individual holiday methods return a Holiday with actual and observed dates (may be different if Saturday/Sundays and country shifts days)
-Fix Anzac day (NZ) -thanks @shanerogers</PackageReleaseNotes>
+    <PackageReleaseNotes>2.0.1: Fix for US Thanksgiving (thanks @yschiller)</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
@@ -22,7 +21,7 @@ Fix Anzac day (NZ) -thanks @shanerogers</PackageReleaseNotes>
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
   </PropertyGroup>
   <PropertyGroup>
     <FrameworkPathOverride Condition="'$(TargetFramework)' == 'net35'">C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client</FrameworkPathOverride>
