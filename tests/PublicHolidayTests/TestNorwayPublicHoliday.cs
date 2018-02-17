@@ -141,5 +141,12 @@ namespace PublicHolidayTests
             var actual = NorwayPublicHoliday.BoxingDay(2015);
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void Test2043()
+        {
+            //Constitution Day falls on the same day as the Whit Sunday holiday - Sunday 17th May 2043
+            var hols = new NorwayPublicHoliday().PublicHolidays(2043);
+        }
     }
 }

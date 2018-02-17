@@ -12,6 +12,14 @@ namespace PublicHolidayTests
     public class TestUSPublicHoliday
     {
         [TestMethod]
+        public void TestThanksgiving2018()
+        {
+            var expected = new DateTime(2018, 11, 22);
+            var actual = USAPublicHoliday.Thanksgiving(2018);
+            Assert.AreEqual(expected, actual);
+        }
+
+         [TestMethod]
         public void TestNewYear2004()
         {
             var expected = new DateTime(2004, 1, 1);
