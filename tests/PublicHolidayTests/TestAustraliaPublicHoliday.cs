@@ -160,5 +160,16 @@ namespace PublicHolidayTests
             var actual = holidayCalendar.IsPublicHoliday(holiday);
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday - should be {name}");
         }
+
+
+        [TestMethod]
+        public void TestAustralianNSW2016Lists()
+        {
+            var holidayCalendar = new AustraliaPublicHoliday { State = AustraliaPublicHoliday.States.NSW };
+            var hols = holidayCalendar.PublicHolidays(2016);
+            var holNames = holidayCalendar.PublicHolidayNames(2016);
+            Assert.IsTrue(9 == hols.Count, "Should be 9 holidays in 2016");
+            Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+        }
     }
 }

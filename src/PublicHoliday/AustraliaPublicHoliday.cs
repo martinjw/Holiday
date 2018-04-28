@@ -290,7 +290,15 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime BoxingDay(int year)
         {
-            return HolidayCalculator.FixWeekend(new DateTime(year, 12, 26));
+            DateTime hol = new DateTime(year, 12, 26);
+            //if Xmas=Sun, it's shifted to Mon and 26 also gets shifted
+            bool isSundayOrMonday =
+                hol.DayOfWeek == DayOfWeek.Sunday ||
+                hol.DayOfWeek == DayOfWeek.Monday;
+            hol = HolidayCalculator.FixWeekend(hol);
+            if (isSundayOrMonday)
+                hol = hol.AddDays(1);
+            return hol;
         }
 
         #endregion Individual Holidays
