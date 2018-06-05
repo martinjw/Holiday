@@ -23,6 +23,16 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// January 2, Berchtoldstag
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns>Date of this holiday in given year</returns>
+        public static DateTime SecondJanuary(int year)
+        {
+            return new DateTime(year, 1, 2);
+        }
+
+        /// <summary>
         /// Epiphany - 13 days after christmas
         /// </summary>
         /// <param name="year">The year.</param>
@@ -138,7 +148,7 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Fronleichnam - CorpusChristi
+        /// Fronleichnam - Corpus Christi
         /// </summary>
         /// <param name="year"></param>
         public static DateTime CorpusChristi(int year)
@@ -147,6 +157,16 @@ namespace PublicHoliday
             //first Thursday after Trinity Sunday (Pentecost + 1 week)
             hol = hol.AddDays((7 * 8) + 4);
             return hol;
+        }
+
+        /// <summary>
+        /// Fronleichnam - Corpus Christi
+        /// </summary>
+        /// <param name="easter"></param>
+        /// <returns></returns>
+        public static DateTime CorpusChristi(DateTime easter)
+        {
+            return easter.AddDays((7 * 8) + 4);
         }
 
         /// <summary>
@@ -255,8 +275,9 @@ namespace PublicHoliday
                 {Christmas(year), "Weihnachten"},
                 {BoxingDay(year), "Stephanstag"},
             };
+            if (_hasSecondJanuary) bHols.Add(SecondJanuary(year), "Berchtoldstag");
             if (_hasLaborDay) bHols.Add(LabourDay(year), "Tag der Arbeit");
-            if (_hasCorpusChristi) bHols.Add(CorpusChristi(year), "Fronleichnam");
+            if (_hasCorpusChristi) bHols.Add(CorpusChristi(easter), "Fronleichnam");
             if (_hasChristmasEve) bHols.Add(ChristmasEve(year), "Heiligabend");
             if (_hasNewYearsEve) bHols.Add(NewYearsEve(year), "Silvester");
 
@@ -277,6 +298,7 @@ namespace PublicHoliday
 
 
         // For constructor
+        private bool _hasSecondJanuary = false;
         private bool _hasLaborDay = false;
         private bool _hasCorpusChristi = false;
         private bool _hasChristmasEve = false;
@@ -285,16 +307,19 @@ namespace PublicHoliday
         /// <summary>
         /// Constructor for two major Swiss variants: 
         /// </summary>
+        /// <param name="hasSecondJanuary"></param>
         /// <param name="hasLaborDay"></param>
         /// <param name="hasCorpusChristi"></param>
         /// <param name="hasChristmasEve"></param>
         /// <param name="hasNewYearsEve"></param>
         public SwitzerlandPublicHoliday(
+            bool hasSecondJanuary = false,
             bool hasLaborDay = false,
             bool hasCorpusChristi = false,
             bool hasChristmasEve = false,
             bool hasNewYearsEve = false)
         {
+            _hasSecondJanuary = hasSecondJanuary;
             _hasLaborDay = hasLaborDay;
             _hasCorpusChristi = hasCorpusChristi;
             _hasChristmasEve = hasChristmasEve;
