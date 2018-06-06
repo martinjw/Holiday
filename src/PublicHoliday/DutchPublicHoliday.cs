@@ -4,6 +4,9 @@ using System.Linq;
 
 namespace PublicHoliday
 {
+    /// <summary>
+    /// Holiday calendar for the Netherlands
+    /// </summary>
     public class DutchPublicHoliday : PublicHolidayBase
     {
 
