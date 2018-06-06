@@ -11,7 +11,7 @@ namespace PublicHolidayTests
         {
             var easterMonday = new DateTime(2017, 4, 17);
             var result = new SwitzerlandPublicHoliday().PublicHolidayNames(2017);
-            Assert.AreEqual(16, result.Count);
+            Assert.AreEqual(10, result.Count);
             Assert.IsTrue(result.ContainsKey(easterMonday));
         }
 
@@ -140,11 +140,11 @@ namespace PublicHolidayTests
 
         [TestMethod]
         public void TestIsPublicHoliday2017() {
-            var h = new SwitzerlandPublicHoliday();
+            var h = new SwitzerlandPublicHoliday(hasLaborDay:true, hasNewYearsEve:true);
 
             Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 1, 1)));
             Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 1, 2)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 1, 5)));
+            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 1, 6)));
             Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 4, 13)));
             Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 4, 14)));
             Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 4, 16)));
@@ -155,14 +155,10 @@ namespace PublicHolidayTests
             Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 5, 24)));
             Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 5, 25)));
             Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 5, 26)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 6, 5)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 6, 6)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 6, 23)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 6, 24)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 11, 3)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 11, 4)));
+            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 7, 31)));
+            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 8, 1)));
             Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 12, 23)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 12, 24)));
+            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 12, 24)));
             Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 12, 25)));
             Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 12, 26)));
             Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 12, 30)));

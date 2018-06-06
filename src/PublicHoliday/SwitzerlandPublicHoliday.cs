@@ -176,7 +176,7 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime NationalDay(int year)
         {
-            return new DateTime(year, 1, 8);
+            return new DateTime(year, 8, 1);
         }
 
         /// <summary>
