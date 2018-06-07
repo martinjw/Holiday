@@ -43,6 +43,7 @@ There are libraries for:
   - Slovakia : SlovakiaPublicHoliday
   - Spain : SpainPublicHoliday
   - Sweden : SwedenPublicHoliday
+  - Switzerland: SwitzerlandPublicHoliday
   - UK : UKBankHoliday
 - E. Europe/Asia
   - Kazakhstan : KazakhstanPublicHoliday
@@ -84,6 +85,14 @@ In **Germany** specify the state using an enum (the ISO code)
 var calendar = new GermanPublicHoliday { State = GermanPublicHoliday.States.SN };
 IList<DateTime> result = calendar.PublicHolidays(2017);
 //result contains 22 November 2017, Repentance and Prayer Day
+```
+
+In **Switzerland** the calendar comes with holidays valid in all the country. Add further ones depending on your local rules in the constructor. Choices: hasSecondJanuary, hasLaborDay, hasCorpusChristi, hasChristmasEve, hasNewYearsEve.
+```C#
+var calendar = SwitzerlandPublicHoliday(hasLaborDay:true);
+var laborDay = new DateTime(2017, 5, 1);
+//yes it is
+var isHoliday = calendar.IsPublicHoliday(laborDay);
 ```
 
 In **Australia** most holidays are defined by the state or territory. Specify the state using an enum (the ISO code).
