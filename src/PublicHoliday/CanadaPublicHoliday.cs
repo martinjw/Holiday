@@ -531,6 +531,10 @@ namespace PublicHoliday
             return PublicHolidays(year).Contains(date);
         }
 
+        /// <summary>
+        /// Constructor with province option
+        /// </summary>
+        /// <param name="province"></param>
         public CanadaPublicHoliday(string province = null) : base()
         {
             Province = province;

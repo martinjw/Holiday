@@ -52,6 +52,7 @@
     <Compile Include="TestSwedenPublicHoliday.cs" />
     <Compile Include="TestNorwayPublicHoliday.cs" />
     <Compile Include="TestSpainPublicHoliday.cs" />
+    <Compile Include="TestSwitzerlandPublicHoliday.cs" />
     <Compile Include="TestUKBankHoliday.cs" />
     <Compile Include="TestUSPublicHoliday.cs" />
     <Compile Include="TestFrancePublicHoliday.cs" />
