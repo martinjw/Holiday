@@ -175,6 +175,15 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
+        public void BritishColumbiaFamilyDay2019Test()
+        {
+            var cph = new CanadaPublicHoliday("BC");
+
+            var isFamilyDay = cph.IsPublicHoliday(new DateTime(2019, 2, 18));
+            Assert.IsTrue(isFamilyDay);
+        }
+
+        [TestMethod]
         public void StPatricksTest()
         {
             var stPattys = CanadaPublicHoliday.StPatricksDay(2016);

@@ -21,7 +21,7 @@ namespace PublicHoliday
         /// <summary>
         /// The province
         /// </summary>
-        public string Province { get; set;  }
+        public string Province { get; set; }
 
         #region Individual Holidays
 
@@ -46,7 +46,9 @@ namespace PublicHoliday
         public static DateTime FamilyDay(int year, string province = null)
         {
             var hol = new DateTime(year, 2, 1);
-            if (province == "BC")
+            //Starting in 2019, the B.C. Family Day holiday will be on the third Monday of February, moving it in line with other provinces in Canada.
+            //#32 thanks @ericyang97
+            if (province == "BC" && year < 2019)
                 hol = HolidayCalculator.FindOccurrenceOfDayOfWeek(hol, DayOfWeek.Monday, 2);
             else
                 hol = HolidayCalculator.FindOccurrenceOfDayOfWeek(hol, DayOfWeek.Monday, 3);
@@ -58,10 +60,11 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="province"></param>
         /// <returns></returns>
-        public static bool HasFamilyDay(string province = null)
+        public static bool HasFamilyDay(int year, string province = null)
         {
-            string[] provs = { "AB", "BC", "MB", "NS", "ON", "PE", "SK" };
-            if (Array.IndexOf(provs, province) > -1)
+            var provs = new List<string> { "AB", "BC", "MB", "NS", "ON", "PE", "SK" };
+            if(year >= 2018) provs.Add("NB"); //New Brunswick added Family Day in 2018
+            if (provs.Contains(province))
                 return true;
             else return false;
         }
@@ -456,7 +459,7 @@ namespace PublicHoliday
             var bHols = new Dictionary<DateTime, string>();
             bHols.Add(NewYear(year), "New Year");
 
-            if (HasFamilyDay(Province))
+            if (HasFamilyDay(year, Province))
                 bHols.Add(FamilyDay(year, Province), "Family Day");
 
             if (HasStPatricksDay(Province))
@@ -465,13 +468,13 @@ namespace PublicHoliday
             var easter = HolidayCalculator.GetEaster(year);
             bHols.Add(GoodFriday(easter), "Good Friday");
 
-            if(HasEasterMonday(Province))
+            if (HasEasterMonday(Province))
                 bHols.Add(EasterMonday(easter), "Easter Monday");
 
             if (HasStGeorgesDay(Province))
                 bHols.Add(StGeorgesDay(year), "Saint George's Day");
 
-            if(HasVictoriaDay(Province))
+            if (HasVictoriaDay(Province))
                 bHols.Add(VictoriaDay(year), "Victoria Day");
 
             if (HasAboriginalDay(Province))
@@ -497,12 +500,12 @@ namespace PublicHoliday
             bHols.Add(LabourDay(year), "Labour Day");
             bHols.Add(Thanksgiving(year), "Thanksgiving");
 
-            if(HasRememberanceDay(Province))
+            if (HasRememberanceDay(Province))
                 bHols.Add(RemembranceDay(year), "Remembrance Day");
 
             bHols.Add(Christmas(year), "Christmas");
 
-            if(HasBoxingDay(Province))
+            if (HasBoxingDay(Province))
                 bHols.Add(BoxingDay(year), "Boxing Day");
 
             return bHols;
