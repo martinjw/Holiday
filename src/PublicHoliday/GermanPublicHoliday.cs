@@ -312,6 +312,23 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Whether this state observes Womens Day/Weltfrauentag (March 8)
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public bool HasWomensDay(int year) => State == States.BE && year >= 2019;
+
+        /// <summary>
+        /// International Women's Day/ Weltfrauentag
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime WomensDay(int year)
+        {
+            return new DateTime(year, 3, 8);
+        }
+
+        /// <summary>
         /// List of federal and state holidays (for defined <see cref="State"/>)
         /// </summary>
         /// <param name="year">The year.</param>
@@ -320,6 +337,7 @@ namespace PublicHoliday
         {
             var bHols = new List<DateTime> { NewYear(year) };
             if (HasEpiphany) bHols.Add(Epiphany(year));
+            if (HasWomensDay(year)) bHols.Add(WomensDay(year));
             bHols.Add(GoodFriday(year));
             bHols.Add(EasterMonday(year));
             bHols.Add(MayDay(year));
@@ -348,6 +366,7 @@ namespace PublicHoliday
         {
             var bHols = new Dictionary<DateTime, string> { { NewYear(year), "Neujahrstag" } };
             if (HasEpiphany) bHols.Add(Epiphany(year), "Heilige Drei Könige");
+            if (HasWomensDay(year)) bHols.Add(WomensDay(year), "Weltfrauentag");
             bHols.Add(GoodFriday(year), "Karfreitag");
             bHols.Add(EasterMonday(year), "Ostermontag");
             bHols.Add(MayDay(year), "Tag der Arbeit");
@@ -387,6 +406,8 @@ namespace PublicHoliday
 
                 case 3:
                 case 4:
+                    if (HasWomensDay(year) && WomensDay(year) == date)
+                        return true;
                     if (GoodFriday(year) == date)
                         return true;
                     if (EasterMonday(year) == date)
