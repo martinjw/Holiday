@@ -8,7 +8,8 @@
     <PackageId>PublicHoliday</PackageId>
     <PackageTags>Holiday</PackageTags>
     <PackageReleaseNotes>2.0.2: Fix for AU-NSW-2016 (thanks @dotnetshadow)
-2.0.3: Canada BC changing family day from 2019</PackageReleaseNotes>
+2.0.3: Canada BC changing family day from 2019
+2.0.4: UK Early May Day 2020 moved (thanks @skipishere)</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
