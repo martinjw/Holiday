@@ -70,6 +70,9 @@ namespace PublicHoliday
             if (year < 1978) return null;
             if (year == 1995)
                 return new DateTime(1995, 5, 8); //1995 moved for 50th anniversary of VE day
+            if (year == 2020)
+                return new DateTime(2020, 5, 8); // 2020 moved for 75th anniversary of VE day
+            
             DateTime hol = new DateTime(year, 5, 1);
             hol = HolidayCalculator.FindFirstMonday(hol);
             return hol;
