@@ -266,7 +266,7 @@ namespace PublicHoliday
                         return true;
                     break;
                 case 5:
-                    if (dt.DayOfWeek != DayOfWeek.Monday)
+                    if (dt.DayOfWeek != DayOfWeek.Monday && year != 2020)
                         return false;
                     if (MayDay(year) == date)
                         return true;
