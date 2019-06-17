@@ -77,6 +77,16 @@ namespace PublicHolidayTests
         }
 
         /// <summary>
+        /// Test May Day in 2020 (Moved to the 8th/May)
+        /// </summary>
+        [TestMethod]
+        public void TestMayDay2020IsNotMonday()
+        {
+            var veDay = UKBankHoliday.MayDay(2020).GetValueOrDefault();
+            Assert.IsTrue(new UKBankHoliday().IsBankHoliday(veDay));
+        }
+
+        /// <summary>
         /// New Year is a Sunday, so bank holiday is Monday
         /// </summary>
         [TestMethod]
