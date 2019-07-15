@@ -84,6 +84,7 @@ namespace PublicHoliday
         /// <summary>
         /// Returns whether the specified date is a working day
         /// </summary>
+        /// <param name="holidayCalendar">The holiday calendar.</param>
         /// <param name="dt">The date to be checked</param>
         /// <returns>Returns a boolean of whether the specified date is a working day</returns>
         public static bool IsWorkingDay(IPublicHolidays holidayCalendar, DateTime dt)
