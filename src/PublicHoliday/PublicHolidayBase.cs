@@ -23,7 +23,7 @@ namespace PublicHoliday
         /// <summary>
         /// Returns whether the specified date is a working day
         /// </summary>
-        /// <param name="dt"></param>
+        /// <param name="dt">The date to be checked</param>
         /// <returns>Returns a boolean of whether the specified date is a working day</returns>
         public virtual bool IsWorkingDay(DateTime dt)
         {
