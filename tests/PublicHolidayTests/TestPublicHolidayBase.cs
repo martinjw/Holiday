@@ -9,6 +9,13 @@ namespace PublicHolidayTests
     public class TestPublicHolidayBase
     {
         [TestMethod]
+        public void TestUSAHolidayIsWorkingDay()
+        {
+            var result = new USAPublicHoliday().IsWorkingDay(new DateTime(2019, 7, 15));
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
         public void TestUSAHolidayThreeYearDateRange()
         {
             var holidayCalendar = new USAPublicHoliday();
