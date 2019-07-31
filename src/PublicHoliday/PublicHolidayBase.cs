@@ -12,6 +12,25 @@ namespace PublicHoliday
     public abstract class PublicHolidayBase : IPublicHolidays
     {
         /// <summary>
+        /// Returns whether todays date is a working day
+        /// </summary>
+        /// <returns>A boolean of whether today is a working day</returns>
+        public virtual bool IsWorkingDay()
+        {
+            return IsWorkingDay(DateTime.Now);
+        }
+
+        /// <summary>
+        /// Returns whether the specified date is a working day
+        /// </summary>
+        /// <param name="dt">The date to be checked</param>
+        /// <returns>Returns a boolean of whether the specified date is a working day</returns>
+        public virtual bool IsWorkingDay(DateTime dt)
+        {
+            return HolidayCalculator.IsWorkingDay(this, dt);
+        }
+
+        /// <summary>
         /// Get a list of dates for all holidays in a year.
         /// </summary>
         /// <param name="year">The year.</param>

@@ -82,6 +82,19 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Returns whether the specified date is a working day
+        /// </summary>
+        /// <param name="holidayCalendar">The holiday calendar.</param>
+        /// <param name="dt">The date to be checked</param>
+        /// <returns>Returns a boolean of whether the specified date is a working day</returns>
+        public static bool IsWorkingDay(IPublicHolidays holidayCalendar, DateTime dt)
+        {
+            return dt.DayOfWeek != DayOfWeek.Saturday &&
+                dt.DayOfWeek != DayOfWeek.Sunday &&
+                !holidayCalendar.IsPublicHoliday(dt);
+        }
+
+        /// <summary>
         /// Returns the next working day (Mon-Fri, not public holiday)
         /// after the specified date (or the same date)
         /// </summary>
@@ -99,9 +112,7 @@ namespace PublicHoliday
             while (isWorkingDay == false)
             {
                 //Mon-Fri and not bank holiday, it's okay
-                if (dt.DayOfWeek != DayOfWeek.Saturday &&
-                    dt.DayOfWeek != DayOfWeek.Sunday &&
-                    !holidayCalendar.IsPublicHoliday(dt))
+                if (IsWorkingDay(holidayCalendar, dt))
                     isWorkingDay = true;
                 //it's Saturday, so skip to Monday
                 else if (dt.DayOfWeek == DayOfWeek.Saturday)
