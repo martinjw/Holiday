@@ -73,7 +73,7 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestSaxonyRepetanceDay()
+        public void TestSaxonyRepentenceDay()
         {
             var actual = GermanPublicHoliday.Repentance(2017);
             Assert.AreEqual(new DateTime(2017, 11, 22), actual);
@@ -83,6 +83,21 @@ namespace PublicHolidayTests
 
             var calendar2 = new GermanPublicHoliday { State = GermanPublicHoliday.States.HE };
             Assert.IsFalse(calendar2.HasRepentance);
+        }
+
+        [TestMethod]
+        public void TestThüringenChildrensDay()
+        {
+            var calendar = new GermanPublicHoliday { State = GermanPublicHoliday.States.SN };
+            Assert.IsFalse(calendar.HasWorldChildrensDay(2019));
+
+            var calendar2 = new GermanPublicHoliday { State = GermanPublicHoliday.States.TH };
+            //did not have official holiday in 2018
+            Assert.IsFalse(calendar2.HasWorldChildrensDay(2018));
+            Assert.IsFalse(calendar2.PublicHolidays(2018).Contains(new DateTime(2018, 9, 20)));
+            //introduced official holiday in 2019
+            Assert.IsTrue(calendar2.HasWorldChildrensDay(2019));
+            Assert.IsTrue(calendar2.PublicHolidays(2019).Contains(new DateTime(2019, 9, 20)));
         }
     }
 }

@@ -229,6 +229,27 @@ namespace PublicHoliday
         public bool HasAssumption => States.SL == State;
 
         /// <summary>
+        /// Kindertag - World Children's Day
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime WorldChildrensDay(int year)
+        {
+            return new DateTime(year, 9, 20);
+        }
+
+        /// <summary>
+        /// Whether this state observes Kindertag
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public bool HasWorldChildrensDay(int year)
+        {
+            return (year >= 2019 && State == States.TH);
+        }
+
+
+        /// <summary>
         /// Tag der Deutschen Einheit - German Unity
         /// </summary>
         /// <param name="year"></param>
@@ -252,7 +273,7 @@ namespace PublicHoliday
         /// <value>
         /// <c>true</c> if this state observes Reformationstag; otherwise, <c>false</c>.
         /// </value>
-        public bool HasReformation => Array.IndexOf(new[] { States.BB, States.MV, States.SN, States.ST, States.TH }, State) > -1;
+        public bool HasReformation => Array.IndexOf(new[] { States.BB, States.MV, States.SN, States.ST, States.TH, States.HB, States.HH, States.NI, States.SH }, State) > -1;
 
         /// <summary>
         /// Allerheiligen - All Saints
@@ -345,6 +366,7 @@ namespace PublicHoliday
             bHols.Add(PentecostMonday(year));
             if (HasCorpusChristi) bHols.Add(CorpusChristi(year));
             if (HasAssumption) bHols.Add(Assumption(year));
+            if (HasWorldChildrensDay(2019)) bHols.Add(WorldChildrensDay(2019));
             bHols.Add(GermanUnity(year));
             //All states observe Reformation in 2017, 500th anniversary
             if (HasReformation || year == 2017) bHols.Add(Reformation(year));
@@ -374,6 +396,7 @@ namespace PublicHoliday
             bHols.Add(PentecostMonday(year), "Pfingstmontag");
             if (HasCorpusChristi) bHols.Add(CorpusChristi(year), "Fronleichnam");
             if (HasAssumption) bHols.Add(Assumption(year), "Mariä Himmelfahrt");
+            if (HasWorldChildrensDay(2019)) bHols.Add(WorldChildrensDay(2019), "Kindertag");
             bHols.Add(GermanUnity(year), "Tag der Deutschen Einheit");
             if (HasReformation || year == 2017) bHols.Add(Reformation(year), "Reformationstag");
             if (HasAllSaints) bHols.Add(AllSaints(year), "Allerheiligen");
@@ -428,6 +451,11 @@ namespace PublicHoliday
 
                 case 8:
                     if (HasAssumption && Assumption(year) == date)
+                        return true;
+                    break;
+
+                case 9:
+                    if (HasWorldChildrensDay(year) && WorldChildrensDay(year) == date)
                         return true;
                     break;
 
