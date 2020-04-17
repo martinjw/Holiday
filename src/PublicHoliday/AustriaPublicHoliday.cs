@@ -169,7 +169,7 @@ namespace PublicHoliday
         /// <returns>List of public holidays</returns>
         public override IList<DateTime> PublicHolidays(int year)
         {
-            return PublicHolidayNames(year).Select(x => x.Key).OrderBy(x => x).ToList();
+            return PublicHolidayNames(year).Select(x => x.Key.Date).OrderBy(x => x).ToList();
         }
 
         /// <summary>
@@ -184,8 +184,11 @@ namespace PublicHoliday
                 { Epiphany(year), "Heilige Drei Könige" } };
             DateTime easter = HolidayCalculator.GetEaster(year);
             bHols.Add(EasterMonday(easter), "Ostermontag");
-            bHols.Add(LabourDay(year), "Staatsfeiertag");
-            bHols.Add(Ascension(easter), "Christi Himmelfahrt");
+            var mayday = LabourDay(year);
+            bHols.Add(mayday, "Staatsfeiertag");
+            var ascension = Ascension(easter);
+            if (ascension == mayday) ascension = ascension.AddSeconds(1); //ascension can fall on Mayday
+            bHols.Add(ascension, "Christi Himmelfahrt");
             bHols.Add(PentecostMonday(easter), "Pfingstmontag");
             bHols.Add(CorpusChristi(year), "Fronleichnam");
             bHols.Add(Assumption(year), "Mariä Himmelfahrt");
