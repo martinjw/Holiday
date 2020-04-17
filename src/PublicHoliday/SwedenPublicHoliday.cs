@@ -221,7 +221,7 @@ namespace PublicHoliday
         /// <returns>List of public holidays</returns>
         public override IList<DateTime> PublicHolidays(int year)
         {
-            return PublicHolidayNames(year).Select(x => x.Key).OrderBy(x => x).ToList();
+            return PublicHolidayNames(year).Select(x => x.Key.Date).OrderBy(x => x).ToList();
         }
 
         /// <summary>
@@ -231,17 +231,20 @@ namespace PublicHoliday
         /// <returns></returns>
         public override IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
-            DateTime easter = HolidayCalculator.GetEaster(year);
+            var easter = HolidayCalculator.GetEaster(year);
 
+            var labourDay = LabourDay(year);
+            var ascension = Ascension(easter);
+            if (ascension == labourDay) ascension = ascension.AddSeconds(1); //ascension can fall on Mayday
             var bHols = new Dictionary<DateTime, string>
             {
                 {NewYear(year), "Nyårsdagen"},
                 {Epiphany(year), "Trettondag jul"},
                 {GoodFriday(easter), "Långfredag"},
-                {easter, "Påskdagen"},
+                { easter, "Påskdagen"},
                 {EasterMonday(easter), "Annandag påsk"},
-                {LabourDay(year), "Första maj"},
-                {Ascension(easter), "Kristi himmelfärds dag"},
+                { labourDay, "Första maj"},
+                {ascension, "Kristi himmelfärds dag"},
                 {WhitSunday(easter), "Pingstdagen"},
                 {NationalDay(year), "Nationaldagen"},
                 {MidsummerEve(year), "Midsommarafton"},

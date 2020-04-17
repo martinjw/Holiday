@@ -139,7 +139,7 @@ namespace PublicHoliday
         /// <returns>List of public holidays</returns>
         public override IList<DateTime> PublicHolidays(int year)
         {
-            return PublicHolidayNames(year).Select(x => x.Key).OrderBy(x => x).ToList();
+            return PublicHolidayNames(year).Select(x => x.Key.Date).OrderBy(x => x).ToList();
         }
 
         /// <summary>
@@ -151,9 +151,12 @@ namespace PublicHoliday
         {
             var bHols = new Dictionary<DateTime, string> { { NewYear(year), "Neijoerschdag" } };
             DateTime easter = HolidayCalculator.GetEaster(year);
+            var labourDay = LabourDay(year);
+            var ascension = Ascension(easter);
+            if (ascension == labourDay) ascension = ascension.AddSeconds(1); //ascension can fall on Mayday
             bHols.Add(EasterMonday(easter), "Ouschterméindeg");
-            bHols.Add(LabourDay(year), "Dag vun der Aarbecht");
-            bHols.Add(Ascension(easter), "Christi Himmelfaar");
+            bHols.Add(labourDay, "Dag vun der Aarbecht");
+            bHols.Add(ascension, "Christi Himmelfaar");
             bHols.Add(PentecostMonday(easter), "Péngschtméindeg");
             bHols.Add(NationalDay(year), "Nationalfeierdag");
             bHols.Add(Assumption(year), "Mariä Himmelfaart");

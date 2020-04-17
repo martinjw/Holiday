@@ -190,5 +190,15 @@ namespace PublicHolidayTests
             Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 12, 30)));
             Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 12, 31)));
         }
+
+        [TestMethod]
+        public void TestAscension()
+        {
+            //Issue #40
+            var h = new SwedenPublicHoliday();
+            var days = h.PublicHolidays(2008);
+            //should not be an error because Ascension = MayDay
+            Assert.IsTrue(days.Contains(new DateTime(2008, 5, 1)), "Should contain 2 - MayDay and Ascension");
+        }
     }
 }
