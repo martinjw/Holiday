@@ -33,13 +33,16 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestHolidays2017Lists()
+        public void TestHolidaysLists()
         {
-            var holidayCalendar = new JapanPublicHoliday();
-            var hols = holidayCalendar.PublicHolidays(2017);
-            var holNames = holidayCalendar.PublicHolidayNames(2017);
-            Assert.IsTrue(16 == hols.Count, "Should be 16 holidays in 2017");
-            Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+            for (int year = 2017; year < 2035; year++)
+            {
+                var holidayCalendar = new JapanPublicHoliday();
+                var hols = holidayCalendar.PublicHolidays(year);
+                var holNames = holidayCalendar.PublicHolidayNames(year);
+                Assert.IsTrue(16 == hols.Count, $"Should be 16 holidays in {year}");
+                Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+            }
         }
     }
 }

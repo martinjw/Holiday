@@ -221,6 +221,11 @@ namespace PublicHoliday
         /// <returns>Dictionary of bank holidays</returns>
         public override IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
+            var constitutionMemorialDay = ConstitutionMemorialDay(year);
+            var greeneryDay = GreeneryDay(year);
+            if (greeneryDay == constitutionMemorialDay) greeneryDay = greeneryDay.AddMilliseconds(1);
+            var childrensDay = ChildrensDay(year);
+            if (greeneryDay == childrensDay) childrensDay = childrensDay.AddMilliseconds(1);
             var hols = new Dictionary<DateTime, string>
             {
                 { NewYear(year), "New Year" },
@@ -228,9 +233,9 @@ namespace PublicHoliday
                 { FoundationDay(year), "Foundation Day" },
                 { VernalEquinoxDay(year), "Vernal Equinox Day" },
                 { ShōwaDay(year), "Shōwa Day" },
-                { ConstitutionMemorialDay(year), "Constitution Memorial Day" },
-                { GreeneryDay(year), "Greenery Day" },
-                { ChildrensDay(year), "Children's Day" },
+                { constitutionMemorialDay, "Constitution Memorial Day" },
+                { greeneryDay, "Greenery Day" },
+                { childrensDay, "Children's Day" },
                 { MarineDay(year), "Marine Day" },
              };
             if (year >= 2016)
