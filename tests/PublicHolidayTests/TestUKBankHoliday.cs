@@ -216,6 +216,34 @@ namespace PublicHolidayTests
             Assert.IsTrue(isWeddingHoliday);
         }
 
+        [TestMethod]
+        public void TestPlatinumJubilee2022()
+        {
+            var originalSpring = new DateTime(2022, 5, 30);
+            var thursday2 = new DateTime(2022, 6, 2);
+            var friday3 = new DateTime(2022, 6, 3);
+
+            var ukBankHoliday = new UKBankHoliday();
+            var hols = ukBankHoliday.PublicHolidayNames(2022);
+            Assert.IsTrue(hols.ContainsKey(thursday2));
+            Assert.IsTrue(hols.ContainsKey(friday3));
+            Assert.IsFalse(hols.ContainsKey(originalSpring));
+
+            var bhs = ukBankHoliday.PublicHolidays(2022);
+            Assert.IsTrue(bhs.Contains(thursday2));
+            Assert.IsTrue(bhs.Contains(friday3));
+            Assert.IsFalse(bhs.Contains(originalSpring));
+
+            //spring bank holiday is shifted to Thurs 2 June
+            Assert.IsFalse(ukBankHoliday.IsBankHoliday(originalSpring));
+            var spring = UKBankHoliday.Spring(2022);
+            Assert.AreEqual(thursday2, spring);
+
+            //Thursday 2 June
+            Assert.IsTrue(ukBankHoliday.IsBankHoliday(thursday2));
+            //Friday 3 June
+            Assert.IsTrue(ukBankHoliday.IsBankHoliday(friday3));
+        }
 
         [TestMethod]
         public void TestNextWorkingDayAfterRoyalWedding2011()

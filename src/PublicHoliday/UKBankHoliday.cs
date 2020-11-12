@@ -72,7 +72,7 @@ namespace PublicHoliday
                 return new DateTime(1995, 5, 8); //1995 moved for 50th anniversary of VE day
             if (year == 2020)
                 return new DateTime(2020, 5, 8); // 2020 moved for 75th anniversary of VE day
-            
+
             DateTime hol = new DateTime(year, 5, 1);
             hol = HolidayCalculator.FindFirstMonday(hol);
             return hol;
@@ -86,6 +86,7 @@ namespace PublicHoliday
         {
             if (year == 2002) return new DateTime(2002, 6, 4); //Golden Jubilee of Elizabeth II
             if (year == 2012) return new DateTime(2012, 6, 4); //Queen's Diamond Jubilee
+            if (year == 2022) return new DateTime(2022, 6, 2); //Queen's Platinum Jubilee
             DateTime hol = new DateTime(year, 5, 31);
             hol = HolidayCalculator.FindPrevious(hol, DayOfWeek.Monday);
             return hol;
@@ -167,6 +168,8 @@ namespace PublicHoliday
                 bHols.Add(new DateTime(2012, 4, 29)); //Royal Wedding
             if (year == 2012)
                 bHols.Add(new DateTime(2012, 6, 5)); //Queen's Diamond Jubilee
+            if (year == 2022)
+                bHols.Add(new DateTime(2022, 6, 3)); //Queen's Platinum Jubilee
 
             bHols.Add(Summer(year));
             bHols.Add(Christmas(year));
@@ -200,6 +203,8 @@ namespace PublicHoliday
                 bHols.Add(new DateTime(2002, 6, 3), "Golden Jubilee"); //Golden Jubilee of Elizabeth II
             if (year == 2012)
                 bHols.Add(new DateTime(2012, 6, 5), "Queen's Diamond Jubilee"); //Queen's Diamond Jubilee
+            if (year == 2022)
+                bHols.Add(new DateTime(2022, 6, 3), "Queen's Platinum Jubilee"); //Queen's Platinum Jubilee
 
             bHols.Add(Summer(year), "Summer");
             bHols.Add(Christmas(year), "Christmas");
@@ -298,6 +303,8 @@ namespace PublicHoliday
                (dt.Month == 6) &&
                ((dt.Day == 5)))
                 return true; //Queen's Diamond Jubilee
+            if (year == 2022 && dt.Month == 6 && (dt.Day == 2 || dt.Day == 3))
+                return true; //Queen's Platinum Jubilee
 
             return false;
         }
