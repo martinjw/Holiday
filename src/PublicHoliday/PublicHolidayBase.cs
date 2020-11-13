@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PublicHoliday
 {
-    using System.Linq;
 
     /// <summary>
     /// Public Holiday operations
