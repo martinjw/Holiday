@@ -189,7 +189,7 @@ namespace PublicHoliday
                 case 4:
                     if (EasterMonday(year) == date)
                         return true;
-                    if (date.Day == 25) //liberation
+                    if (date.Month == 4 && date.Day == 25) //liberation
                         return true;
                     break;
 
