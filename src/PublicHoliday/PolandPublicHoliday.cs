@@ -148,17 +148,17 @@ namespace PublicHoliday
         {
             var bHols = new Dictionary<DateTime, string> {
                 { NewYear(year), "Nowy Rok" },
-                { Epiphany(year), "Swieto Trzech Króli" } };
+                { Epiphany(year), "Święto Trzech Króli" } };
             DateTime easter = HolidayCalculator.GetEaster(year);
-            bHols.Add(EasterMonday(easter), "Poniedzialek Wielkanocny");
-            bHols.Add(LabourDay(year), "Swieto Panstwowe");
-            bHols.Add(ConstitutionDay(year), "Swieto Narodowe Trzeciego Maja");
-            bHols.Add(CorpusChristi(year),"dzien Bozego Ciala");
-            bHols.Add(Assumption(year), "Wniebowziecie Najswietszej Maryi Panny");
-            bHols.Add(AllSaints(year), "Wszystkich Swietych");
-            bHols.Add(IndependenceDay(year), "Narodowe Swieto Niepodleglosci");
-            bHols.Add(Christmas(year), "pierwszy dzien Bozego Narodzenia");
-            bHols.Add(StStephen(year), "drugi dzien Bozego Narodzenia");
+            bHols.Add(EasterMonday(easter), "Poniedziałek Wielkanocny");
+            bHols.Add(LabourDay(year), "Święto Panstwowe");
+            bHols.Add(ConstitutionDay(year), "Święto Narodowe Trzeciego Maja");
+            bHols.Add(CorpusChristi(year),"dzień Bożego Ciała");
+            bHols.Add(Assumption(year), "Wniebowzięcie Najświętszej Maryi Panny");
+            bHols.Add(AllSaints(year), "Wszystkich Swiętych");
+            bHols.Add(IndependenceDay(year), "Narodowe Święto Niepodległości");
+            bHols.Add(Christmas(year), "pierwszy dzień Bożego Narodzenia");
+            bHols.Add(StStephen(year), "drugi dzień Bożego Narodzenia");
             return bHols;
         }
 
