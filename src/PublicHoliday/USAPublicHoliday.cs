@@ -71,6 +71,18 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// 19th June
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <returns></returns>
+        public static Holiday Juneteenth(int year)
+        {
+            var hol = new DateTime(year, 6, 19);
+            var observed = FixWeekend(hol);
+            return new Holiday(hol, observed);
+        }
+
+        /// <summary>
         /// Independence Day
         /// </summary>
         /// <param name="year">The year.</param>
@@ -153,6 +165,10 @@ namespace PublicHoliday
             bHols.Add(MartinLutherKing(year)); // Third Monday in January
             bHols.Add(PresidentsDay(year)); //Third Monday in February
             bHols.Add(MemorialDay(year)); //Last Monday in May
+            if (year >= 2021)
+            {
+                bHols.Add(Juneteenth(year)); //19th June, from 2021
+            }
             bHols.Add(IndependenceDay(year)); //4 July
             bHols.Add(LaborDay(year)); //First Monday in September
             bHols.Add(ColumbusDay(year)); //Second Monday in October
@@ -174,6 +190,10 @@ namespace PublicHoliday
             bHols.Add(MartinLutherKing(year)); // Third Monday in January
             bHols.Add(PresidentsDay(year)); //Third Monday in February
             bHols.Add(MemorialDay(year)); //Last Monday in May
+            if (year >= 2021)
+            {
+                bHols.Add(Juneteenth(year)); //19th June, from 2021
+            }
             bHols.Add(IndependenceDay(year)); //4 July
             bHols.Add(LaborDay(year)); //First Monday in September
             bHols.Add(ColumbusDay(year)); //Second Monday in October
@@ -195,6 +215,10 @@ namespace PublicHoliday
             bHols.Add(MartinLutherKing(year), "Martin Luther King Day"); // Third Monday in January
             bHols.Add(PresidentsDay(year), "President's Day"); //Third Monday in February
             bHols.Add(MemorialDay(year), "Memorial Day"); //Last Monday in May
+            if (year >= 2021)
+            {
+                bHols.Add(Juneteenth(year), "Juneteenth"); //19th June, from 2021
+            }
             bHols.Add(IndependenceDay(year), "Independence Day"); //4 July
             bHols.Add(LaborDay(year), "Labor Day"); //First Monday in September
             bHols.Add(ColumbusDay(year), "Columbus Day"); //Second Monday in October
@@ -228,6 +252,10 @@ namespace PublicHoliday
                     break;
                 case 5:
                     if (MemorialDay(year) == date)
+                        return true;
+                    break;
+                case 6:
+                    if (year >= 2021 && Juneteenth(year) == date)
                         return true;
                     break;
                 case 7:

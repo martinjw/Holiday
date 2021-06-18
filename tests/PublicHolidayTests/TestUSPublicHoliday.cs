@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
 
@@ -207,6 +208,23 @@ namespace PublicHolidayTests
             Assert.AreEqual(new DateTime(1999, 11, 26), result);
         }
 
+        [TestMethod]
+        public void TestJuneteenth2021()
+        {
+            var juneteenth = new DateTime(2021, 6, 19);
+            var result = USAPublicHoliday.Juneteenth(2021);
+            Assert.AreEqual(juneteenth, result.HolidayDate);
+
+            var federalHolidays = new USAPublicHoliday().PublicHolidaysInformation(2021);
+            //19 June 2021 is Saturday, so would normally be observed on Friday
+            var june19 = federalHolidays.FirstOrDefault(x => x.HolidayDate == juneteenth);
+            Assert.IsNotNull(june19);
+
+            //Was made a federal holiday in 2021, so it should not appear in 2020 list (although many states and companies observed it)
+            federalHolidays = new USAPublicHoliday().PublicHolidaysInformation(2020);
+            june19 = federalHolidays.FirstOrDefault(x => x.HolidayDate == juneteenth);
+            Assert.IsNull(june19);
+        }
 
         [TestMethod]
         public void TestNextWorkingDayColumbus()

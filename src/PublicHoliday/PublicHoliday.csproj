@@ -17,7 +17,8 @@
 2.1.0: South Africa added (thanks @cltw666)
 2.2.0: Japan 2020 error (thanks @overstimulated)
 2.3.0: UK 2022 Queen's Platinum Jubilee
-2.4.0: Scotland, Northern Island holidays (thanks @stuart-lawrence)</PackageReleaseNotes>
+2.4.0: Scotland, Northern Island holidays (thanks @stuart-lawrence)
+2.5.0: US 2021 Juneteenth added</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
@@ -31,7 +32,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.4.0</Version>
+    <Version>2.5.0</Version>
   </PropertyGroup>
   <PropertyGroup>
     <FrameworkPathOverride Condition="'$(TargetFramework)' == 'net35'">C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client</FrameworkPathOverride>
