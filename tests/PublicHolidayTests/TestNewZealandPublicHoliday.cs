@@ -81,5 +81,29 @@ namespace PublicHolidayTests
             Assert.IsTrue(10 == hols.Count, "Should be 10 holidays in 2017");
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
+
+        [TestMethod]
+        public void TestHolidays2022Lists()
+        {
+            var holidayCalendar = new NewZealandPublicHoliday();
+            var hols = holidayCalendar.PublicHolidays(2022);
+            var holNames = holidayCalendar.PublicHolidayNames(2022);
+            Assert.IsTrue(11 == hols.Count, "Should be 11 holidays in 2022");
+            Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+        }
+
+        [TestMethod]
+        public void TestMatarikiBeforeIntroduction()
+        {
+            var matariki = NewZealandPublicHoliday.Matariki(2021);
+            Assert.IsNull(matariki, "Matariki first occurs as a public holiday in 2022");
+        }
+
+        [TestMethod]
+        public void TestMatarikiAfterIntroduction()
+        {
+            var matariki = NewZealandPublicHoliday.Matariki(2025);
+            Assert.AreEqual(new DateTime(2025, 6, 20), matariki, "Matariki should be on 25th June 2025");
+        }
     }
 }
