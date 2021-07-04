@@ -130,6 +130,53 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Matariki - https://www.beehive.govt.nz/release/matariki-holiday-dates-next-thirty-years-announced
+        /// </summary>
+        /// <param name="year">The year to check</param>
+        /// <returns>The date of Matariki, if there is one defined</returns>
+        public static DateTime? Matariki(int year)
+        {
+            // First occurrence is in 2022
+            if (year < 2022) return null;
+
+            var dates = new Dictionary<int, DateTime>
+            {
+                {2022, new DateTime(2022, 6, 24)},
+                {2023, new DateTime(2023, 7, 14)},
+                {2024, new DateTime(2024, 6, 28)},
+                {2025, new DateTime(2025, 6, 20)},
+                {2026, new DateTime(2026, 7, 10)},
+                {2027, new DateTime(2027, 6, 25)},
+                {2028, new DateTime(2028, 7, 14)},
+                {2029, new DateTime(2029, 7, 6)},
+                {2030, new DateTime(2030, 6, 21)},
+                {2031, new DateTime(2031, 7, 11)},
+                {2032, new DateTime(2032, 7, 2)},
+                {2033, new DateTime(2033, 6, 24)},
+                {2034, new DateTime(2034, 7, 7)},
+                {2036, new DateTime(2036, 7, 18)},
+                {2037, new DateTime(2037, 7, 10)},
+                {2038, new DateTime(2038, 6, 25)},
+                {2039, new DateTime(2039, 7, 15)},
+                {2040, new DateTime(2040, 7, 6)},
+                {2041, new DateTime(2041, 7, 19)},
+                {2042, new DateTime(2042, 7, 11)},
+                {2043, new DateTime(2043, 7, 3)},
+                {2044, new DateTime(2044, 6, 24)},
+                {2045, new DateTime(2045, 7, 7)},
+                {2046, new DateTime(2046, 6, 29)},
+                {2047, new DateTime(2047, 7, 19)},
+                {2048, new DateTime(2048, 7, 3)},
+                {2049, new DateTime(2049, 6, 25)},
+                {2050, new DateTime(2050, 7, 15)},
+                {2051, new DateTime(2051, 6, 30)},
+                {2052, new DateTime(2052, 6, 21)}
+            };
+            
+            return dates.ContainsKey(year) ? dates[year] : (DateTime?)null;
+        }
+
+        /// <summary>
         /// Get a list of dates for all holidays in a year.
         /// </summary>
         /// <param name="year">The year.</param>
@@ -162,6 +209,12 @@ namespace PublicHoliday
             bHols.Add(LabourDay(year), "Labour Day");
             bHols.Add(Christmas(year), "Christmas Day");
             bHols.Add(BoxingDay(year), "Boxing Day");
+
+            var matariki = Matariki(year);
+            if (matariki.HasValue)
+            {
+                bHols.Add(matariki.Value, "Matariki");
+            }
             return bHols;
         }
 
@@ -201,6 +254,12 @@ namespace PublicHoliday
                     break;
                 case 6:
                     if (QueenBirthday(year) == date)
+                        return true;
+                    if (Matariki(year) == date)
+                        return true;
+                    break;
+                case 7:
+                    if (Matariki(year) == date)
                         return true;
                     break;
                 case 10:
