@@ -193,6 +193,11 @@ namespace PublicHoliday
         public static DateTime EmperorsBirthday(int year)
         {
             //December 23
+            if (year >= 2020)
+            {
+                return FixSunday(new DateTime(year, 2, 23));
+
+            }
             return FixSunday(new DateTime(year, 12, 23));
         }
 
