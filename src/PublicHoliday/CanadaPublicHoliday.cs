@@ -55,9 +55,11 @@ namespace PublicHoliday
 
             return hol;
         }
+
         /// <summary>
         /// Determines if a province has Family day
         /// </summary>
+        /// <param name="year"></param>
         /// <param name="province"></param>
         /// <returns></returns>
         public static bool HasFamilyDay(int year, string province = null)
@@ -360,6 +362,19 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// 30th September from 2021 onwards
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime? NationalDayForTruthAndReconciliation(int year)
+        {
+            if (year < 2021) return null;
+            var hol = new DateTime(year, 9, 30);
+            hol = HolidayCalculator.FixWeekend(hol);
+            return hol;
+        }
+
+        /// <summary>
         /// Second Monday in October
         /// </summary>
         /// <param name="year"></param>
@@ -498,6 +513,11 @@ namespace PublicHoliday
                 bHols.Add(DiscoveryDay(year), "Discovery Day");
 
             bHols.Add(LabourDay(year), "Labour Day");
+
+            if (year >= 2021)
+            {
+                bHols.Add(NationalDayForTruthAndReconciliation(year).Value, "National Day For Truth And Reconciliation");
+            }
             bHols.Add(Thanksgiving(year), "Thanksgiving");
 
             if (HasRememberanceDay(Province))

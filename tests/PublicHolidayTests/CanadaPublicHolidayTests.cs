@@ -68,6 +68,16 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
+        public void PublicHoliday2021Test()
+        {
+            var result = new CanadaPublicHoliday().PublicHolidays(2021);
+            //includes Truth and Reconciliation
+            Assert.AreEqual(12, result.Count);
+
+            Assert.IsTrue(new CanadaPublicHoliday().IsPublicHoliday(new DateTime(2021,9,30)));
+        }
+
+        [TestMethod]
         public void CivicDayProvincalTest()
         {
             //provincal holiday but not a national one
