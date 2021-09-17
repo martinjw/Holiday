@@ -192,12 +192,12 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime EmperorsBirthday(int year)
         {
-            //December 23
             if (year >= 2020)
             {
+                //23 February Emperor Naruhito 徳仁 2020 – 	 
                 return FixSunday(new DateTime(year, 2, 23));
-
             }
+            //23 December Emperor Akihito 明仁 1989–2018
             return FixSunday(new DateTime(year, 12, 23));
         }
 
@@ -207,6 +207,7 @@ namespace PublicHoliday
                 hol = hol.AddDays(1);
             return hol;
         }
+
         #endregion Individual Holidays
 
         /// <summary>
@@ -231,7 +232,8 @@ namespace PublicHoliday
             if (greeneryDay == constitutionMemorialDay) greeneryDay = greeneryDay.AddMilliseconds(1);
             var childrensDay = ChildrensDay(year);
             if (greeneryDay == childrensDay) childrensDay = childrensDay.AddMilliseconds(1);
-            var hols = new Dictionary<DateTime, string>
+
+            var hols = new SortedDictionary<DateTime, string>
             {
                 { NewYear(year), "New Year" },
                 { ComingOfAgeDay(year), "Coming Of Age Day" },
@@ -276,18 +278,24 @@ namespace PublicHoliday
                     if (ComingOfAgeDay(year) == date)
                         return true;
                     break;
+
                 case 2:
                     if (FoundationDay(year) == date)
                         return true;
+                    if (year >= 2020 && date == EmperorsBirthday(year))
+                        return true;
                     break;
+
                 case 3:
                     if (VernalEquinoxDay(year) == date)
                         return true;
                     break;
+
                 case 4:
                     if (ShōwaDay(year) == date)
                         return true;
                     break;
+
                 case 5:
                     if (ConstitutionMemorialDay(year) == date)
                         return true;
@@ -306,13 +314,13 @@ namespace PublicHoliday
                     if (MountainDay(year) == date)
                         return true;
                     break;
+
                 case 9:
                     if (RespectForTheAgedDay(year) == date)
                         return true;
                     if (AutumnalEquinoxDay(year) == date)
                         return true;
                     break;
-
 
                 case 10:
                     if (HealthAndSportsDay(year) == date)
@@ -327,13 +335,12 @@ namespace PublicHoliday
                     break;
 
                 case 12:
-                    if (EmperorsBirthday(year) == date)
+                    if (year < 2020 && EmperorsBirthday(year) == date)
                         return true;
                     break;
             }
 
             return false;
         }
-
     }
 }

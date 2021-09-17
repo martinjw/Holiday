@@ -14,7 +14,7 @@ namespace PublicHoliday
     /// </description>
     /// </summary>
     /// <remarks>
-    /// Federal nation-wide holidays only. Provincal holidays (eg Family Day in Feb) are excluded and are not observed by Federal employees.
+    /// Federal nation-wide holidays only. Provincial holidays (eg Family Day in Feb) are excluded and are not observed by Federal employees.
     /// </remarks>
     public class CanadaPublicHoliday : PublicHolidayBase
     {
