@@ -182,7 +182,7 @@ namespace PublicHoliday
             return hol;
         }
         /// <summary>
-        /// Determines if a province has Family day
+        /// Determines if a province has Victoria day
         /// </summary>
         /// <param name="province"></param>
         /// <returns></returns>
