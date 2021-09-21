@@ -14,7 +14,7 @@ namespace PublicHoliday
     /// <remarks>
     /// 
     /// </remarks>
-    public class CanadaGovQuebecClosingDay : PublicHolidayBase
+    public class CanadaQuebecGovClosingDay : PublicHolidayBase
     {
         #region Individual Holidays
 
