@@ -34,3 +34,6 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("2.7.0.0")]
 [assembly: AssemblyFileVersion("2.7.0.0")]
+
+// Visibility of project of test
+[assembly: InternalsVisibleTo("PublicHolidayTests")]

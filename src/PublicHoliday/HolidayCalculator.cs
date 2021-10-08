@@ -30,12 +30,59 @@ namespace PublicHoliday
             return new DateTime(year, easterMonth, easterDay);
         }
 
+        /// <summary>
+        /// Fix weekend to monday.
+        /// </summary>
+        /// <param name="hol"></param>
+        /// <returns></returns>
         public static DateTime FixWeekend(DateTime hol)
         {
             if (hol.DayOfWeek == DayOfWeek.Sunday)
                 hol = hol.AddDays(1);
             else if (hol.DayOfWeek == DayOfWeek.Saturday)
                 hol = hol.AddDays(2);
+            return hol;
+        }
+
+        /// <summary>
+        /// Fix weekend with saturday to friday and the sunday to monday.
+        /// </summary>
+        /// <param name="hol"></param>
+        /// <returns></returns>
+        public static DateTime FixWeekendSaturdayBeforeSundayAfter(DateTime hol)
+        {
+            if (hol.DayOfWeek == DayOfWeek.Sunday)
+                hol = hol.AddDays(1);
+            else if (hol.DayOfWeek == DayOfWeek.Saturday)
+                hol = hol.AddDays(-1);
+            return hol;
+        }
+
+        /// <summary>
+        /// Fix Weekend for the after of two holiday consecutive with standard FixWeekend to monday.
+        /// </summary>
+        /// <param name="hol"></param>
+        /// <returns></returns>
+        public static DateTime FixWeekendTwoHolidayAfter(DateTime hol)
+        {
+            if (hol.DayOfWeek == DayOfWeek.Monday)
+                hol = hol.AddDays(1);
+            else if (hol.DayOfWeek == DayOfWeek.Saturday || hol.DayOfWeek == DayOfWeek.Sunday)
+                hol = hol.AddDays(2);
+            return hol;
+        }
+
+        /// <summary>
+        /// Fix Weekend for the before with two holiday consecutive with standard FixWeekend to monday
+        /// </summary>
+        /// <param name="hol"></param>
+        /// <returns></returns>
+        public static DateTime FixWeekendTwoHolidayBefore(DateTime hol)
+        {
+            if (hol.DayOfWeek == DayOfWeek.Saturday)
+                hol = hol.AddDays(-1);
+            else if (hol.DayOfWeek == DayOfWeek.Sunday)
+                hol = hol.AddDays(-2);
             return hol;
         }
 
