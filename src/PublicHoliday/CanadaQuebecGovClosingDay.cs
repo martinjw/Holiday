@@ -205,7 +205,6 @@ namespace PublicHoliday
         /// <returns>Dictionary of bank holidays</returns>
         public override IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
-
             var bHols = new Dictionary<DateTime, string>();
 
             bHols.Add(NewYear(year), "New Year");
@@ -245,36 +244,49 @@ namespace PublicHoliday
         /// <returns></returns>
         public override IList<Holiday> PublicHolidaysInformation(int year)
         {
-            var bHols = new List<Holiday>();
-            bHols.Add(NewYear(year));
+            return new List<Holiday>(PublicHolidaysInformationWithNames(year).Keys);
 
-            bHols.Add(DayAfterNewYear(year));
+        }
+
+        /// <summary>
+        /// Gets a list of public holidays with their observed and actual date with names
+        /// </summary>
+        /// <param name="year">The given year</param>
+        /// <returns></returns>
+        public IDictionary<Holiday, string> PublicHolidaysInformationWithNames(int year)
+        {            var bHols = new Dictionary<Holiday, string>();
+
+            bHols.Add(NewYear(year), "New Year");
+
+            bHols.Add(DayAfterNewYear(year), "Day After New Year");
 
             var easter = HolidayCalculator.GetEaster(year);
-            bHols.Add(GoodFriday(easter));
+            bHols.Add(GoodFriday(easter), "Good Friday");
 
-            bHols.Add(EasterMonday(easter));
+            bHols.Add(EasterMonday(easter), "Easter Monday");
 
-            bHols.Add(NationalPatriotDay(year));
+            bHols.Add(NationalPatriotDay(year), "National Patriots' Day");
 
-            bHols.Add(NationalHoliday(year));
+            bHols.Add(NationalHoliday(year), "National Holiday");
 
-            bHols.Add(CanadaDay(year));
+            bHols.Add(CanadaDay(year), "Canada Day");
 
-            bHols.Add(LabourDay(year));
+            bHols.Add(LabourDay(year), "Labour Day");
 
-            bHols.Add(Thanksgiving(year));
+            bHols.Add(Thanksgiving(year), "Thanksgiving");
 
-            bHols.Add(DayBeforeChristmas(year));
+            bHols.Add(DayBeforeChristmas(year), "Day Before Christmas");
 
-            bHols.Add(Christmas(year));
+            bHols.Add(Christmas(year), "Christmas");
 
-            bHols.Add(DayAfterChristmas(year));
+            bHols.Add(DayAfterChristmas(year), "Day After Christmas");
 
-            bHols.Add(DayBeforeNewYear(year));
+            bHols.Add(DayBeforeNewYear(year), "Day Before New Year");
 
             return bHols;
+
         }
+
 
         /// <summary>
         /// Check if a specific date is a public holiday.
