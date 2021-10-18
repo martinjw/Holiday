@@ -20,7 +20,9 @@
 2.4.0: Scotland, Northern Island holidays (thanks @stuart-lawrence)
 2.5.0: US 2021 Juneteenth added
 2.6.0: New Zealand Matariki dates added for next 30 years
-2.7.0: Add Denmark (thanks @Halling69), add Canada Truth&amp;Reconciliation from 2021 (thanks @mattandwhatnot), change Japan Emperors Day (thanks @zimathon)</PackageReleaseNotes>
+2.7.0: Add Denmark (thanks @Halling69), add Canada Truth&amp;Reconciliation from 2021 (thanks @mattandwhatnot), change Japan Emperors Day (thanks @zimathon)
+2.8.0: Add Canada Governement Quebec Closing Day , improve HolidayCalculator (thanks @Hrothval)
+2.9.0: Add Localized String for class Holiday, Adding cache for Easter for performance framework 4.0+/standard1.3+ (thanks @Hrothval)</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
@@ -34,7 +36,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.7.0</Version>
+    <Version>2.9.0</Version>
   </PropertyGroup>
   <PropertyGroup>
     <FrameworkPathOverride Condition="'$(TargetFramework)' == 'net35'">C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client</FrameworkPathOverride>
@@ -51,6 +53,14 @@
   <ItemGroup Condition=" '$(TargetFramework)' == 'net46' ">
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Localization\LocalizationString.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\LocalizationString.xml" />
   </ItemGroup>
 
 </Project>

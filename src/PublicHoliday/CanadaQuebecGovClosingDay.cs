@@ -27,7 +27,7 @@ namespace PublicHoliday
         public static Holiday NewYear(int year)
         {
             var hol = new DateTime(year, 1, 1);
-            return new Holiday(hol, HolidayCalculator.FixWeekend(hol));
+            return new Holiday(hol, HolidayCalculator.FixWeekend(hol), "NewYear");
         }
 
         /// <summary>
@@ -38,7 +38,7 @@ namespace PublicHoliday
         public static Holiday DayAfterNewYear(int year)
         {
             var hol = new DateTime(year, 1, 2);
-            return new Holiday(hol, HolidayCalculator.FixWeekendTwoHolidayAfter(hol)); ;
+            return new Holiday(hol, HolidayCalculator.FixWeekendTwoHolidayAfter(hol), "DayAfterNewYear");
         }
 
         /// <summary>
@@ -50,7 +50,7 @@ namespace PublicHoliday
         {
             var hol = HolidayCalculator.GetEaster(year);
             hol = hol.AddDays(-2);
-            return new Holiday(hol, HolidayCalculator.FixWeekendTwoHolidayAfter(hol)); 
+            return new Holiday(hol, HolidayCalculator.FixWeekendTwoHolidayAfter(hol), "GoodFriday"); 
         }
 
         /// <summary>
@@ -62,7 +62,7 @@ namespace PublicHoliday
         {
             var hol = HolidayCalculator.GetEaster(year);
             hol = hol.AddDays(1);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "EasterMonday");
         }
 
         /// <summary>
@@ -71,12 +71,12 @@ namespace PublicHoliday
         private static Holiday GoodFriday(DateTime easter)
         {
             var hol = easter.AddDays(-2);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "GoodFriday");
         }
         private static Holiday EasterMonday(DateTime easter)
         {
             var hol = easter.AddDays(1);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "EasterMonday");
         }
 
         /// <summary>
@@ -92,7 +92,7 @@ namespace PublicHoliday
             {
                 hol = hol.AddDays(-1);
             }
-            return new Holiday(hol, hol); 
+            return new Holiday(hol, hol, "NationalPatriotDay"); 
         }
 
         /// <summary>
@@ -103,7 +103,7 @@ namespace PublicHoliday
         public static Holiday NationalHoliday(int year)
         {
             var hol = new DateTime(year, 6, 24);
-            return new Holiday(hol, HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(hol)); 
+            return new Holiday(hol, HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(hol), "NationalHoliday"); 
         }
 
         /// <summary>
@@ -114,7 +114,7 @@ namespace PublicHoliday
         public static Holiday CanadaDay(int year)
         {
             var hol = new DateTime(year, 7, 1);
-            return new Holiday(hol, HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(hol));
+            return new Holiday(hol, HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(hol), "CanadaDay");
         }
 
         /// <summary>
@@ -126,7 +126,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 9, 1);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "LabourDay");
         }
 
         /// <summary>
@@ -138,7 +138,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 10, 8);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "Thanksgiving");
         }
 
         /// <summary>
@@ -149,7 +149,7 @@ namespace PublicHoliday
         public static Holiday DayBeforeChristmas(int year)
         {
             DateTime hol = new DateTime(year, 12, 24);
-            return new Holiday(hol, HolidayCalculator.FixWeekendTwoHolidayBefore(hol));
+            return new Holiday(hol, HolidayCalculator.FixWeekendTwoHolidayBefore(hol), "DayBeforeChristmas");
         }
 
         /// <summary>
@@ -160,7 +160,7 @@ namespace PublicHoliday
         public static Holiday Christmas(int year)
         {
             DateTime hol = new DateTime(year, 12, 25);
-            return new Holiday(hol, HolidayCalculator.FixWeekend(hol));
+            return new Holiday(hol, HolidayCalculator.FixWeekend(hol), "Christmas");
         }
 
         /// <summary>
@@ -171,7 +171,7 @@ namespace PublicHoliday
         public static Holiday DayAfterChristmas(int year)
         {
             DateTime hol = new DateTime(year, 12, 26);
-            return new Holiday(hol, HolidayCalculator.FixWeekendTwoHolidayAfter(hol));
+            return new Holiday(hol, HolidayCalculator.FixWeekendTwoHolidayAfter(hol), "DayAfterChristmas");
         }
 
 
@@ -183,7 +183,7 @@ namespace PublicHoliday
         public static Holiday DayBeforeNewYear(int year)
         {
             DateTime hol = new DateTime(year, 12, 31);
-            return new Holiday(hol, HolidayCalculator.FixWeekendTwoHolidayBefore(hol));
+            return new Holiday(hol, HolidayCalculator.FixWeekendTwoHolidayBefore(hol), "DayBeforeNewYear");
         }
 
         #endregion
@@ -195,7 +195,15 @@ namespace PublicHoliday
         /// <returns>List of bank holidays</returns>
         public override IList<DateTime> PublicHolidays(int year)
         {
-            return new List<DateTime>(PublicHolidayNames(year).Keys);
+            var bHols = new List<DateTime>();
+
+            foreach (Holiday localholiday in PublicHolidaysInformation(year))
+            {
+                bHols.Add(localholiday);
+
+            }
+
+            return bHols;
         }
 
         /// <summary>
@@ -207,34 +215,14 @@ namespace PublicHoliday
         {
             var bHols = new Dictionary<DateTime, string>();
 
-            bHols.Add(NewYear(year), "New Year");
+            foreach (Holiday localholiday in PublicHolidaysInformation(year))
+            {
+                bHols.Add(localholiday, localholiday.GetName());
 
-            bHols.Add(DayAfterNewYear(year), "Day After New Year");
-
-            var easter = HolidayCalculator.GetEaster(year);
-            bHols.Add(GoodFriday(easter), "Good Friday");
-
-            bHols.Add(EasterMonday(easter), "Easter Monday");
-
-            bHols.Add(NationalPatriotDay(year), "National Patriots' Day");
-
-            bHols.Add(NationalHoliday(year), "National Holiday");
-
-            bHols.Add(CanadaDay(year), "Canada Day");
-
-            bHols.Add(LabourDay(year), "Labour Day");
-
-            bHols.Add(Thanksgiving(year), "Thanksgiving");
-
-            bHols.Add(DayBeforeChristmas(year), "Day Before Christmas");
-
-            bHols.Add(Christmas(year), "Christmas");
-
-            bHols.Add(DayAfterChristmas(year), "Day After Christmas");
-
-            bHols.Add(DayBeforeNewYear(year), "Day Before New Year");
+            }
 
             return bHols;
+            
         }
 
         /// <summary>
@@ -244,7 +232,26 @@ namespace PublicHoliday
         /// <returns></returns>
         public override IList<Holiday> PublicHolidaysInformation(int year)
         {
-            return new List<Holiday>(PublicHolidaysInformationWithNames(year).Keys);
+
+            var bHols = new List<Holiday>();
+
+            var easter = HolidayCalculator.GetEaster(year);
+
+            bHols.Add(NewYear(year));
+            bHols.Add(DayAfterNewYear(year));
+            bHols.Add(GoodFriday(easter));
+            bHols.Add(EasterMonday(easter));
+            bHols.Add(NationalPatriotDay(year));
+            bHols.Add(NationalHoliday(year));
+            bHols.Add(CanadaDay(year));
+            bHols.Add(LabourDay(year));
+            bHols.Add(Thanksgiving(year));
+            bHols.Add(DayBeforeChristmas(year));
+            bHols.Add(Christmas(year));
+            bHols.Add(DayAfterChristmas(year));
+            bHols.Add(DayBeforeNewYear(year));
+
+            return bHols;
 
         }
 
@@ -253,35 +260,16 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The given year</param>
         /// <returns></returns>
+        [ObsoleteAttribute("This method is obsolete. Call PublicHolidaysInformation instead and use getName with or without CultureInfo.", false)]
         public IDictionary<Holiday, string> PublicHolidaysInformationWithNames(int year)
-        {            var bHols = new Dictionary<Holiday, string>();
+        {
+            var bHols = new Dictionary<Holiday, string>();
 
-            bHols.Add(NewYear(year), "New Year");
+            foreach (Holiday localholiday in PublicHolidaysInformation(year))
+            {
+                bHols.Add(localholiday, localholiday.GetName());
 
-            bHols.Add(DayAfterNewYear(year), "Day After New Year");
-
-            var easter = HolidayCalculator.GetEaster(year);
-            bHols.Add(GoodFriday(easter), "Good Friday");
-
-            bHols.Add(EasterMonday(easter), "Easter Monday");
-
-            bHols.Add(NationalPatriotDay(year), "National Patriots' Day");
-
-            bHols.Add(NationalHoliday(year), "National Holiday");
-
-            bHols.Add(CanadaDay(year), "Canada Day");
-
-            bHols.Add(LabourDay(year), "Labour Day");
-
-            bHols.Add(Thanksgiving(year), "Thanksgiving");
-
-            bHols.Add(DayBeforeChristmas(year), "Day Before Christmas");
-
-            bHols.Add(Christmas(year), "Christmas");
-
-            bHols.Add(DayAfterChristmas(year), "Day After Christmas");
-
-            bHols.Add(DayBeforeNewYear(year), "Day Before New Year");
+            }
 
             return bHols;
 
@@ -296,11 +284,6 @@ namespace PublicHoliday
         /// True if date is a bank holiday (excluding weekends)
         /// </returns>
         public override bool IsPublicHoliday(DateTime dt)
-        {
-            return IsPublicHoliday(dt, null);
-        }
-
-        private bool IsPublicHoliday(DateTime dt, DateTime? easter)
         {
             int year = dt.Year;
             var date = dt.Date;

@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Text;
+
+namespace PublicHoliday.Localization
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <typeparam name="T">Type localized for return</typeparam>
+    interface ILocalizedProvider<T>
+    {
+
+
+        CultureInfo DefaultCultureInfo { get; set; }
+
+        /// <summary>
+        /// Search for the Id of text the localization and the CultureInfo / CultureInfo Invariant / Default CultureInfo.
+        /// </summary>
+        /// <param name="id">Id of text to search</param>
+        /// <param name="culture"></param>
+        /// <returns>Value find, else null</returns>
+        T GetLocalized(string id, CultureInfo culture);
+
+
+        /// <summary>
+        /// Search for the Id of text the localization and the default CultureInfo.
+        /// </summary>
+        /// <param name="id">Id of text to search</param>
+        /// <returns>Value find, else null</returns>
+        T GetLocalized(string id);
+
+        /// <summary>
+        /// Search for the Id of text the localization and the CultureInfo / CultureInfo Invariant / Default CultureInfo.
+        /// </summary>
+        /// <param name="id">Id of text to search</param>
+        /// <param name="culture">CultureInfo to search</param>
+        /// <param name="value">Value find, else null</param>
+        /// <returns>True if find a value for id, else False</returns>
+        bool TryGetLocalized(string id, CultureInfo culture, out T value);
+
+        /// <summary>
+        /// Search for the Id of text the localization and the Default CultureInfo.
+        /// </summary>
+        /// <param name="id">Id of text to search</param>
+        /// <param name="value">Value find, else null</param>
+        /// <returns>True if find a value for id, else False</returns>
+        bool TryGetLocalized(string id, out T value);
+
+    }
+}

@@ -5,7 +5,7 @@ using PublicHoliday;
 namespace PublicHolidayTests
 {
     [TestClass]
-    public class CanadaPublicHolidayTests
+    public class TestCanadaPublicHoliday
     {
         [TestMethod]
         public void PublicHolidayNamesTest()

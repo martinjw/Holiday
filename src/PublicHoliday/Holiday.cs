@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PublicHoliday.Localization;
+using System;
+using System.Globalization;
 
 namespace PublicHoliday
 {
@@ -7,6 +9,9 @@ namespace PublicHoliday
     /// </summary>
     public class Holiday
     {
+
+        internal static LocalizedProviderString _LocalizedProviderString = new LocalizedProviderString(new RessourceProviderXDocument());
+
         /// <summary>
         /// Constructs the holiday
         /// </summary>
@@ -19,6 +24,19 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Constructs the holiday
+        /// </summary>
+        /// <param name="date">The date of the current holiday</param>
+        /// <param name="observedDate">The date the current holiday is obesrved on</param>
+        /// <param name="idtexttocalization">The Id of text for the Localization</param>
+        public Holiday(DateTime date, DateTime observedDate, string idtexttocalization)
+        {
+            HolidayDate = date;
+            ObservedDate = observedDate;
+            IdTextLocalization = idtexttocalization;
+        }
+
+        /// <summary>
         /// The date the Holiday is actually observed on
         /// </summary>
         public DateTime ObservedDate { get; set; }
@@ -27,6 +45,29 @@ namespace PublicHoliday
         /// Date for the current holiday
         /// </summary>
         public DateTime HolidayDate { get; set; }
+
+        /// <summary>
+        /// Id of text for the localization
+        /// </summary>
+        public string IdTextLocalization { get; set; }
+
+        /// <summary>
+        /// Name from cultureinfo for the current holiday
+        /// If not find Empty
+        /// </summary>
+        public string GetName(CultureInfo culture)
+        {
+            return _LocalizedProviderString.GetLocalized(IdTextLocalization, culture);
+        }
+
+        /// <summary>
+        /// Name for the current holiday
+        /// If not find Empty
+        /// </summary>
+        public string GetName()
+        {
+            return _LocalizedProviderString.GetLocalized(IdTextLocalization);
+        }
 
         /// <summary>
         /// Implicitly casts a holiday as its observed date
