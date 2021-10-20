@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+  <en>
+    <NewYear value="New Year"/>
+    <DayAfterNewYear value="Day After New Year"/>
+    <GoodFriday value="Good Friday"/>
+    <EasterMonday value="Easter Monday"/>
+    <NationalPatriotDay value="National Patriots' Day"/>
+    <NationalHoliday value="National Holiday"/>
+    <CanadaDay value="Canada Day"/>
+    <LabourDay value="Labour Day"/>
+    <Thanksgiving value="Thanksgiving"/>
+    <DayBeforeChristmas value="Day Before Christmas"/>
+    <Christmas value="Christmas"/>
+    <DayAfterChristmas value="Day After Christmas"/>
+    <DayBeforeNewYear value="Day Before New Year"/>
+  </en>
+  <fr>
+    <NewYear value="Jour de l'An"/>
+    <DayAfterNewYear value="Lendemain du jour de l'An"/>
+    <GoodFriday value="Vendredi Saint"/>
+    <EasterMonday value="Lundi de Pâques"/>
+    <NationalPatriotDay value="Journée nationale des patriotes"/>
+    <NationalHoliday value="Fête nationale"/>
+    <CanadaDay value="Fête du Canada"/>
+    <LabourDay value="Fête du travail"/>
+    <Thanksgiving value="Fête de l'Action de Grâces"/>
+    <DayBeforeChristmas value="Veille de Noël"/>
+    <Christmas value="Fête de Noël"/>
+    <DayAfterChristmas value="Lendemain de Noël"/>
+    <DayBeforeNewYear value="Veille du jour de l'An"/>
+  </fr>
+</root>

@@ -7,7 +7,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestCanadaQuebecGovClosingDay
     {
-        
+
         [DataTestMethod]
         [DataRow(1, 2, "New Year")]
         [DataRow(1, 3, "Day After New Year")]

@@ -1,5 +1,9 @@
 ﻿using System;
 
+#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
+using System.Collections.Concurrent;
+#endif
+
 namespace PublicHoliday
 {
     /// <summary>
@@ -7,6 +11,11 @@ namespace PublicHoliday
     /// </summary>
     static class HolidayCalculator
     {
+
+#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
+        private static readonly ConcurrentDictionary<int, DateTime> _cache = new ConcurrentDictionary<int, DateTime>();
+#endif
+
         /// <summary>
         /// Work out the date for Easter Sunday for specified year
         /// </summary>
@@ -18,16 +27,36 @@ namespace PublicHoliday
             //Easter Monday  28 Mar 2005  17 Apr 2006  9 Apr 2007  24 Mar 2008
 
             //Oudin's Algorithm - http://www.smart.net/~mmontes/oudin.html
-            var g = year % 19;
-            var c = year / 100;
-            var h = (c - c / 4 - (8 * c + 13) / 25 + 19 * g + 15) % 30;
-            var i = h - (h / 28) * (1 - (h / 28) * (29 / (h + 1)) * ((21 - g) / 11));
-            var j = (year + year / 4 + i + 2 - c + c / 4) % 7;
-            var p = i - j;
-            var easterDay = 1 + (p + 27 + (p + 6) / 40) % 31;
-            var easterMonth = 3 + (p + 26) / 30;
 
-            return new DateTime(year, easterMonth, easterDay);
+#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
+            return _cache.GetOrAdd(year, y =>
+            {
+                var g = y % 19;
+                var c = y / 100;
+                var h = (c - c / 4 - (8 * c + 13) / 25 + 19 * g + 15) % 30;
+                var i = h - (h / 28) * (1 - (h / 28) * (29 / (h + 1)) * ((21 - g) / 11));
+                var j = (y + y / 4 + i + 2 - c + c / 4) % 7;
+                var p = i - j;
+                var easterDay = 1 + (p + 27 + (p + 6) / 40) % 31;
+                var easterMonth = 3 + (p + 26) / 30;
+
+                return new DateTime(y, easterMonth, easterDay);
+            });
+
+#else
+
+                var g = year % 19;
+                var c = year / 100;
+                var h = (c - c / 4 - (8 * c + 13) / 25 + 19 * g + 15) % 30;
+                var i = h - (h / 28) * (1 - (h / 28) * (29 / (h + 1)) * ((21 - g) / 11));
+                var j = (year + year / 4 + i + 2 - c + c / 4) % 7;
+                var p = i - j;
+                var easterDay = 1 + (p + 27 + (p + 6) / 40) % 31;
+                var easterMonth = 3 + (p + 26) / 30;
+
+                return new DateTime(year, easterMonth, easterDay);
+#endif
+
         }
 
         /// <summary>

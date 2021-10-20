@@ -50,6 +50,7 @@ There are libraries for:
   - Kazakhstan : KazakhstanPublicHoliday
 - N America
   - Canada : CanadaPublicHoliday (set Province in constructor for regional holidays)
+  - Canada : CanadaQuebecGovClosingDay (Governement province of Quebec closing day)
   - USA : USAPublicHoliday
 - Oceania
   - Australia : AustraliaPublicHoliday (set State property for regional holidays, see note below)
@@ -124,6 +125,7 @@ var isHoliday = holidayCalendar.IsPublicHoliday(westernAustrliaDay);
 @rickbeerendonk
 @skipishere
 @MilkyWare
+@Hrothval
 
 ## License
 
