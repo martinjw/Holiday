@@ -41,6 +41,7 @@ There are libraries for:
   - Netherlands : DutchPublicHoliday
   - Norway : NorwayPublicHoliday
   - Poland : PolandPublicHoliday
+  - Romania : RomanianPublicHoliday
   - Slovakia : SlovakiaPublicHoliday
   - Spain : SpainPublicHoliday
   - Sweden : SwedenPublicHoliday
@@ -50,7 +51,7 @@ There are libraries for:
   - Kazakhstan : KazakhstanPublicHoliday
 - N America
   - Canada : CanadaPublicHoliday (set Province in constructor for regional holidays)
-  - Canada : CanadaQuebecGovClosingDay (Governement province of Quebec closing day)
+  - Canada : CanadaQuebecGovClosingDay (Government province of Quebec closing day)
   - USA : USAPublicHoliday
 - Oceania
   - Australia : AustraliaPublicHoliday (set State property for regional holidays, see note below)
@@ -126,6 +127,7 @@ var isHoliday = holidayCalendar.IsPublicHoliday(westernAustrliaDay);
 @skipishere
 @MilkyWare
 @Hrothval
+@mihaigliga21
 
 ## License
 
