@@ -46,9 +46,11 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CanadaPublicHolidayTests.cs" />
     <Compile Include="TestBelgiumPublicHoliday.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestCanadaPublicHoliday.cs" />
+    <Compile Include="TestDenmarkPublicHoliday.cs" />
+    <Compile Include="TestPublicHolidayBase.cs" />
     <Compile Include="TestSwedenPublicHoliday.cs" />
     <Compile Include="TestNorwayPublicHoliday.cs" />
     <Compile Include="TestSpainPublicHoliday.cs" />
@@ -63,6 +65,9 @@
       <Project>{da59fa44-f4fe-4794-991f-8b8f495cf1f4}</Project>
       <Name>PublicHoliday2015</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Localization\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
