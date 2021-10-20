@@ -60,6 +60,29 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Work out the date for Orthodox Easter Sunday for specified year
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime GetOrthodoxEaster(int year)
+        {
+            // credits https://gist.github.com/georgekosmidis/7f2cbabbd57ef879e95d990f0c356106#file-getorthodoxeaster-cs
+            var a = year % 19;
+            var b = year % 7;
+            var c = year % 4;
+
+            var d = (19 * a + 16) % 30;
+            var e = (2 * c + 4 * b + 6 * d) % 7;
+            var f = (19 * a + 16) % 30;
+
+            var key = f + e + 3;
+            var month = (key > 30) ? 5 : 4;
+            var day = (key > 30) ? key - 30 : key;
+
+            return new DateTime(year, month, day);
+        }
+
+        /// <summary>
         /// Fix weekend to monday.
         /// </summary>
         /// <param name="hol"></param>
