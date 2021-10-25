@@ -23,40 +23,41 @@ namespace PublicHoliday
         /// <returns>Returns a datetime of Easter Sunday.</returns>
         public static DateTime GetEaster(int year)
         {
+
+#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
+            return _cache.GetOrAdd(year, y =>
+            {
+                return GetEasterPrivate(year);
+            });
+
+#else
+                return GetEasterPrivate(year);
+#endif
+
+        }
+
+        /// <summary>
+        /// Work out the date for Easter Sunday for specified year
+        /// </summary>
+        /// <param name="year">The year as an integer</param>
+        /// <returns>Returns a datetime of Easter Sunday.</returns>
+        private static DateTime GetEasterPrivate(int year)
+        {
             //should be
             //Easter Monday  28 Mar 2005  17 Apr 2006  9 Apr 2007  24 Mar 2008
 
             //Oudin's Algorithm - http://www.smart.net/~mmontes/oudin.html
 
-#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
-            return _cache.GetOrAdd(year, y =>
-            {
-                var g = y % 19;
-                var c = y / 100;
-                var h = (c - c / 4 - (8 * c + 13) / 25 + 19 * g + 15) % 30;
-                var i = h - (h / 28) * (1 - (h / 28) * (29 / (h + 1)) * ((21 - g) / 11));
-                var j = (y + y / 4 + i + 2 - c + c / 4) % 7;
-                var p = i - j;
-                var easterDay = 1 + (p + 27 + (p + 6) / 40) % 31;
-                var easterMonth = 3 + (p + 26) / 30;
+            var g = year % 19;
+            var c = year / 100;
+            var h = (c - c / 4 - (8 * c + 13) / 25 + 19 * g + 15) % 30;
+            var i = h - (h / 28) * (1 - (h / 28) * (29 / (h + 1)) * ((21 - g) / 11));
+            var j = (year + year / 4 + i + 2 - c + c / 4) % 7;
+            var p = i - j;
+            var easterDay = 1 + (p + 27 + (p + 6) / 40) % 31;
+            var easterMonth = 3 + (p + 26) / 30;
 
-                return new DateTime(y, easterMonth, easterDay);
-            });
-
-#else
-
-                var g = year % 19;
-                var c = year / 100;
-                var h = (c - c / 4 - (8 * c + 13) / 25 + 19 * g + 15) % 30;
-                var i = h - (h / 28) * (1 - (h / 28) * (29 / (h + 1)) * ((21 - g) / 11));
-                var j = (year + year / 4 + i + 2 - c + c / 4) % 7;
-                var p = i - j;
-                var easterDay = 1 + (p + 27 + (p + 6) / 40) % 31;
-                var easterMonth = 3 + (p + 26) / 30;
-
-                return new DateTime(year, easterMonth, easterDay);
-#endif
-
+            return new DateTime(year, easterMonth, easterDay);
         }
 
         /// <summary>
@@ -200,19 +201,46 @@ namespace PublicHoliday
         /// <param name="holidayCalendar">The holiday calendar.</param>
         /// <param name="dt">The date you wish to check</param>
         /// <returns>
-        /// A date that is a working day
+        /// A date that is a working day without time
         /// </returns>
         public static DateTime NextWorkingDay(IPublicHolidays holidayCalendar, DateTime dt)
         {
-            bool isWorkingDay = false;
-            dt = dt.Date; //we don't care about time part
+            return NextWorkingDay(holidayCalendar, dt, 0);
+        }
 
-            //loops through
-            while (isWorkingDay == false)
+        /// <summary>
+        /// Returns the next working day (Mon-Fri, not public holiday)
+        /// after x day of the specified date (or the same date)
+        /// </summary>
+        /// <param name="holidayCalendar">The holiday calendar.</param>
+        /// <param name="dt">The date you wish to check</param>
+        /// <param name="openDayAdd">The number of open day to add</param>
+        /// <returns>
+        /// A date that is a working day without time
+        /// </returns>
+        /// <exception cref="System.ArgumentOutOfRangeException">openDayAdd - negative number</exception>
+        public static DateTime NextWorkingDay(IPublicHolidays holidayCalendar, DateTime dt, int openDayAdd)
+        {
+            if (openDayAdd < 0)
             {
-                //Mon-Fri and not bank holiday, it's okay
-                if (IsWorkingDay(holidayCalendar, dt))
-                    isWorkingDay = true;
+                throw new ArgumentOutOfRangeException("openDayAdd - negative number");
+            }
+
+            int currentAddDay = 0;
+
+            //loops through opendaysubstract
+            while (openDayAdd >= currentAddDay)
+            {
+
+                //Mon-Fri and not bank holiday and not the final day
+                if (IsWorkingDay(holidayCalendar, dt) && openDayAdd != currentAddDay)
+                {
+                    dt = dt.AddDays(1);
+                    currentAddDay++;
+                }
+                //Mon-Fri and not bank holiday and the final day
+                else if (IsWorkingDay(holidayCalendar, dt))
+                    currentAddDay++;
                 //it's Saturday, so skip to Monday
                 else if (dt.DayOfWeek == DayOfWeek.Saturday)
                     dt = dt.AddDays(2);
@@ -226,10 +254,10 @@ namespace PublicHoliday
                 else
                     dt = dt.AddDays(1);
                 //any of the addDays should now loop and retest
-                //only Good Friday and Christmas Day should loop twice
-                //(2 adjacent bank holidays)
+
             }
             return dt;
+
         }
 
         /// <summary>
@@ -239,21 +267,47 @@ namespace PublicHoliday
         /// <param name="holidayCalendar">The holiday calendar.</param>
         /// <param name="dt">The date you wish to check</param>
         /// <returns>
-        /// A date that is a working day
+        /// A date that is a working day without time
         /// </returns>
         public static DateTime PreviousWorkingDay(IPublicHolidays holidayCalendar, DateTime dt)
         {
-            bool isWorkingDay = false;
-            dt = dt.Date; //we don't care about time part
+            return PreviousWorkingDay(holidayCalendar, dt, 0);
+        }
 
-            //loops through
-            while (isWorkingDay == false)
+        /// <summary>
+        /// Returns the previous working day (Mon-Fri, not public holiday)
+        /// before x day of the specified date (or the same date)
+        /// </summary>
+        /// <param name="holidayCalendar">The holiday calendar.</param>
+        /// <param name="dt">The date you wish to check</param>
+        /// <param name="openDaySubstract">The number of open day to substract</param>
+        /// <returns>
+        /// A date that is a working day without time
+        /// </returns>
+        /// <exception cref="System.ArgumentOutOfRangeException">opendaysubstract - negative number</exception>
+        public static DateTime PreviousWorkingDay(IPublicHolidays holidayCalendar, DateTime dt, int openDaySubstract)
+        {
+
+            if (openDaySubstract < 0)
             {
-                //Mon-Fri and not bank holiday, it's okay
-                if (dt.DayOfWeek != DayOfWeek.Saturday &&
-                    dt.DayOfWeek != DayOfWeek.Sunday &&
-                    !holidayCalendar.IsPublicHoliday(dt))
-                    isWorkingDay = true;
+                throw new ArgumentOutOfRangeException("openDaySubstract - negative number");
+            }
+
+            int currentSubstractDay = 0;
+
+            //loops through opendaysubstract
+            while (openDaySubstract > currentSubstractDay)
+            {
+
+                //Mon-Fri and not bank holiday and not the final day
+                if (IsWorkingDay(holidayCalendar, dt)  && openDaySubstract != currentSubstractDay)
+                {
+                    dt = dt.AddDays(-1);
+                    currentSubstractDay++;
+                }
+                //Mon-Fri and not bank holiday and the final day
+                else if (IsWorkingDay(holidayCalendar, dt))
+                    currentSubstractDay++;
                 //it's Sunday, so skip to Friday
                 else if (dt.DayOfWeek == DayOfWeek.Sunday)
                     dt = dt.AddDays(-2);
@@ -266,8 +320,11 @@ namespace PublicHoliday
                 //it's Thi-Fr (bank holiday), so previous day
                 else
                     dt = dt.AddDays(-1);
+
             }
-            return dt;
+
+            return PreviousWorkingDay(holidayCalendar, dt);
         }
+
     }
 }

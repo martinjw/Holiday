@@ -5,15 +5,15 @@ using System.Text;
 namespace PublicHoliday.Localization
 {
     /// <summary>
-    /// 
+    /// Interface of RessourceProvider of T
     /// </summary>
-    /// <typeparam name="T"></typeparam>
+    /// <typeparam name="T">Type of Ressource</typeparam>
     interface IRessourceProvider<T>
     {
         /// <summary>
-        /// 
+        /// Get ressource
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Ressources of type T</returns>
         T GetRessource();
 
     }

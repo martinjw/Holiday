@@ -63,10 +63,14 @@ All use the common interface IPublicHoliday containing:
 - IsPublicHoliday(DateTime) (UK: also IsBankHoliday(DateTime))
 - IsWorkingDay(DateTime) (i.e. not public holiday, Saturday or Sunday)
 - NextWorkingDay(DateTime)
+- NextWorkingDay(DateTime, int)
+- PreviousWorkingDay(DateTime)
+- PreviousWorkingDay(DateTime, int)
 - PublicHolidays(int year)
 - PublicHolidaysInformation(int year)
 - PublicHolidayNames(int year)
 - GetHolidaysInDateRange(DateTime, DateTime)
+- UseCachingHolidays
 
 There are also static methods for all statutory holidays.
 
