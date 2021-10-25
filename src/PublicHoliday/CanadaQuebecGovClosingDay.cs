@@ -1,5 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
+
+#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
+using System.Collections.Concurrent;
+#endif
 
 namespace PublicHoliday
 {
@@ -16,6 +21,15 @@ namespace PublicHoliday
     /// </remarks>
     public class CanadaQuebecGovClosingDay : PublicHolidayBase
     {
+
+#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
+        /// <summary>
+        /// Cache by year of holidays for performance.
+        /// </summary>
+        private static readonly ConcurrentDictionary<int, IList<Holiday>> _cacheHolidays = new ConcurrentDictionary<int, IList<Holiday>>();
+#endif
+
+
         #region Individual Holidays
 
         /// <summary>
@@ -226,13 +240,54 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Get a list of dates for all holidays in a year.
+        /// </summary>
+        /// <param name="year">The year</param>
+        /// <param name="culture">Culture to use for get the name</param>
+        /// <returns>Dictionary of bank holidays</returns>
+        public IDictionary<DateTime, string> PublicHolidayNamesCulture(int year, CultureInfo culture)
+        {
+            var bHols = new Dictionary<DateTime, string>();
+
+            foreach (Holiday localholiday in PublicHolidaysInformation(year))
+            {
+                bHols.Add(localholiday, localholiday.GetName(culture));
+
+            }
+
+            return bHols;
+
+        }
+
+
+        /// <summary>
         /// Gets a list of public holidays with their observed and actual date
         /// </summary>
         /// <param name="year">The given year</param>
         /// <returns></returns>
         public override IList<Holiday> PublicHolidaysInformation(int year)
         {
+#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
+            if (UseCachingHolidays)
+            {
+                return _cacheHolidays.GetOrAdd(year, y =>
+                {
+                    return PublicHolidaysComplete(year);
+                });
+            }
+#endif
 
+            return PublicHolidaysComplete(year);
+
+        }
+
+        /// <summary>
+        /// Gets a list of public holidays with their observed and actual date
+        /// </summary>
+        /// <param name="year">The given year</param>
+        /// <returns></returns>
+        private IList<Holiday> PublicHolidaysComplete(int year)
+        {
             var bHols = new List<Holiday>();
 
             var easter = HolidayCalculator.GetEaster(year);
@@ -252,8 +307,8 @@ namespace PublicHoliday
             bHols.Add(DayBeforeNewYear(year));
 
             return bHols;
-
         }
+
 
         /// <summary>
         /// Gets a list of public holidays with their observed and actual date with names

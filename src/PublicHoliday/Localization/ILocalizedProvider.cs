@@ -6,13 +6,15 @@ using System.Text;
 namespace PublicHoliday.Localization
 {
     /// <summary>
-    /// 
+    /// Interface of LocalizedProvider of T
     /// </summary>
-    /// <typeparam name="T">Type localized for return</typeparam>
+    /// <typeparam name="T">Type of localized</typeparam>
     interface ILocalizedProvider<T>
     {
 
-
+        /// <summary>
+        /// Default CultureInfo
+        /// </summary>
         CultureInfo DefaultCultureInfo { get; set; }
 
         /// <summary>

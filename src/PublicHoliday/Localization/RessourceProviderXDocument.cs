@@ -7,9 +7,16 @@ using System.Xml.Linq;
 
 namespace PublicHoliday.Localization
 {
+    /// <summary>
+    /// Ressource in XDocument
+    /// </summary>
     class RessourceProviderXDocument : IRessourceProvider<XDocument>
     {
        
+        /// <summary>
+        /// Get XDocument from from the internal XML LocalizationString
+        /// </summary>
+        /// <returns>XDocument with Ressource</returns>
         XDocument IRessourceProvider<XDocument>.GetRessource()
         {
             XDocument Result;

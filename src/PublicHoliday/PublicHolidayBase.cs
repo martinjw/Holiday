@@ -12,6 +12,11 @@ namespace PublicHoliday
     public abstract class PublicHolidayBase : IPublicHolidays
     {
         /// <summary>
+        /// Determines whether to use the cache if available
+        /// </summary>
+        public bool UseCachingHolidays { get; set; } = false;
+
+        /// <summary>
         /// Returns whether todays date is a working day
         /// </summary>
         /// <returns>A boolean of whether today is a working day</returns>
@@ -68,6 +73,18 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Returns the next working day (Mon-Fri, not public holiday)
+        /// after x day of the specified date (or the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <param name="openDayAdd">The number of open day to add</param>
+        /// <returns>A date that is a working day</returns>
+        public DateTime NextWorkingDay(DateTime dt, int openDayAdd)
+        {
+            return HolidayCalculator.NextWorkingDay(this, dt, openDayAdd);
+        }
+
+        /// <summary>
         /// Returns the previous working day (Mon-Fri, not public holiday)
         /// before the specified date (or the same date)
         /// </summary>
@@ -76,6 +93,18 @@ namespace PublicHoliday
         public virtual DateTime PreviousWorkingDay(DateTime dt)
         {
             return HolidayCalculator.PreviousWorkingDay(this, dt);
+        }
+
+        /// <summary>
+        /// Returns the previous working day (Mon-Fri, not public holiday)
+        /// before x day of the specified date (or the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <param name="openDaySubstract">The number of open day to substract</param>
+        /// <returns>A date that is a working day</returns>
+        public DateTime PreviousWorkingDay(DateTime dt, int openDaySubstract)
+        {
+            return HolidayCalculator.PreviousWorkingDay(this, dt, openDaySubstract);
         }
 
         /// <summary>
@@ -105,5 +134,6 @@ namespace PublicHoliday
         /// True if date is a public holiday (excluding weekends)
         /// </returns>
         public abstract bool IsPublicHoliday(DateTime dt);
+
     }
 }
