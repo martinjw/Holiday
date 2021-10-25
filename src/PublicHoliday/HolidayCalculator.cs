@@ -226,6 +226,7 @@ namespace PublicHoliday
                 throw new ArgumentOutOfRangeException("openDayAdd - negative number");
             }
 
+            dt = dt.Date; //we don't care about time part
             int currentAddDay = 0;
 
             //loops through opendaysubstract
@@ -293,10 +294,11 @@ namespace PublicHoliday
                 throw new ArgumentOutOfRangeException("openDaySubstract - negative number");
             }
 
+            dt = dt.Date; //we don't care about time part
             int currentSubstractDay = 0;
 
             //loops through opendaysubstract
-            while (openDaySubstract > currentSubstractDay)
+            while (openDaySubstract >= currentSubstractDay)
             {
 
                 //Mon-Fri and not bank holiday and not the final day
@@ -323,7 +325,7 @@ namespace PublicHoliday
 
             }
 
-            return PreviousWorkingDay(holidayCalendar, dt);
+            return dt;
         }
 
     }
