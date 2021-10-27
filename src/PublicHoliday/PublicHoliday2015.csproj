@@ -50,6 +50,7 @@
     <Compile Include="CzechRepublicPublicHoliday.cs" />
     <Compile Include="DenmarkPublicHoliday.cs" />
     <Compile Include="EcbTargetClosingDay.cs" />
+    <Compile Include="EstoniaPublicHoliday.cs" />
     <Compile Include="GermanPublicHoliday.cs" />
     <Compile Include="Holiday.cs" />
     <Compile Include="IrelandPublicHoliday.cs" />
