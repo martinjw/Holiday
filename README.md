@@ -33,6 +33,7 @@ There are libraries for:
   - Czech Republic : CzechRepublicPublicHoliday
   - ECB : EcbTargetClosingDay (European Central Bank SEPA Target Closing days - no exchange rates and no SEPA transactions)
   - Denmark : DenmarkPublicHoliday
+  - Estonia : EstoniaPublicHoliday
   - France : FrancePublicHoliday
   - Germany : GermanPublicHoliday (set State property for regional holidays)
   - Ireland : IrelandPublicHoliday
