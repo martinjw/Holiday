@@ -1,6 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
+using System;
 
 namespace PublicHolidayTests
 {
@@ -10,7 +10,6 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestUKBankHoliday
     {
-
         /// <summary>
         /// Test Easter
         /// </summary>
@@ -277,7 +276,6 @@ namespace PublicHolidayTests
             Assert.AreEqual(dt, expected);
         }
 
-
         /// <summary>
         /// Sat before bhol
         /// </summary>
@@ -298,6 +296,72 @@ namespace PublicHolidayTests
 
             actual = new UKBankHoliday().PreviousWorkingDay(new DateTime(2016, 1, 3, 11, 31, 0, 0)); //Sun with date
             Assert.AreEqual(new DateTime(2015, 12, 31), actual);
+        }
+
+        [TestMethod]
+        public void TestScotland2022()
+        {
+            //according to https://www.mygov.scot/scotland-bank-holidays official dates:
+            //3 January 	Monday 	New Year's Day (substitute day)
+            //4 January 	Tuesday 	2 January (substitute day)
+            //15 April 	Friday 	Good Friday
+            //2 May 	Monday 	Early May bank holiday
+            //2 June 	Thursday 	Spring bank holiday
+            //3 June 	Friday 	Platinum Jubilee bank holiday
+            //1 August 	Monday 	Summer bank holiday
+            //30 November 	Wednesday 	St Andrew's Day
+            //26 December 	Monday 	Boxing Day
+            //27 December 	Tuesday 	Christmas Day (substitute day)
+            var ukHols = new UKBankHoliday { UkCountry = UKBankHoliday.UkCountries.Scotland };
+            var hols = ukHols.PublicHolidayNames(2022);
+            Assert.AreEqual(10, hols.Count, "There are 10 holidays");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 1, 3)), "New Year's Day (substitute day)");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 1, 4)), "2 January (substitute day)");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 4, 15)), "Good Friday");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 5, 2)), "Early May bank holiday");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 6, 2)), "Spring bank holiday");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 6, 3)), "Platinum Jubilee bank holiday");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 8, 1)), "Summer bank holiday");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 11, 30)), "St Andrew's Day");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 12, 26)), "Christmas Day (substitute day)");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 12, 27)), "Boxing Day");
+            foreach (var dateTime in hols.Keys)
+            {
+                Assert.IsTrue(ukHols.IsBankHoliday(dateTime), $"IsBankHoliday for {hols[dateTime]}");
+            }
+        }
+
+        [TestMethod]
+        public void TestNortherIreland2021()
+        {
+            //official dates from https://www.nidirect.gov.uk/articles/bank-holidays
+            //New Year's Day 	1 January
+            //St Patrick's Day 	17 March
+            //Good Friday 	2 April
+            //Easter Monday 	5 April
+            //Early May Bank Holiday  	3 May
+            //Spring Bank Holiday 	31 May
+            //Battle of the Boyne / Orangemen's Day 	12 July
+            //Summer Bank Holiday 	30 August
+            //Christmas Day 	27 December
+            //Boxing Day 	28 December
+            var ukHols = new UKBankHoliday { UkCountry = UKBankHoliday.UkCountries.NorthernIreland };
+            var hols = ukHols.PublicHolidayNames(2021);
+            Assert.AreEqual(10, hols.Count, "There are 10 holidays");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2021, 1, 1)), "New Year's Day");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2021, 3, 17)), "St Patrick's Day");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2021, 4, 2)), "Good Friday");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2021, 4, 5)), "Easter Monday");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2021, 5, 3)), "Early May Bank Holiday");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2021, 5, 31)), "Spring Bank Holiday");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2021, 7, 12)), "Battle of the Boyne");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2021, 8, 30)), "Summer Bank Holiday");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2021, 12, 27)), "Christmas Day");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2021, 12, 28)), "Boxing Day");
+            foreach (var dateTime in hols.Keys)
+            {
+                Assert.IsTrue(ukHols.IsBankHoliday(dateTime), $"IsBankHoliday for {hols[dateTime]}");
+            }
         }
     }
 }
