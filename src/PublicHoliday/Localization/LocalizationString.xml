@@ -6,14 +6,32 @@
     <GoodFriday value="Good Friday"/>
     <EasterMonday value="Easter Monday"/>
     <NationalPatriotDay value="National Patriots' Day"/>
+    <DollardDay value="Dollard Day"/>
     <NationalHoliday value="National Holiday"/>
+    <NationalHolidayQuebec value="Quebec National Holiday"/>
     <CanadaDay value="Canada Day"/>
+    <DominionDay value="Dominion Day"/>
     <LabourDay value="Labour Day"/>
     <Thanksgiving value="Thanksgiving"/>
     <DayBeforeChristmas value="Day Before Christmas"/>
     <Christmas value="Christmas"/>
     <DayAfterChristmas value="Day After Christmas"/>
     <DayBeforeNewYear value="Day Before New Year"/>
+    <MartinLutherKing value="Martin Luther King Day"/>
+    <PresidentsDay value="President's Day"/>
+    <MemorialDay value="Memorial Day"/>
+    <Juneteenth value="Juneteenth"/>
+    <IndependenceDay value="Independence Day"/>
+    <LaborDay value="Labor Day"/>
+    <ColumbusDay value="Columbus Day"/>
+    <VeteransDay value="Veteran's Day"/>
+    <MayDay value="May Day"/>
+    <Ascension value="Ascension"/>
+    <VictoryInEuropeDay value="Victory in Europe Day"/>
+    <PentecostMonday value="Pentecost Monday"/>
+    <Assumption value="Assumption"/>
+    <AllSaints value="All Saints' Day"/>
+    <Armistice value="Armistice Day"/>
   </en>
   <fr>
     <NewYear value="Jour de l'An"/>
@@ -21,13 +39,31 @@
     <GoodFriday value="Vendredi Saint"/>
     <EasterMonday value="Lundi de Pâques"/>
     <NationalPatriotDay value="Journée nationale des patriotes"/>
+    <DollardDay value="Fête de Dollard"/>
     <NationalHoliday value="Fête nationale"/>
+    <NationalHolidayQuebec value="Fête nationale du Québec"/>
     <CanadaDay value="Fête du Canada"/>
+    <DominionDay value="Jour de la Confédération"/>
     <LabourDay value="Fête du travail"/>
     <Thanksgiving value="Fête de l'Action de Grâces"/>
     <DayBeforeChristmas value="Veille de Noël"/>
     <Christmas value="Fête de Noël"/>
     <DayAfterChristmas value="Lendemain de Noël"/>
     <DayBeforeNewYear value="Veille du jour de l'An"/>
+    <MartinLutherKing value="Journée Martin Luther King"/>
+    <PresidentsDay value="Journée des présidents"/>
+    <MemorialDay value="Jour commémoratif"/>
+    <Juneteenth value="Juneteenth"/>
+    <IndependenceDay value="Jour de l'indépendance"/>
+    <LaborDay value="Fête du travail"/>
+    <ColumbusDay value="Jour de Christophe Colomb"/>
+    <VeteransDay value="Journée des anciens combattants"/>
+    <MayDay value="Fête du Travail"/>
+    <Ascension value="Ascension"/>
+    <VictoryInEuropeDay value="Fête de la Victoire"/>
+    <PentecostMonday value="Lundi de Pentecôte"/>
+    <Assumption value="Assomption"/>
+    <AllSaints value="Toussaint"/>
+    <Armistice value="Jour de l'armistice"/>
   </fr>
 </root>

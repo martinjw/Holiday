@@ -88,20 +88,30 @@ namespace PublicHolidayTests
         }
 
         [DataTestMethod]
-        [DataRow(2021, 10, 22, 0, 2021, 10, 22, "Same day week and not holiday (not openDayAdd)")]
-        [DataRow(2021, 10, 23, 0, 2021, 10, 25, "Weekend (saturday) go to Monday not holiday (not openDayAdd)")]
-        [DataRow(2021, 10, 24, 0, 2021, 10, 25, "Weekend (sunday) go to Friday not holiday (not openDayAdd)")]
-        [DataRow(2021, 10, 21, 1, 2021, 10, 22, "Day week and not holiday with openDayAdd of 1. Thursday -> Friday")]
-        [DataRow(2021, 9, 3, 15, 2021, 9, 24, "Weekend with openDayAdd of 15 and not holiday. +3 week")]
-        [DataRow(2021, 10, 18, 3, 2021, 10, 22, "Weekend with openDayAdd of 3 and one holiday in calculator. Monday -> Friday")]
-        [DataRow(2021, 10, 22, 1, 2021, 10, 25, "Day week and weekend with openDayAdd of 1 (not holiday). Friday -> Monday")]
-        [DataRow(2021, 10, 14, 1, 2021, 10, 18, "Day week and weekend with openDayAdd of 1 and holiday Friday. Friday -> Tuesday")]
-        [DataRow(2021, 10, 8, 1, 2021, 10, 12, "Day week and with opendaysubstract of 1 and holiday Monday. Weekend to add. Friday -> Tuesday")]
-        [DataRow(2021, 09, 23, 15, 2021, 10, 22, "Day week many holidays (6), weekend (3 standard and 1 with holiday) and openDayAdd (15).")]
-        public void TestNextWorkingDay(int year, int month, int day, int opendaysubstract, int yearresult, int monthresult, int dayresult, string description)
+        [DataRow(2021, 10, 22, 0, true, 2021, 10, 22, "Same day week and not holiday (not openDayAdd)")]
+        [DataRow(2021, 10, 23, 0, true, 2021, 10, 25, "Weekend (saturday) go to Monday not holiday (not openDayAdd)")]
+        [DataRow(2021, 10, 24, 0, true, 2021, 10, 25, "Weekend (sunday) go to Monday not holiday (not openDayAdd)")]
+        [DataRow(2021, 10, 21, 1, true, 2021, 10, 22, "Day week and not holiday with openDayAdd of 1. Thursday -> Friday")]
+        [DataRow(2021, 9, 3, 15, true, 2021, 9, 24, "Weekend with openDayAdd of 15 and not holiday. +3 week")]
+        [DataRow(2021, 10, 18, 3, true, 2021, 10, 22, "Weekend with openDayAdd of 3 and one holiday in calculator. Monday -> Friday")]
+        [DataRow(2021, 10, 22, 1, true, 2021, 10, 25, "Day week and weekend with openDayAdd of 1 (not holiday). Friday -> Monday")]
+        [DataRow(2021, 10, 14, 1, true, 2021, 10, 18, "Day week and weekend with openDayAdd of 1 and holiday Friday. Friday -> Tuesday")]
+        [DataRow(2021, 10, 8, 1, true, 2021, 10, 12, "Day week and with opendaysubstract of 1 and holiday Monday. Weekend to add. Friday -> Tuesday")]
+        [DataRow(2021, 9, 23, 15, true, 2021, 10, 22, "Day week many holidays (6), weekend (3 standard and 1 with holiday) and openDayAdd (15).")]
+        [DataRow(2021, 10, 21, 0, false, 2021, 10, 22, "Week next day except Friday and not holiday (not openDayAdd and not same day)")]
+        [DataRow(2021, 10, 22, 0, false, 2021, 10, 25, "Week Friday go to Monday not holiday (not openDayAdd and not same day)")]
+        [DataRow(2021, 10, 23, 0, false, 2021, 10, 25, "Weekend (saturday) go to Monday not holiday (not openDayAdd and not same day)")]
+        [DataRow(2021, 10, 24, 0, false, 2021, 10, 25, "Weekend (sunday) go to Monday not holiday (not openDayAdd and not same day)")]
+        [DataRow(2021, 9, 3, 15, false, 2021, 9, 27, "Weekend with openDayAdd of 15, not holiday and not same day. +3 week")]
+        [DataRow(2021, 10, 18, 2, false, 2021, 10, 22, "Weekend with openDayAdd of 2 and one holiday in calculator. Monday -> Friday")]
+        [DataRow(2021, 10, 22, 1, false, 2021, 10, 26, "Day week and weekend with openDayAdd of 1 (not holiday). Friday -> Tuesday")]
+        [DataRow(2021, 10, 14, 1, false, 2021, 10, 19, "Day week and weekend with openDayAdd of 1 and holiday Friday. Friday -> ")]
+        [DataRow(2021, 10, 8, 1, false, 2021, 10, 13, "Day week and with opendaysubstract of 1 and holiday Monday. Weekend to add. Friday -> Wednesday")]
+        [DataRow(2021, 9, 23, 15, false, 2021, 10, 25, "Day week many holidays (6), weekend (3 standard and 1 with holiday) and openDayAdd (15).")]
+        public void TestNextWorkingDay(int year, int month, int day, int opendaysubstract, bool sameDay, int yearresult, int monthresult, int dayresult, string description)
         {
             var dateresult = new DateTime(yearresult, monthresult, dayresult);
-            var datetest = new DateTime(year, month, day);
+            var datetest = new DateTime(year, month, day, 1, 1, 1); //hour, minute, second for validate truncate
 
             var Holidaystest = new Dictionary<DateTime, string>();
             Holidaystest.Add(new DateTime(2021, 10, 4), "Holiday 2021-10-04");
@@ -113,7 +123,7 @@ namespace PublicHolidayTests
 
             IPublicHolidays PublicHolidaysTest = new PublicHolidayHelperTest() { Holidays = Holidaystest };
 
-            var result = HolidayCalculator.NextWorkingDay(PublicHolidaysTest, datetest, opendaysubstract);
+            var result = HolidayCalculator.NextWorkingDay(PublicHolidaysTest, datetest, opendaysubstract, sameDay);
 
             Assert.IsTrue(result.DayOfWeek != DayOfWeek.Saturday || result.DayOfWeek != DayOfWeek.Sunday, $"{result.ToString("D")} is not between Monday and Friday");
             Assert.AreEqual(dateresult, result, $"{result.ToString("D")} is not the {dateresult} - {description}");
@@ -130,20 +140,30 @@ namespace PublicHolidayTests
         }
 
         [DataTestMethod]
-        [DataRow(2021, 10, 22, 0, 2021, 10, 22, "Same day week and not holiday (not opendaysubstract)")]
-        [DataRow(2021, 10, 23, 0, 2021, 10, 22, "Weekend (saturday) go to Friday not holiday (not opendaysubstract)")]
-        [DataRow(2021, 10, 24, 0, 2021, 10, 22, "Weekend (sunday) go to Friday not holiday (not opendaysubstract)")]
-        [DataRow(2021, 10, 22, 1, 2021, 10, 21, "Day week and not holiday with daysubstract of 1. Friday -> Thursday")]
-        [DataRow(2021, 9, 24, 15, 2021, 9, 3, "Weekend with opendaysubstract of 15 and not holiday. -3 week")]
-        [DataRow(2021, 10, 22, 3, 2021, 10, 18, "Weekend with opendaysubstract of 3 and one holiday in calculator. Friday -> Monday")]
-        [DataRow(2021, 10, 25, 1, 2021, 10, 22, "Day week and weekend with opendaysubstract of 1 (not holiday). Monday -> Friday")]
-        [DataRow(2021, 10, 18, 1, 2021, 10, 14, "Day week and weekend with opendaysubstract of 1 and holiday friday. Monday -> Thursday")]
-        [DataRow(2021, 10, 12, 1, 2021, 10, 8, "Day week and with opendaysubstract of 1 and holiday Monday. Weekend to substract. Tuesday -> Friday")]
-        [DataRow(2021, 10, 22, 15, 2021, 09, 23, "Day week many holidays (6), weekend (3 standard and 1 with holiday) and opendaysubstract (15).")]
-        public void TestPreviousWorkingDay(int year, int month, int day, int opendaysubstract, int yearresult, int monthresult, int dayresult, string description)
+        [DataRow(2021, 10, 22, 0, true, 2021, 10, 22, "Same day week and not holiday (not opendaysubstract)")]
+        [DataRow(2021, 10, 23, 0, true, 2021, 10, 22, "Weekend (saturday) go to Friday not holiday (not opendaysubstract)")]
+        [DataRow(2021, 10, 24, 0, true, 2021, 10, 22, "Weekend (sunday) go to Friday not holiday (not opendaysubstract)")]
+        [DataRow(2021, 10, 22, 1, true, 2021, 10, 21, "Day week and not holiday with daysubstract of 1. Friday -> Thursday")]
+        [DataRow(2021, 9, 24, 15, true, 2021, 9, 3, "Weekend with opendaysubstract of 15 and not holiday. -3 week")]
+        [DataRow(2021, 10, 22, 3, true, 2021, 10, 18, "Day week with opendaysubstract of 3 and one holiday in calculator. Friday -> Monday")]
+        [DataRow(2021, 10, 25, 1, true, 2021, 10, 22, "Day week and weekend with opendaysubstract of 1 (not holiday). Monday -> Friday")]
+        [DataRow(2021, 10, 18, 1, true, 2021, 10, 14, "Day week and weekend with opendaysubstract of 1 and holiday friday. Monday -> Thursday")]
+        [DataRow(2021, 10, 12, 1, true, 2021, 10, 8, "Day week and with opendaysubstract of 1 and holiday Monday. Weekend to substract. Tuesday -> Friday")]
+        [DataRow(2021, 10, 22, 15, true, 2021, 09, 23, "Day week many holidays (6), weekend (3 standard and 1 with holiday) and opendaysubstract (15).")]
+        [DataRow(2021, 10, 22, 0, false, 2021, 10, 21, "Week previous day except Monday not holiday (not opendaysubstract and not same day)")]
+        [DataRow(2021, 10, 25, 0, false, 2021, 10, 22, "Week Monday go to Friday not holiday (not opendaysubstract and not same day)")]
+        [DataRow(2021, 10, 23, 0, false, 2021, 10, 22, "Weekend (saturday) go to Friday not holiday (not opendaysubstract and not same day)")]
+        [DataRow(2021, 10, 24, 0, false, 2021, 10, 22, "Weekend (sunday) go to Friday not holiday (not opendaysubstract and not same day)")]
+        [DataRow(2021, 9, 24, 15, false, 2021, 9, 2, "Weekend with opendaysubstract of 15, not holiday and not same day. -3 week")]
+        [DataRow(2021, 10, 22, 2, false, 2021, 10, 18, "Day week with opendaysubstract of 2 and one holiday in calculator. Friday -> Monday")]
+        [DataRow(2021, 10, 25, 1, false, 2021, 10, 21, "Day week and weekend with opendaysubstract of 1 (not holiday). Monday -> Thursday")]
+        [DataRow(2021, 10, 18, 1, false, 2021, 10, 13, "Day week and weekend with opendaysubstract of 1 and holiday friday. Monday -> Wenesday")]
+        [DataRow(2021, 10, 12, 1, false, 2021, 10, 7, "Day week and with opendaysubstract of 1 and holiday Monday. Weekend to substract. Tuesday -> Thursday")]
+        [DataRow(2021, 10, 22, 15, false, 2021, 09, 22, "Day week many holidays (6), weekend (3 standard and 1 with holiday) and opendaysubstract (15).")]
+        public void TestPreviousWorkingDay(int year, int month, int day, int opendaysubstract, bool sameDay, int yearresult, int monthresult, int dayresult, string description)
         {
             var dateresult = new DateTime(yearresult, monthresult, dayresult);
-            var datetest = new DateTime(year, month, day);
+            var datetest = new DateTime(year, month, day, 1, 1, 1); //hour, minute, second for validate truncate
 
             var Holidaystest = new Dictionary<DateTime, string>();
             Holidaystest.Add(new DateTime(2021, 10, 4), "Holiday 2021-10-04");
@@ -155,7 +175,7 @@ namespace PublicHolidayTests
 
             IPublicHolidays PublicHolidaysTest = new PublicHolidayHelperTest() { Holidays = Holidaystest };
 
-            var result = HolidayCalculator.PreviousWorkingDay(PublicHolidaysTest, datetest, opendaysubstract);
+            var result = HolidayCalculator.PreviousWorkingDay(PublicHolidaysTest, datetest, opendaysubstract, sameDay);
 
             Assert.IsTrue(result.DayOfWeek != DayOfWeek.Saturday || result.DayOfWeek != DayOfWeek.Sunday, $"{result.ToString("D")} is not between Monday and Friday");
             Assert.AreEqual(dateresult, result, $"{result.ToString("D")} is not the {dateresult} - {description}");

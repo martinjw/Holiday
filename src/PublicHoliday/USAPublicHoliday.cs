@@ -8,18 +8,11 @@ namespace PublicHoliday
     /// If a holiday falls on a Saturday it is celebrated the preceding Friday;
     /// if a holiday falls on a Sunday it is celebrated the following Monday.
     /// </summary>
+    /// <remarks>
+    /// Recommendation to use cache with UseCachingHolidays for performance 
+    /// </remarks>
     public class USAPublicHoliday : PublicHolidayBase
     {
-        #region Holiday Adjustments
-        private static DateTime FixWeekend(DateTime hol)
-        {
-            if (hol.DayOfWeek == DayOfWeek.Sunday)
-                hol = hol.AddDays(1);
-            else if (hol.DayOfWeek == DayOfWeek.Saturday)
-                hol = hol.AddDays(-1);
-            return hol;
-        }
-        #endregion
 
         #region Individual Holidays
 
@@ -31,7 +24,7 @@ namespace PublicHoliday
         public static Holiday NewYear(int year)
         {
             var holiday = new DateTime(year, 1, 1);
-            return new Holiday(holiday, FixWeekend(holiday));
+            return new Holiday(holiday, HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(holiday), "NewYear");
         }
 
         /// <summary>
@@ -43,7 +36,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 1, 15);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "MartinLutherKing");
         }
 
         /// <summary>
@@ -55,7 +48,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 2, 15);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "PresidentsDay");
         }
 
         /// <summary>
@@ -67,7 +60,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 5, 25);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "MemorialDay");
         }
 
         /// <summary>
@@ -78,8 +71,8 @@ namespace PublicHoliday
         public static Holiday Juneteenth(int year)
         {
             var hol = new DateTime(year, 6, 19);
-            var observed = FixWeekend(hol);
-            return new Holiday(hol, observed);
+            var observed = HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(hol);
+            return new Holiday(hol, observed, "Juneteenth");
         }
 
         /// <summary>
@@ -90,8 +83,8 @@ namespace PublicHoliday
         public static Holiday IndependenceDay(int year)
         {
             var hol = new DateTime(year, 7, 4);
-            var observed = FixWeekend(hol);
-            return new Holiday(hol, observed);
+            var observed = HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(hol);
+            return new Holiday(hol, observed, "IndependenceDay");
         }
 
         /// <summary>
@@ -103,7 +96,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 9, 1);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "LaborDay");
         }
 
         /// <summary>
@@ -115,7 +108,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 10, 8);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "ColumbusDay");
         }
 
         /// <summary>
@@ -126,7 +119,7 @@ namespace PublicHoliday
         public static Holiday VeteransDay(int year)
         {
             var hol = new DateTime(year, 11, 11);
-            return new Holiday(hol, FixWeekend(hol));
+            return new Holiday(hol, HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(hol), "VeteransDay");
         }
 
         /// <summary>
@@ -138,7 +131,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 11, 22);
             hol = HolidayCalculator.FindOccurrenceOfDayOfWeek(hol, DayOfWeek.Thursday, 1);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "Thanksgiving");
         }
 
         /// <summary>
@@ -149,7 +142,7 @@ namespace PublicHoliday
         public static Holiday Christmas(int year)
         {
             var hol = new DateTime(year, 12, 25);
-            return new Holiday(hol, FixWeekend(hol));
+            return new Holiday(hol, HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(hol), "Christmas");
         }
         #endregion
 
@@ -161,20 +154,13 @@ namespace PublicHoliday
         public override IList<DateTime> PublicHolidays(int year)
         {
             var bHols = new List<DateTime>();
-            bHols.Add(NewYear(year)); //1st January
-            bHols.Add(MartinLutherKing(year)); // Third Monday in January
-            bHols.Add(PresidentsDay(year)); //Third Monday in February
-            bHols.Add(MemorialDay(year)); //Last Monday in May
-            if (year >= 2021)
+
+            foreach (Holiday localholiday in PublicHolidaysInformation(year))
             {
-                bHols.Add(Juneteenth(year)); //19th June, from 2021
+                bHols.Add(localholiday);
+
             }
-            bHols.Add(IndependenceDay(year)); //4 July
-            bHols.Add(LaborDay(year)); //First Monday in September
-            bHols.Add(ColumbusDay(year)); //Second Monday in October
-            bHols.Add(VeteransDay(year)); //11 November
-            bHols.Add(Thanksgiving(year)); //Fourth Thursday in November
-            bHols.Add(Christmas(year)); //25 December
+
             return bHols;
         }
 
@@ -185,7 +171,30 @@ namespace PublicHoliday
         /// <returns></returns>
         public override IList<Holiday> PublicHolidaysInformation(int year)
         {
+
+#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
+            if (UseCachingHolidays)
+            {
+                return _cacheHolidays.GetOrAdd(year, y =>
+                {
+                    return PublicHolidaysComplete(year);
+                });
+            }
+#endif
+
+            return PublicHolidaysComplete(year);
+
+        }
+
+        /// <summary>
+        /// Gets a list of public holidays with their observed and actual date
+        /// </summary>
+        /// <param name="year">The given year</param>
+        /// <returns></returns>
+        private IList<Holiday> PublicHolidaysComplete(int year)
+        {
             var bHols = new List<Holiday>();
+
             bHols.Add(NewYear(year)); //1st January
             bHols.Add(MartinLutherKing(year)); // Third Monday in January
             bHols.Add(PresidentsDay(year)); //Third Monday in February
@@ -200,6 +209,7 @@ namespace PublicHoliday
             bHols.Add(VeteransDay(year)); //11 November
             bHols.Add(Thanksgiving(year)); //Fourth Thursday in November
             bHols.Add(Christmas(year)); //25 December
+
             return bHols;
         }
 
@@ -211,20 +221,13 @@ namespace PublicHoliday
         public override IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
             var bHols = new Dictionary<DateTime, string>();
-            bHols.Add(NewYear(year), "New Year"); //1st January
-            bHols.Add(MartinLutherKing(year), "Martin Luther King Day"); // Third Monday in January
-            bHols.Add(PresidentsDay(year), "President's Day"); //Third Monday in February
-            bHols.Add(MemorialDay(year), "Memorial Day"); //Last Monday in May
-            if (year >= 2021)
+
+            foreach (Holiday localholiday in PublicHolidaysInformation(year))
             {
-                bHols.Add(Juneteenth(year), "Juneteenth"); //19th June, from 2021
+                bHols.Add(localholiday, localholiday.GetName());
+
             }
-            bHols.Add(IndependenceDay(year), "Independence Day"); //4 July
-            bHols.Add(LaborDay(year), "Labor Day"); //First Monday in September
-            bHols.Add(ColumbusDay(year), "Columbus Day"); //Second Monday in October
-            bHols.Add(VeteransDay(year), "Veteran's Day"); //11 November
-            bHols.Add(Thanksgiving(year), "Thanksgiving"); //Fourth Thursday in November
-            bHols.Add(Christmas(year), "Christmas"); //25 December
+
             return bHols;
         }
         /// <summary>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
+#if NETSTANDARD1_0_OR_GREATER || NET40_OR_GREATER || NETCOREAPP1_0_OR_GREATER
 using System.Collections.Concurrent;
 #endif
 
@@ -12,7 +12,7 @@ namespace PublicHoliday
     static class HolidayCalculator
     {
 
-#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
+#if NETSTANDARD1_0_OR_GREATER || NET40_OR_GREATER || NETCOREAPP1_0_OR_GREATER
         private static readonly ConcurrentDictionary<int, DateTime> _cache = new ConcurrentDictionary<int, DateTime>();
 #endif
 
@@ -200,12 +200,13 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="holidayCalendar">The holiday calendar.</param>
         /// <param name="dt">The date you wish to check</param>
+        /// <param name="sameDay">If we can return same date</param>
         /// <returns>
         /// A date that is a working day without time
         /// </returns>
-        public static DateTime NextWorkingDay(IPublicHolidays holidayCalendar, DateTime dt)
+        public static DateTime NextWorkingDay(IPublicHolidays holidayCalendar, DateTime dt, bool sameDay = true)
         {
-            return NextWorkingDay(holidayCalendar, dt, 0);
+            return NextWorkingDay(holidayCalendar, dt, 0, sameDay);
         }
 
         /// <summary>
@@ -215,11 +216,12 @@ namespace PublicHoliday
         /// <param name="holidayCalendar">The holiday calendar.</param>
         /// <param name="dt">The date you wish to check</param>
         /// <param name="openDayAdd">The number of open day to add</param>
+        /// <param name="sameDay">If we can return same date</param>
         /// <returns>
         /// A date that is a working day without time
         /// </returns>
         /// <exception cref="System.ArgumentOutOfRangeException">openDayAdd - negative number</exception>
-        public static DateTime NextWorkingDay(IPublicHolidays holidayCalendar, DateTime dt, int openDayAdd)
+        public static DateTime NextWorkingDay(IPublicHolidays holidayCalendar, DateTime dt, int openDayAdd, bool sameDay = true)
         {
             if (openDayAdd < 0)
             {
@@ -228,6 +230,11 @@ namespace PublicHoliday
 
             dt = dt.Date; //we don't care about time part
             int currentAddDay = 0;
+
+            if (!sameDay)
+            {
+                dt = dt.AddDays(1);
+            }
 
             //loops through opendaysubstract
             while (openDayAdd >= currentAddDay)
@@ -267,12 +274,13 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="holidayCalendar">The holiday calendar.</param>
         /// <param name="dt">The date you wish to check</param>
+        /// <param name="sameDay">If we can return same date</param>
         /// <returns>
         /// A date that is a working day without time
         /// </returns>
-        public static DateTime PreviousWorkingDay(IPublicHolidays holidayCalendar, DateTime dt)
+        public static DateTime PreviousWorkingDay(IPublicHolidays holidayCalendar, DateTime dt, bool sameDay = true)
         {
-            return PreviousWorkingDay(holidayCalendar, dt, 0);
+            return PreviousWorkingDay(holidayCalendar, dt, 0, sameDay);
         }
 
         /// <summary>
@@ -282,11 +290,12 @@ namespace PublicHoliday
         /// <param name="holidayCalendar">The holiday calendar.</param>
         /// <param name="dt">The date you wish to check</param>
         /// <param name="openDaySubstract">The number of open day to substract</param>
+        /// <param name="sameDay">If we can return same date</param>
         /// <returns>
         /// A date that is a working day without time
         /// </returns>
         /// <exception cref="System.ArgumentOutOfRangeException">opendaysubstract - negative number</exception>
-        public static DateTime PreviousWorkingDay(IPublicHolidays holidayCalendar, DateTime dt, int openDaySubstract)
+        public static DateTime PreviousWorkingDay(IPublicHolidays holidayCalendar, DateTime dt, int openDaySubstract, bool sameDay = true)
         {
 
             if (openDaySubstract < 0)
@@ -296,6 +305,12 @@ namespace PublicHoliday
 
             dt = dt.Date; //we don't care about time part
             int currentSubstractDay = 0;
+
+            if (!sameDay)
+            {
+                dt = dt.AddDays(-1);
+            }
+
 
             //loops through opendaysubstract
             while (openDaySubstract >= currentSubstractDay)

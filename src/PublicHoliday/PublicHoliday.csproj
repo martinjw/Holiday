@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <VersionPrefix>1.6.0</VersionPrefix>
-    <TargetFrameworks>net5.0;netstandard1.3;net35;net40;net46</TargetFrameworks>
+    <TargetFrameworks>net5.0;netcoreapp3.1;netstandard1.3;net35;net40;net46</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>PublicHoliday</AssemblyName>
     <PackageId>PublicHoliday</PackageId>
@@ -21,11 +21,10 @@
 2.5.0: US 2021 Juneteenth added
 2.6.0: New Zealand Matariki dates added for next 30 years
 2.7.0: Add Denmark (thanks @Halling69), add Canada Truth&amp;Reconciliation from 2021 (thanks @mattandwhatnot), change Japan Emperors Day (thanks @zimathon)
-2.8.0: Add Canada Governement Quebec Closing Day , improve HolidayCalculator (thanks @Hrothval)
-2.9.0: Add Localized String for class Holiday, Adding cache for Easter for performance framework 4.0+/standard1.3+ (thanks @Hrothval) Added RomanianPublicHoliday (thanks @mihaigliga21)
-2.10.0: Add in HolidayCalculator PreviousWorkingDay/NextWorkingDay with x open day, Add UseCachingHolidays with default to false in IPublicHolidays/PublicHolidayBase, Add in IsWorkingDay in IPublicHolidays, Add target .NET 5.0 (thanks @Hrothval)</PackageReleaseNotes>
-2.10.0: Add in HolidayCalculator PreviousWorkingDay/NextWorkingDay with x open day, Add UseCachingHolidays with default to false in IPublicHolidays/PublicHolidayBase, Add in IsWorkingDay in IPublicHolidays, Add target .NET 5.0 (thanks @Hrothval)
-2.11.0: Add Estonia (thanks @Kaupo)</PackageReleaseNotes>
+      2.8.0: Add Canada Governement Quebec Closing Day , improve HolidayCalculator (thanks @Hrothval)
+      2.9.0: Add Localized String for class Holiday, Adding cache for Easter for performance framework 4.0+/standard1.3+ (thanks @Hrothval) Added RomanianPublicHoliday (thanks @mihaigliga21)
+      2.10.0: Add in HolidayCalculator PreviousWorkingDay/NextWorkingDay with x open day, Add UseCachingHolidays with default to false in IPublicHolidays/PublicHolidayBase, Add in IsWorkingDay in IPublicHolidays, Add target .NET 5.0 (thanks @Hrothval)
+      2.11.0: Add Estonia (thanks @Kaupo) Add .net core 3.1, Add LocalizationString for France and US, Ajust framework for code section, CanadaQuebecGovClosingDay ajust holiday name for past year CanadaDay and NationalPatriotDay, HolidayCalculator PreviousWorkingDay/NextWorkingDay option ignore same day, IPublicHolidays/PublicHolidayBase add PreviousWorkingDayNotSameDay and NextWorkingDayNotSameDAy, USAPublicHoliday add holiday name and standardization (thanks @Hrothval)</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>

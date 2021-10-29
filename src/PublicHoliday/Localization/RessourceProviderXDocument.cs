@@ -21,7 +21,7 @@ namespace PublicHoliday.Localization
         {
             XDocument Result;
 
-#if NETSTANDARD1_3_OR_GREATER || NET46_OR_GREATER
+#if NETSTANDARD1_0_OR_GREATER || NET451_OR_GREATER || NETCOREAPP1_0_OR_GREATER
 
             Assembly asm = typeof(RessourceProviderXDocument).GetTypeInfo().Assembly;
             Stream resource = asm.GetManifestResourceStream("PublicHoliday.Localization.LocalizationString.xml");
@@ -29,7 +29,7 @@ namespace PublicHoliday.Localization
 
 #else
 
-                string Texte;
+            string Texte;
                 using (StreamReader reader = new StreamReader(new RessourceProviderXDocument().GetType().Assembly.GetManifestResourceStream("PublicHoliday.Localization.LocalizationString.xml"), Encoding.UTF8))
                 {
                      Texte = reader.ReadToEnd();
