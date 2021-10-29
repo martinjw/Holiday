@@ -24,8 +24,10 @@
 2.8.0: Add Canada Governement Quebec Closing Day , improve HolidayCalculator (thanks @Hrothval)
 2.9.0: Add Localized String for class Holiday, Adding cache for Easter for performance framework 4.0+/standard1.3+ (thanks @Hrothval) Added RomanianPublicHoliday (thanks @mihaigliga21)
 2.10.0: Add in HolidayCalculator PreviousWorkingDay/NextWorkingDay with x open day, Add UseCachingHolidays with default to false in IPublicHolidays/PublicHolidayBase, Add in IsWorkingDay in IPublicHolidays, Add target .NET 5.0 (thanks @Hrothval)</PackageReleaseNotes>
+2.10.0: Add in HolidayCalculator PreviousWorkingDay/NextWorkingDay with x open day, Add UseCachingHolidays with default to false in IPublicHolidays/PublicHolidayBase, Add in IsWorkingDay in IPublicHolidays, Add target .NET 5.0 (thanks @Hrothval)
+2.11.0: Add Estonia (thanks @Kaupo)</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
-    <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/martinjw/Holiday</RepositoryUrl>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.3' ">1.6.0</NetStandardImplicitPackageVersion>
@@ -37,7 +39,8 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.9.0</Version>
+    <Version>2.11.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <PropertyGroup>
     <FrameworkPathOverride Condition="'$(TargetFramework)' == 'net35'">C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client</FrameworkPathOverride>

@@ -33,6 +33,7 @@ There are libraries for:
   - Czech Republic : CzechRepublicPublicHoliday
   - ECB : EcbTargetClosingDay (European Central Bank SEPA Target Closing days - no exchange rates and no SEPA transactions)
   - Denmark : DenmarkPublicHoliday
+  - Estonia : EstoniaPublicHoliday
   - France : FrancePublicHoliday
   - Germany : GermanPublicHoliday (set State property for regional holidays)
   - Ireland : IrelandPublicHoliday
@@ -46,7 +47,7 @@ There are libraries for:
   - Spain : SpainPublicHoliday
   - Sweden : SwedenPublicHoliday
   - Switzerland: SwitzerlandPublicHoliday
-  - UK : UKBankHoliday
+  - UK : UKBankHoliday (set UkCountry property for Scotland/Northern Ireland variations)
 - E. Europe/Asia
   - Kazakhstan : KazakhstanPublicHoliday
 - N America
@@ -94,6 +95,14 @@ In **Germany** specify the state using an enum (the ISO code)
 var calendar = new GermanPublicHoliday { State = GermanPublicHoliday.States.SN };
 IList<DateTime> result = calendar.PublicHolidays(2017);
 //result contains 22 November 2017, Repentance and Prayer Day
+```
+
+In **United Kingdom** England/Wales is default. Specify Scotland or Northern Ireland using an enum
+```C#
+//Calendar for Scotland
+var calendar = new UKBankHoliday { UkCountry = UKBankHoliday.UkCountries.Scotland };
+IList<DateTime> result = calendar.PublicHolidays(2022);
+//result contains 30 November 2022, St Andrew's Day
 ```
 
 In **Switzerland** the calendar comes with holidays valid in all the country. Add further ones depending on your local rules in the constructor. Choices: hasSecondJanuary, hasLaborDay, hasCorpusChristi, hasChristmasEve, hasNewYearsEve.
