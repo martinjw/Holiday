@@ -77,7 +77,9 @@ There are also static methods for all statutory holidays.
 
 ## Weekend Rules
 
-For many countries, when holidays fall on a weekend, the next working Monday becomes a public holiday (this is sometimes called "Mondayised"). This is the general rule in the UK, and used for certain (but not all) holidays in Australia and New Zealand. In the USA, when holidays fall on Sundays, the holiday is moved to Monday. When the holiday falls on Saturday, the holiday is moved to the preceding Friday.
+For many countries, when holidays fall on a weekend, the next working Monday becomes a public holiday (this is sometimes called "Mondayised"). This is the general rule in the UK, and used for certain (but not all) holidays in Australia and New Zealand.
+
+In the USA, when holidays fall on Sundays, the holiday is moved to Monday. When the holiday falls on Saturday, the holiday is moved to the preceding Friday. The USA Federal Reserve differs slightly, as holidays that fall on a Saturday do not cause a closure on the preceding Friday.
 
 For most of Europe, there is no standard rule for when the holidays fall on weekends. Normally these days are just added to the annual leave.  
 
