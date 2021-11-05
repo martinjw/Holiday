@@ -13,32 +13,60 @@ namespace PublicHolidayTests
     {
 
         [DataTestMethod]
-        [DataRow("en", "NewYear", "", "")]
-        [DataRow("en", "DayAfterNewYear", "", "")]
-        [DataRow("en", "GoodFriday", "", "")]
-        [DataRow("en", "EasterMonday", "", "")]
-        [DataRow("en", "NationalPatriotDay", "", "")]
-        [DataRow("en", "NationalHoliday", "", "")]
-        [DataRow("en", "CanadaDay", "", "")]
-        [DataRow("en", "LabourDay", "", "")]
-        [DataRow("en", "Thanksgiving", "", "")]
-        [DataRow("en", "DayBeforeChristmas", "", "")]
-        [DataRow("en", "Christmas", "", "")]
-        [DataRow("en", "DayAfterChristmas", "", "")]
-        [DataRow("en", "DayBeforeNewYear", "", "")]
-        [DataRow("fr", "NewYear", "", "")]
-        [DataRow("fr", "DayAfterNewYear", "", "")]
-        [DataRow("fr", "GoodFriday", "", "")]
-        [DataRow("fr", "EasterMonday", "", "")]
-        [DataRow("fr", "NationalPatriotDay", "", "")]
-        [DataRow("fr", "NationalHoliday", "", "")]
-        [DataRow("fr", "CanadaDay", "", "")]
-        [DataRow("fr", "LabourDay", "", "")]
-        [DataRow("fr", "Thanksgiving", "", "")]
-        [DataRow("fr", "DayBeforeChristmas", "", "")]
-        [DataRow("fr", "Christmas", "", "")]
-        [DataRow("fr", "DayAfterChristmas", "", "")]
-        [DataRow("fr", "DayBeforeNewYear", "", "")]
+        [DataRow("en", "NewYear", "New Year", "")]
+        [DataRow("en", "DayAfterNewYear", "Day After New Year", "")]
+        [DataRow("en", "GoodFriday", "Good Friday", "")]
+        [DataRow("en", "EasterMonday", "Easter Monday", "")]
+        [DataRow("en", "NationalPatriotDay", "National Patriots' Day", "")]
+        [DataRow("en", "DollardDay", "Dollard Day", "")]
+        [DataRow("en", "NationalHoliday", "National Holiday", "")]
+        [DataRow("en", "NationalHolidayQuebec", "Quebec National Holiday", "")]
+        [DataRow("en", "CanadaDay", "Canada Day", "")]
+        [DataRow("en", "DominionDay", "Dominion Day", "")]
+        [DataRow("en", "LabourDay", "Labour Day", "")]
+        [DataRow("en", "Thanksgiving", "Thanksgiving", "")]
+        [DataRow("en", "DayBeforeChristmas", "Day Before Christmas", "")]
+        [DataRow("en", "Christmas", "Christmas", "")]
+        [DataRow("en", "DayAfterChristmas", "Day After Christmas", "")]
+        [DataRow("en", "DayBeforeNewYear", "Day Before New Year", "")]
+        [DataRow("en", "MartinLutherKing", "Martin Luther King Day", "")]
+        [DataRow("en", "PresidentsDay", "President's Day", "")]
+        [DataRow("en", "MemorialDay", "Memorial Day", "")]
+        [DataRow("en", "Juneteenth", "Juneteenth", "")]
+        [DataRow("en", "IndependenceDay", "Independence Day", "")]
+        [DataRow("en", "LaborDay", "Labor Day", "")]
+        [DataRow("en", "ColumbusDay", "Columbus Day", "")]
+        [DataRow("en", "VeteransDay", "Veteran's Day", "")]
+        [DataRow("en", "MayDay", "May Day", "")]
+        [DataRow("en", "Ascension", "Ascension", "")]
+        [DataRow("en", "VictoryInEuropeDay", "Victory in Europe Day", "")]
+        [DataRow("en", "PentecostMonday", "Pentecost Monday", "")]
+        [DataRow("en", "Assumption", "Assumption", "")]
+        [DataRow("en", "AllSaints", "All Saints' Day", "")]
+        [DataRow("en", "Armistice", "Armistice Day", "")]
+        [DataRow("fr", "NewYear", "Jour de l'An", "")]
+        [DataRow("fr", "DayAfterNewYear", "Lendemain du jour de l'An", "")]
+        [DataRow("fr", "GoodFriday", "Vendredi Saint", "")]
+        [DataRow("fr", "EasterMonday", "Lundi de Pâques", "")]
+        [DataRow("fr", "NationalPatriotDay", "Journée nationale des patriotes", "")]
+        [DataRow("fr", "DollardDay", "Fête de Dollard", "")]
+        [DataRow("fr", "NationalHoliday", "Fête nationale", "")]
+        [DataRow("fr", "NationalHolidayQuebec", "Fête nationale du Québec", "")]
+        [DataRow("fr", "CanadaDay", "Fête du Canada", "")]
+        [DataRow("fr", "DominionDay", "Jour de la Confédération", "")]
+        [DataRow("fr", "LabourDay", "Fête du travail", "")]
+        [DataRow("fr", "Thanksgiving", "Fête de l'Action de Grâces", "")]
+        [DataRow("fr", "DayBeforeChristmas", "Veille de Noël", "")]
+        [DataRow("fr", "Christmas", "Fête de Noël", "")]
+        [DataRow("fr", "DayAfterChristmas", "Lendemain de Noël", "")]
+        [DataRow("fr", "DayBeforeNewYear", "Veille du jour de l'An", "")]
+        [DataRow("fr", "MayDay", "Fête du Travail", "")]
+        [DataRow("fr", "Ascension", "Ascension", "")]
+        [DataRow("fr", "VictoryInEuropeDay", "Fête de la Victoire", "")]
+        [DataRow("fr", "PentecostMonday", "Lundi de Pentecôte", "")]
+        [DataRow("fr", "Assumption", "Assomption", "")]
+        [DataRow("fr", "AllSaints", "Toussaint", "")]
+        [DataRow("fr", "Armistice", "Jour de l'armistice", "")]
         public void TestGetRessource(string culture, string Id, string result, string comment)
         {
             IRessourceProvider<XDocument> local = new RessourceProviderXDocument();
@@ -46,9 +74,12 @@ namespace PublicHolidayTests
 
             var resultActual = (from xml2 in doc.Descendants("root").Descendants(culture).Descendants(Id)
             select xml2).FirstOrDefault();
-
+            
             Assert.IsNotNull(resultActual);
-            //Assert.AreEqual(result, resultActual, comment);
+
+            var valueActual = resultActual.Attribute("value").Value.ToString();
+
+            Assert.AreEqual(result, valueActual, comment);
 
         }
 

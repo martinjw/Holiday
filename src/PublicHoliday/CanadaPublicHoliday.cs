@@ -536,7 +536,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="dt">The date you wish to check</param>
         /// <returns>
-        /// True if date is a bank holiday (excluding weekends)
+        /// True if date is a public holiday (excluding weekends)
         /// </returns>
         public override bool IsPublicHoliday(DateTime dt)
         {

@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 
+#if NETSTANDARD1_0_OR_GREATER || NET40_OR_GREATER || NETCOREAPP1_0_OR_GREATER
+using System.Collections.Concurrent;
+#endif
+
 namespace PublicHoliday
 {
 
@@ -15,6 +19,13 @@ namespace PublicHoliday
         /// Determines whether to use the cache if available
         /// </summary>
         public bool UseCachingHolidays { get; set; } = false;
+
+#if NETSTANDARD1_0_OR_GREATER || NET40_OR_GREATER || NETCOREAPP1_0_OR_GREATER
+        /// <summary>
+        /// Cache by year of holidays for performance.
+        /// </summary>
+        internal static readonly ConcurrentDictionary<int, IList<Holiday>> _cacheHolidays = new ConcurrentDictionary<int, IList<Holiday>>();
+#endif
 
         /// <summary>
         /// Returns whether todays date is a working day
@@ -74,6 +85,17 @@ namespace PublicHoliday
 
         /// <summary>
         /// Returns the next working day (Mon-Fri, not public holiday)
+        /// after the specified date (not the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <returns>A date that is a working day</returns>
+        public virtual DateTime NextWorkingDayNotSameDay(DateTime dt)
+        {
+            return HolidayCalculator.NextWorkingDay(this, dt, false);
+        }
+
+        /// <summary>
+        /// Returns the next working day (Mon-Fri, not public holiday)
         /// after x day of the specified date (or the same date)
         /// </summary>
         /// <param name="dt">The date you wish to check</param>
@@ -82,6 +104,18 @@ namespace PublicHoliday
         public DateTime NextWorkingDay(DateTime dt, int openDayAdd)
         {
             return HolidayCalculator.NextWorkingDay(this, dt, openDayAdd);
+        }
+
+        /// <summary>
+        /// Returns the next working day (Mon-Fri, not public holiday)
+        /// after x day of the specified date (not the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <param name="openDayAdd">The number of open day to add</param>
+        /// <returns>A date that is a working day</returns>
+        public DateTime NextWorkingDayNotSameDay(DateTime dt, int openDayAdd)
+        {
+            return HolidayCalculator.NextWorkingDay(this, dt, openDayAdd, false);
         }
 
         /// <summary>
@@ -97,6 +131,17 @@ namespace PublicHoliday
 
         /// <summary>
         /// Returns the previous working day (Mon-Fri, not public holiday)
+        /// before the specified date (not the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <returns>A date that is a working day</returns>
+        public virtual DateTime PreviousWorkingDayNotSameDay(DateTime dt)
+        {
+            return HolidayCalculator.PreviousWorkingDay(this, dt, false);
+        }
+
+        /// <summary>
+        /// Returns the previous working day (Mon-Fri, not public holiday)
         /// before x day of the specified date (or the same date)
         /// </summary>
         /// <param name="dt">The date you wish to check</param>
@@ -105,6 +150,18 @@ namespace PublicHoliday
         public DateTime PreviousWorkingDay(DateTime dt, int openDaySubstract)
         {
             return HolidayCalculator.PreviousWorkingDay(this, dt, openDaySubstract);
+        }
+
+        /// <summary>
+        /// Returns the previous working day (Mon-Fri, not public holiday)
+        /// before x day of the specified date (not the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <param name="openDaySubstract">The number of open day to substract</param>
+        /// <returns>A date that is a working day</returns>
+        public DateTime PreviousWorkingDayNotSameDay(DateTime dt, int openDaySubstract)
+        {
+            return HolidayCalculator.PreviousWorkingDay(this, dt, openDaySubstract, false);
         }
 
         /// <summary>

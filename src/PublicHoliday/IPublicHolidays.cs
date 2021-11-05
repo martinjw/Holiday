@@ -39,12 +39,29 @@ namespace PublicHoliday
 
         /// <summary>
         /// Returns the next working day (Mon-Fri, not public holiday)
+        /// after the specified date (not the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <returns>A date that is a working day</returns>
+        DateTime NextWorkingDayNotSameDay(DateTime dt);
+
+        /// <summary>
+        /// Returns the next working day (Mon-Fri, not public holiday)
         /// after the specified date (or the same date)
         /// </summary>
         /// <param name="dt">The date you wish to check</param>
         /// <param name="openDayAdd">The number of open day to add</param>
         /// <returns>A date that is a working day</returns>
         DateTime NextWorkingDay(DateTime dt, int openDayAdd);
+
+        /// <summary>
+        /// Returns the next working day (Mon-Fri, not public holiday)
+        /// after the specified date (not the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <param name="openDayAdd">The number of open day to add</param>
+        /// <returns>A date that is a working day</returns>
+        DateTime NextWorkingDayNotSameDay(DateTime dt, int openDayAdd);
 
         /// <summary>
         /// Returns the previous working day (Mon-Fri, not public holiday)
@@ -56,12 +73,29 @@ namespace PublicHoliday
 
         /// <summary>
         /// Returns the previous working day (Mon-Fri, not public holiday)
+        /// before the specified date (not the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <returns>A date that is a working day</returns>
+        DateTime PreviousWorkingDayNotSameDay(DateTime dt);
+
+        /// <summary>
+        /// Returns the previous working day (Mon-Fri, not public holiday)
         /// before the specified date (or the same date)
         /// </summary>
         /// <param name="dt">The date you wish to check</param>
         /// <param name="openDaySubstract">>The number of open day to substract</param>
         /// <returns>A date that is a working day</returns>
         DateTime PreviousWorkingDay(DateTime dt, int openDaySubstract);
+
+        /// <summary>
+        /// Returns the previous working day (Mon-Fri, not public holiday)
+        /// before the specified date (not the same date)
+        /// </summary>
+        /// <param name="dt">The date you wish to check</param>
+        /// <param name="openDaySubstract">>The number of open day to substract</param>
+        /// <returns>A date that is a working day</returns>
+        DateTime PreviousWorkingDayNotSameDay(DateTime dt, int openDaySubstract);
 
         /// <summary>
         /// Gets Holidays between two date times.

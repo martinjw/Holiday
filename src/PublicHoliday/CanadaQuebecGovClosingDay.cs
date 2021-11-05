@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
-using System.Collections.Concurrent;
-#endif
-
 namespace PublicHoliday
 {
     /// <summary>
@@ -17,18 +13,10 @@ namespace PublicHoliday
     /// </description>
     /// </summary>
     /// <remarks>
-    /// 
+    /// Recommendation to use cache with UseCachingHolidays for performance 
     /// </remarks>
     public class CanadaQuebecGovClosingDay : PublicHolidayBase
     {
-
-#if NETSTANDARD1_3_OR_GREATER || NET40_OR_GREATER
-        /// <summary>
-        /// Cache by year of holidays for performance.
-        /// </summary>
-        private static readonly ConcurrentDictionary<int, IList<Holiday>> _cacheHolidays = new ConcurrentDictionary<int, IList<Holiday>>();
-#endif
-
 
         #region Individual Holidays
 
@@ -98,15 +86,18 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
+        /// <remarks>Before 2003 DollardDay.</remarks>
         public static Holiday NationalPatriotDay(int year)
         {
+            var idText = (year > 2002) ? "NationalPatriotDay" : "DollardDay";
+
             var hol = new DateTime(year, 5, 24);
             //skip back to previous Monday
             while (hol.DayOfWeek != DayOfWeek.Monday)
             {
                 hol = hol.AddDays(-1);
             }
-            return new Holiday(hol, hol, "NationalPatriotDay"); 
+            return new Holiday(hol, hol, idText); 
         }
 
         /// <summary>
@@ -117,7 +108,7 @@ namespace PublicHoliday
         public static Holiday NationalHoliday(int year)
         {
             var hol = new DateTime(year, 6, 24);
-            return new Holiday(hol, HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(hol), "NationalHoliday"); 
+            return new Holiday(hol, HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(hol), "NationalHolidayQuebec"); 
         }
 
         /// <summary>
@@ -127,8 +118,9 @@ namespace PublicHoliday
         /// <returns></returns>
         public static Holiday CanadaDay(int year)
         {
+            var idText = (year > 1981) ? "CanadaDay" : "DominionDay";
             var hol = new DateTime(year, 7, 1);
-            return new Holiday(hol, HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(hol), "CanadaDay");
+            return new Holiday(hol, HolidayCalculator.FixWeekendSaturdayBeforeSundayAfter(hol), idText);
         }
 
         /// <summary>
@@ -315,7 +307,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The given year</param>
         /// <returns></returns>
-        [ObsoleteAttribute("This method is obsolete. Call PublicHolidaysInformation instead and use getName with or without CultureInfo.", false)]
+        [ObsoleteAttribute("This method is obsolete. Call PublicHolidaysInformation instead and use getName with or without CultureInfo.", true)]
         public IDictionary<Holiday, string> PublicHolidaysInformationWithNames(int year)
         {
             var bHols = new Dictionary<Holiday, string>();
@@ -336,19 +328,11 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="dt">The date you wish to check</param>
         /// <returns>
-        /// True if date is a bank holiday (excluding weekends)
+        /// True if date is a public holiday (excluding weekends)
         /// </returns>
         public override bool IsPublicHoliday(DateTime dt)
         {
-            return IsPublicHoliday(dt, null);
-        }
-
-        private bool IsPublicHoliday(DateTime dt, DateTime? easter)
-        {
-            int year = dt.Year;
-            var date = dt.Date;
-
-            return PublicHolidays(year).Contains(date);
+            return PublicHolidays(dt.Year).Contains(dt.Date);
         }
 
     }

@@ -271,6 +271,20 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
+        [DataTestMethod]
+        [DataRow(2021, 12, 25, 0, 2021, 12, 29, "Christmas a Satuday NextWorkingDay with 0 openDayAdd the Wednesday")]
+        public void TestNextWorkingDay(int year, int month, int day, int openDayAdd, int yearresult, int monthresult, int dayresult, string description)
+        {
+            var dateresult = new DateTime(yearresult, monthresult, dayresult);
+            var datetest = new DateTime(year, month, day);
+
+            var QuebecGov = new CanadaQuebecGovClosingDay();
+            var result = QuebecGov.NextWorkingDay(datetest,openDayAdd);
+
+            Assert.IsTrue(result.DayOfWeek != DayOfWeek.Saturday || result.DayOfWeek != DayOfWeek.Sunday, $"{result.ToString("D")} is not between Monday and Friday");
+            Assert.AreEqual(dateresult, result, $"{result.ToString("D")} is not the {dateresult} - {description}");
+        }
+
     }
 
 }
