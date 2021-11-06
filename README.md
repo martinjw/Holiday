@@ -132,7 +132,7 @@ var isHoliday = holidayCalendar.IsPublicHoliday(westernAustrliaDay);
 **IMPORTANT** A few Australia state holidays do not have fixed rules, and cannot be calculated.  
 *  For Victoria, AFL Grand Final Day
 *  For Western Australia, Queen's Birthday (we assume end September BUT may change)
-*  The calender does not contain local holidays (Royal Queensland Show day, Royal Hobart Regatta)
+*  The calendar does not contain local holidays (Royal Queensland Show day, Royal Hobart Regatta)
 
 ## Thanks
 @petergaal
