@@ -71,12 +71,12 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime? LiberationDay(int year)
         {
-            if (year % 5 == 0)
+            if (year < 1990 && year % 5 == 0)
             {
                 return new DateTime(year, 5, 5);
             }
 
-            return null;
+            return new DateTime(year, 5, 5);
         }
 
         /// <summary>

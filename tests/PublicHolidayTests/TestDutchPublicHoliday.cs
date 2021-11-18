@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
 
@@ -37,6 +38,21 @@ namespace PublicHolidayTests
         {
             var result = new DutchPublicHoliday().NextWorkingDay(new DateTime(2006, 05, 25));
             Assert.AreEqual(new DateTime(2006, 05, 26), result);
+        }
+
+        [TestMethod]
+        public void TestLiberationDay()
+        {
+            const int year = 2021;
+            var may5th = new DateTime(year, 5, 5);
+
+            var libertion = DutchPublicHoliday.LiberationDay(year);
+            Assert.AreEqual(may5th, libertion);
+            var dutch = new DutchPublicHoliday();
+            Assert.IsTrue(dutch.IsPublicHoliday(may5th));
+            var hols = dutch.PublicHolidaysInformation(year);
+            var lib = hols.FirstOrDefault(x => x.ObservedDate == may5th);
+            Assert.IsNotNull(lib);
         }
     }
 }
