@@ -204,7 +204,13 @@ namespace PublicHoliday
             var easter = HolidayCalculator.GetEaster(year);
             bHols.Add(GoodFriday(easter), "Good Friday");
             bHols.Add(EasterMonday(easter), "Easter Monday");
-            bHols.Add(AnzacDay(year), "Anzac Day");
+            
+            // ANZAC Day could share the same day as Good Friday or Easter Monday - https://www.employment.govt.nz/leave-and-holidays/public-holidays/public-holidays-and-anniversary-dates/dates-for-previous-years/ (2011)
+            var anzacDay = AnzacDay(year);
+            if(bHols.ContainsKey(anzacDay)) {
+                anzacDay = anzacDay.AddSeconds(1);
+            }
+            bHols.Add(anzacDay, "ANZAC Day");
             bHols.Add(QueenBirthday(year), "Queen's Birthday");
             bHols.Add(LabourDay(year), "Labour Day");
             bHols.Add(Christmas(year), "Christmas Day");

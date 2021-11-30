@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
 using System;
+using System.Linq;
 
 namespace PublicHolidayTests
 {
@@ -70,6 +71,21 @@ namespace PublicHolidayTests
             var actual = NewZealandPublicHoliday.AnzacDay(2020);
             var expected = new DateTime(2020, 4, 27); // Observed to Monday the 27th.
             Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void AnzacDaySameDayAsEasterMonday2011() {
+            var holidayCalendar = new NewZealandPublicHoliday();
+            var hols = holidayCalendar.PublicHolidayNames(2011);
+            Assert.IsTrue(10 == hols.Count, "Should be 10 holidays in 2011");
+
+            var (anzacDay, _) = hols.FirstOrDefault(x => x.Value.Equals("ANZAC Day", StringComparison.CurrentCultureIgnoreCase));
+            var (easterMonday, _) = hols.FirstOrDefault(x => x.Value.Equals("Easter Monday", StringComparison.CurrentCultureIgnoreCase));
+
+            Assert.IsFalse(anzacDay == default(DateTime), "ANZAC Day not found in 2011");
+            Assert.IsFalse(easterMonday == default(DateTime), "Easter Monday not found in 2011");
+
+            Assert.IsTrue(anzacDay.Date.Equals(easterMonday.Date), $"ANZAC Day and Easter Monday fell on the same day in 2011");
         }
 
         [TestMethod]
