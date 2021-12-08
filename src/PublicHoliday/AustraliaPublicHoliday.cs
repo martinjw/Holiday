@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+
 // ReSharper disable InconsistentNaming
 
 namespace PublicHoliday
@@ -9,7 +10,7 @@ namespace PublicHoliday
     /// Holidays in Austria http://www.australia.gov.au/about-australia/special-dates-and-events/public-holidays
     /// </summary>
     /// <remarks>
-    /// Missing because no fixed date: 
+    /// Missing because no fixed date:
     /// * For Victoria, AFL Grand Final Day
     /// * For Western Australia, Queen's Birthday (we assume end September BUT Governor may change)
     /// </remarks>
@@ -29,39 +30,48 @@ namespace PublicHoliday
             /// All
             /// </summary>
             All = 0,
+
             /// <summary>
             /// Australian Capital Territory
             /// </summary>
             ACT,
+
             /// <summary>
             /// New South Wales
             /// </summary>
             NSW,
+
             /// <summary>
             /// Northern Territory
             /// </summary>
             NT,
+
             /// <summary>
             /// Queensland
             /// </summary>
             QLD,
+
             /// <summary>
             /// South Australia
             /// </summary>
             SA,
+
             /// <summary>
             /// Tasmania
             /// </summary>
             TAS,
+
             /// <summary>
             /// Victoria
             /// </summary>
             VIC,
+
             /// <summary>
             /// Western Australia
             /// </summary>
             WA,
         }
+
         #region Individual Holidays
 
         /// <summary>
@@ -94,6 +104,7 @@ namespace PublicHoliday
             var easter = HolidayCalculator.GetEaster(year);
             return GoodFriday(easter);
         }
+
         private static DateTime GoodFriday(DateTime easter)
         {
             return easter.AddDays(-2);
@@ -134,17 +145,21 @@ namespace PublicHoliday
                 case States.SA:
                     //Australian Capital Territory, New South Wales and South Australia = first Monday in October
                     return HolidayCalculator.FindNext(new DateTime(year, 10, 1), DayOfWeek.Monday);
+
                 case States.NT:
                 case States.QLD:
                     //Northern Territory and Queensland = May Day
                     return HolidayCalculator.FindNext(new DateTime(year, 5, 1), DayOfWeek.Monday);
+
                 case States.TAS:
                 case States.VIC:
                     //Victoria and Tasmania = second Monday in March ("Eight Hours Day").
                     return HolidayCalculator.FindNext(new DateTime(year, 3, 1), DayOfWeek.Monday).AddDays(7);
+
                 case States.WA:
                     //Western Australia= first Monday in March
                     return HolidayCalculator.FindNext(new DateTime(year, 3, 1), DayOfWeek.Monday);
+
                 default:
                     throw new ArgumentOutOfRangeException(nameof(state), state, "No such state");
             }
@@ -196,6 +211,7 @@ namespace PublicHoliday
         {
             return HolidayCalculator.FindNext(new DateTime(year, 6, 1), DayOfWeek.Monday);
         }
+
         /// <summary>
         /// Picnic Day (Northern Territory only), first Monday of August
         /// </summary>
@@ -216,7 +232,7 @@ namespace PublicHoliday
         {
             //first declared in 2007
             if (year < 2007) return null;
-            if (year >= 2007 && year <= 2009)
+            if (year <= 2009)
                 return HolidayCalculator.FindNext(new DateTime(year, 11, 1), DayOfWeek.Tuesday);
             //2010+ first Monday of the September/October school holidays
             //if coincides with Labour day, moves to 2nd Monday
@@ -225,6 +241,7 @@ namespace PublicHoliday
                 facDay = facDay.AddDays(7);
             return facDay;
         }
+
         /// <summary>
         /// Queen's Birthday (varies by state)
         /// </summary>
@@ -232,7 +249,6 @@ namespace PublicHoliday
         /// <param name="state">The state.</param>
         /// <returns></returns>
         /// <exception cref="System.ArgumentException">You must specify one of the states/territories - state</exception>
-
         public static DateTime QueenBirthday(int year, States state)
         {
             switch (state)
@@ -247,6 +263,7 @@ namespace PublicHoliday
                 case States.VIC:
                     //second Monday in June
                     return HolidayCalculator.FindNext(new DateTime(year, 6, 1), DayOfWeek.Monday).AddDays(7);
+
                 case States.QLD:
                     //first Monday in October
                     if (year >= 2016 || year == 2012)
@@ -255,9 +272,11 @@ namespace PublicHoliday
                     }
                     //before 2016 was in June
                     return HolidayCalculator.FindNext(new DateTime(year, 6, 1), DayOfWeek.Monday).AddDays(7);
+
                 case States.WA:
                     //last Monday of September or first of October. No firm rule, all recent dates are September
                     return HolidayCalculator.FindPrevious(new DateTime(year, 9, 30), DayOfWeek.Monday);
+
                 default:
                     throw new ArgumentOutOfRangeException(nameof(state), state, "Invalid state");
             }
@@ -333,7 +352,9 @@ namespace PublicHoliday
             {
                 bHols.Add(CanberraDay(year), "Canberra Day");
             }
-            bHols.Add(AnzacDay(year, State), "ANZAC Day");
+            var anzacDay = AnzacDay(year, State);
+            if (bHols.ContainsKey(anzacDay)) anzacDay = anzacDay.AddSeconds(1);
+            bHols.Add(anzacDay, "ANZAC Day");
             if (State == States.NT)
             {
                 bHols.Add(PicnicDay(year), "Picnic Day");
@@ -420,6 +441,7 @@ namespace PublicHoliday
                             if (QueenBirthday(year, State) == date)
                                 return true;
                             break;
+
                         case States.WA:
                             if (WesternAustraliaDay(year) == date)
                                 return true;
@@ -431,6 +453,7 @@ namespace PublicHoliday
                     if (State == States.NT && PicnicDay(year) == date)
                         return true;
                     break;
+
                 case 9:
                     if (State == States.WA)
                     {
@@ -439,6 +462,7 @@ namespace PublicHoliday
                     }
 
                     break;
+
                 case 10:
                     if (State == States.ACT || State == States.NSW || State == States.SA)
                     {

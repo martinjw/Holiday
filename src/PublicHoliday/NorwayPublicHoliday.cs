@@ -217,7 +217,11 @@ namespace PublicHoliday
             {
                 bHols.Add(whitSunday, "Første pinsedag");
             }
-            bHols.Add(WhitMonday(easter), "Andre pinsedag");
+
+            var whitMonday = WhitMonday(easter);
+            //can be same day as Constitution Day
+            if (bHols.ContainsKey(whitMonday)) whitMonday = whitMonday.AddSeconds(1);
+            bHols.Add(whitMonday, "Andre pinsedag");
             bHols.Add(Christmas(year), "Første juledag");
             bHols.Add(BoxingDay(year), "Andre juledag");
             return bHols;

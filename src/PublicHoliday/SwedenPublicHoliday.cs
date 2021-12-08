@@ -9,7 +9,6 @@ namespace PublicHoliday
     /// </summary>
     public class SwedenPublicHoliday : PublicHolidayBase
     {
-
         #region Individual Holidays
 
         /// <summary>
@@ -27,7 +26,8 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime Epiphany(int year) {
+        public static DateTime Epiphany(int year)
+        {
             return new DateTime(year, 1, 6);
         }
 
@@ -124,7 +124,8 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime NationalDay(int year) {
+        public static DateTime NationalDay(int year)
+        {
             return new DateTime(year, 6, 6);
         }
 
@@ -133,7 +134,8 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime MidsummerEve(int year) {
+        public static DateTime MidsummerEve(int year)
+        {
             return GetMidsummer(year);
         }
 
@@ -142,13 +144,16 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime MidsummerDay(int year) {
+        public static DateTime MidsummerDay(int year)
+        {
             return GetMidsummer(year).AddDays(1);
         }
 
-        private static DateTime GetMidsummer(int year) {
+        private static DateTime GetMidsummer(int year)
+        {
             DateTime dt = new DateTime(year, 6, 19);
-            for (int i = 0; i < 7; i++) {
+            for (int i = 0; i < 7; i++)
+            {
                 if (dt.AddDays(i).DayOfWeek == DayOfWeek.Friday)
                     return dt.AddDays(i);
             }
@@ -161,13 +166,16 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime AllSaintsDay(int year) {
+        public static DateTime AllSaintsDay(int year)
+        {
             return GetAllSaintsDay(year);
         }
 
-        private static DateTime GetAllSaintsDay(int year) {
+        private static DateTime GetAllSaintsDay(int year)
+        {
             DateTime dt = new DateTime(year, 10, 31);
-            for (int i = 0; i < 7; i++) {
+            for (int i = 0; i < 7; i++)
+            {
                 if (dt.AddDays(i).DayOfWeek == DayOfWeek.Saturday)
                     return dt.AddDays(i);
             }
@@ -179,7 +187,8 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
-        public static DateTime ChristmasEve(int year) {
+        public static DateTime ChristmasEve(int year)
+        {
             return new DateTime(year, 12, 24);
         }
 
@@ -208,11 +217,12 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
-        public static DateTime NewYearsEve(int year) {
+        public static DateTime NewYearsEve(int year)
+        {
             return new DateTime(year, 12, 31);
         }
-        
-        #endregion
+
+        #endregion Individual Holidays
 
         /// <summary>
         /// Get a list of dates for all holidays in a year.
@@ -236,17 +246,20 @@ namespace PublicHoliday
             var labourDay = LabourDay(year);
             var ascension = Ascension(easter);
             if (ascension == labourDay) ascension = ascension.AddSeconds(1); //ascension can fall on Mayday
+            var whitSunday = WhitSunday(easter);
+            var nationalDay = NationalDay(year);
+            if (whitSunday == nationalDay) nationalDay = nationalDay.AddSeconds(1);
             var bHols = new Dictionary<DateTime, string>
             {
                 {NewYear(year), "Nyårsdagen"},
                 {Epiphany(year), "Trettondag jul"},
                 {GoodFriday(easter), "Långfredag"},
-                { easter, "Påskdagen"},
+                {easter, "Påskdagen"},
                 {EasterMonday(easter), "Annandag påsk"},
-                { labourDay, "Första maj"},
+                {labourDay, "Första maj"},
                 {ascension, "Kristi himmelfärds dag"},
-                {WhitSunday(easter), "Pingstdagen"},
-                {NationalDay(year), "Nationaldagen"},
+                {whitSunday, "Pingstdagen"},
+                {nationalDay, "Nationaldagen"},
                 {MidsummerEve(year), "Midsommarafton"},
                 {MidsummerDay(year), "Midsommardagen"},
                 {AllSaintsDay(year), "Alla helgons dag" },
@@ -257,7 +270,6 @@ namespace PublicHoliday
             };
             return bHols;
         }
-
 
         /// <summary>
         /// Check if a specific date is a public holiday.
@@ -278,6 +290,7 @@ namespace PublicHoliday
                     if (Epiphany(year) == date)
                         return true;
                     break;
+
                 case 3:
                 case 4:
                     if (GoodFriday(year) == date)
@@ -289,6 +302,7 @@ namespace PublicHoliday
                     if (Ascension(year) == date)
                         return true;
                     break;
+
                 case 5:
                     if (LabourDay(year) == date)
                         return true;
@@ -297,6 +311,7 @@ namespace PublicHoliday
                     if (WhitSunday(year) == date)
                         return true;
                     break;
+
                 case 6:
                     if (Ascension(year) == date)
                         return true;
@@ -309,10 +324,12 @@ namespace PublicHoliday
                     if (MidsummerDay(year) == date)
                         return true;
                     break;
+
                 case 11:
                     if (AllSaintsDay(year) == date)
                         return true;
                     break;
+
                 case 12:
                     if (ChristmasEve(year) == date)
                         return true;
@@ -320,13 +337,12 @@ namespace PublicHoliday
                         return true;
                     if (BoxingDay(year) == date)
                         return true;
-                    if (NewYearsEve(year) == date) 
+                    if (NewYearsEve(year) == date)
                         return true;
                     break;
             }
 
             return false;
         }
-
     }
 }

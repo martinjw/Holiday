@@ -169,7 +169,10 @@ namespace PublicHoliday
             {
                 bHols.Add(liberationDay.Value, "Bevrijdingsdag");
             }
-            bHols.Add(Ascension(easter), "Hemelvaartsdag");
+
+            var ascension = Ascension(easter);
+            if (bHols.ContainsKey(ascension)) ascension = ascension.AddSeconds(1);
+            bHols.Add(ascension, "Hemelvaartsdag");
             bHols.Add(PentecostMonday(easter), "Pinkstermaandag");
             bHols.Add(Christmas(year), "Eerste Kerstdag");
             bHols.Add(BoxingDay(year), "Tweede Kerstdag");

@@ -180,7 +180,10 @@ namespace PublicHoliday
                 {HumanRightsDay(year), "Human Rights Day" }
             };
             var easter = HolidayCalculator.GetEaster(year);
-            bHols.Add(GoodFriday(easter), "Good Friday");
+            var goodFriday = GoodFriday(easter);
+            //can be same day as Human Rights Day
+            if (bHols.ContainsKey(goodFriday)) goodFriday = goodFriday.AddSeconds(1);
+            bHols.Add(goodFriday, "Good Friday");
             bHols.Add(EasterMonday(easter), "Family Day");
             bHols.Add(FreedomDay(year), "Freedom Day");
             bHols.Add(LabourDay(year), "Workers' Day");
