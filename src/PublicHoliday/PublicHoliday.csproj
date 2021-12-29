@@ -26,7 +26,8 @@
 2.10.0: Add in HolidayCalculator PreviousWorkingDay/NextWorkingDay with x open day, Add UseCachingHolidays with default to false in IPublicHolidays/PublicHolidayBase, Add in IsWorkingDay in IPublicHolidays, Add target .NET 5.0 (thanks @Hrothval)
 2.11.0: Add Estonia (thanks @Kaupo) Add USAFederalReserveHoliday (thanks @AndrewPecha). Add LocalizationString for France and US. Adjust framework for code section, CanadaQuebecGovClosingDay adjust holiday name for past year CanadaDay and NationalPatriotDay, HolidayCalculator PreviousWorkingDay/NextWorkingDay option ignore same day, IPublicHolidays/PublicHolidayBase add PreviousWorkingDayNotSameDay and NextWorkingDayNotSameDay, USAPublicHoliday add holiday name and standardization (thanks @Hrothval)
 2.12.0: Fix DutchPublicHoliday LiberationDay (thanks @sergiu05)
-2.13.0: Fix ANZAC/Easter Monday conflict (thanks @seancallinan )</PackageReleaseNotes>
+2.13.0: Fix ANZAC/Easter Monday conflict (thanks @seancallinan )
+2.14.0: #66 Add holiday names for USAFederalReserveHoliday</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
@@ -41,7 +42,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.13.0</Version>
+    <Version>2.14.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
