@@ -24,11 +24,10 @@ namespace PublicHolidayTests.Localization
         [DataRow("E5", "zh-CHT", "en_V5", true, "Exist in en and zh-CHT and zh not exist")]
         public void TestTryGetLocalizedString(string idText, string culturestring, string valueresult, bool result, string comment)
         {
-            LocalizedProviderString Local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
-            string valueActual;
-            CultureInfo culture = new CultureInfo(culturestring);
+            var local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
+            var culture = new CultureInfo(culturestring);
 
-            bool resultActual = Local.TryGetLocalized(idText, culture, out valueActual);
+            var resultActual = local.TryGetLocalized(idText, culture, out var valueActual);
 
             Assert.AreEqual(result, resultActual, comment);
             Assert.AreEqual(valueresult, valueActual, comment);
@@ -39,10 +38,9 @@ namespace PublicHolidayTests.Localization
         [DataRow("E1", "en_V1", true, "Exist in en")]
         public void TestTryGetLocalizedString(string idText, string valueresult, bool result, string comment)
         {
-            LocalizedProviderString Local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
-            string valueActual;
+            var local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
 
-            bool resultActual = Local.TryGetLocalized(idText, out valueActual);
+            var resultActual = local.TryGetLocalized(idText, out var valueActual);
 
             Assert.AreEqual(result, resultActual, comment);
             Assert.AreEqual(valueresult, valueActual, comment);
@@ -56,10 +54,10 @@ namespace PublicHolidayTests.Localization
         [DataRow("E2", "en-US", "en_V2", "Exist in en-US")]
         public void TestGetLocalizedString2Param(string idText, string culturestring, string valueresult, string comment)
         {
-            LocalizedProviderString Local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
-            CultureInfo culture = new CultureInfo(culturestring);
+            var local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
+            var culture = new CultureInfo(culturestring);
 
-            string valueActual = Local.GetLocalized(idText, culture);
+            var valueActual = local.GetLocalized(idText, culture);
 
             Assert.AreEqual(valueresult, valueActual, comment);
         }
@@ -69,9 +67,9 @@ namespace PublicHolidayTests.Localization
         [DataRow("E1", "en_V1", "Exist in en")]
         public void TestGetLocalizedString1Param(string idText, string valueResult, string comment)
         {
-            LocalizedProviderString Local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
+            var local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
 
-            string valueActual = Local.GetLocalized(idText);
+            var valueActual = local.GetLocalized(idText);
 
             Assert.AreEqual(valueResult, valueActual, comment);
         }
@@ -81,7 +79,7 @@ namespace PublicHolidayTests.Localization
     {
         XDocument IResourceProvider<XDocument>.GetResource()
         {
-            XDocument document = new XDocument(
+            var document = new XDocument(
                new XDeclaration("0.1", "utf-8", "yes"),
                new XElement("root",
                  new XElement("en",

@@ -66,7 +66,7 @@ namespace PublicHolidayTests.Localization
         public void TestGetResource(string culture, string id, string result, string comment)
         {
             IResourceProvider<XDocument> local = new ResourceProviderXDocument();
-            XDocument doc = local.GetResource();
+            var doc = local.GetResource();
 
             var resultActual = (from xml2 in doc.Descendants("root").Descendants(culture).Descendants(id)
                                 select xml2).FirstOrDefault();
