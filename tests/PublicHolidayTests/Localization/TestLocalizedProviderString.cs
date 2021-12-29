@@ -1,9 +1,9 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PublicHoliday.Localization;
-using System.Globalization;
+﻿using System.Globalization;
 using System.Xml.Linq;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using PublicHoliday.Localization;
 
-namespace PublicHolidayTests
+namespace PublicHolidayTests.Localization
 {
     [TestClass]
     public class TestLocalizedProviderString

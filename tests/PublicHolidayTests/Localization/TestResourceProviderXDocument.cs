@@ -1,17 +1,13 @@
-﻿using System;
-using System.Globalization;
-using System.Linq;
+﻿using System.Linq;
 using System.Xml.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PublicHoliday;
 using PublicHoliday.Localization;
 
-namespace PublicHolidayTests
+namespace PublicHolidayTests.Localization
 {
     [TestClass]
-    public class TestRessourceProviderXDocument
+    public class TestResourceProviderXDocument
     {
-
         [DataTestMethod]
         [DataRow("en", "NewYear", "New Year", "")]
         [DataRow("en", "DayAfterNewYear", "Day After New Year", "")]
@@ -67,26 +63,19 @@ namespace PublicHolidayTests
         [DataRow("fr", "Assumption", "Assomption", "")]
         [DataRow("fr", "AllSaints", "Toussaint", "")]
         [DataRow("fr", "Armistice", "Jour de l'armistice", "")]
-        public void TestGetRessource(string culture, string Id, string result, string comment)
+        public void TestGetResource(string culture, string id, string result, string comment)
         {
             IResourceProvider<XDocument> local = new ResourceProviderXDocument();
             XDocument doc = local.GetResource();
 
-            var resultActual = (from xml2 in doc.Descendants("root").Descendants(culture).Descendants(Id)
-            select xml2).FirstOrDefault();
-            
+            var resultActual = (from xml2 in doc.Descendants("root").Descendants(culture).Descendants(id)
+                                select xml2).FirstOrDefault();
+
             Assert.IsNotNull(resultActual);
 
-            var valueActual = resultActual.Attribute("value").Value.ToString();
+            var valueActual = resultActual.Attribute("value")?.Value.ToString();
 
             Assert.AreEqual(result, valueActual, comment);
-
         }
-
-
     }
-
 }
-
-
-
