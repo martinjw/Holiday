@@ -69,8 +69,8 @@ namespace PublicHolidayTests
         [DataRow("fr", "Armistice", "Jour de l'armistice", "")]
         public void TestGetRessource(string culture, string Id, string result, string comment)
         {
-            IRessourceProvider<XDocument> local = new RessourceProviderXDocument();
-            XDocument doc = local.GetRessource();
+            IResourceProvider<XDocument> local = new ResourceProviderXDocument();
+            XDocument doc = local.GetResource();
 
             var resultActual = (from xml2 in doc.Descendants("root").Descendants(culture).Descendants(Id)
             select xml2).FirstOrDefault();

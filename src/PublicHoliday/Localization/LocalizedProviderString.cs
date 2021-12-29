@@ -1,42 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
+﻿using System.Globalization;
 using System.Linq;
-using System.Text;
 using System.Xml.Linq;
 
 namespace PublicHoliday.Localization
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
-    class LocalizedProviderString : ILocalizedProvider<string>
+    internal class LocalizedProviderString : ILocalizedProvider<string>
     {
+        /// <summary>
+        /// Resource in a XDocument
+        /// </summary>
+        private readonly IResourceProvider<XDocument> _resourceProviderXDocument;
 
         /// <summary>
-        /// Ressource in a XDocument
+        /// Resource, if not exist obtain.
         /// </summary>
-        private readonly IRessourceProvider<XDocument> _RessourceProviderXDocument;
+        private XDocument _resourceXDocument;
 
-        /// <summary>
-        /// Ressource, if not exist obtain.
-        /// </summary>
-        private XDocument _RessourceXDocument;
-        private XDocument RessourceXDocument {
+        private XDocument ResourceXDocument
+        {
             get
             {
-                if (_RessourceXDocument == null)
+                if (_resourceXDocument == null)
                 {
-                    _RessourceXDocument = _RessourceProviderXDocument.GetRessource();
+                    _resourceXDocument = _resourceProviderXDocument.GetResource();
                 }
-                
-                return _RessourceXDocument;
+
+                return _resourceXDocument;
             }
             set
             {
-                _RessourceXDocument = value;
+                _resourceXDocument = value;
             }
-             
         }
 
         /// <summary>
@@ -45,14 +42,14 @@ namespace PublicHoliday.Localization
         public CultureInfo DefaultCultureInfo { get; set; }
 
         /// <summary>
-        /// Constructor, specified the provider of Ressource
+        /// Constructor, specified the provider of Resource
         /// Set default CultureInfo to "en"
         /// </summary>
-        /// <param name="RessourceProviderXDocument">RessourceProvider to use</param>
-        public LocalizedProviderString(IRessourceProvider<XDocument> RessourceProviderXDocument)
+        /// <param name="resourceProviderXDocument">ResourceProvider to use</param>
+        public LocalizedProviderString(IResourceProvider<XDocument> resourceProviderXDocument)
         {
             DefaultCultureInfo = new CultureInfo("en");
-            _RessourceProviderXDocument = RessourceProviderXDocument;
+            _resourceProviderXDocument = resourceProviderXDocument;
         }
 
         /// <summary>
@@ -63,8 +60,8 @@ namespace PublicHoliday.Localization
         /// <returns>Text find or Empty</returns>
         public string GetLocalized(string id, CultureInfo culture)
         {
-            TryGetLocalized(id, culture, out string Result);
-            return Result;
+            TryGetLocalized(id, culture, out string result);
+            return result;
         }
 
         /// <summary>
@@ -74,8 +71,8 @@ namespace PublicHoliday.Localization
         /// <returns>Text find or Empty</returns>
         public string GetLocalized(string id)
         {
-            TryGetLocalized(id, DefaultCultureInfo, out string Result);
-            return Result;
+            TryGetLocalized(id, DefaultCultureInfo, out string result);
+            return result;
         }
 
         /// <summary>
@@ -88,37 +85,32 @@ namespace PublicHoliday.Localization
         /// <returns>If we find or not a text</returns>
         public bool TryGetLocalized(string id, CultureInfo culture, out string value)
         {
-            bool Result = false;
+            bool result = false;
             //Search with parameter
-            var Element = getXdocumentValue(RessourceXDocument, culture.Name, id);
+            var element = XDocumentValue(ResourceXDocument, culture.Name, id);
             value = "";
 
-            
-            if (Element == null && culture.Name != culture.TwoLetterISOLanguageName)
+            if (element == null && culture.Name != culture.TwoLetterISOLanguageName)
             {
                 //Search with language of CultureInfo
-                Element = getXdocumentValue(RessourceXDocument, culture.TwoLetterISOLanguageName, id);
+                element = XDocumentValue(ResourceXDocument, culture.TwoLetterISOLanguageName, id);
             }
 
-            
-            if (Element == null && culture.TwoLetterISOLanguageName != DefaultCultureInfo.TwoLetterISOLanguageName)
+            if (element == null && culture.TwoLetterISOLanguageName != DefaultCultureInfo.TwoLetterISOLanguageName)
             {
                 //Search with default CultureInfo
-                Element = getXdocumentValue(RessourceXDocument, DefaultCultureInfo.TwoLetterISOLanguageName, id);
+                element = XDocumentValue(ResourceXDocument, DefaultCultureInfo.TwoLetterISOLanguageName, id);
             }
 
-            if (Element != null)
+            var attribute = element?.Attribute("value")?.Value;
+
+            if (attribute != null)
             {
-                var Attribute = Element.Attribute("value").Value;
-
-                if (Attribute != null)
-                {
-                    value = Attribute.ToString();
-                    Result = true;
-                }
+                value = attribute.ToString();
+                result = true;
             }
 
-            return Result;
+            return result;
         }
 
         /// <summary>
@@ -139,12 +131,11 @@ namespace PublicHoliday.Localization
         /// <param name="culture">Culture of the text to search</param>
         /// <param name="IdText">Id of the text to search</param>
         /// <returns>XElement find or null</returns>
-        private XElement getXdocumentValue(XDocument doc, string culture, string IdText)
+        private XElement XDocumentValue(XDocument doc, string culture, string IdText)
         {
             var value = (from xml2 in doc.Descendants("root").Descendants(culture).Descendants(IdText)
-                          select xml2).FirstOrDefault();
+                         select xml2).FirstOrDefault();
             return value;
         }
-
     }
 }

@@ -32,7 +32,7 @@ namespace PublicHoliday
         public static Holiday NewYear(int year)
         {
             var holiday = new DateTime(year, 1, 1);
-            return new Holiday(holiday, FixWeekend(holiday));
+            return new Holiday(holiday, FixWeekend(holiday), "NewYear");
         }
 
         /// <summary>
@@ -44,7 +44,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 1, 15);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "MartinLutherKing");
         }
 
         /// <summary>
@@ -56,7 +56,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 2, 15);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "PresidentsDay");
         }
 
         /// <summary>
@@ -68,7 +68,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 5, 25);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "MemorialDay");
         }
 
         /// <summary>
@@ -80,7 +80,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 6, 19);
             var observed = FixWeekend(hol);
-            return new Holiday(hol, observed);
+            return new Holiday(hol, observed, "Juneteenth");
         }
 
         /// <summary>
@@ -92,7 +92,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 7, 4);
             var observed = FixWeekend(hol);
-            return new Holiday(hol, observed);
+            return new Holiday(hol, observed, "IndependenceDay"));
         }
 
         /// <summary>
@@ -104,7 +104,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 9, 1);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "LaborDay");
         }
 
         /// <summary>
@@ -116,7 +116,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 10, 8);
             hol = HolidayCalculator.FindFirstMonday(hol);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "ColumbusDay");
         }
 
         /// <summary>
@@ -127,7 +127,7 @@ namespace PublicHoliday
         public static Holiday VeteransDay(int year)
         {
             var hol = new DateTime(year, 11, 11);
-            return new Holiday(hol, FixWeekend(hol));
+            return new Holiday(hol, FixWeekend(hol), "VeteransDay");
         }
 
         /// <summary>
@@ -139,7 +139,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 11, 22);
             hol = HolidayCalculator.FindOccurrenceOfDayOfWeek(hol, DayOfWeek.Thursday, 1);
-            return new Holiday(hol, hol);
+            return new Holiday(hol, hol, "Thanksgiving");
         }
 
         /// <summary>
@@ -150,7 +150,7 @@ namespace PublicHoliday
         public static Holiday Christmas(int year)
         {
             var hol = new DateTime(year, 12, 25);
-            return new Holiday(hol, FixWeekend(hol));
+            return new Holiday(hol, FixWeekend(hol), "Christmas");
         }
         #endregion
 

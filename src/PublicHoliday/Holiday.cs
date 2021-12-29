@@ -10,13 +10,13 @@ namespace PublicHoliday
     public class Holiday
     {
 
-        internal static LocalizedProviderString _LocalizedProviderString = new LocalizedProviderString(new RessourceProviderXDocument());
+        internal static LocalizedProviderString LocalizedProviderString = new LocalizedProviderString(new ResourceProviderXDocument());
 
         /// <summary>
         /// Constructs the holiday
         /// </summary>
         /// <param name="date">The date of the current holiday</param>
-        /// <param name="observedDate">The date the current holiday is obesrved on</param>
+        /// <param name="observedDate">The date the current holiday is observed on</param>
         public Holiday(DateTime date, DateTime observedDate)
         {
             HolidayDate = date;
@@ -27,7 +27,7 @@ namespace PublicHoliday
         /// Constructs the holiday
         /// </summary>
         /// <param name="date">The date of the current holiday</param>
-        /// <param name="observedDate">The date the current holiday is obesrved on</param>
+        /// <param name="observedDate">The date the current holiday is observed on</param>
         /// <param name="idtexttocalization">The Id of text for the Localization</param>
         public Holiday(DateTime date, DateTime observedDate, string idtexttocalization)
         {
@@ -52,12 +52,12 @@ namespace PublicHoliday
         public string IdTextLocalization { get; set; }
 
         /// <summary>
-        /// Name from cultureinfo for the current holiday
+        /// Name from CultureInfo for the current holiday
         /// If not find Empty
         /// </summary>
         public string GetName(CultureInfo culture)
         {
-            return _LocalizedProviderString.GetLocalized(IdTextLocalization, culture);
+            return LocalizedProviderString.GetLocalized(IdTextLocalization, culture);
         }
 
         /// <summary>
@@ -66,7 +66,7 @@ namespace PublicHoliday
         /// </summary>
         public string GetName()
         {
-            return _LocalizedProviderString.GetLocalized(IdTextLocalization);
+            return LocalizedProviderString.GetLocalized(IdTextLocalization);
         }
 
         /// <summary>

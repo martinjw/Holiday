@@ -27,7 +27,7 @@ namespace PublicHolidayTests
         [DataRow("E5", "zh-CHT", "en_V5", true, "Exist in en and zh-CHT and zh not exist")]
         public void TestTryGetLocalizedString(string IdText, string culturestring, string valueresult, bool result, string comment)
         {
-            LocalizedProviderString Local = new LocalizedProviderString(new RessourceProviderXDocumentForTest());
+            LocalizedProviderString Local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
             string valueActual;
             CultureInfo culture = new CultureInfo(culturestring);
 
@@ -42,7 +42,7 @@ namespace PublicHolidayTests
         [DataRow("E1", "en_V1", true, "Exist in en")]
         public void TestTryGetLocalizedString(string IdText, string valueresult, bool result, string comment)
         {
-            LocalizedProviderString Local = new LocalizedProviderString(new RessourceProviderXDocumentForTest());
+            LocalizedProviderString Local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
             string valueActual;
 
             bool resultActual = Local.TryGetLocalized(IdText, out valueActual);
@@ -61,7 +61,7 @@ namespace PublicHolidayTests
         public void TestGetLocalizedString2Param(string IdText, string culturestring, string valueresult, string comment)
         {
 
-            LocalizedProviderString Local = new LocalizedProviderString(new RessourceProviderXDocumentForTest());
+            LocalizedProviderString Local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
             CultureInfo culture = new CultureInfo(culturestring);
 
             string valueActual = Local.GetLocalized(IdText, culture);
@@ -75,7 +75,7 @@ namespace PublicHolidayTests
         public void TestGetLocalizedString1Param(string IdText, string valueresult, string comment)
         {
 
-            LocalizedProviderString Local = new LocalizedProviderString(new RessourceProviderXDocumentForTest());
+            LocalizedProviderString Local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
 
             string valueActual = Local.GetLocalized(IdText);
 
@@ -85,10 +85,10 @@ namespace PublicHolidayTests
     }
 
 
-    class RessourceProviderXDocumentForTest : IRessourceProvider<XDocument>
+    class ResourceProviderXDocumentForTest : IResourceProvider<XDocument>
     {
 
-        XDocument IRessourceProvider<XDocument>.GetRessource()
+        XDocument IResourceProvider<XDocument>.GetRessource()
         {
             XDocument document = new XDocument(
                new XDeclaration("0.1", "utf-8", "yes"),
