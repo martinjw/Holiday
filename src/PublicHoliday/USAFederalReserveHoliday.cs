@@ -92,7 +92,7 @@ namespace PublicHoliday
         {
             var hol = new DateTime(year, 7, 4);
             var observed = FixWeekend(hol);
-            return new Holiday(hol, observed, "IndependenceDay"));
+            return new Holiday(hol, observed, "IndependenceDay");
         }
 
         /// <summary>

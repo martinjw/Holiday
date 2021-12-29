@@ -1,16 +1,13 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using PublicHoliday.Localization;
 using System.Globalization;
 using System.Xml.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PublicHoliday;
-using PublicHoliday.Localization;
 
 namespace PublicHolidayTests
 {
     [TestClass]
     public class TestLocalizedProviderString
     {
-
         [DataTestMethod]
         [DataRow("E0", "en", "", false, "Not exist")]
         [DataRow("E0", "fr", "", false, "Not exist")]
@@ -25,13 +22,13 @@ namespace PublicHolidayTests
         [DataRow("E3", "fr-CA", "en_V3", true, "Exist in en and not in fr or fr-CA")]
         [DataRow("E4", "en-US", "", true, "Exist in en and Empty and not in en-US")]
         [DataRow("E5", "zh-CHT", "en_V5", true, "Exist in en and zh-CHT and zh not exist")]
-        public void TestTryGetLocalizedString(string IdText, string culturestring, string valueresult, bool result, string comment)
+        public void TestTryGetLocalizedString(string idText, string culturestring, string valueresult, bool result, string comment)
         {
             LocalizedProviderString Local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
             string valueActual;
             CultureInfo culture = new CultureInfo(culturestring);
 
-            bool resultActual = Local.TryGetLocalized(IdText, culture, out valueActual);
+            bool resultActual = Local.TryGetLocalized(idText, culture, out valueActual);
 
             Assert.AreEqual(result, resultActual, comment);
             Assert.AreEqual(valueresult, valueActual, comment);
@@ -40,17 +37,16 @@ namespace PublicHolidayTests
         [DataTestMethod]
         [DataRow("E0", "", false, "Not exist")]
         [DataRow("E1", "en_V1", true, "Exist in en")]
-        public void TestTryGetLocalizedString(string IdText, string valueresult, bool result, string comment)
+        public void TestTryGetLocalizedString(string idText, string valueresult, bool result, string comment)
         {
             LocalizedProviderString Local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
             string valueActual;
 
-            bool resultActual = Local.TryGetLocalized(IdText, out valueActual);
+            bool resultActual = Local.TryGetLocalized(idText, out valueActual);
 
             Assert.AreEqual(result, resultActual, comment);
             Assert.AreEqual(valueresult, valueActual, comment);
         }
-
 
         [DataTestMethod]
         [DataRow("E0", "en", "", "Not exist")]
@@ -58,13 +54,12 @@ namespace PublicHolidayTests
         [DataRow("E1", "en", "en_V1", "Exist in en")]
         [DataRow("E1", "en-US", "en-US_V1", "Exist in en-US")]
         [DataRow("E2", "en-US", "en_V2", "Exist in en-US")]
-        public void TestGetLocalizedString2Param(string IdText, string culturestring, string valueresult, string comment)
+        public void TestGetLocalizedString2Param(string idText, string culturestring, string valueresult, string comment)
         {
-
             LocalizedProviderString Local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
             CultureInfo culture = new CultureInfo(culturestring);
 
-            string valueActual = Local.GetLocalized(IdText, culture);
+            string valueActual = Local.GetLocalized(idText, culture);
 
             Assert.AreEqual(valueresult, valueActual, comment);
         }
@@ -72,23 +67,19 @@ namespace PublicHolidayTests
         [DataTestMethod]
         [DataRow("E0", "", "Not exist")]
         [DataRow("E1", "en_V1", "Exist in en")]
-        public void TestGetLocalizedString1Param(string IdText, string valueresult, string comment)
+        public void TestGetLocalizedString1Param(string idText, string valueResult, string comment)
         {
-
             LocalizedProviderString Local = new LocalizedProviderString(new ResourceProviderXDocumentForTest());
 
-            string valueActual = Local.GetLocalized(IdText);
+            string valueActual = Local.GetLocalized(idText);
 
-            Assert.AreEqual(valueresult, valueActual, comment);
+            Assert.AreEqual(valueResult, valueActual, comment);
         }
-
     }
 
-
-    class ResourceProviderXDocumentForTest : IResourceProvider<XDocument>
+    internal class ResourceProviderXDocumentForTest : IResourceProvider<XDocument>
     {
-
-        XDocument IResourceProvider<XDocument>.GetRessource()
+        XDocument IResourceProvider<XDocument>.GetResource()
         {
             XDocument document = new XDocument(
                new XDeclaration("0.1", "utf-8", "yes"),
@@ -116,12 +107,4 @@ namespace PublicHolidayTests
             return document;
         }
     }
-
-
-
-
-
 }
-
-
-
