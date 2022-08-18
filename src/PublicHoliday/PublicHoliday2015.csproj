@@ -61,6 +61,7 @@
     <Compile Include="Localization\IRessourceProvider.cs" />
     <Compile Include="Localization\LocalizedProviderString.cs" />
     <Compile Include="Localization\RessourceProviderXDocument.cs" />
+    <Compile Include="LithuaniaPublicHoliday.cs" />
     <Compile Include="LuxembourgPublicHoliday.cs" />
     <Compile Include="NewZealandPublicHoliday.cs" />
     <Compile Include="RomanianPublicHoliday.cs" />
