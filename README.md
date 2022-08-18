@@ -38,6 +38,7 @@ There are libraries for:
   - Germany : GermanPublicHoliday (set State property for regional holidays)
   - Ireland : IrelandPublicHoliday
   - Italy : ItalyPublicHoliday
+  - Lithuania : LithuaniaPublicHoliday
   - Luxembourg : LuxembourgPublicHoliday
   - Netherlands : DutchPublicHoliday
   - Norway : NorwayPublicHoliday
