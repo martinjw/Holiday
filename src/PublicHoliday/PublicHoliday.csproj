@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <VersionPrefix>1.6.0</VersionPrefix>
-    <TargetFrameworks>net5.0;netstandard1.3;net35;net40;net46</TargetFrameworks>
+    <TargetFrameworks>net6.0;netstandard1.3;net35;net40;net46</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>PublicHoliday</AssemblyName>
     <PackageId>PublicHoliday</PackageId>
@@ -28,7 +28,8 @@
 2.12.0: Fix DutchPublicHoliday LiberationDay (thanks @sergiu05)
 2.13.0: Fix ANZAC/Easter Monday conflict (thanks @seancallinan )
 2.14.0: #66 Add holiday names for USAFederalReserveHoliday
-2.15.0: #67 Fix spelling Switzerland Pfingsten</PackageReleaseNotes>
+2.15.0: #67 Fix spelling Switzerland Pfingsten
+2.16.0 #69 Add Lithuania (thanks @aursad)</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
@@ -43,7 +44,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.15.0</Version>
+    <Version>2.16.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
