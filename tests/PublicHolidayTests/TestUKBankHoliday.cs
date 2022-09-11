@@ -309,12 +309,13 @@ namespace PublicHolidayTests
             //2 June 	Thursday 	Spring bank holiday
             //3 June 	Friday 	Platinum Jubilee bank holiday
             //1 August 	Monday 	Summer bank holiday
+            //19 September Monday State Funeral
             //30 November 	Wednesday 	St Andrew's Day
             //26 December 	Monday 	Boxing Day
             //27 December 	Tuesday 	Christmas Day (substitute day)
             var ukHols = new UKBankHoliday { UkCountry = UKBankHoliday.UkCountries.Scotland };
             var hols = ukHols.PublicHolidayNames(2022);
-            Assert.AreEqual(10, hols.Count, "There are 10 holidays");
+            Assert.AreEqual(11, hols.Count, "There are 11 holidays");
             Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 1, 3)), "New Year's Day (substitute day)");
             Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 1, 4)), "2 January (substitute day)");
             Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 4, 15)), "Good Friday");
@@ -322,6 +323,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 6, 2)), "Spring bank holiday");
             Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 6, 3)), "Platinum Jubilee bank holiday");
             Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 8, 1)), "Summer bank holiday");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 9, 19)), "State Funeral");
             Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 11, 30)), "St Andrew's Day");
             Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 12, 26)), "Christmas Day (substitute day)");
             Assert.IsTrue(hols.ContainsKey(new DateTime(2022, 12, 27)), "Boxing Day");
@@ -362,6 +364,18 @@ namespace PublicHolidayTests
             {
                 Assert.IsTrue(ukHols.IsBankHoliday(dateTime), $"IsBankHoliday for {hols[dateTime]}");
             }
+        }
+
+        [TestMethod]
+        public void TestStateFuneral2022()
+        {
+            var funeral = new DateTime(2022, 9, 19);
+            var expected = new DateTime(2022, 9, 20);
+            var actual = new UKBankHoliday().NextWorkingDay(funeral);
+            Assert.AreEqual(expected, actual);
+
+            var isHoliday = new UKBankHoliday().IsBankHoliday(funeral);
+            Assert.IsTrue(isHoliday);
         }
     }
 }

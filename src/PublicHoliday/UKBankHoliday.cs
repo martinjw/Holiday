@@ -302,6 +302,11 @@ namespace PublicHoliday
             {
                 bHols.Add(Summer(year), "Summer");
             }
+
+            if (year == 2022)
+            {
+                bHols.Add(new DateTime(2022,9,19), "State Funeral of Queen Elizabeth II");
+            }
             bHols.Add(Christmas(year), "Christmas");
             bHols.Add(BoxingDay(year), "Boxing Day");
             return bHols;
@@ -414,6 +419,8 @@ namespace PublicHoliday
                 return true; //Queen's Diamond Jubilee
             if (year == 2022 && dt.Month == 6 && (dt.Day == 2 || dt.Day == 3))
                 return true; //Queen's Platinum Jubilee
+            if (year == 2022 && dt.Month == 9 && dt.Day == 19)
+                return true; //State Funeral of Queen Elizabeth II
 
             return false;
         }
