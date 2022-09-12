@@ -78,6 +78,15 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
+        public void PublicHoliday2022Test()
+        {
+            var result = new CanadaPublicHoliday().PublicHolidays(2022);
+            Assert.AreEqual(13, result.Count);
+            
+            Assert.IsTrue(new CanadaPublicHoliday().IsPublicHoliday(new DateTime(2022, 9, 19)));
+        }
+
+        [TestMethod]
         public void CivicDayProvincalTest()
         {
             //provincal holiday but not a national one

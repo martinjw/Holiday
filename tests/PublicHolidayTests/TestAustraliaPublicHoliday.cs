@@ -35,6 +35,17 @@ namespace PublicHolidayTests
             Assert.IsTrue(7 == hols.Count, "Should be 7 holidays in 2017");
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
+        
+        [TestMethod]
+        public void TestHolidays2022Lists()
+        {
+            var holidayCalendar = new AustraliaPublicHoliday(); //ALL states - just 7 national
+            var hols = holidayCalendar.PublicHolidays(2022);
+            var holNames = holidayCalendar.PublicHolidayNames(2022);
+            //New Year's Day, Australia Day, Good Friday, Easter Monday, Anzac Day, National Day of Mourning, Christmas Day and Boxing Day
+            Assert.IsTrue(8 == hols.Count, "Should be 8 holidays in 2022");
+            Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+        }
 
         [DataTestMethod]
         [DataRow(1, 2, "new year (sunday, so monday is holiday)")]
