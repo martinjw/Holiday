@@ -29,7 +29,8 @@
 2.13.0: Fix ANZAC/Easter Monday conflict (thanks @seancallinan )
 2.14.0: #66 Add holiday names for USAFederalReserveHoliday
 2.15.0: #67 Fix spelling Switzerland Pfingsten
-2.16.0 #69 Add Lithuania (thanks @aursad)</PackageReleaseNotes>
+2.16.0 #69 Add Lithuania (thanks @aursad)
+2.16.2 #72 Add state funeral of Queen Elizabeth II, UK, Canada, Australia, New Zealand (thanks @seancallinan )</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
@@ -44,7 +45,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.16.1</Version>
+    <Version>2.16.2</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
