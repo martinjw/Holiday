@@ -527,6 +527,9 @@ namespace PublicHoliday
 
             if (HasBoxingDay(Province))
                 bHols.Add(BoxingDay(year), "Boxing Day");
+            
+            if(year == 2022)
+                bHols.Add(new DateTime(2022, 9, 19), "State Funeral of Queen Elizabeth II");
 
             return bHols;
         }

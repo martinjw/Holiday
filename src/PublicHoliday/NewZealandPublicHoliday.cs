@@ -216,6 +216,11 @@ namespace PublicHoliday
             bHols.Add(Christmas(year), "Christmas Day");
             bHols.Add(BoxingDay(year), "Boxing Day");
 
+            if (2022 == year)
+            {
+                bHols.Add(new DateTime(2022, 9, 26), "National Day of Mourning");
+            }
+
             var matariki = Matariki(year);
             if (matariki.HasValue)
             {
@@ -279,6 +284,10 @@ namespace PublicHoliday
                         return true;
                     break;
             }
+
+            // National Day of Mourning (for the death of Queen Elizabeth II)
+            if (year == 2022 && dt.Month == 9 && dt.Day == 26) return true;
+            
             return false;
         }
     }

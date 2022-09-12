@@ -19,7 +19,7 @@ namespace PublicHolidayTests
         [DataRow(10, 23, "labour day")]
         [DataRow(12, 25, "christmas")]
         [DataRow(12, 26, "boxing day")]
-        public void TestWesternAustralia2017(int month, int day, string name)
+        public void TestNewZealand2017(int month, int day, string name)
         {
             var holiday = new DateTime(2017, month, day);
             var holidayCalendar = new NewZealandPublicHoliday();
@@ -104,6 +104,16 @@ namespace PublicHolidayTests
             var holidayCalendar = new NewZealandPublicHoliday();
             var hols = holidayCalendar.PublicHolidays(2022);
             var holNames = holidayCalendar.PublicHolidayNames(2022);
+            Assert.IsTrue(12 == hols.Count, "Should be 12 holidays in 2022");
+            Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+        }
+
+        [TestMethod]
+        public void TestHolidays2023Lists()
+        {
+            var holidayCalendar = new NewZealandPublicHoliday();
+            var hols = holidayCalendar.PublicHolidays(2023);
+            var holNames = holidayCalendar.PublicHolidayNames(2023);
             Assert.IsTrue(11 == hols.Count, "Should be 11 holidays in 2022");
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
