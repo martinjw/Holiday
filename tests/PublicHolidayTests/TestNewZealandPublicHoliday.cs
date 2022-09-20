@@ -27,6 +27,58 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be {name}");
         }
 
+        // https://publicholidays.co.nz/2022-dates/
+        [DataTestMethod]
+        [DataRow(1, 24, NewZealandPublicHoliday.ProvincialDistricts.WELLINGTON)]
+        [DataRow(1, 31, NewZealandPublicHoliday.ProvincialDistricts.AUCKLAND)]
+        [DataRow(1, 31, NewZealandPublicHoliday.ProvincialDistricts.NELSON)]
+        [DataRow(3, 14, NewZealandPublicHoliday.ProvincialDistricts.TARANAKI)]
+        [DataRow(3, 21, NewZealandPublicHoliday.ProvincialDistricts.OTAGO)]
+        [DataRow(4, 19, NewZealandPublicHoliday.ProvincialDistricts.SOUTHLAND)]
+        [DataRow(10, 21, NewZealandPublicHoliday.ProvincialDistricts.HAWKES_BAY)]
+        [DataRow(10, 31, NewZealandPublicHoliday.ProvincialDistricts.MARLBOROUGH)]
+        [DataRow(11, 11, NewZealandPublicHoliday.ProvincialDistricts.SOUTH_CANTERBURY)]
+        [DataRow(11, 11, NewZealandPublicHoliday.ProvincialDistricts.CANTERBURY)]
+        [DataRow(11, 28, NewZealandPublicHoliday.ProvincialDistricts.CHATHAM_ISLANDS)]
+        [DataRow(11, 28, NewZealandPublicHoliday.ProvincialDistricts.WESTLAND)]
+        public void TestNewZealandProvincialHolidays2022(int month, int day,
+            NewZealandPublicHoliday.ProvincialDistricts district)
+        {
+            var holiday = new DateTime(2022, month, day);
+            var holidayCalendar = new NewZealandPublicHoliday
+            {
+                ProvincialDistrict = district
+            };
+            var actual = holidayCalendar.IsPublicHoliday(holiday);
+            Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be an anniversary day for {district}");
+        }
+        
+        // https://publicholidays.co.nz/2023-dates/
+        [DataTestMethod]
+        [DataRow(1, 23, NewZealandPublicHoliday.ProvincialDistricts.WELLINGTON)]
+        [DataRow(1, 30, NewZealandPublicHoliday.ProvincialDistricts.AUCKLAND)]
+        [DataRow(1, 30, NewZealandPublicHoliday.ProvincialDistricts.NELSON)]
+        [DataRow(3, 13, NewZealandPublicHoliday.ProvincialDistricts.TARANAKI)]
+        [DataRow(3, 20, NewZealandPublicHoliday.ProvincialDistricts.OTAGO)]
+        [DataRow(4, 11, NewZealandPublicHoliday.ProvincialDistricts.SOUTHLAND)]
+        [DataRow(9, 25, NewZealandPublicHoliday.ProvincialDistricts.SOUTH_CANTERBURY)]
+        [DataRow(10, 20, NewZealandPublicHoliday.ProvincialDistricts.HAWKES_BAY)]
+        [DataRow(10, 30, NewZealandPublicHoliday.ProvincialDistricts.MARLBOROUGH)]
+        [DataRow(11, 17, NewZealandPublicHoliday.ProvincialDistricts.CANTERBURY)]
+        [DataRow(11, 27, NewZealandPublicHoliday.ProvincialDistricts.CHATHAM_ISLANDS)]
+        [DataRow(12, 4, NewZealandPublicHoliday.ProvincialDistricts.WESTLAND)]
+        public void TestNewZealandProvincialHolidays2023(int month, int day,
+            NewZealandPublicHoliday.ProvincialDistricts district)
+        {
+            var holiday = new DateTime(2023, month, day);
+            var holidayCalendar = new NewZealandPublicHoliday
+            {
+                ProvincialDistrict = district
+            };
+            var actual = holidayCalendar.IsPublicHoliday(holiday);
+            Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be an anniversary day for {district}");
+        }
+
         [TestMethod]
         public void TestChristmasAndBoxingDayLandingOnTheEntireWeekend()
         {
