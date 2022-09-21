@@ -32,6 +32,36 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
+        //https://www.bmi.bund.de/DE/themen/verfassung/staatliche-symbole/nationale-feiertage/nationale-feiertage-node.html
+        //1 Jan	Sat	New Year's Day 	National
+        //6 Jan	Thu	Epiphany 	BW, BY & ST
+        //8 Mar	Tue	International Women's Day 	BE
+        //15 Apr	Fri	Good Friday 	National
+        //17 Apr	Sun	Easter Sunday 	BB
+        //18 Apr	Mon	Easter Monday 	National
+        //1 May	Sun	Labour Day 	National
+        //26 May	Thu	Ascension Day 	National
+        //5 Jun	Sun	Whit Sunday 	BB
+        //6 Jun	Mon	Whit Monday 	National
+        //16 Jun	Thu	Corpus Christi 	BW, BY, HE, NW, RP, SL, SN & TH
+        //15 Aug	Mon	Assumption Day 	BY & SL
+        //3 Oct	Mon	Day of German Unity 	National
+        //31 Oct	Mon	Reformation Day 	BB, HH, MV, NI, SH, SN, ST & TH
+        //1 Nov	Tue	All Saints' Day 	BW, BY, NW, RP & SL
+        //16 Nov	Wed	Repentance Day 	SN
+        //25 Dec	Sun	Christmas Day 	National
+        //26 Dec	Mon	2nd Day of Christmas 	National
+        public void TestHolidays2022()
+        {
+            var nov16 = new DateTime(2022,11,16);
+            //Saxony
+            var holidayCalendar = new GermanPublicHoliday { State = GermanPublicHoliday.States.SN };
+            Assert.IsTrue(holidayCalendar.IsPublicHoliday(nov16));
+            var list = holidayCalendar.PublicHolidays(2022);
+            Assert.IsTrue(list.Contains(nov16), "Repentance Day");
+        }
+
+        [TestMethod]
         public void TestHolidays2017Lists()
         {
             var holidayCalendar = new GermanPublicHoliday();
