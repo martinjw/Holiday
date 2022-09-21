@@ -368,7 +368,7 @@ namespace PublicHoliday
             bHols.Add(PentecostMonday(year));
             if (HasCorpusChristi) bHols.Add(CorpusChristi(year));
             if (HasAssumption) bHols.Add(Assumption(year));
-            if (HasWorldChildrensDay(year)) bHols.Add(WorldChildrensDay(2019));
+            if (HasWorldChildrensDay(year)) bHols.Add(WorldChildrensDay(year));
             bHols.Add(GermanUnity(year));
             //All states observe Reformation in 2017, 500th anniversary
             if (HasReformation || year == 2017) bHols.Add(Reformation(year));
@@ -398,7 +398,7 @@ namespace PublicHoliday
             bHols.Add(PentecostMonday(year), "Pfingstmontag");
             if (HasCorpusChristi) bHols.Add(CorpusChristi(year), "Fronleichnam");
             if (HasAssumption) bHols.Add(Assumption(year), "Mariä Himmelfahrt");
-            if (HasWorldChildrensDay(year)) bHols.Add(WorldChildrensDay(2019), "Kindertag");
+            if (HasWorldChildrensDay(year)) bHols.Add(WorldChildrensDay(year), "Kindertag");
             bHols.Add(GermanUnity(year), "Tag der Deutschen Einheit");
             if (HasReformation || year == 2017) bHols.Add(Reformation(year), "Reformationstag");
             if (HasAllSaints) bHols.Add(AllSaints(year), "Allerheiligen");
