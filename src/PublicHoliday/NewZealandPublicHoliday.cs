@@ -292,7 +292,7 @@ namespace PublicHoliday
                         HolidayCalculator.FindNearestDayOfWeek(new DateTime(year, 3, 23), DayOfWeek.Monday);
                     return nearestMonday.Equals(easterMonday) ? nearestMonday.AddDays(1) : nearestMonday;
                 case ProvincialDistricts.SOUTH_CANTERBURY:
-                    if (year == 2022) return new DateTime(2022, 11, 11); // moved due to QEII Day of Mourning
+                    if (year == 2022) return new DateTime(2022, 11, 11); // moved due to QEII Memorial Day
                     return HolidayCalculator.FindOccurrenceOfDayOfWeek(new DateTime(year, 9, 1), DayOfWeek.Monday, 4);
                 case ProvincialDistricts.SOUTHLAND:
                     return EasterMonday(year).AddDays(1);
@@ -356,7 +356,8 @@ namespace PublicHoliday
 
             if (2022 == year)
             {
-                bHols.Add(new DateTime(2022, 9, 26), "National Day of Mourning");
+                // https://legislation.govt.nz/bill/government/2022/0168/latest/whole.html
+                bHols.Add(new DateTime(2022, 9, 26), "Queen Elizabeth II Memorial Day");
             }
 
             var matariki = Matariki(year);
