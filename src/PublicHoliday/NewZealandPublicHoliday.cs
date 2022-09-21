@@ -9,6 +9,89 @@ namespace PublicHoliday
     /// </summary>
     public class NewZealandPublicHoliday : PublicHolidayBase
     {
+        
+        /// <summary>
+        /// Gets or sets the provincial district
+        /// </summary>
+        public ProvincialDistricts ProvincialDistrict { get; set; }
+
+        /// <summary>
+        /// For determining provincial district anniversary days
+        /// </summary>
+        public enum ProvincialDistricts
+        {
+            /// <summary>
+            /// All of NZ
+            /// </summary>
+            ALL = 0,
+            
+            /// <summary>
+            /// Northland
+            /// </summary>
+            NORTHLAND = 1,
+            
+            /// <summary>
+            /// Auckland
+            /// </summary>
+            AUCKLAND = 2,
+            
+            /// <summary>
+            /// Taranaki
+            /// </summary>
+            TARANAKI = 3,
+            
+            /// <summary>
+            /// Hawkes' Bay
+            /// </summary>
+            HAWKES_BAY = 4,
+            
+            /// <summary>
+            /// Wellington
+            /// </summary>
+            WELLINGTON = 5,
+            
+            /// <summary>
+            /// Marlborough
+            /// </summary>
+            MARLBOROUGH = 6,
+            
+            /// <summary>
+            /// Nelson
+            /// </summary>
+            NELSON = 7,
+            
+            /// <summary>
+            /// Canterbury
+            /// </summary>
+            CANTERBURY = 8,
+            
+            /// <summary>
+            /// South Canterbury
+            /// </summary>
+            SOUTH_CANTERBURY = 9,
+            
+            /// <summary>
+            /// Westland
+            /// </summary>
+            WESTLAND = 10,
+            
+            
+            /// <summary>
+            /// Otago
+            /// </summary>
+            OTAGO = 11,
+            
+            /// <summary>
+            /// Southland
+            /// </summary>
+            SOUTHLAND = 12,
+            
+            /// <summary>
+            /// Chatham Islands
+            /// </summary>
+            CHATHAM_ISLANDS = 13
+        }
+        
         /// <summary>
         /// New Year's Day
         /// </summary>
@@ -177,6 +260,54 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Determine provincial anniversary day
+        /// </summary>
+        /// <param name="year">The requested year</param>
+        /// <param name="district">The requested provincial district</param>
+        /// <returns>The anniversary day</returns>
+        public static DateTime? ProvincialAnniversary(int year, ProvincialDistricts district)
+        {
+            switch (district)
+            {
+                case ProvincialDistricts.ALL:
+                    return null;
+                case ProvincialDistricts.AUCKLAND: 
+                case ProvincialDistricts.NORTHLAND:
+                    return HolidayCalculator.FindNearestDayOfWeek(new DateTime(year, 1, 29), DayOfWeek.Monday);
+                case ProvincialDistricts.CANTERBURY:
+                    var firstTuesdayInNovember =
+                        HolidayCalculator.FindNext(new DateTime(year, 11, 1), DayOfWeek.Tuesday);
+                    return HolidayCalculator.FindNext(firstTuesdayInNovember.AddDays(7), DayOfWeek.Friday);
+                case ProvincialDistricts.CHATHAM_ISLANDS:
+                    return HolidayCalculator.FindNearestDayOfWeek(new DateTime(year, 11, 30), DayOfWeek.Monday);
+                case ProvincialDistricts.HAWKES_BAY:
+                    return HolidayCalculator.FindPrevious(LabourDay(year), DayOfWeek.Friday);
+                case ProvincialDistricts.MARLBOROUGH:
+                    return HolidayCalculator.FindNext(LabourDay(year).AddDays(1), DayOfWeek.Monday);
+                case ProvincialDistricts.NELSON:
+                    return HolidayCalculator.FindNearestDayOfWeek(new DateTime(year, 2, 1), DayOfWeek.Monday);
+                case ProvincialDistricts.OTAGO:
+                    var easterMonday = EasterMonday(year);
+                    var nearestMonday =
+                        HolidayCalculator.FindNearestDayOfWeek(new DateTime(year, 3, 23), DayOfWeek.Monday);
+                    return nearestMonday.Equals(easterMonday) ? nearestMonday.AddDays(1) : nearestMonday;
+                case ProvincialDistricts.SOUTH_CANTERBURY:
+                    if (year == 2022) return new DateTime(2022, 11, 11); // moved due to QEII Memorial Day
+                    return HolidayCalculator.FindOccurrenceOfDayOfWeek(new DateTime(year, 9, 1), DayOfWeek.Monday, 4);
+                case ProvincialDistricts.SOUTHLAND:
+                    return EasterMonday(year).AddDays(1);
+                case ProvincialDistricts.TARANAKI:
+                    return HolidayCalculator.FindOccurrenceOfDayOfWeek(new DateTime(year, 3, 1), DayOfWeek.Monday, 2);
+                case ProvincialDistricts.WELLINGTON:
+                    return HolidayCalculator.FindNearestDayOfWeek(new DateTime(year, 1, 22), DayOfWeek.Monday);
+                case ProvincialDistricts.WESTLAND:
+                    return HolidayCalculator.FindNearestDayOfWeek(new DateTime(year, 12, 1), DayOfWeek.Monday);
+                default:
+                    return null;
+            }
+        }
+
+        /// <summary>
         /// Get a list of dates for all holidays in a year.
         /// </summary>
         /// <param name="year">The year.</param>
@@ -204,6 +335,13 @@ namespace PublicHoliday
             var easter = HolidayCalculator.GetEaster(year);
             bHols.Add(GoodFriday(easter), "Good Friday");
             bHols.Add(EasterMonday(easter), "Easter Monday");
+
+            var provincialAnniversaryDay = ProvincialAnniversary(year, ProvincialDistrict);
+
+            if (provincialAnniversaryDay.HasValue)
+            {
+                bHols.Add(provincialAnniversaryDay.Value, "Anniversary Day");
+            }
             
             // ANZAC Day could share the same day as Good Friday or Easter Monday - https://www.employment.govt.nz/leave-and-holidays/public-holidays/public-holidays-and-anniversary-dates/dates-for-previous-years/ (2011)
             var anzacDay = AnzacDay(year);
@@ -218,7 +356,8 @@ namespace PublicHoliday
 
             if (2022 == year)
             {
-                bHols.Add(new DateTime(2022, 9, 26), "National Day of Mourning");
+                // https://legislation.govt.nz/bill/government/2022/0168/latest/whole.html
+                bHols.Add(new DateTime(2022, 9, 26), "Queen Elizabeth II Memorial Day");
             }
 
             var matariki = Matariki(year);
@@ -241,6 +380,8 @@ namespace PublicHoliday
         {
             var year = dt.Year;
             var date = dt.Date;
+
+            if (ProvincialAnniversary(year, ProvincialDistrict) == date) return true;
 
             switch (dt.Month)
             {
