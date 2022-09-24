@@ -30,7 +30,8 @@
 2.14.0: #66 Add holiday names for USAFederalReserveHoliday
 2.15.0: #67 Fix spelling Switzerland Pfingsten
 2.16.0 #69 Add Lithuania (thanks @aursad)
-2.16.2 #72 Add state funeral of Queen Elizabeth II, UK, Canada, Australia, New Zealand (thanks @seancallinan )</PackageReleaseNotes>
+2.16.2 #72 Add state funeral of Queen Elizabeth II, UK, Canada, Australia, New Zealand (thanks @seancallinan )
+2.17.0 #73 NZ provincial holidays added (thanks @seancallinan ) #74 Germany holiday error</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
