@@ -212,6 +212,10 @@ namespace PublicHoliday
                 case 3:
                     if (HumanRightsDay(year) == date)
                         return true;
+                    if (GoodFriday(year) == date)
+                        return true;
+                    if (EasterMonday(year) == date)
+                        return true;
                     break;
 
                 case 4:
