@@ -69,7 +69,7 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestChristmasAndBoxingDay2022()
+        public void TestChristmasAndBoxingDay2021()
         {
             var christmasDay = SouthAfricaPublicHoliday.Christmas(2021);
             var boxingDay = SouthAfricaPublicHoliday.BoxingDay(2021);
