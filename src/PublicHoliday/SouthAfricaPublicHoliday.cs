@@ -21,7 +21,7 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime NewYear(int year)
         {
-            return HolidayCalculator.FixWeekend(new DateTime(year, 1, 1));
+            return HolidayCalculator.FixWeekendSundayAfter(new DateTime(year, 1, 1));
         }
 
         /// <summary>
@@ -31,7 +31,7 @@ namespace PublicHoliday
 
         public static DateTime HumanRightsDay(int year)
         {
-            return HolidayCalculator.FixWeekend(new DateTime(year, 3, 21));
+            return HolidayCalculator.FixWeekendSundayAfter(new DateTime(year, 3, 21));
         }
 
         /// <summary>
@@ -72,7 +72,7 @@ namespace PublicHoliday
 
         public static DateTime FreedomDay(int year)
         {
-            return HolidayCalculator.FixWeekend(new DateTime(year, 4, 27));
+            return HolidayCalculator.FixWeekendSundayAfter(new DateTime(year, 4, 27));
         }
 
 
@@ -83,7 +83,7 @@ namespace PublicHoliday
         /// 
         public static DateTime LabourDay(int year)
         {
-            return HolidayCalculator.FixWeekend(new DateTime(year, 5, 1));
+            return HolidayCalculator.FixWeekendSundayAfter(new DateTime(year, 5, 1));
         }
 
         /// <summary>
@@ -93,7 +93,7 @@ namespace PublicHoliday
 
         public static DateTime YouthDay(int year)
         {
-            return HolidayCalculator.FixWeekend(new DateTime(year, 6, 16));
+            return HolidayCalculator.FixWeekendSundayAfter(new DateTime(year, 6, 16));
         }
 
         /// <summary>
@@ -103,7 +103,7 @@ namespace PublicHoliday
 
         public static DateTime NationalWomensDay(int year)
         {
-            return HolidayCalculator.FixWeekend(new DateTime(year, 8, 9));
+            return HolidayCalculator.FixWeekendSundayAfter(new DateTime(year, 8, 9));
         }
 
         /// <summary>
@@ -113,7 +113,7 @@ namespace PublicHoliday
 
         public static DateTime HeritageDay(int year)
         {
-            return HolidayCalculator.FixWeekend(new DateTime(year, 9, 24));
+            return HolidayCalculator.FixWeekendSundayAfter(new DateTime(year, 9, 24));
         }
 
         /// <summary>
@@ -123,7 +123,7 @@ namespace PublicHoliday
 
         public static DateTime ReconciliationDay(int year)
         {
-            return HolidayCalculator.FixWeekend(new DateTime(year, 12, 16));
+            return HolidayCalculator.FixWeekendSundayAfter(new DateTime(year, 12, 16));
         }
 
         /// <summary>
@@ -133,7 +133,8 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime Christmas(int year)
         {
-            return HolidayCalculator.FixWeekend(new DateTime(year, 12, 25));
+            //Christmas does not shift when it falls on a Sunday due to boxing day being on the Monday then.
+            return new DateTime(year, 12, 25);
         }
 
         /// <summary>
@@ -143,15 +144,8 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime BoxingDay(int year)
         {
-            DateTime hol = new DateTime(year, 12, 26);
-            //if Xmas=Sun, it's shifted to Mon and 26 also gets shifted
-            bool isSundayOrMonday =
-                hol.DayOfWeek == DayOfWeek.Sunday ||
-                hol.DayOfWeek == DayOfWeek.Monday;
-            hol = HolidayCalculator.FixWeekend(hol);
-            if (isSundayOrMonday)
-                hol = hol.AddDays(1);
-            return hol;
+            //Boxing day does not shift when it falls on a 
+            return HolidayCalculator.FixWeekendSundayAfter(new DateTime(year, 12, 26));
         }
 
         #endregion Individual Holidays

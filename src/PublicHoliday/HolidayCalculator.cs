@@ -112,6 +112,18 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Fix weekend with only sunday to monday.
+        /// </summary>
+        /// <param name="hol"></param>
+        /// <returns></returns>
+        public static DateTime FixWeekendSundayAfter(DateTime hol)
+        {
+            if (hol.DayOfWeek == DayOfWeek.Sunday)
+                hol = hol.AddDays(1);
+            return hol;
+        }
+
+        /// <summary>
         /// Fix Weekend for the after of two holiday consecutive with standard FixWeekend to monday.
         /// </summary>
         /// <param name="hol"></param>
