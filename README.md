@@ -51,6 +51,7 @@ There are libraries for:
   - UK : UKBankHoliday (set UkCountry property for Scotland/Northern Ireland variations)
 - E. Europe/Asia
   - Kazakhstan : KazakhstanPublicHoliday
+  - Turkey : TurkeyPublicHoliday
 - N America
   - Canada : CanadaPublicHoliday (set Province in constructor for regional holidays)
   - Canada : CanadaQuebecGovClosingDay (Government province of Quebec closing day)
