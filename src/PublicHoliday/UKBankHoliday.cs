@@ -290,6 +290,8 @@ namespace PublicHoliday
             var dt = MayDay(year);
             if (dt.HasValue)
                 bHols.Add(dt.Value, "Early May");
+            if (year == 2023)
+                bHols.Add(new DateTime(2023,5,8), "Coronation of King Charles III");
             bHols.Add(Spring(year), "Spring");
 
             if (year == 2002)
@@ -421,6 +423,8 @@ namespace PublicHoliday
                 return true; //Queen's Platinum Jubilee
             if (year == 2022 && dt.Month == 9 && dt.Day == 19)
                 return true; //State Funeral of Queen Elizabeth II
+            if (year == 2023 && dt.Month == 5 && dt.Day == 8)
+                return true; //Coronation of King Charles III
 
             return false;
         }

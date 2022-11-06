@@ -377,5 +377,17 @@ namespace PublicHolidayTests
             var isHoliday = new UKBankHoliday().IsBankHoliday(funeral);
             Assert.IsTrue(isHoliday);
         }
+
+        [TestMethod]
+        public void TestCoronation2023()
+        {
+            var coronation = new DateTime(2023, 5, 8);
+
+            var isHoliday = new UKBankHoliday().IsBankHoliday(coronation);
+            Assert.IsTrue(isHoliday);
+
+            var hols = new UKBankHoliday().PublicHolidays(2023);
+            Assert.IsTrue(hols.Contains(coronation));
+        }
     }
 }
