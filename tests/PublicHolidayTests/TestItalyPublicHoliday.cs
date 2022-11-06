@@ -33,7 +33,7 @@ namespace PublicHolidayTests
             var holidayCalendar = new ItalyPublicHoliday();
             var hols = holidayCalendar.PublicHolidays(2017);
             var holNames = holidayCalendar.PublicHolidayNames(2017);
-            Assert.IsTrue(11 == hols.Count, "Should be 11 holidays in 2017");
+            Assert.IsTrue(12 == hols.Count, "Should be 12 holidays in 2017 including Easter");
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
     }
