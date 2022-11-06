@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -29,6 +29,16 @@ namespace PublicHoliday
         public static DateTime Epiphany(int year)
         {
             return new DateTime(year, 1, 6);
+        }
+
+        /// <summary>
+        /// Pasqua - Easter
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <returns>Date of in the given year.</returns>
+        private static DateTime Easter(int year)
+        {
+            return HolidayCalculator.GetEaster(year); ;
         }
 
         /// <summary>
@@ -147,6 +157,7 @@ namespace PublicHoliday
                 { NewYear(year), "Capodanno" },
                 { Epiphany(year), "Epifania" } };
             DateTime easter = HolidayCalculator.GetEaster(year);
+            bHols.Add(Easter(year), "Pasqua");
             bHols.Add(EasterMonday(easter), "Pasquetta");
             var liberationDay = LiberationDay(year);
             if (!bHols.ContainsKey(liberationDay))
@@ -187,7 +198,7 @@ namespace PublicHoliday
 
                 case 3:
                 case 4:
-                    if (EasterMonday(year) == date)
+                    if (Easter(year) == date || EasterMonday(year) == date)
                         return true;
                     if (date.Month == 4 && date.Day == 25) //liberation
                         return true;
