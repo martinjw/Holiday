@@ -46,6 +46,7 @@ There are libraries for:
   - Romania : RomanianPublicHoliday
   - Slovakia : SlovakiaPublicHoliday
   - Spain : SpainPublicHoliday
+  - Slovenia : SloveniaPublicHoliday
   - Sweden : SwedenPublicHoliday
   - Switzerland: SwitzerlandPublicHoliday
   - UK : UKBankHoliday (set UkCountry property for Scotland/Northern Ireland variations)
