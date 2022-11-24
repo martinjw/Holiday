@@ -1,7 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
 using System;
-using System.Linq;
 
 namespace PublicHolidayTests
 {

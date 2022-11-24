@@ -154,7 +154,7 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Public holiday names in German.
+        /// Public holiday names in Slovene.
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
