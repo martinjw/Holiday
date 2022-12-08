@@ -133,6 +133,13 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime Christmas(int year)
         {
+            //South African president announced that Christmas day will be observed 26 Dec 2022 and Boxing day will be observed 27 Dec 2022 due to christmas falling on a Sunday
+            //Source: https://twitter.com/PresidencyZA/status/1600748006986452994?ref_src=twsrc%5Etfw
+            if (year == 2022)
+            {
+                return new DateTime(year, 12, 26);
+            }
+
             //Christmas does not shift when it falls on a Sunday due to boxing day being on the Monday then.
             return new DateTime(year, 12, 25);
         }
@@ -144,7 +151,12 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime BoxingDay(int year)
         {
-            //Boxing day does not shift when it falls on a 
+            //South African president announced that Christmas day will be observed 26 Dec 2022 and Boxing day will be observed 27 Dec 2022 due to christmas falling on a Sunday
+            //Source: https://twitter.com/PresidencyZA/status/1600748006986452994?ref_src=twsrc%5Etfw
+            if (year == 2022)
+            {
+                return new DateTime(year, 12, 27);
+            }
             return HolidayCalculator.FixWeekendSundayAfter(new DateTime(year, 12, 26));
         }
 
