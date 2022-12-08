@@ -88,8 +88,8 @@ namespace PublicHolidayTests
         [DataRow(8, 9, "National Women's Day")]
         [DataRow(9, 24, "Heritage Day")]
         [DataRow(12, 16, "Day of reconciliation")]
-        [DataRow(12, 25, "Christmas")]
-        [DataRow(12, 26, "Boxing day")]
+        [DataRow(12, 26, "Christmas")]
+        [DataRow(12, 27, "Boxing day")]
         public void TestHolidays2022(int month, int day, string name)
         {
             var holiday = new DateTime(2022, month, day);
@@ -106,6 +106,16 @@ namespace PublicHolidayTests
             var holNames = holidayCalendar.PublicHolidayNames(2022);
             Assert.IsTrue(12 == hols.Count, "Should be 12 holidays in 2022");
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+        }
+
+        [TestMethod]
+        public void TestChristmasAndBoxingDay2022()
+        {
+            var christmasDay = SouthAfricaPublicHoliday.Christmas(2022);
+            var boxingDay = SouthAfricaPublicHoliday.BoxingDay(2022);
+
+            Assert.AreEqual(new DateTime(2022, 12, 26), christmasDay, "Christmas day moved to Monday for 2022 as per presidential announcement");
+            Assert.AreEqual(new DateTime(2022, 12, 27), boxingDay, "Boxing day should be observed on Tuesday 27 Dec 2022 as per presidential announcement");
         }
 
 
