@@ -35,7 +35,8 @@
 2.18.0 #77 South african public holidays fixes (thanks @FifoTheHein ) #78 Added polish diacritics (thanks @konradbartecki )
 2.19.0 #79 Added Turkey (thanks @HakanUcaar )
 2.20.0 Added UK special holiday for Coronation, 2023
-2.21.0 #81 Added Slovenian holidays (thanks @KlemenS189 )</PackageReleaseNotes>
+2.21.0 #81 Added Slovenian holidays (thanks @KlemenS189 )
+2.22.0: #82 South Africa Christmas dates moved (thanks @ FifoTheHein )</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
