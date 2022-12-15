@@ -120,15 +120,16 @@ namespace PublicHoliday
         private static DateTime Ascension(DateTime easter)
         {
             return easter.AddDays(4 + (7 * 5));
-        }  
-        
+        }
+
         /// <summary>
-        /// GeneralPrayerDay 4th Friday after Easter
+        /// Store bededag, General Prayer Day 4th Friday after Easter
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns>Date of in the given year.</returns>
         public static DateTime GeneralPrayerDay(int year)
         {
+            //15 Dec 2022: may be cancelled from 2023, to be confirmed
             var hol = HolidayCalculator.GetEaster(year);
             hol = hol.AddDays(5 + (7 * 3));
             return hol;
