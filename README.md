@@ -34,6 +34,7 @@ There are libraries for:
   - ECB : EcbTargetClosingDay (European Central Bank SEPA Target Closing days - no exchange rates and no SEPA transactions)
   - Denmark : DenmarkPublicHoliday
   - Estonia : EstoniaPublicHoliday
+  - Finland: FinlandPublicHoliday
   - France : FrancePublicHoliday
   - Germany : GermanPublicHoliday (set State property for regional holidays)
   - Ireland : IrelandPublicHoliday
