@@ -36,7 +36,8 @@
 2.19.0 #79 Added Turkey (thanks @HakanUcaar )
 2.20.0 Added UK special holiday for Coronation, 2023
 2.21.0 #81 Added Slovenian holidays (thanks @KlemenS189 )
-2.22.0: #82 South Africa Christmas dates moved (thanks @ FifoTheHein )</PackageReleaseNotes>
+2.22.0: #82 South Africa Christmas dates moved (thanks @ FifoTheHein )
+2.23.0: #83 Add Finland holidatys (thanks @vergi40 )</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
@@ -51,7 +52,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.22.0</Version>
+    <Version>2.23.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
