@@ -37,7 +37,8 @@
 2.20.0 Added UK special holiday for Coronation, 2023
 2.21.0 #81 Added Slovenian holidays (thanks @KlemenS189 )
 2.22.0: #82 South Africa Christmas dates moved (thanks @ FifoTheHein )
-2.23.0: #83 Add Finland holidatys (thanks @vergi40 )</PackageReleaseNotes>
+2.23.0: #83 Add Finland holidays (thanks @vergi40 )
+2.24.0: Ireland adds St Brigid's day from 2023</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>

@@ -8,7 +8,7 @@ namespace PublicHolidayTests
     public class TestIrelandPublicHoliday
     {
         [DataTestMethod]
-        [DataRow(1, 2,"New year - observed on Monday")]
+        [DataRow(1, 2, "New year - observed on Monday")]
         [DataRow(3, 17, "St Patrick's")]
         [DataRow(4, 17, "Easter Monday")]
         [DataRow(5, 1, "May Day")]
@@ -34,5 +34,19 @@ namespace PublicHolidayTests
             Assert.IsTrue(9 == hols.Count, "Should be 9 holidays in 2017");
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
+
+        [TestMethod]
+        public void TestStBrigid()
+        {
+            var holidayCalendar = new IrelandPublicHoliday();
+            Assert.IsFalse(holidayCalendar.IsPublicHoliday(new DateTime(2022, 2, 5)));
+            Assert.IsTrue(holidayCalendar.IsPublicHoliday(new DateTime(2023, 2, 6)));
+            Assert.IsTrue(holidayCalendar.IsPublicHoliday(new DateTime(2024, 2, 5)));
+            Assert.IsTrue(holidayCalendar.IsPublicHoliday(new DateTime(2025, 2, 3)));
+
+            Assert.IsTrue(holidayCalendar.PublicHolidays(2023).Contains(new DateTime(2023, 2, 6)));
+            Assert.IsTrue(holidayCalendar.PublicHolidays(2025).Contains(new DateTime(2025, 2, 3)));
+        }
+
     }
 }

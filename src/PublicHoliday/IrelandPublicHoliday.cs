@@ -22,6 +22,17 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Imbolc  - Saint Brigid's Day (from 2023)
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <returns>Date of in the given year.</returns>
+        public static DateTime? StBrigid(int year)
+        {
+            if (year < 2023) return null;
+            return HolidayCalculator.FindFirstMonday(new DateTime(year, 2, 1));
+        }
+
+        /// <summary>
         /// Lá Fhéile Pádraig - St Patrick's Day March 17
         /// </summary>
         /// <param name="year"></param>
@@ -132,8 +143,9 @@ namespace PublicHoliday
         public override IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
             var bHols = new Dictionary<DateTime, string> {
-                { NewYear(year), "Lá Caille" },
-                { StPatricksDay(year), "Lá Fhéile Pádraig" } };
+                { NewYear(year), "Lá Caille" } };
+            if (year >= 2023) bHols.Add(StBrigid(year).GetValueOrDefault(), "Imbolc");
+            bHols.Add(StPatricksDay(year), "Lá Fhéile Pádraig");
             DateTime easter = HolidayCalculator.GetEaster(year);
             bHols.Add(EasterMonday(easter), "Luan Cásca");
             bHols.Add(MayDay(year), "Lá Bealtaine");
@@ -163,7 +175,10 @@ namespace PublicHoliday
                     if (NewYear(year) == date)
                         return true;
                     break;
-
+                case 2:
+                    if (year >= 2023 && StBrigid(year) == date)
+                        return true;
+                    break;
                 case 3:
                 case 4:
                     if (StPatricksDay(year) == date)
