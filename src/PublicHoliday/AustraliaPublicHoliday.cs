@@ -243,7 +243,19 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Queen's Birthday (varies by state)
+        /// King's Birthday (varies by state)  (before 2023 <see cref="QueenBirthday"/>)
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <param name="state">The state.</param>
+        /// <returns></returns>
+        /// <exception cref="System.ArgumentException">You must specify one of the states/territories - state</exception>
+        public static DateTime KingBirthday(int year, States state)
+        {
+            return QueenBirthday(year, state);
+        }
+
+        /// <summary>
+        /// Queen's Birthday (varies by state)  (from 2023 <see cref="KingBirthday"/>; retained for API backwards compatibility)
         /// </summary>
         /// <param name="year">The year.</param>
         /// <param name="state">The state.</param>
@@ -366,7 +378,7 @@ namespace PublicHoliday
             if (State != States.All)
             {
                 bHols.Add(LabourDay(year, State), "Labour Day");
-                bHols.Add(QueenBirthday(year, State), "Queen's Birthday");
+                bHols.Add(QueenBirthday(year, State), year >= 2023 ? "Queen's Birthday" : "King's Birthday");
             }
             if (State == States.ACT)
             {

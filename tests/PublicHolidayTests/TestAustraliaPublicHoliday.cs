@@ -1,6 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
+using System;
 
 namespace PublicHolidayTests
 {
@@ -20,7 +20,7 @@ namespace PublicHolidayTests
         public void TestHolidays2017(int month, int day, string name)
         {
             var holiday = new DateTime(2017, month, day);
-            var holidayCalendar = new AustraliaPublicHoliday { State = AustraliaPublicHoliday.States.All};
+            var holidayCalendar = new AustraliaPublicHoliday { State = AustraliaPublicHoliday.States.All };
             var actual = holidayCalendar.IsPublicHoliday(holiday);
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday - should be {name}");
         }
@@ -35,7 +35,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(7 == hols.Count, "Should be 7 holidays in 2017");
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
-        
+
         [TestMethod]
         public void TestHolidays2022Lists()
         {
@@ -49,16 +49,16 @@ namespace PublicHolidayTests
 
         [DataTestMethod]
         [DataRow(1, 2, "new year (sunday, so monday is holiday)")]
-        [DataRow(1, 26, "australia")] 
-        [DataRow(3, 13, "Canberra Day")] 
-        [DataRow(4, 14, "good friday")] 
-        [DataRow(4, 17, "easter monday")] 
-        [DataRow(4, 25, "anzac")] 
-        [DataRow(6, 12, "queen's birthday")] 
-        [DataRow(9, 25, "family and community day")] 
-        [DataRow(10, 2, "labour day")] 
-        [DataRow(12, 25, "christmas")] 
-        [DataRow(12, 26, "boxing day")] 
+        [DataRow(1, 26, "australia")]
+        [DataRow(3, 13, "Canberra Day")]
+        [DataRow(4, 14, "good friday")]
+        [DataRow(4, 17, "easter monday")]
+        [DataRow(4, 25, "anzac")]
+        [DataRow(6, 12, "queen's birthday")]
+        [DataRow(9, 25, "family and community day")]
+        [DataRow(10, 2, "labour day")]
+        [DataRow(12, 25, "christmas")]
+        [DataRow(12, 26, "boxing day")]
         public void TestAustralianCapitalTerritory2017(int month, int day, string name)
         {
             var holiday = new DateTime(2017, month, day);
@@ -76,7 +76,6 @@ namespace PublicHolidayTests
             Assert.IsTrue(11 == hols.Count, "Should be 11 holidays in 2017");
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
-
 
         [DataTestMethod]
         [DataRow(1, 2, "new year (sunday, so monday is holiday)")]
@@ -172,7 +171,6 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday - should be {name}");
         }
 
-
         [TestMethod]
         public void TestAustralianNSW2016Lists()
         {
@@ -181,6 +179,19 @@ namespace PublicHolidayTests
             var holNames = holidayCalendar.PublicHolidayNames(2016);
             Assert.IsTrue(9 == hols.Count, "Should be 9 holidays in 2016");
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+        }
+
+        [DataTestMethod]
+        [DataRow(2022, 6, 13, "Queen's birthday")]
+        [DataRow(2023, 6, 12, "King's birthday")]
+        public void TestKingsQueensBirthday(int year, int month, int day, string name)
+        {
+            var kingQueenBirthday = new DateTime(year, month, day);
+            Assert.AreEqual(kingQueenBirthday, AustraliaPublicHoliday.QueenBirthday(year, AustraliaPublicHoliday.States.ACT), $"Holiday for {name} {year}");
+            Assert.AreEqual(kingQueenBirthday, AustraliaPublicHoliday.KingBirthday(year, AustraliaPublicHoliday.States.ACT), $"Holiday for {name} {year}");
+            var holidayCalendar = new AustraliaPublicHoliday { State = AustraliaPublicHoliday.States.ACT };
+            var holNames = holidayCalendar.PublicHolidayNames(year);
+            Assert.IsTrue(holNames.ContainsKey(kingQueenBirthday));
         }
     }
 }
