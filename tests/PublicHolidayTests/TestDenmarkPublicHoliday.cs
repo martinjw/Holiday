@@ -117,6 +117,28 @@ namespace PublicHolidayTests
 	        var actual = DenmarkPublicHoliday.GeneralPrayerDay(2021);
 	        Assert.AreEqual(expected, actual);
         }
+        
+        [TestMethod]
+        public void TestGeneralPrayerDay2024()
+        {
+            DateTime? expected = null;
+            var actual = DenmarkPublicHoliday.GeneralPrayerDay(2024);
+            Assert.AreEqual(expected, actual);
+        }
+        
+        [TestMethod]
+        public void TestGeneralPrayerDay2023IsListedAsPublicHoliday()
+        {
+            var holidays = new DenmarkPublicHoliday().PublicHolidayNames(2023);
+            Assert.IsTrue(holidays.Values.Contains("Store bededag"));
+        }
+        
+        [TestMethod]
+        public void TestGeneralPrayerDay2024IsNotListedAsPublicHoliday()
+        {
+            var holidays = new DenmarkPublicHoliday().PublicHolidayNames(2024);
+            Assert.IsFalse(holidays.Values.Contains("Store bededag"));
+        }
 
         [TestMethod]
         public void TestWhitSunday2015()
