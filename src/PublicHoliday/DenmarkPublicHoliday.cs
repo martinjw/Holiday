@@ -127,16 +127,17 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime GeneralPrayerDay(int year)
+        public static DateTime? GeneralPrayerDay(int year)
         {
-            //15 Dec 2022: may be cancelled from 2023, to be confirmed
-            var hol = HolidayCalculator.GetEaster(year);
-            hol = hol.AddDays(5 + (7 * 3));
-            return hol;
+            var easter = HolidayCalculator.GetEaster(year);
+            return GeneralPrayerDay(easter);
         }
 
-        private static DateTime GeneralPrayerDay(DateTime easter)
+        private static DateTime? GeneralPrayerDay(DateTime easter)
         {
+            // No longer a public holiday from 2024
+            if (easter.Year >= 2024)
+                return null;
             return easter.AddDays(5 + (7 * 3));
         }
 
@@ -165,8 +166,7 @@ namespace PublicHoliday
         public static DateTime WhitMonday(int year)
         {
             var hol = HolidayCalculator.GetEaster(year);
-            hol = hol.AddDays((7 * 7) + 1);
-            return hol;
+            return WhitMonday(hol);
         }
 
         private static DateTime WhitMonday(DateTime easter)
@@ -215,30 +215,30 @@ namespace PublicHoliday
         {
             DateTime easter = HolidayCalculator.GetEaster(year);
 
-            var allHolidays = new List<KeyValuePair<DateTime, string>>()
+            var allHolidays = new List<KeyValuePair<DateTime?, string>>()
             {
-	           new KeyValuePair<DateTime,string>(NewYear(year), "Nytårsdag"),
-	           new KeyValuePair<DateTime,string>(MaundyThursday(easter), "Skærtorsdag"),
-	           new KeyValuePair<DateTime,string>(GoodFriday(easter), "Langfredag"),
-	           new KeyValuePair<DateTime,string>(easter, "Påskedag"),
-	           new KeyValuePair<DateTime,string>(EasterMonday(easter), "Anden påskedag"),
-	           new KeyValuePair<DateTime,string>(LabourDay(year), "Første maj"),
-	           new KeyValuePair<DateTime,string>(ConstitutionDay(year), "Grundlovsdag"),
-	           new KeyValuePair<DateTime,string>(GeneralPrayerDay(easter), "Store bededag"),
-	           new KeyValuePair<DateTime,string>(Ascension(easter), "Kristi himmelfartsdag"),
-	           new KeyValuePair<DateTime,string>(WhitSunday(easter), "Pinsedag"),
-	           new KeyValuePair<DateTime,string>(WhitMonday(easter), "Anden pinsedag"),
-	           new KeyValuePair<DateTime,string>(Christmas(year), "Første juledag"),
-	           new KeyValuePair<DateTime,string>(BoxingDay(year), "Anden juledag")
+	           new KeyValuePair<DateTime?,string>(NewYear(year), "Nytårsdag"),
+	           new KeyValuePair<DateTime?,string>(MaundyThursday(easter), "Skærtorsdag"),
+	           new KeyValuePair<DateTime?,string>(GoodFriday(easter), "Langfredag"),
+	           new KeyValuePair<DateTime?,string>(easter, "Påskedag"),
+	           new KeyValuePair<DateTime?,string>(EasterMonday(easter), "Anden påskedag"),
+	           new KeyValuePair<DateTime?,string>(LabourDay(year), "Første maj"),
+	           new KeyValuePair<DateTime?,string>(ConstitutionDay(year), "Grundlovsdag"),
+	           new KeyValuePair<DateTime?,string>(GeneralPrayerDay(easter), "Store bededag"),
+	           new KeyValuePair<DateTime?,string>(Ascension(easter), "Kristi himmelfartsdag"),
+	           new KeyValuePair<DateTime?,string>(WhitSunday(easter), "Pinsedag"),
+	           new KeyValuePair<DateTime?,string>(WhitMonday(easter), "Anden pinsedag"),
+	           new KeyValuePair<DateTime?,string>(Christmas(year), "Første juledag"),
+	           new KeyValuePair<DateTime?,string>(BoxingDay(year), "Anden juledag")
             };
             
             var publicHolidayNames = new Dictionary<DateTime, string>();
 
-            foreach (var holiday in allHolidays.OrderBy(d => d.Key)) // sort the holidays by date
+            foreach (var holiday in allHolidays.Where(d => d.Key != null).Select(d => new KeyValuePair<DateTime, string>(d.Key.Value, d.Value)).OrderBy(d => d.Key)) // sort the holidays by date
             {
-	            if (publicHolidayNames.ContainsKey(holiday.Key))
+                if (publicHolidayNames.ContainsKey(holiday.Key))
 	            {
-		            publicHolidayNames[holiday.Key] = $"{publicHolidayNames[holiday.Key]}, {holiday.Value}"; // if holidays collide, show all names. In Denmark this collition can happen regarding WhitSunday/WhitMonday and Constitution day
+		            publicHolidayNames[holiday.Key] = $"{publicHolidayNames[holiday.Key]}, {holiday.Value}"; // if holidays collide, show all names. In Denmark this collision can happen regarding WhitSunday/WhitMonday and Constitution day
 	            }
 	            else
 	            {
