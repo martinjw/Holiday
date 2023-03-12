@@ -39,7 +39,8 @@
 2.22.0: #82 South Africa Christmas dates moved (thanks @ FifoTheHein )
 2.23.0: #83 Add Finland holidays (thanks @vergi40 )
 2.24.0: Ireland adds St Brigid's day from 2023
-2.25.0: Australia + New Zealand- King's Birthday added (Queen's Birthday retained for backwards API compatibility/historic dates), Denmark remove General Prayer Day from 2024 (thanks @Jesper Nysteen)</PackageReleaseNotes>
+2.25.0: Australia + New Zealand- King's Birthday added (Queen's Birthday retained for backwards API compatibility/historic dates), Denmark remove General Prayer Day from 2024 (thanks @Jesper Nysteen)
+2.26.0: Add Greece holidays</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
@@ -54,7 +55,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.25.0</Version>
+    <Version>2.26.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
