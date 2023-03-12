@@ -37,6 +37,7 @@ There are libraries for:
   - Finland: FinlandPublicHoliday
   - France : FrancePublicHoliday
   - Germany : GermanPublicHoliday (set State property for regional holidays)
+  - Greece : GreecePublicHoliday
   - Ireland : IrelandPublicHoliday
   - Italy : ItalyPublicHoliday
   - Lithuania : LithuaniaPublicHoliday
