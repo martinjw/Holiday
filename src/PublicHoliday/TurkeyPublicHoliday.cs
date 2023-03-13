@@ -56,7 +56,14 @@ namespace PublicHoliday
         public static DateTime RamadanFirstDay(int year)
         {
             var hijriCalendar = new UmAlQuraCalendar();
-            return hijriCalendar.ToDateTime(GetHijriYear(year), 10, 1, 0, 0, 0, 0);
+            var hijriYear = GetHijriYear(year);
+            var ramadanFirstDay = hijriCalendar.ToDateTime(hijriYear, 10, 1, 0, 0, 0, 0);
+            if (ramadanFirstDay.Year != year)
+            {
+                //moved to next year
+                ramadanFirstDay = hijriCalendar.ToDateTime(hijriYear - 1, 10, 1, 0, 0, 0, 0);
+            }
+            return ramadanFirstDay;
         }
 
         /// <summary>
@@ -66,8 +73,7 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime RamadanSecondDay(int year)
         {
-            var hijriCalendar = new UmAlQuraCalendar();
-            return hijriCalendar.ToDateTime(GetHijriYear(year), 10, 2, 0, 0, 0, 0);
+            return RamadanFirstDay(year).AddDays(1);
         }
 
         /// <summary>
@@ -77,8 +83,7 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime RamadanThirdDay(int year)
         {
-            var hijriCalendar = new UmAlQuraCalendar();
-            return hijriCalendar.ToDateTime(GetHijriYear(year), 10, 3, 0, 0, 0, 0);
+            return RamadanFirstDay(year).AddDays(2);
         }
 
         /// <summary>
@@ -99,7 +104,13 @@ namespace PublicHoliday
         public static DateTime FeastOfSacrificesFirstDay(int year)
         {
             var hijriCalendar = new UmAlQuraCalendar();
-            return hijriCalendar.ToDateTime(GetHijriYear(year), 12, 10, 0, 0, 0, 0);
+            var hijriYear = GetHijriYear(year);
+            var feastOfSacrifices1 = hijriCalendar.ToDateTime(hijriYear, 12, 10, 0, 0, 0, 0);
+            if (feastOfSacrifices1.Year != year)
+            {
+                feastOfSacrifices1 = hijriCalendar.ToDateTime(hijriYear-1, 12, 10, 0, 0, 0, 0);
+            }
+            return feastOfSacrifices1;
         }
 
         /// <summary>
@@ -109,8 +120,7 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime FeastOfSacrificesSecondDay(int year)
         {
-            var hijriCalendar = new UmAlQuraCalendar();
-            return hijriCalendar.ToDateTime(GetHijriYear(year), 12, 11, 0, 0, 0, 0);
+            return FeastOfSacrificesFirstDay(year).AddDays(1);
         }
 
         /// <summary>
@@ -120,8 +130,7 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime FeastOfSacrificesThirdDay(int year)
         {
-            var hijriCalendar = new UmAlQuraCalendar();
-            return hijriCalendar.ToDateTime(GetHijriYear(year), 12, 12, 0, 0, 0, 0);
+            return FeastOfSacrificesFirstDay(year).AddDays(2);
         }
 
         /// <summary>
@@ -131,8 +140,7 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime FeastOfSacrificesFourthdDay(int year)
         {
-            var hijriCalendar = new UmAlQuraCalendar();
-            return hijriCalendar.ToDateTime(GetHijriYear(year), 12, 13, 0, 0, 0, 0);
+            return FeastOfSacrificesFirstDay(year).AddDays(3);
         }
 
 
@@ -201,7 +209,7 @@ namespace PublicHoliday
                 new KeyValuePair<DateTime, string>(RepublicDay(year), "Cumhuriyet Bayramı"),
             };
 
-            if(year >= 2017)
+            if (year >= 2017)
             {
                 values.Add(new KeyValuePair<DateTime, string>(DemocracyAndNationalUnityDay(year), "Demokrasi ve Milli Birlik Günü"));
             }

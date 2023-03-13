@@ -1,10 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 
 namespace PublicHolidayTests
 {
@@ -77,6 +74,36 @@ namespace PublicHolidayTests
             var holidayCalendar = new TurkeyPublicHoliday();
             var actual = holidayCalendar.IsPublicHoliday(holiday);
             Assert.AreEqual(true, actual, $"{holiday.ToString("D")} is not a holiday");
+        }
+
+        [TestMethod]
+        public void TestRamadanYearShifts()
+        {
+            for (var year = 2020; year < 2040; year++)
+            {
+                var ramadan1 = TurkeyPublicHoliday.RamadanFirstDay(year);
+                Assert.IsTrue(ramadan1.Year == year);
+                var feastSacrifice1 = TurkeyPublicHoliday.FeastOfSacrificesFirstDay(year);
+                Assert.IsTrue(feastSacrifice1.Year == year);
+            }
+        }
+
+        [TestMethod]
+        public void TestHolidaysLists()
+        {
+            var holidayCalendar = new TurkeyPublicHoliday();
+            CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
+            for (var year = 2015; year < 2040; year++)
+            {
+                //looking for collisions
+                var holNames = holidayCalendar.PublicHolidayNames(year);
+                var hols = holidayCalendar.PublicHolidays(year);
+                foreach (var holiday in holNames.Keys)
+                {
+                    Assert.IsTrue(holidayCalendar.IsPublicHoliday(holiday),
+                        $"Should be holiday: {holNames[holiday]} {holiday:yyyy-MM-dd}");
+                }
+            }
         }
     }
 }
