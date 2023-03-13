@@ -15,10 +15,32 @@ namespace PublicHolidayTests
         [DataRow(1, 1)]
         [DataRow(4, 23)]
         [DataRow(5, 1)]
+        [DataRow(4, 21)]
+        [DataRow(4, 22)]
+        [DataRow(5, 19)]
+        [DataRow(6, 28)]
+        [DataRow(6, 29)]
+        [DataRow(6, 30)]
+        [DataRow(7, 1)]
+        [DataRow(8, 30)]
+        [DataRow(10, 29)]
+        [DataRow(7, 15)]
+        public void TestHolidays2023(int month, int day)
+        {
+            var holiday = new DateTime(2023, month, day);
+            var holidayCalendar = new TurkeyPublicHoliday();
+            var actual = holidayCalendar.IsPublicHoliday(holiday);
+            Assert.AreEqual(true, actual, $"{holiday.ToString("D")} is not a holiday");
+        }
+
+        [DataTestMethod]
+        [DataRow(1, 1)]
+        [DataRow(4, 23)]
+        [DataRow(5, 1)]
         [DataRow(5, 2)]
         [DataRow(5, 3)]
         [DataRow(5, 4)]
-        [DataRow(5, 19)]        
+        [DataRow(5, 19)]
         [DataRow(7, 9)]
         [DataRow(7, 10)]
         [DataRow(7, 11)]
