@@ -183,26 +183,39 @@ namespace PublicHoliday
         /// <returns></returns>
         public override IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
-            var holidayNames = new Dictionary<DateTime, string>
+            var holidayNames = new Dictionary<DateTime, string>();
+            var values = new List<KeyValuePair<DateTime, string>>()
             {
-                {NewYear(year), "Yılbaşı Tatili"},
-                {NationalSovereigntyAndChildrensDay(year), "Ulusal Egemenlik ve Çocuk Bayramı"},
-                {LabourDay(year), "Emek ve Dayanışma Günü"},
-                {RamadanFirstDay(year), "Ramazan Bayramı 1. Gün"},
-                {RamadanSecondDay(year), "Ramazan Bayramı 2. Gün"},
-                {RamadanThirdDay(year), "Ramazan Bayramı 3. Gün"},
-                {YouthAndSportsDay(year), "Atatürk’ü Anma, Gençlik ve Spor Bayramı"},
-                {FeastOfSacrificesFirstDay(year), "Kurban Bayramı 1. Gün"},
-                {FeastOfSacrificesSecondDay(year), "Kurban Bayramı 2. Gün"},
-                {FeastOfSacrificesThirdDay(year), "Kurban Bayramı 3. Gün"},
-                {FeastOfSacrificesFourthdDay(year), "Kurban Bayramı 4. Gün"},
-                {VictoryDay(year), "Zafer Bayramı"},
-                {RepublicDay(year), "Cumhuriyet Bayramı"},
+                new KeyValuePair<DateTime, string>(NewYear(year), "Yılbaşı Tatili"),
+                new KeyValuePair<DateTime, string>(NationalSovereigntyAndChildrensDay(year), "Ulusal Egemenlik ve Çocuk Bayramı"),
+                new KeyValuePair<DateTime, string>(LabourDay(year), "Emek ve Dayanışma Günü"),
+                new KeyValuePair<DateTime, string>(RamadanFirstDay(year), "Ramazan Bayramı 1. Gün"),
+                new KeyValuePair<DateTime, string>(RamadanSecondDay(year), "Ramazan Bayramı 2. Gün"),
+                new KeyValuePair<DateTime, string>(RamadanThirdDay(year), "Ramazan Bayramı 3. Gün"),
+                new KeyValuePair<DateTime, string>(YouthAndSportsDay(year), "Atatürk’ü Anma, Gençlik ve Spor Bayramı"),
+                new KeyValuePair<DateTime, string>(FeastOfSacrificesFirstDay(year), "Kurban Bayramı 1. Gün"),
+                new KeyValuePair<DateTime, string>(FeastOfSacrificesSecondDay(year), "Kurban Bayramı 2. Gün"),
+                new KeyValuePair<DateTime, string>(FeastOfSacrificesThirdDay(year), "Kurban Bayramı 3. Gün"),
+                new KeyValuePair<DateTime, string>(FeastOfSacrificesFourthdDay(year), "Kurban Bayramı 4. Gün"),
+                new KeyValuePair<DateTime, string>(VictoryDay(year), "Zafer Bayramı"),
+                new KeyValuePair<DateTime, string>(RepublicDay(year), "Cumhuriyet Bayramı"),
             };
 
             if(year >= 2017)
             {
-                holidayNames.Add(DemocracyAndNationalUnityDay(year), "Demokrasi ve Milli Birlik Günü");
+                values.Add(new KeyValuePair<DateTime, string>(DemocracyAndNationalUnityDay(year), "Demokrasi ve Milli Birlik Günü"));
+            }
+
+            foreach (var valueItem in values)
+            {
+                KeyValuePair<DateTime, string> holidayName = holidayNames.FirstOrDefault(item => item.Key == valueItem.Key);
+                if (holidayName.Value != null)
+                {
+                    holidayNames[valueItem.Key] = $"{holidayNames[valueItem.Key]}, {valueItem.Value}";
+                    continue;
+                }
+
+                holidayNames.Add(valueItem.Key, valueItem.Value);
             }
 
             return holidayNames;
