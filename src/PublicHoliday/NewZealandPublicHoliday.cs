@@ -370,7 +370,7 @@ namespace PublicHoliday
                 anzacDay = anzacDay.AddSeconds(1);
             }
             bHols.Add(anzacDay, "ANZAC Day");
-            bHols.Add(QueenBirthday(year), year >= 2023 ? "Queen's Birthday" : "King's Birthday");
+            bHols.Add(QueenBirthday(year), year <= 2023 ? "Queen's Birthday" : "King's Birthday");
             bHols.Add(LabourDay(year), "Labour Day");
             bHols.Add(Christmas(year), "Christmas Day");
             bHols.Add(BoxingDay(year), "Boxing Day");
