@@ -378,7 +378,7 @@ namespace PublicHoliday
             if (State != States.All)
             {
                 bHols.Add(LabourDay(year, State), "Labour Day");
-                bHols.Add(QueenBirthday(year, State), year <= 2023 ? "Queen's Birthday" : "King's Birthday");
+                bHols.Add(QueenBirthday(year, State), year < 2023 ? "Queen's Birthday" : "King's Birthday");
             }
             if (State == States.ACT)
             {
