@@ -11,6 +11,18 @@ namespace PublicHoliday
     /// <seealso cref="PublicHoliday.PublicHolidayBase" />
     public class DenmarkPublicHoliday : PublicHolidayBase
     {
+        private readonly bool _includeConstitutionDay = true;
+        private readonly bool _includeLabourDay = true;
+
+        public DenmarkPublicHoliday()
+        {
+        }
+
+        public DenmarkPublicHoliday(bool includeConstitutionDay, bool includeLabourDay)
+        {
+            _includeConstitutionDay = includeConstitutionDay;
+            _includeLabourDay = includeLabourDay;
+        }
 
         #region Individual Holidays
 
@@ -95,6 +107,8 @@ namespace PublicHoliday
             return new DateTime(year, 5, 1);
         }
 
+        private DateTime? InternalLabourDay(int year) => _includeLabourDay ? LabourDay(year) : (DateTime?)null;
+
         /// <summary>
         /// Constitution Day - June 5th
         /// </summary>
@@ -104,6 +118,8 @@ namespace PublicHoliday
         {
             return new DateTime(year, 6, 5);
         }
+
+        private DateTime? InternalConstitutionDay(int year) => _includeConstitutionDay ? ConstitutionDay(year) : (DateTime?)null;
 
         /// <summary>
         /// Ascension 6th Thursday after Easter
@@ -222,8 +238,8 @@ namespace PublicHoliday
 	           new KeyValuePair<DateTime?,string>(GoodFriday(easter), "Langfredag"),
 	           new KeyValuePair<DateTime?,string>(easter, "Påskedag"),
 	           new KeyValuePair<DateTime?,string>(EasterMonday(easter), "Anden påskedag"),
-	           new KeyValuePair<DateTime?,string>(LabourDay(year), "Første maj"),
-	           new KeyValuePair<DateTime?,string>(ConstitutionDay(year), "Grundlovsdag"),
+	           new KeyValuePair<DateTime?,string>(InternalLabourDay(year), "Første maj"),
+	           new KeyValuePair<DateTime?,string>(InternalConstitutionDay(year), "Grundlovsdag"),
 	           new KeyValuePair<DateTime?,string>(GeneralPrayerDay(easter), "Store bededag"),
 	           new KeyValuePair<DateTime?,string>(Ascension(easter), "Kristi himmelfartsdag"),
 	           new KeyValuePair<DateTime?,string>(WhitSunday(easter), "Pinsedag"),
@@ -282,7 +298,7 @@ namespace PublicHoliday
 	                    return true;
                     break;
                 case 5:
-                    if (LabourDay(year) == date)
+                    if (InternalLabourDay(year) == date)
                         return true;
                     if (Ascension(year) == date)
                         return true;
@@ -294,7 +310,7 @@ namespace PublicHoliday
 	                    return true;
                     break;
                 case 6:
-	                if (ConstitutionDay(year) == date)
+	                if (InternalConstitutionDay(year) == date)
 		                return true;                   
 	                if (Ascension(year) == date)
                         return true;

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
 
@@ -182,6 +183,14 @@ namespace PublicHolidayTests
             var whitMondayName = holidays[DenmarkPublicHoliday.WhitMonday(2017)];
             Assert.IsNotNull(whitMondayName);
             Assert.IsTrue(whitMondayName.Contains(","));
+        }
+
+        [TestMethod]
+        public void TestDisabledHolidays()
+        {
+            var holidays = new DenmarkPublicHoliday(includeConstitutionDay: false, includeLabourDay: false).PublicHolidayNames(2023);
+            Assert.ThrowsException<KeyNotFoundException>(() => holidays[DenmarkPublicHoliday.ConstitutionDay(2023)]);
+            Assert.ThrowsException<KeyNotFoundException>(() => holidays[DenmarkPublicHoliday.LabourDay(2023)]);
         }
     }
 }
