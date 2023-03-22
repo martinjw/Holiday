@@ -80,6 +80,15 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
+        public void TestEaster2024()
+        {
+            var expected = new DateTime(2024, 3, 31);
+            var actual = DenmarkPublicHoliday.Easter(2024);
+            Assert.AreEqual(expected, actual);
+            Assert.IsTrue(new DenmarkPublicHoliday().IsPublicHoliday(expected));
+        }
+
+        [TestMethod]
         public void TestEasterMonday2015()
         {
             var expected = new DateTime(2015, 4, 6);
@@ -114,9 +123,9 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestGeneralPrayerDay2021()
         {
-	        var expected = new DateTime(2021, 4, 30);
-	        var actual = DenmarkPublicHoliday.GeneralPrayerDay(2021);
-	        Assert.AreEqual(expected, actual);
+            var expected = new DateTime(2021, 4, 30);
+            var actual = DenmarkPublicHoliday.GeneralPrayerDay(2021);
+            Assert.AreEqual(expected, actual);
         }
         
         [TestMethod]
@@ -191,6 +200,23 @@ namespace PublicHolidayTests
             var holidays = new DenmarkPublicHoliday(includeConstitutionDay: false, includeLabourDay: false).PublicHolidayNames(2023);
             Assert.ThrowsException<KeyNotFoundException>(() => holidays[DenmarkPublicHoliday.ConstitutionDay(2023)]);
             Assert.ThrowsException<KeyNotFoundException>(() => holidays[DenmarkPublicHoliday.LabourDay(2023)]);
+        }
+
+        [TestMethod]
+        public void TestHolidaysLists()
+        {
+            var holidayCalendar = new TurkeyPublicHoliday();
+            for (var year = 2015; year < 2040; year++)
+            {
+                //looking for collisions
+                var holNames = holidayCalendar.PublicHolidayNames(year);
+                var hols = holidayCalendar.PublicHolidays(year);
+                foreach (var holiday in holNames.Keys)
+                {
+                    Assert.IsTrue(holidayCalendar.IsPublicHoliday(holiday),
+                        $"Should be holiday: {holNames[holiday]} {holiday:yyyy-MM-dd}");
+                }
+            }
         }
     }
 }
