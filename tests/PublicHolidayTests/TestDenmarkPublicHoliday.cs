@@ -203,6 +203,23 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
+        public void TestDayAfterAscension2023()
+        {
+            var expected = new DateTime(2023, 05, 19);
+            var actual = new DenmarkPublicHoliday(false, false, includeDayAfterAscension: true).DayAfterAscension(2023);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void TestDayAfterAscenionDifferenctConstructors()
+        {
+            Assert.IsFalse(new DenmarkPublicHoliday().IsPublicHoliday(new DateTime(2023, 05, 19)));
+            Assert.IsFalse(new DenmarkPublicHoliday(true, true).IsPublicHoliday(new DateTime(2023, 05, 19)));
+            Assert.IsTrue(new DenmarkPublicHoliday(true, true, true).IsPublicHoliday(new DateTime(2023, 05, 19)));
+
+        }
+
+        [TestMethod]
         public void TestHolidaysLists()
         {
             var holidayCalendar = new TurkeyPublicHoliday();
