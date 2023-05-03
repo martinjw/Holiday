@@ -12,7 +12,7 @@ namespace PublicHoliday
 	{
 		private readonly bool _includeConstitutionDay = true;
 		private readonly bool _includeLabourDay = true;
-        private readonly bool _includeDayAfterAscension = false;
+				private readonly bool _includeDayAfterAscension = false;
 
         /// <summary>
         /// Default- includes Constitution Day and Labour Day
