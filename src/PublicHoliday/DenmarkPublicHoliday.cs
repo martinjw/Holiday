@@ -15,33 +15,33 @@ namespace PublicHoliday
 		private readonly bool _includeDayAfterAscension = false;
 
 		/// <summary>
-        /// Default- includes Constitution Day and Labour Day
-        /// </summary>
-        public DenmarkPublicHoliday()
+		/// Default- includes Constitution Day and Labour Day
+		/// </summary>
+		public DenmarkPublicHoliday()
 		{
 		}
 
-        /// <summary>
-        /// Specify whether to include Constitution Day and Labour Day
-        /// </summary>
-        /// <param name="includeConstitutionDay"></param>
-        /// <param name="includeLabourDay"></param>
-        /// <param name="includeDayAfterAscension">Set true if day after Ascension should be considered a holiday</param>
-        public DenmarkPublicHoliday(bool includeConstitutionDay, bool includeLabourDay, bool includeDayAfterAscension = false)
-        {
-            _includeConstitutionDay = includeConstitutionDay;
-            _includeLabourDay = includeLabourDay;
-            _includeDayAfterAscension = includeDayAfterAscension;
-        }
+		/// <summary>
+		/// Specify whether to include Constitution Day and Labour Day
+		/// </summary>
+		/// <param name="includeConstitutionDay"></param>
+		/// <param name="includeLabourDay"></param>
+		/// <param name="includeDayAfterAscension">Set true if day after Ascension should be considered a holiday</param>
+		public DenmarkPublicHoliday(bool includeConstitutionDay, bool includeLabourDay, bool includeDayAfterAscension = false)
+		{
+			_includeConstitutionDay = includeConstitutionDay;
+			_includeLabourDay = includeLabourDay;
+			_includeDayAfterAscension = includeDayAfterAscension;
+		}
 
-        #region Individual Holidays
+		#region Individual Holidays
 
-        /// <summary>
-        /// New Year's Day January 1
-        /// </summary>
-        /// <param name="year">The year.</param>
-        /// <returns>Date of in the given year.</returns>
-        public static DateTime NewYear(int year)
+		/// <summary>
+		/// New Year's Day January 1
+		/// </summary>
+		/// <param name="year">The year.</param>
+		/// <returns>Date of in the given year.</returns>
+		public static DateTime NewYear(int year)
 		{
 			return new DateTime(year, 1, 1);
 		}
@@ -148,32 +148,32 @@ namespace PublicHoliday
 			return easter.AddDays(4 + (7 * 5));
 		}
 
-        ///<summary>
-        /// The day after Ascension is a Bankholiday
-        ///</summary>
-        ///<param name="ascension"> The date of ascention.</param>
-        ///
-        private DateTime? DayAfterAscension(DateTime ascension)
-        {
-            return _includeDayAfterAscension ? ascension.AddDays(1) : (DateTime?)null;
-        }
+		///<summary>
+		/// The day after Ascension is a Bankholiday
+		///</summary>
+		///<param name="ascension"> The date of ascention.</param>
+		///
+		private DateTime? DayAfterAscension(DateTime ascension)
+		{
+			return _includeDayAfterAscension ? ascension.AddDays(1) : (DateTime?)null;
+		}
 
-        ///<summary>
-        /// The day after Ascension is a Bankholiday
-        ///</summary>
-        ///<param name="year"> year of query</param>
-        ///
-        public DateTime? DayAfterAscension(int year)
-        {
-            return _includeDayAfterAscension ? Ascension(year).AddDays(1) : (DateTime?)null;
-        }
+		///<summary>
+		/// The day after Ascension is a Bankholiday
+		///</summary>
+		///<param name="year"> year of query</param>
+		///
+		public DateTime? DayAfterAscension(int year)
+		{
+			return _includeDayAfterAscension ? Ascension(year).AddDays(1) : (DateTime?)null;
+		}
 
-        /// <summary>
-        /// Store bededag, General Prayer Day 4th Friday after Easter
-        /// </summary>
-        /// <param name="year">The year.</param>
-        /// <returns>Date of in the given year.</returns>
-        public static DateTime? GeneralPrayerDay(int year)
+		/// <summary>
+		/// Store bededag, General Prayer Day 4th Friday after Easter
+		/// </summary>
+		/// <param name="year">The year.</param>
+		/// <returns>Date of in the given year.</returns>
+		public static DateTime? GeneralPrayerDay(int year)
 		{
 			var easter = HolidayCalculator.GetEaster(year);
 			return GeneralPrayerDay(easter);
@@ -260,24 +260,24 @@ namespace PublicHoliday
 		public override IDictionary<DateTime, string> PublicHolidayNames(int year)
 		{
 			DateTime easter = HolidayCalculator.GetEaster(year);
-            DateTime ascension = Ascension(easter);
+			DateTime ascension = Ascension(easter);
 
-            var allHolidays = new List<KeyValuePair<DateTime?, string>>()
+			var allHolidays = new List<KeyValuePair<DateTime?, string>>()
 			{
-			   new KeyValuePair<DateTime?,string>(NewYear(year), "Nytårsdag"),
-			   new KeyValuePair<DateTime?,string>(MaundyThursday(easter), "Skærtorsdag"),
-			   new KeyValuePair<DateTime?,string>(GoodFriday(easter), "Langfredag"),
-			   new KeyValuePair<DateTime?,string>(easter, "Påskedag"),
-			   new KeyValuePair<DateTime?,string>(EasterMonday(easter), "Anden påskedag"),
-			   new KeyValuePair<DateTime?,string>(InternalLabourDay(year), "Første maj"),
-			   new KeyValuePair<DateTime?,string>(InternalConstitutionDay(year), "Grundlovsdag"),
-			   new KeyValuePair<DateTime?,string>(GeneralPrayerDay(easter), "Store bededag"),
-			   new KeyValuePair<DateTime?,string>(ascension, "Kristi himmelfartsdag"),
-               new KeyValuePair<DateTime?,string>(DayAfterAscension(ascension), "Dagen efter Kristi himmelfartsdag"),
-               new KeyValuePair<DateTime?,string>(WhitSunday(easter), "Pinsedag"),
-			   new KeyValuePair<DateTime?,string>(WhitMonday(easter), "Anden pinsedag"),
-			   new KeyValuePair<DateTime?,string>(Christmas(year), "Første juledag"),
-			   new KeyValuePair<DateTime?,string>(BoxingDay(year), "Anden juledag")
+				new KeyValuePair<DateTime?,string>(NewYear(year), "Nytårsdag"),
+				new KeyValuePair<DateTime?,string>(MaundyThursday(easter), "Skærtorsdag"),
+				new KeyValuePair<DateTime?,string>(GoodFriday(easter), "Langfredag"),
+				new KeyValuePair<DateTime?,string>(easter, "Påskedag"),
+				new KeyValuePair<DateTime?,string>(EasterMonday(easter), "Anden påskedag"),
+				new KeyValuePair<DateTime?,string>(InternalLabourDay(year), "Første maj"),
+				new KeyValuePair<DateTime?,string>(InternalConstitutionDay(year), "Grundlovsdag"),
+				new KeyValuePair<DateTime?,string>(GeneralPrayerDay(easter), "Store bededag"),
+				new KeyValuePair<DateTime?,string>(ascension, "Kristi himmelfartsdag"),
+				new KeyValuePair<DateTime?,string>(DayAfterAscension(ascension), "Dagen efter Kristi himmelfartsdag"),
+				new KeyValuePair<DateTime?,string>(WhitSunday(easter), "Pinsedag"),
+				new KeyValuePair<DateTime?,string>(WhitMonday(easter), "Anden pinsedag"),
+				new KeyValuePair<DateTime?,string>(Christmas(year), "Første juledag"),
+				new KeyValuePair<DateTime?,string>(BoxingDay(year), "Anden juledag")
 			};
 
 			var publicHolidayNames = new Dictionary<DateTime, string>();
