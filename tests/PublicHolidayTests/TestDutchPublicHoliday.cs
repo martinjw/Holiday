@@ -54,5 +54,35 @@ namespace PublicHolidayTests
             var lib = hols.FirstOrDefault(x => x.ObservedDate == may5th);
             Assert.IsNotNull(lib);
         }
+
+        [TestMethod]
+        public void TestLiberationDayLustrum2021()
+        {
+            const int year = 2021;
+            var may5th = new DateTime(year, 5, 5);
+
+            var libertion = DutchPublicHoliday.LiberationDay(year, true);
+            Assert.IsNull(libertion);
+            var dutch = new DutchPublicHoliday(liberationDayOnlyAtLustrum: true);
+            Assert.IsFalse(dutch.IsPublicHoliday(may5th));
+            var hols = dutch.PublicHolidaysInformation(year);
+            var lib = hols.FirstOrDefault(x => x.ObservedDate == may5th);
+            Assert.IsNull(lib);
+        }
+
+        [TestMethod]
+        public void TestLiberationDayLustrum2025()
+        {
+            const int year = 2025;
+            var may5th = new DateTime(year, 5, 5);
+
+            var libertion = DutchPublicHoliday.LiberationDay(year, true);
+            Assert.AreEqual(may5th, libertion);
+            var dutch = new DutchPublicHoliday(liberationDayOnlyAtLustrum: true);
+            Assert.IsTrue(dutch.IsPublicHoliday(may5th));
+            var hols = dutch.PublicHolidaysInformation(year);
+            var lib = hols.FirstOrDefault(x => x.ObservedDate == may5th);
+            Assert.IsNotNull(lib);
+        }
     }
 }
