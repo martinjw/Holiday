@@ -9,6 +9,7 @@ namespace PublicHoliday
     /// </summary>
     public class DutchPublicHoliday : PublicHolidayBase
     {
+        private readonly bool _liberationDayOnlyAtLustrum = false;
 
         #region Individual Holidays
 
@@ -68,9 +69,19 @@ namespace PublicHoliday
         /// Liberation Day May 5 - Bevrijdingsdag
         /// </summary>
         /// <param name="year">The year.</param>
+        /// <param name="onlyAtLustrum">Specify if LiberationDay has to be a holiday only at lustrum years</param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime? LiberationDay(int year)
+        public static DateTime? LiberationDay(int year, bool onlyAtLustrum = false)
         {
+            if (year >= 2020 && onlyAtLustrum) // since 2020 it depends on the sector
+            {
+                if (year % 5 == 0)
+                {
+                    return new DateTime(year, 5, 5);
+                }
+                return null;
+            }
+
             if (year >= 1990) //annual since 1990
             {
                 return new DateTime(year, 5, 5);
@@ -143,6 +154,22 @@ namespace PublicHoliday
         #endregion
 
         /// <summary>
+		/// Default - includes Liberation Day as default
+		/// </summary>
+		public DutchPublicHoliday()
+        {
+        }
+
+        /// <summary>
+        /// Specify whether to include Liberation Day only at lustrum years
+        /// </summary>
+        /// <param name="liberationDayOnlyAtLustrum"></param>
+        public DutchPublicHoliday(bool liberationDayOnlyAtLustrum)
+        {
+            _liberationDayOnlyAtLustrum = liberationDayOnlyAtLustrum;
+        }
+
+        /// <summary>
         /// Get a list of dates for all holidays in a year.
         /// </summary>
         /// <param name="year">The year</param>
@@ -164,7 +191,7 @@ namespace PublicHoliday
             DateTime easter = HolidayCalculator.GetEaster(year);
             bHols.Add(EasterMonday(easter), "Paasmaandag");
             bHols.Add(KingsDay(year), "Koningsdag");
-            var liberationDay = LiberationDay(year);
+            var liberationDay = LiberationDay(year, _liberationDayOnlyAtLustrum);
             if (liberationDay != null)
             {
                 bHols.Add(liberationDay.Value, "Bevrijdingsdag");
@@ -206,7 +233,7 @@ namespace PublicHoliday
                         return true;
                     break;
                 case 5:
-                    if (LiberationDay(year) == date)
+                    if (LiberationDay(year, _liberationDayOnlyAtLustrum) == date)
                         return true;
                     if (Ascension(year) == date)
                         return true; // usually in May (may 25, 2006)
