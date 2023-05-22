@@ -339,7 +339,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
-        public bool HasWomensDay(int year) => State == States.BE && year >= 2019;
+        public bool HasWomensDay(int year) => (State == States.BE && year >= 2019) || (State == States.MV && year >= 2023);
 
         /// <summary>
         /// International Women's Day/ Weltfrauentag
