@@ -53,7 +53,7 @@ namespace PublicHolidayTests
         //26 Dec	Mon	2nd Day of Christmas 	National
         public void TestHolidays2022()
         {
-            var nov16 = new DateTime(2022,11,16);
+            var nov16 = new DateTime(2022, 11, 16);
             //Saxony
             var holidayCalendar = new GermanPublicHoliday { State = GermanPublicHoliday.States.SN };
             Assert.IsTrue(holidayCalendar.IsPublicHoliday(nov16));
@@ -128,6 +128,22 @@ namespace PublicHolidayTests
             //introduced official holiday in 2019
             Assert.IsTrue(calendar2.HasWorldChildrensDay(2019));
             Assert.IsTrue(calendar2.PublicHolidays(2019).Contains(new DateTime(2019, 9, 20)));
+        }
+
+        [TestMethod]
+        public void TestMecklenburgVorpommernWomansDay()
+        {
+            var calendar = new GermanPublicHoliday { State = GermanPublicHoliday.States.MV };
+            //did not have official holiday in 2022
+            Assert.IsFalse(calendar.HasWomensDay(2022));
+            Assert.IsFalse(calendar.PublicHolidays(2022).Contains(new DateTime(2022, 3, 8)));
+            
+            //introduced official holiday in 2023
+            Assert.IsTrue(calendar.HasWomensDay(2023));
+            Assert.IsTrue(calendar.PublicHolidays(2023).Contains(new DateTime(2023, 3, 8)));
+            
+            Assert.IsTrue(calendar.HasWomensDay(2024));
+            Assert.IsTrue(calendar.PublicHolidays(2024).Contains(new DateTime(2024, 3, 8)));
         }
     }
 }
