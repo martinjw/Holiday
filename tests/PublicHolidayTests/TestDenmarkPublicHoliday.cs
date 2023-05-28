@@ -222,7 +222,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestHolidaysLists()
         {
-            var holidayCalendar = new TurkeyPublicHoliday();
+            var holidayCalendar = new DenmarkPublicHoliday();
             for (var year = 2015; year < 2040; year++)
             {
                 //looking for collisions

@@ -33,6 +33,7 @@ namespace PublicHolidayTests
                 new NorwayPublicHoliday(),
                 new PolandPublicHoliday(),
                 new RomanianPublicHoliday(),
+                new SerbianPublicHoliday(),
                 new SlovakiaPublicHoliday(),
                 new SouthAfricaPublicHoliday(),
                 new SpainPublicHoliday(),
