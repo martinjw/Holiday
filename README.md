@@ -46,6 +46,7 @@ There are libraries for:
   - Norway : NorwayPublicHoliday
   - Poland : PolandPublicHoliday
   - Romania : RomanianPublicHoliday
+  - Serbia : SerbianPublicHoliday
   - Slovakia : SlovakiaPublicHoliday
   - Spain : SpainPublicHoliday
   - Slovenia : SloveniaPublicHoliday
