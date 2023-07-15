@@ -29,5 +29,13 @@ namespace PublicHolidayTests
             var actual = holidayCalendar.GetHolidaysInDateRange(new DateTime(2015, 1, 2), new DateTime(2017, 12, 25));
             Assert.AreEqual(actual.Count, 29);
         }
+        [TestMethod]
+        public void TestGetHolidayForDate()
+        {
+            var result = new USAPublicHoliday().GetHolidayForDate(new DateTime(2023, 7, 4));
+            Assert.IsNotNull(result);
+            var name = result.GetName();
+            Assert.AreEqual("Independence Day", name);
+        }
     }
 }

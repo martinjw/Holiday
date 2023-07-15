@@ -183,6 +183,17 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Returns holiday information including name for this date, or null
+        /// </summary>
+        /// <param name="dt">A specific date. Only the .Date part is used.</param>
+        /// <returns>Null or holiday information</returns>
+        public Holiday GetHolidayForDate(DateTime dt)
+        {
+            var holidays = PublicHolidaysInformation(dt.Year);
+            return holidays.FirstOrDefault(h => h.ObservedDate.Date == dt.Date);
+        }
+
+        /// <summary>
         /// Check if a specific date is a public holiday.
         /// Obviously the <see cref="PublicHolidays" /> list is more efficient for repeated checks
         /// </summary>
