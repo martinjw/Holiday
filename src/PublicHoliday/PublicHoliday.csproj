@@ -7,6 +7,7 @@
     <AssemblyName>PublicHoliday</AssemblyName>
     <PackageId>PublicHoliday</PackageId>
     <PackageTags>Holiday</PackageTags>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageReleaseNotes>2.0.2: Fix for AU-NSW-2016 (thanks @dotnetshadow)
 2.0.3: Canada BC changing family day from 2019
 2.0.4: UK Early May Day 2020 moved (thanks @skipishere)
@@ -82,6 +83,7 @@
 
   <ItemGroup>
     <None Remove="Localization\LocalizationString.xml" />
+	<None Include="..\..\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
   <ItemGroup>
