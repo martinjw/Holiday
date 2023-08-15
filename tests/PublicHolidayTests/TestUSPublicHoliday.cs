@@ -1,11 +1,10 @@
-﻿using System;
-using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
+using System;
+using System.Linq;
 
 namespace PublicHolidayTests
 {
-
     /// <summary>
     /// Using official calendar from http://www.opm.gov/fedhol/2006.asp
     /// </summary>
@@ -20,7 +19,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(expected, actual);
         }
 
-         [TestMethod]
+        [TestMethod]
         public void TestNewYear2004()
         {
             var expected = new DateTime(2004, 1, 1);
@@ -44,7 +43,6 @@ namespace PublicHolidayTests
             Assert.AreEqual(expected, actual);
         }
 
-
         [TestMethod]
         public void TestMemorial2004()
         {
@@ -60,7 +58,6 @@ namespace PublicHolidayTests
             var actual = USAPublicHoliday.IndependenceDay(2004);
             Assert.AreEqual(expected, actual);
         }
-
 
         [TestMethod]
         public void TestLabor2004()
@@ -111,6 +108,19 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
+        public void TestNewYearObservedVsActual()
+        {
+            var actual = USAPublicHoliday.NewYear(2023);
+            Assert.AreEqual(new DateTime(2023, 1, 2), actual.ObservedDate, "1st January is Sunday, so observed on Monday");
+            Assert.AreEqual(new DateTime(2023, 1, 1), actual.HolidayDate, "1st January is Sunday, available on Holiday date");
+            Assert.AreEqual(new DateTime(2023, 1, 2), actual, "Implicit conversion to observed date");
+            var hols = new USAPublicHoliday().PublicHolidaysInformation(2023);
+            var newYear = hols.First();
+            Assert.AreEqual(new DateTime(2023, 1, 2), newYear.ObservedDate, "1st January is Sunday, so observed on Monday");
+            Assert.AreEqual(new DateTime(2023, 1, 1), newYear.HolidayDate, "1st January is Sunday, available on Holiday date");
+        }
+
+        [TestMethod]
         public void TestMartinLutherKingDay()
         {
             var expected = new DateTime(2006, 1, 16);
@@ -125,7 +135,6 @@ namespace PublicHolidayTests
             var actual = USAPublicHoliday.PresidentsDay(2006);
             Assert.AreEqual(expected, actual);
         }
-
 
         [TestMethod]
         public void TestMemorial()
@@ -142,7 +151,6 @@ namespace PublicHolidayTests
             var actual = USAPublicHoliday.IndependenceDay(2006);
             Assert.AreEqual(expected, actual);
         }
-
 
         [TestMethod]
         public void TestLabor()

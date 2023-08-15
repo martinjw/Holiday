@@ -77,5 +77,14 @@ namespace PublicHoliday
         {
             return h.ObservedDate;
         }
+
+        /// <summary>
+        /// The holiday name and date(s)
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return $"{GetName()} {ObservedDate:yyyy-MM-dd} {HolidayDate:yyyy-MM-dd}";
+        }
     }
 }
