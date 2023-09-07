@@ -146,6 +146,25 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Ostersonntag - Easter Sunday
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime EasterSunday(int year)
+        {
+            var hol = HolidayCalculator.GetEaster(year);
+            return hol;
+        }
+
+        /// <summary>
+        /// Whether this state observes Ostersonntag.
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this state observes Ostersonntag; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasEasterSunday => States.BB == State;
+
+        /// <summary>
         /// Ostermontag - Easter Monday
         /// </summary>
         /// <param name="year"></param>
@@ -177,6 +196,26 @@ namespace PublicHoliday
             hol = hol.AddDays(4 + (7 * 5));
             return hol;
         }
+
+        /// <summary>
+        /// Pfingstsonntag - Pentecost Sunday
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime PentecostSunday(int year)
+        {
+            var hol = HolidayCalculator.GetEaster(year);
+            hol = hol.AddDays(7 * 7);
+            return hol;
+        }
+
+        /// <summary>
+        /// Whether this state observes Pfingstsonntag.
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this state observes Pfingstsonntag; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasPentecostSunday => States.BB == State;
 
         /// <summary>
         /// Pfingstmontag - Pentecost
@@ -362,9 +401,11 @@ namespace PublicHoliday
             if (HasEpiphany) bHols.Add(Epiphany(year));
             if (HasWomensDay(year)) bHols.Add(WomensDay(year));
             bHols.Add(GoodFriday(year));
+            if (HasEasterSunday) bHols.Add(EasterSunday(year));
             bHols.Add(EasterMonday(year));
             bHols.Add(MayDay(year));
             bHols.Add(Ascension(year));
+            if (HasPentecostSunday) bHols.Add(PentecostSunday(year));
             bHols.Add(PentecostMonday(year));
             if (HasCorpusChristi) bHols.Add(CorpusChristi(year));
             if (HasAssumption) bHols.Add(Assumption(year));
@@ -392,9 +433,11 @@ namespace PublicHoliday
             if (HasEpiphany) bHols.Add(Epiphany(year), "Heilige Drei Könige");
             if (HasWomensDay(year)) bHols.Add(WomensDay(year), "Weltfrauentag");
             bHols.Add(GoodFriday(year), "Karfreitag");
+            if (HasEasterSunday) bHols.Add(EasterSunday(year), "Ostersonntag");
             bHols.Add(EasterMonday(year), "Ostermontag");
             bHols.Add(MayDay(year), "Tag der Arbeit");
             bHols.Add(Ascension(year), "Christi Himmelfahrt");
+            if (HasPentecostSunday) bHols.Add(PentecostSunday(year), "Pfingstsonntag");
             bHols.Add(PentecostMonday(year), "Pfingstmontag");
             if (HasCorpusChristi) bHols.Add(CorpusChristi(year), "Fronleichnam");
             if (HasAssumption) bHols.Add(Assumption(year), "Mariä Himmelfahrt");
@@ -435,6 +478,8 @@ namespace PublicHoliday
                         return true;
                     if (GoodFriday(year) == date)
                         return true;
+                    if (HasEasterSunday && EasterSunday(year) == date)
+                        return true;
                     if (EasterMonday(year) == date)
                         return true;
                     break;
@@ -444,6 +489,8 @@ namespace PublicHoliday
                     if (MayDay(year) == date)
                         return true;
                     if (Ascension(year) == date)
+                        return true;
+                    if (HasPentecostSunday && PentecostSunday(year) == date)
                         return true;
                     if (PentecostMonday(year) == date)
                         return true;

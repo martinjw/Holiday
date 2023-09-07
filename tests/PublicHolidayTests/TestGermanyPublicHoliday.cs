@@ -145,5 +145,17 @@ namespace PublicHolidayTests
             Assert.IsTrue(calendar.HasWomensDay(2024));
             Assert.IsTrue(calendar.PublicHolidays(2024).Contains(new DateTime(2024, 3, 8)));
         }
+
+        [TestMethod]
+        public void TestBrandenbugSundayHolidays()
+        {
+            var calendar = new GermanPublicHoliday { State = GermanPublicHoliday.States.BB };
+
+            // Easter sunday
+            Assert.IsTrue(calendar.PublicHolidays(2023).Contains(new DateTime(2023, 4, 9)));
+
+            // Pentecost sunday
+            Assert.IsTrue(calendar.PublicHolidays(2023).Contains(new DateTime(2023, 5, 28)));
+        }
     }
 }
