@@ -226,7 +226,7 @@ namespace PublicHoliday
         /// <value>
         /// <c>true</c> if this state observes Mariä Himmelfahrt; otherwise, <c>false</c>.
         /// </value>
-        public bool HasAssumption => States.SL == State;
+        public bool HasAssumption => States.SL == State  || States.BY == State;
 
         /// <summary>
         /// Kindertag - World Children's Day

@@ -78,7 +78,7 @@ namespace PublicHolidayTests
             var hols = holidayCalendar.PublicHolidays(2017);
             var holNames = holidayCalendar.PublicHolidayNames(2017);
             //technically, Bavaria widely observes Assumption/Mariä Himmelfahrt on August 15
-            Assert.IsTrue(13 == hols.Count, "Should be 13 holidays in 2017 - 500th anniversary Reformation");
+            Assert.IsTrue(14 == hols.Count, "Should be 14 holidays in 2017 - 500th anniversary Reformation");
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
 
