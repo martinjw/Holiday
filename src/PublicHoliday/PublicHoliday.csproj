@@ -45,7 +45,8 @@
 2.27.0: Fix issues with Turkey Holidays (thanks @ahmet-cetinkaya )
 2.28.0: #94 #96 Conditional holidays in Denmark (day after Ascension) and Netherlands (Liberation Day optionally only in Lustrum years) -Thanks @SeanSEmerson, @swannet) 
 2.29.0: Womans Day in Mecklenburg-Vorpommern since 2023, added Serbian holidays (thanks @Reo1980, @AlekseiKrasilnikov)
-2.30.0: #102 Add Montenegro holidays (thanks @anovik); add netstandard2.1 target, no other changes</PackageReleaseNotes>
+2.30.0: #102 Add Montenegro holidays (thanks @anovik); add netstandard2.1 target, no other changes
+2.31.0: #103 Add missing holidays for Brandenburg (thanks @Cryma); #104 Germany: Assumption in Bavaria (thanks @mkrso )</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
@@ -60,7 +61,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.30.0</Version>
+    <Version>2.31.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
@@ -83,7 +84,7 @@
 
   <ItemGroup>
     <None Remove="Localization\LocalizationString.xml" />
-	<None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+	<None Include="..\..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
