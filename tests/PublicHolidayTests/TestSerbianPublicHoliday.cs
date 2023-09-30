@@ -10,7 +10,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestPublicHolidays()
         {
-            var easterMonday = new DateTime(2015, 4, 6);
+            var easterMonday = new DateTime(2015, 4, 13);
             var result = new SerbianPublicHoliday().PublicHolidayNames(2015);
             Assert.AreEqual(11, result.Count);
             Assert.IsTrue(result.ContainsKey(easterMonday));
@@ -19,7 +19,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestIsPublicHoliday()
         {
-            var isPublicHoliday = new SerbianPublicHoliday().IsPublicHoliday(new DateTime(2006, 4, 17));
+            var isPublicHoliday = new SerbianPublicHoliday().IsPublicHoliday(new DateTime(2006, 4, 24));
             Assert.IsTrue(isPublicHoliday, "Easter Monday");
         }
 
@@ -82,7 +82,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestGoodFriday2015()
         {
-            var expected = new DateTime(2015, 4, 3);
+            var expected = new DateTime(2015, 4, 10);
             var actual = SerbianPublicHoliday.GoodFriday(2015);
             Assert.AreEqual(expected, actual);
         }
@@ -90,7 +90,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestEaster2015()
         {
-            var expected = new DateTime(2015, 4, 5);
+            var expected = new DateTime(2015, 4, 12);
             var actual = SerbianPublicHoliday.Easter(2015);
             Assert.AreEqual(expected, actual);
         }
@@ -98,7 +98,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestEaster2024()
         {
-            var expected = new DateTime(2024, 3, 31);
+            var expected = new DateTime(2024, 5, 5);
             var actual = SerbianPublicHoliday.Easter(2024);
             Assert.AreEqual(expected, actual);
             Assert.IsTrue(new SerbianPublicHoliday().IsPublicHoliday(expected));
@@ -107,7 +107,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestEasterMonday2015()
         {
-            var expected = new DateTime(2015, 4, 6);
+            var expected = new DateTime(2015, 4, 13);
             var actual = SerbianPublicHoliday.EasterMonday(2015);
             Assert.AreEqual(expected, actual);
         }
@@ -141,7 +141,6 @@ namespace PublicHolidayTests
             {
                 //looking for collisions
                 var holNames = holidayCalendar.PublicHolidayNames(year);
-                var hols = holidayCalendar.PublicHolidays(year);
                 foreach (var holiday in holNames.Keys)
                 {
                     Assert.IsTrue(holidayCalendar.IsPublicHoliday(holiday),
