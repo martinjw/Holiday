@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace PublicHoliday
 {
@@ -70,7 +69,7 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime GoodFriday(int year)
         {
-            var hol = HolidayCalculator.GetEaster(year);
+            var hol = HolidayCalculator.GetOrthodoxEaster(year);
             hol = hol.AddDays(-2);
             return hol;
         }
@@ -87,7 +86,7 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime Easter(int year)
         {
-            return HolidayCalculator.GetEaster(year);
+            return HolidayCalculator.GetOrthodoxEaster(year);
         }
 
         /// <summary>
@@ -97,7 +96,7 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime EasterMonday(int year)
         {
-            var hol = HolidayCalculator.GetEaster(year);
+            var hol = HolidayCalculator.GetOrthodoxEaster(year);
             hol = hol.AddDays(1);
             return hol;
         }
@@ -170,21 +169,31 @@ namespace PublicHoliday
         /// <returns></returns>
         public override IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
-            var easter = HolidayCalculator.GetEaster(year);
-            return new Dictionary<DateTime, string>
+            var easter = HolidayCalculator.GetOrthodoxEaster(year);
+            var dict = new Dictionary<DateTime, string>
             {
                 {NewYearFirst(year), "Нова година"},
                 {NewYearSecond(year), "Нова година"},
                 {Christmas(year), "Божић"},
                 {NationalDayFirst(year), "Дан државности Србије"},
-                {NationalDaySecond(year), "Дан државности Србије"},
-                {GoodFriday(easter), "Велики петак"},
-                {easter, "Васкрс"},
-                {EasterMonday(easter), "Васкрсни понедељак"},
+                {NationalDaySecond(year), "Дан државности Србије"},           
                 {LabourDayFirst(year), "Празник рада"},
                 {LabourDaySecond(year), "Празник рада"},
                 {ArmisticeDay(year), "Дан примирја"}
             };
+            if (!dict.ContainsKey(GoodFriday(year)))
+            {
+                dict.Add(GoodFriday(year), "Велики петак");
+            }
+            if (!dict.ContainsKey(easter))
+            {
+                dict.Add(easter, "Васкрс");
+            }
+            if (!dict.ContainsKey(EasterMonday(year)))
+            {
+                dict.Add(EasterMonday(year), "Васкрсни понедељак");
+            }
+            return dict;
         }
 
         /// <summary>
@@ -208,10 +217,11 @@ namespace PublicHoliday
                     if (NationalDayFirst(year) == date || NationalDaySecond(year) == date) return true;
                     break;
                 case 3:
-                case 4:
+                case 4:               
                     if (EasterMonday(year) == date || Easter(year) == date || GoodFriday(year) == date) return true;
                     break;
                 case 5:
+                    if (EasterMonday(year) == date || Easter(year) == date || GoodFriday(year) == date) return true;                  
                     if (LabourDayFirst(year) == date || LabourDaySecond(year) == date) return true;
                     break;
                 case 11:
