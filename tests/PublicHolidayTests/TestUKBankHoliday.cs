@@ -269,6 +269,36 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
+        public void TestChristmasFriSat()
+        {
+            var xmas = UKBankHoliday.Christmas(2020);
+            var boxing = UKBankHoliday.BoxingDay(2020);
+
+            Assert.AreEqual(25, xmas.Day);
+            Assert.AreEqual(28, boxing.Day);
+        }
+
+        [TestMethod]
+        public void TestChristmasSatSun()
+        {
+            var xmas = UKBankHoliday.Christmas(2021);
+            var boxing = UKBankHoliday.BoxingDay(2021);
+
+            Assert.AreEqual(27, xmas.Day);
+            Assert.AreEqual(28, boxing.Day);
+        }
+
+        [TestMethod]
+        public void TestChristmasSunMon()
+        {
+            var xmas = UKBankHoliday.Christmas(2022);
+            var boxing = UKBankHoliday.BoxingDay(2022);
+
+            Assert.AreEqual(27, xmas.Day);
+            Assert.AreEqual(26, boxing.Day);
+        }
+
+        [TestMethod]
         public void TestSpringLastDayOfMonthIsAMonday()
         {
             var dt = UKBankHoliday.Spring(2021);
