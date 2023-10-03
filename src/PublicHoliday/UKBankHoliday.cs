@@ -59,7 +59,13 @@ namespace PublicHoliday
         public static DateTime Christmas(int year)
         {
             DateTime hol = new DateTime(year, 12, 25);
-            hol = HolidayCalculator.FixWeekend(hol);
+            if (hol.DayOfWeek == DayOfWeek.Saturday ||
+                hol.DayOfWeek == DayOfWeek.Sunday)
+            {
+                // Always move two days to avoid colliding with Boxing day.
+                // If Boxing day is on Monday this means Xmas is after Boxing day.
+                hol = hol.AddDays(2);
+            }
             return hol;
         }
 
@@ -71,13 +77,13 @@ namespace PublicHoliday
         public static DateTime BoxingDay(int year)
         {
             DateTime hol = new DateTime(year, 12, 26);
-            //if Xmas=Sun, it's shifted to Mon and 26 also gets shifted
-            bool isSundayOrMonday =
-                hol.DayOfWeek == DayOfWeek.Sunday ||
-                hol.DayOfWeek == DayOfWeek.Monday;
-            hol = HolidayCalculator.FixWeekend(hol);
-            if (isSundayOrMonday)
-                hol = hol.AddDays(1);
+            if (hol.DayOfWeek == DayOfWeek.Saturday ||
+                hol.DayOfWeek == DayOfWeek.Sunday)
+            {
+                // If Sat, move 2 days to avoid weekend.
+                // If Sun, also move 2 days as Xmas is moved to Mon.
+                hol = hol.AddDays(2);
+            }
             return hol;
         }
 
