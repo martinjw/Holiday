@@ -34,6 +34,14 @@ namespace PublicHoliday
             holidayNames.Add(newYear[0], "Anul nou");
             holidayNames.Add(newYear[1], "Anul nou");
 
+            var epiphany = Epiphany(year);
+            if (epiphany.HasValue)
+                holidayNames.Add(epiphany.Value, "Bobotează");
+
+            var saintJohnTheBaptist = SaintJohnTheBaptist(year);
+            if (saintJohnTheBaptist.HasValue)
+                holidayNames.Add(saintJohnTheBaptist.Value, "Sfântul Ion");
+
             holidayNames.Add(UnificationOfPrincipalities(year), "Unirea Principatelor Române");
 
             var easter = HolidayCalculator.GetOrthodoxEaster(year).AddHours(1).AddMinutes(1); // to avoid duplicate key
@@ -94,6 +102,30 @@ namespace PublicHoliday
         /// <returns>Dates of given year</returns>
         public static IEnumerable<DateTime> NewYear(int year)
             => new[] { new DateTime(year, 1, 1), new DateTime(year, 1, 2) };
+
+        /// <summary>
+        /// Epiphany (Bobotează). Public holiday starting with 2024
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        private static DateTime? Epiphany(int year)
+        {
+            if (year >= 2024) return new DateTime(year, 1, 6);
+
+            return null;
+        }
+
+        /// <summary>
+        /// Saint John the Baptist (Sfântul Ion). Public holiday starting with 2024
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        private static DateTime? SaintJohnTheBaptist(int year)
+        {
+            if (year >= 2024) return new DateTime(year, 1, 7);
+
+            return null;
+        }
 
         /// <summary>
         /// Day of the Unification of the Romanian Principalities (Unirea Principatelor Române)
