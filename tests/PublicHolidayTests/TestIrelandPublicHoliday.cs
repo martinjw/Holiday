@@ -1,6 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
-using System;
 
 namespace PublicHolidayTests
 {
@@ -43,9 +43,11 @@ namespace PublicHolidayTests
             Assert.IsTrue(holidayCalendar.IsPublicHoliday(new DateTime(2023, 2, 6)));
             Assert.IsTrue(holidayCalendar.IsPublicHoliday(new DateTime(2024, 2, 5)));
             Assert.IsTrue(holidayCalendar.IsPublicHoliday(new DateTime(2025, 2, 3)));
+            Assert.IsTrue(holidayCalendar.IsPublicHoliday(new DateTime(2030, 2, 1)));
 
             Assert.IsTrue(holidayCalendar.PublicHolidays(2023).Contains(new DateTime(2023, 2, 6)));
             Assert.IsTrue(holidayCalendar.PublicHolidays(2025).Contains(new DateTime(2025, 2, 3)));
+            Assert.IsTrue(holidayCalendar.PublicHolidays(2030).Contains(new DateTime(2030, 2, 1)));
         }
 
     }
