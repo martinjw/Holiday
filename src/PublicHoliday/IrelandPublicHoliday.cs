@@ -29,7 +29,10 @@ namespace PublicHoliday
         public static DateTime? StBrigid(int year)
         {
             if (year < 2023) return null;
-            return HolidayCalculator.FindFirstMonday(new DateTime(year, 2, 1));
+            var firstOfFebruary = new DateTime(year, 2, 1);
+            return firstOfFebruary.DayOfWeek == DayOfWeek.Friday
+                ? firstOfFebruary
+                : HolidayCalculator.FindFirstMonday(new DateTime(year, 2, 1));
         }
 
         /// <summary>
