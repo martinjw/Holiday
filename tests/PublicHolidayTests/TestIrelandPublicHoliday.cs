@@ -1,6 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
+using System;
 
 namespace PublicHolidayTests
 {
@@ -23,6 +23,26 @@ namespace PublicHolidayTests
             var holidayCalendar = new IrelandPublicHoliday();
             var actual = holidayCalendar.IsPublicHoliday(holiday);
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday -{name}");
+        }
+
+        [TestMethod]
+        public void TestMillennium()
+        {
+            var holiday = new DateTime(1999, 12, 31);
+            var holidayCalendar = new IrelandPublicHoliday();
+            var actual = holidayCalendar.IsPublicHoliday(holiday);
+            Assert.IsTrue(actual, $"{holiday.ToString("D")} is a special millennium holiday");
+        }
+
+        [TestMethod]
+        public void TestCovid()
+        {
+            var holiday = new DateTime(2022, 3, 18);
+            var holidayCalendar = new IrelandPublicHoliday();
+            var actual = holidayCalendar.IsPublicHoliday(holiday);
+            Assert.IsTrue(actual, $"{holiday.ToString("D")} is Day of Remembrance and Recognition of people who lost their lives due to the COVID-19 ");
+            var cal2022 = holidayCalendar.PublicHolidayNames(2022);
+            Assert.IsTrue(cal2022.ContainsKey(holiday));
         }
 
         [TestMethod]
@@ -68,6 +88,5 @@ namespace PublicHolidayTests
             Assert.IsTrue(holidayCalendar.PublicHolidays(2025).Contains(new DateTime(2025, 2, 3)));
             Assert.IsTrue(holidayCalendar.PublicHolidays(2030).Contains(new DateTime(2030, 2, 1)));
         }
-
     }
 }

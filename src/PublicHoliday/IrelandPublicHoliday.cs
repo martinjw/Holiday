@@ -142,6 +142,10 @@ namespace PublicHoliday
                 { NewYear(year), "Lá Caille" } };
             if (year >= 2023) bHols.Add(StBrigid(year).GetValueOrDefault(), "Imbolc");
             bHols.Add(StPatricksDay(year), "Lá Fhéile Pádraig");
+            if (year == 2022)
+            {
+                bHols.Add(new DateTime(2022, 3, 18), "Covid-19 Commemoration");
+            }
             DateTime easter = HolidayCalculator.GetEaster(year);
             bHols.Add(EasterMonday(easter), "Luan Cásca");
             bHols.Add(MayDay(year), "Lá Bealtaine");
@@ -150,6 +154,7 @@ namespace PublicHoliday
             bHols.Add(OctoberHoliday(year), "Lá Saoire i mí Dheireadh Fómhair");
             bHols.Add(Christmas(year), "Lá Nollag");
             bHols.Add(StStephen(year), "Lá Fhéile Stiofáin");
+            if (year == 1999) bHols.Add(new DateTime(1999, 12, 31), "Millennium");
             return bHols;
         }
 
@@ -171,16 +176,20 @@ namespace PublicHoliday
                     if (NewYear(year) == date)
                         return true;
                     break;
+
                 case 2:
                     if (year >= 2023 && StBrigid(year) == date)
                         return true;
                     break;
+
                 case 3:
                 case 4:
                     if (StPatricksDay(year) == date)
                         return true;
                     if (EasterMonday(year) == date)
                         return true;
+                    if (year == 2022 && date.Day == 18 && date.Month == 3)
+                        return true; //Covid-19 Commemoration
                     break;
 
                 case 5:
@@ -207,6 +216,8 @@ namespace PublicHoliday
                     if (Christmas(year) == date)
                         return true;
                     if (StStephen(year) == date)
+                        return true;
+                    if (year == 1999 && date.Day == 31)
                         return true;
                     break;
             }
