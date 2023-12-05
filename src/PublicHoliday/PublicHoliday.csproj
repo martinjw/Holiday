@@ -48,7 +48,8 @@
 2.30.0: #102 Add Montenegro holidays (thanks @anovik); add netstandard2.1 target, no other changes
 2.31.0: #103 Add missing holidays for Brandenburg (thanks @Cryma); #104 Germany: Assumption in Bavaria (thanks @mkrso )
 2.32.0: #107 Serbia orthodox easter (thanks @anovik); #108 UK boxing day rules (thanks @spetsen)
-2.33.0: #113 #112 Ireland holidays fix weekend rules (thanks @Bjornsen016) </PackageReleaseNotes>
+2.33.0: #113 #112 Ireland holidays fix weekend rules (thanks @Bjornsen016)
+2.34.0: #114 South Africa - Special holiday - 2023 Rugby World Cup Win (thanks @FifoTheHein) </PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
@@ -63,7 +64,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.33.0</Version>
+    <Version>2.34.0</Version>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>

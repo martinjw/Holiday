@@ -197,6 +197,10 @@ namespace PublicHoliday
             bHols.Add(NationalWomensDay(year), "National Women's Day");
             bHols.Add(HeritageDay(year), "Heritage Day");
             bHols.Add(ReconciliationDay(year), "Day of Reconciliation");
+            if (year == 2023)
+            {
+                bHols.Add(new DateTime(2023, 12, 15), "Rugby World Cup celebration");
+            }
             bHols.Add(Christmas(year), "Christmas Day");
             bHols.Add(BoxingDay(year), "Day of Goodwill");
             return bHols;
