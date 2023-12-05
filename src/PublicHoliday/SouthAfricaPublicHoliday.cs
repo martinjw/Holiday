@@ -272,6 +272,8 @@ namespace PublicHoliday
                         return true;
                     if (BoxingDay(year) == date)
                         return true;
+                    if (date == new DateTime(2023, 12, 15)) //Rugby world cup win public holiday
+                        return true;
                     break;
             }
 
