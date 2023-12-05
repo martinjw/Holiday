@@ -130,6 +130,7 @@ namespace PublicHolidayTests
         [DataRow(6, 16, "Youth Day")]
         [DataRow(8, 9, "National Women's Day")]
         [DataRow(9, 25, "Heritage Day - Observed on Monday")]
+        [DataRow(12, 15, "Rugby World Cup Win Public Holiday")]
         [DataRow(12, 16, "Day of reconciliation")]
         [DataRow(12, 25, "Christmas")]
         [DataRow(12, 26, "Boxing day")]
