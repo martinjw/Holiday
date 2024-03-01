@@ -54,11 +54,29 @@ namespace PublicHoliday
         /// <param name="year">The year.</param>
         public static DateTime VernalEquinoxDay(int year)
         {
-            //variations taken from https://en.wikipedia.org/wiki/Autumnal_Equinox_Day
-            if (year == 2014 || year == 2015 || year == 2018 || year == 2019)
+            // Calculation algorithm (Japanese): https://ja.wikipedia.org/wiki/春分の日#1900年から2299年までの春分日
+
+            var yearModuloFour = year % 4;
+
+            if (year >= 1960 && year <= 1991)
             {
-                return new DateTime(year, 3, 21);
+                return yearModuloFour == 0
+                    ? new DateTime(year, 3, 20)
+                    : new DateTime(year, 3, 21);
             }
+            if (year >= 1992 && year <= 2023)
+            {
+                return yearModuloFour == 0 || yearModuloFour == 1
+                    ? new DateTime(year, 3, 20)
+                    : new DateTime(year, 3, 21);
+            }
+            if (year >= 2024 && year <= 2055)
+            {
+                return yearModuloFour == 3
+                    ? new DateTime(year, 3, 21)
+                    : new DateTime(year, 3, 20);
+            }
+
             return FixSunday(new DateTime(year, 3, 20));
         }
 
@@ -147,8 +165,27 @@ namespace PublicHoliday
         /// <returns></returns>
         public static DateTime AutumnalEquinoxDay(int year)
         {
-            //Around September 22 or 23
-            if (year == 2016) return new DateTime(year, 9, 22);
+            // Calculation algorithm (Japanese): https://ja.wikipedia.org/wiki/秋分の日#1900年から2299年までの秋分日
+
+            var yearModuloFour = year % 4;
+
+            if (year >= 1980 && year <= 2011)
+            {
+                return new DateTime(year, 9, 23);
+            }
+            if (year >= 2012 && year <= 2043)
+            {
+                return yearModuloFour == 0
+                    ? new DateTime(year, 9, 22)
+                    : new DateTime(year, 9, 23);
+            }
+            if (year >= 2044 && year <= 2075)
+            {
+                return yearModuloFour == 0 || yearModuloFour == 1
+                    ? new DateTime(year, 9, 22)
+                    : new DateTime(year, 9, 23);
+            }
+
             return FixSunday(new DateTime(year, 9, 23));
         }
 
