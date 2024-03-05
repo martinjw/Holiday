@@ -37,7 +37,7 @@ namespace PublicHolidayTests
         {
             Assert.AreEqual(new DateTime(1980, 3, 20), JapanPublicHoliday.VernalEquinoxDay(1980));
             Assert.AreEqual(new DateTime(1981, 3, 21), JapanPublicHoliday.VernalEquinoxDay(1981));
-            Assert.AreEqual(new DateTime(1982, 3, 21), JapanPublicHoliday.VernalEquinoxDay(1982));
+            Assert.AreEqual(new DateTime(1982, 3, 22), JapanPublicHoliday.VernalEquinoxDay(1982));
             Assert.AreEqual(new DateTime(1983, 3, 21), JapanPublicHoliday.VernalEquinoxDay(1983));
 
             Assert.AreEqual(new DateTime(2000, 3, 20), JapanPublicHoliday.VernalEquinoxDay(2000));
@@ -53,7 +53,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(new DateTime(2024, 3, 20), JapanPublicHoliday.VernalEquinoxDay(2024));
             Assert.AreEqual(new DateTime(2025, 3, 20), JapanPublicHoliday.VernalEquinoxDay(2025));
             Assert.AreEqual(new DateTime(2026, 3, 20), JapanPublicHoliday.VernalEquinoxDay(2026));
-            Assert.AreEqual(new DateTime(2027, 3, 21), JapanPublicHoliday.VernalEquinoxDay(2027));
+            Assert.AreEqual(new DateTime(2027, 3, 22), JapanPublicHoliday.VernalEquinoxDay(2027));
         }
 
         [TestMethod]
@@ -65,7 +65,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(new DateTime(1983, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(1983));
 
             Assert.AreEqual(new DateTime(2000, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(2000));
-            Assert.AreEqual(new DateTime(2001, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(2001));
+            Assert.AreEqual(new DateTime(2001, 9, 24), JapanPublicHoliday.AutumnalEquinoxDay(2001));
             Assert.AreEqual(new DateTime(2002, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(2002));
             Assert.AreEqual(new DateTime(2003, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(2003));
 
@@ -74,14 +74,14 @@ namespace PublicHolidayTests
             Assert.AreEqual(new DateTime(2022, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(2022));
             Assert.AreEqual(new DateTime(2023, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(2023));
 
-            Assert.AreEqual(new DateTime(2024, 9, 22), JapanPublicHoliday.AutumnalEquinoxDay(2024));
+            Assert.AreEqual(new DateTime(2024, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(2024));
             Assert.AreEqual(new DateTime(2025, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(2025));
             Assert.AreEqual(new DateTime(2026, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(2026));
             Assert.AreEqual(new DateTime(2027, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(2027));
 
             Assert.AreEqual(new DateTime(2044, 9, 22), JapanPublicHoliday.AutumnalEquinoxDay(2044));
             Assert.AreEqual(new DateTime(2045, 9, 22), JapanPublicHoliday.AutumnalEquinoxDay(2045));
-            Assert.AreEqual(new DateTime(2046, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(2046));
+            Assert.AreEqual(new DateTime(2046, 9, 24), JapanPublicHoliday.AutumnalEquinoxDay(2046));
             Assert.AreEqual(new DateTime(2047, 9, 23), JapanPublicHoliday.AutumnalEquinoxDay(2047));
         }
 
