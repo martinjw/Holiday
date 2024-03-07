@@ -50,7 +50,8 @@
 2.32.0: #107 Serbia orthodox easter (thanks @anovik); #108 UK boxing day rules (thanks @spetsen)
 2.33.0: #113 #112 Ireland holidays fix weekend rules (thanks @Bjornsen016)
 2.34.0: #114 South Africa - Special holiday - 2023 Rugby World Cup Win (thanks @FifoTheHein) 
-2.35.0: #115 Fixed Japanese Equinox Day calculation (thanks @Makaopior ) </PackageReleaseNotes>
+2.35.0: #115 Fixed Japanese Equinox Day calculation (thanks @Makaopior ) 
+2.36.0: #116 Fixed Japanese Vernal and Autumnal Equinox days (thanks @Makaopior ) </PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
