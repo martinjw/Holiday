@@ -58,26 +58,32 @@ namespace PublicHoliday
 
             var yearModuloFour = year % 4;
 
+            DateTime vernalEquinoxDay;
             if (year >= 1960 && year <= 1991)
             {
-                return yearModuloFour == 0
+                vernalEquinoxDay = yearModuloFour == 0
                     ? new DateTime(year, 3, 20)
                     : new DateTime(year, 3, 21);
             }
-            if (year >= 1992 && year <= 2023)
+            else if (year >= 1992 && year <= 2023)
             {
-                return yearModuloFour == 0 || yearModuloFour == 1
+                vernalEquinoxDay = yearModuloFour == 0 || yearModuloFour == 1
                     ? new DateTime(year, 3, 20)
                     : new DateTime(year, 3, 21);
             }
-            if (year >= 2024 && year <= 2055)
+            else if (year >= 2024 && year <= 2055)
             {
-                return yearModuloFour == 3
+                vernalEquinoxDay = yearModuloFour == 3
                     ? new DateTime(year, 3, 21)
                     : new DateTime(year, 3, 20);
             }
+            else
+            {
+                // May be not precise
+                vernalEquinoxDay = new DateTime(year, 3, 20);
+            }
 
-            return FixSunday(new DateTime(year, 3, 20));
+            return FixSunday(vernalEquinoxDay);
         }
 
         /// <summary>
@@ -169,24 +175,30 @@ namespace PublicHoliday
 
             var yearModuloFour = year % 4;
 
+            DateTime autumnalEquinoxDay;
             if (year >= 1980 && year <= 2011)
             {
-                return new DateTime(year, 9, 23);
+                autumnalEquinoxDay = new DateTime(year, 9, 23);
             }
-            if (year >= 2012 && year <= 2043)
+            else if (year >= 2012 && year <= 2043)
             {
-                return yearModuloFour == 0
+                autumnalEquinoxDay = yearModuloFour == 0
                     ? new DateTime(year, 9, 22)
                     : new DateTime(year, 9, 23);
             }
-            if (year >= 2044 && year <= 2075)
+            else if (year >= 2044 && year <= 2075)
             {
-                return yearModuloFour == 0 || yearModuloFour == 1
+                autumnalEquinoxDay = yearModuloFour == 0 || yearModuloFour == 1
                     ? new DateTime(year, 9, 22)
                     : new DateTime(year, 9, 23);
+            }
+            else
+            {
+                // May be not precise
+                autumnalEquinoxDay = new DateTime(year, 9, 23);
             }
 
-            return FixSunday(new DateTime(year, 9, 23));
+            return FixSunday(autumnalEquinoxDay);
         }
 
         /// <summary>
