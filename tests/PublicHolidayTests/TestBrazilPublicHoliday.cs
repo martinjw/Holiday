@@ -20,7 +20,7 @@ namespace PublicHolidayTests
         [DataRow(11, 2)]
         [DataRow(11, 15)]
         [DataRow(12, 25)]
-        public void TestHolidays2017(int month, int day)
+        public void TestHolidays2024(int month, int day)
         {
             var holiday = new DateTime(2024, month, day);
             var holidayCalendar = new BrazilPublicHoliday();
@@ -28,8 +28,29 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
+        [DataTestMethod]
+        [DataRow(1, 1)]
+        [DataRow(3, 3)]
+        [DataRow(3, 4)]
+        [DataRow(4, 18)]
+        [DataRow(4, 21)]
+        [DataRow(5, 1)]
+        [DataRow(6, 19)]
+        [DataRow(9, 7)]
+        [DataRow(10, 12)]
+        [DataRow(11, 2)]
+        [DataRow(11, 15)]
+        [DataRow(12, 25)]
+        public void TestHolidays2025(int month, int day)
+        {
+            var holiday = new DateTime(2025, month, day);
+            var holidayCalendar = new BrazilPublicHoliday();
+            var actual = holidayCalendar.IsPublicHoliday(holiday);
+            Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
+        }
+
         [TestMethod]
-        public void TestHolidays2017Lists()
+        public void TestHolidays2024Lists()
         {
             var holidayCalendar = new BrazilPublicHoliday();
             var hols = holidayCalendar.PublicHolidays(2024);
