@@ -176,6 +176,16 @@ namespace PublicHoliday
         {
             return FindOccurrenceOfDayOfWeek(hol, DayOfWeek.Monday, 1);
         }
+        public static DateTime GetFirstFridayBeforeDate(DateTime date)
+        {
+            // Calculate the difference in days between the target day (Friday) and the current day of the week
+            int daysToSubtract = ((int)date.DayOfWeek - (int)DayOfWeek.Friday + 7) % 7;
+
+            // Subtract the calculated number of days from the input date
+            DateTime resultDate = date.AddDays(-daysToSubtract);
+
+            return resultDate;
+        }
 
         public static DateTime FindPrevious(DateTime hol, DayOfWeek day)
         {
