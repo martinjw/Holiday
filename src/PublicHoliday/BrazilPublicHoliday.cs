@@ -126,6 +126,51 @@ namespace PublicHoliday
         /// <returns></returns>
         public override bool IsPublicHoliday(DateTime dt)
         {
+            switch (dt.Month)
+            {
+                case 1:
+                    return AnoNovo(dt.Year) == dt;
+                case 2:
+                    if (dt.DayOfWeek == DayOfWeek.Monday)
+                    {
+                        return CarnavalDayOne(dt.Year) == dt;
+                    }
+                    else if (dt.DayOfWeek == DayOfWeek.Tuesday)
+                    {
+                        return CarnavalDayTwo(dt.Year) == dt;
+                    }
+                    break;
+                case 3:
+                    if (dt.DayOfWeek == DayOfWeek.Monday)
+                    {
+                        return CarnavalDayOne(dt.Year) == dt;
+                    }
+                    else if (dt.DayOfWeek == DayOfWeek.Tuesday)
+                    {
+                        return CarnavalDayTwo(dt.Year) == dt;
+                    }
+                    else if (dt.DayOfWeek == DayOfWeek.Friday)
+                    {
+                        return SextaFeiraSanta(dt.Year) == dt;
+                    }
+                    break;
+                case 4:
+                    return ((dt.DayOfWeek == DayOfWeek.Friday) && (SextaFeiraSanta(dt.Year) == dt)) || Tiradentes(dt.Year) == dt;
+                case 5:
+                    return DiaDoTrabalho(dt.Year) == dt || ((dt.DayOfWeek == DayOfWeek.Thursday) && (CorpusChristi(dt.Year) == dt));
+                case 6:
+                    return ((dt.DayOfWeek == DayOfWeek.Thursday) && (CorpusChristi(dt.Year) == dt));
+                case 9:
+                    return DiaDaIndependencia(dt.Year) == dt;
+                case 10:
+                    return NossaSenhoraAparecida(dt.Year) == dt;
+                case 11:
+                    return DiaDosFinados(dt.Year) == dt || DiaDaRepublica(dt.Year) == dt;
+                case 12:
+                    return Natal(dt.Year) == dt;
+                default:
+                    return false;
+            }
             return PublicHolidays(dt.Year).Contains(dt);
         }
         /// <summary>
