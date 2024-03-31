@@ -168,10 +168,9 @@ namespace PublicHoliday
                     return DiaDosFinados(dt.Year) == dt || DiaDaRepublica(dt.Year) == dt;
                 case 12:
                     return Natal(dt.Year) == dt;
-                default:
-                    return false;
             }
-            return PublicHolidays(dt.Year).Contains(dt);
+
+            return false;
         }
         /// <summary>
         /// Public holiday names in Portuguese.
