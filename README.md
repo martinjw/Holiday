@@ -62,6 +62,8 @@ There are libraries for:
   - Canada : CanadaQuebecGovClosingDay (Government province of Quebec closing day)
   - USA : USAPublicHoliday
   - USA : USAFederalReserveHoliday
+- S America
+  - Brazil : BrazilPublicHoliday
 - Oceania
   - Australia : AustraliaPublicHoliday (set State property for regional holidays, see note below)
   - New Zealand : NewZealandPublicHoliday
