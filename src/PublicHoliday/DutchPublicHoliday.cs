@@ -24,6 +24,16 @@ namespace PublicHoliday
 		}
 
 		/// <summary>
+		/// "Good Friday" / "Goede Vrijdag"
+		/// </summary>
+		/// <remarks>It depends on the company if Good Friday is a free holiday</remarks>
+		public static DateTime GoodFriday(int year)
+		{
+			var easterSunday = HolidayCalculator.GetEaster(year);
+			return easterSunday.AddDays(-2);
+		}
+
+		/// <summary>
 		/// Easter Monday 1st Monday after Easter - Paasmaandag
 		/// </summary>
 		/// <param name="year">The year.</param>
