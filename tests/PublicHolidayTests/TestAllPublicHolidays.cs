@@ -15,6 +15,7 @@ namespace PublicHolidayTests
                 new AustraliaPublicHoliday(),
                 new AustriaPublicHoliday(),
                 new BelgiumPublicHoliday(),
+                new BrazilPublicHoliday(),
                 new CanadaPublicHoliday(),
                 new CanadaQuebecGovClosingDay(),
                 new CzechRepublicPublicHoliday(),

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace PublicHoliday
 {
+    /// <summary>
+    /// Public holidays for Brazil
+    /// </summary>
     public class BrazilPublicHoliday : PublicHolidayBase
     {
         /// <summary>

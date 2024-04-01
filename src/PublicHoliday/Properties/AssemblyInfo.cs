@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Martin Willey")]
 [assembly: AssemblyProduct("Holiday")]
-[assembly: AssemblyCopyright("Copyright © Martin Willey 2023")]
+[assembly: AssemblyCopyright("Copyright © Martin Willey 2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,8 +32,8 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.36.0.0")]
-[assembly: AssemblyFileVersion("2.36.0.0")]
+[assembly: AssemblyVersion("2.37.0.0")]
+[assembly: AssemblyFileVersion("2.37.0.0")]
 
 // Visibility of project of test
 [assembly: InternalsVisibleTo("PublicHolidayTests")]
