@@ -146,7 +146,6 @@ namespace PublicHoliday
         /// <summary>
         /// Saint George's day (April 23)
         /// </summary>
-        /// <param name="year"></param>
         /// <returns></returns>
         public static DateTime StGeorgesDay(int year)
         {
@@ -169,7 +168,6 @@ namespace PublicHoliday
         /// <summary>
         /// Monday on or before May 24
         /// </summary>
-        /// <param name="year"></param>
         /// <returns></returns>
         public static DateTime VictoriaDay(int year)
         {
@@ -196,7 +194,6 @@ namespace PublicHoliday
         /// <summary>
         /// Aboriginal day (June 21)
         /// </summary>
-        /// <param name="year"></param>
         /// <returns></returns>
         public static DateTime AboriginalDay(int year)
         {

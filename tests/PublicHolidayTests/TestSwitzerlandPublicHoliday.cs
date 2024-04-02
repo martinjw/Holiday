@@ -127,7 +127,7 @@ namespace PublicHolidayTests
         public void TestBoxingDay2017()
         {
             var expected = new DateTime(2017, 12, 26);
-            var actual = SwitzerlandPublicHoliday.BoxingDay(2017);
+            var actual = SwitzerlandPublicHoliday.SaintStephensDay(2017);
             Assert.AreEqual(expected, actual);
         }
 

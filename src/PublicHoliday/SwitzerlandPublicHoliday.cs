@@ -7,9 +7,156 @@ namespace PublicHoliday
 
     /// <summary>
     /// Switzerland's holiday calendar. Oliver Fritz, May 2018.
+    /// Updated according to https://en.wikipedia.org/wiki/Public_holidays_in_Switzerland. Christophe Peugnet, April 2024
     /// </summary>
     public class SwitzerlandPublicHoliday : PublicHolidayBase
     {
+        /// <summary>
+        /// Gets or sets the canton (ISO 3166-2:CH), + default All for all Canton.
+        /// </summary>
+        public Cantons Canton { get; set; }
+
+        /// <summary>
+        ///
+        /// </summary>
+        public enum Cantons
+        {
+            /// <summary>
+            /// All cantons
+            /// </summary>
+            ALL = 0,
+
+            /// <summary>
+            ///  Canton of Aargau
+            /// </summary>
+            AG,
+
+            /// <summary>
+            ///  Appenzell Innerrhoden
+            /// </summary>
+            AI,
+
+            /// <summary>
+            ///  Appenzell Ausserrhoden
+            /// </summary>
+            AR,
+
+            /// <summary>
+            ///  Basel-Landschaft
+            /// </summary>
+            BL,
+
+            /// <summary>
+            ///  Basel-Stadt
+            /// </summary>
+            BS,
+
+            /// <summary>
+            ///  Canton of Bern
+            /// </summary>
+            BE,
+
+            /// <summary>
+            ///  Canton of Fribourg
+            /// </summary>
+            FR,
+
+            /// <summary>
+            ///  Canton of Geneva
+            /// </summary>
+            GE,
+
+            /// <summary>
+            ///  Canton of Glarus
+            /// </summary>
+            GL,
+
+            /// <summary>
+            ///  Grisons
+            /// </summary>
+            GR,
+
+            /// <summary>
+            ///  Canton of Jura
+            /// </summary>
+            JU,
+
+            /// <summary>
+            ///  Canton of Lucerne
+            /// </summary>
+            LU,
+
+            /// <summary>
+            ///  Canton of Neuchâtel
+            /// </summary>
+            NE,
+
+            /// <summary>
+            ///  Nidwalden
+            /// </summary>
+            NW,
+
+            /// <summary>
+            ///  Obwalden
+            /// </summary>
+            OW,
+
+            /// <summary>
+            ///  Canton of St. Gallen
+            /// </summary>
+            SG,
+
+            /// <summary>
+            ///  Canton of Schaffhausen
+            /// </summary>
+            SH,
+
+            /// <summary>
+            ///  Canton of Schwyz
+            /// </summary>
+            SZ,
+
+            /// <summary>
+            ///  Canton of Solothurn
+            /// </summary>
+            SO,
+
+            /// <summary>
+            ///  Thurgau
+            /// </summary>
+            TG,
+
+            /// <summary>
+            ///  Ticino
+            /// </summary>
+            TI,
+
+            /// <summary>
+            ///  Canton of Uri
+            /// </summary>
+            UR,
+
+            /// <summary>
+            ///  Valais
+            /// </summary>
+            VS,
+
+            /// <summary>
+            ///  Vaud
+            /// </summary>
+            VD,
+
+            /// <summary>
+            ///  Canton of Zug
+            /// </summary>
+            ZG,
+
+            /// <summary>
+            ///  Canton of Zürich
+            /// </summary>
+            ZH,
+        }
+
         #region Individual Holidays
 
         /// <summary>
@@ -33,6 +180,15 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Whether this cantons observes SecondJanuary
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes SecondJanuary; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasSecondJanuary => Array.IndexOf(new[] { Cantons.AG, Cantons.BE, Cantons.FR, Cantons.GL, Cantons.JU, Cantons.NE, Cantons.OW, Cantons.SH, Cantons.SO, Cantons.TG, Cantons.VD, Cantons.ZG, Cantons.ZH }, Canton) > -1;
+
+
+        /// <summary>
         /// Epiphany - 13 days after christmas
         /// </summary>
         /// <param name="year">The year.</param>
@@ -41,6 +197,72 @@ namespace PublicHoliday
         {
             return new DateTime(year, 1, 6);
         }
+
+        /// <summary>
+        /// Whether this cantons observes Epiphany
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes Epiphany; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasEpiphany => Array.IndexOf(new[] {
+            Cantons.GR,
+            Cantons.LU,
+            Cantons.SZ,
+            Cantons.TI,
+            Cantons.UR,
+        }, Canton) > -1;
+
+
+        /// <summary>
+        /// Republic Day Neuchatel - 1. March
+        /// </summary>
+        /// <param name="year">Republic Day of Neuchatel</param>
+        /// <returns>Date of in the given year.</returns>
+        public static DateTime RepublicDay(int year)
+        {
+            return new DateTime(year, 3, 1);
+        }
+
+        /// <summary>
+        /// Whether this cantons observes RepublicDay
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes RepublicDay; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasRepublicDay => Array.IndexOf(new[] {
+            Cantons.NE,
+        }, Canton) > -1;
+
+
+
+
+        /// <summary>
+        ///  St Joseph's Day - 19 March
+        /// </summary>
+        /// <param name="year">St Joseph's Day</param>
+        /// <returns>Date of in the given year.</returns>
+        public static DateTime StJosephDay(int year)
+        {
+            return new DateTime(year, 3, 1);
+        }
+
+        /// <summary>
+        /// Whether this cantons observes St Joseph's Day
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes St Joseph's Day; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasStJosephDay => Array.IndexOf(new[] {
+            Cantons.GR,
+            Cantons.NW,
+            Cantons.SZ,
+            Cantons.SO,
+            Cantons.TI,
+            Cantons.UR,
+            Cantons.VS,
+        }, Canton) > -1;
+         
+
 
         /// <summary>
         /// Good Friday - Friday before Easter
@@ -60,6 +282,40 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Whether this cantons observes GoodFriday
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes GoodFriday; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasGoodFriday => Array.IndexOf(new[] { 
+            Cantons.AG,
+            Cantons.AI,
+            Cantons.AR,
+            Cantons.BL,
+            Cantons.BS,
+            Cantons.BE,
+            Cantons.FR,
+            Cantons.GE,
+            Cantons.GL,
+            Cantons.GR,
+            Cantons.JU,
+            Cantons.LU,
+            Cantons.NE,
+            Cantons.NW,
+            Cantons.OW,
+            Cantons.SG,
+            Cantons.SH,
+            Cantons.SZ,
+            Cantons.SO,
+            Cantons.TG,
+            Cantons.UR,
+            Cantons.VD,
+            Cantons.ZG,
+            Cantons.ZH,
+        }, Canton) > -1;
+
+
+        /// <summary>
         /// Easter
         /// </summary>
         /// <param name="year">The year.</param>
@@ -69,6 +325,7 @@ namespace PublicHoliday
             return HolidayCalculator.GetEaster(year);
         }
 
+        
         /// <summary>
         /// Easter Monday 1st Monday after Easter
         /// </summary>
@@ -87,6 +344,41 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Whether this cantons observes Easter Monday
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes Easter Monday; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasEasterMonday => Array.IndexOf(new[] {
+            Cantons.AG,
+            Cantons.AI,
+            Cantons.AR,
+            Cantons.BL,
+            Cantons.BS,
+            Cantons.BE,
+            Cantons.FR,
+            Cantons.GE,
+            Cantons.GL,
+            Cantons.GR,
+            Cantons.JU,
+            Cantons.LU,
+            Cantons.NE,
+            Cantons.NW,
+            Cantons.OW,
+            Cantons.SG,
+            Cantons.SH,
+            Cantons.SZ,
+            Cantons.SO,
+            Cantons.TG,
+            Cantons.TI,
+            Cantons.UR,
+            Cantons.VD,
+            Cantons.ZG,
+            Cantons.ZH,
+        }, Canton) > -1;
+
+
+        /// <summary>
         /// Labour Day - Mai 1st
         /// </summary>
         /// <param name="year">The year.</param>
@@ -95,6 +387,27 @@ namespace PublicHoliday
         {
             return new DateTime(year, 5, 1);
         }
+
+        /// <summary>
+        /// Whether this cantons observes Labour Day
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes Labour Day; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasLabourDay => Array.IndexOf(new[] {
+            Cantons.AR,
+            Cantons.BL,
+            Cantons.BS,
+            Cantons.FR,
+            Cantons.JU,
+            Cantons.NE,
+            Cantons.SH,
+            Cantons.SO,
+            Cantons.TG,
+            Cantons.TI,
+            Cantons.ZH,
+        }, Canton) > -1;
+
 
         /// <summary>
         /// Ascension 6th Thursday after Easter
@@ -113,6 +426,7 @@ namespace PublicHoliday
             return easter.AddDays(4 + (7 * 5));
         }
 
+
         /// <summary>
         /// Whit Sunday - 7th Sunday after Easter
         /// </summary>
@@ -130,6 +444,7 @@ namespace PublicHoliday
             return easter.AddDays(7 * 7);
         }
 
+
         /// <summary>
         /// Whit Monday - Monday after Whit Sunday
         /// </summary>
@@ -146,6 +461,41 @@ namespace PublicHoliday
         {
             return easter.AddDays(7 * 7 + 1);
         }
+
+        /// <summary>
+        /// Whether this cantons observes Whit Monday
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes Whit Monday; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasWhitMonday => Array.IndexOf(new[] {
+            Cantons.AG,
+            Cantons.AI,
+            Cantons.AR,
+            Cantons.BL,
+            Cantons.BS,
+            Cantons.BE,
+            Cantons.FR,
+            Cantons.GE,
+            Cantons.GL,
+            Cantons.GR,
+            Cantons.JU,
+            Cantons.LU,
+            Cantons.NE,
+            Cantons.NW,
+            Cantons.OW,
+            Cantons.SG,
+            Cantons.SH,
+            Cantons.SZ,
+            Cantons.SO,
+            Cantons.TG,
+            Cantons.TI,
+            Cantons.UR,
+            Cantons.VD,
+            Cantons.ZG,
+            Cantons.ZH,
+        }, Canton) > -1;
+        
 
         /// <summary>
         /// Fronleichnam - Corpus Christi
@@ -170,6 +520,29 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Whether this cantons observes Corpus Christi
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes Corpus Christi; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasCorpusChristi => Array.IndexOf(new[] {
+            Cantons.AG,
+            Cantons.AI,
+            Cantons.FR,
+            Cantons.JU,
+            Cantons.LU,
+            Cantons.NW,
+            Cantons.OW,
+            Cantons.SZ,
+            Cantons.SO,
+            Cantons.TI,
+            Cantons.UR,
+            Cantons.VS,
+            Cantons.ZG,
+        }, Canton) > -1;
+
+
+        /// <summary>
         /// National Day - August 1st
         /// </summary>
         /// <param name="year">The year.</param>
@@ -179,27 +552,126 @@ namespace PublicHoliday
             return new DateTime(year, 8, 1);
         }
 
+
         /// <summary>
-        /// All saints day, day after all saints eve
-        /// First saturday after Oct. 31
+        /// Mariä Himmelfahrt - Assumption of Mary
         /// </summary>
-        /// <param name="year">The year.</param>
-        /// <returns>Date of in the given year.</returns>
-        public static DateTime AllSaintsDay(int year)
+        /// <param name="year"></param>
+        public static DateTime Assumption(int year)
         {
-            return GetAllSaintsDay(year);
+            return new DateTime(year, 8, 15);
         }
 
-        private static DateTime GetAllSaintsDay(int year)
+        /// <summary>
+        /// Whether this cantons observes Assumption of Mary
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes Assumption of Mary; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasAssumption => Array.IndexOf(new[] {
+            Cantons.AI,
+            Cantons.FR,
+            Cantons.JU,
+            Cantons.LU,
+            Cantons.NW,
+            Cantons.OW,
+            Cantons.SZ,
+            Cantons.SO,
+            Cantons.TI,
+            Cantons.UR,
+            Cantons.VS,
+            Cantons.ZG,
+        }, Canton) > -1;
+
+
+
+        /// <summary>
+        /// Geneva PrayDay
+        /// Thursday after First Sunday in September
+        /// </summary>
+        /// <param name="year"></param>
+        public static DateTime GenevaPrayDay(int year)
         {
-            DateTime dt = new DateTime(year, 10, 31);
-            for (int i = 0; i < 7; i++)
-            {
-                if (dt.AddDays(i).DayOfWeek == DayOfWeek.Saturday)
-                    return dt.AddDays(i);
-            }
-            return DateTime.MinValue;
+            var firstSundayOfSeptember = HolidayCalculator.FindOccurrenceOfDayOfWeek(new DateTime(year, 9, 1), DayOfWeek.Sunday, 1);
+            return HolidayCalculator.FindPrevious(firstSundayOfSeptember, DayOfWeek.Thursday);
         }
+
+        /// <summary>
+        /// Whether this cantons observes Geneva PrayDay
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes Geneva PrayDay; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasGenevaPrayDay => Array.IndexOf(new[] {
+            Cantons.GE,
+        }, Canton) > -1;
+
+
+        /// <summary>
+        /// Allerheiligen - All Saints
+        /// </summary>
+        /// <param name="year"></param>
+        public static DateTime AllSaints(int year)
+        {
+            return new DateTime(year, 11, 1);
+        }
+
+        /// <summary>
+        /// Whether this canton observes Allerheiligen
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes Allerheiligen; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasAllSaints => Array.IndexOf(new[] {
+            Cantons.AG,
+            Cantons.AI,
+            Cantons.FR,
+            Cantons.GL,
+            Cantons.JU,
+            Cantons.LU,
+            Cantons.NW,
+            Cantons.OW,
+            Cantons.SG,
+            Cantons.SZ,
+            Cantons.SO,
+            Cantons.TI,
+            Cantons.UR,
+            Cantons.VS,
+            Cantons.ZG,
+        }, Canton) > -1;
+
+        //
+        /// <summary>
+        /// Immaculate Conception
+        /// </summary>
+        /// <param name="year"></param>
+        public static DateTime ImmaculateConception(int year)
+        {
+            return new DateTime(year, 12, 8);
+        }
+
+        /// <summary>
+        /// Whether this canton observes Immaculate Conception
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes Immaculate Conception; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasImmaculateConception => Array.IndexOf(new[] {
+            Cantons.AG,
+            Cantons.AI,
+            Cantons.FR,
+            Cantons.GR,
+            Cantons.LU,
+            Cantons.NW,
+            Cantons.OW,
+            Cantons.SZ,
+            Cantons.SO,
+            Cantons.TI,
+            Cantons.UR,
+            Cantons.VS,
+            Cantons.ZG,
+        }, Canton) > -1;
+
 
         /// <summary>
         /// Christmas Eve - December 24
@@ -222,14 +694,45 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Boxing Day - December 26
+        /// St Stephen's Day - December 26
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
-        public static DateTime BoxingDay(int year)
+        public static DateTime SaintStephensDay(int year)
         {
             return new DateTime(year, 12, 26);
         }
+
+        /// <summary>
+        /// Whether this canton observes St Stephen's Day
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if this canton observes St Stephen's Day; otherwise, <c>false</c>.
+        /// </value>
+        public bool HasSaintStephensDay => Array.IndexOf(new[] {
+            Cantons.AG,
+            Cantons.AI,
+            Cantons.AR,
+            Cantons.BL,
+            Cantons.BS,
+            Cantons.BE,
+            Cantons.FR,
+            Cantons.GL,
+            Cantons.GR,
+            Cantons.LU,
+            Cantons.NE,
+            Cantons.NW,
+            Cantons.OW,
+            Cantons.SG,
+            Cantons.SH,
+            Cantons.SZ,
+            Cantons.SO,
+            Cantons.TG,
+            Cantons.TI,
+            Cantons.UR,
+            Cantons.ZG,
+            Cantons.ZH,
+        }, Canton) > -1;
 
         /// <summary>
         /// New Years Eve - December 31
@@ -243,6 +746,8 @@ namespace PublicHoliday
 
         #endregion
 
+
+    
         /// <summary>
         /// Get a list of dates for all holidays in a year.
         /// </summary>
@@ -262,24 +767,62 @@ namespace PublicHoliday
         {
             DateTime easter = HolidayCalculator.GetEaster(year);
 
-            var bHols = new Dictionary<DateTime, string>
-            {
-                {NewYear(year), "Neujahrstag"},
-                {GoodFriday(easter), "Karfreitag"},
-                {easter, "Ostern"},
-                {EasterMonday(easter), "Ostermontag"},
-                {Ascension(easter), "Auffahrt"},
-                {WhitSunday(easter), "Pfingsten"},
-                {WhitMonday(easter), "Pfingstmontag"},
-                {NationalDay(year), "Bundesfeier"},
-                {Christmas(year), "Weihnachten"},
-                {BoxingDay(year), "Stephanstag"},
-            };
-            if (_hasSecondJanuary) bHols.Add(SecondJanuary(year), "Berchtoldstag");
-            if (_hasLaborDay) bHols.Add(LabourDay(year), "Tag der Arbeit");
-            if (_hasCorpusChristi) bHols.Add(CorpusChristi(easter), "Fronleichnam");
-            if (_hasChristmasEve) bHols.Add(ChristmasEve(year), "Heiligabend");
-            if (_hasNewYearsEve) bHols.Add(NewYearsEve(year), "Silvester");
+            var bHols = new Dictionary<DateTime, string> { { NewYear(year), "Neujahrstag"} };
+
+            if (_hasSecondJanuary || HasSecondJanuary) 
+                bHols.Add(SecondJanuary(year), "Berchtoldstag");
+
+            if (HasEpiphany) 
+                bHols.Add(Epiphany(year), "Epiphany");
+
+            if (HasRepublicDay)
+                bHols.Add(RepublicDay(year), "Republic Day");
+
+            if (HasStJosephDay)
+                bHols.Add(StJosephDay(year), "Saint Joseph's Day");
+
+            if (HasGoodFriday) 
+                bHols.Add(GoodFriday(easter), "Karfreitag");
+
+            //bHols.Add(Easter(), "Ostern"); // ?? no !
+            
+            if (HasEasterMonday)
+                bHols.Add(EasterMonday(easter), "Ostermontag");
+
+            if (HasLabourDay || _hasLabourDay)
+                bHols.Add(LabourDay(year), "Tag der Arbeit");
+
+            bHols.Add(Ascension(easter), "Auffahrt");
+
+            //bHols.Add(WhitSunday(easter), "Pfingsten"); // ?? no !
+
+            if (HasWhitMonday)
+                bHols.Add(WhitMonday(easter), "Pfingstmontag");
+
+            if (_hasCorpusChristi || HasCorpusChristi) 
+                bHols.Add(CorpusChristi(easter), "Fronleichnam");
+
+            bHols.Add(NationalDay(year), "Bundesfeier");
+
+            if (HasAssumption)
+                bHols.Add(Assumption(year), "Assumption of Mary");
+
+            if (HasGenevaPrayDay)
+                bHols.Add(GenevaPrayDay(year), "Geneva PrayDay");
+
+            if (HasAllSaints)
+                bHols.Add(AllSaints(year), "Allerheiligen");
+
+            if (HasImmaculateConception)
+                bHols.Add(ImmaculateConception(year), "Immaculate Conception");
+
+            bHols.Add(Christmas(year), "Weihnachten");
+
+            if (HasSaintStephensDay)
+                bHols.Add(SaintStephensDay(year), "Stephanstag");
+
+            //if (_hasChristmasEve) bHols.Add(ChristmasEve(year), "Heiligabend"); // ?? no !
+            //if (_hasNewYearsEve) bHols.Add(NewYearsEve(year), "Silvester"); // ?? no !
 
             return bHols;
         }
@@ -299,10 +842,8 @@ namespace PublicHoliday
 
         // For constructor
         private bool _hasSecondJanuary = false;
-        private bool _hasLaborDay = false;
+        private bool _hasLabourDay = false;
         private bool _hasCorpusChristi = false;
-        private bool _hasChristmasEve = false;
-        private bool _hasNewYearsEve = false;
 
         /// <summary>
         /// Constructor for two major Swiss variants: 
@@ -310,8 +851,6 @@ namespace PublicHoliday
         /// <param name="hasSecondJanuary"></param>
         /// <param name="hasLaborDay"></param>
         /// <param name="hasCorpusChristi"></param>
-        /// <param name="hasChristmasEve"></param>
-        /// <param name="hasNewYearsEve"></param>
         public SwitzerlandPublicHoliday(
             bool hasSecondJanuary = false,
             bool hasLaborDay = false,
@@ -320,10 +859,8 @@ namespace PublicHoliday
             bool hasNewYearsEve = false)
         {
             _hasSecondJanuary = hasSecondJanuary;
-            _hasLaborDay = hasLaborDay;
+            _hasLabourDay = hasLaborDay;
             _hasCorpusChristi = hasCorpusChristi;
-            _hasChristmasEve = hasChristmasEve;
-            _hasNewYearsEve = hasNewYearsEve;
         }
     }
 }
