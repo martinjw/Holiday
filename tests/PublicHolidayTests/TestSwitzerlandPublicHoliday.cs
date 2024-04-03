@@ -11,8 +11,8 @@ namespace PublicHolidayTests
         {
             var easterMonday = new DateTime(2017, 4, 17);
             var result = new SwitzerlandPublicHoliday().PublicHolidayNames(2017);
-            Assert.AreEqual(10, result.Count);
-            Assert.IsTrue(result.ContainsKey(easterMonday));
+            Assert.AreEqual(4, result.Count);
+            Assert.IsFalse(result.ContainsKey(easterMonday));
         }
 
         [TestMethod]
@@ -20,7 +20,7 @@ namespace PublicHolidayTests
         {
             var isPublicHoliday = new SwitzerlandPublicHoliday().IsPublicHoliday(new DateTime(2017, 4, 17));
 
-            Assert.IsTrue(isPublicHoliday, "Easter Monday");
+            Assert.IsFalse(isPublicHoliday, "Easter Monday");
         }
 
         [TestMethod]
@@ -34,15 +34,15 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestNextWorkingDay()
         {
-            var result = new SwitzerlandPublicHoliday().NextWorkingDay(new DateTime(2017, 4, 14)); //Maundy thursday
-            Assert.AreEqual(new DateTime(2017, 4, 18), result); //Day after easter monday7
+            var result = new SwitzerlandPublicHoliday().NextWorkingDay(new DateTime(2024, 5, 9)); //thursday Ascension Day
+            Assert.AreEqual(new DateTime(2024, 5, 10), result); 
         }
 
         [TestMethod]
         public void TestPreviousWorkingDay()
         {
-            var result = new SwitzerlandPublicHoliday().PreviousWorkingDay(new DateTime(2017, 4, 17)); //Easter monday
-            Assert.AreEqual(new DateTime(2017, 4, 13), result); //Day before good friday
+            var result = new SwitzerlandPublicHoliday().PreviousWorkingDay(new DateTime(2027, 8, 1)); 
+            Assert.AreEqual(new DateTime(2027, 7, 30), result); 
         }
 
         [TestMethod]
@@ -139,30 +139,43 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestIsPublicHoliday2017() {
+        public void TestIsPublicHoliday2024() {
+
+            //https://www.touringswitzerland.com/switzerland-national-holidays-a-complete-guide/#:~:text=These%20are%20the%20following%20Swiss%20National%20Holidays%3A%201,National%20Day%204%20December%2025%20%E2%80%93%20Christmas%20Day 
+
             var h = new SwitzerlandPublicHoliday(hasLaborDay:true, hasNewYearsEve:true);
 
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 1, 1)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 1, 2)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 1, 6)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 4, 13)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 4, 14)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 4, 16)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 4, 17)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 4, 18)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 4, 30)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 5, 1)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 5, 24)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 5, 25)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 5, 26)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 7, 31)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 8, 1)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 12, 23)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 12, 24)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 12, 25)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 12, 26)));
-            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2017, 12, 30)));
-            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2017, 12, 31)));
+            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2024, 1, 1)));
+            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2024, 5, 9)));
+            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2024, 8, 1)));
+            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2024, 12, 25)));
+
+            Assert.IsTrue(h.IsPublicHoliday(new DateTime(2024, 5, 1))); // hasLaborDay
+
+            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2024, 1, 2)));
+            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2024, 1, 6)));
+            Assert.IsFalse(h.IsPublicHoliday(new DateTime(2024, 4, 13)));
+        }
+
+        [TestMethod]
+        public void TestHolidays2024ObWaldLists()
+        {
+            var holidayCalendar = new SwitzerlandPublicHoliday { Canton = SwitzerlandPublicHoliday.Cantons.OW };
+            var hols = holidayCalendar.PublicHolidays(2024);
+            var holNames = holidayCalendar.PublicHolidayNames(2024);
+            Assert.IsTrue(13 == hols.Count, "Should be 13 holidays in 2024");
+            Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+        }
+
+
+        [TestMethod]
+        public void TestHolidays2024AllCantons()
+        {
+            var holidayCalendar = new SwitzerlandPublicHoliday { Canton = SwitzerlandPublicHoliday.Cantons.ALL };
+            var hols = holidayCalendar.PublicHolidays(2024);
+            var holNames = holidayCalendar.PublicHolidayNames(2024);
+            Assert.IsTrue(18 == hols.Count, "Should be 18 holidays");
+            Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
     }
 }

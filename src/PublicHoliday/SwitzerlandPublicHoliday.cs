@@ -24,32 +24,32 @@ namespace PublicHoliday
             /// <summary>
             /// All cantons
             /// </summary>
-            ALL = 0,
+            OnlyOfficial = 0,
 
             /// <summary>
             ///  Canton of Aargau
             /// </summary>
-            AG,
+            AG = 1,
 
             /// <summary>
             ///  Appenzell Innerrhoden
             /// </summary>
-            AI,
+            AI = 2,
 
             /// <summary>
             ///  Appenzell Ausserrhoden
             /// </summary>
-            AR,
+            AR = 3,
 
             /// <summary>
             ///  Basel-Landschaft
             /// </summary>
-            BL,
+            BL = 4,
 
             /// <summary>
             ///  Basel-Stadt
             /// </summary>
-            BS,
+            BS = 5,
 
             /// <summary>
             ///  Canton of Bern
@@ -155,6 +155,11 @@ namespace PublicHoliday
             ///  Canton of Zürich
             /// </summary>
             ZH,
+
+            /// <summary>
+            ///  All Cantons
+            /// </summary>
+            ALL = 99,
         }
 
         #region Individual Holidays
@@ -185,7 +190,8 @@ namespace PublicHoliday
         /// <value>
         /// <c>true</c> if this canton observes SecondJanuary; otherwise, <c>false</c>.
         /// </value>
-        public bool HasSecondJanuary => Array.IndexOf(new[] { Cantons.AG, Cantons.BE, Cantons.FR, Cantons.GL, Cantons.JU, Cantons.NE, Cantons.OW, Cantons.SH, Cantons.SO, Cantons.TG, Cantons.VD, Cantons.ZG, Cantons.ZH }, Canton) > -1;
+        public bool HasSecondJanuary => Array.IndexOf(new[] {
+            Cantons.ALL, Cantons.AG, Cantons.BE, Cantons.FR, Cantons.GL, Cantons.JU, Cantons.NE, Cantons.OW, Cantons.SH, Cantons.SO, Cantons.TG, Cantons.VD, Cantons.ZG, Cantons.ZH }, Canton) > -1;
 
 
         /// <summary>
@@ -205,6 +211,7 @@ namespace PublicHoliday
         /// <c>true</c> if this canton observes Epiphany; otherwise, <c>false</c>.
         /// </value>
         public bool HasEpiphany => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.GR,
             Cantons.LU,
             Cantons.SZ,
@@ -230,6 +237,7 @@ namespace PublicHoliday
         /// <c>true</c> if this canton observes RepublicDay; otherwise, <c>false</c>.
         /// </value>
         public bool HasRepublicDay => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.NE,
         }, Canton) > -1;
 
@@ -243,7 +251,7 @@ namespace PublicHoliday
         /// <returns>Date of in the given year.</returns>
         public static DateTime StJosephDay(int year)
         {
-            return new DateTime(year, 3, 1);
+            return new DateTime(year, 3, 19);
         }
 
         /// <summary>
@@ -253,6 +261,7 @@ namespace PublicHoliday
         /// <c>true</c> if this canton observes St Joseph's Day; otherwise, <c>false</c>.
         /// </value>
         public bool HasStJosephDay => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.GR,
             Cantons.NW,
             Cantons.SZ,
@@ -287,7 +296,8 @@ namespace PublicHoliday
         /// <value>
         /// <c>true</c> if this canton observes GoodFriday; otherwise, <c>false</c>.
         /// </value>
-        public bool HasGoodFriday => Array.IndexOf(new[] { 
+        public bool HasGoodFriday => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.AG,
             Cantons.AI,
             Cantons.AR,
@@ -350,6 +360,7 @@ namespace PublicHoliday
         /// <c>true</c> if this canton observes Easter Monday; otherwise, <c>false</c>.
         /// </value>
         public bool HasEasterMonday => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.AG,
             Cantons.AI,
             Cantons.AR,
@@ -395,6 +406,7 @@ namespace PublicHoliday
         /// <c>true</c> if this canton observes Labour Day; otherwise, <c>false</c>.
         /// </value>
         public bool HasLabourDay => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.AR,
             Cantons.BL,
             Cantons.BS,
@@ -469,6 +481,7 @@ namespace PublicHoliday
         /// <c>true</c> if this canton observes Whit Monday; otherwise, <c>false</c>.
         /// </value>
         public bool HasWhitMonday => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.AG,
             Cantons.AI,
             Cantons.AR,
@@ -526,6 +539,7 @@ namespace PublicHoliday
         /// <c>true</c> if this canton observes Corpus Christi; otherwise, <c>false</c>.
         /// </value>
         public bool HasCorpusChristi => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.AG,
             Cantons.AI,
             Cantons.FR,
@@ -569,6 +583,7 @@ namespace PublicHoliday
         /// <c>true</c> if this canton observes Assumption of Mary; otherwise, <c>false</c>.
         /// </value>
         public bool HasAssumption => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.AI,
             Cantons.FR,
             Cantons.JU,
@@ -603,6 +618,7 @@ namespace PublicHoliday
         /// <c>true</c> if this canton observes Geneva PrayDay; otherwise, <c>false</c>.
         /// </value>
         public bool HasGenevaPrayDay => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.GE,
         }, Canton) > -1;
 
@@ -623,6 +639,7 @@ namespace PublicHoliday
         /// <c>true</c> if this canton observes Allerheiligen; otherwise, <c>false</c>.
         /// </value>
         public bool HasAllSaints => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.AG,
             Cantons.AI,
             Cantons.FR,
@@ -657,6 +674,7 @@ namespace PublicHoliday
         /// <c>true</c> if this canton observes Immaculate Conception; otherwise, <c>false</c>.
         /// </value>
         public bool HasImmaculateConception => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.AG,
             Cantons.AI,
             Cantons.FR,
@@ -710,6 +728,7 @@ namespace PublicHoliday
         /// <c>true</c> if this canton observes St Stephen's Day; otherwise, <c>false</c>.
         /// </value>
         public bool HasSaintStephensDay => Array.IndexOf(new[] {
+            Cantons.ALL,
             Cantons.AG,
             Cantons.AI,
             Cantons.AR,
