@@ -22,7 +22,7 @@ namespace PublicHolidayTests
             var holiday = new DateTime(2017, month, day);
             var holidayCalendar = new IrelandPublicHoliday();
             var actual = holidayCalendar.IsPublicHoliday(holiday);
-            Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday -{name}");
+            Assert.IsTrue(actual, $"{holiday:D} is not a holiday -{name}");
         }
 
         [TestMethod]
@@ -31,7 +31,7 @@ namespace PublicHolidayTests
             var holiday = new DateTime(1999, 12, 31);
             var holidayCalendar = new IrelandPublicHoliday();
             var actual = holidayCalendar.IsPublicHoliday(holiday);
-            Assert.IsTrue(actual, $"{holiday.ToString("D")} is a special millennium holiday");
+            Assert.IsTrue(actual, $"{holiday:D} is a special millennium holiday");
         }
 
         [TestMethod]
@@ -40,7 +40,7 @@ namespace PublicHolidayTests
             var holiday = new DateTime(2022, 3, 18);
             var holidayCalendar = new IrelandPublicHoliday();
             var actual = holidayCalendar.IsPublicHoliday(holiday);
-            Assert.IsTrue(actual, $"{holiday.ToString("D")} is Day of Remembrance and Recognition of people who lost their lives due to the COVID-19 ");
+            Assert.IsTrue(actual, $"{holiday:D} is Day of Remembrance and Recognition of people who lost their lives due to the COVID-19 ");
             var cal2022 = holidayCalendar.PublicHolidayNames(2022);
             Assert.IsTrue(cal2022.ContainsKey(holiday));
         }
@@ -71,7 +71,7 @@ namespace PublicHolidayTests
             var holiday = new DateTime(2024, month, day);
             var holidayCalendar = new IrelandPublicHoliday();
             var actual = holidayCalendar.IsPublicHoliday(holiday);
-            Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday -{name}");
+            Assert.IsTrue(actual, $"{holiday:D} is not a holiday -{name}");
         }
 
         [TestMethod]
