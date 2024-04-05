@@ -123,10 +123,14 @@ IList<DateTime> result = calendar.PublicHolidays(2022);
 
 In **Switzerland** the calendar comes with holidays valid in all the country. Add further ones depending on your local rules in the constructor. Choices: hasSecondJanuary, hasLaborDay, hasCorpusChristi, hasChristmasEve, hasNewYearsEve.
 ```C#
-var calendar = SwitzerlandPublicHoliday(hasLaborDay:true);
-var laborDay = new DateTime(2017, 5, 1);
+var calendar =  var holidayCalendar = new SwitzerlandPublicHoliday { Canton = SwitzerlandPublicHoliday.Cantons.OW };
+var nationalDay = new DateTime(2024, 8, 1);
 //yes it is
-var isHoliday = calendar.IsPublicHoliday(laborDay);
+var isHoliday = calendar.IsPublicHoliday(nationalDay);
+
+// We can also recover all the public holidays of all the cantons combined
+var holidayCalendar = new SwitzerlandPublicHoliday { Canton = SwitzerlandPublicHoliday.Cantons.ALL };
+IDictionary<DateTime, string> hols = holidayCalendar.PublicHolidays(2024);
 ```
 
 In **Australia** most holidays are defined by the state or territory. Specify the state using an enum (the ISO code).
