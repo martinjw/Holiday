@@ -42,6 +42,7 @@ namespace PublicHolidayTests
                 new SwitzerlandPublicHoliday(),
                 new UKBankHoliday(),
                 new USAFederalReserveHoliday(),
+                new USANewYorkStockExchangeHoliday(),
                 new USAPublicHoliday(),
             };
             foreach (var calendar in list)

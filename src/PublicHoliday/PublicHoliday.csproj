@@ -23,36 +23,37 @@
 2.6.0: New Zealand Matariki dates added for next 30 years
 2.7.0: Add Denmark (thanks @Halling69), add Canada Truth&amp;Reconciliation from 2021 (thanks @mattandwhatnot), change Japan Emperors Day (thanks @zimathon)
 2.8.0: Add Canada Governement Quebec Closing Day , improve HolidayCalculator (thanks @Hrothval)
-2.9.0: Add Localized String for class Holiday, Adding cache for Easter for performance framework 4.0+/tandard1.3+ (thanks @Hrothval) Added RomanianPublicHoliday (thanks @mihaigliga21)
-2.10.0: Add in HolidayCalculator PreviousWorkingDay/NextWorkingDay with x open day, Add seCachingHolidays with default to false in IPublicHolidays/PublicHolidayBase, Add in IsWorkingDay in PublicHolidays, Add target .NET 5.0 (thanks @Hrothval)
-2.11.0: Add Estonia (thanks @Kaupo) Add USAFederalReserveHoliday (thanks @AndrewPecha). Add ocalizationString for France and US. Adjust framework for code section, CanadaQuebecGovClosingDay djust holiday name for past year CanadaDay and NationalPatriotDay, HolidayCalculator reviousWorkingDay/NextWorkingDay option ignore same day, IPublicHolidays/PublicHolidayBase add reviousWorkingDayNotSameDay and NextWorkingDayNotSameDay, USAPublicHoliday add holiday name and tandardization (thanks @Hrothval)
+2.9.0: Add Localized String for class Holiday, Adding cache for Easter for performance framework 4.0+/andard1.3+ (thanks @Hrothval) Added RomanianPublicHoliday (thanks @mihaigliga21)
+2.10.0: Add in HolidayCalculator PreviousWorkingDay/NextWorkingDay with x open day, Add eCachingHolidays with default to false in IPublicHolidays/PublicHolidayBase, Add in IsWorkingDay in ublicHolidays, Add target .NET 5.0 (thanks @Hrothval)
+2.11.0: Add Estonia (thanks @Kaupo) Add USAFederalReserveHoliday (thanks @AndrewPecha). Add calizationString for France and US. Adjust framework for code section, CanadaQuebecGovClosingDay djustholiday name for past year CanadaDay and NationalPatriotDay, HolidayCalculator reviousWorkingDay/extWorkingDay option ignore same day, IPublicHolidays/PublicHolidayBase add eviousWorkingDayNotSameDay and NextWorkingDayNotSameDay, USAPublicHoliday add holiday name and andardization (thanks @Hrothval)
 2.12.0: Fix DutchPublicHoliday LiberationDay (thanks @sergiu05)
 2.13.0: Fix ANZAC/Easter Monday conflict (thanks @seancallinan )
 2.14.0: #66 Add holiday names for USAFederalReserveHoliday
 2.15.0: #67 Fix spelling Switzerland Pfingsten
 2.16.0 #69 Add Lithuania (thanks @aursad)
-2.16.2 #72 Add state funeral of Queen Elizabeth II, UK, Canada, Australia, New Zealand (thanks seancallinan )
+2.16.2 #72 Add state funeral of Queen Elizabeth II, UK, Canada, Australia, New Zealand (thanks eancallinan )
 2.17.0 #73 NZ provincial holidays added (thanks @seancallinan ) #74 Germany holiday error
-2.18.0 #77 South african public holidays fixes (thanks @FifoTheHein ) #78 Added polish diacritics thanks @konradbartecki )
+2.18.0 #77 South african public holidays fixes (thanks @FifoTheHein ) #78 Added polish diacritics thanks@konradbartecki )
 2.19.0 #79 Added Turkey (thanks @HakanUcaar )
 2.20.0 Added UK special holiday for Coronation, 2023
 2.21.0 #81 Added Slovenian holidays (thanks @KlemenS189 )
 2.22.0: #82 South Africa Christmas dates moved (thanks @ FifoTheHein )
 2.23.0: #83 Add Finland holidays (thanks @vergi40 )
 2.24.0: Ireland adds St Brigid's day from 2023
-2.25.0: Australia + New Zealand- King's Birthday added (Queen's Birthday retained for backwards API ompatibility/historic dates), Denmark remove General Prayer Day from 2024 (thanks @Jesper Nysteen)
+2.25.0: Australia + New Zealand- King's Birthday added (Queen's Birthday retained for backwards API mpatibility/historic dates), Denmark remove General Prayer Day from 2024 (thanks @Jesper Nysteen)
 2.26.0: Add Greece holidays
 2.27.0: Fix issues with Turkey Holidays (thanks @ahmet-cetinkaya )
-2.28.0: #94 #96 Conditional holidays in Denmark (day after Ascension) and Netherlands (Liberation Day ptionally only in Lustrum years) -Thanks @SeanSEmerson, @swannet)
-2.29.0: Womans Day in Mecklenburg-Vorpommern since 2023, added Serbian holidays (thanks @Reo1980, AlekseiKrasilnikov)
+2.28.0: #94 #96 Conditional holidays in Denmark (day after Ascension) and Netherlands (Liberation Day tionally only in Lustrum years) -Thanks @SeanSEmerson, @swannet)
+2.29.0: Womans Day in Mecklenburg-Vorpommern since 2023, added Serbian holidays (thanks @Reo1980, lekseiKrasilnikov)
 2.30.0: #102 Add Montenegro holidays (thanks @anovik); add netstandard2.1 target, no other changes
-2.31.0: #103 Add missing holidays for Brandenburg (thanks @Cryma); #104 Germany: Assumption in Bavaria thanks @mkrso )
+2.31.0: #103 Add missing holidays for Brandenburg (thanks @Cryma); #104 Germany: Assumption in Bavaria hanks @mkrso )
 2.32.0: #107 Serbia orthodox easter (thanks @anovik); #108 UK boxing day rules (thanks @spetsen)
 2.33.0: #113 #112 Ireland holidays fix weekend rules (thanks @Bjornsen016)
 2.34.0: #114 South Africa - Special holiday - 2023 Rugby World Cup Win (thanks @FifoTheHein)
 2.35.0: #115 Fixed Japanese Equinox Day calculation (thanks @Makaopior )
 2.36.0: #116 Fixed Japanese Vernal and Autumnal Equinox days (thanks @Makaopior )
-2.37.0: #120 Add Brazil holidays (thanks @rsegecin ), Netherlands add Good Friday (thanks @ wdnijdam  )
+2.37.0: #120 Add Brazil holidays (thanks @rsegecin ), Netherlands add Good Friday (thanks @wdnijdam  )
+2.38.0: #122 Update Switzerland Holiday with Cantons (thanks @tossnet), Add NYSE holidays  (thanks @stephenherrick )
     </PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
