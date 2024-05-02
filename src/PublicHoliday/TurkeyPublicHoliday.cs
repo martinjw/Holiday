@@ -11,11 +11,16 @@ namespace PublicHoliday
     /// </summary>
     public class TurkeyPublicHoliday : PublicHolidayBase
     {
-        private static int GetHijriYear(int year)
+        private static IEnumerable<int> GetHijriYears(int year)
         {
             var diff = year - 621;
-            var hijriYear = Convert.ToInt32(Math.Round(diff + Decimal.Divide(diff, 33)));
-            return hijriYear;
+            var hijriYear = Convert.ToInt32(Math.Round(diff + decimal.Divide(diff, 33)
+#if NET6_0_OR_GREATER
+            
+                , MidpointRounding.ToZero
+#endif
+                ));
+            return new List<int> { hijriYear, hijriYear + 1 }.AsReadOnly();
         }
 
         /// <summary>
@@ -53,17 +58,20 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year"></param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime RamadanFirstDay(int year)
+        public static IEnumerable<DateTime> RamadanFirstDay(int year)
         {
             var hijriCalendar = new UmAlQuraCalendar();
-            var hijriYear = GetHijriYear(year);
-            var ramadanFirstDay = hijriCalendar.ToDateTime(hijriYear, 10, 1, 0, 0, 0, 0);
-            if (ramadanFirstDay.Year != year)
+            var hijriYears = GetHijriYears(year);
+            foreach (var hijriYear in hijriYears)
             {
-                //moved to next year
-                ramadanFirstDay = hijriCalendar.ToDateTime(hijriYear - 1, 10, 1, 0, 0, 0, 0);
+                var dateTime = hijriCalendar.ToDateTime(hijriYear, 10, 1, 0, 0, 0, 0);
+                if (dateTime.Year != year)
+                {
+                    continue;
+                }
+
+                yield return dateTime;
             }
-            return ramadanFirstDay;
         }
 
         /// <summary>
@@ -71,9 +79,9 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year"></param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime RamadanSecondDay(int year)
+        public static IEnumerable<DateTime> RamadanSecondDay(int year)
         {
-            return RamadanFirstDay(year).AddDays(1);
+            return RamadanFirstDay(year).Select(x=> x.AddDays(1));
         }
 
         /// <summary>
@@ -81,9 +89,9 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year"></param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime RamadanThirdDay(int year)
+        public static IEnumerable<DateTime> RamadanThirdDay(int year)
         {
-            return RamadanFirstDay(year).AddDays(2);
+            return RamadanFirstDay(year).Select(x => x.AddDays(2));
         }
 
         /// <summary>
@@ -101,16 +109,20 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year"></param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime FeastOfSacrificesFirstDay(int year)
+        public static IEnumerable<DateTime> FeastOfSacrificesFirstDay(int year)
         {
             var hijriCalendar = new UmAlQuraCalendar();
-            var hijriYear = GetHijriYear(year);
-            var feastOfSacrifices1 = hijriCalendar.ToDateTime(hijriYear, 12, 10, 0, 0, 0, 0);
-            if (feastOfSacrifices1.Year != year)
+            var hijriYears = GetHijriYears(year);
+            foreach (var hijriYear in hijriYears)
             {
-                feastOfSacrifices1 = hijriCalendar.ToDateTime(hijriYear-1, 12, 10, 0, 0, 0, 0);
+                var dateTime = hijriCalendar.ToDateTime(hijriYear, 12, 10, 0, 0, 0, 0);
+                if (dateTime.Year != year)
+                {
+                    continue;
+                }
+
+                yield return dateTime;
             }
-            return feastOfSacrifices1;
         }
 
         /// <summary>
@@ -118,9 +130,9 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year"></param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime FeastOfSacrificesSecondDay(int year)
+        public static IEnumerable<DateTime> FeastOfSacrificesSecondDay(int year)
         {
-            return FeastOfSacrificesFirstDay(year).AddDays(1);
+            return FeastOfSacrificesFirstDay(year).Select(x => x.AddDays(1));
         }
 
         /// <summary>
@@ -128,9 +140,9 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year"></param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime FeastOfSacrificesThirdDay(int year)
+        public static IEnumerable<DateTime> FeastOfSacrificesThirdDay(int year)
         {
-            return FeastOfSacrificesFirstDay(year).AddDays(2);
+            return FeastOfSacrificesFirstDay(year).Select(x => x.AddDays(2));
         }
 
         /// <summary>
@@ -138,9 +150,9 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year"></param>
         /// <returns>Date of in the given year.</returns>
-        public static DateTime FeastOfSacrificesFourthdDay(int year)
+        public static IEnumerable<DateTime> FeastOfSacrificesFourthdDay(int year)
         {
-            return FeastOfSacrificesFirstDay(year).AddDays(3);
+            return FeastOfSacrificesFirstDay(year).Select(x => x.AddDays(3));
         }
 
 
@@ -197,24 +209,36 @@ namespace PublicHoliday
                 new KeyValuePair<DateTime, string>(NewYear(year), "Yılbaşı Tatili"),
                 new KeyValuePair<DateTime, string>(NationalSovereigntyAndChildrensDay(year), "Ulusal Egemenlik ve Çocuk Bayramı"),
                 new KeyValuePair<DateTime, string>(LabourDay(year), "Emek ve Dayanışma Günü"),
-                new KeyValuePair<DateTime, string>(RamadanFirstDay(year), "Ramazan Bayramı 1. Gün"),
-                new KeyValuePair<DateTime, string>(RamadanSecondDay(year), "Ramazan Bayramı 2. Gün"),
-                new KeyValuePair<DateTime, string>(RamadanThirdDay(year), "Ramazan Bayramı 3. Gün"),
                 new KeyValuePair<DateTime, string>(YouthAndSportsDay(year), "Atatürk’ü Anma, Gençlik ve Spor Bayramı"),
-                new KeyValuePair<DateTime, string>(FeastOfSacrificesFirstDay(year), "Kurban Bayramı 1. Gün"),
-                new KeyValuePair<DateTime, string>(FeastOfSacrificesSecondDay(year), "Kurban Bayramı 2. Gün"),
-                new KeyValuePair<DateTime, string>(FeastOfSacrificesThirdDay(year), "Kurban Bayramı 3. Gün"),
-                new KeyValuePair<DateTime, string>(FeastOfSacrificesFourthdDay(year), "Kurban Bayramı 4. Gün"),
                 new KeyValuePair<DateTime, string>(VictoryDay(year), "Zafer Bayramı"),
                 new KeyValuePair<DateTime, string>(RepublicDay(year), "Cumhuriyet Bayramı"),
             };
+            foreach (var ramadan in RamadanFirstDay(year))
+            {
+                values.Add(new KeyValuePair<DateTime, string>(ramadan, "Ramazan Bayramı 1. Gün"));
+                values.Add(new KeyValuePair<DateTime, string>(ramadan.AddDays(1), "Ramazan Bayramı 2. Gün"));
+                values.Add(new KeyValuePair<DateTime, string>(ramadan.AddDays(2), "Ramazan Bayramı 3. Gün"));
+            }
+
+            foreach (var dateTime in FeastOfSacrificesFirstDay(year))
+            {
+                values.Add(new KeyValuePair<DateTime, string>(dateTime,
+                    "Kurban Bayramı 1. Gün"));
+                values.Add(new KeyValuePair<DateTime, string>(dateTime.AddDays(1),
+                    "Kurban Bayramı 2. Gün"));
+                values.Add(new KeyValuePair<DateTime, string>(dateTime.AddDays(2),
+                    "Kurban Bayramı 3. Gün"));
+                values.Add(new KeyValuePair<DateTime, string>(dateTime.AddDays(3),
+                    "Kurban Bayramı 4. Gün"));
+
+            }
 
             if (year >= 2017)
             {
                 values.Add(new KeyValuePair<DateTime, string>(DemocracyAndNationalUnityDay(year), "Demokrasi ve Milli Birlik Günü"));
             }
 
-            foreach (var valueItem in values)
+            foreach (var valueItem in values.OrderBy(x=> x.Key))
             {
                 KeyValuePair<DateTime, string> holidayName = holidayNames.FirstOrDefault(item => item.Key == valueItem.Key);
                 if (holidayName.Value != null)

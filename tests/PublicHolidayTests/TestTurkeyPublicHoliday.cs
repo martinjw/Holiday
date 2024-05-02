@@ -2,6 +2,7 @@
 using PublicHoliday;
 using System;
 using System.Globalization;
+using System.Linq;
 
 namespace PublicHolidayTests
 {
@@ -81,9 +82,9 @@ namespace PublicHolidayTests
         {
             for (var year = 2020; year < 2040; year++)
             {
-                var ramadan1 = TurkeyPublicHoliday.RamadanFirstDay(year);
+                var ramadan1 = TurkeyPublicHoliday.RamadanFirstDay(year).First();
                 Assert.IsTrue(ramadan1.Year == year);
-                var feastSacrifice1 = TurkeyPublicHoliday.FeastOfSacrificesFirstDay(year);
+                var feastSacrifice1 = TurkeyPublicHoliday.FeastOfSacrificesFirstDay(year).First();
                 Assert.IsTrue(feastSacrifice1.Year == year);
             }
         }
