@@ -134,6 +134,12 @@ var holidayCalendar = new SwitzerlandPublicHoliday { Canton = SwitzerlandPublicH
 IDictionary<DateTime, string> hols = holidayCalendar.PublicHolidays(2024);
 ```
 
+A method returns a list of objects for all public holidays, with the names of the regions concerned for each date :
+```C#
+var holidayCalendar = new SwitzerlandPublicHoliday();
+IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+```
+
 In **Australia** most holidays are defined by the state or territory. Specify the state using an enum (the ISO code).
 ```C#
 //Calendar for Western Australia
