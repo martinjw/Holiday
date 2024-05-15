@@ -355,5 +355,15 @@ namespace PublicHolidayTests
             Assert.IsTrue(hols[17].Regions.Length == 22);
         }
 
+        [TestMethod]
+        public void TestEnsuresNoSameKeyBecauseEasterDate()
+        {
+            for (int i = 1970; i < 2100; i++)
+            {
+                var calendar = new SwitzerlandPublicHoliday();
+                var hols = calendar.PublicHolidays(i);
+                Assert.IsTrue(4 == hols.Count);
+            }
+        }
     }
 }

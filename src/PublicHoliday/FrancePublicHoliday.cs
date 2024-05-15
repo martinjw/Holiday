@@ -499,12 +499,12 @@ namespace PublicHoliday
         public static DateTime Ascension(int year)
         {
             var hol = HolidayCalculator.GetEaster(year);
-            hol = hol.AddDays(4 + (7 * 5));
+            hol = hol.AddDays(4 + (7 * 5)).AddSeconds(1);;
             return hol;
         }
         private static DateTime Ascension(DateTime easter)
         {
-            return easter.AddDays(4 + (7 * 5));
+            return easter.AddDays(4 + (7 * 5)).AddSeconds(1); ;
         }
 
         private static Holiday AscensionHoliday(DateTime easter)

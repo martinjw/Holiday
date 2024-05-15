@@ -374,5 +374,16 @@ namespace PublicHolidayTests
             Assert.IsTrue(hols[24].HolidayDate == new DateTime(2024, 12, 26));
             Assert.IsTrue(hols[24].Regions.Length == 1);
         }
+
+        [TestMethod]
+        public void TestEnsuresNoSameKeyBecauseEasterDate()
+        {
+            for (int i = 1970; i < 2100; i++)
+            {
+                var calendar = new FrancePublicHoliday();
+                var hols = calendar.PublicHolidays(i);
+                Assert.IsTrue(11 == hols.Count, "Should be 11 holidays");
+            }
+        }
     }
 }
