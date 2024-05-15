@@ -13,7 +13,7 @@ namespace PublicHolidayTests
         public void TestAscension()
         {
             var ascension = FrancePublicHoliday.Ascension(2006);
-            Assert.AreEqual(new DateTime(2006, 5, 25), ascension);
+            Assert.AreEqual(new DateTime(2006, 5, 25), ascension.Date); //we don't care about time part
         }
 
         [TestMethod]
@@ -42,7 +42,7 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestNextWorkingDay()
         {
-            var result = new FrancePublicHoliday().NextWorkingDay(new DateTime(2006, 05, 25));
+            var result = new FrancePublicHoliday().NextWorkingDay(new DateTime(2006, 05, 25)); //thursday Ascension Day
             Assert.AreEqual(new DateTime(2006, 05, 26), result);
         }
 

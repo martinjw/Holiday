@@ -499,12 +499,12 @@ namespace PublicHoliday
         public static DateTime Ascension(int year)
         {
             var hol = HolidayCalculator.GetEaster(year);
-            hol = hol.AddDays(4 + (7 * 5)).AddSeconds(1);;
+            hol = hol.AddDays(4 + (7 * 5));
             return hol;
         }
         private static DateTime Ascension(DateTime easter)
         {
-            return easter.AddDays(4 + (7 * 5)).AddSeconds(1); ;
+            return easter.AddDays(4 + (7 * 5));
         }
 
         private static Holiday AscensionHoliday(DateTime easter)
@@ -1043,9 +1043,11 @@ namespace PublicHoliday
             if (HasPeterChanel)
                 bHols.Add(PeterChanel(year), "Saint-Pierre Chanel");
 
-            bHols.Add(MayDay(year), "Fête du Travail");
+            DateTime labourDay = MayDay(year);
+            bHols.Add(labourDay, "Fête du Travail");
 
-            bHols.Add(VictoryInEuropeDay(year), "Fête de la Victoire");
+            DateTime victoryInEuropeDay = VictoryInEuropeDay(year);
+            bHols.Add(victoryInEuropeDay, "Fête de la Victoire");
 
             if (HasMartiniqueAbolitionSlavery)
                 bHols.Add(MartiniqueAbolitionSlavery(year), "Abolition de l'esclavage en Martinique");
@@ -1056,7 +1058,12 @@ namespace PublicHoliday
             if (HasSaintMartinAbolitionSlavery)
                 bHols.Add(SaintMartinAbolitionSlavery(year), "Abolition de l'esclavage à Saint-Martin");
 
-            bHols.Add(Ascension(easter), "Jeudi de l'Ascension");
+            DateTime ascension = Ascension(easter);
+            if (ascension == victoryInEuropeDay || ascension == labourDay) //1997 and 2008
+            {
+                ascension = ascension.AddSeconds(1); //ascension can fall on VictoryInEuropeDay
+            }
+            bHols.Add(ascension, "Jeudi de l'Ascension");
 
             bHols.Add(PentecostMonday(easter), "Lundi de Pentecôte");
 
