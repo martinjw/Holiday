@@ -656,7 +656,7 @@ namespace PublicHoliday
             return easter.AddDays(4 + (7 * 5));
         }
 
-        private Holiday AscensionHoliday(DateTime easter)
+        private static Holiday AscensionHoliday(DateTime easter)
         {
             DateTime holiday = Ascension(easter);
             return new Holiday(holiday, "Ascension Day", "Auffahrt");
