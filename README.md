@@ -106,6 +106,29 @@ In **Canada** there are some provincial holidays that vary by region. You can ac
 IList<DateTime> result = new CanadaPublicHoliday("SK").PublicHolidays(2016);
 ```
 
+In **France** the calendar comes with holidays valid in all the country. 
+```C#
+// Get the list of public holidays for 2024
+IList<DateTime> result = new FrancePublicHoliday().PublicHolidays(2024);
+
+// Get the list of public holidays name for 2024
+IList<DateTime> result = new FrancePublicHoliday().PublicHolidayNames(2024);
+
+// Get the list of public holidays name and date for 2024
+IDictionary<DateTime, string> result = new FrancePublicHoliday().PublicHolidayNames(2024);
+```
+
+A method returns a list of objects for all public holidays, with the names of the regions concerned for each date :
+```C#
+var calendar = new FrancePublicHoliday { Region = FrancePublicHoliday.Regions.Martinique };
+// Get the 14 dates for the public holidays in Martinique for 2024
+var hols = calendar.PublicHolidays(2024);
+
+// We can also recover all the public holidays of all the regions combined
+var calendar = new FrancePublicHoliday { };
+IDictionary<DateTime, string> hols = calendar.PublicHolidays(2024);
+```
+
 In **Germany** specify the state using an enum (the ISO code)
 ```C#
 //Calendar for Saxony
