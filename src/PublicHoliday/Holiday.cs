@@ -119,7 +119,7 @@ namespace PublicHoliday
         public string IdTextLocalization { get; set; }
 
         /// <summary>
-        /// Is the holiday a public holiday for all region
+        /// Is the holiday a public holiday for all regions
         /// </summary>
         public bool IsPublic { get; set; }
 
