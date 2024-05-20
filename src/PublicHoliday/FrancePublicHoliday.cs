@@ -12,12 +12,15 @@ namespace PublicHoliday
     /// </summary>
     public class FrancePublicHoliday : PublicHolidayBase
     {
-       #region Regions
+        #region Regions
         /// <summary>
-        /// Gets or sets the regions concerned with special public holidays
+        /// Gets or sets the regions/collectivities concerned with special public holidays
         /// </summary>
         public Regions Region { get; set; }
 
+        /// <summary>
+        /// Metropolitan & overseas regions (départements et régions d'outre-mer) and collectivities (collectivité d'outre-mer)
+        /// </summary>
         public enum Regions
         {
             /// <summary>
@@ -184,7 +187,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes GoodFriday
+        /// Whether this region observes GoodFriday
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes GoodFriday; otherwise, <c>false</c>.
@@ -257,7 +260,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Abolition of slavery in Mayotte
+        /// Whether this region observes Abolition of slavery in Mayotte
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Abolition of slavery in Mayotte; otherwise, <c>false</c>.
@@ -303,7 +306,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Abolition of slavery in Mayotte
+        /// Whether this region observes Abolition of slavery in Mayotte
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Abolition of slavery in Mayotte; otherwise, <c>false</c>.
@@ -389,7 +392,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Abolition of slavery in Martinique
+        /// Whether this region observes Abolition of slavery in Martinique
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Abolition of slavery in Martinique; otherwise, <c>false</c>.
@@ -435,7 +438,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Abolition of slavery in Guadeloupe
+        /// Whether this region observes Abolition of slavery in Guadeloupe
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Abolition of slavery in Guadeloupe; otherwise, <c>false</c>.
@@ -481,7 +484,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Abolition of slavery in Saint-Martin
+        /// Whether this region observes Abolition of slavery in Saint-Martin
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Abolition of slavery in Saint-Martin; otherwise, <c>false</c>.
@@ -577,7 +580,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Abolition of slavery in Guyane
+        /// Whether this region observes Abolition of slavery in Guyane
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Abolition of slavery in Guyane; otherwise, <c>false</c>.
@@ -623,7 +626,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Autonomy Day
+        /// Whether this region observes Autonomy Day
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Autonomy Day; otherwise, <c>false</c>.
@@ -689,7 +692,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Victor Schoelcher's Feast
+        /// Whether this region observes Victor Schoelcher's Feast
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Victor Schoelcher's Feast; otherwise, <c>false</c>.
@@ -735,7 +738,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Territory Festival
+        /// Whether this region observes Territory Festival
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Territory Festival; otherwise, <c>false</c>.
@@ -801,7 +804,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Citizenship Day
+        /// Whether this region observes Citizenship Day
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Citizenship Day; otherwise, <c>false</c>.
@@ -847,7 +850,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Abolition of slavery in Saint-Barthélemy
+        /// Whether this region observes Abolition of slavery in Saint-Barthélemy
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Abolition of slavery in Saint-Barthélemy; otherwise, <c>false</c>.
@@ -931,7 +934,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Abolition of slavery in La Réunion
+        /// Whether this region observes Abolition of slavery in La Réunion
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Abolition of slavery in La Réunion; otherwise, <c>false</c>.
@@ -995,7 +998,7 @@ namespace PublicHoliday
         };
 
         /// <summary>
-        /// Whether this regions observes Saint Stephen's Day
+        /// Whether this region observes Saint Stephen's Day
         /// </summary>
         /// <value>
         /// <c>true</c> if this region observes Saint Stephen's Day; otherwise, <c>false</c>.
