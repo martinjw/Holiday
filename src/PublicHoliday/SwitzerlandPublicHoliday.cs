@@ -17,6 +17,9 @@ namespace PublicHoliday
         /// </summary>
         public Cantons Canton { get; set; }
 
+        /// <summary>
+        /// List of cantons
+        /// </summary>
         public enum Cantons
         {
             /// <summary>
@@ -1264,9 +1267,9 @@ namespace PublicHoliday
         }
 
         // For constructor
-        private bool _hasSecondJanuary = false;
-        private bool _hasLabourDay = false;
-        private bool _hasCorpusChristi = false;
+        private readonly bool _hasSecondJanuary = false;
+        private readonly bool _hasLabourDay = false;
+        private readonly bool _hasCorpusChristi = false;
 
         /// <summary>
         /// Constructor for two major Swiss variants: 
@@ -1277,9 +1280,7 @@ namespace PublicHoliday
         public SwitzerlandPublicHoliday(
             bool hasSecondJanuary = false,
             bool hasLaborDay = false,
-            bool hasCorpusChristi = false,
-            bool hasChristmasEve = false,
-            bool hasNewYearsEve = false)
+            bool hasCorpusChristi = false)
         {
             _hasSecondJanuary = hasSecondJanuary;
             _hasLabourDay = hasLaborDay;

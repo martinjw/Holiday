@@ -19,7 +19,7 @@ namespace PublicHoliday
         public Regions Region { get; set; }
 
         /// <summary>
-        /// Metropolitan & overseas regions (départements et régions d'outre-mer) and collectivities (collectivité d'outre-mer)
+        /// Metropolitan and overseas regions (départements et régions d'outre-mer) and collectivities (collectivité d'outre-mer)
         /// </summary>
         public enum Regions
         {
@@ -1031,9 +1031,10 @@ namespace PublicHoliday
             // avoids having to recalculate it each time for different public holidays :
             DateTime easter = HolidayCalculator.GetEaster(year);
 
-            var bHols = new Dictionary<DateTime, string>();
-
-            bHols.Add(NewYear(year), "Nouvel An");
+            var bHols = new Dictionary<DateTime, string> {
+            {
+                NewYear(year), "Nouvel An"
+            } };
 
             if (HasGoodFriday)
                 bHols.Add(GoodFriday(easter), "Vendredi saint");

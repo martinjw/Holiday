@@ -72,7 +72,6 @@ namespace PublicHoliday
         /// Constructs the holiday
         /// </summary>
         /// <param name="date">The date of the current holiday</param>
-        /// <param name="observedDate">The date the current holiday is observed on</param>
         /// <param name="englishName"></param>
         /// <param name="localName"></param>
         /// <param name="regions">Names of regions of the country where this holiday exists</param>

@@ -114,7 +114,7 @@ namespace PublicHolidayTests
 
             //https://www.touringswitzerland.com/switzerland-national-holidays-a-complete-guide/#:~:text=These%20are%20the%20following%20Swiss%20National%20Holidays%3A%201,National%20Day%204%20December%2025%20%E2%80%93%20Christmas%20Day 
 
-            var h = new SwitzerlandPublicHoliday(hasLaborDay:true, hasNewYearsEve:true);
+            var h = new SwitzerlandPublicHoliday(hasLaborDay:true);
 
             Assert.IsTrue(h.IsPublicHoliday(new DateTime(2024, 1, 1)));
             Assert.IsTrue(h.IsPublicHoliday(new DateTime(2024, 5, 9)));
