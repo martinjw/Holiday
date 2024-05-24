@@ -46,6 +46,7 @@ There are libraries for:
   - Netherlands : DutchPublicHoliday
   - Norway : NorwayPublicHoliday
   - Poland : PolandPublicHoliday
+  - Portugal : PortugalPublicHoliday ()
   - Romania : RomanianPublicHoliday
   - Serbia : SerbianPublicHoliday
   - Slovakia : SlovakiaPublicHoliday
