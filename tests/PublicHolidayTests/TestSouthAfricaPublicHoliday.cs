@@ -149,6 +149,7 @@ namespace PublicHolidayTests
         [DataRow(4, 1, "Family Day")]
         [DataRow(4, 27, "Freedom Day")]
         [DataRow(5, 1, "Workers' Day")]
+        [DataRow(5, 29, "Election Day")]
         [DataRow(6, 17, "Youth Day - Observed on Monday")]
         [DataRow(8, 9, "National Women's Day")]
         [DataRow(9, 24, "Heritage Day")]
