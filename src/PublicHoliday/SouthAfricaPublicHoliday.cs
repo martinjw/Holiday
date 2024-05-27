@@ -201,6 +201,10 @@ namespace PublicHoliday
             {
                 bHols.Add(new DateTime(2023, 12, 15), "Rugby World Cup celebration");
             }
+            if (year == 2024)
+            {
+                bHols.Add(new DateTime(2024, 05, 29), "Election day");
+            }
             bHols.Add(Christmas(year), "Christmas Day");
             bHols.Add(BoxingDay(year), "Day of Goodwill");
             return bHols;
@@ -245,6 +249,8 @@ namespace PublicHoliday
 
                 case 5:
                     if (LabourDay(year) == date)
+                        return true;
+                    if (date == new DateTime(2024, 05, 29)) //Election day 2024
                         return true;
                     break;
 
