@@ -510,7 +510,7 @@ namespace PublicHoliday
         }
 
         /// <summary>
-        /// Public holiday names in French.
+        /// Public holiday names in Portuguese.
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
@@ -519,19 +519,33 @@ namespace PublicHoliday
             // avoids having to recalculate it each time for different public holidays :
             DateTime easter = Easter(year);
 
-            var bHols = new Dictionary<DateTime, string>();
-            bHols.Add(NewYear(year), "Ano Novo");
-            bHols.Add(Carnival(year), "Carnaval");
-            bHols.Add(GoodFriday(easter), "Sexta-feira Santa");
-            bHols.Add(easter, "Domingo de Páscoa");
-            bHols.Add(FreedomDay(year), "Dia da Liberdade");
+            var bHols = new Dictionary<DateTime, string>
+            {
+                { NewYear(year), "Ano Novo" },
+                { Carnival(year), "Carnaval" },
+                { GoodFriday(easter), "Sexta-feira Santa" },
+                { easter, "Domingo de Páscoa" }
+            };
+            var freedomDay = FreedomDay(year);
+            if (freedomDay == easter)
+            {
+                //falls on Easter in 2038 
+                freedomDay = freedomDay.AddSeconds(1);
+            }
+            bHols.Add(freedomDay, "Dia da Liberdade");
             bHols.Add(LabourDay(year), "Dia do Trabalhador");
             if (HasAzoresDay)
             {
                 bHols.Add(AzoresDay(year), "Dia dos Açores");
             }
             bHols.Add(CorpusChristi(year), "Corpo de Deus");
-            bHols.Add(PortugalDay(year), "Dia de Portugal, de Camões e das Comunidades Portuguesas");
+            var portugalDay = PortugalDay(year);
+            if (bHols.ContainsKey(portugalDay))
+            {
+                //falls on CorpusChristi in 1993, 2004
+                portugalDay = portugalDay.AddSeconds(1);
+            }
+            bHols.Add(portugalDay, "Dia de Portugal, de Camões e das Comunidades Portuguesas");
             if (HasMadeiraAutonomyDay)
             {
                 bHols.Add(MadeiraAutonomyDay(year), "Dia da Madeira");

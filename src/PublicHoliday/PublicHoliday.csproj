@@ -54,7 +54,7 @@
 2.36.0: #116 Fixed Japanese Vernal and Autumnal Equinox days (thanks @Makaopior )
 2.37.0: #120 Add Brazil holidays (thanks @rsegecin ), Netherlands add Good Friday (thanks @wdnijdam  )
 2.38.0: #122 Update Switzerland Holiday with Cantons (thanks @tossnet), Add NYSE holidays  (thanks @stephenherrick )
-2.39.0: #125 Fix Turkey Ramadan and FeastOfSacrifices holidays (thanks @hasankaplan-github), #128 Update Switzerland Holiday (thanks @tossnet),; #131 Update France holiday with overseas territories (thanks @tossnet); #132 Add Portugal Holiday (thanks @greybird)</PackageReleaseNotes>
+2.39.0: #125 Fix Turkey Ramadan and FeastOfSacrifices holidays (thanks @hasankaplan-github), #128 Update Switzerland Holiday (thanks @tossnet),; #131 Update France holiday with overseas territories (thanks @tossnet); #132 Add Portugal Holiday (thanks @greybird); #133 South Africa 2024 election day (thanks @FifoTheHein)</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
