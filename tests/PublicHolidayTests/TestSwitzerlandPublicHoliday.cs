@@ -150,18 +150,18 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteCount2024()
+        public void TestPublicHolidaysInformationCount2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             Assert.IsTrue(18 == hols.Count, "Should be 18 holidays");
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteNewYear2024()
+        public void TestPublicHolidaysInformationNewYear2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[0].IsPublic == true);
             Assert.IsTrue(hols[0].HolidayDate == new DateTime(2024, 1, 1));
@@ -169,10 +169,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteSecondJanuary2024()
+        public void TestPublicHolidaysInformationSecondJanuary2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[1].IsPublic == false, "Berchtold's Day isn't public");
             Assert.IsTrue(hols[1].HolidayDate == new DateTime(2024, 1, 2), "Berchtold's Day is on 2nd January 2024");
@@ -180,10 +180,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteSecondEpiphany2024()
+        public void TestPublicHolidaysInformationSecondEpiphany2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[2].IsPublic == false);
             Assert.IsTrue(hols[2].HolidayDate == new DateTime(2024, 1, 6));
@@ -191,10 +191,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteRepublicDay2024()
+        public void TestPublicHolidaysInformationRepublicDay2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[3].IsPublic == false);
             Assert.IsTrue(hols[3].HolidayDate == new DateTime(2024, 3, 1));
@@ -202,10 +202,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteStJosephDay2024()
+        public void TestPublicHolidaysInformationStJosephDay2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[4].IsPublic == false);
             Assert.IsTrue(hols[4].HolidayDate == new DateTime(2024, 3, 19));
@@ -213,10 +213,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteGoodFriday2024()
+        public void TestPublicHolidaysInformationGoodFriday2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[5].IsPublic == false);
             Assert.IsTrue(hols[5].HolidayDate == new DateTime(2024, 3, 29));
@@ -224,10 +224,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteEasterMonday2024()
+        public void TestPublicHolidaysInformationEasterMonday2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[6].IsPublic == false);
             Assert.IsTrue(hols[6].HolidayDate == new DateTime(2024, 4, 1));
@@ -235,10 +235,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteLabourDay2024()
+        public void TestPublicHolidaysInformationLabourDay2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[7].IsPublic == false);
             Assert.IsTrue(hols[7].HolidayDate == new DateTime(2024, 5, 1));
@@ -246,10 +246,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteAscension2024()
+        public void TestPublicHolidaysInformationAscension2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[8].IsPublic == true);
             Assert.IsTrue(hols[8].HolidayDate == new DateTime(2024, 5, 9));
@@ -257,10 +257,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteWhitMonday2024()
+        public void TestPublicHolidaysInformationWhitMonday2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[9].IsPublic == false);
             Assert.IsTrue(hols[9].HolidayDate == new DateTime(2024, 5, 20));
@@ -268,10 +268,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteCorpusChristi2024()
+        public void TestPublicHolidaysInformationCorpusChristi2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[10].IsPublic == false);
             Assert.IsTrue(hols[10].HolidayDate == new DateTime(2024, 5, 30));
@@ -279,10 +279,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteNationalDay2024()
+        public void TestPublicHolidaysInformationNationalDay2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[11].IsPublic == true);
             Assert.IsTrue(hols[11].HolidayDate == new DateTime(2024, 8, 1));
@@ -290,10 +290,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteAssumption2024()
+        public void TestPublicHolidaysInformationAssumption2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[12].IsPublic == false);
             Assert.IsTrue(hols[12].HolidayDate == new DateTime(2024, 8, 15));
@@ -301,10 +301,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteGenevaPrayDay2024()
+        public void TestPublicHolidaysInformationGenevaPrayDay2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[13].IsPublic == false);
             Assert.IsTrue(hols[13].HolidayDate == new DateTime(2024, 8, 29));
@@ -312,10 +312,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteAllSaints2024()
+        public void TestPublicHolidaysInformationAllSaints2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[14].IsPublic == false);
             Assert.IsTrue(hols[14].HolidayDate == new DateTime(2024, 11, 1));
@@ -323,10 +323,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteImmaculateConception2024()
+        public void TestPublicHolidaysInformationImmaculateConception2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[15].IsPublic == false);
             Assert.IsTrue(hols[15].HolidayDate == new DateTime(2024, 12, 8));
@@ -334,10 +334,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteChristmas2024()
+        public void TestPublicHolidaysInformationChristmas2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[16].IsPublic == true);
             Assert.IsTrue(hols[16].HolidayDate == new DateTime(2024, 12, 25));
@@ -345,10 +345,10 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteSaintStephensDay2024()
+        public void TestPublicHolidaysInformationSaintStephensDay2024()
         {
             var holidayCalendar = new SwitzerlandPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[17].IsPublic == false);
             Assert.IsTrue(hols[17].HolidayDate == new DateTime(2024, 12, 26));

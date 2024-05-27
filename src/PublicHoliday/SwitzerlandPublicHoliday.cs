@@ -220,7 +220,7 @@ namespace PublicHoliday
             return new DateTime(year, 1, 1);
         }
 
-        private Holiday NewYearHoliday(int year)
+        private static Holiday NewYearHoliday(int year)
         {
             DateTime holiday = NewYear(year);
             return new Holiday(holiday, "New Year", "Neujahrstag");
@@ -826,7 +826,7 @@ namespace PublicHoliday
             return new DateTime(year, 8, 1);
         }
 
-        private Holiday NationalDayHoliday(int year)
+        private static Holiday NationalDayHoliday(int year)
         {
             DateTime holiday = NationalDay(year);
             return new Holiday(holiday, "National Day", "Bundesfeier");
@@ -1065,7 +1065,7 @@ namespace PublicHoliday
             return new DateTime(year, 12, 25);
         }
 
-        private Holiday ChristmasHoliday(int year)
+        private static Holiday ChristmasHoliday(int year)
         {
             DateTime holiday = Christmas(year);
             return new Holiday(holiday, "Christmas Day", "Weihnachten");
@@ -1236,10 +1236,10 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The given year</param>
         /// <returns></returns>
-        public IList<Holiday> PublicHolidaysComplete(int year)
+        public override IList<Holiday> PublicHolidaysInformation(int year)
         {
             // avoids having to recalculate it each time for different public holidays :
-            DateTime easter = HolidayCalculator.GetEaster(year);
+            var easter = HolidayCalculator.GetEaster(year);
 
             var bHols = new List<Holiday>
             {

@@ -17,7 +17,7 @@ namespace PublicHolidayTests
         {
             var portugalPublicHoliday = new PortugalPublicHoliday();
             var holidayNames = portugalPublicHoliday.PublicHolidayNames(2024);
-            var allHolidays = portugalPublicHoliday.PublicHolidaysComplete(2024);
+            var allHolidays = portugalPublicHoliday.PublicHolidaysInformation(2024);
             foreach (var name in holidayNames)
             {
                 var holidayName = allHolidays.SingleOrDefault(x => x.HolidayDate == name.Key)?.Name;
@@ -58,19 +58,19 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteCount2024()
+        public void TestPublicHolidaysInformationCount2024()
         {
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             Assert.AreEqual(hols.Count, 17, "Should be 17 holidays");
         }
 
 
         [TestMethod]
-        public void TestOnlyPublicHolidaysCompleteCount2024()
+        public void TestOnlyPublicHolidaysInformationCount2024()
         {
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             int counter = 0;
             foreach (var h in hols)
@@ -117,11 +117,11 @@ namespace PublicHolidayTests
         
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteNewYear2024()
+        public void TestPublicHolidaysInformationNewYear2024()
         {
             var date = PortugalPublicHoliday.NewYear(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "NewYear should be reported in the complete list of holidays");
@@ -132,11 +132,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteCarnival2024()
+        public void TestPublicHolidaysInformationCarnival2024()
         {
             var date = PortugalPublicHoliday.Carnival(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "Carnival should be reported in the complete list of holidays");
@@ -147,11 +147,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteGoodFriday2024()
+        public void TestPublicHolidaysInformationGoodFriday2024()
         {
             var date = PortugalPublicHoliday.GoodFriday(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "GoodFriday should be reported in the complete list of holidays");
@@ -162,11 +162,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteEaster2024()
+        public void TestPublicHolidaysInformationEaster2024()
         {
             var date = PortugalPublicHoliday.Easter(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "Easter should be reported in the complete list of holidays");
@@ -177,11 +177,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteFreedomDay2024()
+        public void TestPublicHolidaysInformationFreedomDay2024()
         {
             var date = PortugalPublicHoliday.FreedomDay(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "FreedomDay should be reported in the complete list of holidays");
@@ -192,11 +192,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteLabourDay2024()
+        public void TestPublicHolidaysInformationLabourDay2024()
         {
             var date = PortugalPublicHoliday.LabourDay(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "LabourDay should be reported in the complete list of holidays");
@@ -207,11 +207,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteAzoresDay2024()
+        public void TestPublicHolidaysInformationAzoresDay2024()
         {
             var date = PortugalPublicHoliday.AzoresDay(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "AzoresDay should be reported in the complete list of holidays");
@@ -222,11 +222,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteCorpusChristi2024()
+        public void TestPublicHolidaysInformationCorpusChristi2024()
         {
             var date = PortugalPublicHoliday.CorpusChristi(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "CorpusChristi should be reported in the complete list of holidays");
@@ -237,11 +237,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteMadeiraAutonomyDay2024()
+        public void TestPublicHolidaysInformationMadeiraAutonomyDay2024()
         {
             var date = PortugalPublicHoliday.MadeiraAutonomyDay(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "MadeiraAutonomyDay should be reported in the complete list of holidays");
@@ -252,11 +252,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompletePortugalDay2024()
+        public void TestPublicHolidaysInformationPortugalDay2024()
         {
             var date = PortugalPublicHoliday.PortugalDay(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "PortugalDay should be reported in the complete list of holidays");
@@ -267,11 +267,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteAssumption2024()
+        public void TestPublicHolidaysInformationAssumption2024()
         {
             var date = PortugalPublicHoliday.Assumption(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "Assumption should be reported in the complete list of holidays");
@@ -282,11 +282,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteRepublicDay2024()
+        public void TestPublicHolidaysInformationRepublicDay2024()
         {
             var date = PortugalPublicHoliday.RepublicDay(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "RepublicDay should be reported in the complete list of holidays");
@@ -297,11 +297,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteAllSaints2024()
+        public void TestPublicHolidaysInformationAllSaints2024()
         {
             var date = PortugalPublicHoliday.AllSaints(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "AllSaints should be reported in the complete list of holidays");
@@ -312,11 +312,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteIndependenceRestorationDay2024()
+        public void TestPublicHolidaysInformationIndependenceRestorationDay2024()
         {
             var date = PortugalPublicHoliday.IndependenceRestorationDay(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "IndependenceRestorationDay should be reported in the complete list of holidays");
@@ -327,11 +327,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteImmaculateConception2024()
+        public void TestPublicHolidaysInformationImmaculateConception2024()
         {
             var date = PortugalPublicHoliday.ImmaculateConception(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "ImmaculateConception should be reported in the complete list of holidays");
@@ -342,11 +342,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteChristmas2024()
+        public void TestPublicHolidaysInformationChristmas2024()
         {
             var date = PortugalPublicHoliday.Christmas(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "Christmas should be reported in the complete list of holidays");
@@ -357,11 +357,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteFirstOctaveDay2024()
+        public void TestPublicHolidaysInformationFirstOctaveDay2024()
         {
             var date = PortugalPublicHoliday.FirstOctaveDay(2024);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2024);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "FirstOctaveDay should be reported in the complete list of holidays");
@@ -372,11 +372,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteNewYear2025()
+        public void TestPublicHolidaysInformationNewYear2025()
         {
             var date = PortugalPublicHoliday.NewYear(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "NewYear should be reported in the complete list of holidays");
@@ -387,11 +387,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteCarnival2025()
+        public void TestPublicHolidaysInformationCarnival2025()
         {
             var date = PortugalPublicHoliday.Carnival(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "Carnival should be reported in the complete list of holidays");
@@ -402,11 +402,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteGoodFriday2025()
+        public void TestPublicHolidaysInformationGoodFriday2025()
         {
             var date = PortugalPublicHoliday.GoodFriday(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "GoodFriday should be reported in the complete list of holidays");
@@ -417,11 +417,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteEaster2025()
+        public void TestPublicHolidaysInformationEaster2025()
         {
             var date = PortugalPublicHoliday.Easter(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "Easter should be reported in the complete list of holidays");
@@ -432,11 +432,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteFreedomDay2025()
+        public void TestPublicHolidaysInformationFreedomDay2025()
         {
             var date = PortugalPublicHoliday.FreedomDay(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "FreedomDay should be reported in the complete list of holidays");
@@ -447,11 +447,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteLabourDay2025()
+        public void TestPublicHolidaysInformationLabourDay2025()
         {
             var date = PortugalPublicHoliday.LabourDay(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "LabourDay should be reported in the complete list of holidays");
@@ -462,11 +462,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteAzoresDay2025()
+        public void TestPublicHolidaysInformationAzoresDay2025()
         {
             var date = PortugalPublicHoliday.AzoresDay(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "AzoresDay should be reported in the complete list of holidays");
@@ -477,11 +477,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteCorpusChristi2025()
+        public void TestPublicHolidaysInformationCorpusChristi2025()
         {
             var date = PortugalPublicHoliday.CorpusChristi(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "CorpusChristi should be reported in the complete list of holidays");
@@ -492,11 +492,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteMadeiraAutonomyDay2025()
+        public void TestPublicHolidaysInformationMadeiraAutonomyDay2025()
         {
             var date = PortugalPublicHoliday.MadeiraAutonomyDay(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "MadeiraAutonomyDay should be reported in the complete list of holidays");
@@ -507,11 +507,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompletePortugalDay2025()
+        public void TestPublicHolidaysInformationPortugalDay2025()
         {
             var date = PortugalPublicHoliday.PortugalDay(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "PortugalDay should be reported in the complete list of holidays");
@@ -522,11 +522,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteAssumption2025()
+        public void TestPublicHolidaysInformationAssumption2025()
         {
             var date = PortugalPublicHoliday.Assumption(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "Assumption should be reported in the complete list of holidays");
@@ -537,11 +537,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteRepublicDay2025()
+        public void TestPublicHolidaysInformationRepublicDay2025()
         {
             var date = PortugalPublicHoliday.RepublicDay(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "RepublicDay should be reported in the complete list of holidays");
@@ -552,11 +552,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteAllSaints2025()
+        public void TestPublicHolidaysInformationAllSaints2025()
         {
             var date = PortugalPublicHoliday.AllSaints(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "AllSaints should be reported in the complete list of holidays");
@@ -567,11 +567,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteIndependenceRestorationDay2025()
+        public void TestPublicHolidaysInformationIndependenceRestorationDay2025()
         {
             var date = PortugalPublicHoliday.IndependenceRestorationDay(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "IndependenceRestorationDay should be reported in the complete list of holidays");
@@ -582,11 +582,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteImmaculateConception2025()
+        public void TestPublicHolidaysInformationImmaculateConception2025()
         {
             var date = PortugalPublicHoliday.ImmaculateConception(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "ImmaculateConception should be reported in the complete list of holidays");
@@ -597,11 +597,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteChristmas2025()
+        public void TestPublicHolidaysInformationChristmas2025()
         {
             var date = PortugalPublicHoliday.Christmas(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "Christmas should be reported in the complete list of holidays");
@@ -612,11 +612,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteFirstOctaveDay2025()
+        public void TestPublicHolidaysInformationFirstOctaveDay2025()
         {
             var date = PortugalPublicHoliday.FirstOctaveDay(2025);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2025);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2025);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "FirstOctaveDay should be reported in the complete list of holidays");
@@ -627,11 +627,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteNewYear2026()
+        public void TestPublicHolidaysInformationNewYear2026()
         {
             var date = PortugalPublicHoliday.NewYear(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "NewYear should be reported in the complete list of holidays");
@@ -642,11 +642,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteCarnival2026()
+        public void TestPublicHolidaysInformationCarnival2026()
         {
             var date = PortugalPublicHoliday.Carnival(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "Carnival should be reported in the complete list of holidays");
@@ -657,11 +657,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteGoodFriday2026()
+        public void TestPublicHolidaysInformationGoodFriday2026()
         {
             var date = PortugalPublicHoliday.GoodFriday(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "GoodFriday should be reported in the complete list of holidays");
@@ -672,11 +672,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteEaster2026()
+        public void TestPublicHolidaysInformationEaster2026()
         {
             var date = PortugalPublicHoliday.Easter(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "Easter should be reported in the complete list of holidays");
@@ -687,11 +687,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteFreedomDay2026()
+        public void TestPublicHolidaysInformationFreedomDay2026()
         {
             var date = PortugalPublicHoliday.FreedomDay(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "FreedomDay should be reported in the complete list of holidays");
@@ -702,11 +702,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteLabourDay2026()
+        public void TestPublicHolidaysInformationLabourDay2026()
         {
             var date = PortugalPublicHoliday.LabourDay(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "LabourDay should be reported in the complete list of holidays");
@@ -717,11 +717,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteAzoresDay2026()
+        public void TestPublicHolidaysInformationAzoresDay2026()
         {
             var date = PortugalPublicHoliday.AzoresDay(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "AzoresDay should be reported in the complete list of holidays");
@@ -732,11 +732,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteCorpusChristi2026()
+        public void TestPublicHolidaysInformationCorpusChristi2026()
         {
             var date = PortugalPublicHoliday.CorpusChristi(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "CorpusChristi should be reported in the complete list of holidays");
@@ -747,11 +747,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteMadeiraAutonomyDay2026()
+        public void TestPublicHolidaysInformationMadeiraAutonomyDay2026()
         {
             var date = PortugalPublicHoliday.MadeiraAutonomyDay(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "MadeiraAutonomyDay should be reported in the complete list of holidays");
@@ -762,11 +762,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompletePortugalDay2026()
+        public void TestPublicHolidaysInformationPortugalDay2026()
         {
             var date = PortugalPublicHoliday.PortugalDay(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "PortugalDay should be reported in the complete list of holidays");
@@ -777,11 +777,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteAssumption2026()
+        public void TestPublicHolidaysInformationAssumption2026()
         {
             var date = PortugalPublicHoliday.Assumption(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "Assumption should be reported in the complete list of holidays");
@@ -792,11 +792,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteRepublicDay2026()
+        public void TestPublicHolidaysInformationRepublicDay2026()
         {
             var date = PortugalPublicHoliday.RepublicDay(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "RepublicDay should be reported in the complete list of holidays");
@@ -807,11 +807,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteAllSaints2026()
+        public void TestPublicHolidaysInformationAllSaints2026()
         {
             var date = PortugalPublicHoliday.AllSaints(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "AllSaints should be reported in the complete list of holidays");
@@ -822,11 +822,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteIndependenceRestorationDay2026()
+        public void TestPublicHolidaysInformationIndependenceRestorationDay2026()
         {
             var date = PortugalPublicHoliday.IndependenceRestorationDay(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "IndependenceRestorationDay should be reported in the complete list of holidays");
@@ -837,11 +837,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteImmaculateConception2026()
+        public void TestPublicHolidaysInformationImmaculateConception2026()
         {
             var date = PortugalPublicHoliday.ImmaculateConception(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "ImmaculateConception should be reported in the complete list of holidays");
@@ -852,11 +852,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteChristmas2026()
+        public void TestPublicHolidaysInformationChristmas2026()
         {
             var date = PortugalPublicHoliday.Christmas(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "Christmas should be reported in the complete list of holidays");
@@ -867,11 +867,11 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestPublicHolidaysCompleteFirstOctaveDay2026()
+        public void TestPublicHolidaysInformationFirstOctaveDay2026()
         {
             var date = PortugalPublicHoliday.FirstOctaveDay(2026);
             var holidayCalendar = new PortugalPublicHoliday();
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysComplete(2026);
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
             
             var holiday = hols.SingleOrDefault(h => h.HolidayDate == date);
             Assert.IsNotNull(holiday, "FirstOctaveDay should be reported in the complete list of holidays");

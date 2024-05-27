@@ -7,7 +7,7 @@ namespace PublicHoliday
     /// <summary>
     /// Finds France public holidays. 
     /// Public holidays on Sundays are not deferred to following weekday automatically- 
-    /// they may be taken at an arbitary date.
+    /// they may be taken at an arbitrary date.
     /// https://fr.wikipedia.org/wiki/F%C3%AAtes_et_jours_f%C3%A9ri%C3%A9s_en_France#Tableau_r%C3%A9capitulatif
     /// </summary>
     public class FrancePublicHoliday : PublicHolidayBase
@@ -110,10 +110,8 @@ namespace PublicHoliday
             {
                 return name;
             }
-            else
-            {
-                return string.Empty;
-            }
+
+            return string.Empty;
         }
 
         #endregion
@@ -1126,7 +1124,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The given year</param>
         /// <returns></returns>
-        public IList<Holiday> PublicHolidaysComplete(int year)
+        public override IList<Holiday> PublicHolidaysInformation(int year)
         {
             // avoids having to recalculate it each time for different public holidays :
             DateTime easter = HolidayCalculator.GetEaster(year);

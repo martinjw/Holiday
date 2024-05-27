@@ -4,6 +4,9 @@ using System.Linq;
 
 namespace PublicHoliday
 {
+    /// <summary>
+    /// Portugal public holidays. Set <see cref="Region"/> for autonomous regions.
+    /// </summary>
     public class PortugalPublicHoliday : PublicHolidayBase
     {
         #region Regions
@@ -119,7 +122,7 @@ namespace PublicHoliday
             return easter.AddDays(-2);
         }
 
-        private Holiday GoodFridayHoliday(DateTime easter)
+        private static Holiday GoodFridayHoliday(DateTime easter)
         {
             DateTime holiday = GoodFriday(easter);
             return new Holiday(holiday, "Good Friday", "Sexta-feira Santa");
@@ -139,7 +142,7 @@ namespace PublicHoliday
             return HolidayCalculator.GetEaster(year);
         }
 
-        private Holiday EasterHoliday(int year)
+        private static Holiday EasterHoliday(int year)
         {
             DateTime holiday = Easter(year);
             return new Holiday(holiday, "Easter", "Domingo de Páscoa");
@@ -241,7 +244,6 @@ namespace PublicHoliday
         /// <summary>
         /// Corpus Christi - Date varies(celebrated on the Thursday after Trinity Sunday, honoring the Eucharist) - Corpo de Deus
         /// </summary>
-        /// <param name="easter">The year.</param>
         /// <returns></returns>
         public static DateTime CorpusChristi(int year)
         {
@@ -359,7 +361,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime  RepublicDay(int year)
+        public static DateTime RepublicDay(int year)
         {
             return new DateTime(year, 10, 5);
         }
@@ -398,7 +400,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime  IndependenceRestorationDay(int year)
+        public static DateTime IndependenceRestorationDay(int year)
         {
             return new DateTime(year, 12, 1);
         }
@@ -418,7 +420,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime  ImmaculateConception(int year)
+        public static DateTime ImmaculateConception(int year)
         {
             return new DateTime(year, 12, 8);
         }
@@ -581,7 +583,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The given year</param>
         /// <returns></returns>
-        public IList<Holiday> PublicHolidaysComplete(int year)
+        public override IList<Holiday> PublicHolidaysInformation(int year)
         {
             // avoids having to recalculate it each time for different public holidays :
             var easterHoliday = EasterHoliday(year);
