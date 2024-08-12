@@ -157,5 +157,23 @@ namespace PublicHolidayTests
             // Pentecost sunday
             Assert.IsTrue(calendar.PublicHolidays(2023).Contains(new DateTime(2023, 5, 28)));
         }
+
+        [TestMethod]
+        public void TestBavariaAssumption()
+        {
+            var assumption = GermanPublicHoliday.Assumption(2024);
+            //assumption is 15/08/2024
+            var calendar = new GermanPublicHoliday { State = GermanPublicHoliday.States.BY };
+            var isHoliday = calendar.IsPublicHoliday(assumption); //true
+            Assert.IsTrue(isHoliday);
+
+            var hasAssumption = calendar.HasAssumption; //true
+            Assert.IsTrue(hasAssumption);
+            //override the default - it should be false
+            calendar.HasAssumption = false;
+            isHoliday = calendar.IsPublicHoliday(assumption); //false
+            Assert.IsFalse(isHoliday);
+
+        }
     }
 }

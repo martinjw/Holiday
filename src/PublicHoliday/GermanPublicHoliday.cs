@@ -259,13 +259,23 @@ namespace PublicHoliday
             return new DateTime(year, 8, 15);
         }
 
+        private bool? _hasAssumption;
         /// <summary>
         /// Whether this state observes Mariä Himmelfahrt.
         /// </summary>
         /// <value>
         /// <c>true</c> if this state observes Mariä Himmelfahrt; otherwise, <c>false</c>.
         /// </value>
-        public bool HasAssumption => States.SL == State  || States.BY == State;
+        public bool HasAssumption
+        {
+            get
+            {
+                //if they set manually, override the state default
+                if(_hasAssumption.HasValue) return _hasAssumption.Value;
+                return States.SL == State || States.BY == State;
+            }
+            set => _hasAssumption = value;
+        }
 
         /// <summary>
         /// Kindertag - World Children's Day
