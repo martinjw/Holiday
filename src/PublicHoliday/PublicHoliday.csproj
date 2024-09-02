@@ -55,7 +55,8 @@
 2.37.0: #120 Add Brazil holidays (thanks @rsegecin ), Netherlands add Good Friday (thanks @wdnijdam  )
 2.38.0: #122 Update Switzerland Holiday with Cantons (thanks @tossnet), Add NYSE holidays  (thanks @stephenherrick )
 2.39.0: #125 Fix Turkey Ramadan and FeastOfSacrifices holidays (thanks @hasankaplan-github), #128 Update Switzerland Holiday (thanks @tossnet),; #131 Update France holiday with overseas territories (thanks @tossnet); #132 Add Portugal Holiday (thanks @greybird); #133 South Africa 2024 election day (thanks @FifoTheHein)
-2.40.0: #135 Bavarian Assumption date is conditional</PackageReleaseNotes>
+2.40.0: #135 Bavarian Assumption date is conditional
+2.41.0: #136 Denmark additional optional holidays (thanks @hanshb)</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
@@ -70,7 +71,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.40.0</Version>
+    <Version>2.41.0</Version>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>

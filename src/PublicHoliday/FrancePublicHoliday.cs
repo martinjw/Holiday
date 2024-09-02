@@ -539,6 +539,11 @@ namespace PublicHoliday
             return new Holiday(holiday, "Pentecost Monday", "Lundi de Pentecôte");
         }
 
+        /// <summary>
+        /// By default Pentecost Monday is a holiday, but it can be a working day for some companies. Set this to false to make it a working day.
+        /// </summary>
+        public bool HasPentecostMonday { get; set; } = true;
+
         #endregion
 
         #region Abolition of slavery in Guyane
@@ -1067,7 +1072,10 @@ namespace PublicHoliday
             }
             bHols.Add(ascension, "Jeudi de l'Ascension");
 
-            bHols.Add(PentecostMonday(easter), "Lundi de Pentecôte");
+            if (HasPentecostMonday)
+            {
+                bHols.Add(PentecostMonday(easter), "Lundi de Pentecôte");
+            }
 
             if (HasGuyaneAbolitionSlavery)
                 bHols.Add(GuyaneAbolitionSlavery(year), "Abolition de l'esclavage en Guyane");
@@ -1126,39 +1134,7 @@ namespace PublicHoliday
         /// <returns></returns>
         public override IList<Holiday> PublicHolidaysInformation(int year)
         {
-            // avoids having to recalculate it each time for different public holidays :
-            DateTime easter = HolidayCalculator.GetEaster(year);
-
-            var bHols = new List<Holiday>
-            {
-                NewYearHoliday(year),
-                GoodFridayHoliday(easter),
-                EasterMondayHoliday(easter),
-                MayotteAbolitionSlaveryHoliday(year),
-                PeterChanelHoliday(year),
-                LabourDayHoliday(year),
-                VictoryInEuropeDayHoliday(year),
-                MartiniqueAbolitionSlaveryHoliday(year),
-                GuadeloupeAbolitionSlaveryHoliday(year),
-                SaintMartinAbolitionSlaveryHoliday(year),
-                AscensionHoliday(easter),
-                PentecostMondayHoliday(easter),
-                GuyaneAbolitionSlaveryHoliday(year),
-                AutonomyDayHoliday(year),
-                BastilleDayHoliday(year),
-                VictorSchoelcherDayHoliday(year),
-                TerritoryFestivalDayHoliday(year),
-                AssumptionHoliday(year),
-                CitizenshipDayHoliday(year),
-                SaintBarthelemyAbolitionSlaveryHoliday(year),
-                AllSaintsHoliday(year),
-                ArmisticeHoliday(year),
-                LaReunionAbolitionSlaveryHoliday(year),
-                ChristmasHoliday(year),
-                SaintStephenDayHoliday(year),
-            };
-
-            return bHols;
+            return PublicHolidayNames(year).Select(kvp => new Holiday(kvp.Key, kvp.Value)).ToList();
         }
     }
 }
