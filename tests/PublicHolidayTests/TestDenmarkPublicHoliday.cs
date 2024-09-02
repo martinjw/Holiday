@@ -127,7 +127,7 @@ namespace PublicHolidayTests
             var actual = DenmarkPublicHoliday.GeneralPrayerDay(2021);
             Assert.AreEqual(expected, actual);
         }
-        
+
         [TestMethod]
         public void TestGeneralPrayerDay2024()
         {
@@ -135,14 +135,14 @@ namespace PublicHolidayTests
             var actual = DenmarkPublicHoliday.GeneralPrayerDay(2024);
             Assert.AreEqual(expected, actual);
         }
-        
+
         [TestMethod]
         public void TestGeneralPrayerDay2023IsListedAsPublicHoliday()
         {
             var holidays = new DenmarkPublicHoliday().PublicHolidayNames(2023);
             Assert.IsTrue(holidays.Values.Contains("Store bededag"));
         }
-        
+
         [TestMethod]
         public void TestGeneralPrayerDay2024IsNotListedAsPublicHoliday()
         {
@@ -217,6 +217,24 @@ namespace PublicHolidayTests
             Assert.IsFalse(new DenmarkPublicHoliday(true, true).IsPublicHoliday(new DateTime(2023, 05, 19)));
             Assert.IsTrue(new DenmarkPublicHoliday(true, true, true).IsPublicHoliday(new DateTime(2023, 05, 19)));
 
+        }
+
+        [TestMethod]
+        public void TestBankHoliday2024()
+        {
+            var bankHolidayCalendar = new DenmarkPublicHoliday(true, false, includeDayAfterAscension: true,
+                includeChristmasEve: true, includeNewYearsEve: true);
+            Assert.IsTrue(bankHolidayCalendar.IsPublicHoliday(new DateTime(2024, 01, 01)));
+            Assert.IsTrue(bankHolidayCalendar.IsPublicHoliday(new DateTime(2024, 03, 28)));
+            Assert.IsTrue(bankHolidayCalendar.IsPublicHoliday(new DateTime(2024, 03, 29)));
+            Assert.IsTrue(bankHolidayCalendar.IsPublicHoliday(new DateTime(2024, 04, 01)));
+            Assert.IsTrue(bankHolidayCalendar.IsPublicHoliday(new DateTime(2024, 05, 09)));
+            Assert.IsTrue(bankHolidayCalendar.IsPublicHoliday(new DateTime(2024, 05, 10)));
+            Assert.IsTrue(bankHolidayCalendar.IsPublicHoliday(new DateTime(2024, 06, 05)));
+            Assert.IsTrue(bankHolidayCalendar.IsPublicHoliday(new DateTime(2024, 12, 24)));
+            Assert.IsTrue(bankHolidayCalendar.IsPublicHoliday(new DateTime(2024, 12, 25)));
+            Assert.IsTrue(bankHolidayCalendar.IsPublicHoliday(new DateTime(2024, 12, 26)));
+            Assert.IsTrue(bankHolidayCalendar.IsPublicHoliday(new DateTime(2024, 12, 31)));
         }
 
         [TestMethod]
