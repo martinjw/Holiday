@@ -91,8 +91,9 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year">The year.</param>
         /// <returns></returns>
-        public static DateTime ShōwaDay(int year)
+        public static DateTime ShowaDay(int year)
         {
+            // using the ō character would causes compilation errors on some system
             //29 April
             return FixSunday(new DateTime(year, 4, 29));
         }
@@ -288,7 +289,7 @@ namespace PublicHoliday
                 { ComingOfAgeDay(year), "Coming Of Age Day" },
                 { FoundationDay(year), "Foundation Day" },
                 { VernalEquinoxDay(year), "Vernal Equinox Day" },
-                { ShōwaDay(year), "Shōwa Day" },
+                { ShowaDay(year), "Shōwa Day" },
                 { constitutionMemorialDay, "Constitution Memorial Day" },
                 { greeneryDay, "Greenery Day" },
                 { childrensDay, "Children's Day" },
@@ -341,7 +342,7 @@ namespace PublicHoliday
                     break;
 
                 case 4:
-                    if (ShōwaDay(year) == date)
+                    if (ShowaDay(year) == date)
                         return true;
                     break;
 
