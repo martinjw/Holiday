@@ -258,7 +258,7 @@ namespace PublicHoliday
                 dt = dt.AddDays(1);
             }
 
-            //loops through opendaysubstract
+            //loops through opendaysubtract
             while (openDayAdd >= currentAddDay)
             {
 

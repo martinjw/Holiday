@@ -199,6 +199,6 @@ License is MIT. You are free to use this software in commercial projects.
 
 ## Building the Source
 
-* If you use Visual Studio *2022* open PublicHoliday.sln (.net 6.0)
+* If you use Visual Studio *2022* open PublicHoliday.sln (.net 6 +, including .net 8 or 9)
   * You cannot use the command line "dotnet build" because Core tooling cannot build v3.5 (see https://github.com/Microsoft/msbuild/issues/1333)
 
