@@ -151,12 +151,12 @@ namespace PublicHoliday
             return hol;
         }
 
-        public static DateTime FindOccurrenceOfDayOfWeek(DateTime hol, DayOfWeek day, short occurance)
+        public static DateTime FindOccurrenceOfDayOfWeek(DateTime hol, DayOfWeek day, short occurence)
         {
             while (hol.DayOfWeek != day)
                 hol = hol.AddDays(1);
 
-            hol = hol.AddDays(7 * (occurance - 1));
+            hol = hol.AddDays(7 * (occurence - 1));
 
             return hol;
         }
@@ -339,7 +339,7 @@ namespace PublicHoliday
             {
 
                 //Mon-Fri and not bank holiday and not the final day
-                if (IsWorkingDay(holidayCalendar, dt)  && openDaySubstract != currentSubstractDay)
+                if (IsWorkingDay(holidayCalendar, dt) && openDaySubstract != currentSubstractDay)
                 {
                     dt = dt.AddDays(-1);
                     currentSubstractDay++;
@@ -365,5 +365,57 @@ namespace PublicHoliday
             return dt;
         }
 
+        public static DateTime BusinessDaysAdd(IPublicHolidays holidayCalendar, DateTime dt, int businessDays)
+        {
+            if (businessDays <= 0) return dt;
+            var count = 0;
+            //initial date is not inclusive, so add 1 day
+            dt = dt.AddDays(1);
+            while (businessDays > count)
+            {
+
+                if (IsWorkingDay(holidayCalendar, dt))
+                {
+                    count++;
+                    Console.WriteLine(dt.ToString("dd-MM"));
+                    if (count == businessDays) break;
+                }
+                if (dt.DayOfWeek == DayOfWeek.Saturday)
+                    dt = dt.AddDays(2);
+                else if (dt.DayOfWeek == DayOfWeek.Sunday)
+                    dt = dt.AddDays(1);
+                else if (dt.DayOfWeek == DayOfWeek.Friday)
+                    dt = dt.AddDays(3);
+                else
+                    dt = dt.AddDays(1);
+
+            }
+            return dt;
+        }
+
+        public static int BusinessDaysBetween(IPublicHolidays holidayCalendar, DateTime start, DateTime end)
+        {
+            if (end <= start) return 0;
+            var count = 0;
+            var dt = start;
+
+            while (dt <= end)
+            {
+                if (IsWorkingDay(holidayCalendar, dt))
+                {
+                    count++;
+                }
+                if (dt.DayOfWeek == DayOfWeek.Saturday)
+                    dt = dt.AddDays(2);
+                else if (dt.DayOfWeek == DayOfWeek.Sunday)
+                    dt = dt.AddDays(1);
+                else if (dt.DayOfWeek == DayOfWeek.Friday)
+                    dt = dt.AddDays(3);
+                else
+                    dt = dt.AddDays(1);
+            }
+
+            return count;
+        }
     }
 }

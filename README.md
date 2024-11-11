@@ -88,6 +88,9 @@ All use the common interface IPublicHoliday containing:
 - PublicHolidayNames(int year)
 - GetHolidaysInDateRange(DateTime, DateTime)
 - UseCachingHolidays
+- BusinessDaysAdd(DateTime, int)
+  - if you have an <abbr title="servive level agreement">SLA</abbr>/turn-around time of 3 business days, calendar.BusinessDaysAdd(dt, 3) will give you the end-date 3 business days (Mon-Fri excluding public holidays)
+- BusinessDaysBetween(DateTime, DateTime) (number of Mon-Fri working days)
 
 There are also static methods for all statutory holidays.
 
