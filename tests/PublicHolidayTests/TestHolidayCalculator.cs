@@ -190,9 +190,49 @@ namespace PublicHolidayTests
 
             Assert.Fail("Not ArgumentOutOfRangeException");
         }
+
+        [TestMethod]
+        public void TestBusinessDaysAdd()
+        {
+            var testCalendar = new PublicHolidayHelperTest();
+            //add 2 non-consecutive holidays and a weekend
+            testCalendar.Holidays.Add(new DateTime(2024, 12, 25), "Christmas");
+            testCalendar.Holidays.Add(new DateTime(2025, 1, 1), "New Year");
+            var result = testCalendar.BusinessDaysAdd( 
+                new DateTime(2024, 12,24), 
+                5);
+            //from 24th- non-inclusive, so the 5 working days are 26th, 27th, 30th, 31st, 2nd
+
+            Assert.AreEqual(new DateTime(2025,1,2), result);
+        }
+
+        [TestMethod]
+        public void TestBusinessDaysAddRegular()
+        {
+            var testCalendar = new PublicHolidayHelperTest();
+            //no holidays, regular week
+            var result = testCalendar.BusinessDaysAdd(
+                new DateTime(2024, 12, 16),
+                3);
+            //3 working days from 16th are 17th, 18th, 19th
+
+            Assert.AreEqual(new DateTime(2024, 12, 19), result);
+        }
+
+        [TestMethod]
+        public void TestBusinessDaysBetween()
+        {
+            var testCalendar = new PublicHolidayHelperTest();
+            //add 2 non-consecutive holidays and a weekend
+            testCalendar.Holidays.Add(new DateTime(2024, 12, 25), "Christmas");
+            testCalendar.Holidays.Add(new DateTime(2025, 1, 1), "New Year");
+            var result = testCalendar.BusinessDaysBetween(
+                new DateTime(2024, 12, 24),
+                new DateTime(2025, 1, 2));
+            //from 24th- inclusive, so the 6 working days are 24th, 26th, 27th, 30th, 31st, 2nd
+
+            Assert.AreEqual(6, result);
+        }
     }
 
 }
-
-
-
