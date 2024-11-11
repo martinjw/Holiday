@@ -192,5 +192,27 @@ namespace PublicHoliday
         /// </returns>
         public abstract bool IsPublicHoliday(DateTime dt);
 
+        /// <summary>
+        /// Adds business days (Mon-Fri, excluding public holidays) to a date
+        /// </summary>
+        /// <param name="dt">From date (exclusive: add 1 returns the next working day, not this date)</param>
+        /// <param name="businessDays">Number of business days to add</param>
+        /// <returns>The last business day</returns>
+        public DateTime BusinessDaysAdd(DateTime dt, int businessDays)
+        {
+            return HolidayCalculator.BusinessDaysAdd(this, dt, businessDays);
+        }
+
+        /// <summary>
+        /// Calculate the number of business days between two dates (inclusive)
+        /// </summary>
+        /// <param name="start">First date</param>
+        /// <param name="end">Second date. If less than first date, always returns 0.</param>
+        /// <returns></returns>
+        public int BusinessDaysBetween(DateTime start, DateTime end)
+        {
+            return HolidayCalculator.BusinessDaysBetween(this, start, end);
+        }
+
     }
 }
