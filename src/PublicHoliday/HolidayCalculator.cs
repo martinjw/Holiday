@@ -377,7 +377,6 @@ namespace PublicHoliday
                 if (IsWorkingDay(holidayCalendar, dt))
                 {
                     count++;
-                    Console.WriteLine(dt.ToString("dd-MM"));
                     if (count == businessDays) break;
                 }
                 if (dt.DayOfWeek == DayOfWeek.Saturday)
