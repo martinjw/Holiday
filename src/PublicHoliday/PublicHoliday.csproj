@@ -57,7 +57,7 @@
 2.39.0: #125 Fix Turkey Ramadan and FeastOfSacrifices holidays (thanks @hasankaplan-github), #128 Update Switzerland Holiday (thanks @tossnet),; #131 Update France holiday with overseas territories (thanks @tossnet); #132 Add Portugal Holiday (thanks @greybird); #133 South Africa 2024 election day (thanks @FifoTheHein)
 2.40.0: #135 Bavarian Assumption date is conditional
 2.41.0: #136 Denmark additional optional holidays (thanks @hanshb)
-3.0.0: #138 Remove Japanese character from method name due to MsBuild error- breaking change (thanks @vilinet @wollac11 )</PackageReleaseNotes>
+3.0.0: #138 Remove Japanese character from method name due to MsBuild error- breaking change (thanks @vilinet @wollac11 ); #139 add business days calculations</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
@@ -72,7 +72,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>2.41.0</Version>
+    <Version>3.0.0</Version>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
