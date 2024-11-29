@@ -32,6 +32,31 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday -{name}");
         }
 
+        [DataTestMethod]
+        [DataRow(1, 1, "New year - observed on Monday")]
+        [DataRow(1, 13, "Coming of Age Day")]
+        [DataRow(2, 11, "Foundation Day (Saturday)")]
+        [DataRow(2, 24, "The Emperor's Birthday")]
+        [DataRow(3, 20, "Vernal Equinox Day")]
+        [DataRow(4, 29, "Showa Day")]
+        [DataRow(5, 3, "Constitution Memorial Day")]
+        [DataRow(5, 5, "Children's Day")]
+        [DataRow(5, 6, "Greenery Day")]
+        [DataRow(7, 21, "Marine Day")]
+        [DataRow(8, 11, "Mountain Day")]
+        [DataRow(9, 15, "Respect for the Aged Day")]
+        [DataRow(9, 23, "Autumnal Equinox Day")]
+        [DataRow(10, 13, "Health and Sports Day")]
+        [DataRow(11, 3, "Culture Day")]
+        [DataRow(11, 24, "Labour Thanksgiving Day")]
+        public void TestHolidays2025(int month, int day, string name)
+        {
+	        var holiday = new DateTime(2025, month, day);
+	        var holidayCalendar = new JapanPublicHoliday();
+	        var actual = holidayCalendar.IsPublicHoliday(holiday);
+	        Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday -{name}");
+        }
+
         [TestMethod]
         public void TestVernalEquinoxDay()
         {
