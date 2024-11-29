@@ -21,7 +21,7 @@ namespace PublicHoliday
         public static DateTime NewYear(int year)
         {
             var hol = new DateTime(year, 1, 1);
-            hol = FixSunday(hol);
+            hol = FixSunday(hol, HolidayName.NewYear);
             return hol;
         }
 
@@ -45,7 +45,7 @@ namespace PublicHoliday
         public static DateTime FoundationDay(int year)
         {
             //Feb 11
-            return FixSunday(new DateTime(year, 2, 11));
+            return FixSunday(new DateTime(year, 2, 11), HolidayName.FoundationDay);
         }
 
         /// <summary>
@@ -83,7 +83,7 @@ namespace PublicHoliday
                 vernalEquinoxDay = new DateTime(year, 3, 20);
             }
 
-            return FixSunday(vernalEquinoxDay);
+            return FixSunday(vernalEquinoxDay, HolidayName.NewYear);
         }
 
         /// <summary>
@@ -95,7 +95,7 @@ namespace PublicHoliday
         {
             // using the ō character would causes compilation errors on some system
             //29 April
-            return FixSunday(new DateTime(year, 4, 29));
+            return FixSunday(new DateTime(year, 4, 29), HolidayName.FoundationDay);
         }
 
         /// <summary>
@@ -106,7 +106,7 @@ namespace PublicHoliday
         public static DateTime ConstitutionMemorialDay(int year)
         {
             //3 May
-            return FixSunday(new DateTime(year, 5, 3));
+            return FixSunday(new DateTime(year, 5, 3), HolidayName.ConstitutionMemorialDay);
         }
 
         /// <summary>
@@ -117,7 +117,7 @@ namespace PublicHoliday
         public static DateTime GreeneryDay(int year)
         {
             //4 May
-            return FixSunday(new DateTime(year, 5, 4));
+            return FixSunday(new DateTime(year, 5, 4), HolidayName.GreeneryDay);
         }
 
         /// <summary>
@@ -128,7 +128,7 @@ namespace PublicHoliday
         public static DateTime ChildrensDay(int year)
         {
             //5 May
-            return FixSunday(new DateTime(year, 5, 5));
+            return FixSunday(new DateTime(year, 5, 5), HolidayName.ChildrensDay);
         }
 
         /// <summary>
@@ -151,7 +151,7 @@ namespace PublicHoliday
         {
             if (year < 2016) return null;
             //11 August, from 2016 onwards
-            return FixSunday(new DateTime(year, 8, 11));
+            return FixSunday(new DateTime(year, 8, 11), HolidayName.MountainDay);
         }
 
         /// <summary>
@@ -199,7 +199,7 @@ namespace PublicHoliday
                 autumnalEquinoxDay = new DateTime(year, 9, 23);
             }
 
-            return FixSunday(autumnalEquinoxDay);
+            return FixSunday(autumnalEquinoxDay, HolidayName.AutumnalEquinoxDay);
         }
 
         /// <summary>
@@ -221,7 +221,7 @@ namespace PublicHoliday
         public static DateTime CultureDay(int year)
         {
             //November 3
-            return FixSunday(new DateTime(year, 11, 3));
+            return FixSunday(new DateTime(year, 11, 3), HolidayName.CultureDay);
         }
 
         /// <summary>
@@ -232,7 +232,7 @@ namespace PublicHoliday
         public static DateTime LabourThanksgivingDay(int year)
         {
             //November 23
-            return FixSunday(new DateTime(year, 11, 23));
+            return FixSunday(new DateTime(year, 11, 23), HolidayName.LabourThanksgivingDay);
         }
 
         /// <summary>
@@ -245,19 +245,40 @@ namespace PublicHoliday
             if (year >= 2020)
             {
                 //23 February Emperor Naruhito 徳仁 2020 – 	 
-                return FixSunday(new DateTime(year, 2, 23));
+                return FixSunday(new DateTime(year, 2, 23), HolidayName.EmperorsBirthday);
             }
             //23 December Emperor Akihito 明仁 1989–2018
-            return FixSunday(new DateTime(year, 12, 23));
+            return FixSunday(new DateTime(year, 12, 23), HolidayName.EmperorsBirthday);
         }
 
-        private static DateTime FixSunday(DateTime hol)
+        private static DateTime FixSunday(DateTime hol, HolidayName holidayName)
         {
             if (hol.DayOfWeek == DayOfWeek.Sunday)
+            {
                 hol = hol.AddDays(1);
+            }
+
+            if (holidayName == HolidayName.GreeneryDay && hol == ChildrensDay(hol.Year))
+            {
+                hol = hol.AddDays(1);
+            }
+
             return hol;
         }
 
+        private enum HolidayName
+        {
+            AutumnalEquinoxDay,
+            ChildrensDay,
+            ConstitutionMemorialDay,
+            CultureDay,
+            EmperorsBirthday,
+            FoundationDay,
+            GreeneryDay,
+            LabourThanksgivingDay,
+            MountainDay,
+            NewYear,
+        }
         #endregion Individual Holidays
 
         /// <summary>
