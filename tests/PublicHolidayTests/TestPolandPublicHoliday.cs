@@ -17,6 +17,7 @@ namespace PublicHolidayTests
         [DataRow(8, 15, "Assumption")]
         [DataRow(11, 1, "All Saints")]
         [DataRow(11, 11, "Independence Day")]
+        [DataRow(12, 24, "Christmas Eve")]
         [DataRow(12, 25, "Christmas")]
         [DataRow(12, 26, "St Stephens")]
         public void TestHolidays2017(int month, int day, string name)
