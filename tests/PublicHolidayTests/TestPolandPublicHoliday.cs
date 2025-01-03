@@ -40,16 +40,18 @@ namespace PublicHolidayTests
         [DataTestMethod]
         [DataRow(1, 1, "New Year")]
         [DataRow(1, 6, "Epiphany")]
-        [DataRow(4, 6, "Easter Monday")]
+        [DataRow(4, 20, "Easter Sunday")]
+        [DataRow(4, 21, "Easter Monday")]
         [DataRow(5, 1, "Labour Day")]
         [DataRow(5, 3, "Constitution Day")]
-        [DataRow(6, 8, "Corpus Christi")]
+        [DataRow(6, 8, "Pentecost")]
+        [DataRow(6, 19, "Corpus Christi")]
         [DataRow(8, 15, "Assumption")]
         [DataRow(11, 1, "All Saints")]
         [DataRow(11, 11, "Independence Day")]
         [DataRow(12, 24, "Christmas Eve")]
         [DataRow(12, 25, "Christmas")]
-        [DataRow(12, 26, "St Stephens")]
+        [DataRow(12, 26, "St Stephen's Day")]
         public void TestHolidays2025(int month, int day, string name)
         {
             var holiday = new DateTime(2025, month, day);
