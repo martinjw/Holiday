@@ -109,12 +109,17 @@ namespace PublicHoliday
 
         /// <summary>
         /// Wigilia Bożego Narodzenia (Christmas Eve) - day before the 1st day of Christmas.
+        /// Applies as a public holiday from 2025 onwards.
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
-        public static DateTime ChristmasEve(int year)
+        public static DateTime? ChristmasEve(int year)
         {
-            return new DateTime(year, 12, 24);
+            if (year >= 2025)
+            {
+                return new DateTime(year, 12, 24);
+            }
+            return null; // Not a public holiday before 2025
         }
 
         /// <summary>
@@ -167,6 +172,13 @@ namespace PublicHoliday
             bHols.Add(Assumption(year), "Wniebowzięcie Najświętszej Maryi Panny");
             bHols.Add(AllSaints(year), "Wszystkich Swiętych");
             bHols.Add(IndependenceDay(year), "Narodowe Święto Niepodległości");
+
+             var christmasEve = ChristmasEve(year);
+            if (christmasEve.HasValue)
+            {
+                bHols.Add(christmasEve.Value, "Wigilia Bożego Narodzenia");
+            }
+            
             bHols.Add(Christmas(year), "pierwszy dzień Bożego Narodzenia");
             bHols.Add(StStephen(year), "drugi dzień Bożego Narodzenia");
             return bHols;
@@ -222,6 +234,10 @@ namespace PublicHoliday
                     break;
 
                 case 12:
+                     var christmasEve = ChristmasEve(year);
+                    if (christmasEve.HasValue && christmasEve.Value == date)
+                        return true;
+                
                     if (Christmas(year) == date)
                         return true;
                     if (StStephen(year) == date)
