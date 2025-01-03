@@ -112,7 +112,7 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="year"></param>
         /// <returns></returns>
-        public static DateTime Christmas(int year)
+        public static DateTime ChristmasEve(int year)
         {
             return new DateTime(year, 12, 24);
         }
