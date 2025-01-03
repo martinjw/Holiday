@@ -33,8 +33,74 @@ namespace PublicHolidayTests
             var holidayCalendar = new PolandPublicHoliday();
             var hols = holidayCalendar.PublicHolidays(2017);
             var holNames = holidayCalendar.PublicHolidayNames(2017);
-            Assert.IsTrue(11 == hols.Count, "Should be 11 holidays in 2017");
-            Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+        
+            // Spodziewana liczba dni wolnych w 2017 roku
+            Assert.AreEqual(13, hols.Count, "Should be 13 holidays in 2017");
+        
+            // Liczba nazw powinna odpowiadać liczbie dni wolnych
+            Assert.AreEqual(hols.Count, holNames.Count, "Names and holiday list count should match");
+        
+            // Sprawdzenie, czy lista dni wolnych zawiera wszystkie oczekiwane daty
+            var expectedHolidays = new[]
+            {
+                new DateTime(2017, 1, 1),  // New Year
+                new DateTime(2017, 1, 6),  // Epiphany
+                new DateTime(2017, 4, 16), // Easter Sunday
+                new DateTime(2017, 4, 17), // Easter Monday
+                new DateTime(2017, 5, 1),  // Labour Day
+                new DateTime(2017, 5, 3),  // Constitution Day
+                new DateTime(2017, 6, 15), // Corpus Christi
+                new DateTime(2017, 8, 15), // Assumption
+                new DateTime(2017, 11, 1), // All Saints
+                new DateTime(2017, 11, 11), // Independence Day
+                new DateTime(2017, 12, 25), // Christmas
+                new DateTime(2017, 12, 26), // St Stephen's Day
+                new DateTime(2017, 6, 15)  // Corpus Christi
+            };
+        
+            foreach (var expectedHoliday in expectedHolidays)
+            {
+                Assert.IsTrue(hols.Contains(expectedHoliday), $"{expectedHoliday.ToString("D")} is missing in holiday list");
+                Assert.IsTrue(holNames.ContainsKey(expectedHoliday), $"Name for {expectedHoliday.ToString("D")} is missing");
+            }
+        }
+
+        [TestMethod]
+        public void TestHolidays2020Lists()
+        {
+            var holidayCalendar = new PolandPublicHoliday();
+            var hols = holidayCalendar.PublicHolidays(2020);
+            var holNames = holidayCalendar.PublicHolidayNames(2020);
+        
+            // Spodziewana liczba dni wolnych w 2020 roku
+            Assert.AreEqual(13, hols.Count, "Should be 13 holidays in 2020");
+        
+            // Liczba nazw powinna odpowiadać liczbie dni wolnych
+            Assert.AreEqual(hols.Count, holNames.Count, "Names and holiday list count should match");
+        
+            // Sprawdzenie, czy lista dni wolnych zawiera wszystkie oczekiwane daty
+            var expectedHolidays = new[]
+            {
+                new DateTime(2020, 1, 1),  // New Year
+                new DateTime(2020, 1, 6),  // Epiphany
+                new DateTime(2020, 4, 12), // Easter Sunday
+                new DateTime(2020, 4, 13), // Easter Monday
+                new DateTime(2020, 5, 1),  // Labour Day
+                new DateTime(2020, 5, 3),  // Constitution Day
+                new DateTime(2020, 5, 31), // Pentecost
+                new DateTime(2020, 6, 11), // Corpus Christi
+                new DateTime(2020, 8, 15), // Assumption
+                new DateTime(2020, 11, 1), // All Saints
+                new DateTime(2020, 11, 11), // Independence Day
+                new DateTime(2020, 12, 25), // Christmas
+                new DateTime(2020, 12, 26)  // St Stephen's Day
+            };
+        
+            foreach (var expectedHoliday in expectedHolidays)
+            {
+                Assert.IsTrue(hols.Contains(expectedHoliday), $"{expectedHoliday.ToString("D")} is missing in holiday list");
+                Assert.IsTrue(holNames.ContainsKey(expectedHoliday), $"Name for {expectedHoliday.ToString("D")} is missing");
+            }
         }
 
         [DataTestMethod]
