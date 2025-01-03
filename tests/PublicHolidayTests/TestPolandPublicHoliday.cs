@@ -66,8 +66,37 @@ namespace PublicHolidayTests
             var holidayCalendar = new PolandPublicHoliday();
             var hols = holidayCalendar.PublicHolidays(2025);
             var holNames = holidayCalendar.PublicHolidayNames(2025);
-            Assert.IsTrue(12 == hols.Count, "Should be 12 holidays in 2025");
-            Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+        
+            // Spodziewana liczba dni wolnych w 2025 roku
+            Assert.AreEqual(14, hols.Count, "Should be 14 holidays in 2025");
+        
+            // Liczba nazw powinna odpowiadać liczbie dni wolnych
+            Assert.AreEqual(hols.Count, holNames.Count, "Names and holiday list count should match");
+        
+            // Sprawdzenie, czy lista dni wolnych zawiera wszystkie oczekiwane daty
+            var expectedHolidays = new[]
+            {
+                new DateTime(2025, 1, 1),  // New Year
+                new DateTime(2025, 1, 6),  // Epiphany
+                new DateTime(2025, 4, 20), // Easter Sunday
+                new DateTime(2025, 4, 21), // Easter Monday
+                new DateTime(2025, 5, 1),  // Labour Day
+                new DateTime(2025, 5, 3),  // Constitution Day
+                new DateTime(2025, 6, 8),  // Pentecost
+                new DateTime(2025, 6, 19), // Corpus Christi
+                new DateTime(2025, 8, 15), // Assumption
+                new DateTime(2025, 11, 1), // All Saints
+                new DateTime(2025, 11, 11), // Independence Day
+                new DateTime(2025, 12, 24), // Christmas Eve
+                new DateTime(2025, 12, 25), // Christmas
+                new DateTime(2025, 12, 26)  // St Stephen's Day
+            };
+        
+            foreach (var expectedHoliday in expectedHolidays)
+            {
+                Assert.IsTrue(hols.Contains(expectedHoliday), $"{expectedHoliday.ToString("D")} is missing in holiday list");
+                Assert.IsTrue(holNames.ContainsKey(expectedHoliday), $"Name for {expectedHoliday.ToString("D")} is missing");
+            }
         }
     }
 }
