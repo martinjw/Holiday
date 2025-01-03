@@ -108,6 +108,16 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Wigilia Bożego Narodzenia (Christmas Eve) - day before the 1st day of Christmas.
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime Christmas(int year)
+        {
+            return new DateTime(year, 12, 24);
+        }
+
+        /// <summary>
         /// pierwszy dzien Bozego Narodzenia - 1st day of Christmas
         /// </summary>
         /// <param name="year"></param>
