@@ -73,9 +73,18 @@ namespace PublicHoliday
             bHols.Add(new DateTime(year, 1, 6), isGreek ? "Θεοφάνεια" : "Epiphany");
             bHols.Add(CleanMonday(year), isGreek ? "Καθαρά Δευτέρα" : "Clean Monday");
             bHols.Add(new DateTime(year, 3, 25), isGreek ? "Εικοστή Πέμπτη Μαρτίου" : "Independence Day");
-            bHols.Add(GreatFriday(year), isGreek ? "Καθαρά Δευτέρα" : "Great Friday");
-            bHols.Add(EasterMonday(year), isGreek ? "Καθαρά Δευτέρα" : "Easter Monday");
-            bHols.Add(new DateTime(year, 5, 1), isGreek ? "Εργατική Πρωτομαγιά" : "Labour Day");
+            var greatFriday = GreatFriday(year);
+            bHols.Add(greatFriday, isGreek ? "Καθαρά Δευτέρα" : "Great Friday");
+            var easterMonday = EasterMonday(year);
+            bHols.Add(easterMonday, isGreek ? "Καθαρά Δευτέρα" : "Easter Monday");
+            var labourDay = new DateTime(year, 5, 1);
+            if (labourDay == easterMonday || labourDay == greatFriday)
+            {
+                //in 2000, easter monday was 1st May
+                //in 2043, great friday is 1st May
+                labourDay = labourDay.AddSeconds(1);
+            }
+            bHols.Add(labourDay, isGreek ? "Εργατική Πρωτομαγιά" : "Labour Day");
             bHols.Add(WhitMonday(year), isGreek ? "Δευτέρα Πεντηκοστής" : "Whit Monday");
             bHols.Add(new DateTime(year, 8, 15), isGreek ? "Κοίμηση της Θεοτόκου" : "Dormition of the Mother of God");
             bHols.Add(new DateTime(year, 10, 28), isGreek ? "Το Όχι" : "Ochi Day");
