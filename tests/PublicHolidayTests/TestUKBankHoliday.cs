@@ -363,6 +363,16 @@ namespace PublicHolidayTests
             }
         }
 
+
+        [TestMethod]
+        public void TestScotland2025()
+        {
+            //according to https://www.mygov.scot/scotland-bank-holidays official dates:
+            var ukHols = new UKBankHoliday { UkCountry = UKBankHoliday.UkCountries.Scotland };
+            var hols = ukHols.PublicHolidays(2025);
+            Assert.AreEqual(9, hols.Count, "There are 9 holidays");
+        }
+
         [TestMethod]
         public void TestNortherIreland2021()
         {

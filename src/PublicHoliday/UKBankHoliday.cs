@@ -327,7 +327,7 @@ namespace PublicHoliday
         /// <returns></returns>
         public override IList<DateTime> PublicHolidays(int year)
         {
-            return BankHolidays(year);
+            return PublicHolidayNames(year).Keys.ToList();
         }
 
         /// <summary>
