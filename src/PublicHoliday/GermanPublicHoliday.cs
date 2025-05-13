@@ -401,6 +401,40 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Liberation Day/ Tag der Befreiung
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime LiberationDay(int year)
+        {
+            return new DateTime(year, 5, 8);
+        }
+
+        /// <summary>
+        /// Whether this state observes Liberation Day/Tag der Befreiung (May 8)
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public bool HasLiberationDay(int year) => (State == States.BE && year == 2025);
+
+        /// <summary>
+        /// East German Uprising Memorial Day / Gedenktag an den Volksaufstand in der DDR
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public static DateTime EastGermanUprisingMemorialDay(int year)
+        {
+            return new DateTime(year, 6, 17);
+        }
+
+        /// <summary>
+        /// Whether this state observes East German Uprising Memorial Day / Gedenktag an den Volksaufstand in der DDR (June 17)
+        /// </summary>
+        /// <param name="year"></param>
+        /// <returns></returns>
+        public bool HasEastGermanUprisingMemorialDay(int year) => (State == States.BE && year == 2028);
+
+        /// <summary>
         /// List of federal and state holidays (for defined <see cref="State"/>)
         /// </summary>
         /// <param name="year">The year.</param>
@@ -427,6 +461,8 @@ namespace PublicHoliday
             if (HasRepentance) bHols.Add(Repentance(year));
             bHols.Add(Christmas(year));
             bHols.Add(StStephen(year));
+            if (HasLiberationDay(year)) bHols.Add(LiberationDay(year));
+            if (HasEastGermanUprisingMemorialDay(year)) bHols.Add(EastGermanUprisingMemorialDay(year));
             return bHols;
         }
 
@@ -446,10 +482,12 @@ namespace PublicHoliday
             if (HasEasterSunday) bHols.Add(EasterSunday(year), "Ostersonntag");
             bHols.Add(EasterMonday(year), "Ostermontag");
             bHols.Add(MayDay(year), "Tag der Arbeit");
+            if (HasLiberationDay(year)) bHols.Add(LiberationDay(year), "Tag der Befreiung");
             bHols.Add(Ascension(year), "Christi Himmelfahrt");
             if (HasPentecostSunday) bHols.Add(PentecostSunday(year), "Pfingstsonntag");
             bHols.Add(PentecostMonday(year), "Pfingstmontag");
             if (HasCorpusChristi) bHols.Add(CorpusChristi(year), "Fronleichnam");
+            if (HasEastGermanUprisingMemorialDay(year)) bHols.Add(EastGermanUprisingMemorialDay(year), "Gedenktag an den Volksaufstand in der DDR");
             if (HasAssumption) bHols.Add(Assumption(year), "Mariä Himmelfahrt");
             if (HasWorldChildrensDay(year)) bHols.Add(WorldChildrensDay(year), "Kindertag");
             bHols.Add(GermanUnity(year), "Tag der Deutschen Einheit");
@@ -505,6 +543,10 @@ namespace PublicHoliday
                     if (PentecostMonday(year) == date)
                         return true;
                     if (HasCorpusChristi && CorpusChristi(year) == date)
+                        return true;
+                    if (HasLiberationDay(year) && LiberationDay(year) == date)
+                        return true;
+                    if (HasEastGermanUprisingMemorialDay(year) && EastGermanUprisingMemorialDay(year) == date)
                         return true;
                     break;
 
