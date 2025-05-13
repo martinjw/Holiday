@@ -175,5 +175,49 @@ namespace PublicHolidayTests
             Assert.IsFalse(isHoliday);
 
         }
+
+        [TestMethod]
+        public void TestBerlinOneTimeHolidays()
+        {
+            var liberationDay2024 = GermanPublicHoliday.LiberationDay(2024);
+            Assert.AreEqual(new DateTime(2024, 5, 8), liberationDay2024);
+            var liberationDay2025 = GermanPublicHoliday.LiberationDay(2025);
+            Assert.AreEqual(new DateTime(2025, 5, 8), liberationDay2025);
+            var liberationDay2026 = GermanPublicHoliday.LiberationDay(2026);
+            Assert.AreEqual(new DateTime(2026, 5, 8), liberationDay2026);
+
+            var eastGermanUprisingMemorialDay2027 = GermanPublicHoliday.EastGermanUprisingMemorialDay(2027);
+            Assert.AreEqual(new DateTime(2027, 6, 17), eastGermanUprisingMemorialDay2027);
+            var eastGermanUprisingMemorialDay2028 = GermanPublicHoliday.EastGermanUprisingMemorialDay(2028);
+            Assert.AreEqual(new DateTime(2028, 6, 17), eastGermanUprisingMemorialDay2028);
+            var eastGermanUprisingMemorialDay2029 = GermanPublicHoliday.EastGermanUprisingMemorialDay(2029);
+            Assert.AreEqual(new DateTime(2029, 6, 17), eastGermanUprisingMemorialDay2029);
+
+            foreach (GermanPublicHoliday.States germanState in Enum.GetValues(typeof(GermanPublicHoliday.States)))
+            {
+                var stateCalendar = new GermanPublicHoliday { State = germanState };
+
+                if(germanState == GermanPublicHoliday.States.BE)
+                {
+                    Assert.IsFalse(stateCalendar.IsPublicHoliday(liberationDay2024));
+                    Assert.IsTrue(stateCalendar.IsPublicHoliday(liberationDay2025));
+                    Assert.IsFalse(stateCalendar.IsPublicHoliday(liberationDay2026));
+
+                    Assert.IsFalse(stateCalendar.IsPublicHoliday(eastGermanUprisingMemorialDay2027));
+                    Assert.IsTrue(stateCalendar.IsPublicHoliday(eastGermanUprisingMemorialDay2028));
+                    Assert.IsFalse(stateCalendar.IsPublicHoliday(eastGermanUprisingMemorialDay2029));
+                }
+                else
+                {
+                    Assert.IsFalse(stateCalendar.IsPublicHoliday(liberationDay2024));
+                    Assert.IsFalse(stateCalendar.IsPublicHoliday(liberationDay2025));
+                    Assert.IsFalse(stateCalendar.IsPublicHoliday(liberationDay2026));
+
+                    Assert.IsFalse(stateCalendar.IsPublicHoliday(eastGermanUprisingMemorialDay2027));
+                    Assert.IsFalse(stateCalendar.IsPublicHoliday(eastGermanUprisingMemorialDay2028));
+                    Assert.IsFalse(stateCalendar.IsPublicHoliday(eastGermanUprisingMemorialDay2029));
+                }
+            }
+        }
     }
 }
