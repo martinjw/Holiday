@@ -60,7 +60,9 @@
 3.0.0: #138 Remove Japanese character from method name due to MsBuild error- breaking change (thanks @vilinet @wollac11 ); #139 add business days calculations
 3.1.0: #141 Issue with Greeneryday in Japan in 2025
 3.2.0: Added support for Christmas Eve as a public holiday in Poland starting in 2025 (thanks @Eales). Updated Polish public holidays to include dynamic calculations for movable holidays like Pentecost and Corpus Christi.
-3.3.0:  added Berlin state one-time holidays to GermanPublicHoliday (thanks @emuuu )</PackageReleaseNotes>
+3.3.0:  added Berlin state one-time holidays to GermanPublicHoliday (thanks @emuuu )
+3.4.0: added Luxembourg Europe Day (since 2019, thanks @bbehrang)
+</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
@@ -75,7 +77,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>3.3.0</Version>
+    <Version>3.4.0</Version>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>

@@ -65,6 +65,26 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Europadag - Europe Day, since 2019
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <returns></returns>
+        public static DateTime EuropeDay(int year)
+        {
+            return new DateTime(year, 5, 9);
+        }
+
+        /// <summary>
+        /// Whether <see cref="EuropeDay"/> is applied (introduced in 2019)
+        /// </summary>
+        /// <param name="year">The year</param>
+        /// <returns></returns>
+        public static bool HasEuropeDay(int year)
+        {
+            return year >= 2019;
+        }
+
+        /// <summary>
         /// Nationalfeierdag - National Day
         /// </summary>
         /// <param name="year">The year.</param>
@@ -157,7 +177,15 @@ namespace PublicHoliday
             bHols.Add(EasterMonday(easter), "Ouschterméindeg");
             bHols.Add(labourDay, "Dag vun der Aarbecht");
             bHols.Add(ascension, "Christi Himmelfaar");
-            bHols.Add(PentecostMonday(easter), "Péngschtméindeg");
+            var pentecostMonday = PentecostMonday(easter);
+            bHols.Add(pentecostMonday, "Péngschtméindeg");
+            if (HasEuropeDay(year))
+            {
+                var europeDay = EuropeDay(year);
+                //09/05/2024 was both Europe Day and Ascension
+                if (europeDay == ascension) europeDay = europeDay.AddSeconds(1);
+                bHols.Add(europeDay, "Europadag");
+            }
             bHols.Add(NationalDay(year), "Nationalfeierdag");
             bHols.Add(Assumption(year), "Mariä Himmelfaart");
             bHols.Add(AllSaints(year), "Allerhellgen");
@@ -193,6 +221,8 @@ namespace PublicHoliday
 
                 case 5:
                     if (LabourDay(year) == date)
+                        return true;
+                    if (HasEuropeDay(year) && EuropeDay(year) == date)
                         return true;
                     if (Ascension(year) == date)
                         return true; // usually in May (may 25, 2006)

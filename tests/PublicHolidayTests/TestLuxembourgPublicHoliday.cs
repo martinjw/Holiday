@@ -37,6 +37,16 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
+        public void TestHolidays2024Lists()
+        {
+            var holidayCalendar = new LuxembourgPublicHoliday();
+            var hols = holidayCalendar.PublicHolidays(2024);
+            var holNames = holidayCalendar.PublicHolidayNames(2024);
+            Assert.IsTrue(11 == hols.Count, "Should be 11 holidays in 2024 (although 2 are on the same day-9/5/2024)");
+            Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+        }
+
+        [TestMethod]
         public void TestAscension()
         {
             //Issue #40
