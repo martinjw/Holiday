@@ -182,6 +182,9 @@ namespace PublicHoliday
         public static DateTime? GeneralPrayerDay(int year)
         {
             var easter = HolidayCalculator.GetEaster(year);
+            // No longer a public holiday from 2024
+            if (easter.Year >= 2024)
+                return null;
             return GeneralPrayerDay(easter);
         }
 
@@ -288,8 +291,9 @@ namespace PublicHoliday
         /// <returns></returns>
         public override IDictionary<DateTime, string> PublicHolidayNames(int year)
         {
-            DateTime easter = HolidayCalculator.GetEaster(year);
-            DateTime ascension = Ascension(easter);
+            var easter = HolidayCalculator.GetEaster(year);
+            var ascension = Ascension(easter);
+            var generalPrayerDay = GeneralPrayerDay(easter);
 
             var allHolidays = new List<KeyValuePair<DateTime?, string>>()
             {
@@ -300,7 +304,6 @@ namespace PublicHoliday
                 new KeyValuePair<DateTime?,string>(EasterMonday(easter), "Anden påskedag"),
                 new KeyValuePair<DateTime?,string>(InternalLabourDay(year), "Første maj"),
                 new KeyValuePair<DateTime?,string>(InternalConstitutionDay(year), "Grundlovsdag"),
-                new KeyValuePair<DateTime?,string>(GeneralPrayerDay(easter), "Store bededag"),
                 new KeyValuePair<DateTime?,string>(ascension, "Kristi himmelfartsdag"),
                 new KeyValuePair<DateTime?,string>(DayAfterAscension(ascension), "Dagen efter Kristi himmelfartsdag"),
                 new KeyValuePair<DateTime?,string>(WhitSunday(easter), "Pinsedag"),
@@ -310,6 +313,12 @@ namespace PublicHoliday
                 new KeyValuePair<DateTime?,string>(BoxingDay(year), "Anden juledag"),
                 new KeyValuePair<DateTime?,string>(InternalNewYearsEve(year), "Nytårsaftensdag"),
             };
+
+            if (generalPrayerDay != null)
+            {
+                allHolidays.Add(new KeyValuePair<DateTime?, string>(generalPrayerDay, "Store bededag"));
+            }
+
 
             var publicHolidayNames = new Dictionary<DateTime, string>();
 
