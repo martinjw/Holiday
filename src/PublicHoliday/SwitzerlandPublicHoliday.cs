@@ -1240,28 +1240,58 @@ namespace PublicHoliday
         {
             // avoids having to recalculate it each time for different public holidays :
             var easter = HolidayCalculator.GetEaster(year);
-
             var bHols = new List<Holiday>
             {
-                NewYearHoliday(year),
-                SecondJanuaryHoliday(year),
-                EpiphanyHoliday(year),
-                RepublicDayHoliday(year),
-                StJosephDayHoliday(year),
-                GoodFridayHoliday(easter),
-                EasterMondayHoliday(easter),
-                LabourDayHoliday(year),
-                AscensionHoliday(easter),
-                WhitMondayHoliday(easter),
-                CorpusChristiHoliday(easter),
-                NationalDayHoliday(year),
-                AssumptionHoliday(year),
-                GenevaPrayDayHoliday(year),
-                AllSaintsHoliday(year),
-                ImmaculateConceptionHoliday(year),
-                ChristmasHoliday(year),
-                SaintStephensDayHoliday(year)
+                NewYearHoliday(year)
             };
+
+            if (_hasSecondJanuary || HasSecondJanuary)
+                bHols.Add(SecondJanuaryHoliday(year));
+
+            if (HasEpiphany)
+                bHols.Add(EpiphanyHoliday(year));
+
+            if (HasRepublicDay)
+                bHols.Add(RepublicDayHoliday(year));
+
+            if (HasStJosephDay)
+                bHols.Add(StJosephDayHoliday(year));
+
+            if (HasGoodFriday)
+                bHols.Add(GoodFridayHoliday(easter));
+
+            if (HasEasterMonday)
+                bHols.Add(EasterMondayHoliday(easter));
+
+            if (HasLabourDay || _hasLabourDay)
+                bHols.Add(LabourDayHoliday(year));
+
+            bHols.Add(AscensionHoliday(easter));
+
+            if (HasWhitMonday)
+                bHols.Add(WhitMondayHoliday(easter));
+
+            if (_hasCorpusChristi || HasCorpusChristi)
+                bHols.Add(CorpusChristiHoliday(easter));
+
+            bHols.Add(NationalDayHoliday(year));
+
+            if (HasAssumption)
+                bHols.Add(AssumptionHoliday(year));
+
+            if (HasGenevaPrayDay)
+                bHols.Add(GenevaPrayDayHoliday(year));
+
+            if (HasAllSaints)
+                bHols.Add(AllSaintsHoliday(year));
+
+            if (HasImmaculateConception)
+                bHols.Add(ImmaculateConceptionHoliday(year));
+
+            bHols.Add(ChristmasHoliday(year));
+
+            if (HasSaintStephensDay)
+                bHols.Add(SaintStephensDayHoliday(year));
 
             return bHols;
         }
