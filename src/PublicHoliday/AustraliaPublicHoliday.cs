@@ -235,7 +235,7 @@ namespace PublicHoliday
         /// <param name="year"></param>
 
         public static DateTime BankHoliday(int year) {
-            //only Northern Territory
+            //only NSW financial services and banking sectors
             return HolidayCalculator.FindNext(new DateTime(year, 8, 1), DayOfWeek.Monday);
         }
 
