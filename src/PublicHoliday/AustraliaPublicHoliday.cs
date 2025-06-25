@@ -21,6 +21,12 @@ namespace PublicHoliday
         /// </summary>
         public States State { get; set; }
 
+
+        /// <summary>
+        /// Set this true to include the NSW Bank holiday as a public holiday, 
+        /// </summary>
+        public bool IncludeNSWBankHoliday { get; set; } = false;
+
         /// <summary>
         ///
         /// </summary>
@@ -224,6 +230,17 @@ namespace PublicHoliday
         }
 
         /// <summary>
+        /// Bank Holiday (NSW only), first Monday of August
+        /// </summary>
+        /// <param name="year"></param>
+
+        public static DateTime BankHoliday(int year) {
+            //only Northern Territory
+            return HolidayCalculator.FindNext(new DateTime(year, 8, 1), DayOfWeek.Monday);
+        }
+
+
+        /// <summary>
         /// Family  and community day, Australian Capital Territory.
         /// </summary>
         /// <param name="year">The year.</param>
@@ -389,6 +406,11 @@ namespace PublicHoliday
             {
                 bHols.Add(MelbourneCup(year), "Melbourne Cup");
             }
+            if(State == States.NSW) 
+            {
+                if(IncludeNSWBankHoliday)
+                    bHols.Add(BankHoliday(year), "Bank Holiday");
+            }
             bHols.Add(Christmas(year), "Christmas Day");
             bHols.Add(BoxingDay(year), State == States.SA ? "Proclamation Day" : "Boxing Day");
 
@@ -467,8 +489,13 @@ namespace PublicHoliday
                     break;
 
                 case 8:
+
                     if (State == States.NT && PicnicDay(year) == date)
                         return true;
+
+                    if (State == States.NSW && IncludeNSWBankHoliday && BankHoliday(year) == date)
+                        return true;
+
                     break;
 
                 case 9:
