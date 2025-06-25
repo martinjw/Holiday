@@ -193,5 +193,16 @@ namespace PublicHolidayTests
             var holNames = holidayCalendar.PublicHolidayNames(year);
             Assert.IsTrue(holNames.ContainsKey(kingQueenBirthday));
         }
+
+        [DataTestMethod]
+        [DataRow(2022, 8, 1, "Bank Holiday")] 
+        [DataRow(2024, 8, 5, "Bank Holiday")]
+        public void TestNSWBankHoliday(int year, int month, int day, string name) {
+            var bankHoliday = new DateTime(year, month, day);
+            Assert.AreEqual(bankHoliday, AustraliaPublicHoliday.BankHoliday(year), $"Holiday for {name} {year}"); 
+            var holidayCalendar = new AustraliaPublicHoliday { State = AustraliaPublicHoliday.States.NSW, IncludeNSWBankHoliday = true };
+            var holNames = holidayCalendar.PublicHolidayNames(year);
+            Assert.IsTrue(holNames.ContainsKey(bankHoliday));
+        }
     }
 }
