@@ -411,6 +411,8 @@ namespace PublicHoliday
                         return true;
                     if (BoxingDay(year) == date)
                         return true;
+                    if (UkCountry == UkCountries.Scotland && StAndrews(year) == date)
+                        return true;
                     break;
             }
             if ((year == 2002) &&
