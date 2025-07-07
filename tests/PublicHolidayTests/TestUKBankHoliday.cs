@@ -363,14 +363,31 @@ namespace PublicHolidayTests
             }
         }
 
+        [TestMethod]
+        public void TestScotland2024()
+        {
+            var ukHols = new UKBankHoliday { UkCountry = UKBankHoliday.UkCountries.Scotland };
+            var hols = ukHols.PublicHolidayNames(2024);
+            Assert.AreEqual(9, hols.Count, "There are 9 holidays");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2024, 12, 02)), "St Andrew's Day");
+            foreach (var dateTime in hols.Keys)
+            {
+                Assert.IsTrue(ukHols.IsBankHoliday(dateTime), $"IsBankHoliday for {hols[dateTime]}");
+            }
+        }
 
         [TestMethod]
         public void TestScotland2025()
         {
             //according to https://www.mygov.scot/scotland-bank-holidays official dates:
             var ukHols = new UKBankHoliday { UkCountry = UKBankHoliday.UkCountries.Scotland };
-            var hols = ukHols.PublicHolidays(2025);
+            var hols = ukHols.PublicHolidayNames(2025);
             Assert.AreEqual(9, hols.Count, "There are 9 holidays");
+            Assert.IsTrue(hols.ContainsKey(new DateTime(2025, 12, 01)), "St Andrew's Day");
+            foreach (var dateTime in hols.Keys)
+            {
+                Assert.IsTrue(ukHols.IsBankHoliday(dateTime), $"IsBankHoliday for {hols[dateTime]}");
+            }
         }
 
         [TestMethod]
