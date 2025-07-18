@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
+using System;
 using System.Collections.Generic;
 
 namespace PublicHolidayTests
@@ -33,6 +34,7 @@ namespace PublicHolidayTests
                 PublicHolidayFactory.GetPublicHolidayForCountry("LU"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("NZ"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("NO"),
+                PublicHolidayFactory.GetPublicHolidayForCountry("PL"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("PO"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("PT"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("RO"),
@@ -59,6 +61,56 @@ namespace PublicHolidayTests
                     var hInfo = calendar.PublicHolidaysInformation(year);
                     Assert.IsTrue(hInfo.Count > 0, $"Holidays for {calendar} in {year}");
                 }
+            }
+        }
+
+        [TestMethod]
+        public void TestHolidayFactory()
+        {
+            var list = new Dictionary<string, Type>
+            {
+                { "AT", typeof(AustriaPublicHoliday) },
+                { "AU", typeof(AustraliaPublicHoliday) },
+                { "BE", typeof(BelgiumPublicHoliday) },
+                { "BR", typeof(BrazilPublicHoliday) },
+                { "CA", typeof(CanadaPublicHoliday) },
+                { "CH", typeof(SwitzerlandPublicHoliday) },
+                { "CZ", typeof(CzechRepublicPublicHoliday) },
+                { "DE", typeof(GermanPublicHoliday) },
+                { "DK", typeof(DenmarkPublicHoliday) },
+                { "EE", typeof(EstoniaPublicHoliday) },
+                { "ES", typeof(SpainPublicHoliday) },
+                { "FI", typeof(FinlandPublicHoliday) },
+                { "FR", typeof(FrancePublicHoliday) },
+                { "GB", typeof(UKBankHoliday) },
+                { "GR", typeof(GreecePublicHoliday) },
+                { "IE", typeof(IrelandPublicHoliday) },
+                { "IT", typeof(ItalyPublicHoliday) },
+                { "JP", typeof(JapanPublicHoliday) },
+                { "KZ", typeof(KazakhstanPublicHoliday) },
+                { "LT", typeof(LithuaniaPublicHoliday) },
+                { "LU", typeof(LuxembourgPublicHoliday) },
+                { "NL", typeof(DutchPublicHoliday) },
+                { "NO", typeof(NorwayPublicHoliday) },
+                { "NZ", typeof(NewZealandPublicHoliday) },
+                { "PL", typeof(PolandPublicHoliday) },
+                { "PO", typeof(PolandPublicHoliday) }, //incorrect ISO code
+                { "PT", typeof(PortugalPublicHoliday) },
+                { "RO", typeof(RomanianPublicHoliday) },
+                { "RS", typeof(SerbianPublicHoliday) },
+                { "SE", typeof(SwedenPublicHoliday) },
+                { "SI", typeof(SloveniaPublicHoliday) },
+                { "SK", typeof(SlovakiaPublicHoliday) },
+                { "TR", typeof(TurkeyPublicHoliday) },
+                { "US", typeof(USAPublicHoliday) },
+                { "ZA", typeof(SouthAfricaPublicHoliday) },
+            };
+
+            Assert.AreEqual(Enum.GetNames(typeof(PublicHolidayCountryCode)).Length, list.Count);
+
+            foreach (var holidayClass in list)
+            {
+                Assert.IsInstanceOfType(PublicHolidayFactory.GetPublicHolidayForCountry(holidayClass.Key), holidayClass.Value);
             }
         }
     }
