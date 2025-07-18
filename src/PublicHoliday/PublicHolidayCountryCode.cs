@@ -47,7 +47,7 @@
         Nz,
         /// <summary>Norway</summary> 
         No,
-        /// <summary>Poland</summary> 
+        /// <summary>Poland (incorrect ISO code)</summary> 
         Po,
         /// <summary>Portugal</summary> 
         Pt,
@@ -73,5 +73,7 @@
         Gb,
         /// <summary>USA</summary> 
         Us,
+        /// <summary>Poland</summary> 
+        Pl,
     }
 }
