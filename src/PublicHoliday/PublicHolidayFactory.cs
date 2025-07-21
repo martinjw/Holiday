@@ -52,7 +52,8 @@ namespace PublicHoliday
                 case "LU": return new LuxembourgPublicHoliday();
                 case "NZ": return new NewZealandPublicHoliday();
                 case "NO": return new NorwayPublicHoliday();
-                case "PO": return new PolandPublicHoliday();
+                case "PO":
+                case "PL": return new PolandPublicHoliday();
                 case "PT": return new PortugalPublicHoliday();
                 case "RO": return new RomanianPublicHoliday();
                 case "RS": return new SerbianPublicHoliday();
