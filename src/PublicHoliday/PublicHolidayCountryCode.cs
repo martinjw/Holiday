@@ -31,6 +31,8 @@
         De,
         /// <summary>Greece</summary> 
         Gr,
+        /// <summary>Croatia</summary> 
+        Hr,
         /// <summary>Ireland</summary> 
         Ie,
         /// <summary>Italy</summary> 

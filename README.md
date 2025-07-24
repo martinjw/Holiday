@@ -30,6 +30,7 @@ There are libraries for:
 - Europe
   - Austria : AustriaPublicHoliday
   - Belgium : BelgiumPublicHoliday
+  - Croatia : CroatiaPublicHoliday
   - Czech Republic : CzechRepublicPublicHoliday
   - ECB : EcbTargetClosingDay (European Central Bank SEPA Target Closing days - no exchange rates and no SEPA transactions)
   - Denmark : DenmarkPublicHoliday
