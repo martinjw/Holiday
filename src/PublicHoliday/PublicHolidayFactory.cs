@@ -44,6 +44,7 @@ namespace PublicHoliday
                 case "FR": return new FrancePublicHoliday();
                 case "DE": return new GermanPublicHoliday();
                 case "GR": return new GreecePublicHoliday();
+                case "HR": return new CroatiaPublicHoliday();
                 case "IE": return new IrelandPublicHoliday();
                 case "IT": return new ItalyPublicHoliday();
                 case "JP": return new JapanPublicHoliday();
