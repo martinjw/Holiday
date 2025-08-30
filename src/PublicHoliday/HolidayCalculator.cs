@@ -176,6 +176,7 @@ namespace PublicHoliday
         {
             return FindOccurrenceOfDayOfWeek(hol, DayOfWeek.Monday, 1);
         }
+
         public static DateTime GetFirstFridayBeforeDate(DateTime date)
         {
             // Calculate the difference in days between the target day (Friday) and the current day of the week
@@ -415,6 +416,29 @@ namespace PublicHoliday
             }
 
             return count;
+        }
+
+        /// <summary>
+        /// Returns the N-th occurrence of a specific day of the week in a given week/month/year.
+        /// </summary>
+        public static DateTime GetDayOfWeekInMonth(int year, int month, DayOfWeek dayOfWeek, int week)
+        {
+            if (week < 1 || week > 5)
+                throw new ArgumentOutOfRangeException(nameof(week), "Week must be between 1 and 5");
+
+            // First day of the month
+            DateTime date = new DateTime(year, month, 1, 0, 0, 0, DateTimeKind.Local);
+
+            // Move forward until we find the desired day of the week
+            while (date.DayOfWeek != dayOfWeek)
+            {
+                date = date.AddDays(1);
+            }
+
+            // Add (week - 1) * 7 days to get the correct occurrence
+            DateTime result = date.AddDays((week - 1) * 7);
+
+            return result;
         }
     }
 }

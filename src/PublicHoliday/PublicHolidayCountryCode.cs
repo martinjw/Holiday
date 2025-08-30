@@ -45,6 +45,8 @@
         Lt,
         /// <summary>Luxembourg</summary> 
         Lu,
+        /// <summary>Mexico</summary> 
+        Mx,
         /// <summary>New Zealand</summary> 
         Nz,
         /// <summary>Norway</summary> 

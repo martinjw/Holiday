@@ -51,6 +51,7 @@ namespace PublicHoliday
                 case "KZ": return new KazakhstanPublicHoliday();
                 case "LT": return new LithuaniaPublicHoliday();
                 case "LU": return new LuxembourgPublicHoliday();
+                case "MX": return new MexicoPublicHoliday();
                 case "NZ": return new NewZealandPublicHoliday();
                 case "NO": return new NorwayPublicHoliday();
                 case "PO":
