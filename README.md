@@ -62,6 +62,7 @@ There are libraries for:
 - N America
   - Canada : CanadaPublicHoliday (set Province in constructor for regional holidays)
   - Canada : CanadaQuebecGovClosingDay (Government province of Quebec closing day)
+  - Mexico : MexicoPublicHoliday
   - USA : USAPublicHoliday
   - USA : USAFederalReserveHoliday
   - USA : USANewYorkStockExchangeHoliday
