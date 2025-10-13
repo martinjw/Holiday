@@ -25,7 +25,7 @@ namespace PublicHolidayTests
             }
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "New Year's Day, Sunday")]
         [DataRow(1, 6, "Epiphany")]
         [DataRow(2, 27, "Clean Monday")]

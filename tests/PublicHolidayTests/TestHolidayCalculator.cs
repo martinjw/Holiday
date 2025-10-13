@@ -30,7 +30,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(holiday, result, $"{result.ToString("D")} is not the {holiday} - should be Easter");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2021, 10, 09, 10, 11, "should be monday")]
         [DataRow(2021, 10, 10, 10, 11, "should be monday")]
         [DataRow(2021, 10, 7, 10, 7, "should be same day")]
@@ -44,7 +44,7 @@ namespace PublicHolidayTests
              Assert.AreEqual(holiday, result, $"{result.ToString("D")} is not the {holiday} - {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2021, 10, 9, 10, 8, "should be friday")]
         [DataRow(2021, 10, 10, 10, 11, "should be monday")]
         [DataRow(2021, 10, 7, 10, 7, "should be same day")]
@@ -58,7 +58,7 @@ namespace PublicHolidayTests
              Assert.AreEqual(holiday, result, $"{result.ToString("D")} is not the {holiday} - {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2021, 10, 7, 10, 7, "Week day (Tuesday-Friday) observerd same day")]
         [DataRow(2021, 10, 9, 10, 11, "Saturday day observed the Monday")]
         [DataRow(2021, 10, 10, 10, 12, "Sunday day observed the Tuesday")]
@@ -73,7 +73,7 @@ namespace PublicHolidayTests
              Assert.AreEqual(holiday, result, $"{result.ToString("D")} is not the {holiday} - {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2021, 10, 6, 10, 6, "Week day observerd same day")]
         [DataRow(2021, 10, 9, 10, 8, "Saturday day observed the Friday")]
         [DataRow(2021, 10, 10, 10, 8, "Sunday day observed the Friday")]
@@ -87,7 +87,7 @@ namespace PublicHolidayTests
              Assert.AreEqual(holiday, result, $"{result.ToString("D")} is not the {holiday} - {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2021, 10, 22, 0, true, 2021, 10, 22, "Same day week and not holiday (not openDayAdd)")]
         [DataRow(2021, 10, 23, 0, true, 2021, 10, 25, "Weekend (saturday) go to Monday not holiday (not openDayAdd)")]
         [DataRow(2021, 10, 24, 0, true, 2021, 10, 25, "Weekend (sunday) go to Monday not holiday (not openDayAdd)")]
@@ -130,16 +130,19 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException), "openDayAdd negative is not allowed.")]
         public void TestNextWorkingDay_ArgumentOutOfRangeException()
         {
-            var datetest = new DateTime(2021, 10, 22);
-            var result = HolidayCalculator.NextWorkingDay(new PublicHolidayHelperTest(), datetest, -1);
+            Assert.ThrowsExactly<ArgumentOutOfRangeException>(() =>
+            {
 
-            Assert.Fail("Not ArgumentOutOfRangeException");
+                var datetest = new DateTime(2021, 10, 22);
+                var result = HolidayCalculator.NextWorkingDay(new PublicHolidayHelperTest(), datetest, -1);
+
+                Assert.Fail("Not ArgumentOutOfRangeException");
+            });
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2021, 10, 22, 0, true, 2021, 10, 22, "Same day week and not holiday (not opendaysubstract)")]
         [DataRow(2021, 10, 23, 0, true, 2021, 10, 22, "Weekend (saturday) go to Friday not holiday (not opendaysubstract)")]
         [DataRow(2021, 10, 24, 0, true, 2021, 10, 22, "Weekend (sunday) go to Friday not holiday (not opendaysubstract)")]
@@ -182,13 +185,16 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException), "daysubstract negative is not allowed.")]
         public void TestPreviousWorkingDay_ArgumentOutOfRangeException()
         {
-            var datetest = new DateTime(2021, 10, 22);
-            var result = HolidayCalculator.PreviousWorkingDay(new PublicHolidayHelperTest(), datetest, -1);
+            Assert.ThrowsExactly<ArgumentOutOfRangeException>(() =>
+            {
 
-            Assert.Fail("Not ArgumentOutOfRangeException");
+                var datetest = new DateTime(2021, 10, 22);
+                var result = HolidayCalculator.PreviousWorkingDay(new PublicHolidayHelperTest(), datetest, -1);
+
+                Assert.Fail("Not ArgumentOutOfRangeException");
+            });
         }
 
         [TestMethod]

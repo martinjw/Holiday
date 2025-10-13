@@ -8,7 +8,7 @@ namespace PublicHolidayTests
     public class TestCanadaQuebecGovClosingDay
     {
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 2, "New Year")]
         [DataRow(1, 3, "Day After New Year")]
         [DataRow(4, 14, "Good Friday")]
@@ -30,7 +30,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday - should be {name}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "New Year")]
         [DataRow(1, 4, "Day After New Year")]
         [DataRow(3, 25, "Good Friday")]
@@ -53,7 +53,7 @@ namespace PublicHolidayTests
            
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 3, "New Year")]
         [DataRow(1, 4, "Day After New Year")]
         [DataRow(4, 22, "Good Friday")]
@@ -87,7 +87,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2021, 2021, 1, 1, "New Year week day observerd same day")]
         [DataRow(2011, 2011, 1, 3, "New Year Saturday day observed the Monday")]
         [DataRow(2017, 2017, 1, 2, "New Year Sunday day observed the Monday")]
@@ -99,7 +99,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2020, 2020, 1, 2, "Day After New Year week day (Tuesday-Friday) observerd same day")]
         [DataRow(2021, 2021, 1, 4, "Day After New Year Saturday day observed the Monday")]
         [DataRow(2011, 2011, 1, 4, "Day After New Year Sunday day observed the Tuesday")]
@@ -112,7 +112,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2010, 2010, 4, 2, "Good Friday")]
         [DataRow(2011, 2011, 4, 22, "Good Friday")]
         [DataRow(2012, 2012, 4, 6, "Good Friday")]
@@ -131,7 +131,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2010, 2010, 4, 5, "Easter Monday")]
         [DataRow(2011, 2011, 4, 25, "Easter Monday")]
         [DataRow(2012, 2012, 4, 9, "Easter Monday")]
@@ -150,7 +150,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2010, 2010, 5, 24, "National Patriot Day")]
         [DataRow(2011, 2011, 5, 23, "National Patriot Day")]
         [DataRow(2012, 2012, 5, 21, "National Patriot Day")]
@@ -166,7 +166,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2021, 2021, 6, 24, "National Holiday week day (Monday-Friday) observerd same day")]
         [DataRow(2017, 2017, 6, 23, "National Holiday Saturday observerd Friday")]
         [DataRow(2018, 2018, 6, 25, "National Holiday Sunday observerd Monday")]
@@ -178,7 +178,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2021, 2021, 7, 1, "Canada Day week day (Monday-Friday) observerd same day")]
         [DataRow(2017, 2017, 6, 30, "Canada Day Saturday observerd Friday")]
         [DataRow(2018, 2018, 7, 2, "Canada Day Sunday observerd Monday")]
@@ -190,7 +190,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2010, 2010, 9, 6, "Labour Day")]
         [DataRow(2011, 2011, 9, 5, "Labour Day")]
         [DataRow(2012, 2012, 9, 3, "Labour Day")]
@@ -206,7 +206,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2010, 2010, 10, 11, "Thanksgiving")]
         [DataRow(2011, 2011, 10, 10, "Thanksgiving")]
         [DataRow(2012, 2012, 10, 8, "Thanksgiving")]
@@ -222,7 +222,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2015, 2015, 12, 24, "Day Before Christmas week day observerd same day")]
         [DataRow(2016, 2016, 12, 23, "Day Before Christmas Saturday day observed the Monday")]
         [DataRow(2017, 2017, 12, 22, "Day Before Christmas Sunday day observed the Tuesday")]
@@ -234,7 +234,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2012, 2012, 12, 25, "Christmas week day observerd same day")]
         [DataRow(2010, 2010, 12, 27, "Christmas Saturday day observed the Monday")]
         [DataRow(2011, 2011, 12, 26, "Christmas Sunday day observed the Monday")]
@@ -246,7 +246,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2012, 2012, 12, 26, "Day After Christmas week day (Tuesday-Friday) observerd same day")]
         [DataRow(2015, 2015, 12, 28, "Day After Christmas Saturday day observed the Monday")]
         [DataRow(2010, 2010, 12, 28, "Day After Christmas Sunday day observed the Tuesday")]
@@ -259,7 +259,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2015, 2015, 12, 31, "Day Before New Year week day observerd same day")]
         [DataRow(2016, 2016, 12, 30, "Day Before New Year Saturday day observed the Friday")]
         [DataRow(2017, 2017, 12, 29, "Day Before New Year Sunday day observed the Friday")]
@@ -271,7 +271,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(result, holiday, $"{result.ObservedDate.ToString("D")} is not the {holiday.ToString()} - should be {description}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2021, 12, 25, 0, 2021, 12, 29, "Christmas a Satuday NextWorkingDay with 0 openDayAdd the Wednesday")]
         public void TestNextWorkingDay(int year, int month, int day, int openDayAdd, int yearresult, int monthresult, int dayresult, string description)
         {

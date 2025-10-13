@@ -7,7 +7,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestJapanPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 2, "New year - observed on Monday")]
         [DataRow(1, 9, "Coming of Age Day")]
         [DataRow(2, 11, "Foundation Day (Saturday)")]
@@ -32,7 +32,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday -{name}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "New year - observed on Monday")]
         [DataRow(1, 13, "Coming of Age Day")]
         [DataRow(2, 11, "Foundation Day (Saturday)")]

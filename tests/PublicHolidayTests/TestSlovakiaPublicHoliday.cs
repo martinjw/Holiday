@@ -10,7 +10,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestSlovakiaPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(1, 6)]
         [DataRow(4, 14)]
@@ -34,7 +34,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(5, 9)]
         [DataRow(10, 28)]
         public void TestSkNoHolidays2017(int month, int day)
@@ -45,7 +45,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(4, 14)]
         [DataRow(5, 1)]
@@ -61,7 +61,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 6)]
         [DataRow(4, 11)]
         [DataRow(5, 8)]
@@ -80,7 +80,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(4, 15)]
         [DataRow(5, 1)]
@@ -96,7 +96,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 6)]
         [DataRow(4, 12)]
         [DataRow(5, 8)]
@@ -115,7 +115,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(3, 31)]
         [DataRow(5, 1)]
@@ -130,7 +130,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 6)]
         [DataRow(3, 28)]
         [DataRow(5, 8)]
@@ -150,7 +150,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(4, 20)]
         [DataRow(5, 1)]
@@ -165,7 +165,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 6)]
         [DataRow(4, 17)]
         [DataRow(5, 8)]
@@ -185,7 +185,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(4, 4)]
         [DataRow(5, 1)]
@@ -201,7 +201,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 6)]
         [DataRow(4, 1)]
         [DataRow(5, 8)]
@@ -220,7 +220,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(3, 27)]
         [DataRow(5, 1)]
@@ -236,7 +236,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 6)]
         [DataRow(3, 24)]
         [DataRow(5, 8)]
@@ -255,7 +255,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(4, 16)]
         [DataRow(5, 1)]
@@ -273,7 +273,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 6)]
         [DataRow(4, 13)]
         [DataRow(5, 8)]
@@ -290,7 +290,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(4, 1)]
         [DataRow(5, 1)]
@@ -308,7 +308,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 6)]
         [DataRow(3, 29)]
         [DataRow(5, 8)]
@@ -325,7 +325,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(4, 20)]
         [DataRow(5, 1)]
@@ -343,7 +343,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 6)]
         [DataRow(4, 17)]
         [DataRow(5, 9)]
@@ -360,7 +360,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(4, 12)]
         [DataRow(5, 1)]
@@ -378,7 +378,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 6)]
         [DataRow(4, 9)]
         [DataRow(5, 9)]
@@ -395,7 +395,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(1, 6)]
         [DataRow(4, 1)]
@@ -417,7 +417,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(5, 8)]
         [DataRow(5, 9)]
         [DataRow(10, 28)]
@@ -430,7 +430,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(1, 6)]
         [DataRow(4, 5)]
@@ -452,7 +452,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(5, 8)]
         [DataRow(5, 9)]
         [DataRow(10, 28)]
@@ -465,7 +465,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(1, 6)]
         [DataRow(3, 28)]
@@ -488,7 +488,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(5, 9)]
         [DataRow(10, 28)]
         [DataRow(11, 17)]
@@ -500,7 +500,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(1, 6)]
         [DataRow(4, 21)]
@@ -523,7 +523,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(5, 9)]
         [DataRow(10, 28)]
         [DataRow(11, 17)]
@@ -535,7 +535,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(actual, $"{holiday.ToString("D")} is a holiday (shouldn't be)");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(1, 6)]
         [DataRow(4, 13)]
@@ -559,7 +559,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(5, 9)]
         [DataRow(10, 28)]
         public void TestSkNoHolidays2001(int month, int day)

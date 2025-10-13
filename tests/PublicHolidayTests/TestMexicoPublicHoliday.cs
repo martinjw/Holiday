@@ -7,7 +7,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestMexicoPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(2, 5)]
         [DataRow(3, 18)]
@@ -23,7 +23,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(10, 1)]
         public void TestPresidentialInaugurationHoliday2030(int month, int day)
         {
@@ -34,7 +34,7 @@ namespace PublicHolidayTests
         }
 
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(2, 3)]
         [DataRow(3, 17)]

@@ -9,7 +9,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestPortugalPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(PortugalPublicHoliday.Regions.OnlyOfficial)]
         [DataRow(PortugalPublicHoliday.Regions.Acores)]
         [DataRow(PortugalPublicHoliday.Regions.Madeira)]

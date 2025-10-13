@@ -198,8 +198,8 @@ namespace PublicHolidayTests
         public void TestDisabledHolidays()
         {
             var holidays = new DenmarkPublicHoliday(includeConstitutionDay: false, includeLabourDay: false).PublicHolidayNames(2023);
-            Assert.ThrowsException<KeyNotFoundException>(() => holidays[DenmarkPublicHoliday.ConstitutionDay(2023)]);
-            Assert.ThrowsException<KeyNotFoundException>(() => holidays[DenmarkPublicHoliday.LabourDay(2023)]);
+            Assert.ThrowsExactly<KeyNotFoundException>(() => holidays[DenmarkPublicHoliday.ConstitutionDay(2023)]);
+            Assert.ThrowsExactly<KeyNotFoundException>(() => holidays[DenmarkPublicHoliday.LabourDay(2023)]);
         }
 
         [TestMethod]

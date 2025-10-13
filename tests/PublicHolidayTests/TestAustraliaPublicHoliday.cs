@@ -77,7 +77,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 2, "new year (sunday, so monday is holiday)")]
         [DataRow(1, 26, "australia")]
         [DataRow(4, 14, "good friday")]
@@ -95,7 +95,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday - should be {name}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 2, "new year (sunday, so monday is holiday)")]
         [DataRow(1, 26, "australia")]
         [DataRow(4, 14, "good friday")]
@@ -114,7 +114,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday - should be {name}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 2, "new year (sunday, so monday is holiday)")]
         [DataRow(1, 26, "australia")]
         [DataRow(4, 14, "good friday")]
@@ -133,7 +133,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday - should be {name}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 2, "new year (sunday, so monday is holiday)")]
         [DataRow(1, 26, "australia")]
         [DataRow(3, 13, "labour day")]
@@ -152,7 +152,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday - should be {name}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 2, "new year (sunday, so monday is holiday)")]
         [DataRow(1, 26, "australia")]
         [DataRow(3, 6, "labour day")]
@@ -181,7 +181,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2022, 6, 13, "Queen's birthday")]
         [DataRow(2023, 6, 12, "King's birthday")]
         public void TestKingsQueensBirthday(int year, int month, int day, string name)
@@ -194,7 +194,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(holNames.ContainsKey(kingQueenBirthday));
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2022, 8, 1, "Bank Holiday")] 
         [DataRow(2024, 8, 5, "Bank Holiday")]
         public void TestNSWBankHoliday(int year, int month, int day, string name) {
