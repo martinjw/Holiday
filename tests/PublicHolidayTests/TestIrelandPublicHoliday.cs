@@ -7,7 +7,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestIrelandPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "New year")]
         [DataRow(3, 17, "St Patrick's")]
         [DataRow(4, 17, "Easter Monday")]
@@ -55,7 +55,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "New year")]
         [DataRow(2, 5, "St Brigid's")]
         [DataRow(3, 17, "St Patrick's")]

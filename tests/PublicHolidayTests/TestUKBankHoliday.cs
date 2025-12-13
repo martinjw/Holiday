@@ -185,7 +185,7 @@ namespace PublicHolidayTests
         public void TestHolidayCount()
         {
             var bankHolidays = UKBankHoliday.BankHolidays(2006);
-            Assert.AreEqual(bankHolidays.Count, 8);
+            Assert.AreEqual(8, bankHolidays.Count);
         }
 
         /// <summary>
@@ -195,7 +195,7 @@ namespace PublicHolidayTests
         public void TestHolidayCount2002()
         {
             var bankHolidays = UKBankHoliday.BankHolidays(2002);
-            Assert.AreEqual(bankHolidays.Count, 9);
+            Assert.AreEqual(9, bankHolidays.Count);
         }
 
         /// <summary>
@@ -205,7 +205,7 @@ namespace PublicHolidayTests
         public void TestHolidayCount1977()
         {
             var bankHolidays = UKBankHoliday.BankHolidays(1977);
-            Assert.AreEqual(bankHolidays.Count, 7);
+            Assert.AreEqual(7, bankHolidays.Count);
         }
 
         [TestMethod]
@@ -303,7 +303,7 @@ namespace PublicHolidayTests
         {
             var dt = UKBankHoliday.Spring(2021);
             var expected = new DateTime(2021, 5, 31);
-            Assert.AreEqual(dt, expected);
+            Assert.AreEqual(expected, dt);
         }
 
         /// <summary>

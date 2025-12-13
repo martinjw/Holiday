@@ -70,7 +70,7 @@ namespace PublicHolidayTests
         }
 
         // https://fi.wikipedia.org/wiki/Juhannus
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2010, 6, 26)]
         [DataRow(2011, 6, 25)]
         [DataRow(2012, 6, 23)]
@@ -93,7 +93,7 @@ namespace PublicHolidayTests
             Assert.AreEqual("Juhannusaatto", holidays[date.AddDays(-1)]);
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2023, 11, 4)]
         [DataRow(2024, 11, 2)]
         [DataRow(2025, 11, 1)]
@@ -108,7 +108,7 @@ namespace PublicHolidayTests
             Assert.AreEqual("Pyhäinpäivä", holidays[date]);
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2020)]
         [DataRow(2021)]
         [DataRow(2022)]
@@ -150,7 +150,7 @@ namespace PublicHolidayTests
 
         }
         
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2000, 13)]
         [DataRow(2001, 13)]
         [DataRow(2002, 13)]

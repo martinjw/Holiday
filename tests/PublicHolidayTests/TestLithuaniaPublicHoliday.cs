@@ -7,7 +7,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestLithuaniaPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "Naujųjų metų diena")]
         [DataRow(2, 16, "Lietuvos valstybės atkūrimo diena")]
         [DataRow(3, 11, "Lietuvos nepriklausomybės atkūrimo diena")]
@@ -32,7 +32,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be {name}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(4, 9, "Šv. Velykos")] // Moving holiday
         [DataRow(4, 10, "Antroji šv. Velykų diena")] // Moving holiday
         [DataRow(5, 1, "Tarptautinė darbo diena")]
@@ -48,7 +48,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be {name}");
         }
         
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(3, 31, "Šv. Velykos")] // Moving holiday
         [DataRow(4, 1, "Antroji šv. Velykų diena")] // Moving holiday
         [DataRow(5, 1, "Tarptautinė darbo diena")]
@@ -92,7 +92,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(holidays.ContainsKey(holiday));
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2022, 8, 13)]
         [DataRow(2022, 8, 14)]
         [DataRow(2022, 8, 15)]
@@ -105,7 +105,7 @@ namespace PublicHolidayTests
             Assert.IsFalse(holidays);
         }
         
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2022, 8, 13)]
         [DataRow(2022, 8, 14)]
         [DataRow(2022, 8, 15)]

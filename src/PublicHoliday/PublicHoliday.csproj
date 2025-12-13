@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <VersionPrefix>1.6.0</VersionPrefix>
-    <TargetFrameworks>net8.0;net6.0;netstandard1.3;netstandard2.1;net35;net40;net46</TargetFrameworks>
+    <TargetFrameworks>net8.0;netstandard2.1;net35;net40;net46</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>PublicHoliday</AssemblyName>
     <PackageId>PublicHoliday</PackageId>

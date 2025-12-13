@@ -8,7 +8,7 @@ namespace PublicHolidayTests.Localization
     [TestClass]
     public class TestResourceProviderXDocument
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow("en", "NewYear", "New Year", "")]
         [DataRow("en", "DayAfterNewYear", "Day After New Year", "")]
         [DataRow("en", "GoodFriday", "Good Friday", "")]

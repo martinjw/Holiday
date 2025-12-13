@@ -7,7 +7,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestSouthAfricaPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 2, "New year - observed on Monday")]
         [DataRow(3, 21, "Human Rights Day")]
         [DataRow(4, 14, "Good Friday")]
@@ -38,7 +38,7 @@ namespace PublicHolidayTests
         }
 
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(3, 22, "Human Rights Day - Observed on Monday")]
         [DataRow(4, 2, "Good Friday")]
         [DataRow(4, 5, "Family Day")]
@@ -78,7 +78,7 @@ namespace PublicHolidayTests
             Assert.AreEqual(new DateTime(2021, 12, 27), boxingDay, "Boxing day should be observed on Monday 27 Dec 2021");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(3, 21, "Human Rights Day")]
         [DataRow(4, 15, "Good Friday")]
         [DataRow(4, 18, "Family Day")]
@@ -120,7 +120,7 @@ namespace PublicHolidayTests
 
 
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 2, "New Years Day - Observed on Monday")]
         [DataRow(3, 21, "Human Rights Day")]
         [DataRow(4, 7, "Good Friday")]
@@ -142,7 +142,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday -{name}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "New Years Day")]
         [DataRow(3, 21, "Human Rights Day")]
         [DataRow(3, 29, "Good Friday")]

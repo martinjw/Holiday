@@ -8,7 +8,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestNewZealandPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 2, "new year")]
         [DataRow(1, 3, "day after new year")]
         [DataRow(2, 6, "Waitangi")]
@@ -28,7 +28,7 @@ namespace PublicHolidayTests
         }
 
         // https://publicholidays.co.nz/2022-dates/
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 24, NewZealandPublicHoliday.ProvincialDistricts.WELLINGTON)]
         [DataRow(1, 31, NewZealandPublicHoliday.ProvincialDistricts.AUCKLAND)]
         [DataRow(1, 31, NewZealandPublicHoliday.ProvincialDistricts.NELSON)]
@@ -54,7 +54,7 @@ namespace PublicHolidayTests
         }
         
         // https://publicholidays.co.nz/2023-dates/
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 23, NewZealandPublicHoliday.ProvincialDistricts.WELLINGTON)]
         [DataRow(1, 30, NewZealandPublicHoliday.ProvincialDistricts.AUCKLAND)]
         [DataRow(1, 30, NewZealandPublicHoliday.ProvincialDistricts.NELSON)]

@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
+using System;
+using System.Collections.Generic;
 
 namespace PublicHolidayTests
 {
@@ -58,10 +58,12 @@ namespace PublicHolidayTests
         [TestMethod]
         public void TestPublicHolidaysInformationCount2024()
         {
-            var holidayCalendar = new FrancePublicHoliday();
-            holidayCalendar.Region = FrancePublicHoliday.Regions.ALL;
+            var holidayCalendar = new FrancePublicHoliday
+            {
+                Region = FrancePublicHoliday.Regions.ALL
+            };
             IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
-            Assert.IsTrue(25 == hols.Count, "Should be 25 holidays");
+            Assert.AreEqual(25, hols.Count, "Should be 25 holidays");
         }
 
 
@@ -74,10 +76,10 @@ namespace PublicHolidayTests
             int counter = 0;
             foreach (var h in hols)
             {
-               if (h.IsPublic) counter++;
+                if (h.IsPublic) counter++;
             }
 
-            Assert.IsTrue(counter == 11, "Should be 11");
+            Assert.AreEqual(11, counter, "Should be 11");
         }
 
 
@@ -108,9 +110,9 @@ namespace PublicHolidayTests
             holidayCalendar.Region = FrancePublicHoliday.Regions.ALL;
             IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
-            Assert.IsTrue(hols[0].IsPublic == true);
+            Assert.IsTrue(hols[0].IsPublic);
             Assert.IsTrue(hols[0].HolidayDate == new DateTime(2024, 1, 1));
-            Assert.IsTrue(hols[0].Regions is null);
+            Assert.IsNull(hols[0].Regions);
         }
 
         [TestMethod]
@@ -120,9 +122,9 @@ namespace PublicHolidayTests
             holidayCalendar.Region = FrancePublicHoliday.Regions.ALL;
             IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
-            Assert.IsTrue(hols[20].IsPublic == true);
+            Assert.IsTrue(hols[20].IsPublic);
             Assert.IsTrue(hols[20].HolidayDate == new DateTime(2024, 11, 1));
-            Assert.IsTrue(hols[20].Regions is null);
+            Assert.IsNull(hols[20].Regions);
         }
 
         [TestMethod]
@@ -132,9 +134,9 @@ namespace PublicHolidayTests
             holidayCalendar.Region = FrancePublicHoliday.Regions.ALL;
             IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
-            Assert.IsTrue(hols[21].IsPublic == true);
+            Assert.IsTrue(hols[21].IsPublic);
             Assert.IsTrue(hols[21].HolidayDate == new DateTime(2024, 11, 11));
-            Assert.IsTrue(hols[21].Regions is null);
+            Assert.IsNull(hols[21].Regions);
         }
 
         [TestMethod]
@@ -144,9 +146,9 @@ namespace PublicHolidayTests
             holidayCalendar.Region = FrancePublicHoliday.Regions.ALL;
             IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
-            Assert.IsTrue(hols[23].IsPublic == true);
+            Assert.IsTrue(hols[23].IsPublic);
             Assert.IsTrue(hols[23].HolidayDate == new DateTime(2024, 12, 25));
-            Assert.IsTrue(hols[23].Regions is null);
+            Assert.IsNull(hols[23].Regions);
         }
 
         [TestMethod]
@@ -156,7 +158,7 @@ namespace PublicHolidayTests
             {
                 var calendar = new FrancePublicHoliday();
                 var hols = calendar.PublicHolidays(i);
-                Assert.IsTrue(11 == hols.Count, "Should be 11 holidays");
+                Assert.AreEqual(11, hols.Count, "Should be 11 holidays");
             }
         }
     }

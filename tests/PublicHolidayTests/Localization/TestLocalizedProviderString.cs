@@ -8,7 +8,7 @@ namespace PublicHolidayTests.Localization
     [TestClass]
     public class TestLocalizedProviderString
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow("E0", "en", "", false, "Not exist")]
         [DataRow("E0", "fr", "", false, "Not exist")]
         [DataRow("E0", "fr-CA", "", false, "Not exist")]
@@ -33,7 +33,7 @@ namespace PublicHolidayTests.Localization
             Assert.AreEqual(valueresult, valueActual, comment);
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow("E0", "", false, "Not exist")]
         [DataRow("E1", "en_V1", true, "Exist in en")]
         public void TestTryGetLocalizedString(string idText, string valueresult, bool result, string comment)
@@ -46,7 +46,7 @@ namespace PublicHolidayTests.Localization
             Assert.AreEqual(valueresult, valueActual, comment);
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow("E0", "en", "", "Not exist")]
         [DataRow("E0", "en-US", "", "Exist in en")]
         [DataRow("E1", "en", "en_V1", "Exist in en")]
@@ -62,7 +62,7 @@ namespace PublicHolidayTests.Localization
             Assert.AreEqual(valueresult, valueActual, comment);
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow("E0", "", "Not exist")]
         [DataRow("E1", "en_V1", "Exist in en")]
         public void TestGetLocalizedString1Param(string idText, string valueResult, string comment)

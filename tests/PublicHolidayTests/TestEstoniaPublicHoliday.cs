@@ -7,7 +7,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestEstoniaPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "New Year's Day")]
         [DataRow(2, 24, "Independence Day")]
         [DataRow(4, 2, "Good Friday")] // Moving holiday
@@ -30,7 +30,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be {name}");
         }
         
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(4, 15, "Good Friday")] // Moving holiday
         [DataRow(4, 17, "Easter Sunday")] // Moving holiday
         [DataRow(6, 5, "Whit Sunday")] // Moving holiday
@@ -44,7 +44,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be {name}");
         }
         
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(4, 7, "Good Friday")] // Moving holiday
         [DataRow(4, 9, "Easter Sunday")] // Moving holiday
         [DataRow(5, 28, "Whit Sunday")] // Moving holiday
@@ -58,7 +58,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be {name}");
         }
         
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(3, 29, "Good Friday")] // Moving holiday
         [DataRow(3, 31, "Easter Sunday")] // Moving holiday
         [DataRow(5, 19, "Whit Sunday")] // Moving holiday
@@ -72,7 +72,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be {name}");
         }
         
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(4, 18, "Good Friday")] // Moving holiday
         [DataRow(4, 20, "Easter Sunday")] // Moving holiday
         [DataRow(6, 8, "Whit Sunday")] // Moving holiday

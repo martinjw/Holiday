@@ -7,7 +7,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestRomanianPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "New Year")]
         [DataRow(1, 2, "New Year")]
         [DataRow(1, 24, "Day of the Unification of the Romanian Principalities")]
@@ -33,7 +33,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be {name}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2010, 4, 4, "Easter 2010")]
         [DataRow(2015, 4, 12, "Easter 2015")]
         [DataRow(2018, 4, 8, "Easter 2018")]

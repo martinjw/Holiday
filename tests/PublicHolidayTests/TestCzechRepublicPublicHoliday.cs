@@ -547,7 +547,6 @@ namespace PublicHolidayTests
         [DataRow(5, 29)] // Corpus Christi
         [DataRow(6, 29)]
         [DataRow(8, 15)]
-        [DataRow(5, 8)]
         [DataRow(7, 5)]
         [DataRow(7, 6)]
         [DataRow(9, 28)]

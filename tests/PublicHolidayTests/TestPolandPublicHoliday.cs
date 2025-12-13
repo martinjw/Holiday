@@ -7,7 +7,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestPolandPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "New Year")]
         [DataRow(1, 6, "Epiphany")]
         [DataRow(4, 17, "Easter Monday")]
@@ -103,7 +103,7 @@ namespace PublicHolidayTests
             }
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "New Year")]
         [DataRow(1, 6, "Epiphany")]
         [DataRow(4, 20, "Easter Sunday")]

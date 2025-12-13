@@ -7,7 +7,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestKazakhstanPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(1, 2)]
         [DataRow(1, 7)]

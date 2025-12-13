@@ -8,7 +8,7 @@ namespace PublicHolidayTests
     public class TestEcbTargetClosingDay
     {
         
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "New Year’s Day")]
         [DataRow(4, 14, "Good Friday")]
         [DataRow(4, 17, "Easter Monday")]
@@ -23,7 +23,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday - should be {name}");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1, "New Year’s Day")]
         [DataRow(3, 25, "Good Friday")]
         [DataRow(3, 28, "Easter Monday")]

@@ -10,7 +10,7 @@ namespace PublicHolidayTests
     public class TestHolidayCalculator
     {
                 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(2010, 4, 4)]
         [DataRow(2011, 4, 24)]
         [DataRow(2012, 4, 8)]

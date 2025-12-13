@@ -9,7 +9,7 @@ namespace PublicHolidayTests
     {
         //source: http://www.australia.gov.au/about-australia/special-dates-and-events/public-holidays
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 2, "new year (sunday, so monday is holiday)")]
         [DataRow(1, 26, "australia")]
         [DataRow(4, 14, "good friday")]
@@ -47,7 +47,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 2, "new year (sunday, so monday is holiday)")]
         [DataRow(1, 26, "australia")]
         [DataRow(3, 13, "Canberra Day")]

@@ -9,7 +9,7 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestTurkeyPublicHoliday
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(4, 23)]
         [DataRow(5, 1)]
@@ -28,10 +28,10 @@ namespace PublicHolidayTests
             var holiday = new DateTime(2023, month, day);
             var holidayCalendar = new TurkeyPublicHoliday();
             var actual = holidayCalendar.IsPublicHoliday(holiday);
-            Assert.AreEqual(true, actual, $"{holiday.ToString("D")} is not a holiday");
+            Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(4, 23)]
         [DataRow(5, 1)]
@@ -51,10 +51,10 @@ namespace PublicHolidayTests
             var holiday = new DateTime(2022, month, day);
             var holidayCalendar = new TurkeyPublicHoliday();
             var actual = holidayCalendar.IsPublicHoliday(holiday);
-            Assert.AreEqual(true, actual, $"{holiday.ToString("D")} is not a holiday");
+            Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(1, 1)]
         [DataRow(4, 23)]
         [DataRow(5, 1)]
@@ -74,7 +74,7 @@ namespace PublicHolidayTests
             var holiday = new DateTime(2021, month, day);
             var holidayCalendar = new TurkeyPublicHoliday();
             var actual = holidayCalendar.IsPublicHoliday(holiday);
-            Assert.AreEqual(true, actual, $"{holiday.ToString("D")} is not a holiday");
+            Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
         [TestMethod]
