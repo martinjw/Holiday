@@ -266,5 +266,12 @@ namespace PublicHolidayTests
             Assert.IsTrue(CanadaPublicHoliday.HasDiscoveryDay("YT"));
             Assert.IsFalse(CanadaPublicHoliday.HasDiscoveryDay());
         }
+
+        [TestMethod]
+        public void BoxingDayTest()
+        {
+            var disc = CanadaPublicHoliday.BoxingDay(2026);
+            Assert.AreEqual(DayOfWeek.Saturday, disc.DayOfWeek, "Date is not shifted if Sat or Sun");
+        }
     }
 }

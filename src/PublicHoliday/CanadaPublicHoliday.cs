@@ -427,13 +427,13 @@ namespace PublicHoliday
         public static DateTime BoxingDay(int year)
         {
             DateTime hol = new DateTime(year, 12, 26);
-            //if Xmas=Sun, it's shifted to Mon and 26 also gets shifted
-            bool isSundayOrMonday =
-                hol.DayOfWeek == DayOfWeek.Sunday ||
-                hol.DayOfWeek == DayOfWeek.Monday;
-            hol = HolidayCalculator.FixWeekend(hol);
-            if (isSundayOrMonday)
-                hol = hol.AddDays(1);
+            //this holiday is not shifted, even if Sat or Sun. If Christmas is a Sun, will be observed on the same date
+            //bool isSundayOrMonday =
+            //    hol.DayOfWeek == DayOfWeek.Sunday ||
+            //    hol.DayOfWeek == DayOfWeek.Monday;
+            //hol = HolidayCalculator.FixWeekend(hol);
+            //if (isSundayOrMonday)
+            //    hol = hol.AddDays(1);
             return hol;
         }
         /// <summary>
@@ -446,7 +446,7 @@ namespace PublicHoliday
             string[] provs = { "AB", "NB", "NS", "ON", "PE", null };
             if (Array.IndexOf(provs, province) > -1)
                 return true;
-            else return false;
+            return false;
         }
 
         #endregion
@@ -475,7 +475,7 @@ namespace PublicHoliday
                 bHols.Add(FamilyDay(year, Province), "Family Day");
 
             if (HasStPatricksDay(Province))
-                bHols.Add(StPatricksDay(year), "St. Patricks's Day");
+                bHols.Add(StPatricksDay(year), "St. Patrick's Day");
 
             var easter = HolidayCalculator.GetEaster(year);
             bHols.Add(GoodFriday(easter), "Good Friday");
@@ -515,15 +515,21 @@ namespace PublicHoliday
             {
                 bHols.Add(NationalDayForTruthAndReconciliation(year).Value, "National Day For Truth And Reconciliation");
             }
-            bHols.Add(Thanksgiving(year), "Thanksgiving");
+            bHols.Add(Thanksgiving(year), "Thanksgiving Day");
 
             if (HasRememberanceDay(Province))
                 bHols.Add(RemembranceDay(year), "Remembrance Day");
 
-            bHols.Add(Christmas(year), "Christmas");
+            var christmas = Christmas(year);
+            bHols.Add(christmas, "Christmas Day");
 
             if (HasBoxingDay(Province))
-                bHols.Add(BoxingDay(year), "Boxing Day");
+            {
+                var boxingDay = BoxingDay(year);
+                //potential collision if Christmas is shifted, but boxing day is not
+                if (christmas == boxingDay) boxingDay = boxingDay.AddSeconds(1);
+                bHols.Add(boxingDay, "Boxing Day");
+            }
             
             if(year == 2022)
                 bHols.Add(new DateTime(2022, 9, 19), "State Funeral of Queen Elizabeth II");
