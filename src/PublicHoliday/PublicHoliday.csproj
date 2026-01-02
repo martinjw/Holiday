@@ -67,6 +67,7 @@
 3.7.0: #152 Fix IsBankHoliday method for St Andrews day in Scotland when it falls on a weekend (thanks @NeilRobinsonSF)
 3.8.0: #155 add croatian holidays (thanks @quokkador); #154 Use the correct two letter ISO code for Poland (thanks @NeilRobinsonSF)
 3.9.0: #158 MexicoPublicHoliday added (thanks @geraldsimon)
+3.10.0: #159 Canada Boxing Day does not shift + holiday names (thanks @pasha-o); drop obsolete .net 6 + netstandard 1.3
     </PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
@@ -82,7 +83,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>3.9.0</Version>
+    <Version>3.10.0</Version>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
