@@ -76,14 +76,68 @@ jobs:
         echo "filename=$($pkg.Name)" >> $env:GITHUB_OUTPUT
         echo "version=$version" >> $env:GITHUB_OUTPUT
 
+# Find .nupkg and extract version (same as you had) -> outputs: package, filename, version
+    - name: Determine next build number for release
+      id: next_build
+      shell: pwsh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
+      run: |
+        $base = '${{ steps.find_package.outputs.version }}'
+        if (-not $base) { Write-Error "Base version missing"; exit 1 }
+
+        $repo = $env:GITHUB_REPOSITORY
+        $token = $env:GITHUB_TOKEN
+        $uri = "https://api.github.com/repos/$repo/releases?per_page=100"
+        $headers = @{ Authorization = "token $token"; Accept = 'application/vnd.github.v3+json'; 'User-Agent' = 'GitHub-Actions' }
+
+        $releases = Invoke-RestMethod -Uri $uri -Headers $headers -UseBasicParsing
+
+        # Find releases where tag_name or name begins with "$base."
+        $matches = $releases | Where-Object {
+          ($_.tag_name -ne $null -and $_.tag_name -like "$base.*") -or
+          ($_.name -ne $null -and $_.name -like "$base.*")
+        }
+
+        $max = 0
+        foreach ($r in $matches) {
+          $candidate = $null
+
+          if ($r.tag_name -and $r.tag_name -match "\.") {
+            $parts = $r.tag_name -split '\.'
+            $candidate = $parts[-1]
+          }
+
+          if (-not $candidate -and $r.name -and $r.name -match "\.") {
+            $parts = $r.name -split '\.'
+            $candidate = $parts[-1]
+         }
+
+          if ($candidate) {
+            try {
+              $n = [int]$candidate
+              if ($n -gt $max) { $max = $n }
+           } catch { }
+         }
+        }
+
+        $next = $max + 1
+        $new = "$base.$next"
+
+        Write-Host "Determined next build tag: $new"
+
+        echo "release_tag=$new" >> $env:GITHUB_OUTPUT
+        echo "release_name=$new" >> $env:GITHUB_OUTPUT
+
     - name: Create GitHub release
       id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ steps.find_package.outputs.version }}
-        release_name: ${{ steps.find_package.outputs.version }}
+        tag_name: ${{ steps.next_build.outputs.release_tag }}
+        release_name: ${{ steps.next_build.outputs.release_name }}
         draft: true
         prerelease: false
 
