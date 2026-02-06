@@ -49,6 +49,22 @@ namespace PublicHoliday
             NorthernIreland
         }
 
+        /// <summary>
+        /// Builds a UK Bank Holiday calculator for one of the UK countries (England, Wales, Scotland, Northern Ireland)
+        /// </summary>
+        /// <param name="ukCountry"></param>
+        public UKBankHoliday(UkCountries ukCountry)
+        {
+            UkCountry = ukCountry;
+        }
+
+        /// <summary>
+        /// Builds a UK Bank Holiday calculator for England (and Wales)
+        /// </summary>
+        public UKBankHoliday() : this(UkCountries.England)
+        {
+        }
+
         #region Individual Holidays
 
         /// <summary>
@@ -297,7 +313,7 @@ namespace PublicHoliday
             if (dt.HasValue)
                 bHols.Add(dt.Value, "Early May");
             if (year == 2023)
-                bHols.Add(new DateTime(2023,5,8), "Coronation of King Charles III");
+                bHols.Add(new DateTime(2023, 5, 8), "Coronation of King Charles III");
             bHols.Add(Spring(year), "Spring");
 
             if (year == 2002)
@@ -306,6 +322,10 @@ namespace PublicHoliday
                 bHols.Add(new DateTime(2012, 6, 5), "Queen's Diamond Jubilee"); //Queen's Diamond Jubilee
             if (year == 2022)
                 bHols.Add(new DateTime(2022, 6, 3), "Queen's Platinum Jubilee"); //Queen's Platinum Jubilee
+            if (year == 2026 && UkCountry == UkCountries.Scotland)
+            {
+                bHols.Add(new DateTime(2026, 6, 15), "World Cup"); //special 2026 World Cup holiday
+            }
             if (UkCountry != UkCountries.Scotland)
             {
                 bHols.Add(Summer(year), "Summer");
@@ -313,7 +333,7 @@ namespace PublicHoliday
 
             if (year == 2022)
             {
-                bHols.Add(new DateTime(2022,9,19), "State Funeral of Queen Elizabeth II");
+                bHols.Add(new DateTime(2022, 9, 19), "State Funeral of Queen Elizabeth II");
             }
             bHols.Add(Christmas(year), "Christmas");
             bHols.Add(BoxingDay(year), "Boxing Day");
@@ -433,7 +453,11 @@ namespace PublicHoliday
                 return true; //State Funeral of Queen Elizabeth II
             if (year == 2023 && dt.Month == 5 && dt.Day == 8)
                 return true; //Coronation of King Charles III
-
+            //scotland world cup
+            if (year == 2026 && UkCountry == UkCountries.Scotland && dt.Month == 6 && dt.Day == 15)
+            {
+                return true;
+            }
             return false;
         }
     }

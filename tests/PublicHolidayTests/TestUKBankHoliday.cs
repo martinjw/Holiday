@@ -446,5 +446,27 @@ namespace PublicHolidayTests
             var hols = new UKBankHoliday().PublicHolidays(2023);
             Assert.IsTrue(hols.Contains(coronation));
         }
+
+
+        [TestMethod]
+        [DataRow(1, 1, "New year")]
+        [DataRow(1, 2, "Second January")]
+        [DataRow(4, 3, "Good Friday")]
+        [DataRow(5, 4, "Early May")]
+        [DataRow(5, 25, "Spring")]
+        [DataRow(6, 15, "World Cup (special 2026 holiday)")]
+        [DataRow(8, 3, "Summer")]
+        [DataRow(11, 30, "St Andrew's Day")]
+        [DataRow(12, 25, "Christmas Day")]
+        [DataRow(12, 28, "Boxing Day")]
+        public void TestScotland2026(int month, int day, string name)
+        {
+            //dates from https://www.gov.scot/publications/bank-holidays/
+            var publicHoliday = new DateTime(2026, month, day);
+
+            var scotlandBankHolidays = new UKBankHoliday(UKBankHoliday.UkCountries.Scotland);
+            var isHoliday = scotlandBankHolidays.IsBankHoliday(publicHoliday);
+            Assert.IsTrue(isHoliday);
+        }
     }
 }
