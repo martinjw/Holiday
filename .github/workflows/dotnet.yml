@@ -2,6 +2,8 @@
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
 
 name: .NET
+permissions:
+  contents: write
 
 on:
   push:
@@ -37,3 +39,114 @@ jobs:
       with:
         name: nuget-package
         path: artifacts/*.nupkg
+    # Find the .nupkg produced (glob), extract version from the .nuspec, create a draft release, and upload the .nupkg as a release asset
+    - name: Find .nupkg and extract version
+      id: find_package
+      shell: pwsh
+      run: |
+        $pkg = Get-ChildItem -Path ./artifacts -Filter *.nupkg -File | Select-Object -First 1
+        if (-not $pkg) {
+          Write-Error "No .nupkg found in ./artifacts"
+          exit 1
+        }
+
+        # Ensure ZipFile is available
+        Add-Type -AssemblyName System.IO.Compression.FileSystem
+
+        $zip = [System.IO.Compression.ZipFile]::OpenRead($pkg.FullName)
+        $nuspecEntry = $zip.Entries | Where-Object { $_.FullName -like '*.nuspec' } | Select-Object -First 1
+        if (-not $nuspecEntry) {
+          $zip.Dispose()
+          Write-Error "No .nuspec found inside the .nupkg"
+          exit 1
+        }
+
+        $sr = New-Object System.IO.StreamReader($nuspecEntry.Open())
+        $nuspecXml = [xml]$sr.ReadToEnd()
+        $sr.Dispose()
+        $zip.Dispose()
+
+        $version = $nuspecXml.package.metadata.version
+        if (-not $version) {
+          Write-Error "Could not find <version> in the .nuspec"
+          exit 1
+        }
+
+        echo "package=$($pkg.FullName)" >> $env:GITHUB_OUTPUT
+        echo "filename=$($pkg.Name)" >> $env:GITHUB_OUTPUT
+        echo "version=$version" >> $env:GITHUB_OUTPUT
+
+# Find .nupkg and extract version (same as you had) -> outputs: package, filename, version
+    - name: Determine next build number for release
+      id: next_build
+      shell: pwsh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
+      run: |
+        $base = '${{ steps.find_package.outputs.version }}'
+        if (-not $base) { Write-Error "Base version missing"; exit 1 }
+
+        $repo = $env:GITHUB_REPOSITORY
+        $token = $env:GITHUB_TOKEN
+        $uri = "https://api.github.com/repos/$repo/releases?per_page=100"
+        $headers = @{ Authorization = "token $token"; Accept = 'application/vnd.github.v3+json'; 'User-Agent' = 'GitHub-Actions' }
+
+        $releases = Invoke-RestMethod -Uri $uri -Headers $headers -UseBasicParsing
+
+        # Find releases where tag_name or name begins with "$base."
+        $matches = $releases | Where-Object {
+          ($_.tag_name -ne $null -and $_.tag_name -like "$base.*") -or
+          ($_.name -ne $null -and $_.name -like "$base.*")
+        }
+
+        $max = 0
+        foreach ($r in $matches) {
+          $candidate = $null
+
+          if ($r.tag_name -and $r.tag_name -match "\.") {
+            $parts = $r.tag_name -split '\.'
+            $candidate = $parts[-1]
+          }
+
+          if (-not $candidate -and $r.name -and $r.name -match "\.") {
+            $parts = $r.name -split '\.'
+            $candidate = $parts[-1]
+         }
+
+          if ($candidate) {
+            try {
+              $n = [int]$candidate
+              if ($n -gt $max) { $max = $n }
+           } catch { }
+         }
+        }
+
+        $next = $max + 1
+        $new = "$base.$next"
+
+        Write-Host "Determined next build tag: $new"
+
+        echo "release_tag=$new" >> $env:GITHUB_OUTPUT
+        echo "release_name=$new" >> $env:GITHUB_OUTPUT
+
+    - name: Create GitHub release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ steps.next_build.outputs.release_tag }}
+        release_name: ${{ steps.next_build.outputs.release_name }}
+        draft: true
+        prerelease: false
+
+    - name: Upload .nupkg to release
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ${{ steps.find_package.outputs.package }}
+        asset_name: ${{ steps.find_package.outputs.filename }}
+        asset_content_type: application/octet-stream
