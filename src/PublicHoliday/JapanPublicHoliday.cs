@@ -106,7 +106,18 @@ namespace PublicHoliday
         public static DateTime ConstitutionMemorialDay(int year)
         {
             //3 May
-            return FixSunday(new DateTime(year, 5, 3), HolidayName.ConstitutionMemorialDay);
+            var hol = FixSunday(new DateTime(year, 5, 3), HolidayName.ConstitutionMemorialDay);
+            //in Golden Week (Showa Day, Constitution Memorial Day, Greenery Day, Children's Day) a Sunday can push one holiday into another.
+            if (GreeneryDay(hol.Year) == hol)
+            {
+                hol = hol.AddDays(1);
+            }
+            if (ChildrensDay(hol.Year) == hol)
+            {
+                hol = hol.AddDays(1);
+            }
+
+            return hol;
         }
 
         /// <summary>
@@ -117,7 +128,13 @@ namespace PublicHoliday
         public static DateTime GreeneryDay(int year)
         {
             //4 May
-            return FixSunday(new DateTime(year, 5, 4), HolidayName.GreeneryDay);
+            var hol = FixSunday(new DateTime(year, 5, 4), HolidayName.GreeneryDay);
+            if (ChildrensDay(hol.Year) == hol)
+            {
+                hol = hol.AddDays(1);
+            }
+
+            return hol;
         }
 
         /// <summary>
@@ -244,7 +261,7 @@ namespace PublicHoliday
         {
             if (year >= 2020)
             {
-                //23 February Emperor Naruhito 徳仁 2020 – 	 
+                //23 February Emperor Naruhito 徳仁 2020 –
                 return FixSunday(new DateTime(year, 2, 23), HolidayName.EmperorsBirthday);
             }
             //23 December Emperor Akihito 明仁 1989–2018
@@ -279,6 +296,7 @@ namespace PublicHoliday
             MountainDay,
             NewYear,
         }
+
         #endregion Individual Holidays
 
         /// <summary>
