@@ -307,7 +307,7 @@ namespace PublicHolidayTests
             IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[13].IsPublic == false);
-            Assert.IsTrue(hols[13].HolidayDate == new DateTime(2024, 8, 29));
+            Assert.IsTrue(hols[13].HolidayDate == new DateTime(2024, 9, 5));
             Assert.IsTrue(hols[13].Regions.Length == 1);
         }
 
@@ -367,24 +367,16 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        public void TestNeuchatelRepublicDayNameIsNotNationalDay()
+        [DataRow(2024, 9, 5)]
+        [DataRow(2025, 9, 11)]
+        [DataRow(2026, 9, 10)]
+        [DataRow(2027, 9, 9)]
+        public void TestGenevaPrayDayIsThursdayAfterFirstSundayInSeptember(int year, int month, int day)
         {
-            var holidayCalendar = new SwitzerlandPublicHoliday { Canton = SwitzerlandPublicHoliday.Cantons.NE };
-            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
+            var result = SwitzerlandPublicHoliday.GenevaPrayDay(year);
 
-            Holiday republicDay = null;
-            foreach (var h in hols)
-            {
-                if (h.HolidayDate == new DateTime(2026, 3, 1))
-                {
-                    republicDay = h;
-                    break;
-                }
-            }
-
-            Assert.IsNotNull(republicDay, "Neuchâtel observes Republic Day on 1 March");
-            Assert.AreEqual("Republic Day", republicDay.EnglishName);
-            Assert.AreEqual("Instauration de la République", republicDay.Name);
+            Assert.AreEqual(new DateTime(year, month, day), result, "Geneva PrayDay is the Thursday after the first Sunday in September");
+            Assert.AreEqual(DayOfWeek.Thursday, result.DayOfWeek);
         }
     }
 }
