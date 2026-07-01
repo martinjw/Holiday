@@ -15,7 +15,9 @@ jobs:
   build:
 
     runs-on: windows-latest
-    
+    permissions:
+      contents: write
+      pull-requests: read    
 
     steps:
     - uses: actions/checkout@v4
