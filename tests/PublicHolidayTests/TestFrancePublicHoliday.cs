@@ -2,6 +2,8 @@
 using PublicHoliday;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
 
 namespace PublicHolidayTests
 {
@@ -160,6 +162,47 @@ namespace PublicHolidayTests
                 var hols = calendar.PublicHolidays(i);
                 Assert.AreEqual(11, hols.Count, "Should be 11 holidays");
             }
+        }
+
+        [TestMethod]
+        public void TestBastilleDayCultureAwareName()
+        {
+            var holidayCalendar = new FrancePublicHoliday { Region = FrancePublicHoliday.Regions.ALL };
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
+
+            var bastilleDay = hols.Single(h => h.HolidayDate == new DateTime(2026, 7, 14));
+
+            Assert.AreEqual("Französischer Nationalfeiertag", bastilleDay.GetName(new CultureInfo("de")));
+            Assert.AreEqual("Festa nazionale francese", bastilleDay.GetName(new CultureInfo("it")));
+        }
+
+        [TestMethod]
+        public void TestAssumptionCultureAwareName()
+        {
+            var holidayCalendar = new FrancePublicHoliday { Region = FrancePublicHoliday.Regions.ALL };
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
+
+            var assumption = hols.Single(h => h.HolidayDate == new DateTime(2026, 8, 15));
+
+            Assert.AreEqual("Mariä Himmelfahrt", assumption.GetName(new CultureInfo("de")));
+        }
+
+        [TestMethod]
+        public void TestAscensionCultureAwareNameWhenCollidingWithMayHoliday()
+        {
+            // In 2008 Ascension falls on 1 May, the same day as Fête du Travail. Each holiday must
+            // still resolve to its own culture-aware name. Regression guard: a date-keyed id lookup
+            // mislabeled the movable Ascension with the fixed holiday's id on collision years.
+            var holidayCalendar = new FrancePublicHoliday { Region = FrancePublicHoliday.Regions.ALL };
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2008);
+
+            var ascension = hols.Single(h => h.Name == "Jeudi de l'Ascension");
+            Assert.AreEqual(new DateTime(2008, 5, 1), ascension.HolidayDate.Date);
+            Assert.AreEqual("Christi Himmelfahrt", ascension.GetName(new CultureInfo("de")));
+            Assert.AreEqual("Ascensione", ascension.GetName(new CultureInfo("it")));
+
+            var labourDay = hols.Single(h => h.Name == "Fête du Travail");
+            Assert.AreEqual("Tag der Arbeit", labourDay.GetName(new CultureInfo("de")));
         }
     }
 }

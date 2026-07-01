@@ -223,7 +223,7 @@ namespace PublicHoliday
         private static Holiday NewYearHoliday(int year)
         {
             DateTime holiday = NewYear(year);
-            return new Holiday(holiday, "New Year", "Neujahrstag");
+            return new Holiday(holiday, "New Year", "Neujahrstag") { IdTextLocalization = "NewYear" };
         }
 
         #endregion 
@@ -255,7 +255,7 @@ namespace PublicHoliday
                 }
             }
             
-            return new Holiday(holiday, "Berchtold's Day", "Berchtoldstag", cantonsName.ToArray());
+            return new Holiday(holiday, "Berchtold's Day", "Berchtoldstag", cantonsName.ToArray()) { IdTextLocalization = "Berchtold" };
         }
 
         private readonly Cantons[] CantonsWithSecondJanuary = new[] {
@@ -312,7 +312,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "Epiphany", "Epiphanie", cantonsName.ToArray());
+            return new Holiday(holiday, "Epiphany", "Epiphanie", cantonsName.ToArray()) { IdTextLocalization = "Epiphany" };
         }
 
         private readonly Cantons[] CantonsWithEpiphany = new[] {
@@ -361,7 +361,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "Republic Day", "Bundesfeier", cantonsName.ToArray());
+            return new Holiday(holiday, "Republic Day", "Bundesfeier", cantonsName.ToArray()) { IdTextLocalization = "NeuchatelRepublicDay" };
         }
 
         private readonly Cantons[] CantonsWithRepublicDay = new[] {
@@ -407,7 +407,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "Saint Joseph's Day", "Josefstag", cantonsName.ToArray());
+            return new Holiday(holiday, "Saint Joseph's Day", "Josefstag", cantonsName.ToArray()) { IdTextLocalization = "StJoseph" };
         }
 
         private readonly Cantons[] CantonsWithStJosephDay = new[] {
@@ -466,7 +466,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "Good Friday", "Karfreitag", cantonsName.ToArray());
+            return new Holiday(holiday, "Good Friday", "Karfreitag", cantonsName.ToArray()) { IdTextLocalization = "GoodFriday" };
         }
 
         private readonly Cantons[] CantonsWithGoodFriday = new[] {
@@ -542,7 +542,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "Easter Monday", "Ostermontag", cantonsName.ToArray());
+            return new Holiday(holiday, "Easter Monday", "Ostermontag", cantonsName.ToArray()) { IdTextLocalization = "EasterMonday" };
         }
 
         private readonly Cantons[] CantonsWithEasterMonday = new[] {
@@ -612,7 +612,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "Labour Day", "Tag der Arbeit", cantonsName.ToArray());
+            return new Holiday(holiday, "Labour Day", "Tag der Arbeit", cantonsName.ToArray()) { IdTextLocalization = "LabourDay" };
         }
 
         private readonly Cantons[] CantonsWithLabourDay = new[] {
@@ -662,7 +662,7 @@ namespace PublicHoliday
         private static Holiday AscensionHoliday(DateTime easter)
         {
             DateTime holiday = Ascension(easter);
-            return new Holiday(holiday, "Ascension Day", "Auffahrt");
+            return new Holiday(holiday, "Ascension Day", "Auffahrt") { IdTextLocalization = "SwissAscension" };
         }
 
         #endregion
@@ -702,7 +702,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "Whit Monday", "Pfingstmontag", cantonsName.ToArray());
+            return new Holiday(holiday, "Whit Monday", "Pfingstmontag", cantonsName.ToArray()) { IdTextLocalization = "PentecostMonday" };
         }
 
         private readonly Cantons[] CantonsWithWhitMonday = new[] {
@@ -784,7 +784,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "Corpus Christi", "Fronleichnam", cantonsName.ToArray());
+            return new Holiday(holiday, "Corpus Christi", "Fronleichnam", cantonsName.ToArray()) { IdTextLocalization = "CorpusChristi" };
         }
 
         private readonly Cantons[] CantonsWithCorpusChristi = new[] {
@@ -829,7 +829,7 @@ namespace PublicHoliday
         private static Holiday NationalDayHoliday(int year)
         {
             DateTime holiday = NationalDay(year);
-            return new Holiday(holiday, "National Day", "Bundesfeier");
+            return new Holiday(holiday, "National Day", "Bundesfeier") { IdTextLocalization = "SwissNationalDay" };
         }
 
         #endregion
@@ -861,7 +861,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "Assumption Day", "Mariä Himmelfahrt", cantonsName.ToArray());
+            return new Holiday(holiday, "Assumption Day", "Mariä Himmelfahrt", cantonsName.ToArray()) { IdTextLocalization = "Assumption" };
         }
 
         private readonly Cantons[] CantonsWithAssumption = new[] {
@@ -919,7 +919,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "Geneva PrayDay", "Jeûne genevois", cantonsName.ToArray());
+            return new Holiday(holiday, "Geneva PrayDay", "Jeûne genevois", cantonsName.ToArray()) { IdTextLocalization = "GenevaPrayDay" };
         }
 
         private readonly Cantons[] CantonsWithGenevaPrayDay = new[] {
@@ -964,7 +964,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "All Saints Day", "Allerheiligen", cantonsName.ToArray());
+            return new Holiday(holiday, "All Saints Day", "Allerheiligen", cantonsName.ToArray()) { IdTextLocalization = "AllSaints" };
         }
 
         private readonly Cantons[] CantonsWithAllSaints = new[] {
@@ -1023,7 +1023,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "Immaculate Conception", "Unbefleckte Empfängnis", cantonsName.ToArray());
+            return new Holiday(holiday, "Immaculate Conception", "Unbefleckte Empfängnis", cantonsName.ToArray()) { IdTextLocalization = "ImmaculateConception" };
         }
 
         private readonly Cantons[] CantonsWithImmaculateConception = new[] {
@@ -1068,7 +1068,7 @@ namespace PublicHoliday
         private static Holiday ChristmasHoliday(int year)
         {
             DateTime holiday = Christmas(year);
-            return new Holiday(holiday, "Christmas Day", "Weihnachten");
+            return new Holiday(holiday, "Christmas Day", "Weihnachten") { IdTextLocalization = "Christmas" };
         }
 
         #endregion
@@ -1101,7 +1101,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "St Stephen's Day", "Stephanstag", cantonsName.ToArray());
+            return new Holiday(holiday, "St Stephen's Day", "Stephanstag", cantonsName.ToArray()) { IdTextLocalization = "SaintStephensDay" };
         }
 
         private readonly Cantons[] CantonsWithSaintStephensDay = new[] {

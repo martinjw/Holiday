@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
 
@@ -364,6 +366,41 @@ namespace PublicHolidayTests
                 var hols = calendar.PublicHolidays(i);
                 Assert.IsTrue(4 == hols.Count);
             }
+        }
+
+        [TestMethod]
+        public void TestGenevaPrayDayCultureAwareName()
+        {
+            var holidayCalendar = new SwitzerlandPublicHoliday
+            {
+                Canton = SwitzerlandPublicHoliday.Cantons.GE
+            };
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
+
+            var genevaPrayDay = hols.SingleOrDefault(h => h.EnglishName == "Geneva PrayDay");
+            Assert.IsNotNull(genevaPrayDay, "Geneva PrayDay should be present for canton GE");
+
+            Assert.AreEqual("Genfer Bettag", genevaPrayDay.GetName(new CultureInfo("de")));
+            Assert.AreEqual("Jeûne genevois", genevaPrayDay.GetName(new CultureInfo("fr")));
+            Assert.AreEqual("Digiuno ginevrino", genevaPrayDay.GetName(new CultureInfo("it")));
+            Assert.AreEqual("Geneva Fast", genevaPrayDay.GetName(new CultureInfo("en")));
+        }
+
+        [TestMethod]
+        public void TestChristmasCultureAwareName()
+        {
+            var holidayCalendar = new SwitzerlandPublicHoliday
+            {
+                Canton = SwitzerlandPublicHoliday.Cantons.GE
+            };
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
+
+            var christmas = hols.Single(h => h.HolidayDate == new DateTime(2026, 12, 25));
+
+            Assert.AreEqual("Weihnachten", christmas.GetName(new CultureInfo("de")));
+            Assert.AreEqual("Natale", christmas.GetName(new CultureInfo("it")));
+            Assert.AreEqual("Fête de Noël", christmas.GetName(new CultureInfo("fr")));
+            Assert.AreEqual("Christmas", christmas.GetName(new CultureInfo("en")));
         }
     }
 }

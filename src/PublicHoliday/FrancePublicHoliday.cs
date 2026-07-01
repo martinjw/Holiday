@@ -1134,7 +1134,42 @@ namespace PublicHoliday
         /// <returns></returns>
         public override IList<Holiday> PublicHolidaysInformation(int year)
         {
-            return PublicHolidayNames(year).Select(kvp => new Holiday(kvp.Key, kvp.Value)).ToList();
+            return PublicHolidayNames(year)
+                .Select(kvp =>
+                {
+                    var holiday = new Holiday(kvp.Key, kvp.Value);
+                    if (LocalizationIdsByName.TryGetValue(kvp.Value, out var idTextLocalization))
+                    {
+                        holiday.IdTextLocalization = idTextLocalization;
+                    }
+                    return holiday;
+                })
+                .ToList();
         }
+
+        /// <summary>
+        /// Maps each métropole / Alsace-Moselle holiday to its localization id, keyed by the French
+        /// name produced by <see cref="PublicHolidayNames"/>, so
+        /// <see cref="Holiday.GetName(System.Globalization.CultureInfo)"/> resolves culture-aware names.
+        /// Keyed by name rather than date: a movable feast that shares a calendar date with a fixed
+        /// holiday (e.g. Ascension landing on 1 or 8 May) is still identified correctly, which a
+        /// date-keyed lookup could not do. Overseas (DOM-TOM) holidays are intentionally not localized.
+        /// </summary>
+        private static readonly Dictionary<string, string> LocalizationIdsByName = new Dictionary<string, string>(StringComparer.Ordinal)
+        {
+            { "Nouvel An", "NewYear" },
+            { "Vendredi saint", "GoodFriday" },
+            { "Lundi de Pâques", "EasterMonday" },
+            { "Fête du Travail", "LabourDay" },
+            { "Fête de la Victoire", "VictoryInEuropeDay" },
+            { "Jeudi de l'Ascension", "Ascension" },
+            { "Lundi de Pentecôte", "PentecostMonday" },
+            { "Fête nationale", "BastilleDay" },
+            { "Assomption", "Assumption" },
+            { "Toussaint", "AllSaints" },
+            { "Jour de l'armistice", "Armistice" },
+            { "Noël", "Christmas" },
+            { "Saint-Étienne", "SaintStephensDay" },
+        };
     }
 }
