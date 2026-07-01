@@ -307,7 +307,7 @@ namespace PublicHolidayTests
             IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[13].IsPublic == false);
-            Assert.IsTrue(hols[13].HolidayDate == new DateTime(2024, 8, 29));
+            Assert.IsTrue(hols[13].HolidayDate == new DateTime(2024, 9, 5));
             Assert.IsTrue(hols[13].Regions.Length == 1);
         }
 
@@ -364,6 +364,19 @@ namespace PublicHolidayTests
                 var hols = calendar.PublicHolidays(i);
                 Assert.IsTrue(4 == hols.Count);
             }
+        }
+
+        [TestMethod]
+        [DataRow(2024, 9, 5)]
+        [DataRow(2025, 9, 11)]
+        [DataRow(2026, 9, 10)]
+        [DataRow(2027, 9, 9)]
+        public void TestGenevaPrayDayIsThursdayAfterFirstSundayInSeptember(int year, int month, int day)
+        {
+            var result = SwitzerlandPublicHoliday.GenevaPrayDay(year);
+
+            Assert.AreEqual(new DateTime(year, month, day), result, "Geneva PrayDay is the Thursday after the first Sunday in September");
+            Assert.AreEqual(DayOfWeek.Thursday, result.DayOfWeek);
         }
     }
 }

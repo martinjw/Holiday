@@ -900,7 +900,7 @@ namespace PublicHoliday
         public static DateTime GenevaPrayDay(int year)
         {
             var firstSundayOfSeptember = HolidayCalculator.FindOccurrenceOfDayOfWeek(new DateTime(year, 9, 1), DayOfWeek.Sunday, 1);
-            return HolidayCalculator.FindPrevious(firstSundayOfSeptember, DayOfWeek.Thursday);
+            return HolidayCalculator.FindNext(firstSundayOfSeptember, DayOfWeek.Thursday);
         }
 
         private Holiday GenevaPrayDayHoliday(int year)
