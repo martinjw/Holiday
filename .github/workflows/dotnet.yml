@@ -17,7 +17,8 @@ jobs:
     runs-on: windows-latest
     permissions:
       contents: write
-      pull-requests: read    
+      pull-requests: read
+      actions: read  
 
     steps:
     - uses: actions/checkout@v4
@@ -132,23 +133,13 @@ jobs:
         echo "release_tag=$new" >> $env:GITHUB_OUTPUT
         echo "release_name=$new" >> $env:GITHUB_OUTPUT
 
-    - name: Create GitHub release
-      id: create_release
-      uses: actions/create-release@v1
+    - name: Create GitHub release and upload asset
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        tag_name: ${{ steps.next_build.outputs.release_tag }}
-        release_name: ${{ steps.next_build.outputs.release_name }}
-        draft: true
-        prerelease: false
+      run: |
+        $tag = "${{ steps.next_build.outputs.release_tag }}"
+        $assetPath = "${{ steps.find_package.outputs.package }}"
+        $assetName = "${{ steps.find_package.outputs.filename }}"
+        
+        gh release create $tag "$assetPath" --draft --title "${{ steps.next_build.outputs.release_name }}"
 
-    - name: Upload .nupkg to release
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ${{ steps.find_package.outputs.package }}
-        asset_name: ${{ steps.find_package.outputs.filename }}
-        asset_content_type: application/octet-stream
