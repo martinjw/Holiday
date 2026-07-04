@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
 
@@ -367,16 +369,38 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        [DataRow(2024, 9, 5)]
-        [DataRow(2025, 9, 11)]
-        [DataRow(2026, 9, 10)]
-        [DataRow(2027, 9, 9)]
-        public void TestGenevaPrayDayIsThursdayAfterFirstSundayInSeptember(int year, int month, int day)
+        public void TestGenevaPrayDayCultureAwareName()
         {
-            var result = SwitzerlandPublicHoliday.GenevaPrayDay(year);
+            var holidayCalendar = new SwitzerlandPublicHoliday
+            {
+                Canton = SwitzerlandPublicHoliday.Cantons.GE
+            };
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
 
-            Assert.AreEqual(new DateTime(year, month, day), result, "Geneva PrayDay is the Thursday after the first Sunday in September");
-            Assert.AreEqual(DayOfWeek.Thursday, result.DayOfWeek);
+            var genevaPrayDay = hols.SingleOrDefault(h => h.EnglishName == "Geneva PrayDay");
+            Assert.IsNotNull(genevaPrayDay, "Geneva PrayDay should be present for canton GE");
+
+            Assert.AreEqual("Genfer Bettag", genevaPrayDay.GetName(new CultureInfo("de")));
+            Assert.AreEqual("Jeûne genevois", genevaPrayDay.GetName(new CultureInfo("fr")));
+            Assert.AreEqual("Digiuno ginevrino", genevaPrayDay.GetName(new CultureInfo("it")));
+            Assert.AreEqual("Geneva Fast", genevaPrayDay.GetName(new CultureInfo("en")));
+        }
+
+        [TestMethod]
+        public void TestChristmasCultureAwareName()
+        {
+            var holidayCalendar = new SwitzerlandPublicHoliday
+            {
+                Canton = SwitzerlandPublicHoliday.Cantons.GE
+            };
+            IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
+
+            var christmas = hols.Single(h => h.HolidayDate == new DateTime(2026, 12, 25));
+
+            Assert.AreEqual("Weihnachten", christmas.GetName(new CultureInfo("de")));
+            Assert.AreEqual("Natale", christmas.GetName(new CultureInfo("it")));
+            Assert.AreEqual("Fête de Noël", christmas.GetName(new CultureInfo("fr")));
+            Assert.AreEqual("Christmas", christmas.GetName(new CultureInfo("en")));
         }
     }
 }

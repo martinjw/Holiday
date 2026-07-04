@@ -32,6 +32,17 @@
     <Assumption value="Assumption"/>
     <AllSaints value="All Saints' Day"/>
     <Armistice value="Armistice Day"/>
+    <Berchtold value="Berchtold's Day"/>
+    <Epiphany value="Epiphany"/>
+    <NeuchatelRepublicDay value="Republic Day"/>
+    <StJoseph value="Saint Joseph's Day"/>
+    <SwissAscension value="Ascension Day"/>
+    <CorpusChristi value="Corpus Christi"/>
+    <SwissNationalDay value="Swiss National Day"/>
+    <GenevaPrayDay value="Geneva Fast"/>
+    <ImmaculateConception value="Immaculate Conception"/>
+    <SaintStephensDay value="St Stephen's Day"/>
+    <BastilleDay value="Bastille Day"/>
   </en>
   <fr>
     <NewYear value="Jour de l'An"/>
@@ -65,5 +76,64 @@
     <Assumption value="Assomption"/>
     <AllSaints value="Toussaint"/>
     <Armistice value="Jour de l'armistice"/>
+    <Berchtold value="Saint-Berchtold"/>
+    <Epiphany value="Épiphanie"/>
+    <NeuchatelRepublicDay value="Instauration de la République"/>
+    <StJoseph value="Saint-Joseph"/>
+    <SwissAscension value="Ascension"/>
+    <CorpusChristi value="Fête-Dieu"/>
+    <SwissNationalDay value="Fête nationale suisse"/>
+    <GenevaPrayDay value="Jeûne genevois"/>
+    <ImmaculateConception value="Immaculée Conception"/>
+    <SaintStephensDay value="Saint-Étienne"/>
+    <BastilleDay value="Fête nationale"/>
   </fr>
+  <de>
+    <NewYear value="Neujahrstag"/>
+    <Berchtold value="Berchtoldstag"/>
+    <Epiphany value="Heilige Drei Könige"/>
+    <NeuchatelRepublicDay value="Ausrufung der Republik"/>
+    <StJoseph value="Josefstag"/>
+    <GoodFriday value="Karfreitag"/>
+    <EasterMonday value="Ostermontag"/>
+    <LabourDay value="Tag der Arbeit"/>
+    <SwissAscension value="Auffahrt"/>
+    <Ascension value="Christi Himmelfahrt"/>
+    <PentecostMonday value="Pfingstmontag"/>
+    <CorpusChristi value="Fronleichnam"/>
+    <SwissNationalDay value="Bundesfeier"/>
+    <Assumption value="Mariä Himmelfahrt"/>
+    <GenevaPrayDay value="Genfer Bettag"/>
+    <AllSaints value="Allerheiligen"/>
+    <ImmaculateConception value="Mariä Empfängnis"/>
+    <Christmas value="Weihnachten"/>
+    <SaintStephensDay value="Stephanstag"/>
+    <VictoryInEuropeDay value="Tag des Sieges"/>
+    <BastilleDay value="Französischer Nationalfeiertag"/>
+    <Armistice value="Waffenstillstandstag"/>
+  </de>
+  <it>
+    <NewYear value="Capodanno"/>
+    <Berchtold value="San Berchtoldo"/>
+    <Epiphany value="Epifania"/>
+    <NeuchatelRepublicDay value="Instaurazione della Repubblica"/>
+    <StJoseph value="San Giuseppe"/>
+    <GoodFriday value="Venerdì Santo"/>
+    <EasterMonday value="Lunedì dell'Angelo"/>
+    <LabourDay value="Festa del lavoro"/>
+    <SwissAscension value="Ascensione"/>
+    <Ascension value="Ascensione"/>
+    <PentecostMonday value="Lunedì di Pentecoste"/>
+    <CorpusChristi value="Corpus Domini"/>
+    <SwissNationalDay value="Festa nazionale svizzera"/>
+    <Assumption value="Assunzione"/>
+    <GenevaPrayDay value="Digiuno ginevrino"/>
+    <AllSaints value="Ognissanti"/>
+    <ImmaculateConception value="Immacolata Concezione"/>
+    <Christmas value="Natale"/>
+    <SaintStephensDay value="Santo Stefano"/>
+    <VictoryInEuropeDay value="Festa della Vittoria"/>
+    <BastilleDay value="Festa nazionale francese"/>
+    <Armistice value="Armistizio"/>
+  </it>
 </root>
