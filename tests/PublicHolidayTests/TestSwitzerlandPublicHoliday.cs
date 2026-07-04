@@ -309,7 +309,7 @@ namespace PublicHolidayTests
             IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2024);
 
             Assert.IsTrue(hols[13].IsPublic == false);
-            Assert.IsTrue(hols[13].HolidayDate == new DateTime(2024, 8, 29));
+            Assert.IsTrue(hols[13].HolidayDate == new DateTime(2024, 9, 5));
             Assert.IsTrue(hols[13].Regions.Length == 1);
         }
 
