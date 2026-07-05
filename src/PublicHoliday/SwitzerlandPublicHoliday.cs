@@ -361,7 +361,7 @@ namespace PublicHoliday
                 }
             }
 
-            return new Holiday(holiday, "Republic Day", "Bundesfeier", cantonsName.ToArray()) { IdTextLocalization = "NeuchatelRepublicDay" };
+            return new Holiday(holiday, "Republic Day", "Instauration de la République", cantonsName.ToArray()) { IdTextLocalization = "NeuchatelRepublicDay" };
         }
 
         private readonly Cantons[] CantonsWithRepublicDay = new[] {
