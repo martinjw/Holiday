@@ -71,6 +71,7 @@
 3.11.0: Scotland adds 2026 World Cup holiday
 3.12.0: #161 NL holidays can optionally include Easter Sunday; #160 include Hungary holidays (thanks @Anteres007)
 3.13.0: Japan Golden Weeks holidays can be moved by weekends
+3.14.0: switzerland fixes: #164 correct Geneva PrayDay to Thursday after first Sunday, #165 name Neuchâtel Republic Day, #166 culture-aware CH/FR holiday names (thanks @Flo5k5)
     </PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
@@ -86,7 +87,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>3.13.0</Version>
+    <Version>3.14.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
