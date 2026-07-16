@@ -64,6 +64,7 @@ namespace PublicHoliday
             var hijriYears = GetHijriYears(year);
             foreach (var hijriYear in hijriYears)
             {
+                // Ramadan Bayram (Eid al-Fitr) is on Shawwal 1 — Shawwal is the 10th month in the Hijri calendar
                 var dateTime = hijriCalendar.ToDateTime(hijriYear, 10, 1, 0, 0, 0, 0);
                 if (dateTime.Year != year)
                 {

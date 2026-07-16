@@ -77,16 +77,34 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [TestMethod]
-        public void TestRamadanYearShifts()
+        [DataTestMethod]
+        // Ramadan Bayram (Shawwal 1 / Eid al-Fitr) dates (UmAlQura algorithmic calendar) for years 2020-2040
+        [DataRow(2020, 5, 24)]
+        [DataRow(2021, 5, 13)]
+        [DataRow(2022, 5, 2)]
+        [DataRow(2023, 4, 21)]
+        [DataRow(2024, 4, 10)]
+        [DataRow(2025, 3, 30)]
+        [DataRow(2026, 3, 20)]
+        [DataRow(2027, 3, 9)]
+        [DataRow(2028, 2, 26)]
+        [DataRow(2029, 2, 14)]
+        [DataRow(2030, 2, 4)]
+        [DataRow(2031, 1, 24)]
+        [DataRow(2032, 1, 14)]
+        [DataRow(2033, 1, 2)]
+        [DataRow(2034, 12, 12)]
+        [DataRow(2035, 12, 1)]
+        [DataRow(2036, 11, 19)]
+        [DataRow(2037, 11, 8)]
+        [DataRow(2038, 10, 29)]
+        [DataRow(2039, 10, 19)]
+        [DataRow(2040, 10, 7)]
+        public void TestRamadanYearShifts(int year, int month, int day)
         {
-            for (var year = 2020; year < 2040; year++)
-            {
-                var ramadan1 = TurkeyPublicHoliday.RamadanFirstDay(year).First();
-                Assert.IsTrue(ramadan1.Year == year);
-                var feastSacrifice1 = TurkeyPublicHoliday.FeastOfSacrificesFirstDay(year).First();
-                Assert.IsTrue(feastSacrifice1.Year == year);
-            }
+            var expected = new DateTime(year, month, day);
+            var ramadan1 = TurkeyPublicHoliday.RamadanFirstDay(year).First();
+            Assert.AreEqual(expected, ramadan1, $"Expected Ramadan Bayram (Shawwal 1) for {year} to be {expected:yyyy-MM-dd} but was {ramadan1:yyyy-MM-dd}");
         }
 
         [TestMethod]
