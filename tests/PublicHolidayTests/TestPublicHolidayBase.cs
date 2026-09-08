@@ -27,7 +27,7 @@ namespace PublicHolidayTests
         {
             var holidayCalendar = new USAPublicHoliday();
             var actual = holidayCalendar.GetHolidaysInDateRange(new DateTime(2015, 1, 2), new DateTime(2017, 12, 25));
-            Assert.AreEqual(actual.Count, 29);
+            Assert.AreEqual(29, actual.Count);
         }
     }
 }

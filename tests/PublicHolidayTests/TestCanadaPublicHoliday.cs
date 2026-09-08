@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
 
@@ -80,9 +81,13 @@ namespace PublicHolidayTests
         [TestMethod]
         public void PublicHoliday2022Test()
         {
+            //Christmas 2022 (Sunday) is observed Monday 26 December, the same day as Boxing Day:
+            //PublicHolidays lists the day once (12 days, 13 holidays);
+            //PublicHolidaysInformation keeps both holidays as distinct entries
             var result = new CanadaPublicHoliday().PublicHolidays(2022);
-            Assert.AreEqual(13, result.Count);
-            
+            Assert.AreEqual(12, result.Count);
+            Assert.AreEqual(13, new CanadaPublicHoliday().PublicHolidaysInformation(2022).Count);
+
             Assert.IsTrue(new CanadaPublicHoliday().IsPublicHoliday(new DateTime(2022, 9, 19)));
         }
 
@@ -272,6 +277,23 @@ namespace PublicHolidayTests
         {
             var disc = CanadaPublicHoliday.BoxingDay(2026);
             Assert.AreEqual(DayOfWeek.Saturday, disc.DayOfWeek, "Date is not shifted if Sat or Sun");
+        }
+
+        [TestMethod]
+        public void PublicHolidaysInformationHasNamesTest()
+        {
+            var calendar = new CanadaPublicHoliday("ON");
+            var names = calendar.PublicHolidayNames(2026);
+            var info = calendar.PublicHolidaysInformation(2026);
+
+            Assert.AreEqual(names.Count, info.Count);
+            foreach (var holiday in info)
+            {
+                Assert.IsFalse(string.IsNullOrEmpty(holiday.Name),
+                    $"{holiday.HolidayDate:yyyy-MM-dd} has no name");
+            }
+            Assert.IsTrue(info.Any(h => h.Name == "Canada Day"));
+            Assert.IsTrue(info.Any(h => h.Name == "Boxing Day"));
         }
     }
 }

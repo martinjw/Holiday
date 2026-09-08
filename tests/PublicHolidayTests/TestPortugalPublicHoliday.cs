@@ -21,7 +21,7 @@ namespace PublicHolidayTests
             foreach (var name in holidayNames)
             {
                 var holidayName = allHolidays.SingleOrDefault(x => x.HolidayDate == name.Key)?.Name;
-                Assert.AreEqual(name.Value, holidayName);
+                Assert.AreEqual(string.Join(", ", name.Value), holidayName);
             }
         }
 
@@ -218,7 +218,7 @@ namespace PublicHolidayTests
 
             Assert.IsFalse(holiday.IsPublic, "Holiday should not be public");
             Assert.AreEqual(holiday.HolidayDate, new DateTime(2024, 5, 20));
-            Assert.AreEqual(holiday.Regions.Single(), "Açores");
+            Assert.AreEqual("Açores", holiday.Regions.Single());
         }
 
         [TestMethod]
@@ -248,7 +248,7 @@ namespace PublicHolidayTests
 
             Assert.IsFalse(holiday.IsPublic, "Holiday should not be public");
             Assert.AreEqual(holiday.HolidayDate, new DateTime(2024, 7, 1));
-            Assert.AreEqual(holiday.Regions.Single(), "Madeira");
+            Assert.AreEqual("Madeira", holiday.Regions.Single());
         }
 
         [TestMethod]
@@ -368,7 +368,7 @@ namespace PublicHolidayTests
 
             Assert.IsFalse(holiday.IsPublic, "Holiday should not be public");
             Assert.AreEqual(holiday.HolidayDate, new DateTime(2024, 12, 26));
-            Assert.AreEqual(holiday.Regions.Single(), "Madeira");
+            Assert.AreEqual("Madeira", holiday.Regions.Single());
         }
 
         [TestMethod]
@@ -473,7 +473,7 @@ namespace PublicHolidayTests
 
             Assert.IsFalse(holiday.IsPublic, "Holiday should not be public");
             Assert.AreEqual(holiday.HolidayDate, new DateTime(2025, 6, 9));
-            Assert.AreEqual(holiday.Regions.Single(), "Açores");
+            Assert.AreEqual("Açores", holiday.Regions.Single());
         }
 
         [TestMethod]
@@ -503,7 +503,7 @@ namespace PublicHolidayTests
 
             Assert.IsFalse(holiday.IsPublic, "Holiday should not be public");
             Assert.AreEqual(holiday.HolidayDate, new DateTime(2025, 7, 1));
-            Assert.AreEqual(holiday.Regions.Single(), "Madeira");
+            Assert.AreEqual("Madeira", holiday.Regions.Single());
         }
 
         [TestMethod]
@@ -623,7 +623,7 @@ namespace PublicHolidayTests
 
             Assert.IsFalse(holiday.IsPublic, "Holiday should not be public");
             Assert.AreEqual(holiday.HolidayDate, new DateTime(2025, 12, 26));
-            Assert.AreEqual(holiday.Regions.Single(), "Madeira");
+            Assert.AreEqual("Madeira", holiday.Regions.Single());
         }
 
         [TestMethod]
@@ -728,7 +728,7 @@ namespace PublicHolidayTests
 
             Assert.IsFalse(holiday.IsPublic, "Holiday should not be public");
             Assert.AreEqual(holiday.HolidayDate, new DateTime(2026, 5, 25));
-            Assert.AreEqual(holiday.Regions.Single(), "Açores");
+            Assert.AreEqual("Açores", holiday.Regions.Single());
         }
 
         [TestMethod]
@@ -758,7 +758,7 @@ namespace PublicHolidayTests
 
             Assert.IsFalse(holiday.IsPublic, "Holiday should not be public");
             Assert.AreEqual(holiday.HolidayDate, new DateTime(2026, 7, 1));
-            Assert.AreEqual(holiday.Regions.Single(), "Madeira");
+            Assert.AreEqual("Madeira", holiday.Regions.Single());
         }
 
         [TestMethod]
@@ -878,7 +878,7 @@ namespace PublicHolidayTests
 
             Assert.IsFalse(holiday.IsPublic, "Holiday should not be public");
             Assert.AreEqual(holiday.HolidayDate, new DateTime(2026, 12, 26));
-            Assert.AreEqual(holiday.Regions.Single(), "Madeira");
+            Assert.AreEqual("Madeira", holiday.Regions.Single());
         }
 
         #endregion

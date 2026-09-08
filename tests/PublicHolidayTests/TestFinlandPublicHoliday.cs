@@ -89,8 +89,8 @@ namespace PublicHolidayTests
             Assert.IsTrue(calendar.IsPublicHoliday(date));
 
             var holidays = calendar.PublicHolidayNames(year);
-            Assert.AreEqual("Juhannuspäivä", holidays[date]);
-            Assert.AreEqual("Juhannusaatto", holidays[date.AddDays(-1)]);
+            Assert.AreEqual("Juhannuspäivä", string.Join(", ", holidays[date]));
+            Assert.AreEqual("Juhannusaatto", string.Join(", ", holidays[date.AddDays(-1)]));
         }
 
         [TestMethod]
@@ -105,7 +105,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(calendar.IsPublicHoliday(date));
 
             var holidays = calendar.PublicHolidayNames(year);
-            Assert.AreEqual("Pyhäinpäivä", holidays[date]);
+            Assert.AreEqual("Pyhäinpäivä", string.Join(", ", holidays[date]));
         }
 
         [TestMethod]
@@ -179,14 +179,14 @@ namespace PublicHolidayTests
 
             // Midsummer & All Saints Day
             var holidays1954 = calendar.PublicHolidayNames(1954);
-            Assert.AreEqual("Juhannusaatto", holidays1954[new DateTime(1954, 6, 23)]);
-            Assert.AreEqual("Juhannuspäivä", holidays1954[new DateTime(1954, 6, 24)]);
-            Assert.AreEqual("Pyhäinpäivä", holidays1954[new DateTime(1954, 11, 1)]);
+            Assert.AreEqual("Juhannusaatto", string.Join(", ", holidays1954[new DateTime(1954, 6, 23)]));
+            Assert.AreEqual("Juhannuspäivä", string.Join(", ", holidays1954[new DateTime(1954, 6, 24)]));
+            Assert.AreEqual("Pyhäinpäivä", string.Join(", ", holidays1954[new DateTime(1954, 11, 1)]));
 
             var holidays1955 = calendar.PublicHolidayNames(1955);
-            Assert.AreEqual("Juhannusaatto", holidays1955[new DateTime(1955, 6, 24)]);
-            Assert.AreEqual("Juhannuspäivä", holidays1955[new DateTime(1955, 6, 25)]);
-            Assert.AreEqual("Pyhäinpäivä", holidays1955[new DateTime(1955, 11, 5)]);
+            Assert.AreEqual("Juhannusaatto", string.Join(", ", holidays1955[new DateTime(1955, 6, 24)]));
+            Assert.AreEqual("Juhannuspäivä", string.Join(", ", holidays1955[new DateTime(1955, 6, 25)]));
+            Assert.AreEqual("Pyhäinpäivä", string.Join(", ", holidays1955[new DateTime(1955, 11, 5)]));
         }
 
         [TestMethod]

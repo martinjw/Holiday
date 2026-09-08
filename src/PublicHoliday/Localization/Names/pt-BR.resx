@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AllSouls" xml:space="preserve"><value>Dia dos Finados</value></data>
+  <data name="CarnivalBR1" xml:space="preserve"><value>Carnaval</value></data>
+  <data name="CarnivalBR2" xml:space="preserve"><value>Carnaval Terça-Feira Gorda</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Natal</value></data>
+  <data name="GoodFriday" xml:space="preserve"><value>Sexta Feira Santa</value></data>
+  <data name="IndependenceDayBR" xml:space="preserve"><value>Dia da Independência</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Dia do Trabalho</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Ano Novo</value></data>
+  <data name="OurLadyAparecidaBR" xml:space="preserve"><value>Nossa Senhora Aparecida</value></data>
+  <data name="RepublicDayBR" xml:space="preserve"><value>Dia da República</value></data>
+  <data name="TiradentesBR" xml:space="preserve"><value>Dia de Tiradentes</value></data>
+</root>

@@ -1,0 +1,827 @@
+1990|1990-01-01T00:00:00|1990-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+1990|1990-04-23T00:00:00|1990-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+1990|1990-04-26T00:00:00|1990-04-26T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+1990|1990-04-27T00:00:00|1990-04-27T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+1990|1990-04-28T00:00:00|1990-04-28T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+1990|1990-05-01T00:00:00|1990-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+1990|1990-05-19T00:00:00|1990-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+1990|1990-07-02T00:00:00|1990-07-02T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+1990|1990-07-03T00:00:00|1990-07-03T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+1990|1990-07-04T00:00:00|1990-07-04T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+1990|1990-07-05T00:00:00|1990-07-05T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+1990|1990-08-30T00:00:00|1990-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+1990|1990-10-29T00:00:00|1990-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+1991|1991-01-01T00:00:00|1991-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+1991|1991-04-15T00:00:00|1991-04-15T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+1991|1991-04-16T00:00:00|1991-04-16T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+1991|1991-04-17T00:00:00|1991-04-17T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+1991|1991-04-23T00:00:00|1991-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+1991|1991-05-01T00:00:00|1991-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+1991|1991-05-19T00:00:00|1991-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+1991|1991-06-22T00:00:00|1991-06-22T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+1991|1991-06-23T00:00:00|1991-06-23T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+1991|1991-06-24T00:00:00|1991-06-24T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+1991|1991-06-25T00:00:00|1991-06-25T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+1991|1991-08-30T00:00:00|1991-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+1991|1991-10-29T00:00:00|1991-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+1992|1992-01-01T00:00:00|1992-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+1992|1992-04-04T00:00:00|1992-04-04T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+1992|1992-04-05T00:00:00|1992-04-05T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+1992|1992-04-06T00:00:00|1992-04-06T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+1992|1992-04-23T00:00:00|1992-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+1992|1992-05-01T00:00:00|1992-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+1992|1992-05-19T00:00:00|1992-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+1992|1992-06-11T00:00:00|1992-06-11T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+1992|1992-06-12T00:00:00|1992-06-12T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+1992|1992-06-13T00:00:00|1992-06-13T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+1992|1992-06-14T00:00:00|1992-06-14T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+1992|1992-08-30T00:00:00|1992-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+1992|1992-10-29T00:00:00|1992-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+1993|1993-01-01T00:00:00|1993-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+1993|1993-03-24T00:00:00|1993-03-24T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+1993|1993-03-25T00:00:00|1993-03-25T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+1993|1993-03-26T00:00:00|1993-03-26T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+1993|1993-04-23T00:00:00|1993-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+1993|1993-05-01T00:00:00|1993-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+1993|1993-05-19T00:00:00|1993-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+1993|1993-05-31T00:00:00|1993-05-31T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+1993|1993-06-01T00:00:00|1993-06-01T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+1993|1993-06-02T00:00:00|1993-06-02T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+1993|1993-06-03T00:00:00|1993-06-03T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+1993|1993-08-30T00:00:00|1993-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+1993|1993-10-29T00:00:00|1993-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+1994|1994-01-01T00:00:00|1994-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+1994|1994-03-13T00:00:00|1994-03-13T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+1994|1994-03-14T00:00:00|1994-03-14T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+1994|1994-03-15T00:00:00|1994-03-15T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+1994|1994-04-23T00:00:00|1994-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+1994|1994-05-01T00:00:00|1994-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+1994|1994-05-19T00:00:00|1994-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+1994|1994-05-20T00:00:00|1994-05-20T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+1994|1994-05-21T00:00:00|1994-05-21T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+1994|1994-05-22T00:00:00|1994-05-22T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+1994|1994-05-23T00:00:00|1994-05-23T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+1994|1994-08-30T00:00:00|1994-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+1994|1994-10-29T00:00:00|1994-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+1995|1995-01-01T00:00:00|1995-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+1995|1995-03-02T00:00:00|1995-03-02T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+1995|1995-03-03T00:00:00|1995-03-03T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+1995|1995-03-04T00:00:00|1995-03-04T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+1995|1995-04-23T00:00:00|1995-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+1995|1995-05-01T00:00:00|1995-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+1995|1995-05-09T00:00:00|1995-05-09T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+1995|1995-05-10T00:00:00|1995-05-10T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+1995|1995-05-11T00:00:00|1995-05-11T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+1995|1995-05-12T00:00:00|1995-05-12T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+1995|1995-05-19T00:00:00|1995-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+1995|1995-08-30T00:00:00|1995-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+1995|1995-10-29T00:00:00|1995-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+1996|1996-01-01T00:00:00|1996-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+1996|1996-02-19T00:00:00|1996-02-19T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+1996|1996-02-20T00:00:00|1996-02-20T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+1996|1996-02-21T00:00:00|1996-02-21T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+1996|1996-04-23T00:00:00|1996-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+1996|1996-04-27T00:00:00|1996-04-27T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+1996|1996-04-28T00:00:00|1996-04-28T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+1996|1996-04-29T00:00:00|1996-04-29T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+1996|1996-04-30T00:00:00|1996-04-30T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+1996|1996-05-01T00:00:00|1996-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+1996|1996-05-19T00:00:00|1996-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+1996|1996-08-30T00:00:00|1996-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+1996|1996-10-29T00:00:00|1996-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+1997|1997-01-01T00:00:00|1997-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+1997|1997-02-08T00:00:00|1997-02-08T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+1997|1997-02-09T00:00:00|1997-02-09T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+1997|1997-02-10T00:00:00|1997-02-10T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+1997|1997-04-17T00:00:00|1997-04-17T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+1997|1997-04-18T00:00:00|1997-04-18T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+1997|1997-04-19T00:00:00|1997-04-19T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+1997|1997-04-20T00:00:00|1997-04-20T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+1997|1997-04-23T00:00:00|1997-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+1997|1997-05-01T00:00:00|1997-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+1997|1997-05-19T00:00:00|1997-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+1997|1997-08-30T00:00:00|1997-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+1997|1997-10-29T00:00:00|1997-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+1998|1998-01-01T00:00:00|1998-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+1998|1998-01-29T00:00:00|1998-01-29T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+1998|1998-01-30T00:00:00|1998-01-30T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+1998|1998-01-31T00:00:00|1998-01-31T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+1998|1998-04-07T00:00:00|1998-04-07T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+1998|1998-04-08T00:00:00|1998-04-08T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+1998|1998-04-09T00:00:00|1998-04-09T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+1998|1998-04-10T00:00:00|1998-04-10T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+1998|1998-04-23T00:00:00|1998-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+1998|1998-05-01T00:00:00|1998-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+1998|1998-05-19T00:00:00|1998-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+1998|1998-08-30T00:00:00|1998-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+1998|1998-10-29T00:00:00|1998-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+1999|1999-01-01T00:00:00|1999-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+1999|1999-01-18T00:00:00|1999-01-18T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+1999|1999-01-19T00:00:00|1999-01-19T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+1999|1999-01-20T00:00:00|1999-01-20T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+1999|1999-03-27T00:00:00|1999-03-27T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+1999|1999-03-28T00:00:00|1999-03-28T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+1999|1999-03-29T00:00:00|1999-03-29T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+1999|1999-03-30T00:00:00|1999-03-30T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+1999|1999-04-23T00:00:00|1999-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+1999|1999-05-01T00:00:00|1999-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+1999|1999-05-19T00:00:00|1999-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+1999|1999-08-30T00:00:00|1999-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+1999|1999-10-29T00:00:00|1999-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2000|2000-01-01T00:00:00|2000-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2000|2000-01-08T00:00:00|2000-01-08T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2000|2000-01-09T00:00:00|2000-01-09T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2000|2000-01-10T00:00:00|2000-01-10T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2000|2000-03-16T00:00:00|2000-03-16T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2000|2000-03-17T00:00:00|2000-03-17T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2000|2000-03-18T00:00:00|2000-03-18T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2000|2000-03-19T00:00:00|2000-03-19T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2000|2000-04-23T00:00:00|2000-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2000|2000-05-19T00:00:00|2000-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2000|2000-08-30T00:00:00|2000-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2000|2000-10-29T00:00:00|2000-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2000|2000-12-27T00:00:00|2000-12-27T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2000|2000-12-28T00:00:00|2000-12-28T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2000|2000-12-29T00:00:00|2000-12-29T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2001|2001-01-01T00:00:00|2001-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2001|2001-03-05T00:00:00|2001-03-05T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2001|2001-03-06T00:00:00|2001-03-06T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2001|2001-03-07T00:00:00|2001-03-07T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2001|2001-03-08T00:00:00|2001-03-08T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2001|2001-04-23T00:00:00|2001-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2001|2001-05-01T00:00:00|2001-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2001|2001-05-19T00:00:00|2001-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2001|2001-08-30T00:00:00|2001-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2001|2001-10-29T00:00:00|2001-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2001|2001-12-16T00:00:00|2001-12-16T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2001|2001-12-17T00:00:00|2001-12-17T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2001|2001-12-18T00:00:00|2001-12-18T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2002|2002-01-01T00:00:00|2002-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2002|2002-02-22T00:00:00|2002-02-22T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2002|2002-02-23T00:00:00|2002-02-23T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2002|2002-02-24T00:00:00|2002-02-24T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2002|2002-02-25T00:00:00|2002-02-25T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2002|2002-04-23T00:00:00|2002-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2002|2002-05-01T00:00:00|2002-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2002|2002-05-19T00:00:00|2002-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2002|2002-08-30T00:00:00|2002-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2002|2002-10-29T00:00:00|2002-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2002|2002-12-05T00:00:00|2002-12-05T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2002|2002-12-06T00:00:00|2002-12-06T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2002|2002-12-07T00:00:00|2002-12-07T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2003|2003-01-01T00:00:00|2003-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2003|2003-02-11T00:00:00|2003-02-11T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2003|2003-02-12T00:00:00|2003-02-12T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2003|2003-02-13T00:00:00|2003-02-13T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2003|2003-02-14T00:00:00|2003-02-14T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2003|2003-04-23T00:00:00|2003-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2003|2003-05-01T00:00:00|2003-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2003|2003-05-19T00:00:00|2003-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2003|2003-08-30T00:00:00|2003-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2003|2003-10-29T00:00:00|2003-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2003|2003-11-25T00:00:00|2003-11-25T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2003|2003-11-26T00:00:00|2003-11-26T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2003|2003-11-27T00:00:00|2003-11-27T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2004|2004-01-01T00:00:00|2004-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2004|2004-02-01T00:00:00|2004-02-01T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2004|2004-02-02T00:00:00|2004-02-02T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2004|2004-02-03T00:00:00|2004-02-03T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2004|2004-02-04T00:00:00|2004-02-04T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2004|2004-04-23T00:00:00|2004-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2004|2004-05-01T00:00:00|2004-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2004|2004-05-19T00:00:00|2004-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2004|2004-08-30T00:00:00|2004-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2004|2004-10-29T00:00:00|2004-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2004|2004-11-14T00:00:00|2004-11-14T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2004|2004-11-15T00:00:00|2004-11-15T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2004|2004-11-16T00:00:00|2004-11-16T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2005|2005-01-01T00:00:00|2005-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2005|2005-01-21T00:00:00|2005-01-21T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2005|2005-01-22T00:00:00|2005-01-22T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2005|2005-01-23T00:00:00|2005-01-23T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2005|2005-01-24T00:00:00|2005-01-24T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2005|2005-04-23T00:00:00|2005-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2005|2005-05-01T00:00:00|2005-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2005|2005-05-19T00:00:00|2005-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2005|2005-08-30T00:00:00|2005-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2005|2005-10-29T00:00:00|2005-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2005|2005-11-03T00:00:00|2005-11-03T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2005|2005-11-04T00:00:00|2005-11-04T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2005|2005-11-05T00:00:00|2005-11-05T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2006|2006-01-01T00:00:00|2006-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2006|2006-01-10T00:00:00|2006-01-10T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2006|2006-01-11T00:00:00|2006-01-11T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2006|2006-01-12T00:00:00|2006-01-12T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2006|2006-01-13T00:00:00|2006-01-13T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2006|2006-04-23T00:00:00|2006-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2006|2006-05-01T00:00:00|2006-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2006|2006-05-19T00:00:00|2006-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2006|2006-08-30T00:00:00|2006-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2006|2006-10-23T00:00:00|2006-10-23T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2006|2006-10-24T00:00:00|2006-10-24T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2006|2006-10-25T00:00:00|2006-10-25T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2006|2006-10-29T00:00:00|2006-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2006|2006-12-31T00:00:00|2006-12-31T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2006|2007-01-01T00:00:00|2007-01-01T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2006|2007-01-02T00:00:00|2007-01-02T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2006|2007-01-03T00:00:00|2007-01-03T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2007|2007-01-01T00:00:00|2007-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2007|2007-04-23T00:00:00|2007-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2007|2007-05-01T00:00:00|2007-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2007|2007-05-19T00:00:00|2007-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2007|2007-08-30T00:00:00|2007-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2007|2007-10-13T00:00:00|2007-10-13T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2007|2007-10-14T00:00:00|2007-10-14T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2007|2007-10-15T00:00:00|2007-10-15T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2007|2007-10-29T00:00:00|2007-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2007|2007-12-20T00:00:00|2007-12-20T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2007|2007-12-21T00:00:00|2007-12-21T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2007|2007-12-22T00:00:00|2007-12-22T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2007|2007-12-23T00:00:00|2007-12-23T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2008|2008-01-01T00:00:00|2008-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2008|2008-04-23T00:00:00|2008-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2008|2008-05-01T00:00:00|2008-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2008|2008-05-19T00:00:00|2008-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2008|2008-08-30T00:00:00|2008-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2008|2008-10-01T00:00:00|2008-10-01T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2008|2008-10-02T00:00:00|2008-10-02T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2008|2008-10-03T00:00:00|2008-10-03T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2008|2008-10-29T00:00:00|2008-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2008|2008-12-08T00:00:00|2008-12-08T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2008|2008-12-09T00:00:00|2008-12-09T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2008|2008-12-10T00:00:00|2008-12-10T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2008|2008-12-11T00:00:00|2008-12-11T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2009|2009-01-01T00:00:00|2009-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2009|2009-04-23T00:00:00|2009-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2009|2009-05-01T00:00:00|2009-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2009|2009-05-19T00:00:00|2009-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2009|2009-08-30T00:00:00|2009-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2009|2009-09-20T00:00:00|2009-09-20T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2009|2009-09-21T00:00:00|2009-09-21T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2009|2009-09-22T00:00:00|2009-09-22T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2009|2009-10-29T00:00:00|2009-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2009|2009-11-27T00:00:00|2009-11-27T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2009|2009-11-28T00:00:00|2009-11-28T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2009|2009-11-29T00:00:00|2009-11-29T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2009|2009-11-30T00:00:00|2009-11-30T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2010|2010-01-01T00:00:00|2010-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2010|2010-04-23T00:00:00|2010-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2010|2010-05-01T00:00:00|2010-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2010|2010-05-19T00:00:00|2010-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2010|2010-08-30T00:00:00|2010-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2010|2010-09-10T00:00:00|2010-09-10T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2010|2010-09-11T00:00:00|2010-09-11T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2010|2010-09-12T00:00:00|2010-09-12T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2010|2010-10-29T00:00:00|2010-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2010|2010-11-16T00:00:00|2010-11-16T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2010|2010-11-17T00:00:00|2010-11-17T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2010|2010-11-18T00:00:00|2010-11-18T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2010|2010-11-19T00:00:00|2010-11-19T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2011|2011-01-01T00:00:00|2011-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2011|2011-04-23T00:00:00|2011-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2011|2011-05-01T00:00:00|2011-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2011|2011-05-19T00:00:00|2011-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2011|2011-08-30T00:00:00|2011-08-30T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2011|2011-08-30T00:00:00|2011-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2011|2011-08-31T00:00:00|2011-08-31T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2011|2011-09-01T00:00:00|2011-09-01T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2011|2011-10-29T00:00:00|2011-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2011|2011-11-06T00:00:00|2011-11-06T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2011|2011-11-07T00:00:00|2011-11-07T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2011|2011-11-08T00:00:00|2011-11-08T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2011|2011-11-09T00:00:00|2011-11-09T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2012|2012-01-01T00:00:00|2012-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2012|2012-04-23T00:00:00|2012-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2012|2012-05-01T00:00:00|2012-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2012|2012-05-19T00:00:00|2012-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2012|2012-08-19T00:00:00|2012-08-19T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2012|2012-08-20T00:00:00|2012-08-20T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2012|2012-08-21T00:00:00|2012-08-21T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2012|2012-08-30T00:00:00|2012-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2012|2012-10-26T00:00:00|2012-10-26T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2012|2012-10-27T00:00:00|2012-10-27T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2012|2012-10-28T00:00:00|2012-10-28T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2012|2012-10-29T00:00:00|2012-10-29T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2012|2012-10-29T00:00:00|2012-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2013|2013-01-01T00:00:00|2013-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2013|2013-04-23T00:00:00|2013-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2013|2013-05-01T00:00:00|2013-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2013|2013-05-19T00:00:00|2013-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2013|2013-08-08T00:00:00|2013-08-08T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2013|2013-08-09T00:00:00|2013-08-09T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2013|2013-08-10T00:00:00|2013-08-10T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2013|2013-08-30T00:00:00|2013-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2013|2013-10-15T00:00:00|2013-10-15T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2013|2013-10-16T00:00:00|2013-10-16T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2013|2013-10-17T00:00:00|2013-10-17T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2013|2013-10-18T00:00:00|2013-10-18T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2013|2013-10-29T00:00:00|2013-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2014|2014-01-01T00:00:00|2014-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2014|2014-04-23T00:00:00|2014-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2014|2014-05-01T00:00:00|2014-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2014|2014-05-19T00:00:00|2014-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2014|2014-07-28T00:00:00|2014-07-28T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2014|2014-07-29T00:00:00|2014-07-29T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2014|2014-07-30T00:00:00|2014-07-30T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2014|2014-08-30T00:00:00|2014-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2014|2014-10-04T00:00:00|2014-10-04T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2014|2014-10-05T00:00:00|2014-10-05T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2014|2014-10-06T00:00:00|2014-10-06T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2014|2014-10-07T00:00:00|2014-10-07T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2014|2014-10-29T00:00:00|2014-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2015|2015-01-01T00:00:00|2015-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2015|2015-04-23T00:00:00|2015-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2015|2015-05-01T00:00:00|2015-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2015|2015-05-19T00:00:00|2015-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2015|2015-07-17T00:00:00|2015-07-17T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2015|2015-07-18T00:00:00|2015-07-18T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2015|2015-07-19T00:00:00|2015-07-19T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2015|2015-08-30T00:00:00|2015-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2015|2015-09-23T00:00:00|2015-09-23T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2015|2015-09-24T00:00:00|2015-09-24T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2015|2015-09-25T00:00:00|2015-09-25T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2015|2015-09-26T00:00:00|2015-09-26T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2015|2015-10-29T00:00:00|2015-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2016|2016-01-01T00:00:00|2016-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2016|2016-04-23T00:00:00|2016-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2016|2016-05-01T00:00:00|2016-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2016|2016-05-19T00:00:00|2016-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2016|2016-07-06T00:00:00|2016-07-06T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2016|2016-07-07T00:00:00|2016-07-07T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2016|2016-07-08T00:00:00|2016-07-08T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2016|2016-08-30T00:00:00|2016-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2016|2016-09-11T00:00:00|2016-09-11T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2016|2016-09-12T00:00:00|2016-09-12T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2016|2016-09-13T00:00:00|2016-09-13T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2016|2016-09-14T00:00:00|2016-09-14T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2016|2016-10-29T00:00:00|2016-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2017|2017-01-01T00:00:00|2017-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2017|2017-04-23T00:00:00|2017-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2017|2017-05-01T00:00:00|2017-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2017|2017-05-19T00:00:00|2017-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2017|2017-06-25T00:00:00|2017-06-25T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2017|2017-06-26T00:00:00|2017-06-26T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2017|2017-06-27T00:00:00|2017-06-27T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2017|2017-07-15T00:00:00|2017-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2017|2017-08-30T00:00:00|2017-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2017|2017-09-01T00:00:00|2017-09-01T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2017|2017-09-02T00:00:00|2017-09-02T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2017|2017-09-03T00:00:00|2017-09-03T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2017|2017-09-04T00:00:00|2017-09-04T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2017|2017-10-29T00:00:00|2017-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2018|2018-01-01T00:00:00|2018-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2018|2018-04-23T00:00:00|2018-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2018|2018-05-01T00:00:00|2018-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2018|2018-05-19T00:00:00|2018-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2018|2018-06-15T00:00:00|2018-06-15T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2018|2018-06-16T00:00:00|2018-06-16T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2018|2018-06-17T00:00:00|2018-06-17T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2018|2018-07-15T00:00:00|2018-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2018|2018-08-21T00:00:00|2018-08-21T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2018|2018-08-22T00:00:00|2018-08-22T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2018|2018-08-23T00:00:00|2018-08-23T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2018|2018-08-24T00:00:00|2018-08-24T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2018|2018-08-30T00:00:00|2018-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2018|2018-10-29T00:00:00|2018-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2019|2019-01-01T00:00:00|2019-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2019|2019-04-23T00:00:00|2019-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2019|2019-05-01T00:00:00|2019-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2019|2019-05-19T00:00:00|2019-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2019|2019-06-04T00:00:00|2019-06-04T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2019|2019-06-05T00:00:00|2019-06-05T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2019|2019-06-06T00:00:00|2019-06-06T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2019|2019-07-15T00:00:00|2019-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2019|2019-08-11T00:00:00|2019-08-11T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2019|2019-08-12T00:00:00|2019-08-12T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2019|2019-08-13T00:00:00|2019-08-13T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2019|2019-08-14T00:00:00|2019-08-14T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2019|2019-08-30T00:00:00|2019-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2019|2019-10-29T00:00:00|2019-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2020|2020-01-01T00:00:00|2020-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2020|2020-04-23T00:00:00|2020-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2020|2020-05-01T00:00:00|2020-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2020|2020-05-19T00:00:00|2020-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2020|2020-05-24T00:00:00|2020-05-24T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2020|2020-05-25T00:00:00|2020-05-25T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2020|2020-05-26T00:00:00|2020-05-26T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2020|2020-07-15T00:00:00|2020-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2020|2020-07-31T00:00:00|2020-07-31T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2020|2020-08-01T00:00:00|2020-08-01T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2020|2020-08-02T00:00:00|2020-08-02T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2020|2020-08-03T00:00:00|2020-08-03T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2020|2020-08-30T00:00:00|2020-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2020|2020-10-29T00:00:00|2020-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2021|2021-01-01T00:00:00|2021-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2021|2021-04-23T00:00:00|2021-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2021|2021-05-01T00:00:00|2021-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2021|2021-05-13T00:00:00|2021-05-13T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2021|2021-05-14T00:00:00|2021-05-14T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2021|2021-05-15T00:00:00|2021-05-15T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2021|2021-05-19T00:00:00|2021-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2021|2021-07-15T00:00:00|2021-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2021|2021-07-20T00:00:00|2021-07-20T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2021|2021-07-21T00:00:00|2021-07-21T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2021|2021-07-22T00:00:00|2021-07-22T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2021|2021-07-23T00:00:00|2021-07-23T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2021|2021-08-30T00:00:00|2021-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2021|2021-10-29T00:00:00|2021-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2022|2022-01-01T00:00:00|2022-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2022|2022-04-23T00:00:00|2022-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2022|2022-05-01T00:00:00|2022-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2022|2022-05-02T00:00:00|2022-05-02T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2022|2022-05-03T00:00:00|2022-05-03T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2022|2022-05-04T00:00:00|2022-05-04T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2022|2022-05-19T00:00:00|2022-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2022|2022-07-09T00:00:00|2022-07-09T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2022|2022-07-10T00:00:00|2022-07-10T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2022|2022-07-11T00:00:00|2022-07-11T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2022|2022-07-12T00:00:00|2022-07-12T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2022|2022-07-15T00:00:00|2022-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2022|2022-08-30T00:00:00|2022-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2022|2022-10-29T00:00:00|2022-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2023|2023-01-01T00:00:00|2023-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2023|2023-04-21T00:00:00|2023-04-21T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2023|2023-04-22T00:00:00|2023-04-22T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2023|2023-04-23T00:00:00|2023-04-23T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2023|2023-04-23T00:00:00|2023-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2023|2023-05-01T00:00:00|2023-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2023|2023-05-19T00:00:00|2023-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2023|2023-06-28T00:00:00|2023-06-28T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2023|2023-06-29T00:00:00|2023-06-29T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2023|2023-06-30T00:00:00|2023-06-30T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2023|2023-07-01T00:00:00|2023-07-01T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2023|2023-07-15T00:00:00|2023-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2023|2023-08-30T00:00:00|2023-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2023|2023-10-29T00:00:00|2023-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2024|2024-01-01T00:00:00|2024-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2024|2024-04-10T00:00:00|2024-04-10T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2024|2024-04-11T00:00:00|2024-04-11T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2024|2024-04-12T00:00:00|2024-04-12T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2024|2024-04-23T00:00:00|2024-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2024|2024-05-01T00:00:00|2024-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2024|2024-05-19T00:00:00|2024-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2024|2024-06-16T00:00:00|2024-06-16T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2024|2024-06-17T00:00:00|2024-06-17T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2024|2024-06-18T00:00:00|2024-06-18T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2024|2024-06-19T00:00:00|2024-06-19T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2024|2024-07-15T00:00:00|2024-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2024|2024-08-30T00:00:00|2024-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2024|2024-10-29T00:00:00|2024-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2025|2025-01-01T00:00:00|2025-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2025|2025-03-30T00:00:00|2025-03-30T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2025|2025-03-31T00:00:00|2025-03-31T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2025|2025-04-01T00:00:00|2025-04-01T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2025|2025-04-23T00:00:00|2025-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2025|2025-05-01T00:00:00|2025-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2025|2025-05-19T00:00:00|2025-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2025|2025-06-06T00:00:00|2025-06-06T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2025|2025-06-07T00:00:00|2025-06-07T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2025|2025-06-08T00:00:00|2025-06-08T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2025|2025-06-09T00:00:00|2025-06-09T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2025|2025-07-15T00:00:00|2025-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2025|2025-08-30T00:00:00|2025-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2025|2025-10-29T00:00:00|2025-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2026|2026-01-01T00:00:00|2026-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2026|2026-03-20T00:00:00|2026-03-20T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2026|2026-03-21T00:00:00|2026-03-21T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2026|2026-03-22T00:00:00|2026-03-22T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2026|2026-04-23T00:00:00|2026-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2026|2026-05-01T00:00:00|2026-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2026|2026-05-19T00:00:00|2026-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2026|2026-05-27T00:00:00|2026-05-27T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2026|2026-05-28T00:00:00|2026-05-28T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2026|2026-05-29T00:00:00|2026-05-29T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2026|2026-05-30T00:00:00|2026-05-30T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2026|2026-07-15T00:00:00|2026-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2026|2026-08-30T00:00:00|2026-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2026|2026-10-29T00:00:00|2026-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2027|2027-01-01T00:00:00|2027-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2027|2027-03-09T00:00:00|2027-03-09T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2027|2027-03-10T00:00:00|2027-03-10T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2027|2027-03-11T00:00:00|2027-03-11T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2027|2027-04-23T00:00:00|2027-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2027|2027-05-01T00:00:00|2027-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2027|2027-05-16T00:00:00|2027-05-16T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2027|2027-05-17T00:00:00|2027-05-17T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2027|2027-05-18T00:00:00|2027-05-18T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2027|2027-05-19T00:00:00|2027-05-19T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2027|2027-05-19T00:00:00|2027-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2027|2027-07-15T00:00:00|2027-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2027|2027-08-30T00:00:00|2027-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2027|2027-10-29T00:00:00|2027-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2028|2028-01-01T00:00:00|2028-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2028|2028-02-26T00:00:00|2028-02-26T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2028|2028-02-27T00:00:00|2028-02-27T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2028|2028-02-28T00:00:00|2028-02-28T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2028|2028-04-23T00:00:00|2028-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2028|2028-05-01T00:00:00|2028-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2028|2028-05-05T00:00:00|2028-05-05T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2028|2028-05-06T00:00:00|2028-05-06T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2028|2028-05-07T00:00:00|2028-05-07T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2028|2028-05-08T00:00:00|2028-05-08T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2028|2028-05-19T00:00:00|2028-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2028|2028-07-15T00:00:00|2028-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2028|2028-08-30T00:00:00|2028-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2028|2028-10-29T00:00:00|2028-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2029|2029-01-01T00:00:00|2029-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2029|2029-02-14T00:00:00|2029-02-14T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2029|2029-02-15T00:00:00|2029-02-15T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2029|2029-02-16T00:00:00|2029-02-16T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2029|2029-04-23T00:00:00|2029-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2029|2029-04-24T00:00:00|2029-04-24T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2029|2029-04-25T00:00:00|2029-04-25T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2029|2029-04-26T00:00:00|2029-04-26T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2029|2029-04-27T00:00:00|2029-04-27T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2029|2029-05-01T00:00:00|2029-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2029|2029-05-19T00:00:00|2029-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2029|2029-07-15T00:00:00|2029-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2029|2029-08-30T00:00:00|2029-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2029|2029-10-29T00:00:00|2029-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2030|2030-01-01T00:00:00|2030-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2030|2030-02-04T00:00:00|2030-02-04T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2030|2030-02-05T00:00:00|2030-02-05T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2030|2030-02-06T00:00:00|2030-02-06T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2030|2030-04-13T00:00:00|2030-04-13T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2030|2030-04-14T00:00:00|2030-04-14T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2030|2030-04-15T00:00:00|2030-04-15T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2030|2030-04-16T00:00:00|2030-04-16T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2030|2030-04-23T00:00:00|2030-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2030|2030-05-01T00:00:00|2030-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2030|2030-05-19T00:00:00|2030-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2030|2030-07-15T00:00:00|2030-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2030|2030-08-30T00:00:00|2030-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2030|2030-10-29T00:00:00|2030-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2031|2031-01-01T00:00:00|2031-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2031|2031-01-24T00:00:00|2031-01-24T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2031|2031-01-25T00:00:00|2031-01-25T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2031|2031-01-26T00:00:00|2031-01-26T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2031|2031-04-02T00:00:00|2031-04-02T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2031|2031-04-03T00:00:00|2031-04-03T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2031|2031-04-04T00:00:00|2031-04-04T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2031|2031-04-05T00:00:00|2031-04-05T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2031|2031-04-23T00:00:00|2031-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2031|2031-05-01T00:00:00|2031-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2031|2031-05-19T00:00:00|2031-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2031|2031-07-15T00:00:00|2031-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2031|2031-08-30T00:00:00|2031-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2031|2031-10-29T00:00:00|2031-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2032|2032-01-01T00:00:00|2032-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2032|2032-01-14T00:00:00|2032-01-14T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2032|2032-01-15T00:00:00|2032-01-15T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2032|2032-01-16T00:00:00|2032-01-16T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2032|2032-03-22T00:00:00|2032-03-22T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2032|2032-03-23T00:00:00|2032-03-23T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2032|2032-03-24T00:00:00|2032-03-24T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2032|2032-03-25T00:00:00|2032-03-25T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2032|2032-04-23T00:00:00|2032-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2032|2032-05-01T00:00:00|2032-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2032|2032-05-19T00:00:00|2032-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2032|2032-07-15T00:00:00|2032-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2032|2032-08-30T00:00:00|2032-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2032|2032-10-29T00:00:00|2032-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2033|2033-01-01T00:00:00|2033-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2033|2033-01-02T00:00:00|2033-01-02T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2033|2033-01-03T00:00:00|2033-01-03T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2033|2033-01-04T00:00:00|2033-01-04T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2033|2033-03-11T00:00:00|2033-03-11T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2033|2033-03-12T00:00:00|2033-03-12T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2033|2033-03-13T00:00:00|2033-03-13T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2033|2033-03-14T00:00:00|2033-03-14T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2033|2033-04-23T00:00:00|2033-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2033|2033-05-01T00:00:00|2033-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2033|2033-05-19T00:00:00|2033-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2033|2033-07-15T00:00:00|2033-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2033|2033-08-30T00:00:00|2033-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2033|2033-10-29T00:00:00|2033-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2033|2033-12-23T00:00:00|2033-12-23T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2033|2033-12-24T00:00:00|2033-12-24T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2033|2033-12-25T00:00:00|2033-12-25T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2034|2034-01-01T00:00:00|2034-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2034|2034-03-01T00:00:00|2034-03-01T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2034|2034-03-02T00:00:00|2034-03-02T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2034|2034-03-03T00:00:00|2034-03-03T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2034|2034-03-04T00:00:00|2034-03-04T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2034|2034-04-23T00:00:00|2034-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2034|2034-05-01T00:00:00|2034-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2034|2034-05-19T00:00:00|2034-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2034|2034-07-15T00:00:00|2034-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2034|2034-08-30T00:00:00|2034-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2034|2034-10-29T00:00:00|2034-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2034|2034-12-12T00:00:00|2034-12-12T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2034|2034-12-13T00:00:00|2034-12-13T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2034|2034-12-14T00:00:00|2034-12-14T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2035|2035-01-01T00:00:00|2035-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2035|2035-02-18T00:00:00|2035-02-18T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2035|2035-02-19T00:00:00|2035-02-19T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2035|2035-02-20T00:00:00|2035-02-20T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2035|2035-02-21T00:00:00|2035-02-21T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2035|2035-04-23T00:00:00|2035-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2035|2035-05-01T00:00:00|2035-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2035|2035-05-19T00:00:00|2035-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2035|2035-07-15T00:00:00|2035-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2035|2035-08-30T00:00:00|2035-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2035|2035-10-29T00:00:00|2035-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2035|2035-12-01T00:00:00|2035-12-01T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2035|2035-12-02T00:00:00|2035-12-02T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2035|2035-12-03T00:00:00|2035-12-03T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2036|2036-01-01T00:00:00|2036-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2036|2036-02-07T00:00:00|2036-02-07T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2036|2036-02-08T00:00:00|2036-02-08T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2036|2036-02-09T00:00:00|2036-02-09T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2036|2036-02-10T00:00:00|2036-02-10T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2036|2036-04-23T00:00:00|2036-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2036|2036-05-01T00:00:00|2036-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2036|2036-05-19T00:00:00|2036-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2036|2036-07-15T00:00:00|2036-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2036|2036-08-30T00:00:00|2036-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2036|2036-10-29T00:00:00|2036-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2036|2036-11-19T00:00:00|2036-11-19T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2036|2036-11-20T00:00:00|2036-11-20T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2036|2036-11-21T00:00:00|2036-11-21T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2037|2037-01-01T00:00:00|2037-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2037|2037-01-26T00:00:00|2037-01-26T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2037|2037-01-27T00:00:00|2037-01-27T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2037|2037-01-28T00:00:00|2037-01-28T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2037|2037-01-29T00:00:00|2037-01-29T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2037|2037-04-23T00:00:00|2037-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2037|2037-05-01T00:00:00|2037-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2037|2037-05-19T00:00:00|2037-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2037|2037-07-15T00:00:00|2037-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2037|2037-08-30T00:00:00|2037-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2037|2037-10-29T00:00:00|2037-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2037|2037-11-08T00:00:00|2037-11-08T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2037|2037-11-09T00:00:00|2037-11-09T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2037|2037-11-10T00:00:00|2037-11-10T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2038|2038-01-01T00:00:00|2038-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2038|2038-01-16T00:00:00|2038-01-16T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2038|2038-01-17T00:00:00|2038-01-17T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2038|2038-01-18T00:00:00|2038-01-18T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2038|2038-01-19T00:00:00|2038-01-19T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2038|2038-04-23T00:00:00|2038-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2038|2038-05-01T00:00:00|2038-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2038|2038-05-19T00:00:00|2038-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2038|2038-07-15T00:00:00|2038-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2038|2038-08-30T00:00:00|2038-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2038|2038-10-29T00:00:00|2038-10-29T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2038|2038-10-29T00:00:00|2038-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2038|2038-10-30T00:00:00|2038-10-30T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2038|2038-10-31T00:00:00|2038-10-31T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2039|2039-01-01T00:00:00|2039-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2039|2039-01-05T00:00:00|2039-01-05T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2039|2039-01-06T00:00:00|2039-01-06T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2039|2039-01-07T00:00:00|2039-01-07T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2039|2039-01-08T00:00:00|2039-01-08T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2039|2039-04-23T00:00:00|2039-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2039|2039-05-01T00:00:00|2039-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2039|2039-05-19T00:00:00|2039-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2039|2039-07-15T00:00:00|2039-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2039|2039-08-30T00:00:00|2039-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2039|2039-10-19T00:00:00|2039-10-19T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2039|2039-10-20T00:00:00|2039-10-20T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2039|2039-10-21T00:00:00|2039-10-21T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2039|2039-10-29T00:00:00|2039-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2039|2039-12-26T00:00:00|2039-12-26T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2039|2039-12-27T00:00:00|2039-12-27T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2039|2039-12-28T00:00:00|2039-12-28T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2039|2039-12-29T00:00:00|2039-12-29T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2040|2040-01-01T00:00:00|2040-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2040|2040-04-23T00:00:00|2040-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2040|2040-05-01T00:00:00|2040-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2040|2040-05-19T00:00:00|2040-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2040|2040-07-15T00:00:00|2040-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2040|2040-08-30T00:00:00|2040-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2040|2040-10-07T00:00:00|2040-10-07T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2040|2040-10-08T00:00:00|2040-10-08T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2040|2040-10-09T00:00:00|2040-10-09T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2040|2040-10-29T00:00:00|2040-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2040|2040-12-14T00:00:00|2040-12-14T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2040|2040-12-15T00:00:00|2040-12-15T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2040|2040-12-16T00:00:00|2040-12-16T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2040|2040-12-17T00:00:00|2040-12-17T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2041|2041-01-01T00:00:00|2041-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2041|2041-04-23T00:00:00|2041-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2041|2041-05-01T00:00:00|2041-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2041|2041-05-19T00:00:00|2041-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2041|2041-07-15T00:00:00|2041-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2041|2041-08-30T00:00:00|2041-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2041|2041-09-26T00:00:00|2041-09-26T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2041|2041-09-27T00:00:00|2041-09-27T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2041|2041-09-28T00:00:00|2041-09-28T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2041|2041-10-29T00:00:00|2041-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2041|2041-12-04T00:00:00|2041-12-04T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2041|2041-12-05T00:00:00|2041-12-05T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2041|2041-12-06T00:00:00|2041-12-06T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2041|2041-12-07T00:00:00|2041-12-07T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2042|2042-01-01T00:00:00|2042-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2042|2042-04-23T00:00:00|2042-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2042|2042-05-01T00:00:00|2042-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2042|2042-05-19T00:00:00|2042-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2042|2042-07-15T00:00:00|2042-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2042|2042-08-30T00:00:00|2042-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2042|2042-09-15T00:00:00|2042-09-15T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2042|2042-09-16T00:00:00|2042-09-16T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2042|2042-09-17T00:00:00|2042-09-17T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2042|2042-10-29T00:00:00|2042-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2042|2042-11-23T00:00:00|2042-11-23T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2042|2042-11-24T00:00:00|2042-11-24T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2042|2042-11-25T00:00:00|2042-11-25T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2042|2042-11-26T00:00:00|2042-11-26T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2043|2043-01-01T00:00:00|2043-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2043|2043-04-23T00:00:00|2043-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2043|2043-05-19T00:00:00|2043-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2043|2043-07-15T00:00:00|2043-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2043|2043-08-30T00:00:00|2043-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2043|2043-09-04T00:00:00|2043-09-04T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2043|2043-09-05T00:00:00|2043-09-05T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2043|2043-09-06T00:00:00|2043-09-06T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2043|2043-10-29T00:00:00|2043-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2043|2043-11-12T00:00:00|2043-11-12T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2043|2043-11-13T00:00:00|2043-11-13T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2043|2043-11-14T00:00:00|2043-11-14T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2043|2043-11-15T00:00:00|2043-11-15T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2044|2044-01-01T00:00:00|2044-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2044|2044-04-23T00:00:00|2044-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2044|2044-05-01T00:00:00|2044-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2044|2044-05-19T00:00:00|2044-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2044|2044-07-15T00:00:00|2044-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2044|2044-08-24T00:00:00|2044-08-24T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2044|2044-08-25T00:00:00|2044-08-25T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2044|2044-08-26T00:00:00|2044-08-26T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2044|2044-08-30T00:00:00|2044-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2044|2044-10-29T00:00:00|2044-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2044|2044-10-31T00:00:00|2044-10-31T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2044|2044-11-01T00:00:00|2044-11-01T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2044|2044-11-02T00:00:00|2044-11-02T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2044|2044-11-03T00:00:00|2044-11-03T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2045|2045-01-01T00:00:00|2045-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2045|2045-04-23T00:00:00|2045-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2045|2045-05-01T00:00:00|2045-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2045|2045-05-19T00:00:00|2045-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2045|2045-07-15T00:00:00|2045-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2045|2045-08-14T00:00:00|2045-08-14T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2045|2045-08-15T00:00:00|2045-08-15T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2045|2045-08-16T00:00:00|2045-08-16T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2045|2045-08-30T00:00:00|2045-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2045|2045-10-21T00:00:00|2045-10-21T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2045|2045-10-22T00:00:00|2045-10-22T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2045|2045-10-23T00:00:00|2045-10-23T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2045|2045-10-24T00:00:00|2045-10-24T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2045|2045-10-29T00:00:00|2045-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2046|2046-01-01T00:00:00|2046-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2046|2046-04-23T00:00:00|2046-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2046|2046-05-01T00:00:00|2046-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2046|2046-05-19T00:00:00|2046-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2046|2046-07-15T00:00:00|2046-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2046|2046-08-03T00:00:00|2046-08-03T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2046|2046-08-04T00:00:00|2046-08-04T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2046|2046-08-05T00:00:00|2046-08-05T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2046|2046-08-30T00:00:00|2046-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2046|2046-10-10T00:00:00|2046-10-10T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2046|2046-10-11T00:00:00|2046-10-11T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2046|2046-10-12T00:00:00|2046-10-12T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2046|2046-10-13T00:00:00|2046-10-13T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2046|2046-10-29T00:00:00|2046-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2047|2047-01-01T00:00:00|2047-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2047|2047-04-23T00:00:00|2047-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2047|2047-05-01T00:00:00|2047-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2047|2047-05-19T00:00:00|2047-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2047|2047-07-15T00:00:00|2047-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2047|2047-07-24T00:00:00|2047-07-24T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2047|2047-07-25T00:00:00|2047-07-25T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2047|2047-07-26T00:00:00|2047-07-26T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2047|2047-08-30T00:00:00|2047-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2047|2047-09-30T00:00:00|2047-09-30T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2047|2047-10-01T00:00:00|2047-10-01T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2047|2047-10-02T00:00:00|2047-10-02T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2047|2047-10-03T00:00:00|2047-10-03T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2047|2047-10-29T00:00:00|2047-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2048|2048-01-01T00:00:00|2048-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2048|2048-04-23T00:00:00|2048-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2048|2048-05-01T00:00:00|2048-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2048|2048-05-19T00:00:00|2048-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2048|2048-07-12T00:00:00|2048-07-12T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2048|2048-07-13T00:00:00|2048-07-13T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2048|2048-07-14T00:00:00|2048-07-14T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2048|2048-07-15T00:00:00|2048-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2048|2048-08-30T00:00:00|2048-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2048|2048-09-19T00:00:00|2048-09-19T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2048|2048-09-20T00:00:00|2048-09-20T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2048|2048-09-21T00:00:00|2048-09-21T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2048|2048-09-22T00:00:00|2048-09-22T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2048|2048-10-29T00:00:00|2048-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|
+2049|2049-01-01T00:00:00|2049-01-01T00:00:00|New Year|Yılbaşı Tatili|NewYear|True|
+2049|2049-04-23T00:00:00|2049-04-23T00:00:00|National Sovereignty and Children's Day|Ulusal Egemenlik ve Çocuk Bayramı|NationalSovereigntyChildrensDayTR|True|
+2049|2049-05-01T00:00:00|2049-05-01T00:00:00|Labour Day|Emek ve Dayanışma Günü|LabourDay|True|
+2049|2049-05-19T00:00:00|2049-05-19T00:00:00|Youth and Sports Day|Atatürk’ü Anma, Gençlik ve Spor Bayramı|YouthAndSportsDayTR|True|
+2049|2049-07-01T00:00:00|2049-07-01T00:00:00|Eid al-Fitr|Ramazan Bayramı 1. Gün|EidAlFitr|True|
+2049|2049-07-02T00:00:00|2049-07-02T00:00:00|Eid al-Fitr|Ramazan Bayramı 2. Gün|EidAlFitr|True|
+2049|2049-07-03T00:00:00|2049-07-03T00:00:00|Eid al-Fitr|Ramazan Bayramı 3. Gün|EidAlFitr|True|
+2049|2049-07-15T00:00:00|2049-07-15T00:00:00|Democracy and National Unity Day|Demokrasi ve Milli Birlik Günü|DemocracyNationalUnityDayTR|True|
+2049|2049-08-30T00:00:00|2049-08-30T00:00:00|Victory Day|Zafer Bayramı|VictoryDayTR|True|
+2049|2049-09-08T00:00:00|2049-09-08T00:00:00|Eid al-Adha|Kurban Bayramı 1. Gün|EidAlAdha|True|
+2049|2049-09-09T00:00:00|2049-09-09T00:00:00|Eid al-Adha|Kurban Bayramı 2. Gün|EidAlAdha|True|
+2049|2049-09-10T00:00:00|2049-09-10T00:00:00|Eid al-Adha|Kurban Bayramı 3. Gün|EidAlAdha|True|
+2049|2049-09-11T00:00:00|2049-09-11T00:00:00|Eid al-Adha|Kurban Bayramı 4. Gün|EidAlAdha|True|
+2049|2049-10-29T00:00:00|2049-10-29T00:00:00|Republic Day|Cumhuriyet Bayramı|RepublicDayTR|True|

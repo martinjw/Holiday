@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Assumption" xml:space="preserve"><value>Κοίμηση της Θεοτόκου</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Χριστούγεννα</value></data>
+  <data name="CleanMonday" xml:space="preserve"><value>Καθαρά Δευτέρα</value></data>
+  <data name="EasterMonday" xml:space="preserve"><value>Δευτέρα του Πάσχα</value></data>
+  <data name="Epiphany" xml:space="preserve"><value>Θεοφάνεια</value></data>
+  <data name="GoodFriday" xml:space="preserve"><value>Μεγάλη Παρασκευή</value></data>
+  <data name="GreekIndependenceDay" xml:space="preserve"><value>Εικοστή Πέμπτη Μαρτίου</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Εργατική Πρωτομαγιά</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Πρωτοχρονιά</value></data>
+  <data name="OchiDayGR" xml:space="preserve"><value>Το Όχι</value></data>
+  <data name="PentecostMonday" xml:space="preserve"><value>Δευτέρα Πεντηκοστής</value></data>
+  <data name="SynaxisMotherOfGodGR" xml:space="preserve"><value>Σύναξις Υπεραγίας Θεοτόκου Μαρίας</value></data>
+</root>

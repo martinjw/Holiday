@@ -1,0 +1,960 @@
+1990|1990-01-01T00:00:00|1990-01-01T00:00:00|New Year|Новый год|NewYear|True|
+1990|1990-01-02T00:00:00|1990-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+1990|1990-01-07T00:00:00|1990-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+1990|1990-03-08T00:00:00|1990-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+1990|1990-03-21T00:00:00|1990-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+1990|1990-03-22T00:00:00|1990-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+1990|1990-03-23T00:00:00|1990-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+1990|1990-05-01T00:00:00|1990-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+1990|1990-05-07T00:00:00|1990-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+1990|1990-05-09T00:00:00|1990-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+1990|1990-07-06T00:00:00|1990-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+1990|1990-08-30T00:00:00|1990-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+1990|1990-09-01T00:00:00|1990-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+1990|1990-12-01T00:00:00|1990-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+1990|1990-12-16T00:00:00|1990-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+1990|1990-12-17T00:00:00|1990-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+1991|1991-01-01T00:00:00|1991-01-01T00:00:00|New Year|Новый год|NewYear|True|
+1991|1991-01-02T00:00:00|1991-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+1991|1991-01-07T00:00:00|1991-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+1991|1991-03-08T00:00:00|1991-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+1991|1991-03-21T00:00:00|1991-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+1991|1991-03-22T00:00:00|1991-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+1991|1991-03-23T00:00:00|1991-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+1991|1991-05-01T00:00:00|1991-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+1991|1991-05-07T00:00:00|1991-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+1991|1991-05-09T00:00:00|1991-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+1991|1991-07-06T00:00:00|1991-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+1991|1991-08-30T00:00:00|1991-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+1991|1991-09-01T00:00:00|1991-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+1991|1991-12-01T00:00:00|1991-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+1991|1991-12-16T00:00:00|1991-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+1991|1991-12-17T00:00:00|1991-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+1992|1992-01-01T00:00:00|1992-01-01T00:00:00|New Year|Новый год|NewYear|True|
+1992|1992-01-02T00:00:00|1992-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+1992|1992-01-07T00:00:00|1992-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+1992|1992-03-08T00:00:00|1992-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+1992|1992-03-21T00:00:00|1992-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+1992|1992-03-22T00:00:00|1992-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+1992|1992-03-23T00:00:00|1992-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+1992|1992-05-01T00:00:00|1992-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+1992|1992-05-07T00:00:00|1992-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+1992|1992-05-09T00:00:00|1992-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+1992|1992-07-06T00:00:00|1992-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+1992|1992-08-30T00:00:00|1992-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+1992|1992-09-01T00:00:00|1992-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+1992|1992-12-01T00:00:00|1992-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+1992|1992-12-16T00:00:00|1992-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+1992|1992-12-17T00:00:00|1992-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+1993|1993-01-01T00:00:00|1993-01-01T00:00:00|New Year|Новый год|NewYear|True|
+1993|1993-01-02T00:00:00|1993-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+1993|1993-01-07T00:00:00|1993-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+1993|1993-03-08T00:00:00|1993-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+1993|1993-03-21T00:00:00|1993-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+1993|1993-03-22T00:00:00|1993-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+1993|1993-03-23T00:00:00|1993-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+1993|1993-05-01T00:00:00|1993-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+1993|1993-05-07T00:00:00|1993-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+1993|1993-05-09T00:00:00|1993-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+1993|1993-07-06T00:00:00|1993-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+1993|1993-08-30T00:00:00|1993-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+1993|1993-09-01T00:00:00|1993-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+1993|1993-12-01T00:00:00|1993-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+1993|1993-12-16T00:00:00|1993-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+1993|1993-12-17T00:00:00|1993-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+1994|1994-01-01T00:00:00|1994-01-01T00:00:00|New Year|Новый год|NewYear|True|
+1994|1994-01-02T00:00:00|1994-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+1994|1994-01-07T00:00:00|1994-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+1994|1994-03-08T00:00:00|1994-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+1994|1994-03-21T00:00:00|1994-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+1994|1994-03-22T00:00:00|1994-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+1994|1994-03-23T00:00:00|1994-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+1994|1994-05-01T00:00:00|1994-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+1994|1994-05-07T00:00:00|1994-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+1994|1994-05-09T00:00:00|1994-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+1994|1994-07-06T00:00:00|1994-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+1994|1994-08-30T00:00:00|1994-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+1994|1994-09-01T00:00:00|1994-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+1994|1994-12-01T00:00:00|1994-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+1994|1994-12-16T00:00:00|1994-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+1994|1994-12-17T00:00:00|1994-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+1995|1995-01-01T00:00:00|1995-01-01T00:00:00|New Year|Новый год|NewYear|True|
+1995|1995-01-02T00:00:00|1995-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+1995|1995-01-07T00:00:00|1995-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+1995|1995-03-08T00:00:00|1995-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+1995|1995-03-21T00:00:00|1995-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+1995|1995-03-22T00:00:00|1995-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+1995|1995-03-23T00:00:00|1995-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+1995|1995-05-01T00:00:00|1995-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+1995|1995-05-07T00:00:00|1995-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+1995|1995-05-09T00:00:00|1995-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+1995|1995-07-06T00:00:00|1995-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+1995|1995-08-30T00:00:00|1995-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+1995|1995-09-01T00:00:00|1995-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+1995|1995-12-01T00:00:00|1995-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+1995|1995-12-16T00:00:00|1995-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+1995|1995-12-17T00:00:00|1995-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+1996|1996-01-01T00:00:00|1996-01-01T00:00:00|New Year|Новый год|NewYear|True|
+1996|1996-01-02T00:00:00|1996-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+1996|1996-01-07T00:00:00|1996-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+1996|1996-03-08T00:00:00|1996-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+1996|1996-03-21T00:00:00|1996-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+1996|1996-03-22T00:00:00|1996-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+1996|1996-03-23T00:00:00|1996-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+1996|1996-05-01T00:00:00|1996-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+1996|1996-05-07T00:00:00|1996-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+1996|1996-05-09T00:00:00|1996-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+1996|1996-07-06T00:00:00|1996-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+1996|1996-08-30T00:00:00|1996-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+1996|1996-09-01T00:00:00|1996-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+1996|1996-12-01T00:00:00|1996-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+1996|1996-12-16T00:00:00|1996-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+1996|1996-12-17T00:00:00|1996-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+1997|1997-01-01T00:00:00|1997-01-01T00:00:00|New Year|Новый год|NewYear|True|
+1997|1997-01-02T00:00:00|1997-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+1997|1997-01-07T00:00:00|1997-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+1997|1997-03-08T00:00:00|1997-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+1997|1997-03-21T00:00:00|1997-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+1997|1997-03-22T00:00:00|1997-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+1997|1997-03-23T00:00:00|1997-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+1997|1997-05-01T00:00:00|1997-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+1997|1997-05-07T00:00:00|1997-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+1997|1997-05-09T00:00:00|1997-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+1997|1997-07-06T00:00:00|1997-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+1997|1997-08-30T00:00:00|1997-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+1997|1997-09-01T00:00:00|1997-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+1997|1997-12-01T00:00:00|1997-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+1997|1997-12-16T00:00:00|1997-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+1997|1997-12-17T00:00:00|1997-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+1998|1998-01-01T00:00:00|1998-01-01T00:00:00|New Year|Новый год|NewYear|True|
+1998|1998-01-02T00:00:00|1998-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+1998|1998-01-07T00:00:00|1998-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+1998|1998-03-08T00:00:00|1998-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+1998|1998-03-21T00:00:00|1998-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+1998|1998-03-22T00:00:00|1998-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+1998|1998-03-23T00:00:00|1998-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+1998|1998-05-01T00:00:00|1998-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+1998|1998-05-07T00:00:00|1998-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+1998|1998-05-09T00:00:00|1998-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+1998|1998-07-06T00:00:00|1998-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+1998|1998-08-30T00:00:00|1998-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+1998|1998-09-01T00:00:00|1998-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+1998|1998-12-01T00:00:00|1998-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+1998|1998-12-16T00:00:00|1998-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+1998|1998-12-17T00:00:00|1998-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+1999|1999-01-01T00:00:00|1999-01-01T00:00:00|New Year|Новый год|NewYear|True|
+1999|1999-01-02T00:00:00|1999-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+1999|1999-01-07T00:00:00|1999-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+1999|1999-03-08T00:00:00|1999-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+1999|1999-03-21T00:00:00|1999-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+1999|1999-03-22T00:00:00|1999-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+1999|1999-03-23T00:00:00|1999-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+1999|1999-05-01T00:00:00|1999-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+1999|1999-05-07T00:00:00|1999-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+1999|1999-05-09T00:00:00|1999-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+1999|1999-07-06T00:00:00|1999-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+1999|1999-08-30T00:00:00|1999-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+1999|1999-09-01T00:00:00|1999-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+1999|1999-12-01T00:00:00|1999-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+1999|1999-12-16T00:00:00|1999-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+1999|1999-12-17T00:00:00|1999-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2000|2000-01-01T00:00:00|2000-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2000|2000-01-02T00:00:00|2000-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2000|2000-01-07T00:00:00|2000-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2000|2000-03-08T00:00:00|2000-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2000|2000-03-21T00:00:00|2000-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2000|2000-03-22T00:00:00|2000-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2000|2000-03-23T00:00:00|2000-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2000|2000-05-07T00:00:00|2000-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2000|2000-05-09T00:00:00|2000-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2000|2000-07-06T00:00:00|2000-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2000|2000-08-30T00:00:00|2000-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2000|2000-09-01T00:00:00|2000-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2000|2000-12-01T00:00:00|2000-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2000|2000-12-16T00:00:00|2000-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2000|2000-12-17T00:00:00|2000-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2001|2001-01-01T00:00:00|2001-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2001|2001-01-02T00:00:00|2001-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2001|2001-01-07T00:00:00|2001-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2001|2001-03-08T00:00:00|2001-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2001|2001-03-21T00:00:00|2001-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2001|2001-03-22T00:00:00|2001-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2001|2001-03-23T00:00:00|2001-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2001|2001-05-01T00:00:00|2001-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2001|2001-05-07T00:00:00|2001-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2001|2001-05-09T00:00:00|2001-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2001|2001-07-06T00:00:00|2001-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2001|2001-08-30T00:00:00|2001-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2001|2001-09-01T00:00:00|2001-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2001|2001-12-01T00:00:00|2001-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2001|2001-12-16T00:00:00|2001-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2001|2001-12-17T00:00:00|2001-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2002|2002-01-01T00:00:00|2002-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2002|2002-01-02T00:00:00|2002-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2002|2002-01-07T00:00:00|2002-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2002|2002-03-08T00:00:00|2002-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2002|2002-03-21T00:00:00|2002-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2002|2002-03-22T00:00:00|2002-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2002|2002-03-23T00:00:00|2002-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2002|2002-05-01T00:00:00|2002-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2002|2002-05-07T00:00:00|2002-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2002|2002-05-09T00:00:00|2002-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2002|2002-07-06T00:00:00|2002-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2002|2002-08-30T00:00:00|2002-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2002|2002-09-01T00:00:00|2002-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2002|2002-12-01T00:00:00|2002-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2002|2002-12-16T00:00:00|2002-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2002|2002-12-17T00:00:00|2002-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2003|2003-01-01T00:00:00|2003-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2003|2003-01-02T00:00:00|2003-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2003|2003-01-07T00:00:00|2003-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2003|2003-03-08T00:00:00|2003-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2003|2003-03-21T00:00:00|2003-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2003|2003-03-22T00:00:00|2003-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2003|2003-03-23T00:00:00|2003-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2003|2003-05-01T00:00:00|2003-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2003|2003-05-07T00:00:00|2003-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2003|2003-05-09T00:00:00|2003-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2003|2003-07-06T00:00:00|2003-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2003|2003-08-30T00:00:00|2003-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2003|2003-09-01T00:00:00|2003-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2003|2003-12-01T00:00:00|2003-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2003|2003-12-16T00:00:00|2003-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2003|2003-12-17T00:00:00|2003-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2004|2004-01-01T00:00:00|2004-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2004|2004-01-02T00:00:00|2004-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2004|2004-01-07T00:00:00|2004-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2004|2004-03-08T00:00:00|2004-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2004|2004-03-21T00:00:00|2004-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2004|2004-03-22T00:00:00|2004-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2004|2004-03-23T00:00:00|2004-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2004|2004-05-01T00:00:00|2004-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2004|2004-05-07T00:00:00|2004-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2004|2004-05-09T00:00:00|2004-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2004|2004-07-06T00:00:00|2004-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2004|2004-08-30T00:00:00|2004-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2004|2004-09-01T00:00:00|2004-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2004|2004-12-01T00:00:00|2004-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2004|2004-12-16T00:00:00|2004-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2004|2004-12-17T00:00:00|2004-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2005|2005-01-01T00:00:00|2005-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2005|2005-01-02T00:00:00|2005-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2005|2005-01-07T00:00:00|2005-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2005|2005-03-08T00:00:00|2005-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2005|2005-03-21T00:00:00|2005-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2005|2005-03-22T00:00:00|2005-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2005|2005-03-23T00:00:00|2005-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2005|2005-05-01T00:00:00|2005-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2005|2005-05-07T00:00:00|2005-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2005|2005-05-09T00:00:00|2005-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2005|2005-07-06T00:00:00|2005-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2005|2005-08-30T00:00:00|2005-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2005|2005-09-01T00:00:00|2005-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2005|2005-12-01T00:00:00|2005-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2005|2005-12-16T00:00:00|2005-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2005|2005-12-17T00:00:00|2005-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2006|2006-01-01T00:00:00|2006-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2006|2006-01-02T00:00:00|2006-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2006|2006-01-07T00:00:00|2006-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2006|2006-03-08T00:00:00|2006-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2006|2006-03-21T00:00:00|2006-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2006|2006-03-22T00:00:00|2006-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2006|2006-03-23T00:00:00|2006-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2006|2006-05-01T00:00:00|2006-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2006|2006-05-07T00:00:00|2006-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2006|2006-05-09T00:00:00|2006-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2006|2006-07-06T00:00:00|2006-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2006|2006-08-30T00:00:00|2006-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2006|2006-09-01T00:00:00|2006-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2006|2006-12-01T00:00:00|2006-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2006|2006-12-16T00:00:00|2006-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2006|2006-12-17T00:00:00|2006-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2007|2007-01-01T00:00:00|2007-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2007|2007-01-02T00:00:00|2007-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2007|2007-01-07T00:00:00|2007-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2007|2007-03-08T00:00:00|2007-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2007|2007-03-21T00:00:00|2007-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2007|2007-03-22T00:00:00|2007-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2007|2007-03-23T00:00:00|2007-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2007|2007-05-01T00:00:00|2007-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2007|2007-05-07T00:00:00|2007-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2007|2007-05-09T00:00:00|2007-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2007|2007-07-06T00:00:00|2007-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2007|2007-08-30T00:00:00|2007-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2007|2007-09-01T00:00:00|2007-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2007|2007-12-01T00:00:00|2007-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2007|2007-12-16T00:00:00|2007-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2007|2007-12-17T00:00:00|2007-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2008|2008-01-01T00:00:00|2008-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2008|2008-01-02T00:00:00|2008-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2008|2008-01-07T00:00:00|2008-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2008|2008-03-08T00:00:00|2008-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2008|2008-03-21T00:00:00|2008-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2008|2008-03-22T00:00:00|2008-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2008|2008-03-23T00:00:00|2008-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2008|2008-05-01T00:00:00|2008-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2008|2008-05-07T00:00:00|2008-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2008|2008-05-09T00:00:00|2008-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2008|2008-07-06T00:00:00|2008-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2008|2008-08-30T00:00:00|2008-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2008|2008-09-01T00:00:00|2008-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2008|2008-12-01T00:00:00|2008-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2008|2008-12-16T00:00:00|2008-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2008|2008-12-17T00:00:00|2008-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2009|2009-01-01T00:00:00|2009-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2009|2009-01-02T00:00:00|2009-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2009|2009-01-07T00:00:00|2009-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2009|2009-03-08T00:00:00|2009-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2009|2009-03-21T00:00:00|2009-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2009|2009-03-22T00:00:00|2009-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2009|2009-03-23T00:00:00|2009-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2009|2009-05-01T00:00:00|2009-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2009|2009-05-07T00:00:00|2009-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2009|2009-05-09T00:00:00|2009-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2009|2009-07-06T00:00:00|2009-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2009|2009-08-30T00:00:00|2009-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2009|2009-09-01T00:00:00|2009-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2009|2009-12-01T00:00:00|2009-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2009|2009-12-16T00:00:00|2009-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2009|2009-12-17T00:00:00|2009-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2010|2010-01-01T00:00:00|2010-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2010|2010-01-02T00:00:00|2010-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2010|2010-01-07T00:00:00|2010-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2010|2010-03-08T00:00:00|2010-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2010|2010-03-21T00:00:00|2010-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2010|2010-03-22T00:00:00|2010-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2010|2010-03-23T00:00:00|2010-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2010|2010-05-01T00:00:00|2010-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2010|2010-05-07T00:00:00|2010-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2010|2010-05-09T00:00:00|2010-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2010|2010-07-06T00:00:00|2010-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2010|2010-08-30T00:00:00|2010-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2010|2010-09-01T00:00:00|2010-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2010|2010-12-01T00:00:00|2010-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2010|2010-12-16T00:00:00|2010-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2010|2010-12-17T00:00:00|2010-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2011|2011-01-01T00:00:00|2011-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2011|2011-01-02T00:00:00|2011-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2011|2011-01-07T00:00:00|2011-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2011|2011-03-08T00:00:00|2011-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2011|2011-03-21T00:00:00|2011-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2011|2011-03-22T00:00:00|2011-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2011|2011-03-23T00:00:00|2011-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2011|2011-05-01T00:00:00|2011-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2011|2011-05-07T00:00:00|2011-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2011|2011-05-09T00:00:00|2011-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2011|2011-07-06T00:00:00|2011-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2011|2011-08-30T00:00:00|2011-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2011|2011-09-01T00:00:00|2011-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2011|2011-12-01T00:00:00|2011-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2011|2011-12-16T00:00:00|2011-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2011|2011-12-17T00:00:00|2011-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2012|2012-01-01T00:00:00|2012-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2012|2012-01-02T00:00:00|2012-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2012|2012-01-07T00:00:00|2012-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2012|2012-03-08T00:00:00|2012-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2012|2012-03-21T00:00:00|2012-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2012|2012-03-22T00:00:00|2012-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2012|2012-03-23T00:00:00|2012-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2012|2012-05-01T00:00:00|2012-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2012|2012-05-07T00:00:00|2012-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2012|2012-05-09T00:00:00|2012-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2012|2012-07-06T00:00:00|2012-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2012|2012-08-30T00:00:00|2012-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2012|2012-09-01T00:00:00|2012-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2012|2012-12-01T00:00:00|2012-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2012|2012-12-16T00:00:00|2012-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2012|2012-12-17T00:00:00|2012-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2013|2013-01-01T00:00:00|2013-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2013|2013-01-02T00:00:00|2013-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2013|2013-01-07T00:00:00|2013-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2013|2013-03-08T00:00:00|2013-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2013|2013-03-21T00:00:00|2013-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2013|2013-03-22T00:00:00|2013-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2013|2013-03-23T00:00:00|2013-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2013|2013-05-01T00:00:00|2013-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2013|2013-05-07T00:00:00|2013-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2013|2013-05-09T00:00:00|2013-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2013|2013-07-06T00:00:00|2013-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2013|2013-08-30T00:00:00|2013-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2013|2013-09-01T00:00:00|2013-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2013|2013-12-01T00:00:00|2013-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2013|2013-12-16T00:00:00|2013-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2013|2013-12-17T00:00:00|2013-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2014|2014-01-01T00:00:00|2014-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2014|2014-01-02T00:00:00|2014-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2014|2014-01-07T00:00:00|2014-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2014|2014-03-08T00:00:00|2014-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2014|2014-03-21T00:00:00|2014-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2014|2014-03-22T00:00:00|2014-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2014|2014-03-23T00:00:00|2014-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2014|2014-05-01T00:00:00|2014-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2014|2014-05-07T00:00:00|2014-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2014|2014-05-09T00:00:00|2014-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2014|2014-07-06T00:00:00|2014-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2014|2014-08-30T00:00:00|2014-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2014|2014-09-01T00:00:00|2014-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2014|2014-12-01T00:00:00|2014-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2014|2014-12-16T00:00:00|2014-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2014|2014-12-17T00:00:00|2014-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2015|2015-01-01T00:00:00|2015-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2015|2015-01-02T00:00:00|2015-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2015|2015-01-07T00:00:00|2015-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2015|2015-03-08T00:00:00|2015-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2015|2015-03-21T00:00:00|2015-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2015|2015-03-22T00:00:00|2015-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2015|2015-03-23T00:00:00|2015-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2015|2015-05-01T00:00:00|2015-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2015|2015-05-07T00:00:00|2015-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2015|2015-05-09T00:00:00|2015-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2015|2015-07-06T00:00:00|2015-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2015|2015-08-30T00:00:00|2015-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2015|2015-09-01T00:00:00|2015-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2015|2015-12-01T00:00:00|2015-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2015|2015-12-16T00:00:00|2015-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2015|2015-12-17T00:00:00|2015-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2016|2016-01-01T00:00:00|2016-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2016|2016-01-02T00:00:00|2016-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2016|2016-01-07T00:00:00|2016-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2016|2016-03-08T00:00:00|2016-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2016|2016-03-21T00:00:00|2016-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2016|2016-03-22T00:00:00|2016-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2016|2016-03-23T00:00:00|2016-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2016|2016-05-01T00:00:00|2016-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2016|2016-05-07T00:00:00|2016-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2016|2016-05-09T00:00:00|2016-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2016|2016-07-06T00:00:00|2016-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2016|2016-08-30T00:00:00|2016-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2016|2016-09-01T00:00:00|2016-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2016|2016-12-01T00:00:00|2016-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2016|2016-12-16T00:00:00|2016-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2016|2016-12-17T00:00:00|2016-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2017|2017-01-01T00:00:00|2017-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2017|2017-01-02T00:00:00|2017-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2017|2017-01-07T00:00:00|2017-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2017|2017-03-08T00:00:00|2017-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2017|2017-03-21T00:00:00|2017-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2017|2017-03-22T00:00:00|2017-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2017|2017-03-23T00:00:00|2017-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2017|2017-05-01T00:00:00|2017-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2017|2017-05-07T00:00:00|2017-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2017|2017-05-09T00:00:00|2017-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2017|2017-07-06T00:00:00|2017-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2017|2017-08-30T00:00:00|2017-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2017|2017-09-01T00:00:00|2017-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2017|2017-12-01T00:00:00|2017-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2017|2017-12-16T00:00:00|2017-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2017|2017-12-17T00:00:00|2017-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2018|2018-01-01T00:00:00|2018-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2018|2018-01-02T00:00:00|2018-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2018|2018-01-07T00:00:00|2018-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2018|2018-03-08T00:00:00|2018-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2018|2018-03-21T00:00:00|2018-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2018|2018-03-22T00:00:00|2018-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2018|2018-03-23T00:00:00|2018-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2018|2018-05-01T00:00:00|2018-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2018|2018-05-07T00:00:00|2018-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2018|2018-05-09T00:00:00|2018-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2018|2018-07-06T00:00:00|2018-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2018|2018-08-30T00:00:00|2018-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2018|2018-09-01T00:00:00|2018-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2018|2018-12-01T00:00:00|2018-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2018|2018-12-16T00:00:00|2018-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2018|2018-12-17T00:00:00|2018-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2019|2019-01-01T00:00:00|2019-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2019|2019-01-02T00:00:00|2019-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2019|2019-01-07T00:00:00|2019-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2019|2019-03-08T00:00:00|2019-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2019|2019-03-21T00:00:00|2019-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2019|2019-03-22T00:00:00|2019-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2019|2019-03-23T00:00:00|2019-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2019|2019-05-01T00:00:00|2019-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2019|2019-05-07T00:00:00|2019-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2019|2019-05-09T00:00:00|2019-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2019|2019-07-06T00:00:00|2019-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2019|2019-08-30T00:00:00|2019-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2019|2019-09-01T00:00:00|2019-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2019|2019-12-01T00:00:00|2019-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2019|2019-12-16T00:00:00|2019-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2019|2019-12-17T00:00:00|2019-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2020|2020-01-01T00:00:00|2020-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2020|2020-01-02T00:00:00|2020-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2020|2020-01-07T00:00:00|2020-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2020|2020-03-08T00:00:00|2020-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2020|2020-03-21T00:00:00|2020-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2020|2020-03-22T00:00:00|2020-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2020|2020-03-23T00:00:00|2020-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2020|2020-05-01T00:00:00|2020-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2020|2020-05-07T00:00:00|2020-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2020|2020-05-09T00:00:00|2020-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2020|2020-07-06T00:00:00|2020-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2020|2020-08-30T00:00:00|2020-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2020|2020-09-01T00:00:00|2020-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2020|2020-12-01T00:00:00|2020-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2020|2020-12-16T00:00:00|2020-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2020|2020-12-17T00:00:00|2020-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2021|2021-01-01T00:00:00|2021-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2021|2021-01-02T00:00:00|2021-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2021|2021-01-07T00:00:00|2021-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2021|2021-03-08T00:00:00|2021-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2021|2021-03-21T00:00:00|2021-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2021|2021-03-22T00:00:00|2021-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2021|2021-03-23T00:00:00|2021-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2021|2021-05-01T00:00:00|2021-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2021|2021-05-07T00:00:00|2021-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2021|2021-05-09T00:00:00|2021-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2021|2021-07-06T00:00:00|2021-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2021|2021-08-30T00:00:00|2021-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2021|2021-09-01T00:00:00|2021-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2021|2021-12-01T00:00:00|2021-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2021|2021-12-16T00:00:00|2021-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2021|2021-12-17T00:00:00|2021-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2022|2022-01-01T00:00:00|2022-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2022|2022-01-02T00:00:00|2022-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2022|2022-01-07T00:00:00|2022-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2022|2022-03-08T00:00:00|2022-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2022|2022-03-21T00:00:00|2022-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2022|2022-03-22T00:00:00|2022-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2022|2022-03-23T00:00:00|2022-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2022|2022-05-01T00:00:00|2022-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2022|2022-05-07T00:00:00|2022-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2022|2022-05-09T00:00:00|2022-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2022|2022-07-06T00:00:00|2022-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2022|2022-08-30T00:00:00|2022-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2022|2022-09-01T00:00:00|2022-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2022|2022-12-01T00:00:00|2022-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2022|2022-12-16T00:00:00|2022-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2022|2022-12-17T00:00:00|2022-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2023|2023-01-01T00:00:00|2023-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2023|2023-01-02T00:00:00|2023-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2023|2023-01-07T00:00:00|2023-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2023|2023-03-08T00:00:00|2023-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2023|2023-03-21T00:00:00|2023-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2023|2023-03-22T00:00:00|2023-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2023|2023-03-23T00:00:00|2023-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2023|2023-05-01T00:00:00|2023-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2023|2023-05-07T00:00:00|2023-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2023|2023-05-09T00:00:00|2023-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2023|2023-07-06T00:00:00|2023-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2023|2023-08-30T00:00:00|2023-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2023|2023-09-01T00:00:00|2023-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2023|2023-12-01T00:00:00|2023-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2023|2023-12-16T00:00:00|2023-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2023|2023-12-17T00:00:00|2023-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2024|2024-01-01T00:00:00|2024-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2024|2024-01-02T00:00:00|2024-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2024|2024-01-07T00:00:00|2024-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2024|2024-03-08T00:00:00|2024-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2024|2024-03-21T00:00:00|2024-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2024|2024-03-22T00:00:00|2024-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2024|2024-03-23T00:00:00|2024-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2024|2024-05-01T00:00:00|2024-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2024|2024-05-07T00:00:00|2024-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2024|2024-05-09T00:00:00|2024-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2024|2024-07-06T00:00:00|2024-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2024|2024-08-30T00:00:00|2024-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2024|2024-09-01T00:00:00|2024-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2024|2024-12-01T00:00:00|2024-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2024|2024-12-16T00:00:00|2024-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2024|2024-12-17T00:00:00|2024-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2025|2025-01-01T00:00:00|2025-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2025|2025-01-02T00:00:00|2025-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2025|2025-01-07T00:00:00|2025-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2025|2025-03-08T00:00:00|2025-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2025|2025-03-21T00:00:00|2025-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2025|2025-03-22T00:00:00|2025-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2025|2025-03-23T00:00:00|2025-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2025|2025-05-01T00:00:00|2025-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2025|2025-05-07T00:00:00|2025-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2025|2025-05-09T00:00:00|2025-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2025|2025-07-06T00:00:00|2025-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2025|2025-08-30T00:00:00|2025-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2025|2025-09-01T00:00:00|2025-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2025|2025-12-01T00:00:00|2025-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2025|2025-12-16T00:00:00|2025-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2025|2025-12-17T00:00:00|2025-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2026|2026-01-01T00:00:00|2026-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2026|2026-01-02T00:00:00|2026-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2026|2026-01-07T00:00:00|2026-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2026|2026-03-08T00:00:00|2026-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2026|2026-03-21T00:00:00|2026-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2026|2026-03-22T00:00:00|2026-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2026|2026-03-23T00:00:00|2026-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2026|2026-05-01T00:00:00|2026-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2026|2026-05-07T00:00:00|2026-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2026|2026-05-09T00:00:00|2026-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2026|2026-07-06T00:00:00|2026-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2026|2026-08-30T00:00:00|2026-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2026|2026-09-01T00:00:00|2026-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2026|2026-12-01T00:00:00|2026-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2026|2026-12-16T00:00:00|2026-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2026|2026-12-17T00:00:00|2026-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2027|2027-01-01T00:00:00|2027-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2027|2027-01-02T00:00:00|2027-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2027|2027-01-07T00:00:00|2027-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2027|2027-03-08T00:00:00|2027-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2027|2027-03-21T00:00:00|2027-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2027|2027-03-22T00:00:00|2027-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2027|2027-03-23T00:00:00|2027-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2027|2027-05-01T00:00:00|2027-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2027|2027-05-07T00:00:00|2027-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2027|2027-05-09T00:00:00|2027-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2027|2027-07-06T00:00:00|2027-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2027|2027-08-30T00:00:00|2027-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2027|2027-09-01T00:00:00|2027-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2027|2027-12-01T00:00:00|2027-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2027|2027-12-16T00:00:00|2027-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2027|2027-12-17T00:00:00|2027-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2028|2028-01-01T00:00:00|2028-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2028|2028-01-02T00:00:00|2028-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2028|2028-01-07T00:00:00|2028-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2028|2028-03-08T00:00:00|2028-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2028|2028-03-21T00:00:00|2028-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2028|2028-03-22T00:00:00|2028-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2028|2028-03-23T00:00:00|2028-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2028|2028-05-01T00:00:00|2028-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2028|2028-05-07T00:00:00|2028-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2028|2028-05-09T00:00:00|2028-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2028|2028-07-06T00:00:00|2028-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2028|2028-08-30T00:00:00|2028-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2028|2028-09-01T00:00:00|2028-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2028|2028-12-01T00:00:00|2028-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2028|2028-12-16T00:00:00|2028-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2028|2028-12-17T00:00:00|2028-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2029|2029-01-01T00:00:00|2029-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2029|2029-01-02T00:00:00|2029-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2029|2029-01-07T00:00:00|2029-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2029|2029-03-08T00:00:00|2029-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2029|2029-03-21T00:00:00|2029-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2029|2029-03-22T00:00:00|2029-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2029|2029-03-23T00:00:00|2029-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2029|2029-05-01T00:00:00|2029-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2029|2029-05-07T00:00:00|2029-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2029|2029-05-09T00:00:00|2029-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2029|2029-07-06T00:00:00|2029-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2029|2029-08-30T00:00:00|2029-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2029|2029-09-01T00:00:00|2029-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2029|2029-12-01T00:00:00|2029-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2029|2029-12-16T00:00:00|2029-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2029|2029-12-17T00:00:00|2029-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2030|2030-01-01T00:00:00|2030-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2030|2030-01-02T00:00:00|2030-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2030|2030-01-07T00:00:00|2030-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2030|2030-03-08T00:00:00|2030-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2030|2030-03-21T00:00:00|2030-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2030|2030-03-22T00:00:00|2030-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2030|2030-03-23T00:00:00|2030-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2030|2030-05-01T00:00:00|2030-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2030|2030-05-07T00:00:00|2030-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2030|2030-05-09T00:00:00|2030-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2030|2030-07-06T00:00:00|2030-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2030|2030-08-30T00:00:00|2030-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2030|2030-09-01T00:00:00|2030-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2030|2030-12-01T00:00:00|2030-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2030|2030-12-16T00:00:00|2030-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2030|2030-12-17T00:00:00|2030-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2031|2031-01-01T00:00:00|2031-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2031|2031-01-02T00:00:00|2031-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2031|2031-01-07T00:00:00|2031-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2031|2031-03-08T00:00:00|2031-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2031|2031-03-21T00:00:00|2031-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2031|2031-03-22T00:00:00|2031-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2031|2031-03-23T00:00:00|2031-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2031|2031-05-01T00:00:00|2031-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2031|2031-05-07T00:00:00|2031-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2031|2031-05-09T00:00:00|2031-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2031|2031-07-06T00:00:00|2031-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2031|2031-08-30T00:00:00|2031-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2031|2031-09-01T00:00:00|2031-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2031|2031-12-01T00:00:00|2031-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2031|2031-12-16T00:00:00|2031-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2031|2031-12-17T00:00:00|2031-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2032|2032-01-01T00:00:00|2032-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2032|2032-01-02T00:00:00|2032-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2032|2032-01-07T00:00:00|2032-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2032|2032-03-08T00:00:00|2032-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2032|2032-03-21T00:00:00|2032-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2032|2032-03-22T00:00:00|2032-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2032|2032-03-23T00:00:00|2032-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2032|2032-05-01T00:00:00|2032-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2032|2032-05-07T00:00:00|2032-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2032|2032-05-09T00:00:00|2032-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2032|2032-07-06T00:00:00|2032-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2032|2032-08-30T00:00:00|2032-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2032|2032-09-01T00:00:00|2032-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2032|2032-12-01T00:00:00|2032-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2032|2032-12-16T00:00:00|2032-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2032|2032-12-17T00:00:00|2032-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2033|2033-01-01T00:00:00|2033-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2033|2033-01-02T00:00:00|2033-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2033|2033-01-07T00:00:00|2033-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2033|2033-03-08T00:00:00|2033-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2033|2033-03-21T00:00:00|2033-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2033|2033-03-22T00:00:00|2033-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2033|2033-03-23T00:00:00|2033-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2033|2033-05-01T00:00:00|2033-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2033|2033-05-07T00:00:00|2033-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2033|2033-05-09T00:00:00|2033-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2033|2033-07-06T00:00:00|2033-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2033|2033-08-30T00:00:00|2033-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2033|2033-09-01T00:00:00|2033-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2033|2033-12-01T00:00:00|2033-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2033|2033-12-16T00:00:00|2033-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2033|2033-12-17T00:00:00|2033-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2034|2034-01-01T00:00:00|2034-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2034|2034-01-02T00:00:00|2034-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2034|2034-01-07T00:00:00|2034-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2034|2034-03-08T00:00:00|2034-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2034|2034-03-21T00:00:00|2034-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2034|2034-03-22T00:00:00|2034-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2034|2034-03-23T00:00:00|2034-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2034|2034-05-01T00:00:00|2034-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2034|2034-05-07T00:00:00|2034-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2034|2034-05-09T00:00:00|2034-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2034|2034-07-06T00:00:00|2034-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2034|2034-08-30T00:00:00|2034-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2034|2034-09-01T00:00:00|2034-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2034|2034-12-01T00:00:00|2034-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2034|2034-12-16T00:00:00|2034-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2034|2034-12-17T00:00:00|2034-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2035|2035-01-01T00:00:00|2035-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2035|2035-01-02T00:00:00|2035-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2035|2035-01-07T00:00:00|2035-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2035|2035-03-08T00:00:00|2035-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2035|2035-03-21T00:00:00|2035-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2035|2035-03-22T00:00:00|2035-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2035|2035-03-23T00:00:00|2035-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2035|2035-05-01T00:00:00|2035-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2035|2035-05-07T00:00:00|2035-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2035|2035-05-09T00:00:00|2035-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2035|2035-07-06T00:00:00|2035-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2035|2035-08-30T00:00:00|2035-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2035|2035-09-01T00:00:00|2035-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2035|2035-12-01T00:00:00|2035-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2035|2035-12-16T00:00:00|2035-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2035|2035-12-17T00:00:00|2035-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2036|2036-01-01T00:00:00|2036-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2036|2036-01-02T00:00:00|2036-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2036|2036-01-07T00:00:00|2036-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2036|2036-03-08T00:00:00|2036-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2036|2036-03-21T00:00:00|2036-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2036|2036-03-22T00:00:00|2036-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2036|2036-03-23T00:00:00|2036-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2036|2036-05-01T00:00:00|2036-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2036|2036-05-07T00:00:00|2036-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2036|2036-05-09T00:00:00|2036-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2036|2036-07-06T00:00:00|2036-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2036|2036-08-30T00:00:00|2036-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2036|2036-09-01T00:00:00|2036-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2036|2036-12-01T00:00:00|2036-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2036|2036-12-16T00:00:00|2036-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2036|2036-12-17T00:00:00|2036-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2037|2037-01-01T00:00:00|2037-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2037|2037-01-02T00:00:00|2037-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2037|2037-01-07T00:00:00|2037-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2037|2037-03-08T00:00:00|2037-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2037|2037-03-21T00:00:00|2037-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2037|2037-03-22T00:00:00|2037-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2037|2037-03-23T00:00:00|2037-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2037|2037-05-01T00:00:00|2037-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2037|2037-05-07T00:00:00|2037-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2037|2037-05-09T00:00:00|2037-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2037|2037-07-06T00:00:00|2037-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2037|2037-08-30T00:00:00|2037-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2037|2037-09-01T00:00:00|2037-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2037|2037-12-01T00:00:00|2037-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2037|2037-12-16T00:00:00|2037-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2037|2037-12-17T00:00:00|2037-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2038|2038-01-01T00:00:00|2038-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2038|2038-01-02T00:00:00|2038-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2038|2038-01-07T00:00:00|2038-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2038|2038-03-08T00:00:00|2038-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2038|2038-03-21T00:00:00|2038-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2038|2038-03-22T00:00:00|2038-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2038|2038-03-23T00:00:00|2038-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2038|2038-05-01T00:00:00|2038-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2038|2038-05-07T00:00:00|2038-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2038|2038-05-09T00:00:00|2038-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2038|2038-07-06T00:00:00|2038-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2038|2038-08-30T00:00:00|2038-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2038|2038-09-01T00:00:00|2038-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2038|2038-12-01T00:00:00|2038-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2038|2038-12-16T00:00:00|2038-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2038|2038-12-17T00:00:00|2038-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2039|2039-01-01T00:00:00|2039-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2039|2039-01-02T00:00:00|2039-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2039|2039-01-07T00:00:00|2039-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2039|2039-03-08T00:00:00|2039-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2039|2039-03-21T00:00:00|2039-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2039|2039-03-22T00:00:00|2039-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2039|2039-03-23T00:00:00|2039-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2039|2039-05-01T00:00:00|2039-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2039|2039-05-07T00:00:00|2039-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2039|2039-05-09T00:00:00|2039-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2039|2039-07-06T00:00:00|2039-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2039|2039-08-30T00:00:00|2039-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2039|2039-09-01T00:00:00|2039-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2039|2039-12-01T00:00:00|2039-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2039|2039-12-16T00:00:00|2039-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2039|2039-12-17T00:00:00|2039-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2040|2040-01-01T00:00:00|2040-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2040|2040-01-02T00:00:00|2040-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2040|2040-01-07T00:00:00|2040-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2040|2040-03-08T00:00:00|2040-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2040|2040-03-21T00:00:00|2040-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2040|2040-03-22T00:00:00|2040-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2040|2040-03-23T00:00:00|2040-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2040|2040-05-01T00:00:00|2040-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2040|2040-05-07T00:00:00|2040-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2040|2040-05-09T00:00:00|2040-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2040|2040-07-06T00:00:00|2040-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2040|2040-08-30T00:00:00|2040-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2040|2040-09-01T00:00:00|2040-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2040|2040-12-01T00:00:00|2040-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2040|2040-12-16T00:00:00|2040-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2040|2040-12-17T00:00:00|2040-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2041|2041-01-01T00:00:00|2041-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2041|2041-01-02T00:00:00|2041-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2041|2041-01-07T00:00:00|2041-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2041|2041-03-08T00:00:00|2041-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2041|2041-03-21T00:00:00|2041-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2041|2041-03-22T00:00:00|2041-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2041|2041-03-23T00:00:00|2041-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2041|2041-05-01T00:00:00|2041-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2041|2041-05-07T00:00:00|2041-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2041|2041-05-09T00:00:00|2041-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2041|2041-07-06T00:00:00|2041-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2041|2041-08-30T00:00:00|2041-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2041|2041-09-01T00:00:00|2041-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2041|2041-12-01T00:00:00|2041-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2041|2041-12-16T00:00:00|2041-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2041|2041-12-17T00:00:00|2041-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2042|2042-01-01T00:00:00|2042-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2042|2042-01-02T00:00:00|2042-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2042|2042-01-07T00:00:00|2042-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2042|2042-03-08T00:00:00|2042-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2042|2042-03-21T00:00:00|2042-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2042|2042-03-22T00:00:00|2042-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2042|2042-03-23T00:00:00|2042-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2042|2042-05-01T00:00:00|2042-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2042|2042-05-07T00:00:00|2042-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2042|2042-05-09T00:00:00|2042-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2042|2042-07-06T00:00:00|2042-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2042|2042-08-30T00:00:00|2042-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2042|2042-09-01T00:00:00|2042-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2042|2042-12-01T00:00:00|2042-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2042|2042-12-16T00:00:00|2042-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2042|2042-12-17T00:00:00|2042-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2043|2043-01-01T00:00:00|2043-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2043|2043-01-02T00:00:00|2043-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2043|2043-01-07T00:00:00|2043-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2043|2043-03-08T00:00:00|2043-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2043|2043-03-21T00:00:00|2043-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2043|2043-03-22T00:00:00|2043-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2043|2043-03-23T00:00:00|2043-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2043|2043-05-07T00:00:00|2043-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2043|2043-05-09T00:00:00|2043-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2043|2043-07-06T00:00:00|2043-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2043|2043-08-30T00:00:00|2043-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2043|2043-09-01T00:00:00|2043-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2043|2043-12-01T00:00:00|2043-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2043|2043-12-16T00:00:00|2043-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2043|2043-12-17T00:00:00|2043-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2044|2044-01-01T00:00:00|2044-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2044|2044-01-02T00:00:00|2044-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2044|2044-01-07T00:00:00|2044-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2044|2044-03-08T00:00:00|2044-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2044|2044-03-21T00:00:00|2044-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2044|2044-03-22T00:00:00|2044-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2044|2044-03-23T00:00:00|2044-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2044|2044-05-01T00:00:00|2044-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2044|2044-05-07T00:00:00|2044-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2044|2044-05-09T00:00:00|2044-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2044|2044-07-06T00:00:00|2044-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2044|2044-08-30T00:00:00|2044-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2044|2044-09-01T00:00:00|2044-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2044|2044-12-01T00:00:00|2044-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2044|2044-12-16T00:00:00|2044-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2044|2044-12-17T00:00:00|2044-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2045|2045-01-01T00:00:00|2045-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2045|2045-01-02T00:00:00|2045-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2045|2045-01-07T00:00:00|2045-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2045|2045-03-08T00:00:00|2045-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2045|2045-03-21T00:00:00|2045-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2045|2045-03-22T00:00:00|2045-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2045|2045-03-23T00:00:00|2045-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2045|2045-05-01T00:00:00|2045-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2045|2045-05-07T00:00:00|2045-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2045|2045-05-09T00:00:00|2045-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2045|2045-07-06T00:00:00|2045-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2045|2045-08-30T00:00:00|2045-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2045|2045-09-01T00:00:00|2045-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2045|2045-12-01T00:00:00|2045-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2045|2045-12-16T00:00:00|2045-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2045|2045-12-17T00:00:00|2045-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2046|2046-01-01T00:00:00|2046-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2046|2046-01-02T00:00:00|2046-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2046|2046-01-07T00:00:00|2046-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2046|2046-03-08T00:00:00|2046-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2046|2046-03-21T00:00:00|2046-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2046|2046-03-22T00:00:00|2046-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2046|2046-03-23T00:00:00|2046-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2046|2046-05-01T00:00:00|2046-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2046|2046-05-07T00:00:00|2046-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2046|2046-05-09T00:00:00|2046-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2046|2046-07-06T00:00:00|2046-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2046|2046-08-30T00:00:00|2046-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2046|2046-09-01T00:00:00|2046-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2046|2046-12-01T00:00:00|2046-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2046|2046-12-16T00:00:00|2046-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2046|2046-12-17T00:00:00|2046-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2047|2047-01-01T00:00:00|2047-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2047|2047-01-02T00:00:00|2047-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2047|2047-01-07T00:00:00|2047-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2047|2047-03-08T00:00:00|2047-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2047|2047-03-21T00:00:00|2047-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2047|2047-03-22T00:00:00|2047-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2047|2047-03-23T00:00:00|2047-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2047|2047-05-01T00:00:00|2047-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2047|2047-05-07T00:00:00|2047-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2047|2047-05-09T00:00:00|2047-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2047|2047-07-06T00:00:00|2047-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2047|2047-08-30T00:00:00|2047-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2047|2047-09-01T00:00:00|2047-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2047|2047-12-01T00:00:00|2047-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2047|2047-12-16T00:00:00|2047-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2047|2047-12-17T00:00:00|2047-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2048|2048-01-01T00:00:00|2048-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2048|2048-01-02T00:00:00|2048-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2048|2048-01-07T00:00:00|2048-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2048|2048-03-08T00:00:00|2048-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2048|2048-03-21T00:00:00|2048-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2048|2048-03-22T00:00:00|2048-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2048|2048-03-23T00:00:00|2048-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2048|2048-05-01T00:00:00|2048-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2048|2048-05-07T00:00:00|2048-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2048|2048-05-09T00:00:00|2048-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2048|2048-07-06T00:00:00|2048-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2048|2048-08-30T00:00:00|2048-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2048|2048-09-01T00:00:00|2048-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2048|2048-12-01T00:00:00|2048-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2048|2048-12-16T00:00:00|2048-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2048|2048-12-17T00:00:00|2048-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|
+2049|2049-01-01T00:00:00|2049-01-01T00:00:00|New Year|Новый год|NewYear|True|
+2049|2049-01-02T00:00:00|2049-01-02T00:00:00|Day After New Year|Второй день нового года|DayAfterNewYear|True|
+2049|2049-01-07T00:00:00|2049-01-07T00:00:00|Christmas (Orthodox)|Рождество Христово|Christmas|True|
+2049|2049-03-08T00:00:00|2049-03-08T00:00:00|International Women's Day|Международный женский день|WomensDay|True|
+2049|2049-03-21T00:00:00|2049-03-21T00:00:00|Nauryz|Наурыз мейрамы|NauryzKZ1|True|
+2049|2049-03-22T00:00:00|2049-03-22T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ2|True|
+2049|2049-03-23T00:00:00|2049-03-23T00:00:00|Nauryz Holiday|Наурыз мейрамы|NauryzKZ3|True|
+2049|2049-05-01T00:00:00|2049-05-01T00:00:00|Kazakhstan People's Unity Day|Праздник единства народа Казахстана|NationUnityDayKZ|True|
+2049|2049-05-07T00:00:00|2049-05-07T00:00:00|Defender of the Fatherland Day|День Защитника Отечества|DefenderDayKZ|True|
+2049|2049-05-09T00:00:00|2049-05-09T00:00:00|Victory Day|День Победы|VictoryDayKZ|True|
+2049|2049-07-06T00:00:00|2049-07-06T00:00:00|Capital Day|День столицы|CapitalDayKZ|True|
+2049|2049-08-30T00:00:00|2049-08-30T00:00:00|Constitution Day|День Конституции|ConstitutionDayKZ|True|
+2049|2049-09-01T00:00:00|2049-09-01T00:00:00|Kurban Ait|Курбан Айт|KurbanAitKZ|True|
+2049|2049-12-01T00:00:00|2049-12-01T00:00:00|First President Day|День Первого Президента|FirstPresidentDayKZ|True|
+2049|2049-12-16T00:00:00|2049-12-16T00:00:00|Independence Day|День Независимости Казахстана|IndependenceDayKZ|True|
+2049|2049-12-17T00:00:00|2049-12-17T00:00:00|Independence Day Holiday|День Независимости Казахстана|IndependenceDaySecondKZ|True|

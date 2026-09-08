@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Ascension" xml:space="preserve"><value>Kristi himmelfartsdag</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Første juledag</value></data>
+  <data name="ChristmasEve" xml:space="preserve"><value>Juleaftensdag</value></data>
+  <data name="ConstitutionDayDK" xml:space="preserve"><value>Grundlovsdag</value></data>
+  <data name="DayAfterAscensionDK" xml:space="preserve"><value>Dagen efter Kristi himmelfartsdag</value></data>
+  <data name="Easter" xml:space="preserve"><value>Påskedag</value></data>
+  <data name="EasterMonday" xml:space="preserve"><value>Anden påskedag</value></data>
+  <data name="GeneralPrayerDayDK" xml:space="preserve"><value>Store bededag</value></data>
+  <data name="GoodFriday" xml:space="preserve"><value>Langfredag</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Første maj</value></data>
+  <data name="MaundyThursday" xml:space="preserve"><value>Skærtorsdag</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Nytårsdag</value></data>
+  <data name="NewYearsEve" xml:space="preserve"><value>Nytårsaftensdag</value></data>
+  <data name="PentecostMonday" xml:space="preserve"><value>Anden pinsedag</value></data>
+  <data name="SaintStephensDay" xml:space="preserve"><value>Anden juledag</value></data>
+  <data name="WhitSunday" xml:space="preserve"><value>Pinsedag</value></data>
+</root>

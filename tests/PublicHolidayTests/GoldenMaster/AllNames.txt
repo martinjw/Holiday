@@ -1,0 +1,1618 @@
+AustraliaPublicHoliday_State_ACT|en-AU|AnzacDay|ANZAC Day|ANZAC Day
+AustraliaPublicHoliday_State_ACT|en-AU|AustraliaDay|Australia Day|Australia Day
+AustraliaPublicHoliday_State_ACT|en-AU|BoxingDay|Boxing Day|Boxing Day
+AustraliaPublicHoliday_State_ACT|en-AU|CanberraDayAU|Canberra Day|Canberra Day
+AustraliaPublicHoliday_State_ACT|en-AU|Christmas|Christmas Day|Christmas Day
+AustraliaPublicHoliday_State_ACT|en-AU|EasterMonday|Easter Monday|Easter Monday
+AustraliaPublicHoliday_State_ACT|en-AU|FamilyCommunityDayAU|Family And Community Day|Family And Community Day
+AustraliaPublicHoliday_State_ACT|en-AU|GoodFriday|Good Friday|Good Friday
+AustraliaPublicHoliday_State_ACT|en-AU|KingsBirthdayAU|King's Birthday|King's Birthday
+AustraliaPublicHoliday_State_ACT|en-AU|LabourDay|Labour Day|Labour Day
+AustraliaPublicHoliday_State_ACT|en-AU|NationalDayOfMourningAU2022|National Day of Mourning|National Day of Mourning
+AustraliaPublicHoliday_State_ACT|en-AU|NewYear|New Year|New Year
+AustraliaPublicHoliday_State_ACT|en-AU|QueensBirthdayAU|Queen's Birthday|King's Birthday
+AustraliaPublicHoliday_State_All|en-AU|AnzacDay|ANZAC Day|ANZAC Day
+AustraliaPublicHoliday_State_All|en-AU|AustraliaDay|Australia Day|Australia Day
+AustraliaPublicHoliday_State_All|en-AU|BoxingDay|Boxing Day|Boxing Day
+AustraliaPublicHoliday_State_All|en-AU|Christmas|Christmas Day|Christmas Day
+AustraliaPublicHoliday_State_All|en-AU|EasterMonday|Easter Monday|Easter Monday
+AustraliaPublicHoliday_State_All|en-AU|GoodFriday|Good Friday|Good Friday
+AustraliaPublicHoliday_State_All|en-AU|NationalDayOfMourningAU2022|National Day of Mourning|National Day of Mourning
+AustraliaPublicHoliday_State_All|en-AU|NewYear|New Year|New Year
+AustraliaPublicHoliday_State_NSW|en-AU|AnzacDay|ANZAC Day|ANZAC Day
+AustraliaPublicHoliday_State_NSW|en-AU|AustraliaDay|Australia Day|Australia Day
+AustraliaPublicHoliday_State_NSW|en-AU|BankHolidayNSW|Bank Holiday|Bank Holiday
+AustraliaPublicHoliday_State_NSW|en-AU|BoxingDay|Boxing Day|Boxing Day
+AustraliaPublicHoliday_State_NSW|en-AU|Christmas|Christmas Day|Christmas Day
+AustraliaPublicHoliday_State_NSW|en-AU|EasterMonday|Easter Monday|Easter Monday
+AustraliaPublicHoliday_State_NSW|en-AU|GoodFriday|Good Friday|Good Friday
+AustraliaPublicHoliday_State_NSW|en-AU|KingsBirthdayAU|King's Birthday|King's Birthday
+AustraliaPublicHoliday_State_NSW|en-AU|LabourDay|Labour Day|Labour Day
+AustraliaPublicHoliday_State_NSW|en-AU|NationalDayOfMourningAU2022|National Day of Mourning|National Day of Mourning
+AustraliaPublicHoliday_State_NSW|en-AU|NewYear|New Year|New Year
+AustraliaPublicHoliday_State_NSW|en-AU|QueensBirthdayAU|Queen's Birthday|King's Birthday
+AustraliaPublicHoliday_State_NT|en-AU|AnzacDay|ANZAC Day|ANZAC Day
+AustraliaPublicHoliday_State_NT|en-AU|AustraliaDay|Australia Day|Australia Day
+AustraliaPublicHoliday_State_NT|en-AU|BoxingDay|Boxing Day|Boxing Day
+AustraliaPublicHoliday_State_NT|en-AU|Christmas|Christmas Day|Christmas Day
+AustraliaPublicHoliday_State_NT|en-AU|EasterMonday|Easter Monday|Easter Monday
+AustraliaPublicHoliday_State_NT|en-AU|GoodFriday|Good Friday|Good Friday
+AustraliaPublicHoliday_State_NT|en-AU|KingsBirthdayAU|King's Birthday|King's Birthday
+AustraliaPublicHoliday_State_NT|en-AU|LabourDay|Labour Day|Labour Day
+AustraliaPublicHoliday_State_NT|en-AU|NationalDayOfMourningAU2022|National Day of Mourning|National Day of Mourning
+AustraliaPublicHoliday_State_NT|en-AU|NewYear|New Year|New Year
+AustraliaPublicHoliday_State_NT|en-AU|PicnicDayAU|Picnic Day|Picnic Day
+AustraliaPublicHoliday_State_NT|en-AU|QueensBirthdayAU|Queen's Birthday|King's Birthday
+AustraliaPublicHoliday_State_QLD|en-AU|AnzacDay|ANZAC Day|ANZAC Day
+AustraliaPublicHoliday_State_QLD|en-AU|AustraliaDay|Australia Day|Australia Day
+AustraliaPublicHoliday_State_QLD|en-AU|BoxingDay|Boxing Day|Boxing Day
+AustraliaPublicHoliday_State_QLD|en-AU|Christmas|Christmas Day|Christmas Day
+AustraliaPublicHoliday_State_QLD|en-AU|EasterMonday|Easter Monday|Easter Monday
+AustraliaPublicHoliday_State_QLD|en-AU|GoodFriday|Good Friday|Good Friday
+AustraliaPublicHoliday_State_QLD|en-AU|KingsBirthdayAU|King's Birthday|King's Birthday
+AustraliaPublicHoliday_State_QLD|en-AU|LabourDay|Labour Day|Labour Day
+AustraliaPublicHoliday_State_QLD|en-AU|NationalDayOfMourningAU2022|National Day of Mourning|National Day of Mourning
+AustraliaPublicHoliday_State_QLD|en-AU|NewYear|New Year|New Year
+AustraliaPublicHoliday_State_QLD|en-AU|QueensBirthdayAU|Queen's Birthday|King's Birthday
+AustraliaPublicHoliday_State_SA|en-AU|AnzacDay|ANZAC Day|ANZAC Day
+AustraliaPublicHoliday_State_SA|en-AU|AustraliaDay|Australia Day|Australia Day
+AustraliaPublicHoliday_State_SA|en-AU|Christmas|Christmas Day|Christmas Day
+AustraliaPublicHoliday_State_SA|en-AU|EasterMonday|Easter Monday|Easter Monday
+AustraliaPublicHoliday_State_SA|en-AU|GoodFriday|Good Friday|Good Friday
+AustraliaPublicHoliday_State_SA|en-AU|KingsBirthdayAU|King's Birthday|King's Birthday
+AustraliaPublicHoliday_State_SA|en-AU|LabourDay|Labour Day|Labour Day
+AustraliaPublicHoliday_State_SA|en-AU|NationalDayOfMourningAU2022|National Day of Mourning|National Day of Mourning
+AustraliaPublicHoliday_State_SA|en-AU|NewYear|New Year|New Year
+AustraliaPublicHoliday_State_SA|en-AU|ProclamationDaySA|Proclamation Day|Proclamation Day
+AustraliaPublicHoliday_State_SA|en-AU|QueensBirthdayAU|Queen's Birthday|King's Birthday
+AustraliaPublicHoliday_State_TAS|en-AU|AnzacDay|ANZAC Day|ANZAC Day
+AustraliaPublicHoliday_State_TAS|en-AU|AustraliaDay|Australia Day|Australia Day
+AustraliaPublicHoliday_State_TAS|en-AU|BoxingDay|Boxing Day|Boxing Day
+AustraliaPublicHoliday_State_TAS|en-AU|Christmas|Christmas Day|Christmas Day
+AustraliaPublicHoliday_State_TAS|en-AU|EasterMonday|Easter Monday|Easter Monday
+AustraliaPublicHoliday_State_TAS|en-AU|GoodFriday|Good Friday|Good Friday
+AustraliaPublicHoliday_State_TAS|en-AU|KingsBirthdayAU|King's Birthday|King's Birthday
+AustraliaPublicHoliday_State_TAS|en-AU|LabourDay|Labour Day|Labour Day
+AustraliaPublicHoliday_State_TAS|en-AU|NationalDayOfMourningAU2022|National Day of Mourning|National Day of Mourning
+AustraliaPublicHoliday_State_TAS|en-AU|NewYear|New Year|New Year
+AustraliaPublicHoliday_State_TAS|en-AU|QueensBirthdayAU|Queen's Birthday|King's Birthday
+AustraliaPublicHoliday_State_VIC|en-AU|AnzacDay|ANZAC Day|ANZAC Day
+AustraliaPublicHoliday_State_VIC|en-AU|AustraliaDay|Australia Day|Australia Day
+AustraliaPublicHoliday_State_VIC|en-AU|BoxingDay|Boxing Day|Boxing Day
+AustraliaPublicHoliday_State_VIC|en-AU|Christmas|Christmas Day|Christmas Day
+AustraliaPublicHoliday_State_VIC|en-AU|EasterMonday|Easter Monday|Easter Monday
+AustraliaPublicHoliday_State_VIC|en-AU|GoodFriday|Good Friday|Good Friday
+AustraliaPublicHoliday_State_VIC|en-AU|KingsBirthdayAU|King's Birthday|King's Birthday
+AustraliaPublicHoliday_State_VIC|en-AU|LabourDay|Labour Day|Labour Day
+AustraliaPublicHoliday_State_VIC|en-AU|MelbourneCupAU|Melbourne Cup|Melbourne Cup
+AustraliaPublicHoliday_State_VIC|en-AU|NationalDayOfMourningAU2022|National Day of Mourning|National Day of Mourning
+AustraliaPublicHoliday_State_VIC|en-AU|NewYear|New Year|New Year
+AustraliaPublicHoliday_State_VIC|en-AU|QueensBirthdayAU|Queen's Birthday|King's Birthday
+AustraliaPublicHoliday_State_WA|en-AU|AnzacDay|ANZAC Day|ANZAC Day
+AustraliaPublicHoliday_State_WA|en-AU|AustraliaDay|Australia Day|Australia Day
+AustraliaPublicHoliday_State_WA|en-AU|BoxingDay|Boxing Day|Boxing Day
+AustraliaPublicHoliday_State_WA|en-AU|Christmas|Christmas Day|Christmas Day
+AustraliaPublicHoliday_State_WA|en-AU|EasterMonday|Easter Monday|Easter Monday
+AustraliaPublicHoliday_State_WA|en-AU|GoodFriday|Good Friday|Good Friday
+AustraliaPublicHoliday_State_WA|en-AU|KingsBirthdayAU|King's Birthday|King's Birthday
+AustraliaPublicHoliday_State_WA|en-AU|LabourDay|Labour Day|Labour Day
+AustraliaPublicHoliday_State_WA|en-AU|NationalDayOfMourningAU2022|National Day of Mourning|National Day of Mourning
+AustraliaPublicHoliday_State_WA|en-AU|NewYear|New Year|New Year
+AustraliaPublicHoliday_State_WA|en-AU|QueensBirthdayAU|Queen's Birthday|King's Birthday
+AustraliaPublicHoliday_State_WA|en-AU|WesternAustraliaDay|Western Australia Day|Western Australia Day
+AustriaPublicHoliday|de-AT|AllSaints|Allerheiligen|All Saints
+AustriaPublicHoliday|de-AT|Ascension|Christi Himmelfahrt|Ascension
+AustriaPublicHoliday|de-AT|Assumption|Mariä Himmelfahrt|Assumption
+AustriaPublicHoliday|de-AT|Christmas|Christtag|Christmas
+AustriaPublicHoliday|de-AT|CorpusChristi|Fronleichnam|Corpus Christi
+AustriaPublicHoliday|de-AT|EasterMonday|Ostermontag|Easter Monday
+AustriaPublicHoliday|de-AT|Epiphany|Heilige Drei Könige|Epiphany
+AustriaPublicHoliday|de-AT|ImmaculateConception|Mariä Empfängnis|Immaculate Conception
+AustriaPublicHoliday|de-AT|LabourDay|Staatsfeiertag|Labour Day
+AustriaPublicHoliday|de-AT|NationalDayAT|Nationalfeiertag|National Day
+AustriaPublicHoliday|de-AT|NewYear|Neujahr|New Year
+AustriaPublicHoliday|de-AT|PentecostMonday|Pfingstmontag|Whit Monday
+AustriaPublicHoliday|de-AT|SaintStephensDay|Stefanitag|St Stephen's Day
+BelgiumPublicHoliday|nl-BE|AllSaints|Allerheiligen|All Saints
+BelgiumPublicHoliday|nl-BE|Armistice|Wapenstilstand|Armistice Day
+BelgiumPublicHoliday|nl-BE|Ascension|Hemelvaartsdag|Ascension
+BelgiumPublicHoliday|nl-BE|Assumption|Onze Lieve Vrouw hemelvaart|Assumption
+BelgiumPublicHoliday|nl-BE|BelgianNationalDay|Nationale feestdag|Belgian National Day
+BelgiumPublicHoliday|nl-BE|Christmas|Kerstmis|Christmas
+BelgiumPublicHoliday|nl-BE|EasterMonday|Paasmaandag|Easter Monday
+BelgiumPublicHoliday|nl-BE|LabourDay|Dag van de arbeid|Labour Day
+BelgiumPublicHoliday|nl-BE|NewYear|Nieuwjaar|New Year
+BelgiumPublicHoliday|nl-BE|PentecostMonday|Pinkstermaandag|Whit Monday
+BrazilPublicHoliday|pt-BR|AllSouls|Dia dos Finados|All Souls' Day
+BrazilPublicHoliday|pt-BR|CarnivalBR1|Carnaval|Carnival Monday
+BrazilPublicHoliday|pt-BR|CarnivalBR2|Carnaval Terça-Feira Gorda|Carnival Tuesday
+BrazilPublicHoliday|pt-BR|Christmas|Natal|Christmas
+BrazilPublicHoliday|pt-BR|CorpusChristi|Corpus Christi|Corpus Christi
+BrazilPublicHoliday|pt-BR|GoodFriday|Sexta Feira Santa|Good Friday
+BrazilPublicHoliday|pt-BR|IndependenceDayBR|Dia da Independência|Independence Day
+BrazilPublicHoliday|pt-BR|LabourDay|Dia do Trabalho|Labour Day
+BrazilPublicHoliday|pt-BR|NewYear|Ano Novo|New Year
+BrazilPublicHoliday|pt-BR|OurLadyAparecidaBR|Nossa Senhora Aparecida|Our Lady of Aparecida
+BrazilPublicHoliday|pt-BR|RepublicDayBR|Dia da República|Republic Day
+BrazilPublicHoliday|pt-BR|TiradentesBR|Dia de Tiradentes|Tiradentes Day
+CanadaPublicHoliday|en-CA|AboriginalDayCA|Aboriginal Day|Aboriginal Day
+CanadaPublicHoliday|en-CA|BoxingDay|Boxing Day|Boxing Day
+CanadaPublicHoliday|en-CA|CanadaDay|Canada Day|Canada Day
+CanadaPublicHoliday|en-CA|Christmas|Christmas Day|Christmas Day
+CanadaPublicHoliday|en-CA|CivicHolidayCA|Civic Holiday|Civic Holiday
+CanadaPublicHoliday|en-CA|DiscoveryDayCA|Discovery Day|Discovery Day
+CanadaPublicHoliday|en-CA|EasterMonday|Easter Monday|Easter Monday
+CanadaPublicHoliday|en-CA|FamilyDayCA|Family Day|Family Day
+CanadaPublicHoliday|en-CA|GoldCupParadeDayCA|Gold Cup Parade Day|Gold Cup Parade Day
+CanadaPublicHoliday|en-CA|GoodFriday|Good Friday|Good Friday
+CanadaPublicHoliday|en-CA|LabourDay|Labour Day|Labour Day
+CanadaPublicHoliday|en-CA|NationalHolidayCA|National Holiday|National Holiday
+CanadaPublicHoliday|en-CA|NewYear|New Year|New Year
+CanadaPublicHoliday|en-CA|OrangemensDayCA|Orangemen's Day|Orangemen's Day
+CanadaPublicHoliday|en-CA|QueenElizabethFuneral|State Funeral of Queen Elizabeth II|State Funeral of Queen Elizabeth II
+CanadaPublicHoliday|en-CA|RemembranceDayCA|Remembrance Day|Remembrance Day
+CanadaPublicHoliday|en-CA|StGeorgesDayCA|Saint George's Day|Saint George's Day
+CanadaPublicHoliday|en-CA|StPatricksDay|St. Patrick's Day|St. Patrick's Day
+CanadaPublicHoliday|en-CA|Thanksgiving|Thanksgiving Day|Thanksgiving Day
+CanadaPublicHoliday|en-CA|TruthReconciliationDayCA|National Day For Truth And Reconciliation|National Day For Truth And Reconciliation
+CanadaPublicHoliday|en-CA|VictoriaDayCA|Victoria Day|Victoria Day
+CanadaQuebecGovClosingDay|fr-CA|CanadaDay|Fête du Canada|Canada Day
+CanadaQuebecGovClosingDay|fr-CA|Christmas|Fête de Noël|Christmas Day
+CanadaQuebecGovClosingDay|fr-CA|DayAfterChristmas|Lendemain de Noël|Day After Christmas
+CanadaQuebecGovClosingDay|fr-CA|DayAfterNewYear|Lendemain du jour de l'An|Day After New Year
+CanadaQuebecGovClosingDay|fr-CA|DayBeforeChristmas|Veille de Noël|Day Before Christmas
+CanadaQuebecGovClosingDay|fr-CA|DayBeforeNewYear|Veille du jour de l'An|Day Before New Year
+CanadaQuebecGovClosingDay|fr-CA|DollardDay|Fête de Dollard|National Patriots' Day
+CanadaQuebecGovClosingDay|fr-CA|EasterMonday|Lundi de Pâques|Easter Monday
+CanadaQuebecGovClosingDay|fr-CA|GoodFriday|Vendredi Saint|Good Friday
+CanadaQuebecGovClosingDay|fr-CA|LabourDay|Fête du travail|Labour Day
+CanadaQuebecGovClosingDay|fr-CA|NationalHolidayQuebec|Fête nationale du Québec|Quebec National Holiday
+CanadaQuebecGovClosingDay|fr-CA|NationalPatriotDay|Journée nationale des patriotes|National Patriots' Day
+CanadaQuebecGovClosingDay|fr-CA|NewYear|Jour de l'An|New Year
+CanadaQuebecGovClosingDay|fr-CA|Thanksgiving|Fête de l'Action de Grâces|Thanksgiving Day
+CroatiaPublicHoliday|hr-HR|AllSaints|Svi sveti|All Saints
+CroatiaPublicHoliday|hr-HR|AntiFascistStruggleDayHR|Dan antifašističke borbe|Anti-Fascist Struggle Day
+CroatiaPublicHoliday|hr-HR|Assumption|Velika Gospa|Assumption
+CroatiaPublicHoliday|hr-HR|Christmas|Božić|Christmas
+CroatiaPublicHoliday|hr-HR|CorpusChristi|Tijelovo|Corpus Christi
+CroatiaPublicHoliday|hr-HR|EasterMonday|Uskrsni ponedjeljak|Easter Monday
+CroatiaPublicHoliday|hr-HR|Epiphany|Bogojavljenje ili Sveta tri kralja|Epiphany
+CroatiaPublicHoliday|hr-HR|LabourDay|Praznik rada|Labour Day
+CroatiaPublicHoliday|hr-HR|NationalDayHR|Dan državnosti|National Day
+CroatiaPublicHoliday|hr-HR|NewYear|Nova godina|New Year
+CroatiaPublicHoliday|hr-HR|RemembranceDayHR|Dan sjećanja na žrtve Domovinskog rata i Dan sjećanja na žrtvu Vukovara i Škabrnje|Remembrance Day
+CroatiaPublicHoliday|hr-HR|SaintStephensDay|Sveti Stjepan|St Stephen's Day
+CroatiaPublicHoliday|hr-HR|VictoryDayHR|Dan pobjede i domovinske zahvalnosti i Dan hrvatskih branitelja|Victory and Homeland Thanksgiving Day
+CzechRepublicPublicHoliday|cs-CZ|ChristmasEve|Štědrý den|Christmas Eve
+CzechRepublicPublicHoliday|cs-CZ|Christmas|První svátek vánoční|Christmas
+CzechRepublicPublicHoliday|cs-CZ|CyrilAndMethodiusDay|Den slovanských věrozvěstů Cyrila a Metoděje|St Cyril and Methodius Day
+CzechRepublicPublicHoliday|cs-CZ|CzechEstablishmentDay|Den obnovy samostatného českého státu|Day of the Establishment of the Independent Czech State
+CzechRepublicPublicHoliday|cs-CZ|CzechStatehoodDay|Den české státnosti|Czech Statehood Day
+CzechRepublicPublicHoliday|cs-CZ|EasterMonday|Pondělí Velikonoční|Easter Monday
+CzechRepublicPublicHoliday|cs-CZ|FreedomAndDemocracyDayCS|Den boje za svobodu a demokracii|Struggle for Freedom and Democracy Day
+CzechRepublicPublicHoliday|cs-CZ|GoodFriday|Velký Pátek|Good Friday
+CzechRepublicPublicHoliday|cs-CZ|IndependentCzechoslovakStateDayCS|Den vzniku samostatného československého státu|Day of the Establishment of the Independent Czecho-Slovak State
+CzechRepublicPublicHoliday|cs-CZ|JanHusDayCZ|Den upálení mistra Jana Husa|Jan Hus Day
+CzechRepublicPublicHoliday|cs-CZ|LabourDay|Svátek práce|Labour Day
+CzechRepublicPublicHoliday|cs-CZ|NewYear|Nový Rok|New Year
+CzechRepublicPublicHoliday|cs-CZ|SaintStephensDay|Druhý svátek vánoční|St Stephen's Day
+CzechRepublicPublicHoliday|cs-CZ|SovietLiberationDayCS|Výročí osvobození Československa Sovětskou armádou|Day of Liberation of Czechoslovakia by the Soviet Army
+CzechRepublicPublicHoliday|cs-CZ|VictoryInEuropeDay|Den osvobození|Victory in Europe Day
+DenmarkPublicHoliday|da-DK|Ascension|Kristi himmelfartsdag|Ascension
+DenmarkPublicHoliday|da-DK|ChristmasEve|Juleaftensdag|Christmas Eve
+DenmarkPublicHoliday|da-DK|Christmas|Første juledag|Christmas
+DenmarkPublicHoliday|da-DK|ConstitutionDayDK|Grundlovsdag|Constitution Day
+DenmarkPublicHoliday|da-DK|DayAfterAscensionDK|Dagen efter Kristi himmelfartsdag|Day after Ascension
+DenmarkPublicHoliday|da-DK|EasterMonday|Anden påskedag|Easter Monday
+DenmarkPublicHoliday|da-DK|Easter|Påskedag|Easter
+DenmarkPublicHoliday|da-DK|GeneralPrayerDayDK|Store bededag|General Prayer Day
+DenmarkPublicHoliday|da-DK|GoodFriday|Langfredag|Good Friday
+DenmarkPublicHoliday|da-DK|LabourDay|Første maj|Labour Day
+DenmarkPublicHoliday|da-DK|MaundyThursday|Skærtorsdag|Maundy Thursday
+DenmarkPublicHoliday|da-DK|NewYearsEve|Nytårsaftensdag|New Year's Eve
+DenmarkPublicHoliday|da-DK|NewYear|Nytårsdag|New Year
+DenmarkPublicHoliday|da-DK|PentecostMonday|Anden pinsedag|Whit Monday
+DenmarkPublicHoliday|da-DK|SaintStephensDay|Anden juledag|St Stephen's Day
+DenmarkPublicHoliday|da-DK|WhitSunday|Pinsedag|Whit Sunday
+DutchPublicHoliday|nl-NL|Ascension|Hemelvaartsdag|Ascension
+DutchPublicHoliday|nl-NL|Christmas|Eerste Kerstdag|Christmas
+DutchPublicHoliday|nl-NL|EasterMonday|Paasmaandag|Easter Monday
+DutchPublicHoliday|nl-NL|Easter|Eerste Paasdag|Easter
+DutchPublicHoliday|nl-NL|KingsDayNL|Koningsdag|King's Day
+DutchPublicHoliday|nl-NL|LiberationDayNL|Bevrijdingsdag|Liberation Day
+DutchPublicHoliday|nl-NL|NewYear|Nieuwjaar|New Year
+DutchPublicHoliday|nl-NL|PentecostMonday|Pinkstermaandag|Whit Monday
+DutchPublicHoliday|nl-NL|SaintStephensDay|Tweede Kerstdag|St Stephen's Day
+EcbTargetClosingDay|en-US|Christmas|Christmas Day|Christmas
+EcbTargetClosingDay|en-US|EasterMonday|Easter Monday|Easter Monday
+EcbTargetClosingDay|en-US|GoodFriday|Good Friday|Good Friday
+EcbTargetClosingDay|en-US|LabourDay|Labour Day|Labour Day
+EcbTargetClosingDay|en-US|NewYear|New Year’s Day|New Year
+EcbTargetClosingDay|en-US|SaintStephensDay|Christmas Holiday|St Stephen's Day
+EstoniaPublicHoliday|et-EE|ChristmasEve|Jõululaupäev|Christmas Eve
+EstoniaPublicHoliday|et-EE|Christmas|Esimene jõulupüha|Christmas
+EstoniaPublicHoliday|et-EE|Easter|Ülestõusmispühade 1. püha|Easter
+EstoniaPublicHoliday|et-EE|GoodFriday|Suur reede|Good Friday
+EstoniaPublicHoliday|et-EE|IndependenceDayEE|Iseseisvumispäev|Independence Day
+EstoniaPublicHoliday|et-EE|LabourDay|Kevadpüha|Labour Day
+EstoniaPublicHoliday|et-EE|MidsummerDayEE|Jaanipäev|Midsummer Day
+EstoniaPublicHoliday|et-EE|NewYear|Uusaasta|New Year
+EstoniaPublicHoliday|et-EE|RestorationOfIndependenceDayEE|Taasiseseisvumispäev|Day of Restoration of Independence
+EstoniaPublicHoliday|et-EE|SaintStephensDay|Teine jõulupüha|St Stephen's Day
+EstoniaPublicHoliday|et-EE|VictoryDayEE|Võidupüha|Victory Day
+EstoniaPublicHoliday|et-EE|WhitSunday|Nelipühade 1. püha|Whit Sunday
+FinlandPublicHoliday|fi-FI|AllSaints|Pyhäinpäivä|All Saints' Day
+FinlandPublicHoliday|fi-FI|Ascension|Helatorstai|Ascension
+FinlandPublicHoliday|fi-FI|ChristmasEve|Jouluaatto|Christmas Eve
+FinlandPublicHoliday|fi-FI|Christmas|Joulupäivä|Christmas
+FinlandPublicHoliday|fi-FI|EasterMonday|2. pääsiäispäivä|Easter Monday
+FinlandPublicHoliday|fi-FI|Easter|Pääsiäispäivä|Easter
+FinlandPublicHoliday|fi-FI|Epiphany|Loppiainen|Epiphany
+FinlandPublicHoliday|fi-FI|GoodFriday|Pitkäperjantai|Good Friday
+FinlandPublicHoliday|fi-FI|IndependenceDayFI|Itsenäisyyspäivä|Independence Day
+FinlandPublicHoliday|fi-FI|LabourDay|Vappu|Labour Day
+FinlandPublicHoliday|fi-FI|MidsummerDayFI|Juhannuspäivä|Midsummer Day
+FinlandPublicHoliday|fi-FI|MidsummerEveFI|Juhannusaatto|Midsummer Eve
+FinlandPublicHoliday|fi-FI|NewYear|Uudenvuodenpäivä|New Year
+FinlandPublicHoliday|fi-FI|SaintStephensDay|Tapaninpäivä|St Stephen's Day
+FinlandPublicHoliday|fi-FI|WhitSunday|Helluntaipäivä|Whit Sunday
+FrancePublicHoliday_Region_ALL|fr-FR|AbolitionSlaveryGuadeloupeFR|Abolition de l'esclavage en Guadeloupe|Abolition of slavery
+FrancePublicHoliday_Region_ALL|fr-FR|AbolitionSlaveryGuyaneFR|Abolition de l'esclavage en Guyane|Abolition of slavery
+FrancePublicHoliday_Region_ALL|fr-FR|AbolitionSlaveryLaReunionFR|Abolition de l'esclavage à La Réunion|Abolition of slavery
+FrancePublicHoliday_Region_ALL|fr-FR|AbolitionSlaveryMartiniqueFR|Abolition de l'esclavage en Martinique|Abolition of slavery
+FrancePublicHoliday_Region_ALL|fr-FR|AbolitionSlaveryMayotteFR|Abolition de l'esclavage à Mayotte|Abolition of slavery
+FrancePublicHoliday_Region_ALL|fr-FR|AbolitionSlaverySaintBarthelemyFR|Abolition de l'esclavage à Saint-Barthélemy|Abolition of slavery
+FrancePublicHoliday_Region_ALL|fr-FR|AbolitionSlaverySaintMartinFR|Abolition de l'esclavage à Saint-Martin|Abolition of slavery
+FrancePublicHoliday_Region_ALL|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_ALL|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_ALL|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_ALL|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_ALL|fr-FR|AutonomyDayFR|Fête de l'autonomie|Autonomy Day
+FrancePublicHoliday_Region_ALL|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_ALL|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_ALL|fr-FR|CitizenshipDayFR|Fête de la citoyenneté|Citizenship Day
+FrancePublicHoliday_Region_ALL|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_ALL|fr-FR|GoodFriday|Vendredi saint|Good Friday
+FrancePublicHoliday_Region_ALL|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_ALL|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_ALL|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_ALL|fr-FR|PeterChanelFR|Saint-Pierre Chanel|Peter Chanel day
+FrancePublicHoliday_Region_ALL|fr-FR|SaintStephensDay|Saint-Étienne|St Stephen's Day
+FrancePublicHoliday_Region_ALL|fr-FR|TerritoryFestivalDayFR|Fête du territoire|Territory Festival
+FrancePublicHoliday_Region_ALL|fr-FR|VictorSchoelcherDayFR|Fête de Victor Schœlcher|Victor Schoelcher's Feast
+FrancePublicHoliday_Region_ALL|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|GoodFriday|Vendredi saint|Good Friday
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|SaintStephensDay|Saint-Étienne|St Stephen's Day
+FrancePublicHoliday_Region_AlsaceMoselle|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|AbolitionSlaveryGuadeloupeFR|Abolition de l'esclavage en Guadeloupe|Abolition of slavery
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|GoodFriday|Vendredi saint|Good Friday
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|VictorSchoelcherDayFR|Fête de Victor Schœlcher|Victor Schoelcher's Feast
+FrancePublicHoliday_Region_Guadeloupe|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+FrancePublicHoliday_Region_Guyane|fr-FR|AbolitionSlaveryGuyaneFR|Abolition de l'esclavage en Guyane|Abolition of slavery
+FrancePublicHoliday_Region_Guyane|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_Guyane|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_Guyane|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_Guyane|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_Guyane|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_Guyane|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_Guyane|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_Guyane|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_Guyane|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_Guyane|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_Guyane|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+FrancePublicHoliday_Region_Martinique|fr-FR|AbolitionSlaveryMartiniqueFR|Abolition de l'esclavage en Martinique|Abolition of slavery
+FrancePublicHoliday_Region_Martinique|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_Martinique|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_Martinique|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_Martinique|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_Martinique|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_Martinique|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_Martinique|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_Martinique|fr-FR|GoodFriday|Vendredi saint|Good Friday
+FrancePublicHoliday_Region_Martinique|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_Martinique|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_Martinique|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_Martinique|fr-FR|VictorSchoelcherDayFR|Fête de Victor Schœlcher|Victor Schoelcher's Feast
+FrancePublicHoliday_Region_Martinique|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+FrancePublicHoliday_Region_Mayotte|fr-FR|AbolitionSlaveryMayotteFR|Abolition de l'esclavage à Mayotte|Abolition of slavery
+FrancePublicHoliday_Region_Mayotte|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_Mayotte|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_Mayotte|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_Mayotte|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_Mayotte|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_Mayotte|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_Mayotte|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_Mayotte|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_Mayotte|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_Mayotte|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_Mayotte|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+FrancePublicHoliday_Region_NouvelleCaledonie|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_NouvelleCaledonie|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_NouvelleCaledonie|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_NouvelleCaledonie|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_NouvelleCaledonie|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_NouvelleCaledonie|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_NouvelleCaledonie|fr-FR|CitizenshipDayFR|Fête de la citoyenneté|Citizenship Day
+FrancePublicHoliday_Region_NouvelleCaledonie|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_NouvelleCaledonie|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_NouvelleCaledonie|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_NouvelleCaledonie|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_NouvelleCaledonie|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+FrancePublicHoliday_Region_OnlyOfficial|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_OnlyOfficial|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_OnlyOfficial|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_OnlyOfficial|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_OnlyOfficial|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_OnlyOfficial|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_OnlyOfficial|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_OnlyOfficial|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_OnlyOfficial|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_OnlyOfficial|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_OnlyOfficial|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|AutonomyDayFR|Fête de l'autonomie|Autonomy Day
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|GoodFriday|Vendredi saint|Good Friday
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_PolynesieFrancaise|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+FrancePublicHoliday_Region_Reunion|fr-FR|AbolitionSlaveryLaReunionFR|Abolition de l'esclavage à La Réunion|Abolition of slavery
+FrancePublicHoliday_Region_Reunion|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_Reunion|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_Reunion|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_Reunion|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_Reunion|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_Reunion|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_Reunion|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_Reunion|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_Reunion|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_Reunion|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_Reunion|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+FrancePublicHoliday_Region_SaintBarthelemy|fr-FR|AbolitionSlaverySaintBarthelemyFR|Abolition de l'esclavage à Saint-Barthélemy|Abolition of slavery
+FrancePublicHoliday_Region_SaintBarthelemy|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_SaintBarthelemy|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_SaintBarthelemy|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_SaintBarthelemy|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_SaintBarthelemy|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_SaintBarthelemy|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_SaintBarthelemy|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_SaintBarthelemy|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_SaintBarthelemy|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_SaintBarthelemy|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_SaintBarthelemy|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+FrancePublicHoliday_Region_SaintMartin|fr-FR|AbolitionSlaverySaintMartinFR|Abolition de l'esclavage à Saint-Martin|Abolition of slavery
+FrancePublicHoliday_Region_SaintMartin|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_SaintMartin|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_SaintMartin|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_SaintMartin|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_SaintMartin|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_SaintMartin|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_SaintMartin|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_SaintMartin|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_SaintMartin|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_SaintMartin|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_SaintMartin|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|AllSaints|Toussaint|All Saints
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|Armistice|Jour de l'armistice|Armistice Day
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|Ascension|Jeudi de l'Ascension|Ascension
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|Assumption|Assomption|Assumption
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|BastilleDay|Fête nationale|Bastille Day
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|Christmas|Noël|Christmas
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|EasterMonday|Lundi de Pâques|Easter Monday
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|LabourDay|Fête du Travail|Labour Day
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|NewYear|Nouvel An|New Year
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|PentecostMonday|Lundi de Pentecôte|Whit Monday
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|PeterChanelFR|Saint-Pierre Chanel|Peter Chanel day
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|TerritoryFestivalDayFR|Fête du territoire|Territory Festival
+FrancePublicHoliday_Region_WallisEtFutuna|fr-FR|VictoryInEuropeDay|Fête de la Victoire|Victory in Europe Day
+GermanPublicHoliday_State_ALL|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_ALL|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_ALL|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_ALL|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_ALL|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_ALL|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_ALL|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_ALL|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_ALL|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_ALL|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_ALL|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_BB|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_BB|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_BB|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_BB|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_BB|de-DE|Easter|Ostersonntag|Easter
+GermanPublicHoliday_State_BB|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_BB|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_BB|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_BB|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_BB|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_BB|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_BB|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_BB|de-DE|WhitSunday|Pfingstsonntag|Whit Sunday
+GermanPublicHoliday_State_BE|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_BE|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_BE|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_BE|de-DE|EastGermanUprisingDE|Gedenktag an den Volksaufstand in der DDR|East German Uprising Memorial Day
+GermanPublicHoliday_State_BE|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_BE|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_BE|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_BE|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_BE|de-DE|LiberationDayDE|Tag der Befreiung|Liberation Day
+GermanPublicHoliday_State_BE|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_BE|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_BE|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_BE|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_BE|de-DE|WomensDay|Weltfrauentag|International Women's Day
+GermanPublicHoliday_State_BW|de-DE|AllSaints|Allerheiligen|All Saints
+GermanPublicHoliday_State_BW|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_BW|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_BW|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_BW|de-DE|CorpusChristi|Fronleichnam|Corpus Christi
+GermanPublicHoliday_State_BW|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_BW|de-DE|Epiphany|Heilige Drei Könige|Epiphany
+GermanPublicHoliday_State_BW|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_BW|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_BW|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_BW|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_BW|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_BW|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_BW|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_BY|de-DE|AllSaints|Allerheiligen|All Saints
+GermanPublicHoliday_State_BY|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_BY|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_BY|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_BY|de-DE|CorpusChristi|Fronleichnam|Corpus Christi
+GermanPublicHoliday_State_BY|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_BY|de-DE|Epiphany|Heilige Drei Könige|Epiphany
+GermanPublicHoliday_State_BY|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_BY|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_BY|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_BY|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_BY|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_BY|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_BY|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_HB|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_HB|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_HB|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_HB|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_HB|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_HB|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_HB|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_HB|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_HB|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_HB|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_HB|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_HE|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_HE|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_HE|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_HE|de-DE|CorpusChristi|Fronleichnam|Corpus Christi
+GermanPublicHoliday_State_HE|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_HE|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_HE|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_HE|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_HE|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_HE|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_HE|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_HE|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_HH|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_HH|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_HH|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_HH|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_HH|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_HH|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_HH|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_HH|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_HH|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_HH|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_HH|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_MV|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_MV|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_MV|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_MV|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_MV|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_MV|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_MV|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_MV|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_MV|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_MV|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_MV|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_MV|de-DE|WomensDay|Weltfrauentag|International Women's Day
+GermanPublicHoliday_State_NI|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_NI|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_NI|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_NI|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_NI|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_NI|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_NI|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_NI|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_NI|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_NI|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_NI|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_NW|de-DE|AllSaints|Allerheiligen|All Saints
+GermanPublicHoliday_State_NW|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_NW|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_NW|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_NW|de-DE|CorpusChristi|Fronleichnam|Corpus Christi
+GermanPublicHoliday_State_NW|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_NW|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_NW|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_NW|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_NW|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_NW|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_NW|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_NW|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_RP|de-DE|AllSaints|Allerheiligen|All Saints
+GermanPublicHoliday_State_RP|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_RP|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_RP|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_RP|de-DE|CorpusChristi|Fronleichnam|Corpus Christi
+GermanPublicHoliday_State_RP|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_RP|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_RP|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_RP|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_RP|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_RP|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_RP|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_RP|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_SH|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_SH|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_SH|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_SH|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_SH|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_SH|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_SH|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_SH|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_SH|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_SH|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_SH|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_SL|de-DE|AllSaints|Allerheiligen|All Saints
+GermanPublicHoliday_State_SL|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_SL|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_SL|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_SL|de-DE|CorpusChristi|Fronleichnam|Corpus Christi
+GermanPublicHoliday_State_SL|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_SL|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_SL|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_SL|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_SL|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_SL|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_SL|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_SL|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_SN|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_SN|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_SN|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_SN|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_SN|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_SN|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_SN|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_SN|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_SN|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_SN|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_SN|de-DE|RepentanceDayDE|Buß- und Bettag|Repentance Day
+GermanPublicHoliday_State_SN|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_ST|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_ST|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_ST|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_ST|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_ST|de-DE|Epiphany|Heilige Drei Könige|Epiphany
+GermanPublicHoliday_State_ST|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_ST|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_ST|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_ST|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_ST|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_ST|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_ST|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_TH|de-DE|Ascension|Christi Himmelfahrt|Ascension
+GermanPublicHoliday_State_TH|de-DE|Assumption|Mariä Himmelfahrt|Assumption
+GermanPublicHoliday_State_TH|de-DE|Christmas|Weihnachtstag|Christmas
+GermanPublicHoliday_State_TH|de-DE|EasterMonday|Ostermontag|Easter Monday
+GermanPublicHoliday_State_TH|de-DE|GermanUnityDE|Tag der Deutschen Einheit|German Unity Day
+GermanPublicHoliday_State_TH|de-DE|GoodFriday|Karfreitag|Good Friday
+GermanPublicHoliday_State_TH|de-DE|LabourDay|Tag der Arbeit|Labour Day
+GermanPublicHoliday_State_TH|de-DE|NewYear|Neujahrstag|New Year
+GermanPublicHoliday_State_TH|de-DE|PentecostMonday|Pfingstmontag|Whit Monday
+GermanPublicHoliday_State_TH|de-DE|ReformationDay|Reformationstag|Reformation Day
+GermanPublicHoliday_State_TH|de-DE|SaintStephensDay|Zweiter Weihnachtsfeiertag|St Stephen's Day
+GermanPublicHoliday_State_TH|de-DE|WorldChildrensDayDE|Kindertag|World Children's Day
+GreecePublicHoliday|el-GR|Assumption|Κοίμηση της Θεοτόκου|Dormition of the Mother of God
+GreecePublicHoliday|el-GR|Christmas|Χριστούγεννα|Christmas Day
+GreecePublicHoliday|el-GR|CleanMonday|Καθαρά Δευτέρα|Clean Monday
+GreecePublicHoliday|el-GR|EasterMonday|Δευτέρα του Πάσχα|Easter Monday
+GreecePublicHoliday|el-GR|Epiphany|Θεοφάνεια|Epiphany
+GreecePublicHoliday|el-GR|GoodFriday|Μεγάλη Παρασκευή|Great Friday
+GreecePublicHoliday|el-GR|GreekIndependenceDay|Εικοστή Πέμπτη Μαρτίου|Independence Day
+GreecePublicHoliday|el-GR|LabourDay|Εργατική Πρωτομαγιά|Labour Day
+GreecePublicHoliday|el-GR|NewYear|Πρωτοχρονιά|New Year's Day
+GreecePublicHoliday|el-GR|OchiDayGR|Το Όχι|Ochi Day
+GreecePublicHoliday|el-GR|PentecostMonday|Δευτέρα Πεντηκοστής|Whit Monday
+GreecePublicHoliday|el-GR|SynaxisMotherOfGodGR|Σύναξις Υπεραγίας Θεοτόκου Μαρίας|Glorifying Mother of God
+HungaryPublicHoliday|hu-HU|AllSaints|Mindenszentek|All Saints
+HungaryPublicHoliday|hu-HU|Christmas|Karácsony|Christmas
+HungaryPublicHoliday|hu-HU|EasterMonday|Húsvéthétfő|Easter Monday
+HungaryPublicHoliday|hu-HU|GoodFriday|Nagypéntek|Good Friday
+HungaryPublicHoliday|hu-HU|LabourDay|Munka ünnepe|Labour Day
+HungaryPublicHoliday|hu-HU|NationalDay1848HU|1848-as forradalom ünnepe|1848 Revolution Memorial Day
+HungaryPublicHoliday|hu-HU|NewYear|Újév|New Year
+HungaryPublicHoliday|hu-HU|PentecostMonday|Pünkösdhétfő|Whit Monday
+HungaryPublicHoliday|hu-HU|Revolution1956DayHU|1956-os forradalom ünnepe|1956 Revolution Memorial Day
+HungaryPublicHoliday|hu-HU|SaintStephensDay|Karácsony másnapja|St Stephen's Day
+HungaryPublicHoliday|hu-HU|StateFoundationDayHU|Államalapítás ünnepe|State Foundation Day
+IrelandPublicHoliday|ga-IE|AugustHolidayIE|Lá Saoire i mí Lúnasa|August Holiday
+IrelandPublicHoliday|ga-IE|Christmas|Lá Nollag|Christmas
+IrelandPublicHoliday|ga-IE|Covid19CommemorationIE|Covid-19 Commemoration|Covid-19 Commemoration
+IrelandPublicHoliday|ga-IE|EasterMonday|Luan Cásca|Easter Monday
+IrelandPublicHoliday|ga-IE|JuneHolidayIE|Lá Saoire i mí an Mheithimh|June Holiday
+IrelandPublicHoliday|ga-IE|MayDayIE|Lá Bealtaine|May Day
+IrelandPublicHoliday|ga-IE|MillenniumIE|Millennium|Millennium
+IrelandPublicHoliday|ga-IE|NewYear|Lá Caille|New Year
+IrelandPublicHoliday|ga-IE|OctoberHolidayIE|Lá Saoire i mí Dheireadh Fómhair|October Holiday
+IrelandPublicHoliday|ga-IE|SaintStephensDay|Lá Fhéile Stiofáin|St Stephen's Day
+IrelandPublicHoliday|ga-IE|StBrigidsDayIE|Imbolc|Saint Brigid's Day
+IrelandPublicHoliday|ga-IE|StPatricksDay|Lá Fhéile Pádraig|St Patrick's Day
+ItalyPublicHoliday|it-IT|AllSaints|Tutti i santi|All Saints
+ItalyPublicHoliday|it-IT|Assumption|Ferragosto|Assumption
+ItalyPublicHoliday|it-IT|Christmas|Natale|Christmas
+ItalyPublicHoliday|it-IT|EasterMonday|Pasquetta|Easter Monday
+ItalyPublicHoliday|it-IT|Easter|Pasqua|Easter
+ItalyPublicHoliday|it-IT|Epiphany|Epifania|Epiphany
+ItalyPublicHoliday|it-IT|ImmaculateConception|Immacolata Concezione|Immaculate Conception
+ItalyPublicHoliday|it-IT|LabourDay|Festa del Lavoro|Labour Day
+ItalyPublicHoliday|it-IT|LiberationDayIT|Festa della Liberazione|Liberation Day
+ItalyPublicHoliday|it-IT|NewYear|Capodanno|New Year
+ItalyPublicHoliday|it-IT|RepublicDayIT|Festa della Repubblica|Republic Day
+ItalyPublicHoliday|it-IT|SaintStephensDay|Santo Stefano|St Stephen's Day
+JapanPublicHoliday|ja-JP|AutumnalEquinoxDayJP|Autumnal Equinox Day|Autumnal Equinox Day
+JapanPublicHoliday|ja-JP|ChildrensDayJP|Children's Day|Children's Day
+JapanPublicHoliday|ja-JP|ComingOfAgeDayJP|Coming Of Age Day|Coming Of Age Day
+JapanPublicHoliday|ja-JP|ConstitutionMemorialDayJP|Constitution Memorial Day|Constitution Memorial Day
+JapanPublicHoliday|ja-JP|CultureDayJP|Culture Day|Culture Day
+JapanPublicHoliday|ja-JP|EmperorsBirthdayJP|Emperor's Birthday|Emperor's Birthday
+JapanPublicHoliday|ja-JP|FoundationDayJP|Foundation Day|Foundation Day
+JapanPublicHoliday|ja-JP|GreeneryDayJP|Greenery Day|Greenery Day
+JapanPublicHoliday|ja-JP|HealthAndSportsDayJP|Health And Sports Day|Health And Sports Day
+JapanPublicHoliday|ja-JP|LabourThanksgivingDayJP|Labour Thanksgiving Day|Labour Thanksgiving Day
+JapanPublicHoliday|ja-JP|MarineDayJP|Marine Day|Marine Day
+JapanPublicHoliday|ja-JP|MountainDayJP|Mountain Day|Mountain Day
+JapanPublicHoliday|ja-JP|NewYear|New Year|New Year
+JapanPublicHoliday|ja-JP|RespectForTheAgedDayJP|Respect For The Aged Day|Respect For The Aged Day
+JapanPublicHoliday|ja-JP|ShowaDayJP|Shōwa Day|Shōwa Day
+JapanPublicHoliday|ja-JP|VernalEquinoxDayJP|Vernal Equinox Day|Vernal Equinox Day
+KazakhstanPublicHoliday|ru-KZ|CapitalDayKZ|День столицы|Capital Day
+KazakhstanPublicHoliday|ru-KZ|Christmas|Рождество Христово|Christmas (Orthodox)
+KazakhstanPublicHoliday|ru-KZ|ConstitutionDayKZ|День Конституции|Constitution Day
+KazakhstanPublicHoliday|ru-KZ|DayAfterNewYear|Второй день нового года|Day After New Year
+KazakhstanPublicHoliday|ru-KZ|DefenderDayKZ|День Защитника Отечества|Defender of the Fatherland Day
+KazakhstanPublicHoliday|ru-KZ|FirstPresidentDayKZ|День Первого Президента|First President Day
+KazakhstanPublicHoliday|ru-KZ|IndependenceDayKZ|День Независимости Казахстана|Independence Day
+KazakhstanPublicHoliday|ru-KZ|IndependenceDaySecondKZ|День Независимости Казахстана|Independence Day Holiday
+KazakhstanPublicHoliday|ru-KZ|KurbanAitKZ|Курбан Айт|Kurban Ait
+KazakhstanPublicHoliday|ru-KZ|NationUnityDayKZ|Праздник единства народа Казахстана|Kazakhstan People's Unity Day
+KazakhstanPublicHoliday|ru-KZ|NauryzKZ1|Наурыз мейрамы|Nauryz
+KazakhstanPublicHoliday|ru-KZ|NauryzKZ2|Наурыз мейрамы|Nauryz Holiday
+KazakhstanPublicHoliday|ru-KZ|NauryzKZ3|Наурыз мейрамы|Nauryz Holiday
+KazakhstanPublicHoliday|ru-KZ|NewYear|Новый год|New Year
+KazakhstanPublicHoliday|ru-KZ|VictoryDayKZ|День Победы|Victory Day
+KazakhstanPublicHoliday|ru-KZ|WomensDay|Международный женский день|International Women's Day
+LatviaPublicHoliday|lv-LV|BronzeMedalDayLV|Latvijas hokeja izlases bronzas medaļas ieguves diena|Day of the Bronze Medal Win
+LatviaPublicHoliday|lv-LV|ChristmasEve|Ziemassvētku vakars|Christmas Eve
+LatviaPublicHoliday|lv-LV|Christmas|Pirmie Ziemassvētki|Christmas
+LatviaPublicHoliday|lv-LV|EasterMonday|Otrās Lieldienas|Easter Monday
+LatviaPublicHoliday|lv-LV|Easter|Pirmās Lieldienas|Easter
+LatviaPublicHoliday|lv-LV|GoodFriday|Lielā Piektdiena|Good Friday
+LatviaPublicHoliday|lv-LV|LabourDay|Darba svētki|Labour Day
+LatviaPublicHoliday|lv-LV|LigoDayLV|Līgo diena|Midsummer Eve
+LatviaPublicHoliday|lv-LV|MidsummerDayLV|Jāņu diena|Midsummer Day
+LatviaPublicHoliday|lv-LV|MothersDayLV|Mātes diena|Mother's Day
+LatviaPublicHoliday|lv-LV|NewYearsEve|Vecgada diena|New Year's Eve
+LatviaPublicHoliday|lv-LV|NewYear|Jaungada diena|New Year
+LatviaPublicHoliday|lv-LV|PopeFrancisVisitLV|Pāvesta Franciska pastorālās vizītes diena|Pastoral Visit of Pope Francis
+LatviaPublicHoliday|lv-LV|ProclamationDayLV|Latvijas Republikas proklamēšanas diena|Proclamation of the Republic of Latvia
+LatviaPublicHoliday|lv-LV|RestorationOfIndependenceDayLV|Latvijas Republikas Neatkarības atjaunošanas diena|Restoration of Independence Day
+LatviaPublicHoliday|lv-LV|SecondChristmasDayLV|Otrie Ziemassvētki|Second Day of Christmas
+LatviaPublicHoliday|lv-LV|SongAndDanceFestivalLV|Vispārējo latviešu Dziesmu un deju svētku noslēguma diena|Song and Dance Festival Closing Day
+LatviaPublicHoliday|lv-LV|WhitSunday|Vasarsvētki|Whit Sunday
+LithuaniaPublicHoliday|lt-LT|AllSaints|Visų šventųjų diena|All Saints
+LithuaniaPublicHoliday|lt-LT|AllSouls|Mirusiųjų atminimo (Vėlinių) diena|All Souls' Day
+LithuaniaPublicHoliday|lt-LT|Assumption|Žolinė (Švč. Mergelės Marijos ėmimo į dangų diena)|Assumption
+LithuaniaPublicHoliday|lt-LT|ChristmasEve|Šv. Kūčios|Christmas Eve
+LithuaniaPublicHoliday|lt-LT|Christmas|Šv. Kalėdos|Christmas
+LithuaniaPublicHoliday|lt-LT|EasterMonday|Antroji šv. Velykų diena|Easter Monday
+LithuaniaPublicHoliday|lt-LT|Easter|Šv. Velykos|Easter
+LithuaniaPublicHoliday|lt-LT|FathersDayLT|Tėvo diena|Father's Day
+LithuaniaPublicHoliday|lt-LT|LabourDay|Tarptautinė darbo diena|Labour Day
+LithuaniaPublicHoliday|lt-LT|MidsummerDayLT|Rasos ir Joninių diena|St John's Day
+LithuaniaPublicHoliday|lt-LT|MothersDayLT|Motinos diena|Mother's Day
+LithuaniaPublicHoliday|lt-LT|NewYear|Naujųjų metų diena|New Year
+LithuaniaPublicHoliday|lt-LT|RestorationOfIndependenceLT|Lietuvos nepriklausomybės atkūrimo diena|Day of Restoration of Independence of Lithuania
+LithuaniaPublicHoliday|lt-LT|RestorationOfStateLT|Lietuvos valstybės atkūrimo diena|Day of Restoration of the State of Lithuania
+LithuaniaPublicHoliday|lt-LT|SaintStephensDay|Šv. Kalėdos|St Stephen's Day
+LithuaniaPublicHoliday|lt-LT|StatehoodDayLT|Valstybės (Lietuvos karaliaus Mindaugo karūnavimo) ir Tautiškos giesmės diena|Statehood Day
+LuxembourgPublicHoliday|lb-LU|AllSaints|Allerhellgen|All Saints
+LuxembourgPublicHoliday|lb-LU|Ascension|Christi Himmelfaar|Ascension
+LuxembourgPublicHoliday|lb-LU|Assumption|Mariä Himmelfaart|Assumption
+LuxembourgPublicHoliday|lb-LU|Christmas|Chrëschtdag|Christmas
+LuxembourgPublicHoliday|lb-LU|EasterMonday|Ouschterméindeg|Easter Monday
+LuxembourgPublicHoliday|lb-LU|EuropeDayLU|Europadag|Europe Day
+LuxembourgPublicHoliday|lb-LU|LabourDay|Dag vun der Aarbecht|Labour Day
+LuxembourgPublicHoliday|lb-LU|NationalDayLU|Nationalfeierdag|National Day
+LuxembourgPublicHoliday|lb-LU|NewYear|Neijoerschdag|New Year
+LuxembourgPublicHoliday|lb-LU|PentecostMonday|Péngschtméindeg|Whit Monday
+LuxembourgPublicHoliday|lb-LU|SaintStephensDay|Stiefesdag|St Stephen's Day
+MexicoPublicHoliday|es-MX|BenitoJuarezBirthdayMX|Natalício de Benito Juárez|Benito Juárez's Birthday
+MexicoPublicHoliday|es-MX|Christmas|Navidad|Christmas
+MexicoPublicHoliday|es-MX|ConstitutionDayMX|Día de la Constitución|Constitution Day
+MexicoPublicHoliday|es-MX|IndependenceDayMX|Día de la Independencia|Independence Day
+MexicoPublicHoliday|es-MX|LabourDay|Día laboral|Labour Day
+MexicoPublicHoliday|es-MX|NewYear|Año Nuevo|New Year
+MexicoPublicHoliday|es-MX|PresidentialInaugurationMX|Transmisión del Poder Ejecutivo Federal|Presidential Inauguration Holiday
+MexicoPublicHoliday|es-MX|RevolutionDayMX|Día de la Revolució|Revolution Day
+MontenegroPublicHoliday|sr-Latn-ME|ChristmasEve|Badnji dan|Christmas Eve (Orthodox)
+MontenegroPublicHoliday|sr-Latn-ME|Christmas|Božić|Christmas (Orthodox)
+MontenegroPublicHoliday|sr-Latn-ME|DayAfterNewYear|Nova godina|Day After New Year
+MontenegroPublicHoliday|sr-Latn-ME|EasterMonday|Uskrsni ponedeljak|Easter Monday
+MontenegroPublicHoliday|sr-Latn-ME|GoodFriday|Veliki petak|Good Friday
+MontenegroPublicHoliday|sr-Latn-ME|IndependenceDayME|Dan nezavisnosti|Independence Day
+MontenegroPublicHoliday|sr-Latn-ME|IndependenceDaySecondME|Dan nezavisnosti|Independence Day Holiday
+MontenegroPublicHoliday|sr-Latn-ME|LabourDaySecondME|Praznik rada|Labour Day Holiday
+MontenegroPublicHoliday|sr-Latn-ME|LabourDay|Praznik rada|Labour Day
+MontenegroPublicHoliday|sr-Latn-ME|NegoshevDayME|Njegosev Dan|Njegoš Day
+MontenegroPublicHoliday|sr-Latn-ME|NewYear|Nova godina|New Year
+MontenegroPublicHoliday|sr-Latn-ME|StatehoodDayME|Dan državnostia|Statehood Day
+MontenegroPublicHoliday|sr-Latn-ME|StatehoodDaySecondME|Dan državnosti|Statehood Day Holiday
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_ALL|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_AUCKLAND|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_CANTERBURY|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_CHATHAM_ISLANDS|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_HAWKES_BAY|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_MARLBOROUGH|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_NELSON|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_NORTHLAND|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_OTAGO|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_SOUTHLAND|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_SOUTH_CANTERBURY|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_TARANAKI|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_WELLINGTON|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|AnniversaryDayNZ|Anniversary Day|Anniversary Day
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|AnzacDay|ANZAC Day|ANZAC Day
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|BoxingDay|Boxing Day|Boxing Day
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|Christmas|Christmas Day|Christmas Day
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|DayAfterNewYear|Day After New Year|Day After New Year
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|EasterMonday|Easter Monday|Easter Monday
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|GoodFriday|Good Friday|Good Friday
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|KingsBirthdayNZ|King's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|LabourDay|Labour Day|Labour Day
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|MatarikiNZ|Matariki|Matariki
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|NewYear|New Year|New Year
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|QueenElizabethMemorialDayNZ2022|Queen Elizabeth II Memorial Day|Queen Elizabeth II Memorial Day
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|QueensBirthdayNZ|Queen's Birthday|King's Birthday
+NewZealandPublicHoliday_ProvincialDistrict_WESTLAND|en-NZ|WaitangiDayNZ|Waitangi Day|Waitangi Day
+NorwayPublicHoliday|nb-NO|Ascension|Kristi himmelfartsdag|Ascension
+NorwayPublicHoliday|nb-NO|Christmas|Første juledag|Christmas
+NorwayPublicHoliday|nb-NO|ConstitutionDayNO|Grunnlovsdagen|Constitution Day
+NorwayPublicHoliday|nb-NO|EasterMonday|Andre påskedag|Easter Monday
+NorwayPublicHoliday|nb-NO|Easter|Første påskedag|Easter
+NorwayPublicHoliday|nb-NO|GoodFriday|Langfredag|Good Friday
+NorwayPublicHoliday|nb-NO|LabourDay|Første mai|Labour Day
+NorwayPublicHoliday|nb-NO|MaundyThursday|Skjærtorsdag|Maundy Thursday
+NorwayPublicHoliday|nb-NO|NewYear|Første nyttårsdag|New Year
+NorwayPublicHoliday|nb-NO|PentecostMonday|Andre pinsedag|Whit Monday
+NorwayPublicHoliday|nb-NO|SaintStephensDay|Andre juledag|St Stephen's Day
+NorwayPublicHoliday|nb-NO|WhitSunday|Første pinsedag|Whit Sunday
+PolandPublicHoliday|pl-PL|AllSaints|All Saints|All Saints
+PolandPublicHoliday|pl-PL|Assumption|Assumption|Assumption
+PolandPublicHoliday|pl-PL|ChristmasEve|Christmas Eve|Christmas Eve
+PolandPublicHoliday|pl-PL|Christmas|Christmas|Christmas
+PolandPublicHoliday|pl-PL|ConstitutionDayPL|Constitution Day|Constitution Day
+PolandPublicHoliday|pl-PL|CorpusChristi|Corpus Christi|Corpus Christi
+PolandPublicHoliday|pl-PL|EasterMonday|Easter Monday|Easter Monday
+PolandPublicHoliday|pl-PL|Easter|Easter Sunday|Easter Sunday
+PolandPublicHoliday|pl-PL|Epiphany|Epiphany|Epiphany
+PolandPublicHoliday|pl-PL|IndependenceDayPL|Independence Day|Independence Day
+PolandPublicHoliday|pl-PL|LabourDay|Labour Day|Labour Day
+PolandPublicHoliday|pl-PL|NewYear|New Year|New Year
+PolandPublicHoliday|pl-PL|SaintStephensDay|St Stephen's Day|St Stephen's Day
+PolandPublicHoliday|pl-PL|WhitSunday|Pentecost|Pentecost
+PortugalPublicHoliday_Region_Acores|pt-PT|AllSaints|Dia de Todos-os-Santos|All Saints
+PortugalPublicHoliday_Region_Acores|pt-PT|Assumption|Assunção de Nossa Senhora|Assumption
+PortugalPublicHoliday_Region_Acores|pt-PT|AzoresDayPT|Dia dos Açores|Azores Day
+PortugalPublicHoliday_Region_Acores|pt-PT|CarnivalPT|Carnaval|Carnival
+PortugalPublicHoliday_Region_Acores|pt-PT|Christmas|Natal|Christmas
+PortugalPublicHoliday_Region_Acores|pt-PT|CorpusChristi|Corpo de Deus|Corpus Christi
+PortugalPublicHoliday_Region_Acores|pt-PT|Easter|Domingo de Páscoa|Easter
+PortugalPublicHoliday_Region_Acores|pt-PT|FreedomDayPT|Dia da Liberdade|Freedom Day
+PortugalPublicHoliday_Region_Acores|pt-PT|GoodFriday|Sexta-feira Santa|Good Friday
+PortugalPublicHoliday_Region_Acores|pt-PT|ImmaculateConception|Imaculada Conceição|Immaculate Conception
+PortugalPublicHoliday_Region_Acores|pt-PT|IndependenceRestorationDayPT|Restauração da Independência|Independence Restoration Day
+PortugalPublicHoliday_Region_Acores|pt-PT|LabourDay|Dia do Trabalhador|Labour Day
+PortugalPublicHoliday_Region_Acores|pt-PT|NewYear|Ano Novo|New Year
+PortugalPublicHoliday_Region_Acores|pt-PT|PortugalDayPT|Dia de Portugal, de Camões e das Comunidades Portuguesas|Portugal Day
+PortugalPublicHoliday_Region_Acores|pt-PT|RepublicDayPT|Implantação da República|Republic Day
+PortugalPublicHoliday_Region_Madeira|pt-PT|AllSaints|Dia de Todos-os-Santos|All Saints
+PortugalPublicHoliday_Region_Madeira|pt-PT|Assumption|Assunção de Nossa Senhora|Assumption
+PortugalPublicHoliday_Region_Madeira|pt-PT|CarnivalPT|Carnaval|Carnival
+PortugalPublicHoliday_Region_Madeira|pt-PT|Christmas|Natal|Christmas
+PortugalPublicHoliday_Region_Madeira|pt-PT|CorpusChristi|Corpo de Deus|Corpus Christi
+PortugalPublicHoliday_Region_Madeira|pt-PT|Easter|Domingo de Páscoa|Easter
+PortugalPublicHoliday_Region_Madeira|pt-PT|FirstOctavePT|Primeira Oitava|First Octave
+PortugalPublicHoliday_Region_Madeira|pt-PT|FreedomDayPT|Dia da Liberdade|Freedom Day
+PortugalPublicHoliday_Region_Madeira|pt-PT|GoodFriday|Sexta-feira Santa|Good Friday
+PortugalPublicHoliday_Region_Madeira|pt-PT|ImmaculateConception|Imaculada Conceição|Immaculate Conception
+PortugalPublicHoliday_Region_Madeira|pt-PT|IndependenceRestorationDayPT|Restauração da Independência|Independence Restoration Day
+PortugalPublicHoliday_Region_Madeira|pt-PT|LabourDay|Dia do Trabalhador|Labour Day
+PortugalPublicHoliday_Region_Madeira|pt-PT|MadeiraAutonomyDayPT|Dia da Madeira|Madeira Autonomy Day
+PortugalPublicHoliday_Region_Madeira|pt-PT|NewYear|Ano Novo|New Year
+PortugalPublicHoliday_Region_Madeira|pt-PT|PortugalDayPT|Dia de Portugal, de Camões e das Comunidades Portuguesas|Portugal Day
+PortugalPublicHoliday_Region_Madeira|pt-PT|RepublicDayPT|Implantação da República|Republic Day
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|AllSaints|Dia de Todos-os-Santos|All Saints
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|Assumption|Assunção de Nossa Senhora|Assumption
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|AzoresDayPT|Dia dos Açores|Azores Day
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|CarnivalPT|Carnaval|Carnival
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|Christmas|Natal|Christmas
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|CorpusChristi|Corpo de Deus|Corpus Christi
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|Easter|Domingo de Páscoa|Easter
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|FirstOctavePT|Primeira Oitava|First Octave
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|FreedomDayPT|Dia da Liberdade|Freedom Day
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|GoodFriday|Sexta-feira Santa|Good Friday
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|ImmaculateConception|Imaculada Conceição|Immaculate Conception
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|IndependenceRestorationDayPT|Restauração da Independência|Independence Restoration Day
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|LabourDay|Dia do Trabalhador|Labour Day
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|MadeiraAutonomyDayPT|Dia da Madeira|Madeira Autonomy Day
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|NewYear|Ano Novo|New Year
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|PortugalDayPT|Dia de Portugal, de Camões e das Comunidades Portuguesas|Portugal Day
+PortugalPublicHoliday_Region_OnlyOfficial|pt-PT|RepublicDayPT|Implantação da República|Republic Day
+RomanianPublicHoliday|ro-RO|Assumption|Sfânta Maria Mare|Assumption
+RomanianPublicHoliday|ro-RO|ChildrensDayRO|Ziua Copilului|Children's Day
+RomanianPublicHoliday|ro-RO|Christmas|Crăciunul|Christmas
+RomanianPublicHoliday|ro-RO|DayAfterNewYear|Anul nou|Day After New Year
+RomanianPublicHoliday|ro-RO|EasterMonday|Paștele|Easter Monday
+RomanianPublicHoliday|ro-RO|Easter|Paștele|Easter
+RomanianPublicHoliday|ro-RO|EpiphanyRO|Bobotează|Epiphany
+RomanianPublicHoliday|ro-RO|GoodFriday|Vinerea Mare|Good Friday
+RomanianPublicHoliday|ro-RO|LabourDay|Ziua Muncii|Labour Day
+RomanianPublicHoliday|ro-RO|NationalDayRO|Ziua Națională a României|National Day
+RomanianPublicHoliday|ro-RO|NewYear|Anul nou|New Year
+RomanianPublicHoliday|ro-RO|PentecostMonday|Rusaliile|Whit Monday
+RomanianPublicHoliday|ro-RO|SaintAndrewDayRO|Sfântul Andrei|St Andrew's Day
+RomanianPublicHoliday|ro-RO|SaintJohnBaptistRO|Sfântul Ion|Saint John the Baptist
+RomanianPublicHoliday|ro-RO|SaintStephensDay|Crăciunul|St Stephen's Day
+RomanianPublicHoliday|ro-RO|UnificationDayRO|Unirea Principatelor Române|Day of the Unification of the Romanian Principalities
+RomanianPublicHoliday|ro-RO|WhitSunday|Rusaliile|Whit Sunday
+SerbianPublicHoliday|sr-Cyrl-RS|Armistice|Дан примирја|Armistice Day
+SerbianPublicHoliday|sr-Cyrl-RS|Christmas|Божић|Christmas (Orthodox)
+SerbianPublicHoliday|sr-Cyrl-RS|DayAfterNewYear|Нова година|Day After New Year
+SerbianPublicHoliday|sr-Cyrl-RS|EasterMonday|Васкрсни понедељак|Easter Monday
+SerbianPublicHoliday|sr-Cyrl-RS|Easter|Васкрс|Easter
+SerbianPublicHoliday|sr-Cyrl-RS|GoodFriday|Велики петак|Good Friday
+SerbianPublicHoliday|sr-Cyrl-RS|LabourDaySecondRS|Празник рада|Labour Day Holiday
+SerbianPublicHoliday|sr-Cyrl-RS|LabourDay|Празник рада|Labour Day
+SerbianPublicHoliday|sr-Cyrl-RS|NationalDayRS1|Дан државности Србије|Statehood Day
+SerbianPublicHoliday|sr-Cyrl-RS|NationalDayRS2|Дан државности Србије|Statehood Day Holiday
+SerbianPublicHoliday|sr-Cyrl-RS|NewYear|Нова година|New Year
+SlovakiaPublicHoliday|sk-SK|AllSaints|Sviatok všetkých svätých|All Saints
+SlovakiaPublicHoliday|sk-SK|ChristmasEve|Štedrý deň|Christmas Eve
+SlovakiaPublicHoliday|sk-SK|Christmas|Prvý sviatok vianočný|Christmas
+SlovakiaPublicHoliday|sk-SK|CyrilAndMethodiusDay|Sviatok svätého Cyrila a Metoda|St Cyril and Methodius Day
+SlovakiaPublicHoliday|sk-SK|EasterMonday|Veľkonočný pondelok|Easter Monday
+SlovakiaPublicHoliday|sk-SK|Epiphany|Zjavenie Pána (Traja králi)|Epiphany
+SlovakiaPublicHoliday|sk-SK|FreedomAndDemocracyDayCS|Deň boja za slobodu a demokraciu|Struggle for Freedom and Democracy Day
+SlovakiaPublicHoliday|sk-SK|GoodFriday|Veľký piatok|Good Friday
+SlovakiaPublicHoliday|sk-SK|IndependentCzechoslovakStateDayCS|Deň vzniku samostatného česko-slovenského štátu|Day of the Establishment of the Independent Czecho-Slovak State
+SlovakiaPublicHoliday|sk-SK|LabourDay|Sviatok práce|Labour Day
+SlovakiaPublicHoliday|sk-SK|LadySevenSorrowsSK|Sedembolestná Panna Mária|Day of Our Lady of the Seven Sorrows
+SlovakiaPublicHoliday|sk-SK|NewYear|Nový rok|New Year
+SlovakiaPublicHoliday|sk-SK|SaintStephensDay|Druhý sviatok vianočný|St Stephen's Day
+SlovakiaPublicHoliday|sk-SK|SlovakConstitutionDay|Deň Ústavy Slovenskej republiky|Day of the Constitution of the Slovak Republic
+SlovakiaPublicHoliday|sk-SK|SlovakEstablishmentDay|Deň vzniku Slovenskej republiky|Day of the Establishment of the Slovak Republic
+SlovakiaPublicHoliday|sk-SK|SlovakNationalUprisingDay|Výročie SNP|Slovak National Uprising Anniversary
+SlovakiaPublicHoliday|sk-SK|SovietLiberationDayCS|Výročie oslobodenia Československa Sovietskou armádou|Day of Liberation of Czechoslovakia by the Soviet Army
+SlovakiaPublicHoliday|sk-SK|VictoryInEuropeDay|Deň víťazstva nad fašizmom|Victory in Europe Day
+SloveniaPublicHoliday|sl-SI|AllSaints|Dan spomina na mrtve|All Saints
+SloveniaPublicHoliday|sl-SI|Assumption|Marijino vnebovzetje|Assumption
+SloveniaPublicHoliday|sl-SI|Christmas|Božič|Christmas
+SloveniaPublicHoliday|sl-SI|DayAfterNewYear|Novo leto, drugi januar|Day After New Year
+SloveniaPublicHoliday|sl-SI|EasterMonday|Velikonočni ponedeljek|Easter Monday
+SloveniaPublicHoliday|sl-SI|LabourDaySecondSI|Dan dela 1.maj|Labour Day Holiday
+SloveniaPublicHoliday|sl-SI|LabourDay|Dan dela 1.maj|Labour Day
+SloveniaPublicHoliday|sl-SI|NationalDaySI|Dan državnosti|Statehood Day
+SloveniaPublicHoliday|sl-SI|NewYear|Novo leto, prvi januar|New Year
+SloveniaPublicHoliday|sl-SI|PreserenDaySI|Prešernov dan|Prešeren Day
+SloveniaPublicHoliday|sl-SI|ReformationDay|Dan reformacije|Reformation Day
+SloveniaPublicHoliday|sl-SI|ResistanceDaySI|Dan upora proti okupatorju|Day of Uprising Against Occupation
+SloveniaPublicHoliday|sl-SI|UnityDaySI|Day suverenosti in enotnosti|Day of Sovereignty and Unity
+SouthAfricaPublicHoliday|en-ZA|Christmas|Christmas Day|Christmas Day
+SouthAfricaPublicHoliday|en-ZA|DayOfGoodwillZA|Day of Goodwill|Day of Goodwill
+SouthAfricaPublicHoliday|en-ZA|ElectionDayZA2024|Election day|Election day
+SouthAfricaPublicHoliday|en-ZA|FamilyDayZA|Family Day|Family Day
+SouthAfricaPublicHoliday|en-ZA|FreedomDayZA|Freedom Day|Freedom Day
+SouthAfricaPublicHoliday|en-ZA|GoodFriday|Good Friday|Good Friday
+SouthAfricaPublicHoliday|en-ZA|HeritageDayZA|Heritage Day|Heritage Day
+SouthAfricaPublicHoliday|en-ZA|HumanRightsDayZA|Human Rights Day|Human Rights Day
+SouthAfricaPublicHoliday|en-ZA|NewYear|New Year|New Year
+SouthAfricaPublicHoliday|en-ZA|ReconciliationDayZA|Day of Reconciliation|Day of Reconciliation
+SouthAfricaPublicHoliday|en-ZA|RugbyWorldCupZA|Rugby World Cup celebration|Rugby World Cup celebration
+SouthAfricaPublicHoliday|en-ZA|WomensDayZA|National Women's Day|National Women's Day
+SouthAfricaPublicHoliday|en-ZA|WorkersDayZA|Workers' Day|Workers' Day
+SouthAfricaPublicHoliday|en-ZA|YouthDayZA|Youth Day|Youth Day
+SpainPublicHoliday|es-ES|AllSaints|Día de todos los Santos|All Saints
+SpainPublicHoliday|es-ES|Assumption|Asunción|Assumption
+SpainPublicHoliday|es-ES|Christmas|Navidad|Christmas
+SpainPublicHoliday|es-ES|ConstitutionDayES|Día de la Constitución|Constitution Day
+SpainPublicHoliday|es-ES|Epiphany|Epifanía|Epiphany
+SpainPublicHoliday|es-ES|GoodFriday|Viernes Santo|Good Friday
+SpainPublicHoliday|es-ES|ImmaculateConception|Inmaculada Concepción|Immaculate Conception
+SpainPublicHoliday|es-ES|LabourDay|Día del Trabajador|Labour Day
+SpainPublicHoliday|es-ES|NationalDayES|Fiesta Nacional de España|National Day
+SpainPublicHoliday|es-ES|NewYear|Año Nuevo|New Year
+SwedenPublicHoliday|sv-SE|AllSaints|Alla helgons dag|All Saints' Day
+SwedenPublicHoliday|sv-SE|Ascension|Kristi himmelfärds dag|Ascension
+SwedenPublicHoliday|sv-SE|ChristmasEve|Julafton|Christmas Eve
+SwedenPublicHoliday|sv-SE|Christmas|Juldagen|Christmas
+SwedenPublicHoliday|sv-SE|EasterMonday|Annandag påsk|Easter Monday
+SwedenPublicHoliday|sv-SE|Easter|Påskdagen|Easter
+SwedenPublicHoliday|sv-SE|Epiphany|Trettondag jul|Epiphany
+SwedenPublicHoliday|sv-SE|GoodFriday|Långfredag|Good Friday
+SwedenPublicHoliday|sv-SE|LabourDay|Första maj|Labour Day
+SwedenPublicHoliday|sv-SE|MidsummerDaySE|Midsommardagen|Midsummer Day
+SwedenPublicHoliday|sv-SE|MidsummerEveSE|Midsommarafton|Midsummer Eve
+SwedenPublicHoliday|sv-SE|NationalDaySE|Nationaldagen|National Day
+SwedenPublicHoliday|sv-SE|NewYearsEve|Nyårsafton|New Year's Eve
+SwedenPublicHoliday|sv-SE|NewYear|Nyårsdagen|New Year
+SwedenPublicHoliday|sv-SE|SaintStephensDay|Annandag jul|St Stephen's Day
+SwedenPublicHoliday|sv-SE|WhitSunday|Pingstdagen|Whit Sunday
+SwitzerlandPublicHoliday_Canton_AG|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_AG|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_AG|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_AG|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_AG|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_AG|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_AG|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_AG|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_AG|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_AG|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_AG|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_AG|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_AG|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_AI|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_AI|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_AI|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_AI|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_AI|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_AI|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_AI|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_AI|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_AI|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_AI|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_AI|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_AI|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_AI|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_AI|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|Epiphany|Epiphanie|Epiphany
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|GenevaPrayDay|Jeûne genevois|Geneva Fast
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|NeuchatelRepublicDay|Instauration de la République|Republic Day
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|StJoseph|Josefstag|Saint Joseph's Day
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_ALL|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_AR|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_AR|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_AR|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_AR|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_AR|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_AR|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_AR|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_AR|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_AR|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_AR|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_AR|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_BE|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_BE|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_BE|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_BE|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_BE|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_BE|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_BE|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_BE|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_BE|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_BE|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_BE|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_BL|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_BL|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_BL|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_BL|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_BL|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_BL|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_BL|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_BL|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_BL|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_BL|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_BL|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_BS|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_BS|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_BS|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_BS|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_BS|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_BS|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_BS|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_BS|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_BS|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_BS|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_BS|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_FR|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_FR|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_FR|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_FR|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_FR|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_FR|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_FR|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_FR|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_FR|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_FR|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_FR|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_FR|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_FR|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_FR|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_GE|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_GE|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_GE|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_GE|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_GE|de-CH|GenevaPrayDay|Jeûne genevois|Geneva Fast
+SwitzerlandPublicHoliday_Canton_GE|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_GE|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_GE|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_GE|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_GE|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_GE|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_GL|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_GL|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_GL|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_GL|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_GL|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_GL|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_GL|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_GL|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_GL|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_GL|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_GL|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_GL|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_GR|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_GR|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_GR|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_GR|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_GR|de-CH|Epiphany|Epiphanie|Epiphany
+SwitzerlandPublicHoliday_Canton_GR|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_GR|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_GR|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_GR|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_GR|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_GR|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_GR|de-CH|StJoseph|Josefstag|Saint Joseph's Day
+SwitzerlandPublicHoliday_Canton_GR|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_GR|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_JU|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_JU|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_JU|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_JU|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_JU|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_JU|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_JU|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_JU|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_JU|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_JU|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_JU|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_JU|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_LU|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_LU|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_LU|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_LU|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_LU|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_LU|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_LU|de-CH|Epiphany|Epiphanie|Epiphany
+SwitzerlandPublicHoliday_Canton_LU|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_LU|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_LU|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_LU|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_LU|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_LU|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_LU|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_LU|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_NE|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_NE|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_NE|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_NE|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_NE|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_NE|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_NE|de-CH|NeuchatelRepublicDay|Instauration de la République|Republic Day
+SwitzerlandPublicHoliday_Canton_NE|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_NE|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_NE|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_NE|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_NE|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_NW|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_NW|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_NW|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_NW|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_NW|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_NW|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_NW|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_NW|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_NW|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_NW|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_NW|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_NW|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_NW|de-CH|StJoseph|Josefstag|Saint Joseph's Day
+SwitzerlandPublicHoliday_Canton_NW|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_NW|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_OW|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_OW|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_OW|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_OW|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_OW|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_OW|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_OW|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_OW|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_OW|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_OW|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_OW|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_OW|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_OW|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_OW|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_OnlyOfficial|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_OnlyOfficial|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_OnlyOfficial|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_OnlyOfficial|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_OnlyOfficial|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_OnlyOfficial|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_OnlyOfficial|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_SG|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_SG|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_SG|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_SG|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_SG|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_SG|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_SG|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_SG|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_SG|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_SG|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_SG|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_SG|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_SH|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_SH|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_SH|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_SH|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_SH|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_SH|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_SH|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_SH|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_SH|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_SH|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_SH|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_SO|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_SO|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_SO|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_SO|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_SO|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_SO|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_SO|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_SO|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_SO|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_SO|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_SO|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_SO|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_SO|de-CH|StJoseph|Josefstag|Saint Joseph's Day
+SwitzerlandPublicHoliday_Canton_SO|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_SO|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|Epiphany|Epiphanie|Epiphany
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|StJoseph|Josefstag|Saint Joseph's Day
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_SZ|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_TG|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_TG|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_TG|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_TG|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_TG|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_TG|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_TG|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_TG|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_TG|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_TG|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_TG|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_TI|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_TI|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_TI|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_TI|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_TI|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_TI|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_TI|de-CH|Epiphany|Epiphanie|Epiphany
+SwitzerlandPublicHoliday_Canton_TI|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_TI|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_TI|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_TI|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_TI|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_TI|de-CH|StJoseph|Josefstag|Saint Joseph's Day
+SwitzerlandPublicHoliday_Canton_TI|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_TI|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_UR|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_UR|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_UR|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_UR|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_UR|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_UR|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_UR|de-CH|Epiphany|Epiphanie|Epiphany
+SwitzerlandPublicHoliday_Canton_UR|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_UR|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_UR|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_UR|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_UR|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_UR|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_UR|de-CH|StJoseph|Josefstag|Saint Joseph's Day
+SwitzerlandPublicHoliday_Canton_UR|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_UR|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_VD|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_VD|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_VD|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_VD|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_VD|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_VD|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_VD|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_VD|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_VD|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_VD|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_VS|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_VS|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_VS|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_VS|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_VS|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_VS|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_VS|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_VS|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_VS|de-CH|StJoseph|Josefstag|Saint Joseph's Day
+SwitzerlandPublicHoliday_Canton_VS|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_VS|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|AllSaints|Allerheiligen|All Saints Day
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|Assumption|Mariä Himmelfahrt|Assumption Day
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|ImmaculateConception|Unbefleckte Empfängnis|Immaculate Conception
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_ZG|de-CH|SwissNationalDay|Bundesfeier|National Day
+SwitzerlandPublicHoliday_Canton_ZH|de-CH|Berchtold|Berchtoldstag|Berchtold's Day
+SwitzerlandPublicHoliday_Canton_ZH|de-CH|Christmas|Weihnachten|Christmas Day
+SwitzerlandPublicHoliday_Canton_ZH|de-CH|CorpusChristi|Fronleichnam|Corpus Christi
+SwitzerlandPublicHoliday_Canton_ZH|de-CH|EasterMonday|Ostermontag|Easter Monday
+SwitzerlandPublicHoliday_Canton_ZH|de-CH|GoodFriday|Karfreitag|Good Friday
+SwitzerlandPublicHoliday_Canton_ZH|de-CH|LabourDay|Tag der Arbeit|Labour Day
+SwitzerlandPublicHoliday_Canton_ZH|de-CH|NewYear|Neujahrstag|New Year
+SwitzerlandPublicHoliday_Canton_ZH|de-CH|PentecostMonday|Pfingstmontag|Whit Monday
+SwitzerlandPublicHoliday_Canton_ZH|de-CH|SaintStephensDay|Stephanstag|St Stephen's Day
+SwitzerlandPublicHoliday_Canton_ZH|de-CH|SwissAscension|Auffahrt|Ascension Day
+SwitzerlandPublicHoliday_Canton_ZH|de-CH|SwissNationalDay|Bundesfeier|National Day
+TurkeyPublicHoliday|tr-TR|DemocracyNationalUnityDayTR|Demokrasi ve Milli Birlik Günü|Democracy and National Unity Day
+TurkeyPublicHoliday|tr-TR|EidAlAdha|Kurban Bayramı 1. Gün|Eid al-Adha
+TurkeyPublicHoliday|tr-TR|EidAlAdha|Kurban Bayramı 2. Gün|Eid al-Adha
+TurkeyPublicHoliday|tr-TR|EidAlAdha|Kurban Bayramı 3. Gün|Eid al-Adha
+TurkeyPublicHoliday|tr-TR|EidAlAdha|Kurban Bayramı 4. Gün|Eid al-Adha
+TurkeyPublicHoliday|tr-TR|EidAlFitr|Ramazan Bayramı 1. Gün|Eid al-Fitr
+TurkeyPublicHoliday|tr-TR|EidAlFitr|Ramazan Bayramı 2. Gün|Eid al-Fitr
+TurkeyPublicHoliday|tr-TR|EidAlFitr|Ramazan Bayramı 3. Gün|Eid al-Fitr
+TurkeyPublicHoliday|tr-TR|LabourDay|Emek ve Dayanışma Günü|Labour Day
+TurkeyPublicHoliday|tr-TR|NationalSovereigntyChildrensDayTR|Ulusal Egemenlik ve Çocuk Bayramı|National Sovereignty and Children's Day
+TurkeyPublicHoliday|tr-TR|NewYear|Yılbaşı Tatili|New Year
+TurkeyPublicHoliday|tr-TR|RepublicDayTR|Cumhuriyet Bayramı|Republic Day
+TurkeyPublicHoliday|tr-TR|VictoryDayTR|Zafer Bayramı|Victory Day
+TurkeyPublicHoliday|tr-TR|YouthAndSportsDayTR|Atatürk’ü Anma, Gençlik ve Spor Bayramı|Youth and Sports Day
+UKBankHoliday_UkCountry_England|en-GB|BoxingDay|Boxing Day|Boxing Day
+UKBankHoliday_UkCountry_England|en-GB|Christmas|Christmas|Christmas
+UKBankHoliday_UkCountry_England|en-GB|CoronationUK2023|Coronation of King Charles III|Coronation of King Charles III
+UKBankHoliday_UkCountry_England|en-GB|DiamondJubileeUK|Queen's Diamond Jubilee|Queen's Diamond Jubilee
+UKBankHoliday_UkCountry_England|en-GB|EarlyMayUK|Early May|Early May
+UKBankHoliday_UkCountry_England|en-GB|EasterMonday|Easter Monday|Easter Monday
+UKBankHoliday_UkCountry_England|en-GB|GoldenJubileeUK|Golden Jubilee|Golden Jubilee
+UKBankHoliday_UkCountry_England|en-GB|GoodFriday|Good Friday|Good Friday
+UKBankHoliday_UkCountry_England|en-GB|NewYear|New Year|New Year
+UKBankHoliday_UkCountry_England|en-GB|PlatinumJubileeUK|Queen's Platinum Jubilee|Queen's Platinum Jubilee
+UKBankHoliday_UkCountry_England|en-GB|QueenElizabethFuneral|State Funeral of Queen Elizabeth II|State Funeral of Queen Elizabeth II
+UKBankHoliday_UkCountry_England|en-GB|RoyalWeddingUK2011|Royal Wedding|Royal Wedding
+UKBankHoliday_UkCountry_England|en-GB|SpringUK|Spring|Spring
+UKBankHoliday_UkCountry_England|en-GB|SummerUK|Summer|Summer
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|BattleOfTheBoyneUK|Battle of the Boyne|Battle of the Boyne
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|BoxingDay|Boxing Day|Boxing Day
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|Christmas|Christmas|Christmas
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|CoronationUK2023|Coronation of King Charles III|Coronation of King Charles III
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|DiamondJubileeUK|Queen's Diamond Jubilee|Queen's Diamond Jubilee
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|EarlyMayUK|Early May|Early May
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|EasterMonday|Easter Monday|Easter Monday
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|GoldenJubileeUK|Golden Jubilee|Golden Jubilee
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|GoodFriday|Good Friday|Good Friday
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|NewYear|New Year|New Year
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|PlatinumJubileeUK|Queen's Platinum Jubilee|Queen's Platinum Jubilee
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|QueenElizabethFuneral|State Funeral of Queen Elizabeth II|State Funeral of Queen Elizabeth II
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|RoyalWeddingUK2011|Royal Wedding|Royal Wedding
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|SpringUK|Spring|Spring
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|StPatricksDay|St Patrick's Day|St Patrick's Day
+UKBankHoliday_UkCountry_NorthernIreland|en-GB|SummerUK|Summer|Summer
+UKBankHoliday_UkCountry_Scotland|en-GB|BoxingDay|Boxing Day|Boxing Day
+UKBankHoliday_UkCountry_Scotland|en-GB|Christmas|Christmas|Christmas
+UKBankHoliday_UkCountry_Scotland|en-GB|CoronationUK2023|Coronation of King Charles III|Coronation of King Charles III
+UKBankHoliday_UkCountry_Scotland|en-GB|DiamondJubileeUK|Queen's Diamond Jubilee|Queen's Diamond Jubilee
+UKBankHoliday_UkCountry_Scotland|en-GB|EarlyMayUK|Early May|Early May
+UKBankHoliday_UkCountry_Scotland|en-GB|GoldenJubileeUK|Golden Jubilee|Golden Jubilee
+UKBankHoliday_UkCountry_Scotland|en-GB|GoodFriday|Good Friday|Good Friday
+UKBankHoliday_UkCountry_Scotland|en-GB|NewYearHolidayScotland|New Year Holiday|New Year Holiday
+UKBankHoliday_UkCountry_Scotland|en-GB|NewYear|New Year|New Year
+UKBankHoliday_UkCountry_Scotland|en-GB|PlatinumJubileeUK|Queen's Platinum Jubilee|Queen's Platinum Jubilee
+UKBankHoliday_UkCountry_Scotland|en-GB|QueenElizabethFuneral|State Funeral of Queen Elizabeth II|State Funeral of Queen Elizabeth II
+UKBankHoliday_UkCountry_Scotland|en-GB|RoyalWeddingUK2011|Royal Wedding|Royal Wedding
+UKBankHoliday_UkCountry_Scotland|en-GB|SpringUK|Spring|Spring
+UKBankHoliday_UkCountry_Scotland|en-GB|StAndrewsDayUK|St Andrew's Day|St Andrew's Day
+UKBankHoliday_UkCountry_Scotland|en-GB|SummerUK|Summer Holiday|Summer Holiday
+UKBankHoliday_UkCountry_Scotland|en-GB|WorldCupUK2026|World Cup|World Cup
+UKBankHoliday_UkCountry_Wales|en-GB|BoxingDay|Boxing Day|Boxing Day
+UKBankHoliday_UkCountry_Wales|en-GB|Christmas|Christmas|Christmas
+UKBankHoliday_UkCountry_Wales|en-GB|CoronationUK2023|Coronation of King Charles III|Coronation of King Charles III
+UKBankHoliday_UkCountry_Wales|en-GB|DiamondJubileeUK|Queen's Diamond Jubilee|Queen's Diamond Jubilee
+UKBankHoliday_UkCountry_Wales|en-GB|EarlyMayUK|Early May|Early May
+UKBankHoliday_UkCountry_Wales|en-GB|EasterMonday|Easter Monday|Easter Monday
+UKBankHoliday_UkCountry_Wales|en-GB|GoldenJubileeUK|Golden Jubilee|Golden Jubilee
+UKBankHoliday_UkCountry_Wales|en-GB|GoodFriday|Good Friday|Good Friday
+UKBankHoliday_UkCountry_Wales|en-GB|NewYear|New Year|New Year
+UKBankHoliday_UkCountry_Wales|en-GB|PlatinumJubileeUK|Queen's Platinum Jubilee|Queen's Platinum Jubilee
+UKBankHoliday_UkCountry_Wales|en-GB|QueenElizabethFuneral|State Funeral of Queen Elizabeth II|State Funeral of Queen Elizabeth II
+UKBankHoliday_UkCountry_Wales|en-GB|RoyalWeddingUK2011|Royal Wedding|Royal Wedding
+UKBankHoliday_UkCountry_Wales|en-GB|SpringUK|Spring|Spring
+UKBankHoliday_UkCountry_Wales|en-GB|SummerUK|Summer|Summer
+USAFederalReserveHoliday|en-US|Christmas|Christmas|Christmas
+USAFederalReserveHoliday|en-US|ColumbusDay|Columbus Day|Columbus Day
+USAFederalReserveHoliday|en-US|IndependenceDay|Independence Day|Independence Day
+USAFederalReserveHoliday|en-US|Juneteenth|Juneteenth|Juneteenth
+USAFederalReserveHoliday|en-US|LaborDay|Labor Day|Labor Day
+USAFederalReserveHoliday|en-US|MartinLutherKing|Martin Luther King Day|Martin Luther King Day
+USAFederalReserveHoliday|en-US|MemorialDay|Memorial Day|Memorial Day
+USAFederalReserveHoliday|en-US|NewYear|New Year|New Year
+USAFederalReserveHoliday|en-US|PresidentsDay|President's Day|President's Day
+USAFederalReserveHoliday|en-US|Thanksgiving|Thanksgiving|Thanksgiving
+USAFederalReserveHoliday|en-US|VeteransDay|Veteran's Day|Veteran's Day
+USANewYorkStockExchangeHoliday|en-US|Christmas|Christmas|Christmas
+USANewYorkStockExchangeHoliday|en-US|GoodFriday|Good Friday|Good Friday
+USANewYorkStockExchangeHoliday|en-US|IndependenceDay|Independence Day|Independence Day
+USANewYorkStockExchangeHoliday|en-US|Juneteenth|Juneteenth|Juneteenth
+USANewYorkStockExchangeHoliday|en-US|LaborDay|Labor Day|Labor Day
+USANewYorkStockExchangeHoliday|en-US|MartinLutherKing|Martin Luther King Day|Martin Luther King Day
+USANewYorkStockExchangeHoliday|en-US|MemorialDay|Memorial Day|Memorial Day
+USANewYorkStockExchangeHoliday|en-US|NewYear|New Year|New Year
+USANewYorkStockExchangeHoliday|en-US|PresidentsDay|President's Day|President's Day
+USANewYorkStockExchangeHoliday|en-US|Thanksgiving|Thanksgiving|Thanksgiving
+USAPublicHoliday|en-US|Christmas|Christmas|Christmas
+USAPublicHoliday|en-US|ColumbusDay|Columbus Day|Columbus Day
+USAPublicHoliday|en-US|IndependenceDay|Independence Day|Independence Day
+USAPublicHoliday|en-US|Juneteenth|Juneteenth|Juneteenth
+USAPublicHoliday|en-US|LaborDay|Labor Day|Labor Day
+USAPublicHoliday|en-US|MartinLutherKing|Martin Luther King Day|Martin Luther King Day
+USAPublicHoliday|en-US|MemorialDay|Memorial Day|Memorial Day
+USAPublicHoliday|en-US|NewYear|New Year|New Year
+USAPublicHoliday|en-US|PresidentsDay|President's Day|President's Day
+USAPublicHoliday|en-US|Thanksgiving|Thanksgiving|Thanksgiving
+USAPublicHoliday|en-US|VeteransDay|Veteran's Day|Veteran's Day

@@ -377,8 +377,8 @@ namespace PublicHolidayTests
             };
             IList<Holiday> hols = holidayCalendar.PublicHolidaysInformation(2026);
 
-            var genevaPrayDay = hols.SingleOrDefault(h => h.EnglishName == "Geneva PrayDay");
-            Assert.IsNotNull(genevaPrayDay, "Geneva PrayDay should be present for canton GE");
+            var genevaPrayDay = hols.SingleOrDefault(h => h.EnglishName == "Geneva Fast");
+            Assert.IsNotNull(genevaPrayDay, "Geneva Fast should be present for canton GE");
 
             Assert.AreEqual("Genfer Bettag", genevaPrayDay.GetName(new CultureInfo("de")));
             Assert.AreEqual("Jeûne genevois", genevaPrayDay.GetName(new CultureInfo("fr")));
@@ -400,7 +400,7 @@ namespace PublicHolidayTests
             Assert.AreEqual("Weihnachten", christmas.GetName(new CultureInfo("de")));
             Assert.AreEqual("Natale", christmas.GetName(new CultureInfo("it")));
             Assert.AreEqual("Fête de Noël", christmas.GetName(new CultureInfo("fr")));
-            Assert.AreEqual("Christmas", christmas.GetName(new CultureInfo("en")));
+            Assert.AreEqual("Christmas Day", christmas.GetName(new CultureInfo("en")));
         }
     }
 }

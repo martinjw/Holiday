@@ -59,7 +59,9 @@ namespace PublicHolidayTests
             var holidayCalendar = new RomanianPublicHoliday();
             var holidays = holidayCalendar.PublicHolidayNames(2016);
 
-            Assert.IsTrue(14 == holidays.Count, "Should be 14 holidays in 2016");
+            //Orthodox Easter fell on 1 May 2016 (Labour Day): 14 holidays on 13 distinct days
+            Assert.IsTrue(13 == holidays.Count, "Should be 13 distinct holiday days in 2016 (Easter on Labour Day)");
+            Assert.IsTrue(14 == holidayCalendar.PublicHolidaysInformation(2016).Count, "Should be 14 holidays in 2016");
         }
 
         /// <summary>

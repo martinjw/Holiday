@@ -212,7 +212,9 @@ namespace PublicHolidayTests
         {
             var thanksgiving = new DateTime(1999, 11, 25);
             var result = new USANewYorkStockExchangeHoliday().PublicHolidays(1999);
-            Assert.AreEqual(9, result.Count);
+            //10, not 9: 1 January 2000 fell on a Saturday, so New Year's Day was observed on
+            //31 December 1999 (see the NewYear doc comment: "Note in 1999 and 2005 it was 31st December")
+            Assert.AreEqual(10, result.Count);
             Assert.IsTrue(result.Contains(thanksgiving));
         }
 

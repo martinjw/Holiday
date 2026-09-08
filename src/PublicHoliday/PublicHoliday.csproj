@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <VersionPrefix>1.6.0</VersionPrefix>
     <TargetFrameworks>net10.0;net8.0;netstandard2.0;net35;net40;net46</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>PublicHoliday</AssemblyName>
@@ -73,13 +72,13 @@
 3.13.0: Japan Golden Weeks holidays can be moved by weekends
 3.14.0: switzerland fixes: #164 correct Geneva PrayDay to Thursday after first Sunday, #165 name Neuchâtel Republic Day, #166 culture-aware CH/FR holiday names (thanks @Flo5k5)
 3.15.0: #177 Add methods for business day calculations on interface (thanks @maltevm)
+4.0.0: Architecture overhaul (breaking). Every calendar is composed from reusable holiday-definition classes (PublicHoliday.HolidayDefinitions: Christian/Common/Islamic/CountrySpecific); the calendar classes themselves stay in the root PublicHoliday namespace. Holiday names moved out of code into one embedded .resx per culture (Localization/Names), so a calendar answers in its own language and any caller can ask for another: Holiday.Name is the calendar's language, Holiday.EnglishName is always English, Holiday.GetName(culture) is a named language, and a name is never empty. Greece and the Quebec government calendar now name their holidays in Greek and French instead of English, and no longer depend on the ambient UI culture. Every calendar exposes a settable Culture (plus a WithCulture extension) so one app can follow the user's locale: PublicHolidayFactory.GetPublicHolidayForCountry(code).WithCulture(user). Translations you supply yourself can be registered through the new IHolidayNameProvider hook (HolidayNameProviders.Add, or ResourceManagerNameProvider over your own .resx). BREAKING: PublicHolidayNames returns IDictionary&lt;DateTime, string[]&gt; (one entry per holiday on a day - same-day holidays are no longer merged into one string or dropped); IHoliday.IdTextLocalization is renamed to HolidayKey and every key is a constant on the new HolidayKeys class (h.HolidayKey == HolidayKeys.Christmas - no more magic strings); IHoliday.GetName() with no arguments is removed, use EnglishName; IHoliday gains Name and IPublicHolidays gains Culture (implement them if you implement those interfaces); GetName("en") now returns the holiday's own EnglishName, which fixes Australian/Canadian/New Zealand Boxing Day answering "St Stephen's Day"; the localization ids of Boxing Day (BoxingDay), South Africa's Day of Goodwill (DayOfGoodwillZA) and Workers' Day (WorkersDayZA) changed; removed [Obsolete] members UseCachingHolidays, Belgium.PublicHolidayNamesFrench, CanadaQuebecGovClosingDay.PublicHolidayNamesCulture. Montenegro added to PublicHolidayFactory/PublicHolidayCountryCode ("ME"). Fixes: previously dropped same-day holidays restored (Serbia Easter in Labour-Day-collision years, Norway/Finland Ascension collisions, Italy Liberation Day on Easter days); PublicHolidaysInformation returns holiday names for every calendar (previously only calendars with a custom override); PublicHolidayNames no longer throws for Brazil (Good Friday on 21 April, e.g. 2000) and Germany (Ascension on 1 May, e.g. 2008); Serbia PublicHolidays uses Orthodox Easter to match PublicHolidayNames; UK IsBankHoliday derives from the holiday list (St Andrew's Day observed in December now recognized); GetName threw on net35/net40 (the embedded resource was read as a file path); stale results when a region/state property changes after a first call. Latvia added (LatviaPublicHoliday, "LV"), with Latvian names: the three holidays Latvian law mondayises (4 May, 18 November and the Song and Dance Festival closing day) keep their date in HolidayDate and carry the following working day in ObservedDate; Christmas and New Year's Eve are not moved. Christmas Eve became a holiday in 2007, the same year the weekend-shift rule took effect.
     </PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martinjw/Holiday</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Description>Calculate national public holidays for countries including US, UK, France, Belgium, Germany, Australia, Canada and many others for any year</Description>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/martinjw/Holiday</RepositoryUrl>
-    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.3' ">1.6.0</NetStandardImplicitPackageVersion>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
@@ -88,13 +87,17 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
-    <Version>3.15.0</Version>
+    <Version>4.0.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-  <!--PropertyGroup>
-    <FrameworkPathOverride Condition="'$(TargetFramework)' == 'net35'">C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v3.5\Profile\Client</FrameworkPathOverride>
-  </PropertyGroup-->
+  <!-- Pin the C# language level for the classic-framework targets to their long-standing SDK
+       default, so an IDE "modernize" refactoring can't silently introduce newer syntax that
+       breaks net35/net40/net46 (which happened once already). -->
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net35' or '$(TargetFramework)' == 'net40' or '$(TargetFramework)' == 'net46' or '$(TargetFramework)' == 'netstandard2.0' ">
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
   <ItemGroup Condition=" '$(TargetFramework)' == 'net35' ">
     <Reference Include="System" />
   </ItemGroup>
@@ -110,12 +113,23 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Localization\LocalizationString.xml" />
 	<None Include="..\..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
+  <!-- Holiday names, one .resx per culture, embedded VERBATIM in this assembly and parsed by
+       PublicHoliday.Localization.NameResources.
+
+       Type="Non-Resx" means MSBuild copies the file in rather than compiling it to .resources.
+       Two reasons: compiling .resx for the net35 target needs ResGen.exe via the CLR2 task host,
+       which the .NET Core build of MSBuild cannot run (so `dotnet build` would fail, and CI
+       builds with the CLI); and the normal .resx route would turn each culture file into a
+       satellite assembly, loose files that single-file publishing and trimming drop, taking every
+       translation with them. WithCulture="false" likewise stops MSBuild reading the culture out
+       of the file name.
+
+       The files stay standard .resx, so resx editors and translation tools still work on them. -->
   <ItemGroup>
-    <EmbeddedResource Include="Localization\LocalizationString.xml" />
+    <EmbeddedResource Update="Localization\Names\*.resx" Type="Non-Resx" WithCulture="false" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Christmas" xml:space="preserve"><value>Božić</value></data>
+  <data name="ChristmasEve" xml:space="preserve"><value>Badnji dan</value></data>
+  <data name="DayAfterNewYear" xml:space="preserve"><value>Nova godina</value></data>
+  <data name="EasterMonday" xml:space="preserve"><value>Uskrsni ponedeljak</value></data>
+  <data name="GoodFriday" xml:space="preserve"><value>Veliki petak</value></data>
+  <data name="IndependenceDayME" xml:space="preserve"><value>Dan nezavisnosti</value></data>
+  <data name="IndependenceDaySecondME" xml:space="preserve"><value>Dan nezavisnosti</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Praznik rada</value></data>
+  <data name="LabourDaySecondME" xml:space="preserve"><value>Praznik rada</value></data>
+  <data name="NegoshevDayME" xml:space="preserve"><value>Njegosev Dan</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Nova godina</value></data>
+  <data name="StatehoodDayME" xml:space="preserve"><value>Dan državnostia</value></data>
+  <data name="StatehoodDaySecondME" xml:space="preserve"><value>Dan državnosti</value></data>
+</root>

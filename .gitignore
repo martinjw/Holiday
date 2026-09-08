@@ -218,3 +218,6 @@ nuget/NuGet.exe
 *.bat
 *.nupkg
 PublicHoliday.sln.GhostDoc.xml
+
+# Local AI-assistant guidance - kept in the working tree, not in the repo
+CLAUDE.md

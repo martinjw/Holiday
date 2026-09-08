@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AllSaints" xml:space="preserve"><value>Ognissanti</value></data>
+  <data name="Armistice" xml:space="preserve"><value>Armistizio</value></data>
+  <data name="Ascension" xml:space="preserve"><value>Ascensione</value></data>
+  <data name="Assumption" xml:space="preserve"><value>Assunzione</value></data>
+  <data name="BastilleDay" xml:space="preserve"><value>Festa nazionale francese</value></data>
+  <data name="Berchtold" xml:space="preserve"><value>San Berchtoldo</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Natale</value></data>
+  <data name="CorpusChristi" xml:space="preserve"><value>Corpus Domini</value></data>
+  <data name="EasterMonday" xml:space="preserve"><value>Lunedì dell'Angelo</value></data>
+  <data name="Epiphany" xml:space="preserve"><value>Epifania</value></data>
+  <data name="GenevaPrayDay" xml:space="preserve"><value>Digiuno ginevrino</value></data>
+  <data name="GoodFriday" xml:space="preserve"><value>Venerdì Santo</value></data>
+  <data name="ImmaculateConception" xml:space="preserve"><value>Immacolata Concezione</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Festa del lavoro</value></data>
+  <data name="NeuchatelRepublicDay" xml:space="preserve"><value>Instaurazione della Repubblica</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Capodanno</value></data>
+  <data name="PentecostMonday" xml:space="preserve"><value>Lunedì di Pentecoste</value></data>
+  <data name="SaintStephensDay" xml:space="preserve"><value>Santo Stefano</value></data>
+  <data name="StJoseph" xml:space="preserve"><value>San Giuseppe</value></data>
+  <data name="SwissAscension" xml:space="preserve"><value>Ascensione</value></data>
+  <data name="SwissNationalDay" xml:space="preserve"><value>Festa nazionale svizzera</value></data>
+  <data name="VictoryInEuropeDay" xml:space="preserve"><value>Festa della Vittoria</value></data>
+</root>

@@ -1,0 +1,866 @@
+1990|1990-01-01T00:00:00|1990-01-01T00:00:00|New Year|Nový rok|NewYear|True|
+1990|1990-04-16T00:00:00|1990-04-16T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+1990|1990-05-01T00:00:00|1990-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+1990|1990-05-09T00:00:00|1990-05-09T00:00:00|Day of Liberation of Czechoslovakia by the Soviet Army|Výročie oslobodenia Československa Sovietskou armádou|SovietLiberationDayCS|True|
+1990|1990-07-05T00:00:00|1990-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+1990|1990-10-28T00:00:00|1990-10-28T00:00:00|Day of the Establishment of the Independent Czecho-Slovak State|Deň vzniku samostatného česko-slovenského štátu|IndependentCzechoslovakStateDayCS|True|
+1990|1990-12-24T00:00:00|1990-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+1990|1990-12-25T00:00:00|1990-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+1990|1990-12-26T00:00:00|1990-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+1991|1991-01-01T00:00:00|1991-01-01T00:00:00|New Year|Nový rok|NewYear|True|
+1991|1991-04-01T00:00:00|1991-04-01T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+1991|1991-05-01T00:00:00|1991-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+1991|1991-05-09T00:00:00|1991-05-09T00:00:00|Day of Liberation of Czechoslovakia by the Soviet Army|Výročie oslobodenia Československa Sovietskou armádou|SovietLiberationDayCS|True|
+1991|1991-07-05T00:00:00|1991-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+1991|1991-10-28T00:00:00|1991-10-28T00:00:00|Day of the Establishment of the Independent Czecho-Slovak State|Deň vzniku samostatného česko-slovenského štátu|IndependentCzechoslovakStateDayCS|True|
+1991|1991-12-24T00:00:00|1991-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+1991|1991-12-25T00:00:00|1991-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+1991|1991-12-26T00:00:00|1991-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+1992|1992-01-01T00:00:00|1992-01-01T00:00:00|New Year|Nový rok|NewYear|True|
+1992|1992-04-20T00:00:00|1992-04-20T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+1992|1992-05-01T00:00:00|1992-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+1992|1992-05-08T00:00:00|1992-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+1992|1992-07-05T00:00:00|1992-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+1992|1992-10-28T00:00:00|1992-10-28T00:00:00|Day of the Establishment of the Independent Czecho-Slovak State|Deň vzniku samostatného česko-slovenského štátu|IndependentCzechoslovakStateDayCS|True|
+1992|1992-12-24T00:00:00|1992-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+1992|1992-12-25T00:00:00|1992-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+1992|1992-12-26T00:00:00|1992-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+1993|1993-01-01T00:00:00|1993-01-01T00:00:00|New Year|Nový rok|NewYear|True|
+1993|1993-04-12T00:00:00|1993-04-12T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+1993|1993-05-01T00:00:00|1993-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+1993|1993-05-08T00:00:00|1993-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+1993|1993-07-05T00:00:00|1993-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+1993|1993-10-28T00:00:00|1993-10-28T00:00:00|Day of the Establishment of the Independent Czecho-Slovak State|Deň vzniku samostatného česko-slovenského štátu|IndependentCzechoslovakStateDayCS|True|
+1993|1993-12-24T00:00:00|1993-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+1993|1993-12-25T00:00:00|1993-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+1993|1993-12-26T00:00:00|1993-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+1994|1994-01-01T00:00:00|1994-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+1994|1994-01-06T00:00:00|1994-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+1994|1994-04-01T00:00:00|1994-04-01T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+1994|1994-04-04T00:00:00|1994-04-04T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+1994|1994-05-01T00:00:00|1994-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+1994|1994-07-05T00:00:00|1994-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+1994|1994-08-29T00:00:00|1994-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+1994|1994-09-01T00:00:00|1994-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+1994|1994-09-15T00:00:00|1994-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+1994|1994-11-01T00:00:00|1994-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+1994|1994-12-24T00:00:00|1994-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+1994|1994-12-25T00:00:00|1994-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+1994|1994-12-26T00:00:00|1994-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+1995|1995-01-01T00:00:00|1995-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+1995|1995-01-06T00:00:00|1995-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+1995|1995-04-14T00:00:00|1995-04-14T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+1995|1995-04-17T00:00:00|1995-04-17T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+1995|1995-05-01T00:00:00|1995-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+1995|1995-07-05T00:00:00|1995-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+1995|1995-08-29T00:00:00|1995-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+1995|1995-09-01T00:00:00|1995-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+1995|1995-09-15T00:00:00|1995-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+1995|1995-11-01T00:00:00|1995-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+1995|1995-12-24T00:00:00|1995-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+1995|1995-12-25T00:00:00|1995-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+1995|1995-12-26T00:00:00|1995-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+1996|1996-01-01T00:00:00|1996-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+1996|1996-01-06T00:00:00|1996-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+1996|1996-04-05T00:00:00|1996-04-05T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+1996|1996-04-08T00:00:00|1996-04-08T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+1996|1996-05-01T00:00:00|1996-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+1996|1996-07-05T00:00:00|1996-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+1996|1996-08-29T00:00:00|1996-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+1996|1996-09-01T00:00:00|1996-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+1996|1996-09-15T00:00:00|1996-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+1996|1996-11-01T00:00:00|1996-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+1996|1996-12-24T00:00:00|1996-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+1996|1996-12-25T00:00:00|1996-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+1996|1996-12-26T00:00:00|1996-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+1997|1997-01-01T00:00:00|1997-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+1997|1997-01-06T00:00:00|1997-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+1997|1997-03-28T00:00:00|1997-03-28T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+1997|1997-03-31T00:00:00|1997-03-31T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+1997|1997-05-01T00:00:00|1997-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+1997|1997-05-08T00:00:00|1997-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+1997|1997-07-05T00:00:00|1997-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+1997|1997-08-29T00:00:00|1997-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+1997|1997-09-01T00:00:00|1997-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+1997|1997-09-15T00:00:00|1997-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+1997|1997-11-01T00:00:00|1997-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+1997|1997-12-24T00:00:00|1997-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+1997|1997-12-25T00:00:00|1997-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+1997|1997-12-26T00:00:00|1997-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+1998|1998-01-01T00:00:00|1998-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+1998|1998-01-06T00:00:00|1998-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+1998|1998-04-10T00:00:00|1998-04-10T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+1998|1998-04-13T00:00:00|1998-04-13T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+1998|1998-05-01T00:00:00|1998-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+1998|1998-05-08T00:00:00|1998-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+1998|1998-07-05T00:00:00|1998-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+1998|1998-08-29T00:00:00|1998-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+1998|1998-09-01T00:00:00|1998-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+1998|1998-09-15T00:00:00|1998-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+1998|1998-11-01T00:00:00|1998-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+1998|1998-12-24T00:00:00|1998-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+1998|1998-12-25T00:00:00|1998-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+1998|1998-12-26T00:00:00|1998-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+1999|1999-01-01T00:00:00|1999-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+1999|1999-01-06T00:00:00|1999-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+1999|1999-04-02T00:00:00|1999-04-02T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+1999|1999-04-05T00:00:00|1999-04-05T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+1999|1999-05-01T00:00:00|1999-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+1999|1999-05-08T00:00:00|1999-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+1999|1999-07-05T00:00:00|1999-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+1999|1999-08-29T00:00:00|1999-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+1999|1999-09-01T00:00:00|1999-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+1999|1999-09-15T00:00:00|1999-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+1999|1999-11-01T00:00:00|1999-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+1999|1999-12-24T00:00:00|1999-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+1999|1999-12-25T00:00:00|1999-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+1999|1999-12-26T00:00:00|1999-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2000|2000-01-01T00:00:00|2000-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2000|2000-01-06T00:00:00|2000-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2000|2000-04-21T00:00:00|2000-04-21T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2000|2000-04-24T00:00:00|2000-04-24T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2000|2000-05-08T00:00:00|2000-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2000|2000-07-05T00:00:00|2000-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2000|2000-08-29T00:00:00|2000-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2000|2000-09-01T00:00:00|2000-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2000|2000-09-15T00:00:00|2000-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2000|2000-11-01T00:00:00|2000-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2000|2000-12-24T00:00:00|2000-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2000|2000-12-25T00:00:00|2000-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2000|2000-12-26T00:00:00|2000-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2001|2001-01-01T00:00:00|2001-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2001|2001-01-06T00:00:00|2001-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2001|2001-04-13T00:00:00|2001-04-13T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2001|2001-04-16T00:00:00|2001-04-16T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2001|2001-05-01T00:00:00|2001-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2001|2001-05-08T00:00:00|2001-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2001|2001-07-05T00:00:00|2001-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2001|2001-08-29T00:00:00|2001-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2001|2001-09-01T00:00:00|2001-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2001|2001-09-15T00:00:00|2001-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2001|2001-11-01T00:00:00|2001-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2001|2001-11-17T00:00:00|2001-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2001|2001-12-24T00:00:00|2001-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2001|2001-12-25T00:00:00|2001-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2001|2001-12-26T00:00:00|2001-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2002|2002-01-01T00:00:00|2002-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2002|2002-01-06T00:00:00|2002-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2002|2002-03-29T00:00:00|2002-03-29T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2002|2002-04-01T00:00:00|2002-04-01T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2002|2002-05-01T00:00:00|2002-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2002|2002-05-08T00:00:00|2002-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2002|2002-07-05T00:00:00|2002-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2002|2002-08-29T00:00:00|2002-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2002|2002-09-01T00:00:00|2002-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2002|2002-09-15T00:00:00|2002-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2002|2002-11-01T00:00:00|2002-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2002|2002-11-17T00:00:00|2002-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2002|2002-12-24T00:00:00|2002-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2002|2002-12-25T00:00:00|2002-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2002|2002-12-26T00:00:00|2002-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2003|2003-01-01T00:00:00|2003-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2003|2003-01-06T00:00:00|2003-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2003|2003-04-18T00:00:00|2003-04-18T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2003|2003-04-21T00:00:00|2003-04-21T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2003|2003-05-01T00:00:00|2003-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2003|2003-05-08T00:00:00|2003-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2003|2003-07-05T00:00:00|2003-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2003|2003-08-29T00:00:00|2003-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2003|2003-09-01T00:00:00|2003-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2003|2003-09-15T00:00:00|2003-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2003|2003-11-01T00:00:00|2003-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2003|2003-11-17T00:00:00|2003-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2003|2003-12-24T00:00:00|2003-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2003|2003-12-25T00:00:00|2003-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2003|2003-12-26T00:00:00|2003-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2004|2004-01-01T00:00:00|2004-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2004|2004-01-06T00:00:00|2004-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2004|2004-04-09T00:00:00|2004-04-09T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2004|2004-04-12T00:00:00|2004-04-12T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2004|2004-05-01T00:00:00|2004-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2004|2004-05-08T00:00:00|2004-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2004|2004-07-05T00:00:00|2004-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2004|2004-08-29T00:00:00|2004-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2004|2004-09-01T00:00:00|2004-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2004|2004-09-15T00:00:00|2004-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2004|2004-11-01T00:00:00|2004-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2004|2004-11-17T00:00:00|2004-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2004|2004-12-24T00:00:00|2004-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2004|2004-12-25T00:00:00|2004-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2004|2004-12-26T00:00:00|2004-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2005|2005-01-01T00:00:00|2005-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2005|2005-01-06T00:00:00|2005-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2005|2005-03-25T00:00:00|2005-03-25T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2005|2005-03-28T00:00:00|2005-03-28T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2005|2005-05-01T00:00:00|2005-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2005|2005-05-08T00:00:00|2005-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2005|2005-07-05T00:00:00|2005-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2005|2005-08-29T00:00:00|2005-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2005|2005-09-01T00:00:00|2005-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2005|2005-09-15T00:00:00|2005-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2005|2005-11-01T00:00:00|2005-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2005|2005-11-17T00:00:00|2005-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2005|2005-12-24T00:00:00|2005-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2005|2005-12-25T00:00:00|2005-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2005|2005-12-26T00:00:00|2005-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2006|2006-01-01T00:00:00|2006-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2006|2006-01-06T00:00:00|2006-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2006|2006-04-14T00:00:00|2006-04-14T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2006|2006-04-17T00:00:00|2006-04-17T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2006|2006-05-01T00:00:00|2006-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2006|2006-05-08T00:00:00|2006-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2006|2006-07-05T00:00:00|2006-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2006|2006-08-29T00:00:00|2006-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2006|2006-09-01T00:00:00|2006-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2006|2006-09-15T00:00:00|2006-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2006|2006-11-01T00:00:00|2006-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2006|2006-11-17T00:00:00|2006-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2006|2006-12-24T00:00:00|2006-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2006|2006-12-25T00:00:00|2006-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2006|2006-12-26T00:00:00|2006-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2007|2007-01-01T00:00:00|2007-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2007|2007-01-06T00:00:00|2007-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2007|2007-04-06T00:00:00|2007-04-06T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2007|2007-04-09T00:00:00|2007-04-09T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2007|2007-05-01T00:00:00|2007-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2007|2007-05-08T00:00:00|2007-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2007|2007-07-05T00:00:00|2007-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2007|2007-08-29T00:00:00|2007-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2007|2007-09-01T00:00:00|2007-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2007|2007-09-15T00:00:00|2007-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2007|2007-11-01T00:00:00|2007-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2007|2007-11-17T00:00:00|2007-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2007|2007-12-24T00:00:00|2007-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2007|2007-12-25T00:00:00|2007-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2007|2007-12-26T00:00:00|2007-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2008|2008-01-01T00:00:00|2008-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2008|2008-01-06T00:00:00|2008-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2008|2008-03-21T00:00:00|2008-03-21T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2008|2008-03-24T00:00:00|2008-03-24T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2008|2008-05-01T00:00:00|2008-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2008|2008-05-08T00:00:00|2008-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2008|2008-07-05T00:00:00|2008-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2008|2008-08-29T00:00:00|2008-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2008|2008-09-01T00:00:00|2008-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2008|2008-09-15T00:00:00|2008-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2008|2008-11-01T00:00:00|2008-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2008|2008-11-17T00:00:00|2008-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2008|2008-12-24T00:00:00|2008-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2008|2008-12-25T00:00:00|2008-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2008|2008-12-26T00:00:00|2008-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2009|2009-01-01T00:00:00|2009-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2009|2009-01-06T00:00:00|2009-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2009|2009-04-10T00:00:00|2009-04-10T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2009|2009-04-13T00:00:00|2009-04-13T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2009|2009-05-01T00:00:00|2009-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2009|2009-05-08T00:00:00|2009-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2009|2009-07-05T00:00:00|2009-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2009|2009-08-29T00:00:00|2009-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2009|2009-09-01T00:00:00|2009-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2009|2009-09-15T00:00:00|2009-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2009|2009-11-01T00:00:00|2009-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2009|2009-11-17T00:00:00|2009-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2009|2009-12-24T00:00:00|2009-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2009|2009-12-25T00:00:00|2009-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2009|2009-12-26T00:00:00|2009-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2010|2010-01-01T00:00:00|2010-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2010|2010-01-06T00:00:00|2010-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2010|2010-04-02T00:00:00|2010-04-02T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2010|2010-04-05T00:00:00|2010-04-05T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2010|2010-05-01T00:00:00|2010-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2010|2010-05-08T00:00:00|2010-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2010|2010-07-05T00:00:00|2010-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2010|2010-08-29T00:00:00|2010-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2010|2010-09-01T00:00:00|2010-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2010|2010-09-15T00:00:00|2010-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2010|2010-11-01T00:00:00|2010-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2010|2010-11-17T00:00:00|2010-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2010|2010-12-24T00:00:00|2010-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2010|2010-12-25T00:00:00|2010-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2010|2010-12-26T00:00:00|2010-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2011|2011-01-01T00:00:00|2011-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2011|2011-01-06T00:00:00|2011-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2011|2011-04-22T00:00:00|2011-04-22T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2011|2011-04-25T00:00:00|2011-04-25T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2011|2011-05-01T00:00:00|2011-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2011|2011-05-08T00:00:00|2011-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2011|2011-07-05T00:00:00|2011-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2011|2011-08-29T00:00:00|2011-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2011|2011-09-01T00:00:00|2011-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2011|2011-09-15T00:00:00|2011-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2011|2011-11-01T00:00:00|2011-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2011|2011-11-17T00:00:00|2011-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2011|2011-12-24T00:00:00|2011-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2011|2011-12-25T00:00:00|2011-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2011|2011-12-26T00:00:00|2011-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2012|2012-01-01T00:00:00|2012-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2012|2012-01-06T00:00:00|2012-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2012|2012-04-06T00:00:00|2012-04-06T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2012|2012-04-09T00:00:00|2012-04-09T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2012|2012-05-01T00:00:00|2012-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2012|2012-05-08T00:00:00|2012-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2012|2012-07-05T00:00:00|2012-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2012|2012-08-29T00:00:00|2012-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2012|2012-09-01T00:00:00|2012-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2012|2012-09-15T00:00:00|2012-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2012|2012-11-01T00:00:00|2012-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2012|2012-11-17T00:00:00|2012-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2012|2012-12-24T00:00:00|2012-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2012|2012-12-25T00:00:00|2012-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2012|2012-12-26T00:00:00|2012-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2013|2013-01-01T00:00:00|2013-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2013|2013-01-06T00:00:00|2013-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2013|2013-03-29T00:00:00|2013-03-29T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2013|2013-04-01T00:00:00|2013-04-01T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2013|2013-05-01T00:00:00|2013-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2013|2013-05-08T00:00:00|2013-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2013|2013-07-05T00:00:00|2013-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2013|2013-08-29T00:00:00|2013-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2013|2013-09-01T00:00:00|2013-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2013|2013-09-15T00:00:00|2013-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2013|2013-11-01T00:00:00|2013-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2013|2013-11-17T00:00:00|2013-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2013|2013-12-24T00:00:00|2013-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2013|2013-12-25T00:00:00|2013-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2013|2013-12-26T00:00:00|2013-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2014|2014-01-01T00:00:00|2014-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2014|2014-01-06T00:00:00|2014-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2014|2014-04-18T00:00:00|2014-04-18T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2014|2014-04-21T00:00:00|2014-04-21T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2014|2014-05-01T00:00:00|2014-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2014|2014-05-08T00:00:00|2014-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2014|2014-07-05T00:00:00|2014-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2014|2014-08-29T00:00:00|2014-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2014|2014-09-01T00:00:00|2014-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2014|2014-09-15T00:00:00|2014-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2014|2014-11-01T00:00:00|2014-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2014|2014-11-17T00:00:00|2014-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2014|2014-12-24T00:00:00|2014-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2014|2014-12-25T00:00:00|2014-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2014|2014-12-26T00:00:00|2014-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2015|2015-01-01T00:00:00|2015-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2015|2015-01-06T00:00:00|2015-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2015|2015-04-03T00:00:00|2015-04-03T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2015|2015-04-06T00:00:00|2015-04-06T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2015|2015-05-01T00:00:00|2015-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2015|2015-05-08T00:00:00|2015-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2015|2015-07-05T00:00:00|2015-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2015|2015-08-29T00:00:00|2015-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2015|2015-09-01T00:00:00|2015-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2015|2015-09-15T00:00:00|2015-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2015|2015-11-01T00:00:00|2015-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2015|2015-11-17T00:00:00|2015-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2015|2015-12-24T00:00:00|2015-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2015|2015-12-25T00:00:00|2015-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2015|2015-12-26T00:00:00|2015-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2016|2016-01-01T00:00:00|2016-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2016|2016-01-06T00:00:00|2016-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2016|2016-03-25T00:00:00|2016-03-25T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2016|2016-03-28T00:00:00|2016-03-28T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2016|2016-05-01T00:00:00|2016-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2016|2016-05-08T00:00:00|2016-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2016|2016-07-05T00:00:00|2016-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2016|2016-08-29T00:00:00|2016-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2016|2016-09-01T00:00:00|2016-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2016|2016-09-15T00:00:00|2016-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2016|2016-11-01T00:00:00|2016-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2016|2016-11-17T00:00:00|2016-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2016|2016-12-24T00:00:00|2016-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2016|2016-12-25T00:00:00|2016-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2016|2016-12-26T00:00:00|2016-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2017|2017-01-01T00:00:00|2017-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2017|2017-01-06T00:00:00|2017-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2017|2017-04-14T00:00:00|2017-04-14T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2017|2017-04-17T00:00:00|2017-04-17T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2017|2017-05-01T00:00:00|2017-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2017|2017-05-08T00:00:00|2017-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2017|2017-07-05T00:00:00|2017-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2017|2017-08-29T00:00:00|2017-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2017|2017-09-01T00:00:00|2017-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2017|2017-09-15T00:00:00|2017-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2017|2017-11-01T00:00:00|2017-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2017|2017-11-17T00:00:00|2017-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2017|2017-12-24T00:00:00|2017-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2017|2017-12-25T00:00:00|2017-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2017|2017-12-26T00:00:00|2017-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2018|2018-01-01T00:00:00|2018-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2018|2018-01-06T00:00:00|2018-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2018|2018-03-30T00:00:00|2018-03-30T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2018|2018-04-02T00:00:00|2018-04-02T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2018|2018-05-01T00:00:00|2018-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2018|2018-05-08T00:00:00|2018-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2018|2018-07-05T00:00:00|2018-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2018|2018-08-29T00:00:00|2018-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2018|2018-09-01T00:00:00|2018-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2018|2018-09-15T00:00:00|2018-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2018|2018-11-01T00:00:00|2018-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2018|2018-11-17T00:00:00|2018-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2018|2018-12-24T00:00:00|2018-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2018|2018-12-25T00:00:00|2018-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2018|2018-12-26T00:00:00|2018-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2019|2019-01-01T00:00:00|2019-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2019|2019-01-06T00:00:00|2019-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2019|2019-04-19T00:00:00|2019-04-19T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2019|2019-04-22T00:00:00|2019-04-22T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2019|2019-05-01T00:00:00|2019-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2019|2019-05-08T00:00:00|2019-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2019|2019-07-05T00:00:00|2019-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2019|2019-08-29T00:00:00|2019-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2019|2019-09-01T00:00:00|2019-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2019|2019-09-15T00:00:00|2019-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2019|2019-11-01T00:00:00|2019-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2019|2019-11-17T00:00:00|2019-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2019|2019-12-24T00:00:00|2019-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2019|2019-12-25T00:00:00|2019-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2019|2019-12-26T00:00:00|2019-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2020|2020-01-01T00:00:00|2020-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2020|2020-01-06T00:00:00|2020-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2020|2020-04-10T00:00:00|2020-04-10T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2020|2020-04-13T00:00:00|2020-04-13T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2020|2020-05-01T00:00:00|2020-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2020|2020-05-08T00:00:00|2020-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2020|2020-07-05T00:00:00|2020-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2020|2020-08-29T00:00:00|2020-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2020|2020-09-01T00:00:00|2020-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2020|2020-09-15T00:00:00|2020-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2020|2020-11-01T00:00:00|2020-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2020|2020-11-17T00:00:00|2020-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2020|2020-12-24T00:00:00|2020-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2020|2020-12-25T00:00:00|2020-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2020|2020-12-26T00:00:00|2020-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2021|2021-01-01T00:00:00|2021-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2021|2021-01-06T00:00:00|2021-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2021|2021-04-02T00:00:00|2021-04-02T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2021|2021-04-05T00:00:00|2021-04-05T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2021|2021-05-01T00:00:00|2021-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2021|2021-05-08T00:00:00|2021-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2021|2021-07-05T00:00:00|2021-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2021|2021-08-29T00:00:00|2021-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2021|2021-09-01T00:00:00|2021-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2021|2021-09-15T00:00:00|2021-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2021|2021-11-01T00:00:00|2021-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2021|2021-11-17T00:00:00|2021-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2021|2021-12-24T00:00:00|2021-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2021|2021-12-25T00:00:00|2021-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2021|2021-12-26T00:00:00|2021-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2022|2022-01-01T00:00:00|2022-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2022|2022-01-06T00:00:00|2022-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2022|2022-04-15T00:00:00|2022-04-15T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2022|2022-04-18T00:00:00|2022-04-18T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2022|2022-05-01T00:00:00|2022-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2022|2022-05-08T00:00:00|2022-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2022|2022-07-05T00:00:00|2022-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2022|2022-08-29T00:00:00|2022-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2022|2022-09-01T00:00:00|2022-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2022|2022-09-15T00:00:00|2022-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2022|2022-11-01T00:00:00|2022-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2022|2022-11-17T00:00:00|2022-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2022|2022-12-24T00:00:00|2022-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2022|2022-12-25T00:00:00|2022-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2022|2022-12-26T00:00:00|2022-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2023|2023-01-01T00:00:00|2023-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2023|2023-01-06T00:00:00|2023-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2023|2023-04-07T00:00:00|2023-04-07T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2023|2023-04-10T00:00:00|2023-04-10T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2023|2023-05-01T00:00:00|2023-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2023|2023-05-08T00:00:00|2023-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2023|2023-07-05T00:00:00|2023-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2023|2023-08-29T00:00:00|2023-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2023|2023-09-01T00:00:00|2023-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2023|2023-09-15T00:00:00|2023-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2023|2023-11-01T00:00:00|2023-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2023|2023-11-17T00:00:00|2023-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2023|2023-12-24T00:00:00|2023-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2023|2023-12-25T00:00:00|2023-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2023|2023-12-26T00:00:00|2023-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2024|2024-01-01T00:00:00|2024-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2024|2024-01-06T00:00:00|2024-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2024|2024-03-29T00:00:00|2024-03-29T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2024|2024-04-01T00:00:00|2024-04-01T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2024|2024-05-01T00:00:00|2024-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2024|2024-05-08T00:00:00|2024-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2024|2024-07-05T00:00:00|2024-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2024|2024-08-29T00:00:00|2024-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2024|2024-09-01T00:00:00|2024-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2024|2024-09-15T00:00:00|2024-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2024|2024-11-01T00:00:00|2024-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2024|2024-11-17T00:00:00|2024-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2024|2024-12-24T00:00:00|2024-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2024|2024-12-25T00:00:00|2024-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2024|2024-12-26T00:00:00|2024-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2025|2025-01-01T00:00:00|2025-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2025|2025-01-06T00:00:00|2025-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2025|2025-04-18T00:00:00|2025-04-18T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2025|2025-04-21T00:00:00|2025-04-21T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2025|2025-05-01T00:00:00|2025-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2025|2025-05-08T00:00:00|2025-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2025|2025-07-05T00:00:00|2025-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2025|2025-08-29T00:00:00|2025-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2025|2025-09-01T00:00:00|2025-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2025|2025-09-15T00:00:00|2025-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2025|2025-11-01T00:00:00|2025-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2025|2025-11-17T00:00:00|2025-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2025|2025-12-24T00:00:00|2025-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2025|2025-12-25T00:00:00|2025-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2025|2025-12-26T00:00:00|2025-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2026|2026-01-01T00:00:00|2026-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2026|2026-01-06T00:00:00|2026-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2026|2026-04-03T00:00:00|2026-04-03T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2026|2026-04-06T00:00:00|2026-04-06T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2026|2026-05-01T00:00:00|2026-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2026|2026-05-08T00:00:00|2026-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2026|2026-07-05T00:00:00|2026-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2026|2026-08-29T00:00:00|2026-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2026|2026-09-01T00:00:00|2026-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2026|2026-09-15T00:00:00|2026-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2026|2026-11-01T00:00:00|2026-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2026|2026-11-17T00:00:00|2026-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2026|2026-12-24T00:00:00|2026-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2026|2026-12-25T00:00:00|2026-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2026|2026-12-26T00:00:00|2026-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2027|2027-01-01T00:00:00|2027-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2027|2027-01-06T00:00:00|2027-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2027|2027-03-26T00:00:00|2027-03-26T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2027|2027-03-29T00:00:00|2027-03-29T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2027|2027-05-01T00:00:00|2027-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2027|2027-05-08T00:00:00|2027-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2027|2027-07-05T00:00:00|2027-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2027|2027-08-29T00:00:00|2027-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2027|2027-09-01T00:00:00|2027-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2027|2027-09-15T00:00:00|2027-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2027|2027-11-01T00:00:00|2027-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2027|2027-11-17T00:00:00|2027-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2027|2027-12-24T00:00:00|2027-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2027|2027-12-25T00:00:00|2027-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2027|2027-12-26T00:00:00|2027-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2028|2028-01-01T00:00:00|2028-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2028|2028-01-06T00:00:00|2028-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2028|2028-04-14T00:00:00|2028-04-14T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2028|2028-04-17T00:00:00|2028-04-17T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2028|2028-05-01T00:00:00|2028-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2028|2028-05-08T00:00:00|2028-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2028|2028-07-05T00:00:00|2028-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2028|2028-08-29T00:00:00|2028-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2028|2028-09-01T00:00:00|2028-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2028|2028-09-15T00:00:00|2028-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2028|2028-11-01T00:00:00|2028-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2028|2028-11-17T00:00:00|2028-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2028|2028-12-24T00:00:00|2028-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2028|2028-12-25T00:00:00|2028-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2028|2028-12-26T00:00:00|2028-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2029|2029-01-01T00:00:00|2029-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2029|2029-01-06T00:00:00|2029-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2029|2029-03-30T00:00:00|2029-03-30T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2029|2029-04-02T00:00:00|2029-04-02T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2029|2029-05-01T00:00:00|2029-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2029|2029-05-08T00:00:00|2029-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2029|2029-07-05T00:00:00|2029-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2029|2029-08-29T00:00:00|2029-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2029|2029-09-01T00:00:00|2029-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2029|2029-09-15T00:00:00|2029-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2029|2029-11-01T00:00:00|2029-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2029|2029-11-17T00:00:00|2029-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2029|2029-12-24T00:00:00|2029-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2029|2029-12-25T00:00:00|2029-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2029|2029-12-26T00:00:00|2029-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2030|2030-01-01T00:00:00|2030-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2030|2030-01-06T00:00:00|2030-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2030|2030-04-19T00:00:00|2030-04-19T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2030|2030-04-22T00:00:00|2030-04-22T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2030|2030-05-01T00:00:00|2030-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2030|2030-05-08T00:00:00|2030-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2030|2030-07-05T00:00:00|2030-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2030|2030-08-29T00:00:00|2030-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2030|2030-09-01T00:00:00|2030-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2030|2030-09-15T00:00:00|2030-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2030|2030-11-01T00:00:00|2030-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2030|2030-11-17T00:00:00|2030-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2030|2030-12-24T00:00:00|2030-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2030|2030-12-25T00:00:00|2030-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2030|2030-12-26T00:00:00|2030-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2031|2031-01-01T00:00:00|2031-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2031|2031-01-06T00:00:00|2031-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2031|2031-04-11T00:00:00|2031-04-11T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2031|2031-04-14T00:00:00|2031-04-14T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2031|2031-05-01T00:00:00|2031-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2031|2031-05-08T00:00:00|2031-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2031|2031-07-05T00:00:00|2031-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2031|2031-08-29T00:00:00|2031-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2031|2031-09-01T00:00:00|2031-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2031|2031-09-15T00:00:00|2031-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2031|2031-11-01T00:00:00|2031-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2031|2031-11-17T00:00:00|2031-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2031|2031-12-24T00:00:00|2031-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2031|2031-12-25T00:00:00|2031-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2031|2031-12-26T00:00:00|2031-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2032|2032-01-01T00:00:00|2032-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2032|2032-01-06T00:00:00|2032-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2032|2032-03-26T00:00:00|2032-03-26T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2032|2032-03-29T00:00:00|2032-03-29T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2032|2032-05-01T00:00:00|2032-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2032|2032-05-08T00:00:00|2032-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2032|2032-07-05T00:00:00|2032-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2032|2032-08-29T00:00:00|2032-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2032|2032-09-01T00:00:00|2032-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2032|2032-09-15T00:00:00|2032-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2032|2032-11-01T00:00:00|2032-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2032|2032-11-17T00:00:00|2032-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2032|2032-12-24T00:00:00|2032-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2032|2032-12-25T00:00:00|2032-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2032|2032-12-26T00:00:00|2032-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2033|2033-01-01T00:00:00|2033-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2033|2033-01-06T00:00:00|2033-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2033|2033-04-15T00:00:00|2033-04-15T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2033|2033-04-18T00:00:00|2033-04-18T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2033|2033-05-01T00:00:00|2033-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2033|2033-05-08T00:00:00|2033-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2033|2033-07-05T00:00:00|2033-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2033|2033-08-29T00:00:00|2033-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2033|2033-09-01T00:00:00|2033-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2033|2033-09-15T00:00:00|2033-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2033|2033-11-01T00:00:00|2033-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2033|2033-11-17T00:00:00|2033-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2033|2033-12-24T00:00:00|2033-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2033|2033-12-25T00:00:00|2033-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2033|2033-12-26T00:00:00|2033-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2034|2034-01-01T00:00:00|2034-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2034|2034-01-06T00:00:00|2034-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2034|2034-04-07T00:00:00|2034-04-07T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2034|2034-04-10T00:00:00|2034-04-10T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2034|2034-05-01T00:00:00|2034-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2034|2034-05-08T00:00:00|2034-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2034|2034-07-05T00:00:00|2034-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2034|2034-08-29T00:00:00|2034-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2034|2034-09-01T00:00:00|2034-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2034|2034-09-15T00:00:00|2034-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2034|2034-11-01T00:00:00|2034-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2034|2034-11-17T00:00:00|2034-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2034|2034-12-24T00:00:00|2034-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2034|2034-12-25T00:00:00|2034-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2034|2034-12-26T00:00:00|2034-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2035|2035-01-01T00:00:00|2035-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2035|2035-01-06T00:00:00|2035-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2035|2035-03-23T00:00:00|2035-03-23T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2035|2035-03-26T00:00:00|2035-03-26T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2035|2035-05-01T00:00:00|2035-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2035|2035-05-08T00:00:00|2035-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2035|2035-07-05T00:00:00|2035-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2035|2035-08-29T00:00:00|2035-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2035|2035-09-01T00:00:00|2035-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2035|2035-09-15T00:00:00|2035-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2035|2035-11-01T00:00:00|2035-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2035|2035-11-17T00:00:00|2035-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2035|2035-12-24T00:00:00|2035-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2035|2035-12-25T00:00:00|2035-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2035|2035-12-26T00:00:00|2035-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2036|2036-01-01T00:00:00|2036-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2036|2036-01-06T00:00:00|2036-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2036|2036-04-11T00:00:00|2036-04-11T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2036|2036-04-14T00:00:00|2036-04-14T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2036|2036-05-01T00:00:00|2036-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2036|2036-05-08T00:00:00|2036-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2036|2036-07-05T00:00:00|2036-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2036|2036-08-29T00:00:00|2036-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2036|2036-09-01T00:00:00|2036-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2036|2036-09-15T00:00:00|2036-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2036|2036-11-01T00:00:00|2036-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2036|2036-11-17T00:00:00|2036-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2036|2036-12-24T00:00:00|2036-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2036|2036-12-25T00:00:00|2036-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2036|2036-12-26T00:00:00|2036-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2037|2037-01-01T00:00:00|2037-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2037|2037-01-06T00:00:00|2037-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2037|2037-04-03T00:00:00|2037-04-03T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2037|2037-04-06T00:00:00|2037-04-06T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2037|2037-05-01T00:00:00|2037-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2037|2037-05-08T00:00:00|2037-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2037|2037-07-05T00:00:00|2037-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2037|2037-08-29T00:00:00|2037-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2037|2037-09-01T00:00:00|2037-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2037|2037-09-15T00:00:00|2037-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2037|2037-11-01T00:00:00|2037-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2037|2037-11-17T00:00:00|2037-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2037|2037-12-24T00:00:00|2037-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2037|2037-12-25T00:00:00|2037-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2037|2037-12-26T00:00:00|2037-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2038|2038-01-01T00:00:00|2038-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2038|2038-01-06T00:00:00|2038-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2038|2038-04-23T00:00:00|2038-04-23T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2038|2038-04-26T00:00:00|2038-04-26T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2038|2038-05-01T00:00:00|2038-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2038|2038-05-08T00:00:00|2038-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2038|2038-07-05T00:00:00|2038-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2038|2038-08-29T00:00:00|2038-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2038|2038-09-01T00:00:00|2038-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2038|2038-09-15T00:00:00|2038-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2038|2038-11-01T00:00:00|2038-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2038|2038-11-17T00:00:00|2038-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2038|2038-12-24T00:00:00|2038-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2038|2038-12-25T00:00:00|2038-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2038|2038-12-26T00:00:00|2038-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2039|2039-01-01T00:00:00|2039-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2039|2039-01-06T00:00:00|2039-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2039|2039-04-08T00:00:00|2039-04-08T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2039|2039-04-11T00:00:00|2039-04-11T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2039|2039-05-01T00:00:00|2039-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2039|2039-05-08T00:00:00|2039-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2039|2039-07-05T00:00:00|2039-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2039|2039-08-29T00:00:00|2039-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2039|2039-09-01T00:00:00|2039-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2039|2039-09-15T00:00:00|2039-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2039|2039-11-01T00:00:00|2039-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2039|2039-11-17T00:00:00|2039-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2039|2039-12-24T00:00:00|2039-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2039|2039-12-25T00:00:00|2039-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2039|2039-12-26T00:00:00|2039-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2040|2040-01-01T00:00:00|2040-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2040|2040-01-06T00:00:00|2040-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2040|2040-03-30T00:00:00|2040-03-30T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2040|2040-04-02T00:00:00|2040-04-02T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2040|2040-05-01T00:00:00|2040-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2040|2040-05-08T00:00:00|2040-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2040|2040-07-05T00:00:00|2040-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2040|2040-08-29T00:00:00|2040-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2040|2040-09-01T00:00:00|2040-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2040|2040-09-15T00:00:00|2040-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2040|2040-11-01T00:00:00|2040-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2040|2040-11-17T00:00:00|2040-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2040|2040-12-24T00:00:00|2040-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2040|2040-12-25T00:00:00|2040-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2040|2040-12-26T00:00:00|2040-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2041|2041-01-01T00:00:00|2041-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2041|2041-01-06T00:00:00|2041-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2041|2041-04-19T00:00:00|2041-04-19T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2041|2041-04-22T00:00:00|2041-04-22T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2041|2041-05-01T00:00:00|2041-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2041|2041-05-08T00:00:00|2041-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2041|2041-07-05T00:00:00|2041-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2041|2041-08-29T00:00:00|2041-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2041|2041-09-01T00:00:00|2041-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2041|2041-09-15T00:00:00|2041-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2041|2041-11-01T00:00:00|2041-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2041|2041-11-17T00:00:00|2041-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2041|2041-12-24T00:00:00|2041-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2041|2041-12-25T00:00:00|2041-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2041|2041-12-26T00:00:00|2041-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2042|2042-01-01T00:00:00|2042-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2042|2042-01-06T00:00:00|2042-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2042|2042-04-04T00:00:00|2042-04-04T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2042|2042-04-07T00:00:00|2042-04-07T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2042|2042-05-01T00:00:00|2042-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2042|2042-05-08T00:00:00|2042-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2042|2042-07-05T00:00:00|2042-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2042|2042-08-29T00:00:00|2042-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2042|2042-09-01T00:00:00|2042-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2042|2042-09-15T00:00:00|2042-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2042|2042-11-01T00:00:00|2042-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2042|2042-11-17T00:00:00|2042-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2042|2042-12-24T00:00:00|2042-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2042|2042-12-25T00:00:00|2042-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2042|2042-12-26T00:00:00|2042-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2043|2043-01-01T00:00:00|2043-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2043|2043-01-06T00:00:00|2043-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2043|2043-03-27T00:00:00|2043-03-27T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2043|2043-03-30T00:00:00|2043-03-30T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2043|2043-05-08T00:00:00|2043-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2043|2043-07-05T00:00:00|2043-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2043|2043-08-29T00:00:00|2043-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2043|2043-09-01T00:00:00|2043-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2043|2043-09-15T00:00:00|2043-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2043|2043-11-01T00:00:00|2043-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2043|2043-11-17T00:00:00|2043-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2043|2043-12-24T00:00:00|2043-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2043|2043-12-25T00:00:00|2043-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2043|2043-12-26T00:00:00|2043-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2044|2044-01-01T00:00:00|2044-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2044|2044-01-06T00:00:00|2044-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2044|2044-04-15T00:00:00|2044-04-15T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2044|2044-04-18T00:00:00|2044-04-18T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2044|2044-05-01T00:00:00|2044-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2044|2044-05-08T00:00:00|2044-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2044|2044-07-05T00:00:00|2044-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2044|2044-08-29T00:00:00|2044-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2044|2044-09-01T00:00:00|2044-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2044|2044-09-15T00:00:00|2044-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2044|2044-11-01T00:00:00|2044-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2044|2044-11-17T00:00:00|2044-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2044|2044-12-24T00:00:00|2044-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2044|2044-12-25T00:00:00|2044-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2044|2044-12-26T00:00:00|2044-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2045|2045-01-01T00:00:00|2045-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2045|2045-01-06T00:00:00|2045-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2045|2045-04-07T00:00:00|2045-04-07T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2045|2045-04-10T00:00:00|2045-04-10T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2045|2045-05-01T00:00:00|2045-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2045|2045-05-08T00:00:00|2045-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2045|2045-07-05T00:00:00|2045-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2045|2045-08-29T00:00:00|2045-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2045|2045-09-01T00:00:00|2045-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2045|2045-09-15T00:00:00|2045-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2045|2045-11-01T00:00:00|2045-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2045|2045-11-17T00:00:00|2045-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2045|2045-12-24T00:00:00|2045-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2045|2045-12-25T00:00:00|2045-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2045|2045-12-26T00:00:00|2045-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2046|2046-01-01T00:00:00|2046-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2046|2046-01-06T00:00:00|2046-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2046|2046-03-23T00:00:00|2046-03-23T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2046|2046-03-26T00:00:00|2046-03-26T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2046|2046-05-01T00:00:00|2046-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2046|2046-05-08T00:00:00|2046-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2046|2046-07-05T00:00:00|2046-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2046|2046-08-29T00:00:00|2046-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2046|2046-09-01T00:00:00|2046-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2046|2046-09-15T00:00:00|2046-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2046|2046-11-01T00:00:00|2046-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2046|2046-11-17T00:00:00|2046-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2046|2046-12-24T00:00:00|2046-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2046|2046-12-25T00:00:00|2046-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2046|2046-12-26T00:00:00|2046-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2047|2047-01-01T00:00:00|2047-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2047|2047-01-06T00:00:00|2047-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2047|2047-04-12T00:00:00|2047-04-12T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2047|2047-04-15T00:00:00|2047-04-15T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2047|2047-05-01T00:00:00|2047-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2047|2047-05-08T00:00:00|2047-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2047|2047-07-05T00:00:00|2047-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2047|2047-08-29T00:00:00|2047-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2047|2047-09-01T00:00:00|2047-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2047|2047-09-15T00:00:00|2047-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2047|2047-11-01T00:00:00|2047-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2047|2047-11-17T00:00:00|2047-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2047|2047-12-24T00:00:00|2047-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2047|2047-12-25T00:00:00|2047-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2047|2047-12-26T00:00:00|2047-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2048|2048-01-01T00:00:00|2048-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2048|2048-01-06T00:00:00|2048-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2048|2048-04-03T00:00:00|2048-04-03T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2048|2048-04-06T00:00:00|2048-04-06T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2048|2048-05-01T00:00:00|2048-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2048|2048-05-08T00:00:00|2048-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2048|2048-07-05T00:00:00|2048-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2048|2048-08-29T00:00:00|2048-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2048|2048-09-01T00:00:00|2048-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2048|2048-09-15T00:00:00|2048-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2048|2048-11-01T00:00:00|2048-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2048|2048-11-17T00:00:00|2048-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2048|2048-12-24T00:00:00|2048-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2048|2048-12-25T00:00:00|2048-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2048|2048-12-26T00:00:00|2048-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|
+2049|2049-01-01T00:00:00|2049-01-01T00:00:00|Day of the Establishment of the Slovak Republic|Deň vzniku Slovenskej republiky|SlovakEstablishmentDay|True|
+2049|2049-01-06T00:00:00|2049-01-06T00:00:00|Epiphany|Zjavenie Pána (Traja králi)|Epiphany|True|
+2049|2049-04-16T00:00:00|2049-04-16T00:00:00|Good Friday|Veľký piatok|GoodFriday|True|
+2049|2049-04-19T00:00:00|2049-04-19T00:00:00|Easter Monday|Veľkonočný pondelok|EasterMonday|True|
+2049|2049-05-01T00:00:00|2049-05-01T00:00:00|Labour Day|Sviatok práce|LabourDay|True|
+2049|2049-05-08T00:00:00|2049-05-08T00:00:00|Victory in Europe Day|Deň víťazstva nad fašizmom|VictoryInEuropeDay|True|
+2049|2049-07-05T00:00:00|2049-07-05T00:00:00|St Cyril and Methodius Day|Sviatok svätého Cyrila a Metoda|CyrilAndMethodiusDay|True|
+2049|2049-08-29T00:00:00|2049-08-29T00:00:00|Slovak National Uprising Anniversary|Výročie SNP|SlovakNationalUprisingDay|True|
+2049|2049-09-01T00:00:00|2049-09-01T00:00:00|Day of the Constitution of the Slovak Republic|Deň Ústavy Slovenskej republiky|SlovakConstitutionDay|True|
+2049|2049-09-15T00:00:00|2049-09-15T00:00:00|Day of Our Lady of the Seven Sorrows|Sedembolestná Panna Mária|LadySevenSorrowsSK|True|
+2049|2049-11-01T00:00:00|2049-11-01T00:00:00|All Saints|Sviatok všetkých svätých|AllSaints|True|
+2049|2049-11-17T00:00:00|2049-11-17T00:00:00|Struggle for Freedom and Democracy Day|Deň boja za slobodu a demokraciu|FreedomAndDemocracyDayCS|True|
+2049|2049-12-24T00:00:00|2049-12-24T00:00:00|Christmas Eve|Štedrý deň|ChristmasEve|True|
+2049|2049-12-25T00:00:00|2049-12-25T00:00:00|Christmas|Prvý sviatok vianočný|Christmas|True|
+2049|2049-12-26T00:00:00|2049-12-26T00:00:00|St Stephen's Day|Druhý sviatok vianočný|SaintStephensDay|True|

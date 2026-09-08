@@ -1,0 +1,720 @@
+1990|1990-01-01T00:00:00|1990-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+1990|1990-01-06T00:00:00|1990-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+1990|1990-04-15T00:00:00|1990-04-15T00:00:00|Easter|Pasqua|Easter|True|
+1990|1990-04-16T00:00:00|1990-04-16T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+1990|1990-04-25T00:00:00|1990-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+1990|1990-05-01T00:00:00|1990-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+1990|1990-06-02T00:00:00|1990-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+1990|1990-08-15T00:00:00|1990-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+1990|1990-11-01T00:00:00|1990-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+1990|1990-12-08T00:00:00|1990-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+1990|1990-12-25T00:00:00|1990-12-25T00:00:00|Christmas|Natale|Christmas|True|
+1990|1990-12-26T00:00:00|1990-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+1991|1991-01-01T00:00:00|1991-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+1991|1991-01-06T00:00:00|1991-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+1991|1991-03-31T00:00:00|1991-03-31T00:00:00|Easter|Pasqua|Easter|True|
+1991|1991-04-01T00:00:00|1991-04-01T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+1991|1991-04-25T00:00:00|1991-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+1991|1991-05-01T00:00:00|1991-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+1991|1991-06-02T00:00:00|1991-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+1991|1991-08-15T00:00:00|1991-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+1991|1991-11-01T00:00:00|1991-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+1991|1991-12-08T00:00:00|1991-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+1991|1991-12-25T00:00:00|1991-12-25T00:00:00|Christmas|Natale|Christmas|True|
+1991|1991-12-26T00:00:00|1991-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+1992|1992-01-01T00:00:00|1992-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+1992|1992-01-06T00:00:00|1992-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+1992|1992-04-19T00:00:00|1992-04-19T00:00:00|Easter|Pasqua|Easter|True|
+1992|1992-04-20T00:00:00|1992-04-20T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+1992|1992-04-25T00:00:00|1992-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+1992|1992-05-01T00:00:00|1992-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+1992|1992-06-02T00:00:00|1992-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+1992|1992-08-15T00:00:00|1992-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+1992|1992-11-01T00:00:00|1992-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+1992|1992-12-08T00:00:00|1992-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+1992|1992-12-25T00:00:00|1992-12-25T00:00:00|Christmas|Natale|Christmas|True|
+1992|1992-12-26T00:00:00|1992-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+1993|1993-01-01T00:00:00|1993-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+1993|1993-01-06T00:00:00|1993-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+1993|1993-04-11T00:00:00|1993-04-11T00:00:00|Easter|Pasqua|Easter|True|
+1993|1993-04-12T00:00:00|1993-04-12T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+1993|1993-04-25T00:00:00|1993-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+1993|1993-05-01T00:00:00|1993-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+1993|1993-06-02T00:00:00|1993-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+1993|1993-08-15T00:00:00|1993-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+1993|1993-11-01T00:00:00|1993-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+1993|1993-12-08T00:00:00|1993-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+1993|1993-12-25T00:00:00|1993-12-25T00:00:00|Christmas|Natale|Christmas|True|
+1993|1993-12-26T00:00:00|1993-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+1994|1994-01-01T00:00:00|1994-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+1994|1994-01-06T00:00:00|1994-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+1994|1994-04-03T00:00:00|1994-04-03T00:00:00|Easter|Pasqua|Easter|True|
+1994|1994-04-04T00:00:00|1994-04-04T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+1994|1994-04-25T00:00:00|1994-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+1994|1994-05-01T00:00:00|1994-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+1994|1994-06-02T00:00:00|1994-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+1994|1994-08-15T00:00:00|1994-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+1994|1994-11-01T00:00:00|1994-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+1994|1994-12-08T00:00:00|1994-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+1994|1994-12-25T00:00:00|1994-12-25T00:00:00|Christmas|Natale|Christmas|True|
+1994|1994-12-26T00:00:00|1994-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+1995|1995-01-01T00:00:00|1995-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+1995|1995-01-06T00:00:00|1995-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+1995|1995-04-16T00:00:00|1995-04-16T00:00:00|Easter|Pasqua|Easter|True|
+1995|1995-04-17T00:00:00|1995-04-17T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+1995|1995-04-25T00:00:00|1995-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+1995|1995-05-01T00:00:00|1995-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+1995|1995-06-02T00:00:00|1995-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+1995|1995-08-15T00:00:00|1995-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+1995|1995-11-01T00:00:00|1995-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+1995|1995-12-08T00:00:00|1995-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+1995|1995-12-25T00:00:00|1995-12-25T00:00:00|Christmas|Natale|Christmas|True|
+1995|1995-12-26T00:00:00|1995-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+1996|1996-01-01T00:00:00|1996-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+1996|1996-01-06T00:00:00|1996-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+1996|1996-04-07T00:00:00|1996-04-07T00:00:00|Easter|Pasqua|Easter|True|
+1996|1996-04-08T00:00:00|1996-04-08T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+1996|1996-04-25T00:00:00|1996-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+1996|1996-05-01T00:00:00|1996-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+1996|1996-06-02T00:00:00|1996-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+1996|1996-08-15T00:00:00|1996-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+1996|1996-11-01T00:00:00|1996-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+1996|1996-12-08T00:00:00|1996-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+1996|1996-12-25T00:00:00|1996-12-25T00:00:00|Christmas|Natale|Christmas|True|
+1996|1996-12-26T00:00:00|1996-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+1997|1997-01-01T00:00:00|1997-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+1997|1997-01-06T00:00:00|1997-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+1997|1997-03-30T00:00:00|1997-03-30T00:00:00|Easter|Pasqua|Easter|True|
+1997|1997-03-31T00:00:00|1997-03-31T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+1997|1997-04-25T00:00:00|1997-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+1997|1997-05-01T00:00:00|1997-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+1997|1997-06-02T00:00:00|1997-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+1997|1997-08-15T00:00:00|1997-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+1997|1997-11-01T00:00:00|1997-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+1997|1997-12-08T00:00:00|1997-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+1997|1997-12-25T00:00:00|1997-12-25T00:00:00|Christmas|Natale|Christmas|True|
+1997|1997-12-26T00:00:00|1997-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+1998|1998-01-01T00:00:00|1998-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+1998|1998-01-06T00:00:00|1998-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+1998|1998-04-12T00:00:00|1998-04-12T00:00:00|Easter|Pasqua|Easter|True|
+1998|1998-04-13T00:00:00|1998-04-13T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+1998|1998-04-25T00:00:00|1998-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+1998|1998-05-01T00:00:00|1998-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+1998|1998-06-02T00:00:00|1998-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+1998|1998-08-15T00:00:00|1998-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+1998|1998-11-01T00:00:00|1998-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+1998|1998-12-08T00:00:00|1998-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+1998|1998-12-25T00:00:00|1998-12-25T00:00:00|Christmas|Natale|Christmas|True|
+1998|1998-12-26T00:00:00|1998-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+1999|1999-01-01T00:00:00|1999-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+1999|1999-01-06T00:00:00|1999-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+1999|1999-04-04T00:00:00|1999-04-04T00:00:00|Easter|Pasqua|Easter|True|
+1999|1999-04-05T00:00:00|1999-04-05T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+1999|1999-04-25T00:00:00|1999-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+1999|1999-05-01T00:00:00|1999-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+1999|1999-06-02T00:00:00|1999-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+1999|1999-08-15T00:00:00|1999-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+1999|1999-11-01T00:00:00|1999-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+1999|1999-12-08T00:00:00|1999-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+1999|1999-12-25T00:00:00|1999-12-25T00:00:00|Christmas|Natale|Christmas|True|
+1999|1999-12-26T00:00:00|1999-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2000|2000-01-01T00:00:00|2000-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2000|2000-01-06T00:00:00|2000-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2000|2000-04-23T00:00:00|2000-04-23T00:00:00|Easter|Pasqua|Easter|True|
+2000|2000-04-24T00:00:00|2000-04-24T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2000|2000-04-25T00:00:00|2000-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2000|2000-06-02T00:00:00|2000-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2000|2000-08-15T00:00:00|2000-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2000|2000-11-01T00:00:00|2000-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2000|2000-12-08T00:00:00|2000-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2000|2000-12-25T00:00:00|2000-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2000|2000-12-26T00:00:00|2000-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2001|2001-01-01T00:00:00|2001-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2001|2001-01-06T00:00:00|2001-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2001|2001-04-15T00:00:00|2001-04-15T00:00:00|Easter|Pasqua|Easter|True|
+2001|2001-04-16T00:00:00|2001-04-16T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2001|2001-04-25T00:00:00|2001-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2001|2001-05-01T00:00:00|2001-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2001|2001-06-02T00:00:00|2001-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2001|2001-08-15T00:00:00|2001-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2001|2001-11-01T00:00:00|2001-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2001|2001-12-08T00:00:00|2001-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2001|2001-12-25T00:00:00|2001-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2001|2001-12-26T00:00:00|2001-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2002|2002-01-01T00:00:00|2002-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2002|2002-01-06T00:00:00|2002-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2002|2002-03-31T00:00:00|2002-03-31T00:00:00|Easter|Pasqua|Easter|True|
+2002|2002-04-01T00:00:00|2002-04-01T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2002|2002-04-25T00:00:00|2002-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2002|2002-05-01T00:00:00|2002-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2002|2002-06-02T00:00:00|2002-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2002|2002-08-15T00:00:00|2002-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2002|2002-11-01T00:00:00|2002-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2002|2002-12-08T00:00:00|2002-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2002|2002-12-25T00:00:00|2002-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2002|2002-12-26T00:00:00|2002-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2003|2003-01-01T00:00:00|2003-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2003|2003-01-06T00:00:00|2003-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2003|2003-04-20T00:00:00|2003-04-20T00:00:00|Easter|Pasqua|Easter|True|
+2003|2003-04-21T00:00:00|2003-04-21T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2003|2003-04-25T00:00:00|2003-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2003|2003-05-01T00:00:00|2003-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2003|2003-06-02T00:00:00|2003-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2003|2003-08-15T00:00:00|2003-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2003|2003-11-01T00:00:00|2003-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2003|2003-12-08T00:00:00|2003-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2003|2003-12-25T00:00:00|2003-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2003|2003-12-26T00:00:00|2003-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2004|2004-01-01T00:00:00|2004-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2004|2004-01-06T00:00:00|2004-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2004|2004-04-11T00:00:00|2004-04-11T00:00:00|Easter|Pasqua|Easter|True|
+2004|2004-04-12T00:00:00|2004-04-12T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2004|2004-04-25T00:00:00|2004-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2004|2004-05-01T00:00:00|2004-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2004|2004-06-02T00:00:00|2004-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2004|2004-08-15T00:00:00|2004-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2004|2004-11-01T00:00:00|2004-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2004|2004-12-08T00:00:00|2004-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2004|2004-12-25T00:00:00|2004-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2004|2004-12-26T00:00:00|2004-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2005|2005-01-01T00:00:00|2005-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2005|2005-01-06T00:00:00|2005-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2005|2005-03-27T00:00:00|2005-03-27T00:00:00|Easter|Pasqua|Easter|True|
+2005|2005-03-28T00:00:00|2005-03-28T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2005|2005-04-25T00:00:00|2005-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2005|2005-05-01T00:00:00|2005-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2005|2005-06-02T00:00:00|2005-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2005|2005-08-15T00:00:00|2005-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2005|2005-11-01T00:00:00|2005-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2005|2005-12-08T00:00:00|2005-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2005|2005-12-25T00:00:00|2005-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2005|2005-12-26T00:00:00|2005-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2006|2006-01-01T00:00:00|2006-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2006|2006-01-06T00:00:00|2006-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2006|2006-04-16T00:00:00|2006-04-16T00:00:00|Easter|Pasqua|Easter|True|
+2006|2006-04-17T00:00:00|2006-04-17T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2006|2006-04-25T00:00:00|2006-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2006|2006-05-01T00:00:00|2006-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2006|2006-06-02T00:00:00|2006-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2006|2006-08-15T00:00:00|2006-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2006|2006-11-01T00:00:00|2006-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2006|2006-12-08T00:00:00|2006-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2006|2006-12-25T00:00:00|2006-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2006|2006-12-26T00:00:00|2006-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2007|2007-01-01T00:00:00|2007-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2007|2007-01-06T00:00:00|2007-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2007|2007-04-08T00:00:00|2007-04-08T00:00:00|Easter|Pasqua|Easter|True|
+2007|2007-04-09T00:00:00|2007-04-09T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2007|2007-04-25T00:00:00|2007-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2007|2007-05-01T00:00:00|2007-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2007|2007-06-02T00:00:00|2007-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2007|2007-08-15T00:00:00|2007-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2007|2007-11-01T00:00:00|2007-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2007|2007-12-08T00:00:00|2007-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2007|2007-12-25T00:00:00|2007-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2007|2007-12-26T00:00:00|2007-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2008|2008-01-01T00:00:00|2008-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2008|2008-01-06T00:00:00|2008-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2008|2008-03-23T00:00:00|2008-03-23T00:00:00|Easter|Pasqua|Easter|True|
+2008|2008-03-24T00:00:00|2008-03-24T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2008|2008-04-25T00:00:00|2008-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2008|2008-05-01T00:00:00|2008-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2008|2008-06-02T00:00:00|2008-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2008|2008-08-15T00:00:00|2008-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2008|2008-11-01T00:00:00|2008-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2008|2008-12-08T00:00:00|2008-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2008|2008-12-25T00:00:00|2008-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2008|2008-12-26T00:00:00|2008-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2009|2009-01-01T00:00:00|2009-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2009|2009-01-06T00:00:00|2009-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2009|2009-04-12T00:00:00|2009-04-12T00:00:00|Easter|Pasqua|Easter|True|
+2009|2009-04-13T00:00:00|2009-04-13T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2009|2009-04-25T00:00:00|2009-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2009|2009-05-01T00:00:00|2009-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2009|2009-06-02T00:00:00|2009-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2009|2009-08-15T00:00:00|2009-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2009|2009-11-01T00:00:00|2009-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2009|2009-12-08T00:00:00|2009-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2009|2009-12-25T00:00:00|2009-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2009|2009-12-26T00:00:00|2009-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2010|2010-01-01T00:00:00|2010-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2010|2010-01-06T00:00:00|2010-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2010|2010-04-04T00:00:00|2010-04-04T00:00:00|Easter|Pasqua|Easter|True|
+2010|2010-04-05T00:00:00|2010-04-05T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2010|2010-04-25T00:00:00|2010-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2010|2010-05-01T00:00:00|2010-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2010|2010-06-02T00:00:00|2010-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2010|2010-08-15T00:00:00|2010-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2010|2010-11-01T00:00:00|2010-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2010|2010-12-08T00:00:00|2010-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2010|2010-12-25T00:00:00|2010-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2010|2010-12-26T00:00:00|2010-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2011|2011-01-01T00:00:00|2011-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2011|2011-01-06T00:00:00|2011-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2011|2011-04-24T00:00:00|2011-04-24T00:00:00|Easter|Pasqua|Easter|True|
+2011|2011-04-25T00:00:00|2011-04-25T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2011|2011-04-25T00:00:00|2011-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2011|2011-05-01T00:00:00|2011-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2011|2011-06-02T00:00:00|2011-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2011|2011-08-15T00:00:00|2011-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2011|2011-11-01T00:00:00|2011-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2011|2011-12-08T00:00:00|2011-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2011|2011-12-25T00:00:00|2011-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2011|2011-12-26T00:00:00|2011-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2012|2012-01-01T00:00:00|2012-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2012|2012-01-06T00:00:00|2012-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2012|2012-04-08T00:00:00|2012-04-08T00:00:00|Easter|Pasqua|Easter|True|
+2012|2012-04-09T00:00:00|2012-04-09T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2012|2012-04-25T00:00:00|2012-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2012|2012-05-01T00:00:00|2012-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2012|2012-06-02T00:00:00|2012-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2012|2012-08-15T00:00:00|2012-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2012|2012-11-01T00:00:00|2012-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2012|2012-12-08T00:00:00|2012-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2012|2012-12-25T00:00:00|2012-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2012|2012-12-26T00:00:00|2012-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2013|2013-01-01T00:00:00|2013-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2013|2013-01-06T00:00:00|2013-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2013|2013-03-31T00:00:00|2013-03-31T00:00:00|Easter|Pasqua|Easter|True|
+2013|2013-04-01T00:00:00|2013-04-01T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2013|2013-04-25T00:00:00|2013-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2013|2013-05-01T00:00:00|2013-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2013|2013-06-02T00:00:00|2013-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2013|2013-08-15T00:00:00|2013-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2013|2013-11-01T00:00:00|2013-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2013|2013-12-08T00:00:00|2013-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2013|2013-12-25T00:00:00|2013-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2013|2013-12-26T00:00:00|2013-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2014|2014-01-01T00:00:00|2014-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2014|2014-01-06T00:00:00|2014-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2014|2014-04-20T00:00:00|2014-04-20T00:00:00|Easter|Pasqua|Easter|True|
+2014|2014-04-21T00:00:00|2014-04-21T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2014|2014-04-25T00:00:00|2014-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2014|2014-05-01T00:00:00|2014-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2014|2014-06-02T00:00:00|2014-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2014|2014-08-15T00:00:00|2014-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2014|2014-11-01T00:00:00|2014-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2014|2014-12-08T00:00:00|2014-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2014|2014-12-25T00:00:00|2014-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2014|2014-12-26T00:00:00|2014-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2015|2015-01-01T00:00:00|2015-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2015|2015-01-06T00:00:00|2015-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2015|2015-04-05T00:00:00|2015-04-05T00:00:00|Easter|Pasqua|Easter|True|
+2015|2015-04-06T00:00:00|2015-04-06T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2015|2015-04-25T00:00:00|2015-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2015|2015-05-01T00:00:00|2015-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2015|2015-06-02T00:00:00|2015-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2015|2015-08-15T00:00:00|2015-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2015|2015-11-01T00:00:00|2015-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2015|2015-12-08T00:00:00|2015-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2015|2015-12-25T00:00:00|2015-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2015|2015-12-26T00:00:00|2015-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2016|2016-01-01T00:00:00|2016-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2016|2016-01-06T00:00:00|2016-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2016|2016-03-27T00:00:00|2016-03-27T00:00:00|Easter|Pasqua|Easter|True|
+2016|2016-03-28T00:00:00|2016-03-28T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2016|2016-04-25T00:00:00|2016-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2016|2016-05-01T00:00:00|2016-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2016|2016-06-02T00:00:00|2016-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2016|2016-08-15T00:00:00|2016-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2016|2016-11-01T00:00:00|2016-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2016|2016-12-08T00:00:00|2016-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2016|2016-12-25T00:00:00|2016-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2016|2016-12-26T00:00:00|2016-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2017|2017-01-01T00:00:00|2017-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2017|2017-01-06T00:00:00|2017-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2017|2017-04-16T00:00:00|2017-04-16T00:00:00|Easter|Pasqua|Easter|True|
+2017|2017-04-17T00:00:00|2017-04-17T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2017|2017-04-25T00:00:00|2017-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2017|2017-05-01T00:00:00|2017-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2017|2017-06-02T00:00:00|2017-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2017|2017-08-15T00:00:00|2017-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2017|2017-11-01T00:00:00|2017-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2017|2017-12-08T00:00:00|2017-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2017|2017-12-25T00:00:00|2017-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2017|2017-12-26T00:00:00|2017-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2018|2018-01-01T00:00:00|2018-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2018|2018-01-06T00:00:00|2018-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2018|2018-04-01T00:00:00|2018-04-01T00:00:00|Easter|Pasqua|Easter|True|
+2018|2018-04-02T00:00:00|2018-04-02T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2018|2018-04-25T00:00:00|2018-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2018|2018-05-01T00:00:00|2018-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2018|2018-06-02T00:00:00|2018-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2018|2018-08-15T00:00:00|2018-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2018|2018-11-01T00:00:00|2018-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2018|2018-12-08T00:00:00|2018-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2018|2018-12-25T00:00:00|2018-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2018|2018-12-26T00:00:00|2018-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2019|2019-01-01T00:00:00|2019-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2019|2019-01-06T00:00:00|2019-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2019|2019-04-21T00:00:00|2019-04-21T00:00:00|Easter|Pasqua|Easter|True|
+2019|2019-04-22T00:00:00|2019-04-22T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2019|2019-04-25T00:00:00|2019-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2019|2019-05-01T00:00:00|2019-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2019|2019-06-02T00:00:00|2019-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2019|2019-08-15T00:00:00|2019-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2019|2019-11-01T00:00:00|2019-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2019|2019-12-08T00:00:00|2019-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2019|2019-12-25T00:00:00|2019-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2019|2019-12-26T00:00:00|2019-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2020|2020-01-01T00:00:00|2020-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2020|2020-01-06T00:00:00|2020-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2020|2020-04-12T00:00:00|2020-04-12T00:00:00|Easter|Pasqua|Easter|True|
+2020|2020-04-13T00:00:00|2020-04-13T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2020|2020-04-25T00:00:00|2020-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2020|2020-05-01T00:00:00|2020-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2020|2020-06-02T00:00:00|2020-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2020|2020-08-15T00:00:00|2020-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2020|2020-11-01T00:00:00|2020-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2020|2020-12-08T00:00:00|2020-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2020|2020-12-25T00:00:00|2020-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2020|2020-12-26T00:00:00|2020-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2021|2021-01-01T00:00:00|2021-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2021|2021-01-06T00:00:00|2021-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2021|2021-04-04T00:00:00|2021-04-04T00:00:00|Easter|Pasqua|Easter|True|
+2021|2021-04-05T00:00:00|2021-04-05T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2021|2021-04-25T00:00:00|2021-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2021|2021-05-01T00:00:00|2021-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2021|2021-06-02T00:00:00|2021-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2021|2021-08-15T00:00:00|2021-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2021|2021-11-01T00:00:00|2021-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2021|2021-12-08T00:00:00|2021-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2021|2021-12-25T00:00:00|2021-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2021|2021-12-26T00:00:00|2021-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2022|2022-01-01T00:00:00|2022-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2022|2022-01-06T00:00:00|2022-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2022|2022-04-17T00:00:00|2022-04-17T00:00:00|Easter|Pasqua|Easter|True|
+2022|2022-04-18T00:00:00|2022-04-18T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2022|2022-04-25T00:00:00|2022-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2022|2022-05-01T00:00:00|2022-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2022|2022-06-02T00:00:00|2022-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2022|2022-08-15T00:00:00|2022-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2022|2022-11-01T00:00:00|2022-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2022|2022-12-08T00:00:00|2022-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2022|2022-12-25T00:00:00|2022-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2022|2022-12-26T00:00:00|2022-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2023|2023-01-01T00:00:00|2023-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2023|2023-01-06T00:00:00|2023-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2023|2023-04-09T00:00:00|2023-04-09T00:00:00|Easter|Pasqua|Easter|True|
+2023|2023-04-10T00:00:00|2023-04-10T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2023|2023-04-25T00:00:00|2023-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2023|2023-05-01T00:00:00|2023-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2023|2023-06-02T00:00:00|2023-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2023|2023-08-15T00:00:00|2023-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2023|2023-11-01T00:00:00|2023-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2023|2023-12-08T00:00:00|2023-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2023|2023-12-25T00:00:00|2023-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2023|2023-12-26T00:00:00|2023-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2024|2024-01-01T00:00:00|2024-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2024|2024-01-06T00:00:00|2024-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2024|2024-03-31T00:00:00|2024-03-31T00:00:00|Easter|Pasqua|Easter|True|
+2024|2024-04-01T00:00:00|2024-04-01T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2024|2024-04-25T00:00:00|2024-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2024|2024-05-01T00:00:00|2024-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2024|2024-06-02T00:00:00|2024-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2024|2024-08-15T00:00:00|2024-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2024|2024-11-01T00:00:00|2024-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2024|2024-12-08T00:00:00|2024-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2024|2024-12-25T00:00:00|2024-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2024|2024-12-26T00:00:00|2024-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2025|2025-01-01T00:00:00|2025-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2025|2025-01-06T00:00:00|2025-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2025|2025-04-20T00:00:00|2025-04-20T00:00:00|Easter|Pasqua|Easter|True|
+2025|2025-04-21T00:00:00|2025-04-21T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2025|2025-04-25T00:00:00|2025-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2025|2025-05-01T00:00:00|2025-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2025|2025-06-02T00:00:00|2025-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2025|2025-08-15T00:00:00|2025-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2025|2025-11-01T00:00:00|2025-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2025|2025-12-08T00:00:00|2025-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2025|2025-12-25T00:00:00|2025-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2025|2025-12-26T00:00:00|2025-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2026|2026-01-01T00:00:00|2026-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2026|2026-01-06T00:00:00|2026-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2026|2026-04-05T00:00:00|2026-04-05T00:00:00|Easter|Pasqua|Easter|True|
+2026|2026-04-06T00:00:00|2026-04-06T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2026|2026-04-25T00:00:00|2026-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2026|2026-05-01T00:00:00|2026-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2026|2026-06-02T00:00:00|2026-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2026|2026-08-15T00:00:00|2026-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2026|2026-11-01T00:00:00|2026-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2026|2026-12-08T00:00:00|2026-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2026|2026-12-25T00:00:00|2026-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2026|2026-12-26T00:00:00|2026-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2027|2027-01-01T00:00:00|2027-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2027|2027-01-06T00:00:00|2027-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2027|2027-03-28T00:00:00|2027-03-28T00:00:00|Easter|Pasqua|Easter|True|
+2027|2027-03-29T00:00:00|2027-03-29T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2027|2027-04-25T00:00:00|2027-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2027|2027-05-01T00:00:00|2027-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2027|2027-06-02T00:00:00|2027-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2027|2027-08-15T00:00:00|2027-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2027|2027-11-01T00:00:00|2027-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2027|2027-12-08T00:00:00|2027-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2027|2027-12-25T00:00:00|2027-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2027|2027-12-26T00:00:00|2027-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2028|2028-01-01T00:00:00|2028-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2028|2028-01-06T00:00:00|2028-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2028|2028-04-16T00:00:00|2028-04-16T00:00:00|Easter|Pasqua|Easter|True|
+2028|2028-04-17T00:00:00|2028-04-17T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2028|2028-04-25T00:00:00|2028-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2028|2028-05-01T00:00:00|2028-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2028|2028-06-02T00:00:00|2028-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2028|2028-08-15T00:00:00|2028-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2028|2028-11-01T00:00:00|2028-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2028|2028-12-08T00:00:00|2028-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2028|2028-12-25T00:00:00|2028-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2028|2028-12-26T00:00:00|2028-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2029|2029-01-01T00:00:00|2029-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2029|2029-01-06T00:00:00|2029-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2029|2029-04-01T00:00:00|2029-04-01T00:00:00|Easter|Pasqua|Easter|True|
+2029|2029-04-02T00:00:00|2029-04-02T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2029|2029-04-25T00:00:00|2029-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2029|2029-05-01T00:00:00|2029-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2029|2029-06-02T00:00:00|2029-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2029|2029-08-15T00:00:00|2029-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2029|2029-11-01T00:00:00|2029-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2029|2029-12-08T00:00:00|2029-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2029|2029-12-25T00:00:00|2029-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2029|2029-12-26T00:00:00|2029-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2030|2030-01-01T00:00:00|2030-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2030|2030-01-06T00:00:00|2030-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2030|2030-04-21T00:00:00|2030-04-21T00:00:00|Easter|Pasqua|Easter|True|
+2030|2030-04-22T00:00:00|2030-04-22T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2030|2030-04-25T00:00:00|2030-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2030|2030-05-01T00:00:00|2030-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2030|2030-06-02T00:00:00|2030-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2030|2030-08-15T00:00:00|2030-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2030|2030-11-01T00:00:00|2030-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2030|2030-12-08T00:00:00|2030-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2030|2030-12-25T00:00:00|2030-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2030|2030-12-26T00:00:00|2030-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2031|2031-01-01T00:00:00|2031-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2031|2031-01-06T00:00:00|2031-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2031|2031-04-13T00:00:00|2031-04-13T00:00:00|Easter|Pasqua|Easter|True|
+2031|2031-04-14T00:00:00|2031-04-14T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2031|2031-04-25T00:00:00|2031-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2031|2031-05-01T00:00:00|2031-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2031|2031-06-02T00:00:00|2031-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2031|2031-08-15T00:00:00|2031-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2031|2031-11-01T00:00:00|2031-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2031|2031-12-08T00:00:00|2031-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2031|2031-12-25T00:00:00|2031-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2031|2031-12-26T00:00:00|2031-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2032|2032-01-01T00:00:00|2032-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2032|2032-01-06T00:00:00|2032-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2032|2032-03-28T00:00:00|2032-03-28T00:00:00|Easter|Pasqua|Easter|True|
+2032|2032-03-29T00:00:00|2032-03-29T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2032|2032-04-25T00:00:00|2032-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2032|2032-05-01T00:00:00|2032-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2032|2032-06-02T00:00:00|2032-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2032|2032-08-15T00:00:00|2032-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2032|2032-11-01T00:00:00|2032-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2032|2032-12-08T00:00:00|2032-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2032|2032-12-25T00:00:00|2032-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2032|2032-12-26T00:00:00|2032-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2033|2033-01-01T00:00:00|2033-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2033|2033-01-06T00:00:00|2033-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2033|2033-04-17T00:00:00|2033-04-17T00:00:00|Easter|Pasqua|Easter|True|
+2033|2033-04-18T00:00:00|2033-04-18T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2033|2033-04-25T00:00:00|2033-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2033|2033-05-01T00:00:00|2033-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2033|2033-06-02T00:00:00|2033-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2033|2033-08-15T00:00:00|2033-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2033|2033-11-01T00:00:00|2033-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2033|2033-12-08T00:00:00|2033-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2033|2033-12-25T00:00:00|2033-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2033|2033-12-26T00:00:00|2033-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2034|2034-01-01T00:00:00|2034-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2034|2034-01-06T00:00:00|2034-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2034|2034-04-09T00:00:00|2034-04-09T00:00:00|Easter|Pasqua|Easter|True|
+2034|2034-04-10T00:00:00|2034-04-10T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2034|2034-04-25T00:00:00|2034-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2034|2034-05-01T00:00:00|2034-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2034|2034-06-02T00:00:00|2034-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2034|2034-08-15T00:00:00|2034-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2034|2034-11-01T00:00:00|2034-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2034|2034-12-08T00:00:00|2034-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2034|2034-12-25T00:00:00|2034-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2034|2034-12-26T00:00:00|2034-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2035|2035-01-01T00:00:00|2035-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2035|2035-01-06T00:00:00|2035-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2035|2035-03-25T00:00:00|2035-03-25T00:00:00|Easter|Pasqua|Easter|True|
+2035|2035-03-26T00:00:00|2035-03-26T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2035|2035-04-25T00:00:00|2035-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2035|2035-05-01T00:00:00|2035-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2035|2035-06-02T00:00:00|2035-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2035|2035-08-15T00:00:00|2035-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2035|2035-11-01T00:00:00|2035-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2035|2035-12-08T00:00:00|2035-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2035|2035-12-25T00:00:00|2035-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2035|2035-12-26T00:00:00|2035-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2036|2036-01-01T00:00:00|2036-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2036|2036-01-06T00:00:00|2036-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2036|2036-04-13T00:00:00|2036-04-13T00:00:00|Easter|Pasqua|Easter|True|
+2036|2036-04-14T00:00:00|2036-04-14T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2036|2036-04-25T00:00:00|2036-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2036|2036-05-01T00:00:00|2036-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2036|2036-06-02T00:00:00|2036-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2036|2036-08-15T00:00:00|2036-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2036|2036-11-01T00:00:00|2036-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2036|2036-12-08T00:00:00|2036-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2036|2036-12-25T00:00:00|2036-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2036|2036-12-26T00:00:00|2036-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2037|2037-01-01T00:00:00|2037-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2037|2037-01-06T00:00:00|2037-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2037|2037-04-05T00:00:00|2037-04-05T00:00:00|Easter|Pasqua|Easter|True|
+2037|2037-04-06T00:00:00|2037-04-06T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2037|2037-04-25T00:00:00|2037-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2037|2037-05-01T00:00:00|2037-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2037|2037-06-02T00:00:00|2037-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2037|2037-08-15T00:00:00|2037-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2037|2037-11-01T00:00:00|2037-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2037|2037-12-08T00:00:00|2037-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2037|2037-12-25T00:00:00|2037-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2037|2037-12-26T00:00:00|2037-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2038|2038-01-01T00:00:00|2038-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2038|2038-01-06T00:00:00|2038-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2038|2038-04-25T00:00:00|2038-04-25T00:00:00|Easter|Pasqua|Easter|True|
+2038|2038-04-25T00:00:00|2038-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2038|2038-04-26T00:00:00|2038-04-26T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2038|2038-05-01T00:00:00|2038-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2038|2038-06-02T00:00:00|2038-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2038|2038-08-15T00:00:00|2038-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2038|2038-11-01T00:00:00|2038-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2038|2038-12-08T00:00:00|2038-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2038|2038-12-25T00:00:00|2038-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2038|2038-12-26T00:00:00|2038-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2039|2039-01-01T00:00:00|2039-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2039|2039-01-06T00:00:00|2039-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2039|2039-04-10T00:00:00|2039-04-10T00:00:00|Easter|Pasqua|Easter|True|
+2039|2039-04-11T00:00:00|2039-04-11T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2039|2039-04-25T00:00:00|2039-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2039|2039-05-01T00:00:00|2039-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2039|2039-06-02T00:00:00|2039-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2039|2039-08-15T00:00:00|2039-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2039|2039-11-01T00:00:00|2039-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2039|2039-12-08T00:00:00|2039-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2039|2039-12-25T00:00:00|2039-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2039|2039-12-26T00:00:00|2039-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2040|2040-01-01T00:00:00|2040-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2040|2040-01-06T00:00:00|2040-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2040|2040-04-01T00:00:00|2040-04-01T00:00:00|Easter|Pasqua|Easter|True|
+2040|2040-04-02T00:00:00|2040-04-02T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2040|2040-04-25T00:00:00|2040-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2040|2040-05-01T00:00:00|2040-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2040|2040-06-02T00:00:00|2040-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2040|2040-08-15T00:00:00|2040-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2040|2040-11-01T00:00:00|2040-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2040|2040-12-08T00:00:00|2040-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2040|2040-12-25T00:00:00|2040-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2040|2040-12-26T00:00:00|2040-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2041|2041-01-01T00:00:00|2041-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2041|2041-01-06T00:00:00|2041-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2041|2041-04-21T00:00:00|2041-04-21T00:00:00|Easter|Pasqua|Easter|True|
+2041|2041-04-22T00:00:00|2041-04-22T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2041|2041-04-25T00:00:00|2041-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2041|2041-05-01T00:00:00|2041-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2041|2041-06-02T00:00:00|2041-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2041|2041-08-15T00:00:00|2041-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2041|2041-11-01T00:00:00|2041-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2041|2041-12-08T00:00:00|2041-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2041|2041-12-25T00:00:00|2041-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2041|2041-12-26T00:00:00|2041-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2042|2042-01-01T00:00:00|2042-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2042|2042-01-06T00:00:00|2042-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2042|2042-04-06T00:00:00|2042-04-06T00:00:00|Easter|Pasqua|Easter|True|
+2042|2042-04-07T00:00:00|2042-04-07T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2042|2042-04-25T00:00:00|2042-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2042|2042-05-01T00:00:00|2042-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2042|2042-06-02T00:00:00|2042-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2042|2042-08-15T00:00:00|2042-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2042|2042-11-01T00:00:00|2042-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2042|2042-12-08T00:00:00|2042-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2042|2042-12-25T00:00:00|2042-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2042|2042-12-26T00:00:00|2042-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2043|2043-01-01T00:00:00|2043-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2043|2043-01-06T00:00:00|2043-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2043|2043-03-29T00:00:00|2043-03-29T00:00:00|Easter|Pasqua|Easter|True|
+2043|2043-03-30T00:00:00|2043-03-30T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2043|2043-04-25T00:00:00|2043-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2043|2043-06-02T00:00:00|2043-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2043|2043-08-15T00:00:00|2043-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2043|2043-11-01T00:00:00|2043-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2043|2043-12-08T00:00:00|2043-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2043|2043-12-25T00:00:00|2043-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2043|2043-12-26T00:00:00|2043-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2044|2044-01-01T00:00:00|2044-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2044|2044-01-06T00:00:00|2044-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2044|2044-04-17T00:00:00|2044-04-17T00:00:00|Easter|Pasqua|Easter|True|
+2044|2044-04-18T00:00:00|2044-04-18T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2044|2044-04-25T00:00:00|2044-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2044|2044-05-01T00:00:00|2044-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2044|2044-06-02T00:00:00|2044-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2044|2044-08-15T00:00:00|2044-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2044|2044-11-01T00:00:00|2044-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2044|2044-12-08T00:00:00|2044-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2044|2044-12-25T00:00:00|2044-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2044|2044-12-26T00:00:00|2044-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2045|2045-01-01T00:00:00|2045-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2045|2045-01-06T00:00:00|2045-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2045|2045-04-09T00:00:00|2045-04-09T00:00:00|Easter|Pasqua|Easter|True|
+2045|2045-04-10T00:00:00|2045-04-10T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2045|2045-04-25T00:00:00|2045-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2045|2045-05-01T00:00:00|2045-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2045|2045-06-02T00:00:00|2045-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2045|2045-08-15T00:00:00|2045-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2045|2045-11-01T00:00:00|2045-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2045|2045-12-08T00:00:00|2045-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2045|2045-12-25T00:00:00|2045-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2045|2045-12-26T00:00:00|2045-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2046|2046-01-01T00:00:00|2046-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2046|2046-01-06T00:00:00|2046-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2046|2046-03-25T00:00:00|2046-03-25T00:00:00|Easter|Pasqua|Easter|True|
+2046|2046-03-26T00:00:00|2046-03-26T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2046|2046-04-25T00:00:00|2046-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2046|2046-05-01T00:00:00|2046-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2046|2046-06-02T00:00:00|2046-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2046|2046-08-15T00:00:00|2046-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2046|2046-11-01T00:00:00|2046-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2046|2046-12-08T00:00:00|2046-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2046|2046-12-25T00:00:00|2046-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2046|2046-12-26T00:00:00|2046-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2047|2047-01-01T00:00:00|2047-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2047|2047-01-06T00:00:00|2047-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2047|2047-04-14T00:00:00|2047-04-14T00:00:00|Easter|Pasqua|Easter|True|
+2047|2047-04-15T00:00:00|2047-04-15T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2047|2047-04-25T00:00:00|2047-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2047|2047-05-01T00:00:00|2047-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2047|2047-06-02T00:00:00|2047-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2047|2047-08-15T00:00:00|2047-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2047|2047-11-01T00:00:00|2047-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2047|2047-12-08T00:00:00|2047-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2047|2047-12-25T00:00:00|2047-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2047|2047-12-26T00:00:00|2047-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2048|2048-01-01T00:00:00|2048-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2048|2048-01-06T00:00:00|2048-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2048|2048-04-05T00:00:00|2048-04-05T00:00:00|Easter|Pasqua|Easter|True|
+2048|2048-04-06T00:00:00|2048-04-06T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2048|2048-04-25T00:00:00|2048-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2048|2048-05-01T00:00:00|2048-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2048|2048-06-02T00:00:00|2048-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2048|2048-08-15T00:00:00|2048-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2048|2048-11-01T00:00:00|2048-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2048|2048-12-08T00:00:00|2048-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2048|2048-12-25T00:00:00|2048-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2048|2048-12-26T00:00:00|2048-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|
+2049|2049-01-01T00:00:00|2049-01-01T00:00:00|New Year|Capodanno|NewYear|True|
+2049|2049-01-06T00:00:00|2049-01-06T00:00:00|Epiphany|Epifania|Epiphany|True|
+2049|2049-04-18T00:00:00|2049-04-18T00:00:00|Easter|Pasqua|Easter|True|
+2049|2049-04-19T00:00:00|2049-04-19T00:00:00|Easter Monday|Pasquetta|EasterMonday|True|
+2049|2049-04-25T00:00:00|2049-04-25T00:00:00|Liberation Day|Festa della Liberazione|LiberationDayIT|True|
+2049|2049-05-01T00:00:00|2049-05-01T00:00:00|Labour Day|Festa del Lavoro|LabourDay|True|
+2049|2049-06-02T00:00:00|2049-06-02T00:00:00|Republic Day|Festa della Repubblica|RepublicDayIT|True|
+2049|2049-08-15T00:00:00|2049-08-15T00:00:00|Assumption|Ferragosto|Assumption|True|
+2049|2049-11-01T00:00:00|2049-11-01T00:00:00|All Saints|Tutti i santi|AllSaints|True|
+2049|2049-12-08T00:00:00|2049-12-08T00:00:00|Immaculate Conception|Immacolata Concezione|ImmaculateConception|True|
+2049|2049-12-25T00:00:00|2049-12-25T00:00:00|Christmas|Natale|Christmas|True|
+2049|2049-12-26T00:00:00|2049-12-26T00:00:00|St Stephen's Day|Santo Stefano|SaintStephensDay|True|

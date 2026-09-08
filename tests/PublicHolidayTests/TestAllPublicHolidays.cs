@@ -8,10 +8,9 @@ namespace PublicHolidayTests
     [TestClass]
     public class TestAllPublicHolidays
     {
-        [TestMethod]
-        public void TestHolidayLists()
+        internal static List<IPublicHolidays> AllCalendars()
         {
-            var list = new List<IPublicHolidays>
+            return new List<IPublicHolidays>
             {
                 PublicHolidayFactory.GetPublicHolidayForCountry(PublicHolidayCountryCode.Au),
                 PublicHolidayFactory.GetPublicHolidayForCountry("AT"),
@@ -33,7 +32,9 @@ namespace PublicHolidayTests
                 PublicHolidayFactory.GetPublicHolidayForCountry("JP"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("KZ"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("LT"),
+                PublicHolidayFactory.GetPublicHolidayForCountry("LV"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("LU"),
+                PublicHolidayFactory.GetPublicHolidayForCountry("ME"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("MX"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("NZ"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("NO"),
@@ -51,18 +52,39 @@ namespace PublicHolidayTests
                 PublicHolidayFactory.GetPublicHolidayForCountry("TR"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("GB"),
                 PublicHolidayFactory.GetPublicHolidayForCountry("US"),
-				//not actually countries but special rules
+                //not actually countries but special rules
                 new CanadaQuebecGovClosingDay(),
                 new EcbTargetClosingDay(),
                 new USAFederalReserveHoliday(),
                 new USANewYorkStockExchangeHoliday(),
             };
-            foreach (var calendar in list)
+        }
+
+        [TestMethod]
+        public void TestHolidayLists()
+        {
+            foreach (var calendar in AllCalendars())
             {
                 for (int year = 1990; year < 2050; year++)
                 {
                     var hInfo = calendar.PublicHolidaysInformation(year);
                     Assert.IsTrue(hInfo.Count > 0, $"Holidays for {calendar} in {year}");
+                }
+            }
+        }
+
+        [TestMethod]
+        public void TestHolidayInformationHasNames()
+        {
+            foreach (var calendar in AllCalendars())
+            {
+                for (int year = 1990; year < 2050; year++)
+                {
+                    foreach (var holiday in calendar.PublicHolidaysInformation(year))
+                    {
+                        Assert.IsFalse(string.IsNullOrEmpty(holiday.Name),
+                            $"{calendar.GetType().Name} {holiday.HolidayDate:yyyy-MM-dd} ({year}) has no name");
+                    }
                 }
             }
         }
@@ -94,7 +116,9 @@ namespace PublicHolidayTests
                 { "JP", typeof(JapanPublicHoliday) },
                 { "KZ", typeof(KazakhstanPublicHoliday) },
                 { "LT", typeof(LithuaniaPublicHoliday) },
+                { "LV", typeof(LatviaPublicHoliday) },
                 { "LU", typeof(LuxembourgPublicHoliday) },
+                { "ME", typeof(MontenegroPublicHoliday) },
                 { "MX", typeof(MexicoPublicHoliday) },
                 { "NL", typeof(DutchPublicHoliday) },
                 { "NO", typeof(NorwayPublicHoliday) },
