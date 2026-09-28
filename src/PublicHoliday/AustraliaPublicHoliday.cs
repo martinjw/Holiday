@@ -190,7 +190,7 @@ namespace PublicHoliday
 
         public static DateTime AnzacDay(int year, States state)
         {
-            if (state == States.ACT || state == States.NT || state == States.SA || state == States.WA)
+            if (state == States.ACT || state == States.NT || state == States.WA || (state == States.SA && year < 2024))
             {
                 return HolidayCalculator.FixWeekend(new DateTime(year, 4, 25));
             }
@@ -208,6 +208,24 @@ namespace PublicHoliday
             return year < 2008 ? secondMonday.AddDays(7) : secondMonday;
         }
 
+        /// <summary>
+        /// Adelaide Cup Day, 2nd Monday of March
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <returns></returns>
+        public static DateTime AdelaideCupDay(int year)
+        {
+            // 3rd Monday of May from 1973 until 2005, moved to 2nd Monday in March from 2006
+            if (year >= 1973 && year < 2006)
+            {
+                return HolidayCalculator.FindNext(new DateTime(year, 5, 1), DayOfWeek.Monday).AddDays(14);
+            }
+            else
+            {
+                return HolidayCalculator.FindNext(new DateTime(year, 3, 1), DayOfWeek.Monday).AddDays(7);
+            }
+        }
+        
         /// <summary>
         /// Western Australia Day, 1st Monday of June
         /// </summary>
@@ -381,6 +399,10 @@ namespace PublicHoliday
             {
                 bHols.Add(CanberraDay(year), "Canberra Day");
             }
+            if (State == States.SA)
+            {
+                bHols.Add(AdelaideCupDay(year), "Adelaide Cup Day");
+            }
             var anzacDay = AnzacDay(year, State);
             if (bHols.ContainsKey(anzacDay)) anzacDay = anzacDay.AddSeconds(1);
             bHols.Add(anzacDay, "ANZAC Day");
@@ -449,6 +471,8 @@ namespace PublicHoliday
                         if (LabourDay(year, State) == date)
                             return true;
                     }
+                    if (State == States.SA && AdelaideCupDay(year) == date)
+                        return true;
                     if (State == States.ACT && CanberraDay(year) == date)
                         return true;
                     if (GoodFriday(year) == date)
