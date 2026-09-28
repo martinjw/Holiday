@@ -190,7 +190,7 @@ namespace PublicHoliday
 
         public static DateTime AnzacDay(int year, States state)
         {
-            if (state == States.ACT || state == States.NT || state == States.WA)
+            if (state == States.ACT || state == States.NT || state == States.WA || (state == States.SA && year < 2024))
             {
                 return HolidayCalculator.FixWeekend(new DateTime(year, 4, 25));
             }
