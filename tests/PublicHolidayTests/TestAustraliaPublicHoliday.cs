@@ -80,6 +80,25 @@ namespace PublicHolidayTests
         [TestMethod]
         [DataRow(1, 2, "new year (sunday, so monday is holiday)")]
         [DataRow(1, 26, "australia")]
+        [DataRow(3, 13, "adelaide cup day")]
+        [DataRow(4, 14, "good friday")]
+        [DataRow(4, 17, "easter monday")]
+        [DataRow(4, 25, "anzac")]
+        [DataRow(6, 12, "queen's birthday")]
+        [DataRow(10, 2, "labour day")]
+        [DataRow(12, 25, "christmas")]
+        [DataRow(12, 26, "proclamation day")]
+        public void TestSouthAustralia2017(int month, int day, string name)
+        {
+            var holiday = new DateTime(2017, month, day);
+            var holidayCalendar = new AustraliaPublicHoliday { State = AustraliaPublicHoliday.States.SA };
+            var actual = holidayCalendar.IsPublicHoliday(holiday);
+            Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday - should be {name}");
+        }
+
+        [TestMethod]
+        [DataRow(1, 2, "new year (sunday, so monday is holiday)")]
+        [DataRow(1, 26, "australia")]
         [DataRow(4, 14, "good friday")]
         [DataRow(4, 17, "easter monday")]
         [DataRow(4, 25, "anzac")]
@@ -203,6 +222,33 @@ namespace PublicHolidayTests
             var holidayCalendar = new AustraliaPublicHoliday { State = AustraliaPublicHoliday.States.NSW, IncludeNSWBankHoliday = true };
             var holNames = holidayCalendar.PublicHolidayNames(year);
             Assert.IsTrue(holNames.ContainsKey(bankHoliday));
+        }
+
+        [TestMethod]
+        [DataRow(2023, 4, 25, "Anzac Day 2023 - pre-change, observed on the day")]
+        [DataRow(2024, 4, 25, "Anzac Day 2024 - change effective, observed on the day")]
+        [DataRow(2026, 4, 25, "Anzac Day 2026 - falls on weekend but observed on the day from 2024 onwards")]
+        public void TestAnzacDay_ObservationChange(int year, int month, int day, string name)
+        {
+            var date = new DateTime(year, month, day);
+            var holidayCalendar = new AustraliaPublicHoliday { State = AustraliaPublicHoliday.States.All };
+            var actual = holidayCalendar.IsPublicHoliday(date);
+            Assert.IsTrue(actual, $"{date.ToString("D")} is not a holiday - should be {name}");
+        }
+
+        [TestMethod]
+        public void TestSouthAustralia_AnzacDay_Pre2024_WeekendObservedMonday()
+        {
+            // 25 April 2021 was a Sunday; under pre-2024 SA rules ANZAC was observed on the following Monday (26 April 2021)
+            var anzacSunday = new DateTime(2021, 4, 25);
+            var anzacObservedMonday = new DateTime(2021, 4, 26);
+            var holidayCalendar = new AustraliaPublicHoliday { State = AustraliaPublicHoliday.States.SA };
+
+            // The actual day should NOT be treated as the holiday in SA under the old rules
+            Assert.IsFalse(holidayCalendar.IsPublicHoliday(anzacSunday), $"{anzacSunday.ToString("D")} should not be a holiday in SA under pre-2024 rules");
+
+            // The following Monday should be observed as the ANZAC public holiday
+            Assert.IsTrue(holidayCalendar.IsPublicHoliday(anzacObservedMonday), $"{anzacObservedMonday.ToString("D")} should be observed as ANZAC in SA under pre-2024 rules");
         }
     }
 }

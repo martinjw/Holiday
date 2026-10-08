@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using PublicHoliday.HolidayDefinitions;
 using PublicHoliday.HolidayDefinitions.Christian;
 using Christian = PublicHoliday.HolidayDefinitions.Christian;
@@ -211,7 +212,7 @@ namespace PublicHoliday
 
         public static DateTime AnzacDay(int year, States state)
         {
-            if (state == States.ACT || state == States.NT || state == States.SA || state == States.WA)
+            if (state == States.ACT || state == States.NT || state == States.WA || (state == States.SA && year < 2024))
                 return HolidayCalculator.FixWeekend(new DateTime(year, 4, 25));
             return new DateTime(year, 4, 25);
         }
@@ -224,6 +225,15 @@ namespace PublicHoliday
         {
             var secondMonday = HolidayCalculator.FindNext(new DateTime(year, 3, 1), DayOfWeek.Monday).AddDays(7);
             return year < 2008 ? secondMonday.AddDays(7) : secondMonday;
+        }
+
+        /// <summary>
+        /// Adelaide Cup Day (South Australia only), 2nd Monday of March (3rd Monday of May from 1973 until 2005)
+        /// </summary>
+        /// <param name="year">The year.</param>
+        public static DateTime AdelaideCupDay(int year)
+        {
+            return new Local.AdelaideCupDay().Build(year).First().ObservedDate;
         }
 
         /// <summary>
@@ -365,7 +375,13 @@ namespace PublicHoliday
             yield return new Christian.EasterMonday();
             if (state == States.ACT)
                 yield return new Local.CanberraDay();
-            yield return new Local.AnzacDay(state == States.ACT || state == States.NT || state == States.SA || state == States.WA);
+            if (state == States.SA)
+                yield return new Local.AdelaideCupDay();
+            //SA moved a weekend ANZAC Day to Monday until 2023; from 2024 it is observed on the day
+            if (state == States.SA)
+                yield return new Local.AnzacDay(true, 2023);
+            else
+                yield return new Local.AnzacDay(state == States.ACT || state == States.NT || state == States.WA);
             if (state == States.NT)
                 yield return new Local.PicnicDay();
             if (state == States.WA)

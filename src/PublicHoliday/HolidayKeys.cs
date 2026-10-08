@@ -104,6 +104,8 @@ namespace PublicHoliday
         #endregion
 
         #region Australia
+        /// <summary>Adelaide Cup Day.</summary>
+        public const string AdelaideCupDayAU = "AdelaideCupDayAU";
         /// <summary>Australia Day.</summary>
         public const string AustraliaDay = "AustraliaDay";
         /// <summary>Bank Holiday.</summary>

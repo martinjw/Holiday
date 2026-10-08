@@ -17,19 +17,50 @@ namespace PublicHoliday.HolidayDefinitions.CountrySpecific.Australia
     }
 
     /// <summary>
-    /// ANZAC Day - 25 April. In ACT, NT, SA and WA a weekend date shifts to Monday; elsewhere
-    /// it stays where it falls. Constructed with the shift flag by the calendar.
+    /// ANZAC Day - 25 April. In ACT, NT and WA a weekend date shifts to Monday, as it did in SA
+    /// until 2023; elsewhere it stays where it falls. Constructed with the shift flag by the calendar.
     /// </summary>
     public class AnzacDay : FixedDateHoliday
     {
         /// <summary>Creates the definition.</summary>
-        /// <param name="shiftWeekend">True to move a Saturday/Sunday ANZAC Day to Monday (ACT/NT/SA/WA).</param>
+        /// <param name="shiftWeekend">True to move a Saturday/Sunday ANZAC Day to Monday (ACT/NT/WA).</param>
         public AnzacDay(bool shiftWeekend) : base(HolidayKeys.AnzacDay, "ANZAC Day", 4, 25)
         {
             if (shiftWeekend)
             {
                 ObservedDateRule = HolidayCalculator.FixWeekend;
             }
+        }
+
+        /// <summary>Creates the definition, shifting a weekend date only up to a given year.</summary>
+        /// <param name="shiftWeekend">True to move a Saturday/Sunday ANZAC Day to Monday.</param>
+        /// <param name="lastShiftedYear">The last year the shift applies (SA: 2023).</param>
+        public AnzacDay(bool shiftWeekend, int lastShiftedYear) : base(HolidayKeys.AnzacDay, "ANZAC Day", 4, 25)
+        {
+            if (shiftWeekend)
+            {
+                ObservedDateRule = date => date.Year <= lastShiftedYear ? HolidayCalculator.FixWeekend(date) : date;
+            }
+        }
+    }
+
+    /// <summary>
+    /// Adelaide Cup Day (SA) - 2nd Monday of March; 3rd Monday of May from 1973 until 2005.
+    /// </summary>
+    public class AdelaideCupDay : HolidayDefinition
+    {
+        /// <summary>Creates the definition.</summary>
+        public AdelaideCupDay() : base(HolidayKeys.AdelaideCupDayAU, "Adelaide Cup Day") { }
+
+        /// <inheritdoc />
+        protected override IEnumerable<DateTime> GetDates(int year)
+        {
+            if (year >= 1973 && year < 2006)
+            {
+                yield return HolidayCalculator.FindNext(new DateTime(year, 5, 1), DayOfWeek.Monday).AddDays(14);
+                yield break;
+            }
+            yield return HolidayCalculator.FindNext(new DateTime(year, 3, 1), DayOfWeek.Monday).AddDays(7);
         }
     }
 

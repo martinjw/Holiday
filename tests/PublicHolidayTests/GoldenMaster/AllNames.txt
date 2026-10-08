@@ -54,6 +54,7 @@ AustraliaPublicHoliday_State_QLD|en-AU|LabourDay|Labour Day|Labour Day
 AustraliaPublicHoliday_State_QLD|en-AU|NationalDayOfMourningAU2022|National Day of Mourning|National Day of Mourning
 AustraliaPublicHoliday_State_QLD|en-AU|NewYear|New Year|New Year
 AustraliaPublicHoliday_State_QLD|en-AU|QueensBirthdayAU|Queen's Birthday|King's Birthday
+AustraliaPublicHoliday_State_SA|en-AU|AdelaideCupDayAU|Adelaide Cup Day|Adelaide Cup Day
 AustraliaPublicHoliday_State_SA|en-AU|AnzacDay|ANZAC Day|ANZAC Day
 AustraliaPublicHoliday_State_SA|en-AU|AustraliaDay|Australia Day|Australia Day
 AustraliaPublicHoliday_State_SA|en-AU|Christmas|Christmas Day|Christmas Day
