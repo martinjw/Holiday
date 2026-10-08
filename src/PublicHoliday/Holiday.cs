@@ -1,45 +1,49 @@
-﻿using PublicHoliday.Localization;
 using System;
-using System.Collections.Generic;
 using System.Globalization;
+using PublicHoliday.Localization;
 
 namespace PublicHoliday
 {
     /// <summary>
-    /// A holiday
+    /// A single occurrence of a holiday. Plain value object: the culture-aware name resolution
+    /// policy lives in <see cref="HolidayNameResolver"/>.
     /// </summary>
-    public class Holiday
+    public class Holiday : IHoliday
     {
-
-        internal static LocalizedProviderString LocalizedProviderString = new LocalizedProviderString(new ResourceProviderXDocument());
         private readonly string _localName;
 
-        /// <summary>
-        /// Constructs the holiday with a date and invariant name
-        /// </summary>
-        /// <param name="date"></param>
-        /// <param name="englishName"></param>
-        public Holiday(DateTime date, string englishName)
+        private Holiday(DateTime date, DateTime observedDate, string englishName, string localName,
+            string holidayKey, bool isPublic, string[] regions)
         {
             HolidayDate = date;
-            ObservedDate = HolidayDate;
+            ObservedDate = observedDate;
             EnglishName = englishName;
-            IsPublic = true;
+            _localName = localName;
+            HolidayKey = holidayKey;
+            IsPublic = isPublic;
+            Regions = regions;
         }
 
         /// <summary>
-        /// Constructs the holiday with a date, invariant name and localized name
+        /// A holiday observed on the day it falls, with an English name.
         /// </summary>
-        /// <param name="date"></param>
-        /// <param name="englishName"></param>
-        /// <param name="localName"></param>
-        public Holiday(DateTime date, string englishName, string localName)
+        /// <param name="date">The date it falls on, which is also the date it is observed.</param>
+        /// <param name="englishName">The English name.</param>
+        public Holiday(DateTime date, string englishName)
+            : this(date, date, englishName, null, null, true, null)
         {
-            HolidayDate = date;
-            ObservedDate = HolidayDate;
-            EnglishName = englishName;
-            _localName = localName;
-            IsPublic = true;
+        }
+
+        /// <summary>
+        /// A holiday observed on the day it falls, with an English name and a name in the country's own
+        /// language.
+        /// </summary>
+        /// <param name="date">The date it falls on, which is also the date it is observed.</param>
+        /// <param name="englishName">The English name.</param>
+        /// <param name="localName">The name in the country's own language.</param>
+        public Holiday(DateTime date, string englishName, string localName)
+            : this(date, date, englishName, localName, null, true, null)
+        {
         }
 
         /// <summary>
@@ -48,10 +52,8 @@ namespace PublicHoliday
         /// <param name="date">The date of the current holiday</param>
         /// <param name="observedDate">The date the current holiday is observed on</param>
         public Holiday(DateTime date, DateTime observedDate)
+            : this(date, observedDate, null, null, null, true, null)
         {
-            HolidayDate = date;
-            ObservedDate = observedDate;
-            IsPublic = true;
         }
 
         /// <summary>
@@ -59,30 +61,35 @@ namespace PublicHoliday
         /// </summary>
         /// <param name="date">The date of the current holiday</param>
         /// <param name="observedDate">The date the current holiday is observed on</param>
-        /// <param name="idTextLocalization">The Id of text for the Localization</param>
-        public Holiday(DateTime date, DateTime observedDate, string idTextLocalization)
+        /// <param name="holidayKey">The Id of text for the Localization</param>
+        public Holiday(DateTime date, DateTime observedDate, string holidayKey)
+            : this(date, observedDate, null, null, holidayKey, true, null)
         {
-            HolidayDate = date;
-            ObservedDate = observedDate;
-            IdTextLocalization = idTextLocalization;
-            IsPublic = true;
         }
 
         /// <summary>
-        /// Constructs the holiday
+        /// Constructs the holiday with an observed date, a local-language name and a localization id.
         /// </summary>
         /// <param name="date">The date of the current holiday</param>
-        /// <param name="englishName"></param>
-        /// <param name="localName"></param>
-        /// <param name="regions">Names of regions of the country where this holiday exists</param>
-        public Holiday(DateTime date, string englishName, string localName, string[] regions)
+        /// <param name="observedDate">The date the current holiday is observed on</param>
+        /// <param name="localName">The name in the country's own language</param>
+        /// <param name="holidayKey">The Id of text for the Localization</param>
+        public Holiday(DateTime date, DateTime observedDate, string localName, string holidayKey)
+            : this(date, observedDate, null, localName, holidayKey, true, null)
         {
-            HolidayDate = date;
-            ObservedDate = HolidayDate;
-            EnglishName = englishName;
-            _localName = localName;
-            IsPublic = false;
-            Regions = regions;
+        }
+
+        /// <summary>
+        /// A holiday observed in only part of the country: <see cref="IsPublic"/> is false and
+        /// <see cref="Regions"/> names where it applies.
+        /// </summary>
+        /// <param name="date">The date it falls on, which is also the date it is observed.</param>
+        /// <param name="englishName">The English name.</param>
+        /// <param name="localName">The name in the country's own language.</param>
+        /// <param name="regions">The regions of the country that observe it.</param>
+        public Holiday(DateTime date, string englishName, string localName, string[] regions)
+            : this(date, date, englishName, localName, null, false, regions)
+        {
         }
 
         /// <summary>
@@ -101,22 +108,47 @@ namespace PublicHoliday
         public string EnglishName { get; set; }
 
         /// <summary>
-        /// Localized name. May be <see cref="EnglishName"/>
+        /// The name in the calendar's <see cref="Culture"/> - what that country calls it. Falls
+        /// back to <see cref="EnglishName"/>. Use <see cref="GetName(CultureInfo)"/> to ask for a
+        /// particular language instead.
         /// </summary>
         public string Name
         {
-            get
-            {
-                if (!string.IsNullOrEmpty(_localName)) return _localName;
-                if (!string.IsNullOrEmpty(EnglishName)) return EnglishName;
-                return GetName();
-            }
+            get { return HolidayNameResolver.Name(this); }
         }
+
+        /// <summary>
+        /// The name the calendar set in code, if any - null for the great majority, which take their name
+        /// from the resource file for their culture.
+        /// </summary>
+        internal string LocalName
+        {
+            get { return _localName; }
+        }
+
+        /// <summary>
+        /// Which day of a multi-day holiday this is, counting from 1; 0 when the holiday lasts a day.
+        /// Substituted into a name containing "{0}" - see <see cref="Name"/>.
+        /// </summary>
+        internal int DayNumber { get; set; }
+
+        /// <summary>
+        /// Which calendar produced this holiday, so a calendar that words a holiday differently from the
+        /// culture it shares can be given its own resource file. Set by the calendar.
+        /// </summary>
+        internal string CalendarId { get; set; }
 
         /// <summary>
         /// Id of text for the localization
         /// </summary>
-        public string IdTextLocalization { get; set; }
+        public string HolidayKey { get; set; }
+
+        /// <summary>
+        /// The language this holiday's <see cref="Name"/> is in, and the fallback for
+        /// <see cref="GetName(CultureInfo)"/>. Set by the calendar that produced it (see
+        /// <see cref="PublicHolidayBase.Culture"/>).
+        /// </summary>
+        public CultureInfo Culture { get; set; }
 
         /// <summary>
         /// Is the holiday a public holiday for all regions
@@ -129,21 +161,20 @@ namespace PublicHoliday
         public string[] Regions { get; set; }
 
         /// <summary>
-        /// Name from CultureInfo for the current holiday
-        /// If not find Empty
+        /// Localized name for the given culture; see <see cref="HolidayNameResolver"/> for the
+        /// resolution order. Never returns an empty string when a name exists anywhere.
         /// </summary>
         public string GetName(CultureInfo culture)
         {
-            return LocalizedProviderString.GetLocalized(IdTextLocalization, culture);
+            return HolidayNameResolver.Name(this, culture);
         }
 
         /// <summary>
-        /// Name for the current holiday
-        /// If not find Empty
+        /// Localized name for the given culture name (e.g. "fr-BE"). See <see cref="GetName(CultureInfo)"/>.
         /// </summary>
-        public string GetName()
+        public string GetName(string culture)
         {
-            return LocalizedProviderString.GetLocalized(IdTextLocalization);
+            return GetName(string.IsNullOrEmpty(culture) ? null : new CultureInfo(culture));
         }
 
         /// <summary>
@@ -178,31 +209,9 @@ namespace PublicHoliday
         /// <summary>
         /// The holiday name and date(s)
         /// </summary>
-        /// <returns></returns>
         public override string ToString()
         {
             return $"{Name} {ObservedDate:yyyy-MM-dd} {HolidayDate:yyyy-MM-dd}";
         }
     }
-
-#if !NET6_0_OR_GREATER
-    internal static class LinqExtensions
-    {
-        /// <summary>
-        /// Implementation of net 6 DistinctBy for older versions of .net
-        /// </summary>
-        public static IEnumerable<TSource> DistinctBy<TSource, TKey>(this IEnumerable<TSource> source,
-            Func<TSource, TKey> keySelector)
-        {
-            var keys = new HashSet<TKey>();
-            foreach (var element in source)
-            {
-                if (keys.Contains(keySelector(element))) continue;
-                keys.Add(keySelector(element));
-                yield return element;
-            }
-        }
-    }
-#endif
-
 }

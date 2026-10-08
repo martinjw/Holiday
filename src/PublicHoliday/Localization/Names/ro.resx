@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Assumption" xml:space="preserve"><value>Sfânta Maria Mare</value></data>
+  <data name="ChildrensDayRO" xml:space="preserve"><value>Ziua Copilului</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Crăciunul</value></data>
+  <data name="DayAfterNewYear" xml:space="preserve"><value>Anul nou</value></data>
+  <data name="Easter" xml:space="preserve"><value>Paștele</value></data>
+  <data name="EasterMonday" xml:space="preserve"><value>Paștele</value></data>
+  <data name="EpiphanyRO" xml:space="preserve"><value>Bobotează</value></data>
+  <data name="GoodFriday" xml:space="preserve"><value>Vinerea Mare</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Ziua Muncii</value></data>
+  <data name="NationalDayRO" xml:space="preserve"><value>Ziua Națională a României</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Anul nou</value></data>
+  <data name="PentecostMonday" xml:space="preserve"><value>Rusaliile</value></data>
+  <data name="SaintAndrewDayRO" xml:space="preserve"><value>Sfântul Andrei</value></data>
+  <data name="SaintJohnBaptistRO" xml:space="preserve"><value>Sfântul Ion</value></data>
+  <data name="SaintStephensDay" xml:space="preserve"><value>Crăciunul</value></data>
+  <data name="UnificationDayRO" xml:space="preserve"><value>Unirea Principatelor Române</value></data>
+  <data name="WhitSunday" xml:space="preserve"><value>Rusaliile</value></data>
+</root>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Christmas" xml:space="preserve"><value>První svátek vánoční</value></data>
+  <data name="ChristmasEve" xml:space="preserve"><value>Štědrý den</value></data>
+  <data name="CyrilAndMethodiusDay" xml:space="preserve"><value>Den slovanských věrozvěstů Cyrila a Metoděje</value></data>
+  <data name="CzechEstablishmentDay" xml:space="preserve"><value>Den obnovy samostatného českého státu</value></data>
+  <data name="CzechStatehoodDay" xml:space="preserve"><value>Den české státnosti</value></data>
+  <data name="EasterMonday" xml:space="preserve"><value>Pondělí Velikonoční</value></data>
+  <data name="FreedomAndDemocracyDayCS" xml:space="preserve"><value>Den boje za svobodu a demokracii</value></data>
+  <data name="GoodFriday" xml:space="preserve"><value>Velký Pátek</value></data>
+  <data name="IndependentCzechoslovakStateDayCS" xml:space="preserve"><value>Den vzniku samostatného československého státu</value></data>
+  <data name="JanHusDayCZ" xml:space="preserve"><value>Den upálení mistra Jana Husa</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Svátek práce</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Nový Rok</value></data>
+  <data name="SaintStephensDay" xml:space="preserve"><value>Druhý svátek vánoční</value></data>
+  <data name="SovietLiberationDayCS" xml:space="preserve"><value>Výročí osvobození Československa Sovětskou armádou</value></data>
+  <data name="VictoryInEuropeDay" xml:space="preserve"><value>Den osvobození</value></data>
+</root>

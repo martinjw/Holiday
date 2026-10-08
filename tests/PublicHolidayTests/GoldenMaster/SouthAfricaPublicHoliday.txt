@@ -1,0 +1,722 @@
+1990|1990-01-01T00:00:00|1990-01-01T00:00:00|New Year|New Year|NewYear|True|
+1990|1990-03-21T00:00:00|1990-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+1990|1990-04-13T00:00:00|1990-04-13T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+1990|1990-04-16T00:00:00|1990-04-16T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+1990|1990-04-27T00:00:00|1990-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+1990|1990-05-01T00:00:00|1990-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+1990|1990-06-16T00:00:00|1990-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+1990|1990-08-09T00:00:00|1990-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+1990|1990-09-24T00:00:00|1990-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+1990|1990-12-16T00:00:00|1990-12-17T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+1990|1990-12-25T00:00:00|1990-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+1990|1990-12-26T00:00:00|1990-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+1991|1991-01-01T00:00:00|1991-01-01T00:00:00|New Year|New Year|NewYear|True|
+1991|1991-03-21T00:00:00|1991-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+1991|1991-03-29T00:00:00|1991-03-29T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+1991|1991-04-01T00:00:00|1991-04-01T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+1991|1991-04-27T00:00:00|1991-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+1991|1991-05-01T00:00:00|1991-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+1991|1991-06-16T00:00:00|1991-06-17T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+1991|1991-08-09T00:00:00|1991-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+1991|1991-09-24T00:00:00|1991-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+1991|1991-12-16T00:00:00|1991-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+1991|1991-12-25T00:00:00|1991-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+1991|1991-12-26T00:00:00|1991-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+1992|1992-01-01T00:00:00|1992-01-01T00:00:00|New Year|New Year|NewYear|True|
+1992|1992-03-21T00:00:00|1992-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+1992|1992-04-17T00:00:00|1992-04-17T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+1992|1992-04-20T00:00:00|1992-04-20T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+1992|1992-04-27T00:00:00|1992-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+1992|1992-05-01T00:00:00|1992-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+1992|1992-06-16T00:00:00|1992-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+1992|1992-08-09T00:00:00|1992-08-10T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+1992|1992-09-24T00:00:00|1992-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+1992|1992-12-16T00:00:00|1992-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+1992|1992-12-25T00:00:00|1992-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+1992|1992-12-26T00:00:00|1992-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+1993|1993-01-01T00:00:00|1993-01-01T00:00:00|New Year|New Year|NewYear|True|
+1993|1993-03-21T00:00:00|1993-03-22T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+1993|1993-04-09T00:00:00|1993-04-09T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+1993|1993-04-12T00:00:00|1993-04-12T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+1993|1993-04-27T00:00:00|1993-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+1993|1993-05-01T00:00:00|1993-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+1993|1993-06-16T00:00:00|1993-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+1993|1993-08-09T00:00:00|1993-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+1993|1993-09-24T00:00:00|1993-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+1993|1993-12-16T00:00:00|1993-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+1993|1993-12-25T00:00:00|1993-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+1993|1993-12-26T00:00:00|1993-12-27T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+1994|1994-01-01T00:00:00|1994-01-01T00:00:00|New Year|New Year|NewYear|True|
+1994|1994-03-21T00:00:00|1994-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+1994|1994-04-01T00:00:00|1994-04-01T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+1994|1994-04-04T00:00:00|1994-04-04T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+1994|1994-04-27T00:00:00|1994-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+1994|1994-05-01T00:00:00|1994-05-02T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+1994|1994-06-16T00:00:00|1994-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+1994|1994-08-09T00:00:00|1994-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+1994|1994-09-24T00:00:00|1994-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+1994|1994-12-16T00:00:00|1994-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+1994|1994-12-25T00:00:00|1994-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+1994|1994-12-26T00:00:00|1994-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+1995|1995-01-01T00:00:00|1995-01-02T00:00:00|New Year|New Year|NewYear|True|
+1995|1995-03-21T00:00:00|1995-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+1995|1995-04-14T00:00:00|1995-04-14T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+1995|1995-04-17T00:00:00|1995-04-17T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+1995|1995-04-27T00:00:00|1995-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+1995|1995-05-01T00:00:00|1995-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+1995|1995-06-16T00:00:00|1995-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+1995|1995-08-09T00:00:00|1995-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+1995|1995-09-24T00:00:00|1995-09-25T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+1995|1995-12-16T00:00:00|1995-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+1995|1995-12-25T00:00:00|1995-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+1995|1995-12-26T00:00:00|1995-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+1996|1996-01-01T00:00:00|1996-01-01T00:00:00|New Year|New Year|NewYear|True|
+1996|1996-03-21T00:00:00|1996-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+1996|1996-04-05T00:00:00|1996-04-05T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+1996|1996-04-08T00:00:00|1996-04-08T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+1996|1996-04-27T00:00:00|1996-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+1996|1996-05-01T00:00:00|1996-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+1996|1996-06-16T00:00:00|1996-06-17T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+1996|1996-08-09T00:00:00|1996-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+1996|1996-09-24T00:00:00|1996-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+1996|1996-12-16T00:00:00|1996-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+1996|1996-12-25T00:00:00|1996-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+1996|1996-12-26T00:00:00|1996-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+1997|1997-01-01T00:00:00|1997-01-01T00:00:00|New Year|New Year|NewYear|True|
+1997|1997-03-21T00:00:00|1997-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+1997|1997-03-28T00:00:00|1997-03-28T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+1997|1997-03-31T00:00:00|1997-03-31T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+1997|1997-04-27T00:00:00|1997-04-28T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+1997|1997-05-01T00:00:00|1997-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+1997|1997-06-16T00:00:00|1997-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+1997|1997-08-09T00:00:00|1997-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+1997|1997-09-24T00:00:00|1997-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+1997|1997-12-16T00:00:00|1997-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+1997|1997-12-25T00:00:00|1997-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+1997|1997-12-26T00:00:00|1997-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+1998|1998-01-01T00:00:00|1998-01-01T00:00:00|New Year|New Year|NewYear|True|
+1998|1998-03-21T00:00:00|1998-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+1998|1998-04-10T00:00:00|1998-04-10T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+1998|1998-04-13T00:00:00|1998-04-13T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+1998|1998-04-27T00:00:00|1998-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+1998|1998-05-01T00:00:00|1998-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+1998|1998-06-16T00:00:00|1998-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+1998|1998-08-09T00:00:00|1998-08-10T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+1998|1998-09-24T00:00:00|1998-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+1998|1998-12-16T00:00:00|1998-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+1998|1998-12-25T00:00:00|1998-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+1998|1998-12-26T00:00:00|1998-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+1999|1999-01-01T00:00:00|1999-01-01T00:00:00|New Year|New Year|NewYear|True|
+1999|1999-03-21T00:00:00|1999-03-22T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+1999|1999-04-02T00:00:00|1999-04-02T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+1999|1999-04-05T00:00:00|1999-04-05T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+1999|1999-04-27T00:00:00|1999-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+1999|1999-05-01T00:00:00|1999-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+1999|1999-06-16T00:00:00|1999-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+1999|1999-08-09T00:00:00|1999-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+1999|1999-09-24T00:00:00|1999-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+1999|1999-12-16T00:00:00|1999-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+1999|1999-12-25T00:00:00|1999-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+1999|1999-12-26T00:00:00|1999-12-27T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2000|2000-01-01T00:00:00|2000-01-01T00:00:00|New Year|New Year|NewYear|True|
+2000|2000-03-21T00:00:00|2000-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2000|2000-04-21T00:00:00|2000-04-21T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2000|2000-04-24T00:00:00|2000-04-24T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2000|2000-04-27T00:00:00|2000-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2000|2000-06-16T00:00:00|2000-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2000|2000-08-09T00:00:00|2000-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2000|2000-09-24T00:00:00|2000-09-25T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2000|2000-12-16T00:00:00|2000-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2000|2000-12-25T00:00:00|2000-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2000|2000-12-26T00:00:00|2000-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2001|2001-01-01T00:00:00|2001-01-01T00:00:00|New Year|New Year|NewYear|True|
+2001|2001-03-21T00:00:00|2001-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2001|2001-04-13T00:00:00|2001-04-13T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2001|2001-04-16T00:00:00|2001-04-16T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2001|2001-04-27T00:00:00|2001-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2001|2001-05-01T00:00:00|2001-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2001|2001-06-16T00:00:00|2001-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2001|2001-08-09T00:00:00|2001-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2001|2001-09-24T00:00:00|2001-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2001|2001-12-16T00:00:00|2001-12-17T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2001|2001-12-25T00:00:00|2001-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2001|2001-12-26T00:00:00|2001-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2002|2002-01-01T00:00:00|2002-01-01T00:00:00|New Year|New Year|NewYear|True|
+2002|2002-03-21T00:00:00|2002-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2002|2002-03-29T00:00:00|2002-03-29T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2002|2002-04-01T00:00:00|2002-04-01T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2002|2002-04-27T00:00:00|2002-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2002|2002-05-01T00:00:00|2002-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2002|2002-06-16T00:00:00|2002-06-17T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2002|2002-08-09T00:00:00|2002-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2002|2002-09-24T00:00:00|2002-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2002|2002-12-16T00:00:00|2002-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2002|2002-12-25T00:00:00|2002-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2002|2002-12-26T00:00:00|2002-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2003|2003-01-01T00:00:00|2003-01-01T00:00:00|New Year|New Year|NewYear|True|
+2003|2003-03-21T00:00:00|2003-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2003|2003-04-18T00:00:00|2003-04-18T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2003|2003-04-21T00:00:00|2003-04-21T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2003|2003-04-27T00:00:00|2003-04-28T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2003|2003-05-01T00:00:00|2003-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2003|2003-06-16T00:00:00|2003-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2003|2003-08-09T00:00:00|2003-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2003|2003-09-24T00:00:00|2003-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2003|2003-12-16T00:00:00|2003-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2003|2003-12-25T00:00:00|2003-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2003|2003-12-26T00:00:00|2003-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2004|2004-01-01T00:00:00|2004-01-01T00:00:00|New Year|New Year|NewYear|True|
+2004|2004-03-21T00:00:00|2004-03-22T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2004|2004-04-09T00:00:00|2004-04-09T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2004|2004-04-12T00:00:00|2004-04-12T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2004|2004-04-27T00:00:00|2004-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2004|2004-05-01T00:00:00|2004-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2004|2004-06-16T00:00:00|2004-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2004|2004-08-09T00:00:00|2004-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2004|2004-09-24T00:00:00|2004-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2004|2004-12-16T00:00:00|2004-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2004|2004-12-25T00:00:00|2004-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2004|2004-12-26T00:00:00|2004-12-27T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2005|2005-01-01T00:00:00|2005-01-01T00:00:00|New Year|New Year|NewYear|True|
+2005|2005-03-21T00:00:00|2005-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2005|2005-03-25T00:00:00|2005-03-25T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2005|2005-03-28T00:00:00|2005-03-28T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2005|2005-04-27T00:00:00|2005-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2005|2005-05-01T00:00:00|2005-05-02T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2005|2005-06-16T00:00:00|2005-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2005|2005-08-09T00:00:00|2005-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2005|2005-09-24T00:00:00|2005-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2005|2005-12-16T00:00:00|2005-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2005|2005-12-25T00:00:00|2005-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2005|2005-12-26T00:00:00|2005-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2006|2006-01-01T00:00:00|2006-01-02T00:00:00|New Year|New Year|NewYear|True|
+2006|2006-03-21T00:00:00|2006-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2006|2006-04-14T00:00:00|2006-04-14T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2006|2006-04-17T00:00:00|2006-04-17T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2006|2006-04-27T00:00:00|2006-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2006|2006-05-01T00:00:00|2006-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2006|2006-06-16T00:00:00|2006-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2006|2006-08-09T00:00:00|2006-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2006|2006-09-24T00:00:00|2006-09-25T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2006|2006-12-16T00:00:00|2006-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2006|2006-12-25T00:00:00|2006-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2006|2006-12-26T00:00:00|2006-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2007|2007-01-01T00:00:00|2007-01-01T00:00:00|New Year|New Year|NewYear|True|
+2007|2007-03-21T00:00:00|2007-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2007|2007-04-06T00:00:00|2007-04-06T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2007|2007-04-09T00:00:00|2007-04-09T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2007|2007-04-27T00:00:00|2007-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2007|2007-05-01T00:00:00|2007-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2007|2007-06-16T00:00:00|2007-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2007|2007-08-09T00:00:00|2007-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2007|2007-09-24T00:00:00|2007-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2007|2007-12-16T00:00:00|2007-12-17T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2007|2007-12-25T00:00:00|2007-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2007|2007-12-26T00:00:00|2007-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2008|2008-01-01T00:00:00|2008-01-01T00:00:00|New Year|New Year|NewYear|True|
+2008|2008-03-21T00:00:00|2008-03-21T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2008|2008-03-21T00:00:00|2008-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2008|2008-03-24T00:00:00|2008-03-24T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2008|2008-04-27T00:00:00|2008-04-28T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2008|2008-05-01T00:00:00|2008-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2008|2008-06-16T00:00:00|2008-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2008|2008-08-09T00:00:00|2008-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2008|2008-09-24T00:00:00|2008-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2008|2008-12-16T00:00:00|2008-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2008|2008-12-25T00:00:00|2008-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2008|2008-12-26T00:00:00|2008-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2009|2009-01-01T00:00:00|2009-01-01T00:00:00|New Year|New Year|NewYear|True|
+2009|2009-03-21T00:00:00|2009-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2009|2009-04-10T00:00:00|2009-04-10T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2009|2009-04-13T00:00:00|2009-04-13T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2009|2009-04-27T00:00:00|2009-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2009|2009-05-01T00:00:00|2009-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2009|2009-06-16T00:00:00|2009-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2009|2009-08-09T00:00:00|2009-08-10T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2009|2009-09-24T00:00:00|2009-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2009|2009-12-16T00:00:00|2009-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2009|2009-12-25T00:00:00|2009-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2009|2009-12-26T00:00:00|2009-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2010|2010-01-01T00:00:00|2010-01-01T00:00:00|New Year|New Year|NewYear|True|
+2010|2010-03-21T00:00:00|2010-03-22T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2010|2010-04-02T00:00:00|2010-04-02T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2010|2010-04-05T00:00:00|2010-04-05T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2010|2010-04-27T00:00:00|2010-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2010|2010-05-01T00:00:00|2010-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2010|2010-06-16T00:00:00|2010-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2010|2010-08-09T00:00:00|2010-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2010|2010-09-24T00:00:00|2010-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2010|2010-12-16T00:00:00|2010-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2010|2010-12-25T00:00:00|2010-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2010|2010-12-26T00:00:00|2010-12-27T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2011|2011-01-01T00:00:00|2011-01-01T00:00:00|New Year|New Year|NewYear|True|
+2011|2011-03-21T00:00:00|2011-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2011|2011-04-22T00:00:00|2011-04-22T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2011|2011-04-25T00:00:00|2011-04-25T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2011|2011-04-27T00:00:00|2011-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2011|2011-05-01T00:00:00|2011-05-02T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2011|2011-06-16T00:00:00|2011-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2011|2011-08-09T00:00:00|2011-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2011|2011-09-24T00:00:00|2011-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2011|2011-12-16T00:00:00|2011-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2011|2011-12-25T00:00:00|2011-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2011|2011-12-26T00:00:00|2011-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2012|2012-01-01T00:00:00|2012-01-02T00:00:00|New Year|New Year|NewYear|True|
+2012|2012-03-21T00:00:00|2012-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2012|2012-04-06T00:00:00|2012-04-06T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2012|2012-04-09T00:00:00|2012-04-09T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2012|2012-04-27T00:00:00|2012-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2012|2012-05-01T00:00:00|2012-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2012|2012-06-16T00:00:00|2012-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2012|2012-08-09T00:00:00|2012-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2012|2012-09-24T00:00:00|2012-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2012|2012-12-16T00:00:00|2012-12-17T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2012|2012-12-25T00:00:00|2012-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2012|2012-12-26T00:00:00|2012-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2013|2013-01-01T00:00:00|2013-01-01T00:00:00|New Year|New Year|NewYear|True|
+2013|2013-03-21T00:00:00|2013-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2013|2013-03-29T00:00:00|2013-03-29T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2013|2013-04-01T00:00:00|2013-04-01T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2013|2013-04-27T00:00:00|2013-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2013|2013-05-01T00:00:00|2013-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2013|2013-06-16T00:00:00|2013-06-17T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2013|2013-08-09T00:00:00|2013-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2013|2013-09-24T00:00:00|2013-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2013|2013-12-16T00:00:00|2013-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2013|2013-12-25T00:00:00|2013-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2013|2013-12-26T00:00:00|2013-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2014|2014-01-01T00:00:00|2014-01-01T00:00:00|New Year|New Year|NewYear|True|
+2014|2014-03-21T00:00:00|2014-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2014|2014-04-18T00:00:00|2014-04-18T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2014|2014-04-21T00:00:00|2014-04-21T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2014|2014-04-27T00:00:00|2014-04-28T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2014|2014-05-01T00:00:00|2014-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2014|2014-06-16T00:00:00|2014-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2014|2014-08-09T00:00:00|2014-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2014|2014-09-24T00:00:00|2014-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2014|2014-12-16T00:00:00|2014-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2014|2014-12-25T00:00:00|2014-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2014|2014-12-26T00:00:00|2014-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2015|2015-01-01T00:00:00|2015-01-01T00:00:00|New Year|New Year|NewYear|True|
+2015|2015-03-21T00:00:00|2015-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2015|2015-04-03T00:00:00|2015-04-03T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2015|2015-04-06T00:00:00|2015-04-06T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2015|2015-04-27T00:00:00|2015-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2015|2015-05-01T00:00:00|2015-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2015|2015-06-16T00:00:00|2015-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2015|2015-08-09T00:00:00|2015-08-10T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2015|2015-09-24T00:00:00|2015-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2015|2015-12-16T00:00:00|2015-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2015|2015-12-25T00:00:00|2015-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2015|2015-12-26T00:00:00|2015-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2016|2016-01-01T00:00:00|2016-01-01T00:00:00|New Year|New Year|NewYear|True|
+2016|2016-03-21T00:00:00|2016-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2016|2016-03-25T00:00:00|2016-03-25T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2016|2016-03-28T00:00:00|2016-03-28T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2016|2016-04-27T00:00:00|2016-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2016|2016-05-01T00:00:00|2016-05-02T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2016|2016-06-16T00:00:00|2016-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2016|2016-08-09T00:00:00|2016-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2016|2016-09-24T00:00:00|2016-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2016|2016-12-16T00:00:00|2016-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2016|2016-12-25T00:00:00|2016-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2016|2016-12-26T00:00:00|2016-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2017|2017-01-01T00:00:00|2017-01-02T00:00:00|New Year|New Year|NewYear|True|
+2017|2017-03-21T00:00:00|2017-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2017|2017-04-14T00:00:00|2017-04-14T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2017|2017-04-17T00:00:00|2017-04-17T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2017|2017-04-27T00:00:00|2017-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2017|2017-05-01T00:00:00|2017-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2017|2017-06-16T00:00:00|2017-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2017|2017-08-09T00:00:00|2017-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2017|2017-09-24T00:00:00|2017-09-25T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2017|2017-12-16T00:00:00|2017-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2017|2017-12-25T00:00:00|2017-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2017|2017-12-26T00:00:00|2017-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2018|2018-01-01T00:00:00|2018-01-01T00:00:00|New Year|New Year|NewYear|True|
+2018|2018-03-21T00:00:00|2018-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2018|2018-03-30T00:00:00|2018-03-30T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2018|2018-04-02T00:00:00|2018-04-02T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2018|2018-04-27T00:00:00|2018-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2018|2018-05-01T00:00:00|2018-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2018|2018-06-16T00:00:00|2018-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2018|2018-08-09T00:00:00|2018-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2018|2018-09-24T00:00:00|2018-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2018|2018-12-16T00:00:00|2018-12-17T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2018|2018-12-25T00:00:00|2018-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2018|2018-12-26T00:00:00|2018-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2019|2019-01-01T00:00:00|2019-01-01T00:00:00|New Year|New Year|NewYear|True|
+2019|2019-03-21T00:00:00|2019-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2019|2019-04-19T00:00:00|2019-04-19T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2019|2019-04-22T00:00:00|2019-04-22T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2019|2019-04-27T00:00:00|2019-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2019|2019-05-01T00:00:00|2019-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2019|2019-06-16T00:00:00|2019-06-17T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2019|2019-08-09T00:00:00|2019-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2019|2019-09-24T00:00:00|2019-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2019|2019-12-16T00:00:00|2019-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2019|2019-12-25T00:00:00|2019-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2019|2019-12-26T00:00:00|2019-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2020|2020-01-01T00:00:00|2020-01-01T00:00:00|New Year|New Year|NewYear|True|
+2020|2020-03-21T00:00:00|2020-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2020|2020-04-10T00:00:00|2020-04-10T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2020|2020-04-13T00:00:00|2020-04-13T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2020|2020-04-27T00:00:00|2020-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2020|2020-05-01T00:00:00|2020-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2020|2020-06-16T00:00:00|2020-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2020|2020-08-09T00:00:00|2020-08-10T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2020|2020-09-24T00:00:00|2020-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2020|2020-12-16T00:00:00|2020-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2020|2020-12-25T00:00:00|2020-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2020|2020-12-26T00:00:00|2020-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2021|2021-01-01T00:00:00|2021-01-01T00:00:00|New Year|New Year|NewYear|True|
+2021|2021-03-21T00:00:00|2021-03-22T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2021|2021-04-02T00:00:00|2021-04-02T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2021|2021-04-05T00:00:00|2021-04-05T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2021|2021-04-27T00:00:00|2021-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2021|2021-05-01T00:00:00|2021-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2021|2021-06-16T00:00:00|2021-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2021|2021-08-09T00:00:00|2021-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2021|2021-09-24T00:00:00|2021-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2021|2021-12-16T00:00:00|2021-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2021|2021-12-25T00:00:00|2021-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2021|2021-12-26T00:00:00|2021-12-27T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2022|2022-01-01T00:00:00|2022-01-01T00:00:00|New Year|New Year|NewYear|True|
+2022|2022-03-21T00:00:00|2022-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2022|2022-04-15T00:00:00|2022-04-15T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2022|2022-04-18T00:00:00|2022-04-18T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2022|2022-04-27T00:00:00|2022-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2022|2022-05-01T00:00:00|2022-05-02T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2022|2022-06-16T00:00:00|2022-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2022|2022-08-09T00:00:00|2022-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2022|2022-09-24T00:00:00|2022-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2022|2022-12-16T00:00:00|2022-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2022|2022-12-25T00:00:00|2022-12-26T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2022|2022-12-26T00:00:00|2022-12-27T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2023|2023-01-01T00:00:00|2023-01-02T00:00:00|New Year|New Year|NewYear|True|
+2023|2023-03-21T00:00:00|2023-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2023|2023-04-07T00:00:00|2023-04-07T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2023|2023-04-10T00:00:00|2023-04-10T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2023|2023-04-27T00:00:00|2023-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2023|2023-05-01T00:00:00|2023-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2023|2023-06-16T00:00:00|2023-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2023|2023-08-09T00:00:00|2023-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2023|2023-09-24T00:00:00|2023-09-25T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2023|2023-12-15T00:00:00|2023-12-15T00:00:00|Rugby World Cup celebration|Rugby World Cup celebration|RugbyWorldCupZA|True|
+2023|2023-12-16T00:00:00|2023-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2023|2023-12-25T00:00:00|2023-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2023|2023-12-26T00:00:00|2023-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2024|2024-01-01T00:00:00|2024-01-01T00:00:00|New Year|New Year|NewYear|True|
+2024|2024-03-21T00:00:00|2024-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2024|2024-03-29T00:00:00|2024-03-29T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2024|2024-04-01T00:00:00|2024-04-01T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2024|2024-04-27T00:00:00|2024-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2024|2024-05-01T00:00:00|2024-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2024|2024-05-29T00:00:00|2024-05-29T00:00:00|Election day|Election day|ElectionDayZA2024|True|
+2024|2024-06-16T00:00:00|2024-06-17T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2024|2024-08-09T00:00:00|2024-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2024|2024-09-24T00:00:00|2024-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2024|2024-12-16T00:00:00|2024-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2024|2024-12-25T00:00:00|2024-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2024|2024-12-26T00:00:00|2024-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2025|2025-01-01T00:00:00|2025-01-01T00:00:00|New Year|New Year|NewYear|True|
+2025|2025-03-21T00:00:00|2025-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2025|2025-04-18T00:00:00|2025-04-18T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2025|2025-04-21T00:00:00|2025-04-21T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2025|2025-04-27T00:00:00|2025-04-28T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2025|2025-05-01T00:00:00|2025-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2025|2025-06-16T00:00:00|2025-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2025|2025-08-09T00:00:00|2025-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2025|2025-09-24T00:00:00|2025-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2025|2025-12-16T00:00:00|2025-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2025|2025-12-25T00:00:00|2025-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2025|2025-12-26T00:00:00|2025-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2026|2026-01-01T00:00:00|2026-01-01T00:00:00|New Year|New Year|NewYear|True|
+2026|2026-03-21T00:00:00|2026-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2026|2026-04-03T00:00:00|2026-04-03T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2026|2026-04-06T00:00:00|2026-04-06T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2026|2026-04-27T00:00:00|2026-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2026|2026-05-01T00:00:00|2026-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2026|2026-06-16T00:00:00|2026-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2026|2026-08-09T00:00:00|2026-08-10T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2026|2026-09-24T00:00:00|2026-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2026|2026-12-16T00:00:00|2026-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2026|2026-12-25T00:00:00|2026-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2026|2026-12-26T00:00:00|2026-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2027|2027-01-01T00:00:00|2027-01-01T00:00:00|New Year|New Year|NewYear|True|
+2027|2027-03-21T00:00:00|2027-03-22T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2027|2027-03-26T00:00:00|2027-03-26T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2027|2027-03-29T00:00:00|2027-03-29T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2027|2027-04-27T00:00:00|2027-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2027|2027-05-01T00:00:00|2027-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2027|2027-06-16T00:00:00|2027-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2027|2027-08-09T00:00:00|2027-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2027|2027-09-24T00:00:00|2027-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2027|2027-12-16T00:00:00|2027-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2027|2027-12-25T00:00:00|2027-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2027|2027-12-26T00:00:00|2027-12-27T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2028|2028-01-01T00:00:00|2028-01-01T00:00:00|New Year|New Year|NewYear|True|
+2028|2028-03-21T00:00:00|2028-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2028|2028-04-14T00:00:00|2028-04-14T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2028|2028-04-17T00:00:00|2028-04-17T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2028|2028-04-27T00:00:00|2028-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2028|2028-05-01T00:00:00|2028-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2028|2028-06-16T00:00:00|2028-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2028|2028-08-09T00:00:00|2028-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2028|2028-09-24T00:00:00|2028-09-25T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2028|2028-12-16T00:00:00|2028-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2028|2028-12-25T00:00:00|2028-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2028|2028-12-26T00:00:00|2028-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2029|2029-01-01T00:00:00|2029-01-01T00:00:00|New Year|New Year|NewYear|True|
+2029|2029-03-21T00:00:00|2029-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2029|2029-03-30T00:00:00|2029-03-30T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2029|2029-04-02T00:00:00|2029-04-02T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2029|2029-04-27T00:00:00|2029-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2029|2029-05-01T00:00:00|2029-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2029|2029-06-16T00:00:00|2029-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2029|2029-08-09T00:00:00|2029-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2029|2029-09-24T00:00:00|2029-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2029|2029-12-16T00:00:00|2029-12-17T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2029|2029-12-25T00:00:00|2029-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2029|2029-12-26T00:00:00|2029-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2030|2030-01-01T00:00:00|2030-01-01T00:00:00|New Year|New Year|NewYear|True|
+2030|2030-03-21T00:00:00|2030-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2030|2030-04-19T00:00:00|2030-04-19T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2030|2030-04-22T00:00:00|2030-04-22T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2030|2030-04-27T00:00:00|2030-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2030|2030-05-01T00:00:00|2030-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2030|2030-06-16T00:00:00|2030-06-17T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2030|2030-08-09T00:00:00|2030-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2030|2030-09-24T00:00:00|2030-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2030|2030-12-16T00:00:00|2030-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2030|2030-12-25T00:00:00|2030-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2030|2030-12-26T00:00:00|2030-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2031|2031-01-01T00:00:00|2031-01-01T00:00:00|New Year|New Year|NewYear|True|
+2031|2031-03-21T00:00:00|2031-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2031|2031-04-11T00:00:00|2031-04-11T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2031|2031-04-14T00:00:00|2031-04-14T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2031|2031-04-27T00:00:00|2031-04-28T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2031|2031-05-01T00:00:00|2031-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2031|2031-06-16T00:00:00|2031-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2031|2031-08-09T00:00:00|2031-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2031|2031-09-24T00:00:00|2031-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2031|2031-12-16T00:00:00|2031-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2031|2031-12-25T00:00:00|2031-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2031|2031-12-26T00:00:00|2031-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2032|2032-01-01T00:00:00|2032-01-01T00:00:00|New Year|New Year|NewYear|True|
+2032|2032-03-21T00:00:00|2032-03-22T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2032|2032-03-26T00:00:00|2032-03-26T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2032|2032-03-29T00:00:00|2032-03-29T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2032|2032-04-27T00:00:00|2032-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2032|2032-05-01T00:00:00|2032-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2032|2032-06-16T00:00:00|2032-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2032|2032-08-09T00:00:00|2032-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2032|2032-09-24T00:00:00|2032-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2032|2032-12-16T00:00:00|2032-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2032|2032-12-25T00:00:00|2032-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2032|2032-12-26T00:00:00|2032-12-27T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2033|2033-01-01T00:00:00|2033-01-01T00:00:00|New Year|New Year|NewYear|True|
+2033|2033-03-21T00:00:00|2033-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2033|2033-04-15T00:00:00|2033-04-15T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2033|2033-04-18T00:00:00|2033-04-18T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2033|2033-04-27T00:00:00|2033-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2033|2033-05-01T00:00:00|2033-05-02T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2033|2033-06-16T00:00:00|2033-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2033|2033-08-09T00:00:00|2033-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2033|2033-09-24T00:00:00|2033-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2033|2033-12-16T00:00:00|2033-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2033|2033-12-25T00:00:00|2033-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2033|2033-12-26T00:00:00|2033-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2034|2034-01-01T00:00:00|2034-01-02T00:00:00|New Year|New Year|NewYear|True|
+2034|2034-03-21T00:00:00|2034-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2034|2034-04-07T00:00:00|2034-04-07T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2034|2034-04-10T00:00:00|2034-04-10T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2034|2034-04-27T00:00:00|2034-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2034|2034-05-01T00:00:00|2034-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2034|2034-06-16T00:00:00|2034-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2034|2034-08-09T00:00:00|2034-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2034|2034-09-24T00:00:00|2034-09-25T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2034|2034-12-16T00:00:00|2034-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2034|2034-12-25T00:00:00|2034-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2034|2034-12-26T00:00:00|2034-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2035|2035-01-01T00:00:00|2035-01-01T00:00:00|New Year|New Year|NewYear|True|
+2035|2035-03-21T00:00:00|2035-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2035|2035-03-23T00:00:00|2035-03-23T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2035|2035-03-26T00:00:00|2035-03-26T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2035|2035-04-27T00:00:00|2035-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2035|2035-05-01T00:00:00|2035-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2035|2035-06-16T00:00:00|2035-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2035|2035-08-09T00:00:00|2035-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2035|2035-09-24T00:00:00|2035-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2035|2035-12-16T00:00:00|2035-12-17T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2035|2035-12-25T00:00:00|2035-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2035|2035-12-26T00:00:00|2035-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2036|2036-01-01T00:00:00|2036-01-01T00:00:00|New Year|New Year|NewYear|True|
+2036|2036-03-21T00:00:00|2036-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2036|2036-04-11T00:00:00|2036-04-11T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2036|2036-04-14T00:00:00|2036-04-14T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2036|2036-04-27T00:00:00|2036-04-28T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2036|2036-05-01T00:00:00|2036-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2036|2036-06-16T00:00:00|2036-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2036|2036-08-09T00:00:00|2036-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2036|2036-09-24T00:00:00|2036-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2036|2036-12-16T00:00:00|2036-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2036|2036-12-25T00:00:00|2036-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2036|2036-12-26T00:00:00|2036-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2037|2037-01-01T00:00:00|2037-01-01T00:00:00|New Year|New Year|NewYear|True|
+2037|2037-03-21T00:00:00|2037-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2037|2037-04-03T00:00:00|2037-04-03T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2037|2037-04-06T00:00:00|2037-04-06T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2037|2037-04-27T00:00:00|2037-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2037|2037-05-01T00:00:00|2037-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2037|2037-06-16T00:00:00|2037-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2037|2037-08-09T00:00:00|2037-08-10T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2037|2037-09-24T00:00:00|2037-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2037|2037-12-16T00:00:00|2037-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2037|2037-12-25T00:00:00|2037-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2037|2037-12-26T00:00:00|2037-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2038|2038-01-01T00:00:00|2038-01-01T00:00:00|New Year|New Year|NewYear|True|
+2038|2038-03-21T00:00:00|2038-03-22T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2038|2038-04-23T00:00:00|2038-04-23T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2038|2038-04-26T00:00:00|2038-04-26T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2038|2038-04-27T00:00:00|2038-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2038|2038-05-01T00:00:00|2038-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2038|2038-06-16T00:00:00|2038-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2038|2038-08-09T00:00:00|2038-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2038|2038-09-24T00:00:00|2038-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2038|2038-12-16T00:00:00|2038-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2038|2038-12-25T00:00:00|2038-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2038|2038-12-26T00:00:00|2038-12-27T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2039|2039-01-01T00:00:00|2039-01-01T00:00:00|New Year|New Year|NewYear|True|
+2039|2039-03-21T00:00:00|2039-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2039|2039-04-08T00:00:00|2039-04-08T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2039|2039-04-11T00:00:00|2039-04-11T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2039|2039-04-27T00:00:00|2039-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2039|2039-05-01T00:00:00|2039-05-02T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2039|2039-06-16T00:00:00|2039-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2039|2039-08-09T00:00:00|2039-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2039|2039-09-24T00:00:00|2039-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2039|2039-12-16T00:00:00|2039-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2039|2039-12-25T00:00:00|2039-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2039|2039-12-26T00:00:00|2039-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2040|2040-01-01T00:00:00|2040-01-02T00:00:00|New Year|New Year|NewYear|True|
+2040|2040-03-21T00:00:00|2040-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2040|2040-03-30T00:00:00|2040-03-30T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2040|2040-04-02T00:00:00|2040-04-02T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2040|2040-04-27T00:00:00|2040-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2040|2040-05-01T00:00:00|2040-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2040|2040-06-16T00:00:00|2040-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2040|2040-08-09T00:00:00|2040-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2040|2040-09-24T00:00:00|2040-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2040|2040-12-16T00:00:00|2040-12-17T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2040|2040-12-25T00:00:00|2040-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2040|2040-12-26T00:00:00|2040-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2041|2041-01-01T00:00:00|2041-01-01T00:00:00|New Year|New Year|NewYear|True|
+2041|2041-03-21T00:00:00|2041-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2041|2041-04-19T00:00:00|2041-04-19T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2041|2041-04-22T00:00:00|2041-04-22T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2041|2041-04-27T00:00:00|2041-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2041|2041-05-01T00:00:00|2041-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2041|2041-06-16T00:00:00|2041-06-17T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2041|2041-08-09T00:00:00|2041-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2041|2041-09-24T00:00:00|2041-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2041|2041-12-16T00:00:00|2041-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2041|2041-12-25T00:00:00|2041-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2041|2041-12-26T00:00:00|2041-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2042|2042-01-01T00:00:00|2042-01-01T00:00:00|New Year|New Year|NewYear|True|
+2042|2042-03-21T00:00:00|2042-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2042|2042-04-04T00:00:00|2042-04-04T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2042|2042-04-07T00:00:00|2042-04-07T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2042|2042-04-27T00:00:00|2042-04-28T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2042|2042-05-01T00:00:00|2042-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2042|2042-06-16T00:00:00|2042-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2042|2042-08-09T00:00:00|2042-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2042|2042-09-24T00:00:00|2042-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2042|2042-12-16T00:00:00|2042-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2042|2042-12-25T00:00:00|2042-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2042|2042-12-26T00:00:00|2042-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2043|2043-01-01T00:00:00|2043-01-01T00:00:00|New Year|New Year|NewYear|True|
+2043|2043-03-21T00:00:00|2043-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2043|2043-03-27T00:00:00|2043-03-27T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2043|2043-03-30T00:00:00|2043-03-30T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2043|2043-04-27T00:00:00|2043-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2043|2043-06-16T00:00:00|2043-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2043|2043-08-09T00:00:00|2043-08-10T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2043|2043-09-24T00:00:00|2043-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2043|2043-12-16T00:00:00|2043-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2043|2043-12-25T00:00:00|2043-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2043|2043-12-26T00:00:00|2043-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2044|2044-01-01T00:00:00|2044-01-01T00:00:00|New Year|New Year|NewYear|True|
+2044|2044-03-21T00:00:00|2044-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2044|2044-04-15T00:00:00|2044-04-15T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2044|2044-04-18T00:00:00|2044-04-18T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2044|2044-04-27T00:00:00|2044-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2044|2044-05-01T00:00:00|2044-05-02T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2044|2044-06-16T00:00:00|2044-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2044|2044-08-09T00:00:00|2044-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2044|2044-09-24T00:00:00|2044-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2044|2044-12-16T00:00:00|2044-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2044|2044-12-25T00:00:00|2044-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2044|2044-12-26T00:00:00|2044-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2045|2045-01-01T00:00:00|2045-01-02T00:00:00|New Year|New Year|NewYear|True|
+2045|2045-03-21T00:00:00|2045-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2045|2045-04-07T00:00:00|2045-04-07T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2045|2045-04-10T00:00:00|2045-04-10T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2045|2045-04-27T00:00:00|2045-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2045|2045-05-01T00:00:00|2045-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2045|2045-06-16T00:00:00|2045-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2045|2045-08-09T00:00:00|2045-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2045|2045-09-24T00:00:00|2045-09-25T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2045|2045-12-16T00:00:00|2045-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2045|2045-12-25T00:00:00|2045-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2045|2045-12-26T00:00:00|2045-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2046|2046-01-01T00:00:00|2046-01-01T00:00:00|New Year|New Year|NewYear|True|
+2046|2046-03-21T00:00:00|2046-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2046|2046-03-23T00:00:00|2046-03-23T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2046|2046-03-26T00:00:00|2046-03-26T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2046|2046-04-27T00:00:00|2046-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2046|2046-05-01T00:00:00|2046-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2046|2046-06-16T00:00:00|2046-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2046|2046-08-09T00:00:00|2046-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2046|2046-09-24T00:00:00|2046-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2046|2046-12-16T00:00:00|2046-12-17T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2046|2046-12-25T00:00:00|2046-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2046|2046-12-26T00:00:00|2046-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2047|2047-01-01T00:00:00|2047-01-01T00:00:00|New Year|New Year|NewYear|True|
+2047|2047-03-21T00:00:00|2047-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2047|2047-04-12T00:00:00|2047-04-12T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2047|2047-04-15T00:00:00|2047-04-15T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2047|2047-04-27T00:00:00|2047-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2047|2047-05-01T00:00:00|2047-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2047|2047-06-16T00:00:00|2047-06-17T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2047|2047-08-09T00:00:00|2047-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2047|2047-09-24T00:00:00|2047-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2047|2047-12-16T00:00:00|2047-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2047|2047-12-25T00:00:00|2047-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2047|2047-12-26T00:00:00|2047-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2048|2048-01-01T00:00:00|2048-01-01T00:00:00|New Year|New Year|NewYear|True|
+2048|2048-03-21T00:00:00|2048-03-21T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2048|2048-04-03T00:00:00|2048-04-03T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2048|2048-04-06T00:00:00|2048-04-06T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2048|2048-04-27T00:00:00|2048-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2048|2048-05-01T00:00:00|2048-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2048|2048-06-16T00:00:00|2048-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2048|2048-08-09T00:00:00|2048-08-10T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2048|2048-09-24T00:00:00|2048-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2048|2048-12-16T00:00:00|2048-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2048|2048-12-25T00:00:00|2048-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2048|2048-12-26T00:00:00|2048-12-26T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|
+2049|2049-01-01T00:00:00|2049-01-01T00:00:00|New Year|New Year|NewYear|True|
+2049|2049-03-21T00:00:00|2049-03-22T00:00:00|Human Rights Day|Human Rights Day|HumanRightsDayZA|True|
+2049|2049-04-16T00:00:00|2049-04-16T00:00:00|Good Friday|Good Friday|GoodFriday|True|
+2049|2049-04-19T00:00:00|2049-04-19T00:00:00|Family Day|Family Day|FamilyDayZA|True|
+2049|2049-04-27T00:00:00|2049-04-27T00:00:00|Freedom Day|Freedom Day|FreedomDayZA|True|
+2049|2049-05-01T00:00:00|2049-05-01T00:00:00|Workers' Day|Workers' Day|WorkersDayZA|True|
+2049|2049-06-16T00:00:00|2049-06-16T00:00:00|Youth Day|Youth Day|YouthDayZA|True|
+2049|2049-08-09T00:00:00|2049-08-09T00:00:00|National Women's Day|National Women's Day|WomensDayZA|True|
+2049|2049-09-24T00:00:00|2049-09-24T00:00:00|Heritage Day|Heritage Day|HeritageDayZA|True|
+2049|2049-12-16T00:00:00|2049-12-16T00:00:00|Day of Reconciliation|Day of Reconciliation|ReconciliationDayZA|True|
+2049|2049-12-25T00:00:00|2049-12-25T00:00:00|Christmas Day|Christmas Day|Christmas|True|
+2049|2049-12-26T00:00:00|2049-12-27T00:00:00|Day of Goodwill|Day of Goodwill|DayOfGoodwillZA|True|

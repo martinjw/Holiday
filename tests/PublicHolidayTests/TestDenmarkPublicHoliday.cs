@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
 
@@ -140,14 +141,14 @@ namespace PublicHolidayTests
         public void TestGeneralPrayerDay2023IsListedAsPublicHoliday()
         {
             var holidays = new DenmarkPublicHoliday().PublicHolidayNames(2023);
-            Assert.IsTrue(holidays.Values.Contains("Store bededag"));
+            Assert.IsTrue(holidays.Values.Any(names => names.Contains("Store bededag")));
         }
 
         [TestMethod]
         public void TestGeneralPrayerDay2024IsNotListedAsPublicHoliday()
         {
             var holidays = new DenmarkPublicHoliday().PublicHolidayNames(2024);
-            Assert.IsFalse(holidays.Values.Contains("Store bededag"));
+            Assert.IsFalse(holidays.Values.Any(names => names.Contains("Store bededag")));
         }
 
         [TestMethod]
@@ -189,9 +190,9 @@ namespace PublicHolidayTests
             var holidays = new DenmarkPublicHoliday().PublicHolidayNames(2017);
             Assert.AreEqual(DenmarkPublicHoliday.WhitMonday(2017), DenmarkPublicHoliday.ConstitutionDay(2017));
 
-            var whitMondayName = holidays[DenmarkPublicHoliday.WhitMonday(2017)];
-            Assert.IsNotNull(whitMondayName);
-            Assert.IsTrue(whitMondayName.Contains(","));
+            var whitMondayNames = holidays[DenmarkPublicHoliday.WhitMonday(2017)];
+            Assert.IsNotNull(whitMondayNames);
+            Assert.AreEqual(2, whitMondayNames.Length);
         }
 
         [TestMethod]

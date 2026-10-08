@@ -1,0 +1,569 @@
+1990|1990-01-01T00:00:00|1990-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+1990|1990-03-17T00:00:00|1990-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+1990|1990-04-16T00:00:00|1990-04-16T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+1990|1990-05-07T00:00:00|1990-05-07T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+1990|1990-06-04T00:00:00|1990-06-04T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+1990|1990-08-06T00:00:00|1990-08-06T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+1990|1990-10-29T00:00:00|1990-10-29T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+1990|1990-12-25T00:00:00|1990-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+1990|1990-12-26T00:00:00|1990-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+1991|1991-01-01T00:00:00|1991-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+1991|1991-03-17T00:00:00|1991-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+1991|1991-04-01T00:00:00|1991-04-01T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+1991|1991-05-06T00:00:00|1991-05-06T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+1991|1991-06-03T00:00:00|1991-06-03T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+1991|1991-08-05T00:00:00|1991-08-05T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+1991|1991-10-28T00:00:00|1991-10-28T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+1991|1991-12-25T00:00:00|1991-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+1991|1991-12-26T00:00:00|1991-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+1992|1992-01-01T00:00:00|1992-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+1992|1992-03-17T00:00:00|1992-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+1992|1992-04-20T00:00:00|1992-04-20T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+1992|1992-05-04T00:00:00|1992-05-04T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+1992|1992-06-01T00:00:00|1992-06-01T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+1992|1992-08-03T00:00:00|1992-08-03T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+1992|1992-10-26T00:00:00|1992-10-26T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+1992|1992-12-25T00:00:00|1992-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+1992|1992-12-26T00:00:00|1992-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+1993|1993-01-01T00:00:00|1993-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+1993|1993-03-17T00:00:00|1993-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+1993|1993-04-12T00:00:00|1993-04-12T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+1993|1993-05-03T00:00:00|1993-05-03T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+1993|1993-06-07T00:00:00|1993-06-07T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+1993|1993-08-02T00:00:00|1993-08-02T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+1993|1993-10-25T00:00:00|1993-10-25T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+1993|1993-12-25T00:00:00|1993-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+1993|1993-12-26T00:00:00|1993-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+1994|1994-01-01T00:00:00|1994-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+1994|1994-03-17T00:00:00|1994-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+1994|1994-04-04T00:00:00|1994-04-04T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+1994|1994-05-02T00:00:00|1994-05-02T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+1994|1994-06-06T00:00:00|1994-06-06T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+1994|1994-08-01T00:00:00|1994-08-01T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+1994|1994-10-31T00:00:00|1994-10-31T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+1994|1994-12-25T00:00:00|1994-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+1994|1994-12-26T00:00:00|1994-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+1995|1995-01-01T00:00:00|1995-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+1995|1995-03-17T00:00:00|1995-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+1995|1995-04-17T00:00:00|1995-04-17T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+1995|1995-05-01T00:00:00|1995-05-01T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+1995|1995-06-05T00:00:00|1995-06-05T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+1995|1995-08-07T00:00:00|1995-08-07T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+1995|1995-10-30T00:00:00|1995-10-30T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+1995|1995-12-25T00:00:00|1995-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+1995|1995-12-26T00:00:00|1995-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+1996|1996-01-01T00:00:00|1996-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+1996|1996-03-17T00:00:00|1996-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+1996|1996-04-08T00:00:00|1996-04-08T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+1996|1996-05-06T00:00:00|1996-05-06T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+1996|1996-06-03T00:00:00|1996-06-03T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+1996|1996-08-05T00:00:00|1996-08-05T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+1996|1996-10-28T00:00:00|1996-10-28T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+1996|1996-12-25T00:00:00|1996-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+1996|1996-12-26T00:00:00|1996-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+1997|1997-01-01T00:00:00|1997-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+1997|1997-03-17T00:00:00|1997-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+1997|1997-03-31T00:00:00|1997-03-31T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+1997|1997-05-05T00:00:00|1997-05-05T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+1997|1997-06-02T00:00:00|1997-06-02T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+1997|1997-08-04T00:00:00|1997-08-04T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+1997|1997-10-27T00:00:00|1997-10-27T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+1997|1997-12-25T00:00:00|1997-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+1997|1997-12-26T00:00:00|1997-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+1998|1998-01-01T00:00:00|1998-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+1998|1998-03-17T00:00:00|1998-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+1998|1998-04-13T00:00:00|1998-04-13T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+1998|1998-05-04T00:00:00|1998-05-04T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+1998|1998-06-01T00:00:00|1998-06-01T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+1998|1998-08-03T00:00:00|1998-08-03T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+1998|1998-10-26T00:00:00|1998-10-26T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+1998|1998-12-25T00:00:00|1998-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+1998|1998-12-26T00:00:00|1998-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+1999|1999-01-01T00:00:00|1999-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+1999|1999-03-17T00:00:00|1999-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+1999|1999-04-05T00:00:00|1999-04-05T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+1999|1999-05-03T00:00:00|1999-05-03T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+1999|1999-06-07T00:00:00|1999-06-07T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+1999|1999-08-02T00:00:00|1999-08-02T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+1999|1999-10-25T00:00:00|1999-10-25T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+1999|1999-12-25T00:00:00|1999-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+1999|1999-12-26T00:00:00|1999-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+1999|1999-12-31T00:00:00|1999-12-31T00:00:00|Millennium|Millennium|MillenniumIE|True|
+2000|2000-01-01T00:00:00|2000-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2000|2000-03-17T00:00:00|2000-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2000|2000-04-24T00:00:00|2000-04-24T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2000|2000-06-05T00:00:00|2000-06-05T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2000|2000-08-07T00:00:00|2000-08-07T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2000|2000-10-30T00:00:00|2000-10-30T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2000|2000-12-25T00:00:00|2000-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2000|2000-12-26T00:00:00|2000-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2001|2001-01-01T00:00:00|2001-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2001|2001-03-17T00:00:00|2001-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2001|2001-04-16T00:00:00|2001-04-16T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2001|2001-05-07T00:00:00|2001-05-07T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2001|2001-06-04T00:00:00|2001-06-04T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2001|2001-08-06T00:00:00|2001-08-06T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2001|2001-10-29T00:00:00|2001-10-29T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2001|2001-12-25T00:00:00|2001-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2001|2001-12-26T00:00:00|2001-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2002|2002-01-01T00:00:00|2002-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2002|2002-03-17T00:00:00|2002-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2002|2002-04-01T00:00:00|2002-04-01T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2002|2002-05-06T00:00:00|2002-05-06T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2002|2002-06-03T00:00:00|2002-06-03T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2002|2002-08-05T00:00:00|2002-08-05T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2002|2002-10-28T00:00:00|2002-10-28T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2002|2002-12-25T00:00:00|2002-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2002|2002-12-26T00:00:00|2002-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2003|2003-01-01T00:00:00|2003-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2003|2003-03-17T00:00:00|2003-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2003|2003-04-21T00:00:00|2003-04-21T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2003|2003-05-05T00:00:00|2003-05-05T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2003|2003-06-02T00:00:00|2003-06-02T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2003|2003-08-04T00:00:00|2003-08-04T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2003|2003-10-27T00:00:00|2003-10-27T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2003|2003-12-25T00:00:00|2003-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2003|2003-12-26T00:00:00|2003-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2004|2004-01-01T00:00:00|2004-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2004|2004-03-17T00:00:00|2004-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2004|2004-04-12T00:00:00|2004-04-12T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2004|2004-05-03T00:00:00|2004-05-03T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2004|2004-06-07T00:00:00|2004-06-07T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2004|2004-08-02T00:00:00|2004-08-02T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2004|2004-10-25T00:00:00|2004-10-25T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2004|2004-12-25T00:00:00|2004-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2004|2004-12-26T00:00:00|2004-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2005|2005-01-01T00:00:00|2005-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2005|2005-03-17T00:00:00|2005-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2005|2005-03-28T00:00:00|2005-03-28T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2005|2005-05-02T00:00:00|2005-05-02T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2005|2005-06-06T00:00:00|2005-06-06T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2005|2005-08-01T00:00:00|2005-08-01T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2005|2005-10-31T00:00:00|2005-10-31T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2005|2005-12-25T00:00:00|2005-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2005|2005-12-26T00:00:00|2005-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2006|2006-01-01T00:00:00|2006-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2006|2006-03-17T00:00:00|2006-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2006|2006-04-17T00:00:00|2006-04-17T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2006|2006-05-01T00:00:00|2006-05-01T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2006|2006-06-05T00:00:00|2006-06-05T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2006|2006-08-07T00:00:00|2006-08-07T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2006|2006-10-30T00:00:00|2006-10-30T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2006|2006-12-25T00:00:00|2006-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2006|2006-12-26T00:00:00|2006-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2007|2007-01-01T00:00:00|2007-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2007|2007-03-17T00:00:00|2007-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2007|2007-04-09T00:00:00|2007-04-09T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2007|2007-05-07T00:00:00|2007-05-07T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2007|2007-06-04T00:00:00|2007-06-04T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2007|2007-08-06T00:00:00|2007-08-06T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2007|2007-10-29T00:00:00|2007-10-29T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2007|2007-12-25T00:00:00|2007-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2007|2007-12-26T00:00:00|2007-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2008|2008-01-01T00:00:00|2008-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2008|2008-03-17T00:00:00|2008-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2008|2008-03-24T00:00:00|2008-03-24T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2008|2008-05-05T00:00:00|2008-05-05T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2008|2008-06-02T00:00:00|2008-06-02T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2008|2008-08-04T00:00:00|2008-08-04T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2008|2008-10-27T00:00:00|2008-10-27T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2008|2008-12-25T00:00:00|2008-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2008|2008-12-26T00:00:00|2008-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2009|2009-01-01T00:00:00|2009-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2009|2009-03-17T00:00:00|2009-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2009|2009-04-13T00:00:00|2009-04-13T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2009|2009-05-04T00:00:00|2009-05-04T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2009|2009-06-01T00:00:00|2009-06-01T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2009|2009-08-03T00:00:00|2009-08-03T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2009|2009-10-26T00:00:00|2009-10-26T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2009|2009-12-25T00:00:00|2009-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2009|2009-12-26T00:00:00|2009-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2010|2010-01-01T00:00:00|2010-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2010|2010-03-17T00:00:00|2010-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2010|2010-04-05T00:00:00|2010-04-05T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2010|2010-05-03T00:00:00|2010-05-03T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2010|2010-06-07T00:00:00|2010-06-07T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2010|2010-08-02T00:00:00|2010-08-02T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2010|2010-10-25T00:00:00|2010-10-25T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2010|2010-12-25T00:00:00|2010-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2010|2010-12-26T00:00:00|2010-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2011|2011-01-01T00:00:00|2011-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2011|2011-03-17T00:00:00|2011-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2011|2011-04-25T00:00:00|2011-04-25T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2011|2011-05-02T00:00:00|2011-05-02T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2011|2011-06-06T00:00:00|2011-06-06T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2011|2011-08-01T00:00:00|2011-08-01T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2011|2011-10-31T00:00:00|2011-10-31T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2011|2011-12-25T00:00:00|2011-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2011|2011-12-26T00:00:00|2011-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2012|2012-01-01T00:00:00|2012-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2012|2012-03-17T00:00:00|2012-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2012|2012-04-09T00:00:00|2012-04-09T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2012|2012-05-07T00:00:00|2012-05-07T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2012|2012-06-04T00:00:00|2012-06-04T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2012|2012-08-06T00:00:00|2012-08-06T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2012|2012-10-29T00:00:00|2012-10-29T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2012|2012-12-25T00:00:00|2012-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2012|2012-12-26T00:00:00|2012-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2013|2013-01-01T00:00:00|2013-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2013|2013-03-17T00:00:00|2013-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2013|2013-04-01T00:00:00|2013-04-01T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2013|2013-05-06T00:00:00|2013-05-06T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2013|2013-06-03T00:00:00|2013-06-03T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2013|2013-08-05T00:00:00|2013-08-05T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2013|2013-10-28T00:00:00|2013-10-28T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2013|2013-12-25T00:00:00|2013-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2013|2013-12-26T00:00:00|2013-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2014|2014-01-01T00:00:00|2014-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2014|2014-03-17T00:00:00|2014-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2014|2014-04-21T00:00:00|2014-04-21T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2014|2014-05-05T00:00:00|2014-05-05T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2014|2014-06-02T00:00:00|2014-06-02T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2014|2014-08-04T00:00:00|2014-08-04T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2014|2014-10-27T00:00:00|2014-10-27T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2014|2014-12-25T00:00:00|2014-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2014|2014-12-26T00:00:00|2014-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2015|2015-01-01T00:00:00|2015-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2015|2015-03-17T00:00:00|2015-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2015|2015-04-06T00:00:00|2015-04-06T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2015|2015-05-04T00:00:00|2015-05-04T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2015|2015-06-01T00:00:00|2015-06-01T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2015|2015-08-03T00:00:00|2015-08-03T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2015|2015-10-26T00:00:00|2015-10-26T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2015|2015-12-25T00:00:00|2015-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2015|2015-12-26T00:00:00|2015-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2016|2016-01-01T00:00:00|2016-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2016|2016-03-17T00:00:00|2016-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2016|2016-03-28T00:00:00|2016-03-28T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2016|2016-05-02T00:00:00|2016-05-02T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2016|2016-06-06T00:00:00|2016-06-06T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2016|2016-08-01T00:00:00|2016-08-01T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2016|2016-10-31T00:00:00|2016-10-31T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2016|2016-12-25T00:00:00|2016-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2016|2016-12-26T00:00:00|2016-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2017|2017-01-01T00:00:00|2017-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2017|2017-03-17T00:00:00|2017-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2017|2017-04-17T00:00:00|2017-04-17T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2017|2017-05-01T00:00:00|2017-05-01T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2017|2017-06-05T00:00:00|2017-06-05T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2017|2017-08-07T00:00:00|2017-08-07T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2017|2017-10-30T00:00:00|2017-10-30T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2017|2017-12-25T00:00:00|2017-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2017|2017-12-26T00:00:00|2017-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2018|2018-01-01T00:00:00|2018-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2018|2018-03-17T00:00:00|2018-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2018|2018-04-02T00:00:00|2018-04-02T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2018|2018-05-07T00:00:00|2018-05-07T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2018|2018-06-04T00:00:00|2018-06-04T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2018|2018-08-06T00:00:00|2018-08-06T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2018|2018-10-29T00:00:00|2018-10-29T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2018|2018-12-25T00:00:00|2018-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2018|2018-12-26T00:00:00|2018-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2019|2019-01-01T00:00:00|2019-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2019|2019-03-17T00:00:00|2019-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2019|2019-04-22T00:00:00|2019-04-22T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2019|2019-05-06T00:00:00|2019-05-06T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2019|2019-06-03T00:00:00|2019-06-03T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2019|2019-08-05T00:00:00|2019-08-05T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2019|2019-10-28T00:00:00|2019-10-28T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2019|2019-12-25T00:00:00|2019-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2019|2019-12-26T00:00:00|2019-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2020|2020-01-01T00:00:00|2020-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2020|2020-03-17T00:00:00|2020-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2020|2020-04-13T00:00:00|2020-04-13T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2020|2020-05-04T00:00:00|2020-05-04T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2020|2020-06-01T00:00:00|2020-06-01T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2020|2020-08-03T00:00:00|2020-08-03T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2020|2020-10-26T00:00:00|2020-10-26T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2020|2020-12-25T00:00:00|2020-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2020|2020-12-26T00:00:00|2020-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2021|2021-01-01T00:00:00|2021-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2021|2021-03-17T00:00:00|2021-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2021|2021-04-05T00:00:00|2021-04-05T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2021|2021-05-03T00:00:00|2021-05-03T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2021|2021-06-07T00:00:00|2021-06-07T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2021|2021-08-02T00:00:00|2021-08-02T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2021|2021-10-25T00:00:00|2021-10-25T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2021|2021-12-25T00:00:00|2021-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2021|2021-12-26T00:00:00|2021-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2022|2022-01-01T00:00:00|2022-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2022|2022-03-17T00:00:00|2022-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2022|2022-03-18T00:00:00|2022-03-18T00:00:00|Covid-19 Commemoration|Covid-19 Commemoration|Covid19CommemorationIE|True|
+2022|2022-04-18T00:00:00|2022-04-18T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2022|2022-05-02T00:00:00|2022-05-02T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2022|2022-06-06T00:00:00|2022-06-06T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2022|2022-08-01T00:00:00|2022-08-01T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2022|2022-10-31T00:00:00|2022-10-31T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2022|2022-12-25T00:00:00|2022-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2022|2022-12-26T00:00:00|2022-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2023|2023-01-01T00:00:00|2023-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2023|2023-02-06T00:00:00|2023-02-06T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2023|2023-03-17T00:00:00|2023-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2023|2023-04-10T00:00:00|2023-04-10T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2023|2023-05-01T00:00:00|2023-05-01T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2023|2023-06-05T00:00:00|2023-06-05T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2023|2023-08-07T00:00:00|2023-08-07T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2023|2023-10-30T00:00:00|2023-10-30T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2023|2023-12-25T00:00:00|2023-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2023|2023-12-26T00:00:00|2023-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2024|2024-01-01T00:00:00|2024-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2024|2024-02-05T00:00:00|2024-02-05T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2024|2024-03-17T00:00:00|2024-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2024|2024-04-01T00:00:00|2024-04-01T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2024|2024-05-06T00:00:00|2024-05-06T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2024|2024-06-03T00:00:00|2024-06-03T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2024|2024-08-05T00:00:00|2024-08-05T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2024|2024-10-28T00:00:00|2024-10-28T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2024|2024-12-25T00:00:00|2024-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2024|2024-12-26T00:00:00|2024-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2025|2025-01-01T00:00:00|2025-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2025|2025-02-03T00:00:00|2025-02-03T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2025|2025-03-17T00:00:00|2025-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2025|2025-04-21T00:00:00|2025-04-21T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2025|2025-05-05T00:00:00|2025-05-05T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2025|2025-06-02T00:00:00|2025-06-02T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2025|2025-08-04T00:00:00|2025-08-04T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2025|2025-10-27T00:00:00|2025-10-27T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2025|2025-12-25T00:00:00|2025-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2025|2025-12-26T00:00:00|2025-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2026|2026-01-01T00:00:00|2026-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2026|2026-02-02T00:00:00|2026-02-02T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2026|2026-03-17T00:00:00|2026-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2026|2026-04-06T00:00:00|2026-04-06T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2026|2026-05-04T00:00:00|2026-05-04T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2026|2026-06-01T00:00:00|2026-06-01T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2026|2026-08-03T00:00:00|2026-08-03T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2026|2026-10-26T00:00:00|2026-10-26T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2026|2026-12-25T00:00:00|2026-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2026|2026-12-26T00:00:00|2026-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2027|2027-01-01T00:00:00|2027-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2027|2027-02-01T00:00:00|2027-02-01T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2027|2027-03-17T00:00:00|2027-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2027|2027-03-29T00:00:00|2027-03-29T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2027|2027-05-03T00:00:00|2027-05-03T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2027|2027-06-07T00:00:00|2027-06-07T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2027|2027-08-02T00:00:00|2027-08-02T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2027|2027-10-25T00:00:00|2027-10-25T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2027|2027-12-25T00:00:00|2027-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2027|2027-12-26T00:00:00|2027-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2028|2028-01-01T00:00:00|2028-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2028|2028-02-07T00:00:00|2028-02-07T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2028|2028-03-17T00:00:00|2028-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2028|2028-04-17T00:00:00|2028-04-17T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2028|2028-05-01T00:00:00|2028-05-01T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2028|2028-06-05T00:00:00|2028-06-05T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2028|2028-08-07T00:00:00|2028-08-07T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2028|2028-10-30T00:00:00|2028-10-30T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2028|2028-12-25T00:00:00|2028-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2028|2028-12-26T00:00:00|2028-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2029|2029-01-01T00:00:00|2029-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2029|2029-02-05T00:00:00|2029-02-05T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2029|2029-03-17T00:00:00|2029-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2029|2029-04-02T00:00:00|2029-04-02T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2029|2029-05-07T00:00:00|2029-05-07T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2029|2029-06-04T00:00:00|2029-06-04T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2029|2029-08-06T00:00:00|2029-08-06T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2029|2029-10-29T00:00:00|2029-10-29T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2029|2029-12-25T00:00:00|2029-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2029|2029-12-26T00:00:00|2029-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2030|2030-01-01T00:00:00|2030-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2030|2030-02-01T00:00:00|2030-02-01T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2030|2030-03-17T00:00:00|2030-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2030|2030-04-22T00:00:00|2030-04-22T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2030|2030-05-06T00:00:00|2030-05-06T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2030|2030-06-03T00:00:00|2030-06-03T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2030|2030-08-05T00:00:00|2030-08-05T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2030|2030-10-28T00:00:00|2030-10-28T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2030|2030-12-25T00:00:00|2030-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2030|2030-12-26T00:00:00|2030-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2031|2031-01-01T00:00:00|2031-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2031|2031-02-03T00:00:00|2031-02-03T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2031|2031-03-17T00:00:00|2031-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2031|2031-04-14T00:00:00|2031-04-14T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2031|2031-05-05T00:00:00|2031-05-05T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2031|2031-06-02T00:00:00|2031-06-02T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2031|2031-08-04T00:00:00|2031-08-04T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2031|2031-10-27T00:00:00|2031-10-27T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2031|2031-12-25T00:00:00|2031-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2031|2031-12-26T00:00:00|2031-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2032|2032-01-01T00:00:00|2032-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2032|2032-02-02T00:00:00|2032-02-02T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2032|2032-03-17T00:00:00|2032-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2032|2032-03-29T00:00:00|2032-03-29T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2032|2032-05-03T00:00:00|2032-05-03T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2032|2032-06-07T00:00:00|2032-06-07T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2032|2032-08-02T00:00:00|2032-08-02T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2032|2032-10-25T00:00:00|2032-10-25T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2032|2032-12-25T00:00:00|2032-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2032|2032-12-26T00:00:00|2032-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2033|2033-01-01T00:00:00|2033-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2033|2033-02-07T00:00:00|2033-02-07T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2033|2033-03-17T00:00:00|2033-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2033|2033-04-18T00:00:00|2033-04-18T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2033|2033-05-02T00:00:00|2033-05-02T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2033|2033-06-06T00:00:00|2033-06-06T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2033|2033-08-01T00:00:00|2033-08-01T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2033|2033-10-31T00:00:00|2033-10-31T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2033|2033-12-25T00:00:00|2033-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2033|2033-12-26T00:00:00|2033-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2034|2034-01-01T00:00:00|2034-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2034|2034-02-06T00:00:00|2034-02-06T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2034|2034-03-17T00:00:00|2034-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2034|2034-04-10T00:00:00|2034-04-10T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2034|2034-05-01T00:00:00|2034-05-01T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2034|2034-06-05T00:00:00|2034-06-05T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2034|2034-08-07T00:00:00|2034-08-07T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2034|2034-10-30T00:00:00|2034-10-30T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2034|2034-12-25T00:00:00|2034-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2034|2034-12-26T00:00:00|2034-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2035|2035-01-01T00:00:00|2035-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2035|2035-02-05T00:00:00|2035-02-05T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2035|2035-03-17T00:00:00|2035-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2035|2035-03-26T00:00:00|2035-03-26T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2035|2035-05-07T00:00:00|2035-05-07T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2035|2035-06-04T00:00:00|2035-06-04T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2035|2035-08-06T00:00:00|2035-08-06T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2035|2035-10-29T00:00:00|2035-10-29T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2035|2035-12-25T00:00:00|2035-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2035|2035-12-26T00:00:00|2035-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2036|2036-01-01T00:00:00|2036-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2036|2036-02-01T00:00:00|2036-02-01T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2036|2036-03-17T00:00:00|2036-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2036|2036-04-14T00:00:00|2036-04-14T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2036|2036-05-05T00:00:00|2036-05-05T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2036|2036-06-02T00:00:00|2036-06-02T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2036|2036-08-04T00:00:00|2036-08-04T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2036|2036-10-27T00:00:00|2036-10-27T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2036|2036-12-25T00:00:00|2036-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2036|2036-12-26T00:00:00|2036-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2037|2037-01-01T00:00:00|2037-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2037|2037-02-02T00:00:00|2037-02-02T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2037|2037-03-17T00:00:00|2037-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2037|2037-04-06T00:00:00|2037-04-06T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2037|2037-05-04T00:00:00|2037-05-04T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2037|2037-06-01T00:00:00|2037-06-01T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2037|2037-08-03T00:00:00|2037-08-03T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2037|2037-10-26T00:00:00|2037-10-26T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2037|2037-12-25T00:00:00|2037-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2037|2037-12-26T00:00:00|2037-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2038|2038-01-01T00:00:00|2038-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2038|2038-02-01T00:00:00|2038-02-01T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2038|2038-03-17T00:00:00|2038-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2038|2038-04-26T00:00:00|2038-04-26T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2038|2038-05-03T00:00:00|2038-05-03T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2038|2038-06-07T00:00:00|2038-06-07T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2038|2038-08-02T00:00:00|2038-08-02T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2038|2038-10-25T00:00:00|2038-10-25T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2038|2038-12-25T00:00:00|2038-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2038|2038-12-26T00:00:00|2038-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2039|2039-01-01T00:00:00|2039-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2039|2039-02-07T00:00:00|2039-02-07T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2039|2039-03-17T00:00:00|2039-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2039|2039-04-11T00:00:00|2039-04-11T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2039|2039-05-02T00:00:00|2039-05-02T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2039|2039-06-06T00:00:00|2039-06-06T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2039|2039-08-01T00:00:00|2039-08-01T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2039|2039-10-31T00:00:00|2039-10-31T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2039|2039-12-25T00:00:00|2039-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2039|2039-12-26T00:00:00|2039-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2040|2040-01-01T00:00:00|2040-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2040|2040-02-06T00:00:00|2040-02-06T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2040|2040-03-17T00:00:00|2040-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2040|2040-04-02T00:00:00|2040-04-02T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2040|2040-05-07T00:00:00|2040-05-07T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2040|2040-06-04T00:00:00|2040-06-04T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2040|2040-08-06T00:00:00|2040-08-06T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2040|2040-10-29T00:00:00|2040-10-29T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2040|2040-12-25T00:00:00|2040-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2040|2040-12-26T00:00:00|2040-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2041|2041-01-01T00:00:00|2041-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2041|2041-02-01T00:00:00|2041-02-01T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2041|2041-03-17T00:00:00|2041-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2041|2041-04-22T00:00:00|2041-04-22T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2041|2041-05-06T00:00:00|2041-05-06T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2041|2041-06-03T00:00:00|2041-06-03T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2041|2041-08-05T00:00:00|2041-08-05T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2041|2041-10-28T00:00:00|2041-10-28T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2041|2041-12-25T00:00:00|2041-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2041|2041-12-26T00:00:00|2041-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2042|2042-01-01T00:00:00|2042-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2042|2042-02-03T00:00:00|2042-02-03T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2042|2042-03-17T00:00:00|2042-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2042|2042-04-07T00:00:00|2042-04-07T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2042|2042-05-05T00:00:00|2042-05-05T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2042|2042-06-02T00:00:00|2042-06-02T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2042|2042-08-04T00:00:00|2042-08-04T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2042|2042-10-27T00:00:00|2042-10-27T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2042|2042-12-25T00:00:00|2042-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2042|2042-12-26T00:00:00|2042-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2043|2043-01-01T00:00:00|2043-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2043|2043-02-02T00:00:00|2043-02-02T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2043|2043-03-17T00:00:00|2043-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2043|2043-03-30T00:00:00|2043-03-30T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2043|2043-05-04T00:00:00|2043-05-04T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2043|2043-06-01T00:00:00|2043-06-01T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2043|2043-08-03T00:00:00|2043-08-03T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2043|2043-10-26T00:00:00|2043-10-26T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2043|2043-12-25T00:00:00|2043-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2043|2043-12-26T00:00:00|2043-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2044|2044-01-01T00:00:00|2044-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2044|2044-02-01T00:00:00|2044-02-01T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2044|2044-03-17T00:00:00|2044-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2044|2044-04-18T00:00:00|2044-04-18T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2044|2044-05-02T00:00:00|2044-05-02T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2044|2044-06-06T00:00:00|2044-06-06T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2044|2044-08-01T00:00:00|2044-08-01T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2044|2044-10-31T00:00:00|2044-10-31T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2044|2044-12-25T00:00:00|2044-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2044|2044-12-26T00:00:00|2044-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2045|2045-01-01T00:00:00|2045-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2045|2045-02-06T00:00:00|2045-02-06T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2045|2045-03-17T00:00:00|2045-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2045|2045-04-10T00:00:00|2045-04-10T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2045|2045-05-01T00:00:00|2045-05-01T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2045|2045-06-05T00:00:00|2045-06-05T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2045|2045-08-07T00:00:00|2045-08-07T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2045|2045-10-30T00:00:00|2045-10-30T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2045|2045-12-25T00:00:00|2045-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2045|2045-12-26T00:00:00|2045-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2046|2046-01-01T00:00:00|2046-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2046|2046-02-05T00:00:00|2046-02-05T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2046|2046-03-17T00:00:00|2046-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2046|2046-03-26T00:00:00|2046-03-26T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2046|2046-05-07T00:00:00|2046-05-07T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2046|2046-06-04T00:00:00|2046-06-04T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2046|2046-08-06T00:00:00|2046-08-06T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2046|2046-10-29T00:00:00|2046-10-29T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2046|2046-12-25T00:00:00|2046-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2046|2046-12-26T00:00:00|2046-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2047|2047-01-01T00:00:00|2047-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2047|2047-02-01T00:00:00|2047-02-01T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2047|2047-03-17T00:00:00|2047-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2047|2047-04-15T00:00:00|2047-04-15T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2047|2047-05-06T00:00:00|2047-05-06T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2047|2047-06-03T00:00:00|2047-06-03T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2047|2047-08-05T00:00:00|2047-08-05T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2047|2047-10-28T00:00:00|2047-10-28T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2047|2047-12-25T00:00:00|2047-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2047|2047-12-26T00:00:00|2047-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2048|2048-01-01T00:00:00|2048-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2048|2048-02-03T00:00:00|2048-02-03T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2048|2048-03-17T00:00:00|2048-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2048|2048-04-06T00:00:00|2048-04-06T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2048|2048-05-04T00:00:00|2048-05-04T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2048|2048-06-01T00:00:00|2048-06-01T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2048|2048-08-03T00:00:00|2048-08-03T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2048|2048-10-26T00:00:00|2048-10-26T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2048|2048-12-25T00:00:00|2048-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2048|2048-12-26T00:00:00|2048-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|
+2049|2049-01-01T00:00:00|2049-01-01T00:00:00|New Year|Lá Caille|NewYear|True|
+2049|2049-02-01T00:00:00|2049-02-01T00:00:00|Saint Brigid's Day|Imbolc|StBrigidsDayIE|True|
+2049|2049-03-17T00:00:00|2049-03-17T00:00:00|St Patrick's Day|Lá Fhéile Pádraig|StPatricksDay|True|
+2049|2049-04-19T00:00:00|2049-04-19T00:00:00|Easter Monday|Luan Cásca|EasterMonday|True|
+2049|2049-05-03T00:00:00|2049-05-03T00:00:00|May Day|Lá Bealtaine|MayDayIE|True|
+2049|2049-06-07T00:00:00|2049-06-07T00:00:00|June Holiday|Lá Saoire i mí an Mheithimh|JuneHolidayIE|True|
+2049|2049-08-02T00:00:00|2049-08-02T00:00:00|August Holiday|Lá Saoire i mí Lúnasa|AugustHolidayIE|True|
+2049|2049-10-25T00:00:00|2049-10-25T00:00:00|October Holiday|Lá Saoire i mí Dheireadh Fómhair|OctoberHolidayIE|True|
+2049|2049-12-25T00:00:00|2049-12-25T00:00:00|Christmas|Lá Nollag|Christmas|True|
+2049|2049-12-26T00:00:00|2049-12-26T00:00:00|St Stephen's Day|Lá Fhéile Stiofáin|SaintStephensDay|True|

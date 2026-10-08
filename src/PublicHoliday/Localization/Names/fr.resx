@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AllSaints" xml:space="preserve"><value>Toussaint</value></data>
+  <data name="AllSouls" xml:space="preserve"><value>Jour des défunts</value></data>
+  <data name="Armistice" xml:space="preserve"><value>Jour de l'armistice</value></data>
+  <data name="Ascension" xml:space="preserve"><value>Ascension</value></data>
+  <data name="Assumption" xml:space="preserve"><value>Assomption</value></data>
+  <data name="BastilleDay" xml:space="preserve"><value>Fête nationale</value></data>
+  <data name="BelgianNationalDay" xml:space="preserve"><value>Fête nationale belge</value></data>
+  <data name="Berchtold" xml:space="preserve"><value>Saint-Berchtold</value></data>
+  <data name="BoxingDay" xml:space="preserve"><value>Lendemain de Noël</value></data>
+  <data name="CanadaDay" xml:space="preserve"><value>Fête du Canada</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Fête de Noël</value></data>
+  <data name="ChristmasEve" xml:space="preserve"><value>Veille de Noël</value></data>
+  <data name="ColumbusDay" xml:space="preserve"><value>Jour de Christophe Colomb</value></data>
+  <data name="CorpusChristi" xml:space="preserve"><value>Fête-Dieu</value></data>
+  <data name="DayAfterChristmas" xml:space="preserve"><value>Lendemain de Noël</value></data>
+  <data name="DayAfterNewYear" xml:space="preserve"><value>Lendemain du jour de l'An</value></data>
+  <data name="DayBeforeChristmas" xml:space="preserve"><value>Veille de Noël</value></data>
+  <data name="DayBeforeNewYear" xml:space="preserve"><value>Veille du jour de l'An</value></data>
+  <data name="DollardDay" xml:space="preserve"><value>Fête de Dollard</value></data>
+  <data name="DominionDay" xml:space="preserve"><value>Jour de la Confédération</value></data>
+  <data name="Easter" xml:space="preserve"><value>Pâques</value></data>
+  <data name="EasterMonday" xml:space="preserve"><value>Lundi de Pâques</value></data>
+  <data name="Epiphany" xml:space="preserve"><value>Épiphanie</value></data>
+  <data name="GenevaPrayDay" xml:space="preserve"><value>Jeûne genevois</value></data>
+  <data name="GoodFriday" xml:space="preserve"><value>Vendredi Saint</value></data>
+  <data name="ImmaculateConception" xml:space="preserve"><value>Immaculée Conception</value></data>
+  <data name="IndependenceDay" xml:space="preserve"><value>Jour de l'indépendance</value></data>
+  <data name="Juneteenth" xml:space="preserve"><value>Juneteenth</value></data>
+  <data name="LaborDay" xml:space="preserve"><value>Fête du travail</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Fête du travail</value></data>
+  <data name="MartinLutherKing" xml:space="preserve"><value>Journée Martin Luther King</value></data>
+  <data name="MaundyThursday" xml:space="preserve"><value>Jeudi saint</value></data>
+  <data name="MemorialDay" xml:space="preserve"><value>Jour commémoratif</value></data>
+  <data name="NationalHolidayQuebec" xml:space="preserve"><value>Fête nationale du Québec</value></data>
+  <data name="NationalPatriotDay" xml:space="preserve"><value>Journée nationale des patriotes</value></data>
+  <data name="NeuchatelRepublicDay" xml:space="preserve"><value>Instauration de la République</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Jour de l'An</value></data>
+  <data name="NewYearsEve" xml:space="preserve"><value>Réveillon de la Saint-Sylvestre</value></data>
+  <data name="PentecostMonday" xml:space="preserve"><value>Lundi de Pentecôte</value></data>
+  <data name="PresidentsDay" xml:space="preserve"><value>Journée des présidents</value></data>
+  <data name="ReformationDay" xml:space="preserve"><value>Jour de la Réformation</value></data>
+  <data name="SaintStephensDay" xml:space="preserve"><value>Saint-Étienne</value></data>
+  <data name="StJoseph" xml:space="preserve"><value>Saint-Joseph</value></data>
+  <data name="SwissAscension" xml:space="preserve"><value>Ascension</value></data>
+  <data name="SwissNationalDay" xml:space="preserve"><value>Fête nationale suisse</value></data>
+  <data name="Thanksgiving" xml:space="preserve"><value>Fête de l'Action de Grâces</value></data>
+  <data name="VeteransDay" xml:space="preserve"><value>Journée des anciens combattants</value></data>
+  <data name="VictoryInEuropeDay" xml:space="preserve"><value>Fête de la Victoire</value></data>
+  <data name="WhitSunday" xml:space="preserve"><value>Pentecôte</value></data>
+  <data name="WomensDay" xml:space="preserve"><value>Journée internationale des femmes</value></data>
+  <data name="WorkersDayZA" xml:space="preserve"><value>Fête du travail</value></data>
+</root>
