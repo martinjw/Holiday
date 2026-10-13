@@ -243,6 +243,7 @@ namespace PublicHoliday
                     if (PresidentsDay(year) == date)
                         return true;
                     break;
+                case 3:
                 case 4:
                     if (GoodFriday(year) == date)
                         return true;
