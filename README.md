@@ -42,6 +42,7 @@ There are libraries for:
   - Hungary: HungaryPublicHoliday
   - Ireland : IrelandPublicHoliday
   - Italy : ItalyPublicHoliday
+  - Latvia : LatviaPublicHoliday
   - Lithuania : LithuaniaPublicHoliday
   - Luxembourg : LuxembourgPublicHoliday
   - Montenegro : MontenegroPublicHoliday

@@ -43,6 +43,8 @@
         Jp,
         /// <summary>Kazakhstan</summary> 
         Kz,
+        /// <summary>Latvia</summary> 
+        Lv,
         /// <summary>Lithuania</summary> 
         Lt,
         /// <summary>Luxembourg</summary> 
