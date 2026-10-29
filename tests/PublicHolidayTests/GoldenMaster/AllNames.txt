@@ -720,13 +720,13 @@ KazakhstanPublicHoliday|ru-KZ|NauryzKZ3|Наурыз мейрамы|Nauryz Holid
 KazakhstanPublicHoliday|ru-KZ|NewYear|Новый год|New Year
 KazakhstanPublicHoliday|ru-KZ|VictoryDayKZ|День Победы|Victory Day
 KazakhstanPublicHoliday|ru-KZ|WomensDay|Международный женский день|International Women's Day
-LatviaPublicHoliday|lv-LV|BronzeMedalDayLV|Latvijas hokeja izlases bronzas medaļas ieguves diena|Day of the Bronze Medal Win
+LatviaPublicHoliday|lv-LV|BronzeMedalDayLV|Latvijas hokeja komandas 2023. gada Pasaules hokeja čempionāta bronzas medaļas ieguves diena|Day of the Bronze Medal Win
 LatviaPublicHoliday|lv-LV|ChristmasEve|Ziemassvētku vakars|Christmas Eve
 LatviaPublicHoliday|lv-LV|Christmas|Pirmie Ziemassvētki|Christmas
 LatviaPublicHoliday|lv-LV|EasterMonday|Otrās Lieldienas|Easter Monday
 LatviaPublicHoliday|lv-LV|Easter|Pirmās Lieldienas|Easter
 LatviaPublicHoliday|lv-LV|GoodFriday|Lielā Piektdiena|Good Friday
-LatviaPublicHoliday|lv-LV|LabourDay|Darba svētki|Labour Day
+LatviaPublicHoliday|lv-LV|LabourDay|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|Labour Day
 LatviaPublicHoliday|lv-LV|LigoDayLV|Līgo diena|Midsummer Eve
 LatviaPublicHoliday|lv-LV|MidsummerDayLV|Jāņu diena|Midsummer Day
 LatviaPublicHoliday|lv-LV|MothersDayLV|Mātes diena|Mother's Day
@@ -734,9 +734,12 @@ LatviaPublicHoliday|lv-LV|NewYearsEve|Vecgada diena|New Year's Eve
 LatviaPublicHoliday|lv-LV|NewYear|Jaungada diena|New Year
 LatviaPublicHoliday|lv-LV|PopeFrancisVisitLV|Pāvesta Franciska pastorālās vizītes diena|Pastoral Visit of Pope Francis
 LatviaPublicHoliday|lv-LV|ProclamationDayLV|Latvijas Republikas proklamēšanas diena|Proclamation of the Republic of Latvia
+LatviaPublicHoliday|lv-LV|ProclamationDayTransferredLV|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|Proclamation of the Republic of Latvia (transferred day off)
 LatviaPublicHoliday|lv-LV|RestorationOfIndependenceDayLV|Latvijas Republikas Neatkarības atjaunošanas diena|Restoration of Independence Day
+LatviaPublicHoliday|lv-LV|RestorationOfIndependenceDayTransferredLV|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|Restoration of Independence Day (transferred day off)
 LatviaPublicHoliday|lv-LV|SecondChristmasDayLV|Otrie Ziemassvētki|Second Day of Christmas
 LatviaPublicHoliday|lv-LV|SongAndDanceFestivalLV|Vispārējo latviešu Dziesmu un deju svētku noslēguma diena|Song and Dance Festival Closing Day
+LatviaPublicHoliday|lv-LV|SongAndDanceFestivalTransferredLV|Vispārējo latviešu Dziesmu un deju svētku noslēguma diena (pārceltā brīvdiena)|Song and Dance Festival Closing Day (transferred day off)
 LatviaPublicHoliday|lv-LV|WhitSunday|Vasarsvētki|Whit Sunday
 LithuaniaPublicHoliday|lt-LT|AllSaints|Visų šventųjų diena|All Saints
 LithuaniaPublicHoliday|lt-LT|AllSouls|Mirusiųjų atminimo (Vėlinių) diena|All Souls' Day

@@ -288,6 +288,14 @@ of every calendar for 1990–2049:
 - **Switzerland**: `PublicHolidayNames` could throw when Ascension falls on 1 May in a canton
   that observes Labour Day; `HasPentecostMonday` didn't invalidate the cache.
 - **Portugal**: the First Octave regional holiday ignored its "since 2002" rule in some views.
+- **Latvia** (added in 3.17): the same dates as 3.17, plus the one-off holiday for Pope Francis's
+  pastoral visit on 24 September 2018, which the Saeima declared on 21 June 2018. Each
+  transferred day off (*pārceltā brīvdiena*, the Monday after 4 May, 18 November or the Song and
+  Dance Festival closing day falls on a weekend) is a holiday of its own, keyed
+  `HolidayKeys.RestorationOfIndependenceDayTransferredLV` / `ProclamationDayTransferredLV` /
+  `SongAndDanceFestivalTransferredLV`. When Mother's Day and Whit Sunday share a Sunday (2008),
+  `PublicHolidayNames` returns the two names rather than one joined "Mātes diena, Vasarsvētki".
+  The ice-hockey bronze medal day of 29 May 2023 carries its name as written in the law.
 
 ---
 

@@ -34,14 +34,17 @@ namespace PublicHoliday
             new Christian.EasterMonday(),
             new Common.LabourDay(),
             new Local.RestorationOfIndependenceDay(),
+            new Local.RestorationOfIndependenceDayOff(),
             new Local.MothersDay(),
             new Christian.WhitSunday(),
             new Local.BronzeMedalDay(),
             new Local.LigoDay(),
             new Local.MidsummerDay(),
             new Local.SongAndDanceFestivalClosingDay(),
+            new Local.SongAndDanceFestivalClosingDayOff(),
             new Local.PopeFrancisVisitDay(),
             new Local.ProclamationDay(),
+            new Local.ProclamationDayOff(),
             new Christian.ChristmasEve { AppliesInYear = YearFrom2007 },
             new Christian.Christmas(),
             new Local.SecondChristmasDay(),
@@ -50,7 +53,7 @@ namespace PublicHoliday
 
         /// <summary>
         /// Christmas Eve became a holiday with the 2007 amendment to the holidays law, which also
-        /// introduced the weekend rule (see <see cref="Local.LatviaWeekendRule"/>).
+        /// introduced the weekend rule (see <see cref="Local.TransferredDayOff"/>).
         /// </summary>
         private static bool YearFrom2007(int year)
         {

@@ -218,6 +218,24 @@ namespace PublicHolidayTests
             Assert.IsTrue(result.Contains(thanksgiving));
         }
 
+        /// <summary>
+        /// Good Friday can fall in March (#175): IsPublicHoliday must agree with the holiday list
+        /// whichever month Easter lands in.
+        /// </summary>
+        [TestMethod]
+        [DataRow(2024, 3, 29)]
+        [DataRow(2016, 3, 25)]
+        [DataRow(2025, 4, 18)]
+        public void TestGoodFriday(int year, int month, int day)
+        {
+            var goodFriday = new DateTime(year, month, day);
+            var nyse = new USANewYorkStockExchangeHoliday();
+
+            Assert.AreEqual(goodFriday, USANewYorkStockExchangeHoliday.GoodFriday(year).ObservedDate);
+            Assert.IsTrue(nyse.IsPublicHoliday(goodFriday));
+            Assert.IsFalse(nyse.IsWorkingDay(goodFriday));
+        }
+
         [TestMethod]
         public void TestPublicHolidayInformation()
         {

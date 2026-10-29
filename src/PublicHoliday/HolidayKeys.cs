@@ -415,12 +415,18 @@ namespace PublicHoliday
         public const string PopeFrancisVisitLV = "PopeFrancisVisitLV";
         /// <summary>Proclamation of the Republic of Latvia.</summary>
         public const string ProclamationDayLV = "ProclamationDayLV";
+        /// <summary>Proclamation of the Republic of Latvia (transferred day off).</summary>
+        public const string ProclamationDayTransferredLV = "ProclamationDayTransferredLV";
         /// <summary>Restoration of Independence Day.</summary>
         public const string RestorationOfIndependenceDayLV = "RestorationOfIndependenceDayLV";
+        /// <summary>Restoration of Independence Day (transferred day off).</summary>
+        public const string RestorationOfIndependenceDayTransferredLV = "RestorationOfIndependenceDayTransferredLV";
         /// <summary>Second Day of Christmas.</summary>
         public const string SecondChristmasDayLV = "SecondChristmasDayLV";
         /// <summary>Song and Dance Festival Closing Day.</summary>
         public const string SongAndDanceFestivalLV = "SongAndDanceFestivalLV";
+        /// <summary>Song and Dance Festival Closing Day (transferred day off).</summary>
+        public const string SongAndDanceFestivalTransferredLV = "SongAndDanceFestivalTransferredLV";
         #endregion
 
         #region Lithuania

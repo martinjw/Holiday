@@ -10,10 +10,46 @@ namespace PublicHolidayTests
     {
         [TestMethod]
         [DataRow(1, 1, "New Year's Day")]
+        [DataRow(4, 18, "Good Friday")] // Moving holiday
+        [DataRow(4, 20, "Easter Sunday")] // Moving holiday
+        [DataRow(4, 21, "Easter Monday")] // Moving holiday
+        [DataRow(5, 1, "Labour Day")]
+        [DataRow(5, 4, "Restoration of Independence Day")]
+        [DataRow(5, 5, "Restoration of Independence Day (moved from Sunday)")]
+        [DataRow(5, 11, "Mother's Day")] // Second Sunday of May
+        [DataRow(6, 8, "Pentecost")] // Moving holiday
+        [DataRow(6, 23, "Midsummer Eve")]
+        [DataRow(6, 24, "Midsummer Day")]
+        [DataRow(11, 18, "Proclamation Day")]
+        [DataRow(12, 24, "Christmas Eve")]
+        [DataRow(12, 25, "Christmas Day")]
+        [DataRow(12, 26, "Second Day of Christmas")]
+        [DataRow(12, 31, "New Year's Eve")]
+        public void TestLatvianHolidays2025(int month, int day, string name)
+        {
+            var holiday = new DateTime(2025, month, day);
+            var holidayCalendar = new LatviaPublicHoliday();
+
+            var actual = holidayCalendar.IsPublicHoliday(holiday);
+
+            Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be {name}");
+        }
+
+        [TestMethod]
+        public void TestLatvianHolidays2025List()
+        {
+            var holidays = new LatviaPublicHoliday().PublicHolidayNames(2025);
+
+            Assert.AreEqual(16, holidays.Count, "Should be 16 holidays in 2025");
+        }
+
+        [TestMethod]
+        [DataRow(1, 1, "New Year's Day")]
         [DataRow(3, 29, "Good Friday")] // moving holiday
         [DataRow(3, 31, "Easter Sunday")] // moving holiday
         [DataRow(4, 1, "Easter Monday")] // moving holiday
         [DataRow(5, 1, "Labour Day")]
+        [DataRow(5, 4, "Restoration of Independence Day")]
         [DataRow(5, 6, "Restoration of Independence Day - 4 May was a Saturday")]
         [DataRow(5, 12, "Mother's Day")] // second Sunday of May
         [DataRow(5, 19, "Whit Sunday")] // moving holiday
@@ -35,42 +71,71 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
-        [DataRow(4, 18, "Good Friday")]
-        [DataRow(4, 20, "Easter Sunday")]
-        [DataRow(4, 21, "Easter Monday")]
-        [DataRow(5, 11, "Mother's Day")]
-        [DataRow(6, 8, "Whit Sunday")]
-        public void TestLatvianMovingHolidays2025(int month, int day, string name)
+        [DataRow(2008, 5, 5, "4 May on Sunday")]
+        [DataRow(2007, 11, 19, "18 November on Sunday")]
+        [DataRow(2023, 11, 20, "18 November on Saturday")]
+        [DataRow(2024, 5, 6, "4 May on Saturday")]
+        [DataRow(2028, 11, 20, "18 November on Saturday")]
+        public void TestLatvianTransferredHolidays(int year, int month, int day, string reason)
         {
-            var holiday = new DateTime(2025, month, day);
+            var holiday = new DateTime(year, month, day);
             var holidayCalendar = new LatviaPublicHoliday();
 
             var actual = holidayCalendar.IsPublicHoliday(holiday);
 
-            Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be {name}");
+            Assert.IsTrue(actual, $"{holiday:D} is not a holiday - {reason}");
+        }
+
+        [TestMethod]
+        [DataRow(2024, 5, 7)] // 4 May on Saturday moves to Monday only
+        [DataRow(2024, 11, 19)] // 18 November on Monday, no transfer
+        [DataRow(2026, 5, 5)] // 4 May on Monday, no transfer
+        public void TestLatvianNotTransferred(int year, int month, int day)
+        {
+            var date = new DateTime(year, month, day);
+            var holidayCalendar = new LatviaPublicHoliday();
+
+            var actual = holidayCalendar.IsPublicHoliday(date);
+
+            Assert.IsFalse(actual, $"{date:D} should not be a holiday");
         }
 
         /// <summary>
         /// The three holidays the law names (4 May, the Song and Dance Festival closing day and
-        /// 18 November) keep their date but are observed on the next working day when they fall on
-        /// a weekend.
+        /// 18 November) stay holidays on their own date when it falls on a weekend, and the next
+        /// working day is a day off as well ("pārceltā brīvdiena") - a holiday of its own, with
+        /// its own key and name.
         /// </summary>
         [TestMethod]
-        [DataRow(2024, 5, 4, 5, 6)] // Saturday -> Monday
-        [DataRow(2019, 5, 4, 5, 6)] // Saturday -> Monday
-        [DataRow(2014, 5, 4, 5, 5)] // Sunday -> Monday
-        [DataRow(2023, 11, 18, 11, 20)] // Saturday -> Monday
-        [DataRow(2017, 11, 18, 11, 20)] // Saturday -> Monday
-        public void TestObservedOnNextWorkingDay(int year, int month, int day, int observedMonth, int observedDay)
+        [DataRow(2024, 5, 4, 5, 6, HolidayKeys.RestorationOfIndependenceDayTransferredLV)] // Saturday -> Monday
+        [DataRow(2019, 5, 4, 5, 6, HolidayKeys.RestorationOfIndependenceDayTransferredLV)] // Saturday -> Monday
+        [DataRow(2014, 5, 4, 5, 5, HolidayKeys.RestorationOfIndependenceDayTransferredLV)] // Sunday -> Monday
+        [DataRow(2023, 11, 18, 11, 20, HolidayKeys.ProclamationDayTransferredLV)] // Saturday -> Monday
+        [DataRow(2017, 11, 18, 11, 20, HolidayKeys.ProclamationDayTransferredLV)] // Saturday -> Monday
+        [DataRow(2023, 7, 9, 7, 10, HolidayKeys.SongAndDanceFestivalTransferredLV)] // Sunday -> Monday
+        public void TestTransferredDayOff(int year, int month, int day, int dayOffMonth, int dayOffDay, string dayOffKey)
         {
             var holidayCalendar = new LatviaPublicHoliday();
+            var holidays = holidayCalendar.PublicHolidaysInformation(year);
 
-            var holiday = holidayCalendar.PublicHolidaysInformation(year)
-                .Single(h => h.HolidayDate == new DateTime(year, month, day));
+            var holiday = holidays.Single(h => h.HolidayDate == new DateTime(year, month, day));
+            var dayOff = holidays.Single(h => h.HolidayKey == dayOffKey);
 
-            Assert.AreEqual(new DateTime(year, observedMonth, observedDay), holiday.ObservedDate);
-            Assert.IsFalse(holidayCalendar.IsPublicHoliday(holiday.HolidayDate), "the weekend day itself is not a day off");
-            Assert.IsTrue(holidayCalendar.IsPublicHoliday(holiday.ObservedDate));
+            Assert.AreEqual(holiday.HolidayDate, holiday.ObservedDate, "the holiday itself is not moved");
+            Assert.AreEqual(new DateTime(year, dayOffMonth, dayOffDay), dayOff.HolidayDate);
+            Assert.AreEqual(dayOff.HolidayDate, dayOff.ObservedDate);
+            Assert.IsTrue(holidayCalendar.IsPublicHoliday(holiday.HolidayDate));
+            Assert.IsTrue(holidayCalendar.IsPublicHoliday(dayOff.HolidayDate));
+        }
+
+        [TestMethod]
+        public void TestTransferredDayOffName()
+        {
+            var dayOff = new LatviaPublicHoliday().PublicHolidaysInformation(2025)
+                .Single(h => h.HolidayDate == new DateTime(2025, 5, 5));
+
+            Assert.AreEqual("Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)", dayOff.Name);
+            Assert.AreEqual("Restoration of Independence Day (transferred day off)", dayOff.EnglishName);
         }
 
         /// <summary>
@@ -89,19 +154,27 @@ namespace PublicHolidayTests
         }
 
         /// <summary>
-        /// The weekend rule arrived with the 2007 amendment to the holidays law: in 2006,
-        /// 18 November fell on a Saturday and no day off followed it.
+        /// Before 2007 Christmas Eve was not a public holiday and 4 May / 18 November were not moved.
         /// </summary>
         [TestMethod]
-        public void TestNoSubstituteDayBefore2007()
+        public void TestLatvianHolidays2006()
         {
             var holidayCalendar = new LatviaPublicHoliday();
 
-            var holiday = holidayCalendar.PublicHolidaysInformation(2006)
-                .Single(h => h.HolidayDate == new DateTime(2006, 11, 18));
+            Assert.IsFalse(holidayCalendar.IsPublicHoliday(new DateTime(2006, 12, 24)), "Christmas Eve from 2007");
+            Assert.IsFalse(holidayCalendar.IsPublicHoliday(new DateTime(2006, 11, 20)), "Transfer rule from 2007");
+            Assert.IsTrue(holidayCalendar.IsPublicHoliday(new DateTime(2006, 5, 4)));
+        }
 
-            Assert.AreEqual(new DateTime(2006, 11, 18), holiday.ObservedDate);
-            Assert.IsFalse(holidayCalendar.IsPublicHoliday(new DateTime(2006, 11, 20)));
+        /// <summary>
+        /// Before 2002 4 May was not a public holiday.
+        /// </summary>
+        [TestMethod]
+        public void TestLatvianHolidays2001()
+        {
+            var holidayCalendar = new LatviaPublicHoliday();
+
+            Assert.IsFalse(holidayCalendar.IsPublicHoliday(new DateTime(2001, 5, 4)));
         }
 
         /// <summary>
@@ -117,32 +190,64 @@ namespace PublicHolidayTests
         }
 
         /// <summary>
+        /// Mother's Day and Whit Sunday can fall on the same Sunday (2008): both are kept, one
+        /// name each.
+        /// </summary>
+        [TestMethod]
+        public void TestLatvianMothersDayOnPentecost()
+        {
+            var holidays = new LatviaPublicHoliday().PublicHolidayNames(2008);
+
+            CollectionAssert.AreEquivalent(new[] { "Mātes diena", "Vasarsvētki" }, holidays[new DateTime(2008, 5, 11)]);
+        }
+
+        [TestMethod]
+        [DataRow(2018, 7, 8, "Song and Dance Festival closing day")]
+        [DataRow(2018, 7, 9, "Song and Dance Festival closing day (moved from Sunday)")]
+        [DataRow(2023, 5, 29, "Ice hockey bronze medal")]
+        [DataRow(2023, 7, 9, "Song and Dance Festival closing day")]
+        [DataRow(2023, 7, 10, "Song and Dance Festival closing day (moved from Sunday)")]
+        public void TestLatvianSpecialHolidays(int year, int month, int day, string name)
+        {
+            var holiday = new DateTime(year, month, day);
+            var holidayCalendar = new LatviaPublicHoliday();
+
+            var actual = holidayCalendar.IsPublicHoliday(holiday);
+
+            Assert.IsTrue(actual, $"{holiday:D} is not a holiday - should be {name}");
+        }
+
+        [TestMethod]
+        public void TestLatvianSpecialHolidaysOnlyInTheirYear()
+        {
+            var holidayCalendar = new LatviaPublicHoliday();
+
+            Assert.IsFalse(holidayCalendar.IsPublicHoliday(new DateTime(2024, 5, 29)));
+            Assert.IsFalse(holidayCalendar.IsPublicHoliday(new DateTime(2024, 7, 8)));
+        }
+
+        /// <summary>
         /// The Song and Dance Festival is held about every five years on announced dates, so only
         /// the years it took place have the holiday.
         /// </summary>
         [TestMethod]
-        public void TestSongAndDanceFestivalClosingDay()
+        public void TestSongAndDanceFestivalOnlyInFestivalYears()
         {
-            var holidayCalendar = new LatviaPublicHoliday();
-
-            Assert.IsTrue(holidayCalendar.IsPublicHoliday(new DateTime(2018, 7, 9)), "8 July 2018 was a Sunday, observed on the Monday");
-            Assert.IsTrue(holidayCalendar.IsPublicHoliday(new DateTime(2023, 7, 10)), "9 July 2023 was a Sunday, observed on the Monday");
-            Assert.IsFalse(holidayCalendar.PublicHolidaysInformation(2024)
-                .Any(h => h.HolidayKey == "SongAndDanceFestivalLV"), "no festival in 2024");
+            Assert.IsFalse(new LatviaPublicHoliday().PublicHolidaysInformation(2024)
+                .Any(h => h.HolidayKey == HolidayKeys.SongAndDanceFestivalLV
+                       || h.HolidayKey == HolidayKeys.SongAndDanceFestivalTransferredLV), "no festival in 2024");
         }
 
         /// <summary>
-        /// Two holidays that happened exactly once: the pastoral visit of Pope Francis and the day
-        /// after the ice hockey team won bronze at the 2023 World Championship.
+        /// The pastoral visit of Pope Francis on 24 September 2018 was declared a holiday by the
+        /// Saeima on 21 June 2018 (amendment to the holidays law).
         /// </summary>
         [TestMethod]
-        public void TestOneOffHolidays()
+        public void TestPopeFrancisVisit()
         {
             var holidayCalendar = new LatviaPublicHoliday();
 
             Assert.IsTrue(holidayCalendar.IsPublicHoliday(new DateTime(2018, 9, 24)));
-            Assert.IsTrue(holidayCalendar.IsPublicHoliday(new DateTime(2023, 5, 29)));
-            Assert.IsFalse(holidayCalendar.IsPublicHoliday(new DateTime(2024, 5, 29)));
             Assert.IsFalse(holidayCalendar.IsPublicHoliday(new DateTime(2019, 9, 24)));
         }
 
@@ -153,6 +258,8 @@ namespace PublicHolidayTests
 
             Assert.AreEqual("Jāņu diena", holidays.Single(h => h.HolidayDate == new DateTime(2024, 6, 24)).Name);
             Assert.AreEqual("Līgo diena", holidays.Single(h => h.HolidayDate == new DateTime(2024, 6, 23)).Name);
+            Assert.AreEqual("Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena",
+                holidays.Single(h => h.HolidayDate == new DateTime(2024, 5, 1)).Name);
             Assert.AreEqual("Latvijas Republikas proklamēšanas diena",
                 holidays.Single(h => h.HolidayDate == new DateTime(2024, 11, 18)).Name);
             Assert.AreEqual("Otrie Ziemassvētki", holidays.Single(h => h.HolidayDate == new DateTime(2024, 12, 26)).Name);
@@ -169,7 +276,7 @@ namespace PublicHolidayTests
                 .Single(h => h.HolidayDate == new DateTime(2024, 12, 26));
 
             Assert.AreEqual("Second Day of Christmas", secondChristmasDay.GetName("en"));
-            Assert.AreEqual("SecondChristmasDayLV", secondChristmasDay.HolidayKey);
+            Assert.AreEqual(HolidayKeys.SecondChristmasDayLV, secondChristmasDay.HolidayKey);
         }
 
         /// <summary>

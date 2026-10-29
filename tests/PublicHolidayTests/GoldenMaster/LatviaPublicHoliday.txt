@@ -2,8 +2,7 @@
 1990|1990-04-13T00:00:00|1990-04-13T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 1990|1990-04-15T00:00:00|1990-04-15T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 1990|1990-04-16T00:00:00|1990-04-16T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-1990|1990-05-01T00:00:00|1990-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-1990|1990-05-04T00:00:00|1990-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+1990|1990-05-01T00:00:00|1990-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 1990|1990-05-13T00:00:00|1990-05-13T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 1990|1990-06-03T00:00:00|1990-06-03T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 1990|1990-06-23T00:00:00|1990-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -16,8 +15,7 @@
 1991|1991-03-29T00:00:00|1991-03-29T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 1991|1991-03-31T00:00:00|1991-03-31T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 1991|1991-04-01T00:00:00|1991-04-01T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-1991|1991-05-01T00:00:00|1991-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-1991|1991-05-04T00:00:00|1991-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+1991|1991-05-01T00:00:00|1991-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 1991|1991-05-12T00:00:00|1991-05-12T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 1991|1991-05-19T00:00:00|1991-05-19T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 1991|1991-06-23T00:00:00|1991-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -30,8 +28,7 @@
 1992|1992-04-17T00:00:00|1992-04-17T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 1992|1992-04-19T00:00:00|1992-04-19T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 1992|1992-04-20T00:00:00|1992-04-20T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-1992|1992-05-01T00:00:00|1992-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-1992|1992-05-04T00:00:00|1992-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+1992|1992-05-01T00:00:00|1992-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 1992|1992-05-10T00:00:00|1992-05-10T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 1992|1992-06-07T00:00:00|1992-06-07T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 1992|1992-06-23T00:00:00|1992-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -44,8 +41,7 @@
 1993|1993-04-09T00:00:00|1993-04-09T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 1993|1993-04-11T00:00:00|1993-04-11T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 1993|1993-04-12T00:00:00|1993-04-12T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-1993|1993-05-01T00:00:00|1993-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-1993|1993-05-04T00:00:00|1993-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+1993|1993-05-01T00:00:00|1993-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 1993|1993-05-09T00:00:00|1993-05-09T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 1993|1993-05-30T00:00:00|1993-05-30T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 1993|1993-06-23T00:00:00|1993-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -58,8 +54,7 @@
 1994|1994-04-01T00:00:00|1994-04-01T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 1994|1994-04-03T00:00:00|1994-04-03T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 1994|1994-04-04T00:00:00|1994-04-04T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-1994|1994-05-01T00:00:00|1994-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-1994|1994-05-04T00:00:00|1994-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+1994|1994-05-01T00:00:00|1994-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 1994|1994-05-08T00:00:00|1994-05-08T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 1994|1994-05-22T00:00:00|1994-05-22T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 1994|1994-06-23T00:00:00|1994-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -72,8 +67,7 @@
 1995|1995-04-14T00:00:00|1995-04-14T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 1995|1995-04-16T00:00:00|1995-04-16T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 1995|1995-04-17T00:00:00|1995-04-17T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-1995|1995-05-01T00:00:00|1995-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-1995|1995-05-04T00:00:00|1995-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+1995|1995-05-01T00:00:00|1995-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 1995|1995-05-14T00:00:00|1995-05-14T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 1995|1995-06-04T00:00:00|1995-06-04T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 1995|1995-06-23T00:00:00|1995-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -86,8 +80,7 @@
 1996|1996-04-05T00:00:00|1996-04-05T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 1996|1996-04-07T00:00:00|1996-04-07T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 1996|1996-04-08T00:00:00|1996-04-08T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-1996|1996-05-01T00:00:00|1996-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-1996|1996-05-04T00:00:00|1996-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+1996|1996-05-01T00:00:00|1996-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 1996|1996-05-12T00:00:00|1996-05-12T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 1996|1996-05-26T00:00:00|1996-05-26T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 1996|1996-06-23T00:00:00|1996-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -100,8 +93,7 @@
 1997|1997-03-28T00:00:00|1997-03-28T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 1997|1997-03-30T00:00:00|1997-03-30T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 1997|1997-03-31T00:00:00|1997-03-31T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-1997|1997-05-01T00:00:00|1997-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-1997|1997-05-04T00:00:00|1997-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+1997|1997-05-01T00:00:00|1997-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 1997|1997-05-11T00:00:00|1997-05-11T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 1997|1997-05-18T00:00:00|1997-05-18T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 1997|1997-06-23T00:00:00|1997-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -114,8 +106,7 @@
 1998|1998-04-10T00:00:00|1998-04-10T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 1998|1998-04-12T00:00:00|1998-04-12T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 1998|1998-04-13T00:00:00|1998-04-13T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-1998|1998-05-01T00:00:00|1998-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-1998|1998-05-04T00:00:00|1998-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+1998|1998-05-01T00:00:00|1998-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 1998|1998-05-10T00:00:00|1998-05-10T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 1998|1998-05-31T00:00:00|1998-05-31T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 1998|1998-06-23T00:00:00|1998-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -128,8 +119,7 @@
 1999|1999-04-02T00:00:00|1999-04-02T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 1999|1999-04-04T00:00:00|1999-04-04T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 1999|1999-04-05T00:00:00|1999-04-05T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-1999|1999-05-01T00:00:00|1999-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-1999|1999-05-04T00:00:00|1999-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+1999|1999-05-01T00:00:00|1999-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 1999|1999-05-09T00:00:00|1999-05-09T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 1999|1999-05-23T00:00:00|1999-05-23T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 1999|1999-06-23T00:00:00|1999-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -142,8 +132,7 @@
 2000|2000-04-21T00:00:00|2000-04-21T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2000|2000-04-23T00:00:00|2000-04-23T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2000|2000-04-24T00:00:00|2000-04-24T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2000|2000-05-04T00:00:00|2000-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2000|2000-05-14T00:00:00|2000-05-14T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2000|2000-06-11T00:00:00|2000-06-11T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2000|2000-06-23T00:00:00|2000-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -156,8 +145,7 @@
 2001|2001-04-13T00:00:00|2001-04-13T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2001|2001-04-15T00:00:00|2001-04-15T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2001|2001-04-16T00:00:00|2001-04-16T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2001|2001-05-01T00:00:00|2001-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2001|2001-05-04T00:00:00|2001-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2001|2001-05-01T00:00:00|2001-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2001|2001-05-13T00:00:00|2001-05-13T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2001|2001-06-03T00:00:00|2001-06-03T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2001|2001-06-23T00:00:00|2001-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -170,7 +158,7 @@
 2002|2002-03-29T00:00:00|2002-03-29T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2002|2002-03-31T00:00:00|2002-03-31T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2002|2002-04-01T00:00:00|2002-04-01T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2002|2002-05-01T00:00:00|2002-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2002|2002-05-01T00:00:00|2002-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2002|2002-05-04T00:00:00|2002-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2002|2002-05-12T00:00:00|2002-05-12T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2002|2002-05-19T00:00:00|2002-05-19T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -184,7 +172,7 @@
 2003|2003-04-18T00:00:00|2003-04-18T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2003|2003-04-20T00:00:00|2003-04-20T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2003|2003-04-21T00:00:00|2003-04-21T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2003|2003-05-01T00:00:00|2003-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2003|2003-05-01T00:00:00|2003-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2003|2003-05-04T00:00:00|2003-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2003|2003-05-11T00:00:00|2003-05-11T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2003|2003-06-08T00:00:00|2003-06-08T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -198,7 +186,7 @@
 2004|2004-04-09T00:00:00|2004-04-09T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2004|2004-04-11T00:00:00|2004-04-11T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2004|2004-04-12T00:00:00|2004-04-12T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2004|2004-05-01T00:00:00|2004-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2004|2004-05-01T00:00:00|2004-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2004|2004-05-04T00:00:00|2004-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2004|2004-05-09T00:00:00|2004-05-09T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2004|2004-05-30T00:00:00|2004-05-30T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -212,7 +200,7 @@
 2005|2005-03-25T00:00:00|2005-03-25T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2005|2005-03-27T00:00:00|2005-03-27T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2005|2005-03-28T00:00:00|2005-03-28T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2005|2005-05-01T00:00:00|2005-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2005|2005-05-01T00:00:00|2005-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2005|2005-05-04T00:00:00|2005-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2005|2005-05-08T00:00:00|2005-05-08T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2005|2005-05-15T00:00:00|2005-05-15T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -226,7 +214,7 @@
 2006|2006-04-14T00:00:00|2006-04-14T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2006|2006-04-16T00:00:00|2006-04-16T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2006|2006-04-17T00:00:00|2006-04-17T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2006|2006-05-01T00:00:00|2006-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2006|2006-05-01T00:00:00|2006-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2006|2006-05-04T00:00:00|2006-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2006|2006-05-14T00:00:00|2006-05-14T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2006|2006-06-04T00:00:00|2006-06-04T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -240,13 +228,14 @@
 2007|2007-04-06T00:00:00|2007-04-06T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2007|2007-04-08T00:00:00|2007-04-08T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2007|2007-04-09T00:00:00|2007-04-09T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2007|2007-05-01T00:00:00|2007-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2007|2007-05-01T00:00:00|2007-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2007|2007-05-04T00:00:00|2007-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2007|2007-05-13T00:00:00|2007-05-13T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2007|2007-05-27T00:00:00|2007-05-27T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2007|2007-06-23T00:00:00|2007-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
 2007|2007-06-24T00:00:00|2007-06-24T00:00:00|Midsummer Day|Jāņu diena|MidsummerDayLV|True|
-2007|2007-11-18T00:00:00|2007-11-19T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2007|2007-11-18T00:00:00|2007-11-18T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2007|2007-11-19T00:00:00|2007-11-19T00:00:00|Proclamation of the Republic of Latvia (transferred day off)|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|ProclamationDayTransferredLV|True|
 2007|2007-12-24T00:00:00|2007-12-24T00:00:00|Christmas Eve|Ziemassvētku vakars|ChristmasEve|True|
 2007|2007-12-25T00:00:00|2007-12-25T00:00:00|Christmas|Pirmie Ziemassvētki|Christmas|True|
 2007|2007-12-26T00:00:00|2007-12-26T00:00:00|Second Day of Christmas|Otrie Ziemassvētki|SecondChristmasDayLV|True|
@@ -255,8 +244,9 @@
 2008|2008-03-21T00:00:00|2008-03-21T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2008|2008-03-23T00:00:00|2008-03-23T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2008|2008-03-24T00:00:00|2008-03-24T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2008|2008-05-01T00:00:00|2008-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2008|2008-05-04T00:00:00|2008-05-05T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2008|2008-05-01T00:00:00|2008-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
+2008|2008-05-04T00:00:00|2008-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2008|2008-05-05T00:00:00|2008-05-05T00:00:00|Restoration of Independence Day (transferred day off)|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|RestorationOfIndependenceDayTransferredLV|True|
 2008|2008-05-11T00:00:00|2008-05-11T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2008|2008-05-11T00:00:00|2008-05-11T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2008|2008-06-23T00:00:00|2008-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -270,7 +260,7 @@
 2009|2009-04-10T00:00:00|2009-04-10T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2009|2009-04-12T00:00:00|2009-04-12T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2009|2009-04-13T00:00:00|2009-04-13T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2009|2009-05-01T00:00:00|2009-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2009|2009-05-01T00:00:00|2009-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2009|2009-05-04T00:00:00|2009-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2009|2009-05-10T00:00:00|2009-05-10T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2009|2009-05-31T00:00:00|2009-05-31T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -285,7 +275,7 @@
 2010|2010-04-02T00:00:00|2010-04-02T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2010|2010-04-04T00:00:00|2010-04-04T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2010|2010-04-05T00:00:00|2010-04-05T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2010|2010-05-01T00:00:00|2010-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2010|2010-05-01T00:00:00|2010-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2010|2010-05-04T00:00:00|2010-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2010|2010-05-09T00:00:00|2010-05-09T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2010|2010-05-23T00:00:00|2010-05-23T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -300,7 +290,7 @@
 2011|2011-04-22T00:00:00|2011-04-22T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2011|2011-04-24T00:00:00|2011-04-24T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2011|2011-04-25T00:00:00|2011-04-25T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2011|2011-05-01T00:00:00|2011-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2011|2011-05-01T00:00:00|2011-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2011|2011-05-04T00:00:00|2011-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2011|2011-05-08T00:00:00|2011-05-08T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2011|2011-06-12T00:00:00|2011-06-12T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -315,13 +305,14 @@
 2012|2012-04-06T00:00:00|2012-04-06T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2012|2012-04-08T00:00:00|2012-04-08T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2012|2012-04-09T00:00:00|2012-04-09T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2012|2012-05-01T00:00:00|2012-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2012|2012-05-01T00:00:00|2012-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2012|2012-05-04T00:00:00|2012-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2012|2012-05-13T00:00:00|2012-05-13T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2012|2012-05-27T00:00:00|2012-05-27T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2012|2012-06-23T00:00:00|2012-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
 2012|2012-06-24T00:00:00|2012-06-24T00:00:00|Midsummer Day|Jāņu diena|MidsummerDayLV|True|
-2012|2012-11-18T00:00:00|2012-11-19T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2012|2012-11-18T00:00:00|2012-11-18T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2012|2012-11-19T00:00:00|2012-11-19T00:00:00|Proclamation of the Republic of Latvia (transferred day off)|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|ProclamationDayTransferredLV|True|
 2012|2012-12-24T00:00:00|2012-12-24T00:00:00|Christmas Eve|Ziemassvētku vakars|ChristmasEve|True|
 2012|2012-12-25T00:00:00|2012-12-25T00:00:00|Christmas|Pirmie Ziemassvētki|Christmas|True|
 2012|2012-12-26T00:00:00|2012-12-26T00:00:00|Second Day of Christmas|Otrie Ziemassvētki|SecondChristmasDayLV|True|
@@ -330,8 +321,9 @@
 2013|2013-03-29T00:00:00|2013-03-29T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2013|2013-03-31T00:00:00|2013-03-31T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2013|2013-04-01T00:00:00|2013-04-01T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2013|2013-05-01T00:00:00|2013-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2013|2013-05-04T00:00:00|2013-05-06T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2013|2013-05-01T00:00:00|2013-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
+2013|2013-05-04T00:00:00|2013-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2013|2013-05-06T00:00:00|2013-05-06T00:00:00|Restoration of Independence Day (transferred day off)|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|RestorationOfIndependenceDayTransferredLV|True|
 2013|2013-05-12T00:00:00|2013-05-12T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2013|2013-05-19T00:00:00|2013-05-19T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2013|2013-06-23T00:00:00|2013-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -345,8 +337,9 @@
 2014|2014-04-18T00:00:00|2014-04-18T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2014|2014-04-20T00:00:00|2014-04-20T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2014|2014-04-21T00:00:00|2014-04-21T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2014|2014-05-01T00:00:00|2014-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2014|2014-05-04T00:00:00|2014-05-05T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2014|2014-05-01T00:00:00|2014-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
+2014|2014-05-04T00:00:00|2014-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2014|2014-05-05T00:00:00|2014-05-05T00:00:00|Restoration of Independence Day (transferred day off)|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|RestorationOfIndependenceDayTransferredLV|True|
 2014|2014-05-11T00:00:00|2014-05-11T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2014|2014-06-08T00:00:00|2014-06-08T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2014|2014-06-23T00:00:00|2014-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -360,7 +353,7 @@
 2015|2015-04-03T00:00:00|2015-04-03T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2015|2015-04-05T00:00:00|2015-04-05T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2015|2015-04-06T00:00:00|2015-04-06T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2015|2015-05-01T00:00:00|2015-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2015|2015-05-01T00:00:00|2015-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2015|2015-05-04T00:00:00|2015-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2015|2015-05-10T00:00:00|2015-05-10T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2015|2015-05-24T00:00:00|2015-05-24T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -375,7 +368,7 @@
 2016|2016-03-25T00:00:00|2016-03-25T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2016|2016-03-27T00:00:00|2016-03-27T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2016|2016-03-28T00:00:00|2016-03-28T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2016|2016-05-01T00:00:00|2016-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2016|2016-05-01T00:00:00|2016-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2016|2016-05-04T00:00:00|2016-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2016|2016-05-08T00:00:00|2016-05-08T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2016|2016-05-15T00:00:00|2016-05-15T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -390,13 +383,14 @@
 2017|2017-04-14T00:00:00|2017-04-14T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2017|2017-04-16T00:00:00|2017-04-16T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2017|2017-04-17T00:00:00|2017-04-17T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2017|2017-05-01T00:00:00|2017-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2017|2017-05-01T00:00:00|2017-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2017|2017-05-04T00:00:00|2017-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2017|2017-05-14T00:00:00|2017-05-14T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2017|2017-06-04T00:00:00|2017-06-04T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2017|2017-06-23T00:00:00|2017-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
 2017|2017-06-24T00:00:00|2017-06-24T00:00:00|Midsummer Day|Jāņu diena|MidsummerDayLV|True|
-2017|2017-11-18T00:00:00|2017-11-20T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2017|2017-11-18T00:00:00|2017-11-18T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2017|2017-11-20T00:00:00|2017-11-20T00:00:00|Proclamation of the Republic of Latvia (transferred day off)|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|ProclamationDayTransferredLV|True|
 2017|2017-12-24T00:00:00|2017-12-24T00:00:00|Christmas Eve|Ziemassvētku vakars|ChristmasEve|True|
 2017|2017-12-25T00:00:00|2017-12-25T00:00:00|Christmas|Pirmie Ziemassvētki|Christmas|True|
 2017|2017-12-26T00:00:00|2017-12-26T00:00:00|Second Day of Christmas|Otrie Ziemassvētki|SecondChristmasDayLV|True|
@@ -405,15 +399,17 @@
 2018|2018-03-30T00:00:00|2018-03-30T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2018|2018-04-01T00:00:00|2018-04-01T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2018|2018-04-02T00:00:00|2018-04-02T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2018|2018-05-01T00:00:00|2018-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2018|2018-05-01T00:00:00|2018-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2018|2018-05-04T00:00:00|2018-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2018|2018-05-13T00:00:00|2018-05-13T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2018|2018-05-20T00:00:00|2018-05-20T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2018|2018-06-23T00:00:00|2018-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
 2018|2018-06-24T00:00:00|2018-06-24T00:00:00|Midsummer Day|Jāņu diena|MidsummerDayLV|True|
-2018|2018-07-08T00:00:00|2018-07-09T00:00:00|Song and Dance Festival Closing Day|Vispārējo latviešu Dziesmu un deju svētku noslēguma diena|SongAndDanceFestivalLV|True|
+2018|2018-07-08T00:00:00|2018-07-08T00:00:00|Song and Dance Festival Closing Day|Vispārējo latviešu Dziesmu un deju svētku noslēguma diena|SongAndDanceFestivalLV|True|
+2018|2018-07-09T00:00:00|2018-07-09T00:00:00|Song and Dance Festival Closing Day (transferred day off)|Vispārējo latviešu Dziesmu un deju svētku noslēguma diena (pārceltā brīvdiena)|SongAndDanceFestivalTransferredLV|True|
 2018|2018-09-24T00:00:00|2018-09-24T00:00:00|Pastoral Visit of Pope Francis|Pāvesta Franciska pastorālās vizītes diena|PopeFrancisVisitLV|True|
-2018|2018-11-18T00:00:00|2018-11-19T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2018|2018-11-18T00:00:00|2018-11-18T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2018|2018-11-19T00:00:00|2018-11-19T00:00:00|Proclamation of the Republic of Latvia (transferred day off)|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|ProclamationDayTransferredLV|True|
 2018|2018-12-24T00:00:00|2018-12-24T00:00:00|Christmas Eve|Ziemassvētku vakars|ChristmasEve|True|
 2018|2018-12-25T00:00:00|2018-12-25T00:00:00|Christmas|Pirmie Ziemassvētki|Christmas|True|
 2018|2018-12-26T00:00:00|2018-12-26T00:00:00|Second Day of Christmas|Otrie Ziemassvētki|SecondChristmasDayLV|True|
@@ -422,8 +418,9 @@
 2019|2019-04-19T00:00:00|2019-04-19T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2019|2019-04-21T00:00:00|2019-04-21T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2019|2019-04-22T00:00:00|2019-04-22T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2019|2019-05-01T00:00:00|2019-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2019|2019-05-04T00:00:00|2019-05-06T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2019|2019-05-01T00:00:00|2019-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
+2019|2019-05-04T00:00:00|2019-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2019|2019-05-06T00:00:00|2019-05-06T00:00:00|Restoration of Independence Day (transferred day off)|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|RestorationOfIndependenceDayTransferredLV|True|
 2019|2019-05-12T00:00:00|2019-05-12T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2019|2019-06-09T00:00:00|2019-06-09T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2019|2019-06-23T00:00:00|2019-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -437,7 +434,7 @@
 2020|2020-04-10T00:00:00|2020-04-10T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2020|2020-04-12T00:00:00|2020-04-12T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2020|2020-04-13T00:00:00|2020-04-13T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2020|2020-05-01T00:00:00|2020-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2020|2020-05-01T00:00:00|2020-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2020|2020-05-04T00:00:00|2020-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2020|2020-05-10T00:00:00|2020-05-10T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2020|2020-05-31T00:00:00|2020-05-31T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -452,7 +449,7 @@
 2021|2021-04-02T00:00:00|2021-04-02T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2021|2021-04-04T00:00:00|2021-04-04T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2021|2021-04-05T00:00:00|2021-04-05T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2021|2021-05-01T00:00:00|2021-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2021|2021-05-01T00:00:00|2021-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2021|2021-05-04T00:00:00|2021-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2021|2021-05-09T00:00:00|2021-05-09T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2021|2021-05-23T00:00:00|2021-05-23T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -467,7 +464,7 @@
 2022|2022-04-15T00:00:00|2022-04-15T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2022|2022-04-17T00:00:00|2022-04-17T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2022|2022-04-18T00:00:00|2022-04-18T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2022|2022-05-01T00:00:00|2022-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2022|2022-05-01T00:00:00|2022-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2022|2022-05-04T00:00:00|2022-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2022|2022-05-08T00:00:00|2022-05-08T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2022|2022-06-05T00:00:00|2022-06-05T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -482,15 +479,17 @@
 2023|2023-04-07T00:00:00|2023-04-07T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2023|2023-04-09T00:00:00|2023-04-09T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2023|2023-04-10T00:00:00|2023-04-10T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2023|2023-05-01T00:00:00|2023-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2023|2023-05-01T00:00:00|2023-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2023|2023-05-04T00:00:00|2023-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2023|2023-05-14T00:00:00|2023-05-14T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2023|2023-05-28T00:00:00|2023-05-28T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
-2023|2023-05-29T00:00:00|2023-05-29T00:00:00|Day of the Bronze Medal Win|Latvijas hokeja izlases bronzas medaļas ieguves diena|BronzeMedalDayLV|True|
+2023|2023-05-29T00:00:00|2023-05-29T00:00:00|Day of the Bronze Medal Win|Latvijas hokeja komandas 2023. gada Pasaules hokeja čempionāta bronzas medaļas ieguves diena|BronzeMedalDayLV|True|
 2023|2023-06-23T00:00:00|2023-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
 2023|2023-06-24T00:00:00|2023-06-24T00:00:00|Midsummer Day|Jāņu diena|MidsummerDayLV|True|
-2023|2023-07-09T00:00:00|2023-07-10T00:00:00|Song and Dance Festival Closing Day|Vispārējo latviešu Dziesmu un deju svētku noslēguma diena|SongAndDanceFestivalLV|True|
-2023|2023-11-18T00:00:00|2023-11-20T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2023|2023-07-09T00:00:00|2023-07-09T00:00:00|Song and Dance Festival Closing Day|Vispārējo latviešu Dziesmu un deju svētku noslēguma diena|SongAndDanceFestivalLV|True|
+2023|2023-07-10T00:00:00|2023-07-10T00:00:00|Song and Dance Festival Closing Day (transferred day off)|Vispārējo latviešu Dziesmu un deju svētku noslēguma diena (pārceltā brīvdiena)|SongAndDanceFestivalTransferredLV|True|
+2023|2023-11-18T00:00:00|2023-11-18T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2023|2023-11-20T00:00:00|2023-11-20T00:00:00|Proclamation of the Republic of Latvia (transferred day off)|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|ProclamationDayTransferredLV|True|
 2023|2023-12-24T00:00:00|2023-12-24T00:00:00|Christmas Eve|Ziemassvētku vakars|ChristmasEve|True|
 2023|2023-12-25T00:00:00|2023-12-25T00:00:00|Christmas|Pirmie Ziemassvētki|Christmas|True|
 2023|2023-12-26T00:00:00|2023-12-26T00:00:00|Second Day of Christmas|Otrie Ziemassvētki|SecondChristmasDayLV|True|
@@ -499,8 +498,9 @@
 2024|2024-03-29T00:00:00|2024-03-29T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2024|2024-03-31T00:00:00|2024-03-31T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2024|2024-04-01T00:00:00|2024-04-01T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2024|2024-05-01T00:00:00|2024-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2024|2024-05-04T00:00:00|2024-05-06T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2024|2024-05-01T00:00:00|2024-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
+2024|2024-05-04T00:00:00|2024-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2024|2024-05-06T00:00:00|2024-05-06T00:00:00|Restoration of Independence Day (transferred day off)|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|RestorationOfIndependenceDayTransferredLV|True|
 2024|2024-05-12T00:00:00|2024-05-12T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2024|2024-05-19T00:00:00|2024-05-19T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2024|2024-06-23T00:00:00|2024-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -514,8 +514,9 @@
 2025|2025-04-18T00:00:00|2025-04-18T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2025|2025-04-20T00:00:00|2025-04-20T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2025|2025-04-21T00:00:00|2025-04-21T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2025|2025-05-01T00:00:00|2025-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2025|2025-05-04T00:00:00|2025-05-05T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2025|2025-05-01T00:00:00|2025-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
+2025|2025-05-04T00:00:00|2025-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2025|2025-05-05T00:00:00|2025-05-05T00:00:00|Restoration of Independence Day (transferred day off)|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|RestorationOfIndependenceDayTransferredLV|True|
 2025|2025-05-11T00:00:00|2025-05-11T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2025|2025-06-08T00:00:00|2025-06-08T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2025|2025-06-23T00:00:00|2025-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -529,7 +530,7 @@
 2026|2026-04-03T00:00:00|2026-04-03T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2026|2026-04-05T00:00:00|2026-04-05T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2026|2026-04-06T00:00:00|2026-04-06T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2026|2026-05-01T00:00:00|2026-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2026|2026-05-01T00:00:00|2026-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2026|2026-05-04T00:00:00|2026-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2026|2026-05-10T00:00:00|2026-05-10T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2026|2026-05-24T00:00:00|2026-05-24T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -544,7 +545,7 @@
 2027|2027-03-26T00:00:00|2027-03-26T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2027|2027-03-28T00:00:00|2027-03-28T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2027|2027-03-29T00:00:00|2027-03-29T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2027|2027-05-01T00:00:00|2027-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2027|2027-05-01T00:00:00|2027-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2027|2027-05-04T00:00:00|2027-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2027|2027-05-09T00:00:00|2027-05-09T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2027|2027-05-16T00:00:00|2027-05-16T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -559,13 +560,14 @@
 2028|2028-04-14T00:00:00|2028-04-14T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2028|2028-04-16T00:00:00|2028-04-16T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2028|2028-04-17T00:00:00|2028-04-17T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2028|2028-05-01T00:00:00|2028-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2028|2028-05-01T00:00:00|2028-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2028|2028-05-04T00:00:00|2028-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2028|2028-05-14T00:00:00|2028-05-14T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2028|2028-06-04T00:00:00|2028-06-04T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2028|2028-06-23T00:00:00|2028-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
 2028|2028-06-24T00:00:00|2028-06-24T00:00:00|Midsummer Day|Jāņu diena|MidsummerDayLV|True|
-2028|2028-11-18T00:00:00|2028-11-20T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2028|2028-11-18T00:00:00|2028-11-18T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2028|2028-11-20T00:00:00|2028-11-20T00:00:00|Proclamation of the Republic of Latvia (transferred day off)|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|ProclamationDayTransferredLV|True|
 2028|2028-12-24T00:00:00|2028-12-24T00:00:00|Christmas Eve|Ziemassvētku vakars|ChristmasEve|True|
 2028|2028-12-25T00:00:00|2028-12-25T00:00:00|Christmas|Pirmie Ziemassvētki|Christmas|True|
 2028|2028-12-26T00:00:00|2028-12-26T00:00:00|Second Day of Christmas|Otrie Ziemassvētki|SecondChristmasDayLV|True|
@@ -574,13 +576,14 @@
 2029|2029-03-30T00:00:00|2029-03-30T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2029|2029-04-01T00:00:00|2029-04-01T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2029|2029-04-02T00:00:00|2029-04-02T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2029|2029-05-01T00:00:00|2029-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2029|2029-05-01T00:00:00|2029-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2029|2029-05-04T00:00:00|2029-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2029|2029-05-13T00:00:00|2029-05-13T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2029|2029-05-20T00:00:00|2029-05-20T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2029|2029-06-23T00:00:00|2029-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
 2029|2029-06-24T00:00:00|2029-06-24T00:00:00|Midsummer Day|Jāņu diena|MidsummerDayLV|True|
-2029|2029-11-18T00:00:00|2029-11-19T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2029|2029-11-18T00:00:00|2029-11-18T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2029|2029-11-19T00:00:00|2029-11-19T00:00:00|Proclamation of the Republic of Latvia (transferred day off)|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|ProclamationDayTransferredLV|True|
 2029|2029-12-24T00:00:00|2029-12-24T00:00:00|Christmas Eve|Ziemassvētku vakars|ChristmasEve|True|
 2029|2029-12-25T00:00:00|2029-12-25T00:00:00|Christmas|Pirmie Ziemassvētki|Christmas|True|
 2029|2029-12-26T00:00:00|2029-12-26T00:00:00|Second Day of Christmas|Otrie Ziemassvētki|SecondChristmasDayLV|True|
@@ -589,8 +592,9 @@
 2030|2030-04-19T00:00:00|2030-04-19T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2030|2030-04-21T00:00:00|2030-04-21T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2030|2030-04-22T00:00:00|2030-04-22T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2030|2030-05-01T00:00:00|2030-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2030|2030-05-04T00:00:00|2030-05-06T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2030|2030-05-01T00:00:00|2030-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
+2030|2030-05-04T00:00:00|2030-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2030|2030-05-06T00:00:00|2030-05-06T00:00:00|Restoration of Independence Day (transferred day off)|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|RestorationOfIndependenceDayTransferredLV|True|
 2030|2030-05-12T00:00:00|2030-05-12T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2030|2030-06-09T00:00:00|2030-06-09T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2030|2030-06-23T00:00:00|2030-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -604,8 +608,9 @@
 2031|2031-04-11T00:00:00|2031-04-11T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2031|2031-04-13T00:00:00|2031-04-13T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2031|2031-04-14T00:00:00|2031-04-14T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2031|2031-05-01T00:00:00|2031-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2031|2031-05-04T00:00:00|2031-05-05T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2031|2031-05-01T00:00:00|2031-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
+2031|2031-05-04T00:00:00|2031-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2031|2031-05-05T00:00:00|2031-05-05T00:00:00|Restoration of Independence Day (transferred day off)|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|RestorationOfIndependenceDayTransferredLV|True|
 2031|2031-05-11T00:00:00|2031-05-11T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2031|2031-06-01T00:00:00|2031-06-01T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2031|2031-06-23T00:00:00|2031-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -619,7 +624,7 @@
 2032|2032-03-26T00:00:00|2032-03-26T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2032|2032-03-28T00:00:00|2032-03-28T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2032|2032-03-29T00:00:00|2032-03-29T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2032|2032-05-01T00:00:00|2032-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2032|2032-05-01T00:00:00|2032-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2032|2032-05-04T00:00:00|2032-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2032|2032-05-09T00:00:00|2032-05-09T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2032|2032-05-16T00:00:00|2032-05-16T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -634,7 +639,7 @@
 2033|2033-04-15T00:00:00|2033-04-15T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2033|2033-04-17T00:00:00|2033-04-17T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2033|2033-04-18T00:00:00|2033-04-18T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2033|2033-05-01T00:00:00|2033-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2033|2033-05-01T00:00:00|2033-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2033|2033-05-04T00:00:00|2033-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2033|2033-05-08T00:00:00|2033-05-08T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2033|2033-06-05T00:00:00|2033-06-05T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -649,13 +654,14 @@
 2034|2034-04-07T00:00:00|2034-04-07T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2034|2034-04-09T00:00:00|2034-04-09T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2034|2034-04-10T00:00:00|2034-04-10T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2034|2034-05-01T00:00:00|2034-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2034|2034-05-01T00:00:00|2034-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2034|2034-05-04T00:00:00|2034-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2034|2034-05-14T00:00:00|2034-05-14T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2034|2034-05-28T00:00:00|2034-05-28T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2034|2034-06-23T00:00:00|2034-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
 2034|2034-06-24T00:00:00|2034-06-24T00:00:00|Midsummer Day|Jāņu diena|MidsummerDayLV|True|
-2034|2034-11-18T00:00:00|2034-11-20T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2034|2034-11-18T00:00:00|2034-11-18T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2034|2034-11-20T00:00:00|2034-11-20T00:00:00|Proclamation of the Republic of Latvia (transferred day off)|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|ProclamationDayTransferredLV|True|
 2034|2034-12-24T00:00:00|2034-12-24T00:00:00|Christmas Eve|Ziemassvētku vakars|ChristmasEve|True|
 2034|2034-12-25T00:00:00|2034-12-25T00:00:00|Christmas|Pirmie Ziemassvētki|Christmas|True|
 2034|2034-12-26T00:00:00|2034-12-26T00:00:00|Second Day of Christmas|Otrie Ziemassvētki|SecondChristmasDayLV|True|
@@ -664,13 +670,14 @@
 2035|2035-03-23T00:00:00|2035-03-23T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2035|2035-03-25T00:00:00|2035-03-25T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2035|2035-03-26T00:00:00|2035-03-26T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2035|2035-05-01T00:00:00|2035-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2035|2035-05-01T00:00:00|2035-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2035|2035-05-04T00:00:00|2035-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2035|2035-05-13T00:00:00|2035-05-13T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2035|2035-05-13T00:00:00|2035-05-13T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2035|2035-06-23T00:00:00|2035-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
 2035|2035-06-24T00:00:00|2035-06-24T00:00:00|Midsummer Day|Jāņu diena|MidsummerDayLV|True|
-2035|2035-11-18T00:00:00|2035-11-19T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2035|2035-11-18T00:00:00|2035-11-18T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2035|2035-11-19T00:00:00|2035-11-19T00:00:00|Proclamation of the Republic of Latvia (transferred day off)|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|ProclamationDayTransferredLV|True|
 2035|2035-12-24T00:00:00|2035-12-24T00:00:00|Christmas Eve|Ziemassvētku vakars|ChristmasEve|True|
 2035|2035-12-25T00:00:00|2035-12-25T00:00:00|Christmas|Pirmie Ziemassvētki|Christmas|True|
 2035|2035-12-26T00:00:00|2035-12-26T00:00:00|Second Day of Christmas|Otrie Ziemassvētki|SecondChristmasDayLV|True|
@@ -679,8 +686,9 @@
 2036|2036-04-11T00:00:00|2036-04-11T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2036|2036-04-13T00:00:00|2036-04-13T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2036|2036-04-14T00:00:00|2036-04-14T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2036|2036-05-01T00:00:00|2036-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2036|2036-05-04T00:00:00|2036-05-05T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2036|2036-05-01T00:00:00|2036-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
+2036|2036-05-04T00:00:00|2036-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2036|2036-05-05T00:00:00|2036-05-05T00:00:00|Restoration of Independence Day (transferred day off)|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|RestorationOfIndependenceDayTransferredLV|True|
 2036|2036-05-11T00:00:00|2036-05-11T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2036|2036-06-01T00:00:00|2036-06-01T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2036|2036-06-23T00:00:00|2036-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -694,7 +702,7 @@
 2037|2037-04-03T00:00:00|2037-04-03T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2037|2037-04-05T00:00:00|2037-04-05T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2037|2037-04-06T00:00:00|2037-04-06T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2037|2037-05-01T00:00:00|2037-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2037|2037-05-01T00:00:00|2037-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2037|2037-05-04T00:00:00|2037-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2037|2037-05-10T00:00:00|2037-05-10T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2037|2037-05-24T00:00:00|2037-05-24T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -709,7 +717,7 @@
 2038|2038-04-23T00:00:00|2038-04-23T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2038|2038-04-25T00:00:00|2038-04-25T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2038|2038-04-26T00:00:00|2038-04-26T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2038|2038-05-01T00:00:00|2038-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2038|2038-05-01T00:00:00|2038-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2038|2038-05-04T00:00:00|2038-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2038|2038-05-09T00:00:00|2038-05-09T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2038|2038-06-13T00:00:00|2038-06-13T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -724,7 +732,7 @@
 2039|2039-04-08T00:00:00|2039-04-08T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2039|2039-04-10T00:00:00|2039-04-10T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2039|2039-04-11T00:00:00|2039-04-11T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2039|2039-05-01T00:00:00|2039-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2039|2039-05-01T00:00:00|2039-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2039|2039-05-04T00:00:00|2039-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2039|2039-05-08T00:00:00|2039-05-08T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2039|2039-05-29T00:00:00|2039-05-29T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -739,13 +747,14 @@
 2040|2040-03-30T00:00:00|2040-03-30T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2040|2040-04-01T00:00:00|2040-04-01T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2040|2040-04-02T00:00:00|2040-04-02T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2040|2040-05-01T00:00:00|2040-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2040|2040-05-01T00:00:00|2040-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2040|2040-05-04T00:00:00|2040-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2040|2040-05-13T00:00:00|2040-05-13T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2040|2040-05-20T00:00:00|2040-05-20T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2040|2040-06-23T00:00:00|2040-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
 2040|2040-06-24T00:00:00|2040-06-24T00:00:00|Midsummer Day|Jāņu diena|MidsummerDayLV|True|
-2040|2040-11-18T00:00:00|2040-11-19T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2040|2040-11-18T00:00:00|2040-11-18T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2040|2040-11-19T00:00:00|2040-11-19T00:00:00|Proclamation of the Republic of Latvia (transferred day off)|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|ProclamationDayTransferredLV|True|
 2040|2040-12-24T00:00:00|2040-12-24T00:00:00|Christmas Eve|Ziemassvētku vakars|ChristmasEve|True|
 2040|2040-12-25T00:00:00|2040-12-25T00:00:00|Christmas|Pirmie Ziemassvētki|Christmas|True|
 2040|2040-12-26T00:00:00|2040-12-26T00:00:00|Second Day of Christmas|Otrie Ziemassvētki|SecondChristmasDayLV|True|
@@ -754,8 +763,9 @@
 2041|2041-04-19T00:00:00|2041-04-19T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2041|2041-04-21T00:00:00|2041-04-21T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2041|2041-04-22T00:00:00|2041-04-22T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2041|2041-05-01T00:00:00|2041-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2041|2041-05-04T00:00:00|2041-05-06T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2041|2041-05-01T00:00:00|2041-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
+2041|2041-05-04T00:00:00|2041-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2041|2041-05-06T00:00:00|2041-05-06T00:00:00|Restoration of Independence Day (transferred day off)|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|RestorationOfIndependenceDayTransferredLV|True|
 2041|2041-05-12T00:00:00|2041-05-12T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2041|2041-06-09T00:00:00|2041-06-09T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2041|2041-06-23T00:00:00|2041-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -769,8 +779,9 @@
 2042|2042-04-04T00:00:00|2042-04-04T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2042|2042-04-06T00:00:00|2042-04-06T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2042|2042-04-07T00:00:00|2042-04-07T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2042|2042-05-01T00:00:00|2042-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2042|2042-05-04T00:00:00|2042-05-05T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2042|2042-05-01T00:00:00|2042-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
+2042|2042-05-04T00:00:00|2042-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2042|2042-05-05T00:00:00|2042-05-05T00:00:00|Restoration of Independence Day (transferred day off)|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|RestorationOfIndependenceDayTransferredLV|True|
 2042|2042-05-11T00:00:00|2042-05-11T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2042|2042-05-25T00:00:00|2042-05-25T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2042|2042-06-23T00:00:00|2042-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -784,7 +795,7 @@
 2043|2043-03-27T00:00:00|2043-03-27T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2043|2043-03-29T00:00:00|2043-03-29T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2043|2043-03-30T00:00:00|2043-03-30T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2043|2043-05-04T00:00:00|2043-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2043|2043-05-10T00:00:00|2043-05-10T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2043|2043-05-17T00:00:00|2043-05-17T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -799,7 +810,7 @@
 2044|2044-04-15T00:00:00|2044-04-15T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2044|2044-04-17T00:00:00|2044-04-17T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2044|2044-04-18T00:00:00|2044-04-18T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2044|2044-05-01T00:00:00|2044-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2044|2044-05-01T00:00:00|2044-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2044|2044-05-04T00:00:00|2044-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2044|2044-05-08T00:00:00|2044-05-08T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2044|2044-06-05T00:00:00|2044-06-05T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -814,13 +825,14 @@
 2045|2045-04-07T00:00:00|2045-04-07T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2045|2045-04-09T00:00:00|2045-04-09T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2045|2045-04-10T00:00:00|2045-04-10T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2045|2045-05-01T00:00:00|2045-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2045|2045-05-01T00:00:00|2045-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2045|2045-05-04T00:00:00|2045-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2045|2045-05-14T00:00:00|2045-05-14T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2045|2045-05-28T00:00:00|2045-05-28T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2045|2045-06-23T00:00:00|2045-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
 2045|2045-06-24T00:00:00|2045-06-24T00:00:00|Midsummer Day|Jāņu diena|MidsummerDayLV|True|
-2045|2045-11-18T00:00:00|2045-11-20T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2045|2045-11-18T00:00:00|2045-11-18T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2045|2045-11-20T00:00:00|2045-11-20T00:00:00|Proclamation of the Republic of Latvia (transferred day off)|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|ProclamationDayTransferredLV|True|
 2045|2045-12-24T00:00:00|2045-12-24T00:00:00|Christmas Eve|Ziemassvētku vakars|ChristmasEve|True|
 2045|2045-12-25T00:00:00|2045-12-25T00:00:00|Christmas|Pirmie Ziemassvētki|Christmas|True|
 2045|2045-12-26T00:00:00|2045-12-26T00:00:00|Second Day of Christmas|Otrie Ziemassvētki|SecondChristmasDayLV|True|
@@ -829,13 +841,14 @@
 2046|2046-03-23T00:00:00|2046-03-23T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2046|2046-03-25T00:00:00|2046-03-25T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2046|2046-03-26T00:00:00|2046-03-26T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2046|2046-05-01T00:00:00|2046-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2046|2046-05-01T00:00:00|2046-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2046|2046-05-04T00:00:00|2046-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2046|2046-05-13T00:00:00|2046-05-13T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2046|2046-05-13T00:00:00|2046-05-13T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2046|2046-06-23T00:00:00|2046-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
 2046|2046-06-24T00:00:00|2046-06-24T00:00:00|Midsummer Day|Jāņu diena|MidsummerDayLV|True|
-2046|2046-11-18T00:00:00|2046-11-19T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2046|2046-11-18T00:00:00|2046-11-18T00:00:00|Proclamation of the Republic of Latvia|Latvijas Republikas proklamēšanas diena|ProclamationDayLV|True|
+2046|2046-11-19T00:00:00|2046-11-19T00:00:00|Proclamation of the Republic of Latvia (transferred day off)|Latvijas Republikas proklamēšanas diena (pārceltā brīvdiena)|ProclamationDayTransferredLV|True|
 2046|2046-12-24T00:00:00|2046-12-24T00:00:00|Christmas Eve|Ziemassvētku vakars|ChristmasEve|True|
 2046|2046-12-25T00:00:00|2046-12-25T00:00:00|Christmas|Pirmie Ziemassvētki|Christmas|True|
 2046|2046-12-26T00:00:00|2046-12-26T00:00:00|Second Day of Christmas|Otrie Ziemassvētki|SecondChristmasDayLV|True|
@@ -844,8 +857,9 @@
 2047|2047-04-12T00:00:00|2047-04-12T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2047|2047-04-14T00:00:00|2047-04-14T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2047|2047-04-15T00:00:00|2047-04-15T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2047|2047-05-01T00:00:00|2047-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
-2047|2047-05-04T00:00:00|2047-05-06T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2047|2047-05-01T00:00:00|2047-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
+2047|2047-05-04T00:00:00|2047-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
+2047|2047-05-06T00:00:00|2047-05-06T00:00:00|Restoration of Independence Day (transferred day off)|Latvijas Republikas Neatkarības atjaunošanas diena (pārceltā brīvdiena)|RestorationOfIndependenceDayTransferredLV|True|
 2047|2047-05-12T00:00:00|2047-05-12T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2047|2047-06-02T00:00:00|2047-06-02T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
 2047|2047-06-23T00:00:00|2047-06-23T00:00:00|Midsummer Eve|Līgo diena|LigoDayLV|True|
@@ -859,7 +873,7 @@
 2048|2048-04-03T00:00:00|2048-04-03T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2048|2048-04-05T00:00:00|2048-04-05T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2048|2048-04-06T00:00:00|2048-04-06T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2048|2048-05-01T00:00:00|2048-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2048|2048-05-01T00:00:00|2048-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2048|2048-05-04T00:00:00|2048-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2048|2048-05-10T00:00:00|2048-05-10T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2048|2048-05-24T00:00:00|2048-05-24T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
@@ -874,7 +888,7 @@
 2049|2049-04-16T00:00:00|2049-04-16T00:00:00|Good Friday|Lielā Piektdiena|GoodFriday|True|
 2049|2049-04-18T00:00:00|2049-04-18T00:00:00|Easter|Pirmās Lieldienas|Easter|True|
 2049|2049-04-19T00:00:00|2049-04-19T00:00:00|Easter Monday|Otrās Lieldienas|EasterMonday|True|
-2049|2049-05-01T00:00:00|2049-05-01T00:00:00|Labour Day|Darba svētki|LabourDay|True|
+2049|2049-05-01T00:00:00|2049-05-01T00:00:00|Labour Day|Darba svētki, Latvijas Republikas Satversmes sapulces sasaukšanas diena|LabourDay|True|
 2049|2049-05-04T00:00:00|2049-05-04T00:00:00|Restoration of Independence Day|Latvijas Republikas Neatkarības atjaunošanas diena|RestorationOfIndependenceDayLV|True|
 2049|2049-05-09T00:00:00|2049-05-09T00:00:00|Mother's Day|Mātes diena|MothersDayLV|True|
 2049|2049-06-06T00:00:00|2049-06-06T00:00:00|Whit Sunday|Vasarsvētki|WhitSunday|True|
