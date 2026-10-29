@@ -637,12 +637,12 @@ namespace PublicHolidayTests
             const string newYearName = "Nový rok";
             const string establishmentName = "Deň vzniku Slovenskej republiky";
 
-            Assert.AreEqual(newYearName, new SlovakiaPublicHoliday().PublicHolidayNames(1952)[new DateTime(1952, 1, 1)] );
-            Assert.AreEqual(newYearName, new SlovakiaPublicHoliday().PublicHolidayNames(1993)[new DateTime(1993, 1, 1)]);
+            Assert.AreEqual(newYearName, string.Join(", ", new SlovakiaPublicHoliday().PublicHolidayNames(1952)[new DateTime(1952, 1, 1)]));
+            Assert.AreEqual(newYearName, string.Join(", ", new SlovakiaPublicHoliday().PublicHolidayNames(1993)[new DateTime(1993, 1, 1)]));
 
-            Assert.AreEqual(establishmentName, new SlovakiaPublicHoliday().PublicHolidayNames(1994)[new DateTime(1994, 1, 1)]);
-            Assert.AreEqual(establishmentName, new SlovakiaPublicHoliday().PublicHolidayNames(2000)[new DateTime(2000, 1, 1)]);
-            Assert.AreEqual(establishmentName, new SlovakiaPublicHoliday().PublicHolidayNames(2017)[new DateTime(2017, 1, 1)]);
+            Assert.AreEqual(establishmentName, string.Join(", ", new SlovakiaPublicHoliday().PublicHolidayNames(1994)[new DateTime(1994, 1, 1)]));
+            Assert.AreEqual(establishmentName, string.Join(", ", new SlovakiaPublicHoliday().PublicHolidayNames(2000)[new DateTime(2000, 1, 1)]));
+            Assert.AreEqual(establishmentName, string.Join(", ", new SlovakiaPublicHoliday().PublicHolidayNames(2017)[new DateTime(2017, 1, 1)]));
 
         }
 

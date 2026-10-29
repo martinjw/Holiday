@@ -33,9 +33,9 @@
         Gr,
         /// <summary>Croatia</summary> 
         Hr,
-        /// <summary>Ireland</summary> 
+        /// <summary>Hungary</summary>
         Hu,
-        /// <summary>Hungary</summary> 
+        /// <summary>Ireland</summary>
         Ie,
         /// <summary>Italy</summary> 
         It,
@@ -49,13 +49,15 @@
         Lt,
         /// <summary>Luxembourg</summary> 
         Lu,
-        /// <summary>Mexico</summary> 
+        /// <summary>Mexico</summary>
         Mx,
+        /// <summary>Montenegro</summary>
+        Me,
         /// <summary>New Zealand</summary> 
         Nz,
         /// <summary>Norway</summary> 
         No,
-        /// <summary>Poland (incorrect ISO code)</summary> 
+        /// <summary>Poland - intentional legacy alias of <see cref="Pl"/> (not the ISO code, but consumers key on "PO")</summary>
         Po,
         /// <summary>Portugal</summary> 
         Pt,

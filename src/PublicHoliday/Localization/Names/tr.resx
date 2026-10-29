@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="DemocracyNationalUnityDayTR" xml:space="preserve"><value>Demokrasi ve Milli Birlik Günü</value></data>
+  <data name="EidAlAdha" xml:space="preserve"><value>Kurban Bayramı {0}. Gün</value></data>
+  <data name="EidAlFitr" xml:space="preserve"><value>Ramazan Bayramı {0}. Gün</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Emek ve Dayanışma Günü</value></data>
+  <data name="NationalSovereigntyChildrensDayTR" xml:space="preserve"><value>Ulusal Egemenlik ve Çocuk Bayramı</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Yılbaşı Tatili</value></data>
+  <data name="RepublicDayTR" xml:space="preserve"><value>Cumhuriyet Bayramı</value></data>
+  <data name="VictoryDayTR" xml:space="preserve"><value>Zafer Bayramı</value></data>
+  <data name="YouthAndSportsDayTR" xml:space="preserve"><value>Atatürk’ü Anma, Gençlik ve Spor Bayramı</value></data>
+</root>

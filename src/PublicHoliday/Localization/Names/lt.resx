@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AllSaints" xml:space="preserve"><value>Visų šventųjų diena</value></data>
+  <data name="AllSouls" xml:space="preserve"><value>Mirusiųjų atminimo (Vėlinių) diena</value></data>
+  <data name="Assumption" xml:space="preserve"><value>Žolinė (Švč. Mergelės Marijos ėmimo į dangų diena)</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Šv. Kalėdos</value></data>
+  <data name="ChristmasEve" xml:space="preserve"><value>Šv. Kūčios</value></data>
+  <data name="Easter" xml:space="preserve"><value>Šv. Velykos</value></data>
+  <data name="EasterMonday" xml:space="preserve"><value>Antroji šv. Velykų diena</value></data>
+  <data name="FathersDayLT" xml:space="preserve"><value>Tėvo diena</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Tarptautinė darbo diena</value></data>
+  <data name="MidsummerDayLT" xml:space="preserve"><value>Rasos ir Joninių diena</value></data>
+  <data name="MothersDayLT" xml:space="preserve"><value>Motinos diena</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Naujųjų metų diena</value></data>
+  <data name="RestorationOfIndependenceLT" xml:space="preserve"><value>Lietuvos nepriklausomybės atkūrimo diena</value></data>
+  <data name="RestorationOfStateLT" xml:space="preserve"><value>Lietuvos valstybės atkūrimo diena</value></data>
+  <data name="SaintStephensDay" xml:space="preserve"><value>Šv. Kalėdos</value></data>
+  <data name="StatehoodDayLT" xml:space="preserve"><value>Valstybės (Lietuvos karaliaus Mindaugo karūnavimo) ir Tautiškos giesmės diena</value></data>
+</root>

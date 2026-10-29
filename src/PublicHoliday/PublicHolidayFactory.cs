@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace PublicHoliday
 {
     /// <summary>
@@ -53,6 +52,7 @@ namespace PublicHoliday
                 case "LT": return new LithuaniaPublicHoliday();
                 case "LV": return new LatviaPublicHoliday();
                 case "LU": return new LuxembourgPublicHoliday();
+                case "ME": return new MontenegroPublicHoliday();
                 case "MX": return new MexicoPublicHoliday();
                 case "NZ": return new NewZealandPublicHoliday();
                 case "NO": return new NorwayPublicHoliday();

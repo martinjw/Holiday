@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AbolitionSlaveryGuadeloupeFR" xml:space="preserve"><value>Abolition de l'esclavage en Guadeloupe</value></data>
+  <data name="AbolitionSlaveryGuyaneFR" xml:space="preserve"><value>Abolition de l'esclavage en Guyane</value></data>
+  <data name="AbolitionSlaveryLaReunionFR" xml:space="preserve"><value>Abolition de l'esclavage à La Réunion</value></data>
+  <data name="AbolitionSlaveryMartiniqueFR" xml:space="preserve"><value>Abolition de l'esclavage en Martinique</value></data>
+  <data name="AbolitionSlaveryMayotteFR" xml:space="preserve"><value>Abolition de l'esclavage à Mayotte</value></data>
+  <data name="AbolitionSlaverySaintBarthelemyFR" xml:space="preserve"><value>Abolition de l'esclavage à Saint-Barthélemy</value></data>
+  <data name="AbolitionSlaverySaintMartinFR" xml:space="preserve"><value>Abolition de l'esclavage à Saint-Martin</value></data>
+  <data name="Ascension" xml:space="preserve"><value>Jeudi de l'Ascension</value></data>
+  <data name="AutonomyDayFR" xml:space="preserve"><value>Fête de l'autonomie</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Noël</value></data>
+  <data name="CitizenshipDayFR" xml:space="preserve"><value>Fête de la citoyenneté</value></data>
+  <data name="GoodFriday" xml:space="preserve"><value>Vendredi saint</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Fête du Travail</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Nouvel An</value></data>
+  <data name="PeterChanelFR" xml:space="preserve"><value>Saint-Pierre Chanel</value></data>
+  <data name="TerritoryFestivalDayFR" xml:space="preserve"><value>Fête du territoire</value></data>
+  <data name="VictorSchoelcherDayFR" xml:space="preserve"><value>Fête de Victor Schœlcher</value></data>
+</root>

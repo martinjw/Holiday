@@ -1,0 +1,1008 @@
+1990|1990-01-01T00:00:00|1990-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1990|1990-02-27T00:00:00|1990-02-27T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+1990|1990-04-13T00:00:00|1990-04-13T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+1990|1990-04-15T00:00:00|1990-04-15T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+1990|1990-04-25T00:00:00|1990-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+1990|1990-05-01T00:00:00|1990-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+1990|1990-06-04T00:00:00|1990-06-04T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+1990|1990-06-10T00:00:00|1990-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+1990|1990-06-14T00:00:00|1990-06-14T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+1990|1990-07-01T00:00:00|1990-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+1990|1990-08-15T00:00:00|1990-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+1990|1990-10-05T00:00:00|1990-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+1990|1990-11-01T00:00:00|1990-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+1990|1990-12-01T00:00:00|1990-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+1990|1990-12-08T00:00:00|1990-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+1990|1990-12-25T00:00:00|1990-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1991|1991-01-01T00:00:00|1991-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1991|1991-02-12T00:00:00|1991-02-12T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+1991|1991-03-29T00:00:00|1991-03-29T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+1991|1991-03-31T00:00:00|1991-03-31T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+1991|1991-04-25T00:00:00|1991-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+1991|1991-05-01T00:00:00|1991-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+1991|1991-05-20T00:00:00|1991-05-20T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+1991|1991-05-30T00:00:00|1991-05-30T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+1991|1991-06-10T00:00:00|1991-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+1991|1991-07-01T00:00:00|1991-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+1991|1991-08-15T00:00:00|1991-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+1991|1991-10-05T00:00:00|1991-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+1991|1991-11-01T00:00:00|1991-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+1991|1991-12-01T00:00:00|1991-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+1991|1991-12-08T00:00:00|1991-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+1991|1991-12-25T00:00:00|1991-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1992|1992-01-01T00:00:00|1992-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1992|1992-03-03T00:00:00|1992-03-03T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+1992|1992-04-17T00:00:00|1992-04-17T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+1992|1992-04-19T00:00:00|1992-04-19T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+1992|1992-04-25T00:00:00|1992-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+1992|1992-05-01T00:00:00|1992-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+1992|1992-06-08T00:00:00|1992-06-08T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+1992|1992-06-10T00:00:00|1992-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+1992|1992-06-18T00:00:00|1992-06-18T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+1992|1992-07-01T00:00:00|1992-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+1992|1992-08-15T00:00:00|1992-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+1992|1992-10-05T00:00:00|1992-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+1992|1992-11-01T00:00:00|1992-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+1992|1992-12-01T00:00:00|1992-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+1992|1992-12-08T00:00:00|1992-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+1992|1992-12-25T00:00:00|1992-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1993|1993-01-01T00:00:00|1993-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1993|1993-02-23T00:00:00|1993-02-23T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+1993|1993-04-09T00:00:00|1993-04-09T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+1993|1993-04-11T00:00:00|1993-04-11T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+1993|1993-04-25T00:00:00|1993-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+1993|1993-05-01T00:00:00|1993-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+1993|1993-05-31T00:00:00|1993-05-31T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+1993|1993-06-10T00:00:00|1993-06-10T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+1993|1993-06-10T00:00:00|1993-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+1993|1993-07-01T00:00:00|1993-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+1993|1993-08-15T00:00:00|1993-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+1993|1993-10-05T00:00:00|1993-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+1993|1993-11-01T00:00:00|1993-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+1993|1993-12-01T00:00:00|1993-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+1993|1993-12-08T00:00:00|1993-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+1993|1993-12-25T00:00:00|1993-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1994|1994-01-01T00:00:00|1994-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1994|1994-02-15T00:00:00|1994-02-15T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+1994|1994-04-01T00:00:00|1994-04-01T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+1994|1994-04-03T00:00:00|1994-04-03T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+1994|1994-04-25T00:00:00|1994-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+1994|1994-05-01T00:00:00|1994-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+1994|1994-05-23T00:00:00|1994-05-23T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+1994|1994-06-02T00:00:00|1994-06-02T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+1994|1994-06-10T00:00:00|1994-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+1994|1994-07-01T00:00:00|1994-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+1994|1994-08-15T00:00:00|1994-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+1994|1994-10-05T00:00:00|1994-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+1994|1994-11-01T00:00:00|1994-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+1994|1994-12-01T00:00:00|1994-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+1994|1994-12-08T00:00:00|1994-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+1994|1994-12-25T00:00:00|1994-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1995|1995-01-01T00:00:00|1995-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1995|1995-02-28T00:00:00|1995-02-28T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+1995|1995-04-14T00:00:00|1995-04-14T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+1995|1995-04-16T00:00:00|1995-04-16T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+1995|1995-04-25T00:00:00|1995-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+1995|1995-05-01T00:00:00|1995-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+1995|1995-06-05T00:00:00|1995-06-05T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+1995|1995-06-10T00:00:00|1995-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+1995|1995-06-15T00:00:00|1995-06-15T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+1995|1995-07-01T00:00:00|1995-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+1995|1995-08-15T00:00:00|1995-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+1995|1995-10-05T00:00:00|1995-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+1995|1995-11-01T00:00:00|1995-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+1995|1995-12-01T00:00:00|1995-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+1995|1995-12-08T00:00:00|1995-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+1995|1995-12-25T00:00:00|1995-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1996|1996-01-01T00:00:00|1996-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1996|1996-02-20T00:00:00|1996-02-20T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+1996|1996-04-05T00:00:00|1996-04-05T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+1996|1996-04-07T00:00:00|1996-04-07T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+1996|1996-04-25T00:00:00|1996-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+1996|1996-05-01T00:00:00|1996-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+1996|1996-05-27T00:00:00|1996-05-27T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+1996|1996-06-06T00:00:00|1996-06-06T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+1996|1996-06-10T00:00:00|1996-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+1996|1996-07-01T00:00:00|1996-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+1996|1996-08-15T00:00:00|1996-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+1996|1996-10-05T00:00:00|1996-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+1996|1996-11-01T00:00:00|1996-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+1996|1996-12-01T00:00:00|1996-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+1996|1996-12-08T00:00:00|1996-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+1996|1996-12-25T00:00:00|1996-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1997|1997-01-01T00:00:00|1997-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1997|1997-02-11T00:00:00|1997-02-11T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+1997|1997-03-28T00:00:00|1997-03-28T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+1997|1997-03-30T00:00:00|1997-03-30T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+1997|1997-04-25T00:00:00|1997-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+1997|1997-05-01T00:00:00|1997-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+1997|1997-05-19T00:00:00|1997-05-19T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+1997|1997-05-29T00:00:00|1997-05-29T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+1997|1997-06-10T00:00:00|1997-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+1997|1997-07-01T00:00:00|1997-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+1997|1997-08-15T00:00:00|1997-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+1997|1997-10-05T00:00:00|1997-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+1997|1997-11-01T00:00:00|1997-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+1997|1997-12-01T00:00:00|1997-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+1997|1997-12-08T00:00:00|1997-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+1997|1997-12-25T00:00:00|1997-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1998|1998-01-01T00:00:00|1998-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1998|1998-02-24T00:00:00|1998-02-24T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+1998|1998-04-10T00:00:00|1998-04-10T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+1998|1998-04-12T00:00:00|1998-04-12T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+1998|1998-04-25T00:00:00|1998-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+1998|1998-05-01T00:00:00|1998-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+1998|1998-06-01T00:00:00|1998-06-01T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+1998|1998-06-10T00:00:00|1998-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+1998|1998-06-11T00:00:00|1998-06-11T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+1998|1998-07-01T00:00:00|1998-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+1998|1998-08-15T00:00:00|1998-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+1998|1998-10-05T00:00:00|1998-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+1998|1998-11-01T00:00:00|1998-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+1998|1998-12-01T00:00:00|1998-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+1998|1998-12-08T00:00:00|1998-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+1998|1998-12-25T00:00:00|1998-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1999|1999-01-01T00:00:00|1999-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1999|1999-02-16T00:00:00|1999-02-16T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+1999|1999-04-02T00:00:00|1999-04-02T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+1999|1999-04-04T00:00:00|1999-04-04T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+1999|1999-04-25T00:00:00|1999-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+1999|1999-05-01T00:00:00|1999-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+1999|1999-05-24T00:00:00|1999-05-24T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+1999|1999-06-03T00:00:00|1999-06-03T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+1999|1999-06-10T00:00:00|1999-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+1999|1999-07-01T00:00:00|1999-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+1999|1999-08-15T00:00:00|1999-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+1999|1999-10-05T00:00:00|1999-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+1999|1999-11-01T00:00:00|1999-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+1999|1999-12-01T00:00:00|1999-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+1999|1999-12-08T00:00:00|1999-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+1999|1999-12-25T00:00:00|1999-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2000|2000-01-01T00:00:00|2000-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2000|2000-03-07T00:00:00|2000-03-07T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2000|2000-04-21T00:00:00|2000-04-21T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2000|2000-04-23T00:00:00|2000-04-23T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2000|2000-04-25T00:00:00|2000-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2000|2000-06-10T00:00:00|2000-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2000|2000-06-12T00:00:00|2000-06-12T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2000|2000-06-22T00:00:00|2000-06-22T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2000|2000-07-01T00:00:00|2000-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2000|2000-08-15T00:00:00|2000-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2000|2000-10-05T00:00:00|2000-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2000|2000-11-01T00:00:00|2000-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2000|2000-12-01T00:00:00|2000-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2000|2000-12-08T00:00:00|2000-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2000|2000-12-25T00:00:00|2000-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2001|2001-01-01T00:00:00|2001-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2001|2001-02-27T00:00:00|2001-02-27T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2001|2001-04-13T00:00:00|2001-04-13T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2001|2001-04-15T00:00:00|2001-04-15T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2001|2001-04-25T00:00:00|2001-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2001|2001-05-01T00:00:00|2001-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2001|2001-06-04T00:00:00|2001-06-04T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2001|2001-06-10T00:00:00|2001-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2001|2001-06-14T00:00:00|2001-06-14T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2001|2001-07-01T00:00:00|2001-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2001|2001-08-15T00:00:00|2001-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2001|2001-10-05T00:00:00|2001-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2001|2001-11-01T00:00:00|2001-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2001|2001-12-01T00:00:00|2001-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2001|2001-12-08T00:00:00|2001-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2001|2001-12-25T00:00:00|2001-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2002|2002-01-01T00:00:00|2002-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2002|2002-02-12T00:00:00|2002-02-12T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2002|2002-03-29T00:00:00|2002-03-29T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2002|2002-03-31T00:00:00|2002-03-31T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2002|2002-04-25T00:00:00|2002-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2002|2002-05-01T00:00:00|2002-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2002|2002-05-20T00:00:00|2002-05-20T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2002|2002-05-30T00:00:00|2002-05-30T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2002|2002-06-10T00:00:00|2002-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2002|2002-07-01T00:00:00|2002-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2002|2002-08-15T00:00:00|2002-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2002|2002-10-05T00:00:00|2002-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2002|2002-11-01T00:00:00|2002-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2002|2002-12-01T00:00:00|2002-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2002|2002-12-08T00:00:00|2002-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2002|2002-12-25T00:00:00|2002-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2002|2002-12-26T00:00:00|2002-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2003|2003-01-01T00:00:00|2003-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2003|2003-03-04T00:00:00|2003-03-04T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2003|2003-04-18T00:00:00|2003-04-18T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2003|2003-04-20T00:00:00|2003-04-20T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2003|2003-04-25T00:00:00|2003-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2003|2003-05-01T00:00:00|2003-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2003|2003-06-09T00:00:00|2003-06-09T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2003|2003-06-10T00:00:00|2003-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2003|2003-06-19T00:00:00|2003-06-19T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2003|2003-07-01T00:00:00|2003-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2003|2003-08-15T00:00:00|2003-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2003|2003-10-05T00:00:00|2003-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2003|2003-11-01T00:00:00|2003-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2003|2003-12-01T00:00:00|2003-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2003|2003-12-08T00:00:00|2003-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2003|2003-12-25T00:00:00|2003-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2003|2003-12-26T00:00:00|2003-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2004|2004-01-01T00:00:00|2004-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2004|2004-02-24T00:00:00|2004-02-24T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2004|2004-04-09T00:00:00|2004-04-09T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2004|2004-04-11T00:00:00|2004-04-11T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2004|2004-04-25T00:00:00|2004-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2004|2004-05-01T00:00:00|2004-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2004|2004-05-31T00:00:00|2004-05-31T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2004|2004-06-10T00:00:00|2004-06-10T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2004|2004-06-10T00:00:00|2004-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2004|2004-07-01T00:00:00|2004-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2004|2004-08-15T00:00:00|2004-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2004|2004-10-05T00:00:00|2004-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2004|2004-11-01T00:00:00|2004-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2004|2004-12-01T00:00:00|2004-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2004|2004-12-08T00:00:00|2004-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2004|2004-12-25T00:00:00|2004-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2004|2004-12-26T00:00:00|2004-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2005|2005-01-01T00:00:00|2005-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2005|2005-02-08T00:00:00|2005-02-08T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2005|2005-03-25T00:00:00|2005-03-25T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2005|2005-03-27T00:00:00|2005-03-27T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2005|2005-04-25T00:00:00|2005-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2005|2005-05-01T00:00:00|2005-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2005|2005-05-16T00:00:00|2005-05-16T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2005|2005-05-26T00:00:00|2005-05-26T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2005|2005-06-10T00:00:00|2005-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2005|2005-07-01T00:00:00|2005-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2005|2005-08-15T00:00:00|2005-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2005|2005-10-05T00:00:00|2005-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2005|2005-11-01T00:00:00|2005-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2005|2005-12-01T00:00:00|2005-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2005|2005-12-08T00:00:00|2005-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2005|2005-12-25T00:00:00|2005-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2005|2005-12-26T00:00:00|2005-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2006|2006-01-01T00:00:00|2006-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2006|2006-02-28T00:00:00|2006-02-28T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2006|2006-04-14T00:00:00|2006-04-14T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2006|2006-04-16T00:00:00|2006-04-16T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2006|2006-04-25T00:00:00|2006-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2006|2006-05-01T00:00:00|2006-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2006|2006-06-05T00:00:00|2006-06-05T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2006|2006-06-10T00:00:00|2006-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2006|2006-06-15T00:00:00|2006-06-15T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2006|2006-07-01T00:00:00|2006-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2006|2006-08-15T00:00:00|2006-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2006|2006-10-05T00:00:00|2006-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2006|2006-11-01T00:00:00|2006-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2006|2006-12-01T00:00:00|2006-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2006|2006-12-08T00:00:00|2006-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2006|2006-12-25T00:00:00|2006-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2006|2006-12-26T00:00:00|2006-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2007|2007-01-01T00:00:00|2007-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2007|2007-02-20T00:00:00|2007-02-20T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2007|2007-04-06T00:00:00|2007-04-06T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2007|2007-04-08T00:00:00|2007-04-08T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2007|2007-04-25T00:00:00|2007-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2007|2007-05-01T00:00:00|2007-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2007|2007-05-28T00:00:00|2007-05-28T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2007|2007-06-07T00:00:00|2007-06-07T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2007|2007-06-10T00:00:00|2007-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2007|2007-07-01T00:00:00|2007-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2007|2007-08-15T00:00:00|2007-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2007|2007-10-05T00:00:00|2007-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2007|2007-11-01T00:00:00|2007-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2007|2007-12-01T00:00:00|2007-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2007|2007-12-08T00:00:00|2007-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2007|2007-12-25T00:00:00|2007-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2007|2007-12-26T00:00:00|2007-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2008|2008-01-01T00:00:00|2008-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2008|2008-02-05T00:00:00|2008-02-05T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2008|2008-03-21T00:00:00|2008-03-21T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2008|2008-03-23T00:00:00|2008-03-23T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2008|2008-04-25T00:00:00|2008-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2008|2008-05-01T00:00:00|2008-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2008|2008-05-12T00:00:00|2008-05-12T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2008|2008-05-22T00:00:00|2008-05-22T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2008|2008-06-10T00:00:00|2008-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2008|2008-07-01T00:00:00|2008-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2008|2008-08-15T00:00:00|2008-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2008|2008-10-05T00:00:00|2008-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2008|2008-11-01T00:00:00|2008-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2008|2008-12-01T00:00:00|2008-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2008|2008-12-08T00:00:00|2008-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2008|2008-12-25T00:00:00|2008-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2008|2008-12-26T00:00:00|2008-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2009|2009-01-01T00:00:00|2009-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2009|2009-02-24T00:00:00|2009-02-24T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2009|2009-04-10T00:00:00|2009-04-10T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2009|2009-04-12T00:00:00|2009-04-12T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2009|2009-04-25T00:00:00|2009-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2009|2009-05-01T00:00:00|2009-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2009|2009-06-01T00:00:00|2009-06-01T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2009|2009-06-10T00:00:00|2009-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2009|2009-06-11T00:00:00|2009-06-11T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2009|2009-07-01T00:00:00|2009-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2009|2009-08-15T00:00:00|2009-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2009|2009-10-05T00:00:00|2009-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2009|2009-11-01T00:00:00|2009-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2009|2009-12-01T00:00:00|2009-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2009|2009-12-08T00:00:00|2009-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2009|2009-12-25T00:00:00|2009-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2009|2009-12-26T00:00:00|2009-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2010|2010-01-01T00:00:00|2010-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2010|2010-02-16T00:00:00|2010-02-16T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2010|2010-04-02T00:00:00|2010-04-02T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2010|2010-04-04T00:00:00|2010-04-04T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2010|2010-04-25T00:00:00|2010-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2010|2010-05-01T00:00:00|2010-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2010|2010-05-24T00:00:00|2010-05-24T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2010|2010-06-03T00:00:00|2010-06-03T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2010|2010-06-10T00:00:00|2010-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2010|2010-07-01T00:00:00|2010-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2010|2010-08-15T00:00:00|2010-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2010|2010-10-05T00:00:00|2010-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2010|2010-11-01T00:00:00|2010-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2010|2010-12-01T00:00:00|2010-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2010|2010-12-08T00:00:00|2010-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2010|2010-12-25T00:00:00|2010-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2010|2010-12-26T00:00:00|2010-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2011|2011-01-01T00:00:00|2011-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2011|2011-03-08T00:00:00|2011-03-08T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2011|2011-04-22T00:00:00|2011-04-22T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2011|2011-04-24T00:00:00|2011-04-24T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2011|2011-04-25T00:00:00|2011-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2011|2011-05-01T00:00:00|2011-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2011|2011-06-10T00:00:00|2011-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2011|2011-06-13T00:00:00|2011-06-13T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2011|2011-06-23T00:00:00|2011-06-23T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2011|2011-07-01T00:00:00|2011-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2011|2011-08-15T00:00:00|2011-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2011|2011-10-05T00:00:00|2011-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2011|2011-11-01T00:00:00|2011-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2011|2011-12-01T00:00:00|2011-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2011|2011-12-08T00:00:00|2011-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2011|2011-12-25T00:00:00|2011-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2011|2011-12-26T00:00:00|2011-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2012|2012-01-01T00:00:00|2012-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2012|2012-02-21T00:00:00|2012-02-21T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2012|2012-04-06T00:00:00|2012-04-06T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2012|2012-04-08T00:00:00|2012-04-08T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2012|2012-04-25T00:00:00|2012-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2012|2012-05-01T00:00:00|2012-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2012|2012-05-28T00:00:00|2012-05-28T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2012|2012-06-07T00:00:00|2012-06-07T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2012|2012-06-10T00:00:00|2012-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2012|2012-07-01T00:00:00|2012-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2012|2012-08-15T00:00:00|2012-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2012|2012-10-05T00:00:00|2012-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2012|2012-11-01T00:00:00|2012-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2012|2012-12-01T00:00:00|2012-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2012|2012-12-08T00:00:00|2012-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2012|2012-12-25T00:00:00|2012-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2012|2012-12-26T00:00:00|2012-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2013|2013-01-01T00:00:00|2013-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2013|2013-02-12T00:00:00|2013-02-12T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2013|2013-03-29T00:00:00|2013-03-29T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2013|2013-03-31T00:00:00|2013-03-31T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2013|2013-04-25T00:00:00|2013-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2013|2013-05-01T00:00:00|2013-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2013|2013-05-20T00:00:00|2013-05-20T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2013|2013-05-30T00:00:00|2013-05-30T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2013|2013-06-10T00:00:00|2013-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2013|2013-07-01T00:00:00|2013-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2013|2013-08-15T00:00:00|2013-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2013|2013-10-05T00:00:00|2013-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2013|2013-11-01T00:00:00|2013-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2013|2013-12-01T00:00:00|2013-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2013|2013-12-08T00:00:00|2013-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2013|2013-12-25T00:00:00|2013-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2013|2013-12-26T00:00:00|2013-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2014|2014-01-01T00:00:00|2014-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2014|2014-03-04T00:00:00|2014-03-04T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2014|2014-04-18T00:00:00|2014-04-18T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2014|2014-04-20T00:00:00|2014-04-20T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2014|2014-04-25T00:00:00|2014-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2014|2014-05-01T00:00:00|2014-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2014|2014-06-09T00:00:00|2014-06-09T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2014|2014-06-10T00:00:00|2014-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2014|2014-06-19T00:00:00|2014-06-19T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2014|2014-07-01T00:00:00|2014-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2014|2014-08-15T00:00:00|2014-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2014|2014-10-05T00:00:00|2014-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2014|2014-11-01T00:00:00|2014-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2014|2014-12-01T00:00:00|2014-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2014|2014-12-08T00:00:00|2014-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2014|2014-12-25T00:00:00|2014-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2014|2014-12-26T00:00:00|2014-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2015|2015-01-01T00:00:00|2015-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2015|2015-02-17T00:00:00|2015-02-17T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2015|2015-04-03T00:00:00|2015-04-03T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2015|2015-04-05T00:00:00|2015-04-05T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2015|2015-04-25T00:00:00|2015-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2015|2015-05-01T00:00:00|2015-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2015|2015-05-25T00:00:00|2015-05-25T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2015|2015-06-04T00:00:00|2015-06-04T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2015|2015-06-10T00:00:00|2015-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2015|2015-07-01T00:00:00|2015-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2015|2015-08-15T00:00:00|2015-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2015|2015-10-05T00:00:00|2015-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2015|2015-11-01T00:00:00|2015-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2015|2015-12-01T00:00:00|2015-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2015|2015-12-08T00:00:00|2015-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2015|2015-12-25T00:00:00|2015-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2015|2015-12-26T00:00:00|2015-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2016|2016-01-01T00:00:00|2016-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2016|2016-02-09T00:00:00|2016-02-09T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2016|2016-03-25T00:00:00|2016-03-25T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2016|2016-03-27T00:00:00|2016-03-27T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2016|2016-04-25T00:00:00|2016-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2016|2016-05-01T00:00:00|2016-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2016|2016-05-16T00:00:00|2016-05-16T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2016|2016-05-26T00:00:00|2016-05-26T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2016|2016-06-10T00:00:00|2016-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2016|2016-07-01T00:00:00|2016-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2016|2016-08-15T00:00:00|2016-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2016|2016-10-05T00:00:00|2016-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2016|2016-11-01T00:00:00|2016-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2016|2016-12-01T00:00:00|2016-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2016|2016-12-08T00:00:00|2016-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2016|2016-12-25T00:00:00|2016-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2016|2016-12-26T00:00:00|2016-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2017|2017-01-01T00:00:00|2017-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2017|2017-02-28T00:00:00|2017-02-28T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2017|2017-04-14T00:00:00|2017-04-14T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2017|2017-04-16T00:00:00|2017-04-16T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2017|2017-04-25T00:00:00|2017-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2017|2017-05-01T00:00:00|2017-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2017|2017-06-05T00:00:00|2017-06-05T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2017|2017-06-10T00:00:00|2017-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2017|2017-06-15T00:00:00|2017-06-15T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2017|2017-07-01T00:00:00|2017-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2017|2017-08-15T00:00:00|2017-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2017|2017-10-05T00:00:00|2017-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2017|2017-11-01T00:00:00|2017-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2017|2017-12-01T00:00:00|2017-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2017|2017-12-08T00:00:00|2017-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2017|2017-12-25T00:00:00|2017-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2017|2017-12-26T00:00:00|2017-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2018|2018-01-01T00:00:00|2018-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2018|2018-02-13T00:00:00|2018-02-13T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2018|2018-03-30T00:00:00|2018-03-30T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2018|2018-04-01T00:00:00|2018-04-01T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2018|2018-04-25T00:00:00|2018-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2018|2018-05-01T00:00:00|2018-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2018|2018-05-21T00:00:00|2018-05-21T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2018|2018-05-31T00:00:00|2018-05-31T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2018|2018-06-10T00:00:00|2018-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2018|2018-07-01T00:00:00|2018-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2018|2018-08-15T00:00:00|2018-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2018|2018-10-05T00:00:00|2018-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2018|2018-11-01T00:00:00|2018-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2018|2018-12-01T00:00:00|2018-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2018|2018-12-08T00:00:00|2018-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2018|2018-12-25T00:00:00|2018-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2018|2018-12-26T00:00:00|2018-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2019|2019-01-01T00:00:00|2019-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2019|2019-03-05T00:00:00|2019-03-05T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2019|2019-04-19T00:00:00|2019-04-19T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2019|2019-04-21T00:00:00|2019-04-21T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2019|2019-04-25T00:00:00|2019-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2019|2019-05-01T00:00:00|2019-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2019|2019-06-10T00:00:00|2019-06-10T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2019|2019-06-10T00:00:00|2019-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2019|2019-06-20T00:00:00|2019-06-20T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2019|2019-07-01T00:00:00|2019-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2019|2019-08-15T00:00:00|2019-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2019|2019-10-05T00:00:00|2019-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2019|2019-11-01T00:00:00|2019-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2019|2019-12-01T00:00:00|2019-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2019|2019-12-08T00:00:00|2019-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2019|2019-12-25T00:00:00|2019-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2019|2019-12-26T00:00:00|2019-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2020|2020-01-01T00:00:00|2020-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2020|2020-02-25T00:00:00|2020-02-25T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2020|2020-04-10T00:00:00|2020-04-10T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2020|2020-04-12T00:00:00|2020-04-12T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2020|2020-04-25T00:00:00|2020-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2020|2020-05-01T00:00:00|2020-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2020|2020-06-01T00:00:00|2020-06-01T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2020|2020-06-10T00:00:00|2020-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2020|2020-06-11T00:00:00|2020-06-11T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2020|2020-07-01T00:00:00|2020-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2020|2020-08-15T00:00:00|2020-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2020|2020-10-05T00:00:00|2020-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2020|2020-11-01T00:00:00|2020-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2020|2020-12-01T00:00:00|2020-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2020|2020-12-08T00:00:00|2020-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2020|2020-12-25T00:00:00|2020-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2020|2020-12-26T00:00:00|2020-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2021|2021-01-01T00:00:00|2021-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2021|2021-02-16T00:00:00|2021-02-16T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2021|2021-04-02T00:00:00|2021-04-02T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2021|2021-04-04T00:00:00|2021-04-04T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2021|2021-04-25T00:00:00|2021-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2021|2021-05-01T00:00:00|2021-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2021|2021-05-24T00:00:00|2021-05-24T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2021|2021-06-03T00:00:00|2021-06-03T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2021|2021-06-10T00:00:00|2021-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2021|2021-07-01T00:00:00|2021-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2021|2021-08-15T00:00:00|2021-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2021|2021-10-05T00:00:00|2021-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2021|2021-11-01T00:00:00|2021-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2021|2021-12-01T00:00:00|2021-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2021|2021-12-08T00:00:00|2021-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2021|2021-12-25T00:00:00|2021-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2021|2021-12-26T00:00:00|2021-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2022|2022-01-01T00:00:00|2022-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2022|2022-03-01T00:00:00|2022-03-01T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2022|2022-04-15T00:00:00|2022-04-15T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2022|2022-04-17T00:00:00|2022-04-17T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2022|2022-04-25T00:00:00|2022-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2022|2022-05-01T00:00:00|2022-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2022|2022-06-06T00:00:00|2022-06-06T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2022|2022-06-10T00:00:00|2022-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2022|2022-06-16T00:00:00|2022-06-16T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2022|2022-07-01T00:00:00|2022-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2022|2022-08-15T00:00:00|2022-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2022|2022-10-05T00:00:00|2022-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2022|2022-11-01T00:00:00|2022-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2022|2022-12-01T00:00:00|2022-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2022|2022-12-08T00:00:00|2022-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2022|2022-12-25T00:00:00|2022-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2022|2022-12-26T00:00:00|2022-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2023|2023-01-01T00:00:00|2023-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2023|2023-02-21T00:00:00|2023-02-21T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2023|2023-04-07T00:00:00|2023-04-07T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2023|2023-04-09T00:00:00|2023-04-09T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2023|2023-04-25T00:00:00|2023-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2023|2023-05-01T00:00:00|2023-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2023|2023-05-29T00:00:00|2023-05-29T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2023|2023-06-08T00:00:00|2023-06-08T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2023|2023-06-10T00:00:00|2023-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2023|2023-07-01T00:00:00|2023-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2023|2023-08-15T00:00:00|2023-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2023|2023-10-05T00:00:00|2023-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2023|2023-11-01T00:00:00|2023-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2023|2023-12-01T00:00:00|2023-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2023|2023-12-08T00:00:00|2023-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2023|2023-12-25T00:00:00|2023-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2023|2023-12-26T00:00:00|2023-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2024|2024-01-01T00:00:00|2024-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2024|2024-02-13T00:00:00|2024-02-13T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2024|2024-03-29T00:00:00|2024-03-29T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2024|2024-03-31T00:00:00|2024-03-31T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2024|2024-04-25T00:00:00|2024-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2024|2024-05-01T00:00:00|2024-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2024|2024-05-20T00:00:00|2024-05-20T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2024|2024-05-30T00:00:00|2024-05-30T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2024|2024-06-10T00:00:00|2024-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2024|2024-07-01T00:00:00|2024-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2024|2024-08-15T00:00:00|2024-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2024|2024-10-05T00:00:00|2024-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2024|2024-11-01T00:00:00|2024-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2024|2024-12-01T00:00:00|2024-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2024|2024-12-08T00:00:00|2024-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2024|2024-12-25T00:00:00|2024-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2024|2024-12-26T00:00:00|2024-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2025|2025-01-01T00:00:00|2025-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2025|2025-03-04T00:00:00|2025-03-04T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2025|2025-04-18T00:00:00|2025-04-18T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2025|2025-04-20T00:00:00|2025-04-20T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2025|2025-04-25T00:00:00|2025-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2025|2025-05-01T00:00:00|2025-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2025|2025-06-09T00:00:00|2025-06-09T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2025|2025-06-10T00:00:00|2025-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2025|2025-06-19T00:00:00|2025-06-19T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2025|2025-07-01T00:00:00|2025-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2025|2025-08-15T00:00:00|2025-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2025|2025-10-05T00:00:00|2025-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2025|2025-11-01T00:00:00|2025-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2025|2025-12-01T00:00:00|2025-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2025|2025-12-08T00:00:00|2025-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2025|2025-12-25T00:00:00|2025-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2025|2025-12-26T00:00:00|2025-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2026|2026-01-01T00:00:00|2026-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2026|2026-02-17T00:00:00|2026-02-17T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2026|2026-04-03T00:00:00|2026-04-03T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2026|2026-04-05T00:00:00|2026-04-05T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2026|2026-04-25T00:00:00|2026-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2026|2026-05-01T00:00:00|2026-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2026|2026-05-25T00:00:00|2026-05-25T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2026|2026-06-04T00:00:00|2026-06-04T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2026|2026-06-10T00:00:00|2026-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2026|2026-07-01T00:00:00|2026-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2026|2026-08-15T00:00:00|2026-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2026|2026-10-05T00:00:00|2026-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2026|2026-11-01T00:00:00|2026-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2026|2026-12-01T00:00:00|2026-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2026|2026-12-08T00:00:00|2026-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2026|2026-12-25T00:00:00|2026-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2026|2026-12-26T00:00:00|2026-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2027|2027-01-01T00:00:00|2027-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2027|2027-02-09T00:00:00|2027-02-09T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2027|2027-03-26T00:00:00|2027-03-26T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2027|2027-03-28T00:00:00|2027-03-28T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2027|2027-04-25T00:00:00|2027-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2027|2027-05-01T00:00:00|2027-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2027|2027-05-17T00:00:00|2027-05-17T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2027|2027-05-27T00:00:00|2027-05-27T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2027|2027-06-10T00:00:00|2027-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2027|2027-07-01T00:00:00|2027-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2027|2027-08-15T00:00:00|2027-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2027|2027-10-05T00:00:00|2027-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2027|2027-11-01T00:00:00|2027-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2027|2027-12-01T00:00:00|2027-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2027|2027-12-08T00:00:00|2027-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2027|2027-12-25T00:00:00|2027-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2027|2027-12-26T00:00:00|2027-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2028|2028-01-01T00:00:00|2028-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2028|2028-02-29T00:00:00|2028-02-29T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2028|2028-04-14T00:00:00|2028-04-14T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2028|2028-04-16T00:00:00|2028-04-16T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2028|2028-04-25T00:00:00|2028-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2028|2028-05-01T00:00:00|2028-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2028|2028-06-05T00:00:00|2028-06-05T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2028|2028-06-10T00:00:00|2028-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2028|2028-06-15T00:00:00|2028-06-15T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2028|2028-07-01T00:00:00|2028-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2028|2028-08-15T00:00:00|2028-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2028|2028-10-05T00:00:00|2028-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2028|2028-11-01T00:00:00|2028-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2028|2028-12-01T00:00:00|2028-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2028|2028-12-08T00:00:00|2028-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2028|2028-12-25T00:00:00|2028-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2028|2028-12-26T00:00:00|2028-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2029|2029-01-01T00:00:00|2029-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2029|2029-02-13T00:00:00|2029-02-13T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2029|2029-03-30T00:00:00|2029-03-30T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2029|2029-04-01T00:00:00|2029-04-01T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2029|2029-04-25T00:00:00|2029-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2029|2029-05-01T00:00:00|2029-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2029|2029-05-21T00:00:00|2029-05-21T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2029|2029-05-31T00:00:00|2029-05-31T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2029|2029-06-10T00:00:00|2029-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2029|2029-07-01T00:00:00|2029-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2029|2029-08-15T00:00:00|2029-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2029|2029-10-05T00:00:00|2029-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2029|2029-11-01T00:00:00|2029-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2029|2029-12-01T00:00:00|2029-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2029|2029-12-08T00:00:00|2029-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2029|2029-12-25T00:00:00|2029-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2029|2029-12-26T00:00:00|2029-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2030|2030-01-01T00:00:00|2030-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2030|2030-03-05T00:00:00|2030-03-05T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2030|2030-04-19T00:00:00|2030-04-19T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2030|2030-04-21T00:00:00|2030-04-21T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2030|2030-04-25T00:00:00|2030-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2030|2030-05-01T00:00:00|2030-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2030|2030-06-10T00:00:00|2030-06-10T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2030|2030-06-10T00:00:00|2030-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2030|2030-06-20T00:00:00|2030-06-20T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2030|2030-07-01T00:00:00|2030-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2030|2030-08-15T00:00:00|2030-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2030|2030-10-05T00:00:00|2030-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2030|2030-11-01T00:00:00|2030-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2030|2030-12-01T00:00:00|2030-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2030|2030-12-08T00:00:00|2030-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2030|2030-12-25T00:00:00|2030-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2030|2030-12-26T00:00:00|2030-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2031|2031-01-01T00:00:00|2031-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2031|2031-02-25T00:00:00|2031-02-25T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2031|2031-04-11T00:00:00|2031-04-11T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2031|2031-04-13T00:00:00|2031-04-13T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2031|2031-04-25T00:00:00|2031-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2031|2031-05-01T00:00:00|2031-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2031|2031-06-02T00:00:00|2031-06-02T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2031|2031-06-10T00:00:00|2031-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2031|2031-06-12T00:00:00|2031-06-12T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2031|2031-07-01T00:00:00|2031-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2031|2031-08-15T00:00:00|2031-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2031|2031-10-05T00:00:00|2031-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2031|2031-11-01T00:00:00|2031-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2031|2031-12-01T00:00:00|2031-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2031|2031-12-08T00:00:00|2031-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2031|2031-12-25T00:00:00|2031-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2031|2031-12-26T00:00:00|2031-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2032|2032-01-01T00:00:00|2032-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2032|2032-02-10T00:00:00|2032-02-10T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2032|2032-03-26T00:00:00|2032-03-26T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2032|2032-03-28T00:00:00|2032-03-28T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2032|2032-04-25T00:00:00|2032-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2032|2032-05-01T00:00:00|2032-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2032|2032-05-17T00:00:00|2032-05-17T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2032|2032-05-27T00:00:00|2032-05-27T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2032|2032-06-10T00:00:00|2032-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2032|2032-07-01T00:00:00|2032-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2032|2032-08-15T00:00:00|2032-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2032|2032-10-05T00:00:00|2032-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2032|2032-11-01T00:00:00|2032-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2032|2032-12-01T00:00:00|2032-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2032|2032-12-08T00:00:00|2032-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2032|2032-12-25T00:00:00|2032-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2032|2032-12-26T00:00:00|2032-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2033|2033-01-01T00:00:00|2033-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2033|2033-03-01T00:00:00|2033-03-01T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2033|2033-04-15T00:00:00|2033-04-15T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2033|2033-04-17T00:00:00|2033-04-17T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2033|2033-04-25T00:00:00|2033-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2033|2033-05-01T00:00:00|2033-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2033|2033-06-06T00:00:00|2033-06-06T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2033|2033-06-10T00:00:00|2033-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2033|2033-06-16T00:00:00|2033-06-16T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2033|2033-07-01T00:00:00|2033-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2033|2033-08-15T00:00:00|2033-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2033|2033-10-05T00:00:00|2033-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2033|2033-11-01T00:00:00|2033-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2033|2033-12-01T00:00:00|2033-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2033|2033-12-08T00:00:00|2033-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2033|2033-12-25T00:00:00|2033-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2033|2033-12-26T00:00:00|2033-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2034|2034-01-01T00:00:00|2034-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2034|2034-02-21T00:00:00|2034-02-21T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2034|2034-04-07T00:00:00|2034-04-07T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2034|2034-04-09T00:00:00|2034-04-09T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2034|2034-04-25T00:00:00|2034-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2034|2034-05-01T00:00:00|2034-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2034|2034-05-29T00:00:00|2034-05-29T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2034|2034-06-08T00:00:00|2034-06-08T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2034|2034-06-10T00:00:00|2034-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2034|2034-07-01T00:00:00|2034-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2034|2034-08-15T00:00:00|2034-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2034|2034-10-05T00:00:00|2034-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2034|2034-11-01T00:00:00|2034-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2034|2034-12-01T00:00:00|2034-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2034|2034-12-08T00:00:00|2034-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2034|2034-12-25T00:00:00|2034-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2034|2034-12-26T00:00:00|2034-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2035|2035-01-01T00:00:00|2035-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2035|2035-02-06T00:00:00|2035-02-06T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2035|2035-03-23T00:00:00|2035-03-23T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2035|2035-03-25T00:00:00|2035-03-25T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2035|2035-04-25T00:00:00|2035-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2035|2035-05-01T00:00:00|2035-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2035|2035-05-14T00:00:00|2035-05-14T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2035|2035-05-24T00:00:00|2035-05-24T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2035|2035-06-10T00:00:00|2035-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2035|2035-07-01T00:00:00|2035-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2035|2035-08-15T00:00:00|2035-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2035|2035-10-05T00:00:00|2035-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2035|2035-11-01T00:00:00|2035-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2035|2035-12-01T00:00:00|2035-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2035|2035-12-08T00:00:00|2035-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2035|2035-12-25T00:00:00|2035-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2035|2035-12-26T00:00:00|2035-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2036|2036-01-01T00:00:00|2036-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2036|2036-02-26T00:00:00|2036-02-26T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2036|2036-04-11T00:00:00|2036-04-11T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2036|2036-04-13T00:00:00|2036-04-13T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2036|2036-04-25T00:00:00|2036-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2036|2036-05-01T00:00:00|2036-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2036|2036-06-02T00:00:00|2036-06-02T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2036|2036-06-10T00:00:00|2036-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2036|2036-06-12T00:00:00|2036-06-12T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2036|2036-07-01T00:00:00|2036-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2036|2036-08-15T00:00:00|2036-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2036|2036-10-05T00:00:00|2036-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2036|2036-11-01T00:00:00|2036-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2036|2036-12-01T00:00:00|2036-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2036|2036-12-08T00:00:00|2036-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2036|2036-12-25T00:00:00|2036-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2036|2036-12-26T00:00:00|2036-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2037|2037-01-01T00:00:00|2037-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2037|2037-02-17T00:00:00|2037-02-17T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2037|2037-04-03T00:00:00|2037-04-03T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2037|2037-04-05T00:00:00|2037-04-05T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2037|2037-04-25T00:00:00|2037-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2037|2037-05-01T00:00:00|2037-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2037|2037-05-25T00:00:00|2037-05-25T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2037|2037-06-04T00:00:00|2037-06-04T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2037|2037-06-10T00:00:00|2037-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2037|2037-07-01T00:00:00|2037-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2037|2037-08-15T00:00:00|2037-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2037|2037-10-05T00:00:00|2037-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2037|2037-11-01T00:00:00|2037-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2037|2037-12-01T00:00:00|2037-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2037|2037-12-08T00:00:00|2037-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2037|2037-12-25T00:00:00|2037-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2037|2037-12-26T00:00:00|2037-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2038|2038-01-01T00:00:00|2038-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2038|2038-03-09T00:00:00|2038-03-09T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2038|2038-04-23T00:00:00|2038-04-23T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2038|2038-04-25T00:00:00|2038-04-25T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2038|2038-04-25T00:00:00|2038-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2038|2038-05-01T00:00:00|2038-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2038|2038-06-10T00:00:00|2038-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2038|2038-06-14T00:00:00|2038-06-14T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2038|2038-06-24T00:00:00|2038-06-24T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2038|2038-07-01T00:00:00|2038-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2038|2038-08-15T00:00:00|2038-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2038|2038-10-05T00:00:00|2038-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2038|2038-11-01T00:00:00|2038-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2038|2038-12-01T00:00:00|2038-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2038|2038-12-08T00:00:00|2038-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2038|2038-12-25T00:00:00|2038-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2038|2038-12-26T00:00:00|2038-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2039|2039-01-01T00:00:00|2039-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2039|2039-02-22T00:00:00|2039-02-22T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2039|2039-04-08T00:00:00|2039-04-08T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2039|2039-04-10T00:00:00|2039-04-10T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2039|2039-04-25T00:00:00|2039-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2039|2039-05-01T00:00:00|2039-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2039|2039-05-30T00:00:00|2039-05-30T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2039|2039-06-09T00:00:00|2039-06-09T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2039|2039-06-10T00:00:00|2039-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2039|2039-07-01T00:00:00|2039-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2039|2039-08-15T00:00:00|2039-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2039|2039-10-05T00:00:00|2039-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2039|2039-11-01T00:00:00|2039-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2039|2039-12-01T00:00:00|2039-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2039|2039-12-08T00:00:00|2039-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2039|2039-12-25T00:00:00|2039-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2039|2039-12-26T00:00:00|2039-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2040|2040-01-01T00:00:00|2040-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2040|2040-02-14T00:00:00|2040-02-14T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2040|2040-03-30T00:00:00|2040-03-30T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2040|2040-04-01T00:00:00|2040-04-01T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2040|2040-04-25T00:00:00|2040-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2040|2040-05-01T00:00:00|2040-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2040|2040-05-21T00:00:00|2040-05-21T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2040|2040-05-31T00:00:00|2040-05-31T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2040|2040-06-10T00:00:00|2040-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2040|2040-07-01T00:00:00|2040-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2040|2040-08-15T00:00:00|2040-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2040|2040-10-05T00:00:00|2040-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2040|2040-11-01T00:00:00|2040-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2040|2040-12-01T00:00:00|2040-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2040|2040-12-08T00:00:00|2040-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2040|2040-12-25T00:00:00|2040-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2040|2040-12-26T00:00:00|2040-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2041|2041-01-01T00:00:00|2041-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2041|2041-03-05T00:00:00|2041-03-05T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2041|2041-04-19T00:00:00|2041-04-19T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2041|2041-04-21T00:00:00|2041-04-21T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2041|2041-04-25T00:00:00|2041-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2041|2041-05-01T00:00:00|2041-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2041|2041-06-10T00:00:00|2041-06-10T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2041|2041-06-10T00:00:00|2041-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2041|2041-06-20T00:00:00|2041-06-20T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2041|2041-07-01T00:00:00|2041-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2041|2041-08-15T00:00:00|2041-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2041|2041-10-05T00:00:00|2041-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2041|2041-11-01T00:00:00|2041-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2041|2041-12-01T00:00:00|2041-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2041|2041-12-08T00:00:00|2041-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2041|2041-12-25T00:00:00|2041-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2041|2041-12-26T00:00:00|2041-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2042|2042-01-01T00:00:00|2042-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2042|2042-02-18T00:00:00|2042-02-18T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2042|2042-04-04T00:00:00|2042-04-04T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2042|2042-04-06T00:00:00|2042-04-06T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2042|2042-04-25T00:00:00|2042-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2042|2042-05-01T00:00:00|2042-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2042|2042-05-26T00:00:00|2042-05-26T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2042|2042-06-05T00:00:00|2042-06-05T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2042|2042-06-10T00:00:00|2042-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2042|2042-07-01T00:00:00|2042-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2042|2042-08-15T00:00:00|2042-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2042|2042-10-05T00:00:00|2042-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2042|2042-11-01T00:00:00|2042-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2042|2042-12-01T00:00:00|2042-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2042|2042-12-08T00:00:00|2042-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2042|2042-12-25T00:00:00|2042-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2042|2042-12-26T00:00:00|2042-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2043|2043-01-01T00:00:00|2043-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2043|2043-02-10T00:00:00|2043-02-10T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2043|2043-03-27T00:00:00|2043-03-27T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2043|2043-03-29T00:00:00|2043-03-29T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2043|2043-04-25T00:00:00|2043-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2043|2043-05-18T00:00:00|2043-05-18T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2043|2043-05-28T00:00:00|2043-05-28T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2043|2043-06-10T00:00:00|2043-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2043|2043-07-01T00:00:00|2043-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2043|2043-08-15T00:00:00|2043-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2043|2043-10-05T00:00:00|2043-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2043|2043-11-01T00:00:00|2043-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2043|2043-12-01T00:00:00|2043-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2043|2043-12-08T00:00:00|2043-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2043|2043-12-25T00:00:00|2043-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2043|2043-12-26T00:00:00|2043-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2044|2044-01-01T00:00:00|2044-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2044|2044-03-01T00:00:00|2044-03-01T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2044|2044-04-15T00:00:00|2044-04-15T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2044|2044-04-17T00:00:00|2044-04-17T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2044|2044-04-25T00:00:00|2044-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2044|2044-05-01T00:00:00|2044-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2044|2044-06-06T00:00:00|2044-06-06T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2044|2044-06-10T00:00:00|2044-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2044|2044-06-16T00:00:00|2044-06-16T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2044|2044-07-01T00:00:00|2044-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2044|2044-08-15T00:00:00|2044-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2044|2044-10-05T00:00:00|2044-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2044|2044-11-01T00:00:00|2044-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2044|2044-12-01T00:00:00|2044-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2044|2044-12-08T00:00:00|2044-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2044|2044-12-25T00:00:00|2044-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2044|2044-12-26T00:00:00|2044-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2045|2045-01-01T00:00:00|2045-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2045|2045-02-21T00:00:00|2045-02-21T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2045|2045-04-07T00:00:00|2045-04-07T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2045|2045-04-09T00:00:00|2045-04-09T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2045|2045-04-25T00:00:00|2045-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2045|2045-05-01T00:00:00|2045-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2045|2045-05-29T00:00:00|2045-05-29T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2045|2045-06-08T00:00:00|2045-06-08T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2045|2045-06-10T00:00:00|2045-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2045|2045-07-01T00:00:00|2045-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2045|2045-08-15T00:00:00|2045-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2045|2045-10-05T00:00:00|2045-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2045|2045-11-01T00:00:00|2045-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2045|2045-12-01T00:00:00|2045-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2045|2045-12-08T00:00:00|2045-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2045|2045-12-25T00:00:00|2045-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2045|2045-12-26T00:00:00|2045-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2046|2046-01-01T00:00:00|2046-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2046|2046-02-06T00:00:00|2046-02-06T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2046|2046-03-23T00:00:00|2046-03-23T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2046|2046-03-25T00:00:00|2046-03-25T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2046|2046-04-25T00:00:00|2046-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2046|2046-05-01T00:00:00|2046-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2046|2046-05-14T00:00:00|2046-05-14T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2046|2046-05-24T00:00:00|2046-05-24T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2046|2046-06-10T00:00:00|2046-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2046|2046-07-01T00:00:00|2046-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2046|2046-08-15T00:00:00|2046-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2046|2046-10-05T00:00:00|2046-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2046|2046-11-01T00:00:00|2046-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2046|2046-12-01T00:00:00|2046-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2046|2046-12-08T00:00:00|2046-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2046|2046-12-25T00:00:00|2046-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2046|2046-12-26T00:00:00|2046-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2047|2047-01-01T00:00:00|2047-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2047|2047-02-26T00:00:00|2047-02-26T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2047|2047-04-12T00:00:00|2047-04-12T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2047|2047-04-14T00:00:00|2047-04-14T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2047|2047-04-25T00:00:00|2047-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2047|2047-05-01T00:00:00|2047-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2047|2047-06-03T00:00:00|2047-06-03T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2047|2047-06-10T00:00:00|2047-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2047|2047-06-13T00:00:00|2047-06-13T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2047|2047-07-01T00:00:00|2047-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2047|2047-08-15T00:00:00|2047-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2047|2047-10-05T00:00:00|2047-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2047|2047-11-01T00:00:00|2047-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2047|2047-12-01T00:00:00|2047-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2047|2047-12-08T00:00:00|2047-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2047|2047-12-25T00:00:00|2047-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2047|2047-12-26T00:00:00|2047-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2048|2048-01-01T00:00:00|2048-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2048|2048-02-18T00:00:00|2048-02-18T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2048|2048-04-03T00:00:00|2048-04-03T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2048|2048-04-05T00:00:00|2048-04-05T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2048|2048-04-25T00:00:00|2048-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2048|2048-05-01T00:00:00|2048-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2048|2048-05-25T00:00:00|2048-05-25T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2048|2048-06-04T00:00:00|2048-06-04T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2048|2048-06-10T00:00:00|2048-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2048|2048-07-01T00:00:00|2048-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2048|2048-08-15T00:00:00|2048-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2048|2048-10-05T00:00:00|2048-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2048|2048-11-01T00:00:00|2048-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2048|2048-12-01T00:00:00|2048-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2048|2048-12-08T00:00:00|2048-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2048|2048-12-25T00:00:00|2048-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2048|2048-12-26T00:00:00|2048-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira
+2049|2049-01-01T00:00:00|2049-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2049|2049-03-02T00:00:00|2049-03-02T00:00:00|Carnival|Carnaval|CarnivalPT|True|
+2049|2049-04-16T00:00:00|2049-04-16T00:00:00|Good Friday|Sexta-feira Santa|GoodFriday|True|
+2049|2049-04-18T00:00:00|2049-04-18T00:00:00|Easter|Domingo de Páscoa|Easter|True|
+2049|2049-04-25T00:00:00|2049-04-25T00:00:00|Freedom Day|Dia da Liberdade|FreedomDayPT|True|
+2049|2049-05-01T00:00:00|2049-05-01T00:00:00|Labour Day|Dia do Trabalhador|LabourDay|True|
+2049|2049-06-07T00:00:00|2049-06-07T00:00:00|Azores Day|Dia dos Açores|AzoresDayPT|False|Açores
+2049|2049-06-10T00:00:00|2049-06-10T00:00:00|Portugal Day|Dia de Portugal, de Camões e das Comunidades Portuguesas|PortugalDayPT|True|
+2049|2049-06-17T00:00:00|2049-06-17T00:00:00|Corpus Christi|Corpo de Deus|CorpusChristi|True|
+2049|2049-07-01T00:00:00|2049-07-01T00:00:00|Madeira Autonomy Day|Dia da Madeira|MadeiraAutonomyDayPT|False|Madeira
+2049|2049-08-15T00:00:00|2049-08-15T00:00:00|Assumption|Assunção de Nossa Senhora|Assumption|True|
+2049|2049-10-05T00:00:00|2049-10-05T00:00:00|Republic Day|Implantação da República|RepublicDayPT|True|
+2049|2049-11-01T00:00:00|2049-11-01T00:00:00|All Saints|Dia de Todos-os-Santos|AllSaints|True|
+2049|2049-12-01T00:00:00|2049-12-01T00:00:00|Independence Restoration Day|Restauração da Independência|IndependenceRestorationDayPT|True|
+2049|2049-12-08T00:00:00|2049-12-08T00:00:00|Immaculate Conception|Imaculada Conceição|ImmaculateConception|True|
+2049|2049-12-25T00:00:00|2049-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2049|2049-12-26T00:00:00|2049-12-26T00:00:00|First Octave|Primeira Oitava|FirstOctavePT|False|Madeira

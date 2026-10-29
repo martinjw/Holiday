@@ -1,0 +1,638 @@
+1990|1990-01-01T00:00:00|1990-01-01T00:00:00|New Year|New Year|NewYear|True|
+1990|1990-01-15T00:00:00|1990-01-15T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+1990|1990-02-19T00:00:00|1990-02-19T00:00:00|President's Day|President's Day|PresidentsDay|True|
+1990|1990-05-28T00:00:00|1990-05-28T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+1990|1990-07-04T00:00:00|1990-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+1990|1990-09-03T00:00:00|1990-09-03T00:00:00|Labor Day|Labor Day|LaborDay|True|
+1990|1990-10-08T00:00:00|1990-10-08T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+1990|1990-11-11T00:00:00|1990-11-12T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+1990|1990-11-22T00:00:00|1990-11-22T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+1990|1990-12-25T00:00:00|1990-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+1991|1991-01-01T00:00:00|1991-01-01T00:00:00|New Year|New Year|NewYear|True|
+1991|1991-01-21T00:00:00|1991-01-21T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+1991|1991-02-18T00:00:00|1991-02-18T00:00:00|President's Day|President's Day|PresidentsDay|True|
+1991|1991-05-27T00:00:00|1991-05-27T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+1991|1991-07-04T00:00:00|1991-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+1991|1991-09-02T00:00:00|1991-09-02T00:00:00|Labor Day|Labor Day|LaborDay|True|
+1991|1991-10-14T00:00:00|1991-10-14T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+1991|1991-11-11T00:00:00|1991-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+1991|1991-11-28T00:00:00|1991-11-28T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+1991|1991-12-25T00:00:00|1991-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+1992|1992-01-01T00:00:00|1992-01-01T00:00:00|New Year|New Year|NewYear|True|
+1992|1992-01-20T00:00:00|1992-01-20T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+1992|1992-02-17T00:00:00|1992-02-17T00:00:00|President's Day|President's Day|PresidentsDay|True|
+1992|1992-05-25T00:00:00|1992-05-25T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+1992|1992-07-04T00:00:00|1992-07-03T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+1992|1992-09-07T00:00:00|1992-09-07T00:00:00|Labor Day|Labor Day|LaborDay|True|
+1992|1992-10-12T00:00:00|1992-10-12T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+1992|1992-11-11T00:00:00|1992-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+1992|1992-11-26T00:00:00|1992-11-26T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+1992|1992-12-25T00:00:00|1992-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+1993|1993-01-01T00:00:00|1993-01-01T00:00:00|New Year|New Year|NewYear|True|
+1993|1993-01-18T00:00:00|1993-01-18T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+1993|1993-02-15T00:00:00|1993-02-15T00:00:00|President's Day|President's Day|PresidentsDay|True|
+1993|1993-05-31T00:00:00|1993-05-31T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+1993|1993-07-04T00:00:00|1993-07-05T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+1993|1993-09-06T00:00:00|1993-09-06T00:00:00|Labor Day|Labor Day|LaborDay|True|
+1993|1993-10-11T00:00:00|1993-10-11T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+1993|1993-11-11T00:00:00|1993-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+1993|1993-11-25T00:00:00|1993-11-25T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+1993|1993-12-25T00:00:00|1993-12-24T00:00:00|Christmas|Christmas|Christmas|True|
+1993|1994-01-01T00:00:00|1993-12-31T00:00:00|New Year|New Year|NewYear|True|
+1994|1994-01-01T00:00:00|1993-12-31T00:00:00|New Year|New Year|NewYear|True|
+1994|1994-01-17T00:00:00|1994-01-17T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+1994|1994-02-21T00:00:00|1994-02-21T00:00:00|President's Day|President's Day|PresidentsDay|True|
+1994|1994-05-30T00:00:00|1994-05-30T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+1994|1994-07-04T00:00:00|1994-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+1994|1994-09-05T00:00:00|1994-09-05T00:00:00|Labor Day|Labor Day|LaborDay|True|
+1994|1994-10-10T00:00:00|1994-10-10T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+1994|1994-11-11T00:00:00|1994-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+1994|1994-11-24T00:00:00|1994-11-24T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+1994|1994-12-25T00:00:00|1994-12-26T00:00:00|Christmas|Christmas|Christmas|True|
+1995|1995-01-01T00:00:00|1995-01-02T00:00:00|New Year|New Year|NewYear|True|
+1995|1995-01-16T00:00:00|1995-01-16T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+1995|1995-02-20T00:00:00|1995-02-20T00:00:00|President's Day|President's Day|PresidentsDay|True|
+1995|1995-05-29T00:00:00|1995-05-29T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+1995|1995-07-04T00:00:00|1995-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+1995|1995-09-04T00:00:00|1995-09-04T00:00:00|Labor Day|Labor Day|LaborDay|True|
+1995|1995-10-09T00:00:00|1995-10-09T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+1995|1995-11-11T00:00:00|1995-11-10T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+1995|1995-11-23T00:00:00|1995-11-23T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+1995|1995-12-25T00:00:00|1995-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+1996|1996-01-01T00:00:00|1996-01-01T00:00:00|New Year|New Year|NewYear|True|
+1996|1996-01-15T00:00:00|1996-01-15T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+1996|1996-02-19T00:00:00|1996-02-19T00:00:00|President's Day|President's Day|PresidentsDay|True|
+1996|1996-05-27T00:00:00|1996-05-27T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+1996|1996-07-04T00:00:00|1996-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+1996|1996-09-02T00:00:00|1996-09-02T00:00:00|Labor Day|Labor Day|LaborDay|True|
+1996|1996-10-14T00:00:00|1996-10-14T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+1996|1996-11-11T00:00:00|1996-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+1996|1996-11-28T00:00:00|1996-11-28T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+1996|1996-12-25T00:00:00|1996-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+1997|1997-01-01T00:00:00|1997-01-01T00:00:00|New Year|New Year|NewYear|True|
+1997|1997-01-20T00:00:00|1997-01-20T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+1997|1997-02-17T00:00:00|1997-02-17T00:00:00|President's Day|President's Day|PresidentsDay|True|
+1997|1997-05-26T00:00:00|1997-05-26T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+1997|1997-07-04T00:00:00|1997-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+1997|1997-09-01T00:00:00|1997-09-01T00:00:00|Labor Day|Labor Day|LaborDay|True|
+1997|1997-10-13T00:00:00|1997-10-13T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+1997|1997-11-11T00:00:00|1997-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+1997|1997-11-27T00:00:00|1997-11-27T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+1997|1997-12-25T00:00:00|1997-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+1998|1998-01-01T00:00:00|1998-01-01T00:00:00|New Year|New Year|NewYear|True|
+1998|1998-01-19T00:00:00|1998-01-19T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+1998|1998-02-16T00:00:00|1998-02-16T00:00:00|President's Day|President's Day|PresidentsDay|True|
+1998|1998-05-25T00:00:00|1998-05-25T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+1998|1998-07-04T00:00:00|1998-07-03T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+1998|1998-09-07T00:00:00|1998-09-07T00:00:00|Labor Day|Labor Day|LaborDay|True|
+1998|1998-10-12T00:00:00|1998-10-12T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+1998|1998-11-11T00:00:00|1998-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+1998|1998-11-26T00:00:00|1998-11-26T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+1998|1998-12-25T00:00:00|1998-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+1999|1999-01-01T00:00:00|1999-01-01T00:00:00|New Year|New Year|NewYear|True|
+1999|1999-01-18T00:00:00|1999-01-18T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+1999|1999-02-15T00:00:00|1999-02-15T00:00:00|President's Day|President's Day|PresidentsDay|True|
+1999|1999-05-31T00:00:00|1999-05-31T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+1999|1999-07-04T00:00:00|1999-07-05T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+1999|1999-09-06T00:00:00|1999-09-06T00:00:00|Labor Day|Labor Day|LaborDay|True|
+1999|1999-10-11T00:00:00|1999-10-11T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+1999|1999-11-11T00:00:00|1999-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+1999|1999-11-25T00:00:00|1999-11-25T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+1999|1999-12-25T00:00:00|1999-12-24T00:00:00|Christmas|Christmas|Christmas|True|
+1999|2000-01-01T00:00:00|1999-12-31T00:00:00|New Year|New Year|NewYear|True|
+2000|2000-01-01T00:00:00|1999-12-31T00:00:00|New Year|New Year|NewYear|True|
+2000|2000-01-17T00:00:00|2000-01-17T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2000|2000-02-21T00:00:00|2000-02-21T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2000|2000-05-29T00:00:00|2000-05-29T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2000|2000-07-04T00:00:00|2000-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2000|2000-09-04T00:00:00|2000-09-04T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2000|2000-10-09T00:00:00|2000-10-09T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2000|2000-11-11T00:00:00|2000-11-10T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2000|2000-11-23T00:00:00|2000-11-23T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2000|2000-12-25T00:00:00|2000-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2001|2001-01-01T00:00:00|2001-01-01T00:00:00|New Year|New Year|NewYear|True|
+2001|2001-01-15T00:00:00|2001-01-15T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2001|2001-02-19T00:00:00|2001-02-19T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2001|2001-05-28T00:00:00|2001-05-28T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2001|2001-07-04T00:00:00|2001-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2001|2001-09-03T00:00:00|2001-09-03T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2001|2001-10-08T00:00:00|2001-10-08T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2001|2001-11-11T00:00:00|2001-11-12T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2001|2001-11-22T00:00:00|2001-11-22T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2001|2001-12-25T00:00:00|2001-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2002|2002-01-01T00:00:00|2002-01-01T00:00:00|New Year|New Year|NewYear|True|
+2002|2002-01-21T00:00:00|2002-01-21T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2002|2002-02-18T00:00:00|2002-02-18T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2002|2002-05-27T00:00:00|2002-05-27T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2002|2002-07-04T00:00:00|2002-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2002|2002-09-02T00:00:00|2002-09-02T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2002|2002-10-14T00:00:00|2002-10-14T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2002|2002-11-11T00:00:00|2002-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2002|2002-11-28T00:00:00|2002-11-28T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2002|2002-12-25T00:00:00|2002-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2003|2003-01-01T00:00:00|2003-01-01T00:00:00|New Year|New Year|NewYear|True|
+2003|2003-01-20T00:00:00|2003-01-20T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2003|2003-02-17T00:00:00|2003-02-17T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2003|2003-05-26T00:00:00|2003-05-26T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2003|2003-07-04T00:00:00|2003-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2003|2003-09-01T00:00:00|2003-09-01T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2003|2003-10-13T00:00:00|2003-10-13T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2003|2003-11-11T00:00:00|2003-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2003|2003-11-27T00:00:00|2003-11-27T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2003|2003-12-25T00:00:00|2003-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2004|2004-01-01T00:00:00|2004-01-01T00:00:00|New Year|New Year|NewYear|True|
+2004|2004-01-19T00:00:00|2004-01-19T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2004|2004-02-16T00:00:00|2004-02-16T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2004|2004-05-31T00:00:00|2004-05-31T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2004|2004-07-04T00:00:00|2004-07-05T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2004|2004-09-06T00:00:00|2004-09-06T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2004|2004-10-11T00:00:00|2004-10-11T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2004|2004-11-11T00:00:00|2004-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2004|2004-11-25T00:00:00|2004-11-25T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2004|2004-12-25T00:00:00|2004-12-24T00:00:00|Christmas|Christmas|Christmas|True|
+2004|2005-01-01T00:00:00|2004-12-31T00:00:00|New Year|New Year|NewYear|True|
+2005|2005-01-01T00:00:00|2004-12-31T00:00:00|New Year|New Year|NewYear|True|
+2005|2005-01-17T00:00:00|2005-01-17T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2005|2005-02-21T00:00:00|2005-02-21T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2005|2005-05-30T00:00:00|2005-05-30T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2005|2005-07-04T00:00:00|2005-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2005|2005-09-05T00:00:00|2005-09-05T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2005|2005-10-10T00:00:00|2005-10-10T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2005|2005-11-11T00:00:00|2005-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2005|2005-11-24T00:00:00|2005-11-24T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2005|2005-12-25T00:00:00|2005-12-26T00:00:00|Christmas|Christmas|Christmas|True|
+2006|2006-01-01T00:00:00|2006-01-02T00:00:00|New Year|New Year|NewYear|True|
+2006|2006-01-16T00:00:00|2006-01-16T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2006|2006-02-20T00:00:00|2006-02-20T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2006|2006-05-29T00:00:00|2006-05-29T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2006|2006-07-04T00:00:00|2006-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2006|2006-09-04T00:00:00|2006-09-04T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2006|2006-10-09T00:00:00|2006-10-09T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2006|2006-11-11T00:00:00|2006-11-10T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2006|2006-11-23T00:00:00|2006-11-23T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2006|2006-12-25T00:00:00|2006-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2007|2007-01-01T00:00:00|2007-01-01T00:00:00|New Year|New Year|NewYear|True|
+2007|2007-01-15T00:00:00|2007-01-15T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2007|2007-02-19T00:00:00|2007-02-19T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2007|2007-05-28T00:00:00|2007-05-28T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2007|2007-07-04T00:00:00|2007-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2007|2007-09-03T00:00:00|2007-09-03T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2007|2007-10-08T00:00:00|2007-10-08T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2007|2007-11-11T00:00:00|2007-11-12T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2007|2007-11-22T00:00:00|2007-11-22T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2007|2007-12-25T00:00:00|2007-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2008|2008-01-01T00:00:00|2008-01-01T00:00:00|New Year|New Year|NewYear|True|
+2008|2008-01-21T00:00:00|2008-01-21T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2008|2008-02-18T00:00:00|2008-02-18T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2008|2008-05-26T00:00:00|2008-05-26T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2008|2008-07-04T00:00:00|2008-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2008|2008-09-01T00:00:00|2008-09-01T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2008|2008-10-13T00:00:00|2008-10-13T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2008|2008-11-11T00:00:00|2008-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2008|2008-11-27T00:00:00|2008-11-27T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2008|2008-12-25T00:00:00|2008-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2009|2009-01-01T00:00:00|2009-01-01T00:00:00|New Year|New Year|NewYear|True|
+2009|2009-01-19T00:00:00|2009-01-19T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2009|2009-02-16T00:00:00|2009-02-16T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2009|2009-05-25T00:00:00|2009-05-25T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2009|2009-07-04T00:00:00|2009-07-03T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2009|2009-09-07T00:00:00|2009-09-07T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2009|2009-10-12T00:00:00|2009-10-12T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2009|2009-11-11T00:00:00|2009-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2009|2009-11-26T00:00:00|2009-11-26T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2009|2009-12-25T00:00:00|2009-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2010|2010-01-01T00:00:00|2010-01-01T00:00:00|New Year|New Year|NewYear|True|
+2010|2010-01-18T00:00:00|2010-01-18T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2010|2010-02-15T00:00:00|2010-02-15T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2010|2010-05-31T00:00:00|2010-05-31T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2010|2010-07-04T00:00:00|2010-07-05T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2010|2010-09-06T00:00:00|2010-09-06T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2010|2010-10-11T00:00:00|2010-10-11T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2010|2010-11-11T00:00:00|2010-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2010|2010-11-25T00:00:00|2010-11-25T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2010|2010-12-25T00:00:00|2010-12-24T00:00:00|Christmas|Christmas|Christmas|True|
+2010|2011-01-01T00:00:00|2010-12-31T00:00:00|New Year|New Year|NewYear|True|
+2011|2011-01-01T00:00:00|2010-12-31T00:00:00|New Year|New Year|NewYear|True|
+2011|2011-01-17T00:00:00|2011-01-17T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2011|2011-02-21T00:00:00|2011-02-21T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2011|2011-05-30T00:00:00|2011-05-30T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2011|2011-07-04T00:00:00|2011-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2011|2011-09-05T00:00:00|2011-09-05T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2011|2011-10-10T00:00:00|2011-10-10T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2011|2011-11-11T00:00:00|2011-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2011|2011-11-24T00:00:00|2011-11-24T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2011|2011-12-25T00:00:00|2011-12-26T00:00:00|Christmas|Christmas|Christmas|True|
+2012|2012-01-01T00:00:00|2012-01-02T00:00:00|New Year|New Year|NewYear|True|
+2012|2012-01-16T00:00:00|2012-01-16T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2012|2012-02-20T00:00:00|2012-02-20T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2012|2012-05-28T00:00:00|2012-05-28T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2012|2012-07-04T00:00:00|2012-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2012|2012-09-03T00:00:00|2012-09-03T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2012|2012-10-08T00:00:00|2012-10-08T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2012|2012-11-11T00:00:00|2012-11-12T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2012|2012-11-22T00:00:00|2012-11-22T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2012|2012-12-25T00:00:00|2012-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2013|2013-01-01T00:00:00|2013-01-01T00:00:00|New Year|New Year|NewYear|True|
+2013|2013-01-21T00:00:00|2013-01-21T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2013|2013-02-18T00:00:00|2013-02-18T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2013|2013-05-27T00:00:00|2013-05-27T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2013|2013-07-04T00:00:00|2013-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2013|2013-09-02T00:00:00|2013-09-02T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2013|2013-10-14T00:00:00|2013-10-14T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2013|2013-11-11T00:00:00|2013-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2013|2013-11-28T00:00:00|2013-11-28T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2013|2013-12-25T00:00:00|2013-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2014|2014-01-01T00:00:00|2014-01-01T00:00:00|New Year|New Year|NewYear|True|
+2014|2014-01-20T00:00:00|2014-01-20T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2014|2014-02-17T00:00:00|2014-02-17T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2014|2014-05-26T00:00:00|2014-05-26T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2014|2014-07-04T00:00:00|2014-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2014|2014-09-01T00:00:00|2014-09-01T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2014|2014-10-13T00:00:00|2014-10-13T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2014|2014-11-11T00:00:00|2014-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2014|2014-11-27T00:00:00|2014-11-27T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2014|2014-12-25T00:00:00|2014-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2015|2015-01-01T00:00:00|2015-01-01T00:00:00|New Year|New Year|NewYear|True|
+2015|2015-01-19T00:00:00|2015-01-19T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2015|2015-02-16T00:00:00|2015-02-16T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2015|2015-05-25T00:00:00|2015-05-25T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2015|2015-07-04T00:00:00|2015-07-03T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2015|2015-09-07T00:00:00|2015-09-07T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2015|2015-10-12T00:00:00|2015-10-12T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2015|2015-11-11T00:00:00|2015-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2015|2015-11-26T00:00:00|2015-11-26T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2015|2015-12-25T00:00:00|2015-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2016|2016-01-01T00:00:00|2016-01-01T00:00:00|New Year|New Year|NewYear|True|
+2016|2016-01-18T00:00:00|2016-01-18T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2016|2016-02-15T00:00:00|2016-02-15T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2016|2016-05-30T00:00:00|2016-05-30T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2016|2016-07-04T00:00:00|2016-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2016|2016-09-05T00:00:00|2016-09-05T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2016|2016-10-10T00:00:00|2016-10-10T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2016|2016-11-11T00:00:00|2016-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2016|2016-11-24T00:00:00|2016-11-24T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2016|2016-12-25T00:00:00|2016-12-26T00:00:00|Christmas|Christmas|Christmas|True|
+2017|2017-01-01T00:00:00|2017-01-02T00:00:00|New Year|New Year|NewYear|True|
+2017|2017-01-16T00:00:00|2017-01-16T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2017|2017-02-20T00:00:00|2017-02-20T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2017|2017-05-29T00:00:00|2017-05-29T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2017|2017-07-04T00:00:00|2017-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2017|2017-09-04T00:00:00|2017-09-04T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2017|2017-10-09T00:00:00|2017-10-09T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2017|2017-11-11T00:00:00|2017-11-10T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2017|2017-11-23T00:00:00|2017-11-23T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2017|2017-12-25T00:00:00|2017-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2018|2018-01-01T00:00:00|2018-01-01T00:00:00|New Year|New Year|NewYear|True|
+2018|2018-01-15T00:00:00|2018-01-15T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2018|2018-02-19T00:00:00|2018-02-19T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2018|2018-05-28T00:00:00|2018-05-28T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2018|2018-07-04T00:00:00|2018-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2018|2018-09-03T00:00:00|2018-09-03T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2018|2018-10-08T00:00:00|2018-10-08T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2018|2018-11-11T00:00:00|2018-11-12T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2018|2018-11-22T00:00:00|2018-11-22T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2018|2018-12-25T00:00:00|2018-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2019|2019-01-01T00:00:00|2019-01-01T00:00:00|New Year|New Year|NewYear|True|
+2019|2019-01-21T00:00:00|2019-01-21T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2019|2019-02-18T00:00:00|2019-02-18T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2019|2019-05-27T00:00:00|2019-05-27T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2019|2019-07-04T00:00:00|2019-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2019|2019-09-02T00:00:00|2019-09-02T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2019|2019-10-14T00:00:00|2019-10-14T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2019|2019-11-11T00:00:00|2019-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2019|2019-11-28T00:00:00|2019-11-28T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2019|2019-12-25T00:00:00|2019-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2020|2020-01-01T00:00:00|2020-01-01T00:00:00|New Year|New Year|NewYear|True|
+2020|2020-01-20T00:00:00|2020-01-20T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2020|2020-02-17T00:00:00|2020-02-17T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2020|2020-05-25T00:00:00|2020-05-25T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2020|2020-07-04T00:00:00|2020-07-03T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2020|2020-09-07T00:00:00|2020-09-07T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2020|2020-10-12T00:00:00|2020-10-12T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2020|2020-11-11T00:00:00|2020-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2020|2020-11-26T00:00:00|2020-11-26T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2020|2020-12-25T00:00:00|2020-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2021|2021-01-01T00:00:00|2021-01-01T00:00:00|New Year|New Year|NewYear|True|
+2021|2021-01-18T00:00:00|2021-01-18T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2021|2021-02-15T00:00:00|2021-02-15T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2021|2021-05-31T00:00:00|2021-05-31T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2021|2021-06-19T00:00:00|2021-06-18T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2021|2021-07-04T00:00:00|2021-07-05T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2021|2021-09-06T00:00:00|2021-09-06T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2021|2021-10-11T00:00:00|2021-10-11T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2021|2021-11-11T00:00:00|2021-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2021|2021-11-25T00:00:00|2021-11-25T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2021|2021-12-25T00:00:00|2021-12-24T00:00:00|Christmas|Christmas|Christmas|True|
+2021|2022-01-01T00:00:00|2021-12-31T00:00:00|New Year|New Year|NewYear|True|
+2022|2022-01-01T00:00:00|2021-12-31T00:00:00|New Year|New Year|NewYear|True|
+2022|2022-01-17T00:00:00|2022-01-17T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2022|2022-02-21T00:00:00|2022-02-21T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2022|2022-05-30T00:00:00|2022-05-30T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2022|2022-06-19T00:00:00|2022-06-20T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2022|2022-07-04T00:00:00|2022-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2022|2022-09-05T00:00:00|2022-09-05T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2022|2022-10-10T00:00:00|2022-10-10T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2022|2022-11-11T00:00:00|2022-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2022|2022-11-24T00:00:00|2022-11-24T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2022|2022-12-25T00:00:00|2022-12-26T00:00:00|Christmas|Christmas|Christmas|True|
+2023|2023-01-01T00:00:00|2023-01-02T00:00:00|New Year|New Year|NewYear|True|
+2023|2023-01-16T00:00:00|2023-01-16T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2023|2023-02-20T00:00:00|2023-02-20T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2023|2023-05-29T00:00:00|2023-05-29T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2023|2023-06-19T00:00:00|2023-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2023|2023-07-04T00:00:00|2023-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2023|2023-09-04T00:00:00|2023-09-04T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2023|2023-10-09T00:00:00|2023-10-09T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2023|2023-11-11T00:00:00|2023-11-10T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2023|2023-11-23T00:00:00|2023-11-23T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2023|2023-12-25T00:00:00|2023-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2024|2024-01-01T00:00:00|2024-01-01T00:00:00|New Year|New Year|NewYear|True|
+2024|2024-01-15T00:00:00|2024-01-15T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2024|2024-02-19T00:00:00|2024-02-19T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2024|2024-05-27T00:00:00|2024-05-27T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2024|2024-06-19T00:00:00|2024-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2024|2024-07-04T00:00:00|2024-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2024|2024-09-02T00:00:00|2024-09-02T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2024|2024-10-14T00:00:00|2024-10-14T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2024|2024-11-11T00:00:00|2024-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2024|2024-11-28T00:00:00|2024-11-28T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2024|2024-12-25T00:00:00|2024-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2025|2025-01-01T00:00:00|2025-01-01T00:00:00|New Year|New Year|NewYear|True|
+2025|2025-01-20T00:00:00|2025-01-20T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2025|2025-02-17T00:00:00|2025-02-17T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2025|2025-05-26T00:00:00|2025-05-26T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2025|2025-06-19T00:00:00|2025-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2025|2025-07-04T00:00:00|2025-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2025|2025-09-01T00:00:00|2025-09-01T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2025|2025-10-13T00:00:00|2025-10-13T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2025|2025-11-11T00:00:00|2025-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2025|2025-11-27T00:00:00|2025-11-27T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2025|2025-12-25T00:00:00|2025-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2026|2026-01-01T00:00:00|2026-01-01T00:00:00|New Year|New Year|NewYear|True|
+2026|2026-01-19T00:00:00|2026-01-19T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2026|2026-02-16T00:00:00|2026-02-16T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2026|2026-05-25T00:00:00|2026-05-25T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2026|2026-06-19T00:00:00|2026-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2026|2026-07-04T00:00:00|2026-07-03T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2026|2026-09-07T00:00:00|2026-09-07T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2026|2026-10-12T00:00:00|2026-10-12T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2026|2026-11-11T00:00:00|2026-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2026|2026-11-26T00:00:00|2026-11-26T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2026|2026-12-25T00:00:00|2026-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2027|2027-01-01T00:00:00|2027-01-01T00:00:00|New Year|New Year|NewYear|True|
+2027|2027-01-18T00:00:00|2027-01-18T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2027|2027-02-15T00:00:00|2027-02-15T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2027|2027-05-31T00:00:00|2027-05-31T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2027|2027-06-19T00:00:00|2027-06-18T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2027|2027-07-04T00:00:00|2027-07-05T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2027|2027-09-06T00:00:00|2027-09-06T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2027|2027-10-11T00:00:00|2027-10-11T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2027|2027-11-11T00:00:00|2027-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2027|2027-11-25T00:00:00|2027-11-25T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2027|2027-12-25T00:00:00|2027-12-24T00:00:00|Christmas|Christmas|Christmas|True|
+2027|2028-01-01T00:00:00|2027-12-31T00:00:00|New Year|New Year|NewYear|True|
+2028|2028-01-01T00:00:00|2027-12-31T00:00:00|New Year|New Year|NewYear|True|
+2028|2028-01-17T00:00:00|2028-01-17T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2028|2028-02-21T00:00:00|2028-02-21T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2028|2028-05-29T00:00:00|2028-05-29T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2028|2028-06-19T00:00:00|2028-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2028|2028-07-04T00:00:00|2028-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2028|2028-09-04T00:00:00|2028-09-04T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2028|2028-10-09T00:00:00|2028-10-09T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2028|2028-11-11T00:00:00|2028-11-10T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2028|2028-11-23T00:00:00|2028-11-23T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2028|2028-12-25T00:00:00|2028-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2029|2029-01-01T00:00:00|2029-01-01T00:00:00|New Year|New Year|NewYear|True|
+2029|2029-01-15T00:00:00|2029-01-15T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2029|2029-02-19T00:00:00|2029-02-19T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2029|2029-05-28T00:00:00|2029-05-28T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2029|2029-06-19T00:00:00|2029-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2029|2029-07-04T00:00:00|2029-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2029|2029-09-03T00:00:00|2029-09-03T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2029|2029-10-08T00:00:00|2029-10-08T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2029|2029-11-11T00:00:00|2029-11-12T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2029|2029-11-22T00:00:00|2029-11-22T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2029|2029-12-25T00:00:00|2029-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2030|2030-01-01T00:00:00|2030-01-01T00:00:00|New Year|New Year|NewYear|True|
+2030|2030-01-21T00:00:00|2030-01-21T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2030|2030-02-18T00:00:00|2030-02-18T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2030|2030-05-27T00:00:00|2030-05-27T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2030|2030-06-19T00:00:00|2030-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2030|2030-07-04T00:00:00|2030-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2030|2030-09-02T00:00:00|2030-09-02T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2030|2030-10-14T00:00:00|2030-10-14T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2030|2030-11-11T00:00:00|2030-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2030|2030-11-28T00:00:00|2030-11-28T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2030|2030-12-25T00:00:00|2030-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2031|2031-01-01T00:00:00|2031-01-01T00:00:00|New Year|New Year|NewYear|True|
+2031|2031-01-20T00:00:00|2031-01-20T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2031|2031-02-17T00:00:00|2031-02-17T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2031|2031-05-26T00:00:00|2031-05-26T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2031|2031-06-19T00:00:00|2031-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2031|2031-07-04T00:00:00|2031-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2031|2031-09-01T00:00:00|2031-09-01T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2031|2031-10-13T00:00:00|2031-10-13T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2031|2031-11-11T00:00:00|2031-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2031|2031-11-27T00:00:00|2031-11-27T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2031|2031-12-25T00:00:00|2031-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2032|2032-01-01T00:00:00|2032-01-01T00:00:00|New Year|New Year|NewYear|True|
+2032|2032-01-19T00:00:00|2032-01-19T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2032|2032-02-16T00:00:00|2032-02-16T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2032|2032-05-31T00:00:00|2032-05-31T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2032|2032-06-19T00:00:00|2032-06-18T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2032|2032-07-04T00:00:00|2032-07-05T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2032|2032-09-06T00:00:00|2032-09-06T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2032|2032-10-11T00:00:00|2032-10-11T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2032|2032-11-11T00:00:00|2032-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2032|2032-11-25T00:00:00|2032-11-25T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2032|2032-12-25T00:00:00|2032-12-24T00:00:00|Christmas|Christmas|Christmas|True|
+2032|2033-01-01T00:00:00|2032-12-31T00:00:00|New Year|New Year|NewYear|True|
+2033|2033-01-01T00:00:00|2032-12-31T00:00:00|New Year|New Year|NewYear|True|
+2033|2033-01-17T00:00:00|2033-01-17T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2033|2033-02-21T00:00:00|2033-02-21T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2033|2033-05-30T00:00:00|2033-05-30T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2033|2033-06-19T00:00:00|2033-06-20T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2033|2033-07-04T00:00:00|2033-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2033|2033-09-05T00:00:00|2033-09-05T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2033|2033-10-10T00:00:00|2033-10-10T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2033|2033-11-11T00:00:00|2033-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2033|2033-11-24T00:00:00|2033-11-24T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2033|2033-12-25T00:00:00|2033-12-26T00:00:00|Christmas|Christmas|Christmas|True|
+2034|2034-01-01T00:00:00|2034-01-02T00:00:00|New Year|New Year|NewYear|True|
+2034|2034-01-16T00:00:00|2034-01-16T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2034|2034-02-20T00:00:00|2034-02-20T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2034|2034-05-29T00:00:00|2034-05-29T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2034|2034-06-19T00:00:00|2034-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2034|2034-07-04T00:00:00|2034-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2034|2034-09-04T00:00:00|2034-09-04T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2034|2034-10-09T00:00:00|2034-10-09T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2034|2034-11-11T00:00:00|2034-11-10T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2034|2034-11-23T00:00:00|2034-11-23T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2034|2034-12-25T00:00:00|2034-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2035|2035-01-01T00:00:00|2035-01-01T00:00:00|New Year|New Year|NewYear|True|
+2035|2035-01-15T00:00:00|2035-01-15T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2035|2035-02-19T00:00:00|2035-02-19T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2035|2035-05-28T00:00:00|2035-05-28T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2035|2035-06-19T00:00:00|2035-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2035|2035-07-04T00:00:00|2035-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2035|2035-09-03T00:00:00|2035-09-03T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2035|2035-10-08T00:00:00|2035-10-08T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2035|2035-11-11T00:00:00|2035-11-12T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2035|2035-11-22T00:00:00|2035-11-22T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2035|2035-12-25T00:00:00|2035-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2036|2036-01-01T00:00:00|2036-01-01T00:00:00|New Year|New Year|NewYear|True|
+2036|2036-01-21T00:00:00|2036-01-21T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2036|2036-02-18T00:00:00|2036-02-18T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2036|2036-05-26T00:00:00|2036-05-26T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2036|2036-06-19T00:00:00|2036-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2036|2036-07-04T00:00:00|2036-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2036|2036-09-01T00:00:00|2036-09-01T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2036|2036-10-13T00:00:00|2036-10-13T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2036|2036-11-11T00:00:00|2036-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2036|2036-11-27T00:00:00|2036-11-27T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2036|2036-12-25T00:00:00|2036-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2037|2037-01-01T00:00:00|2037-01-01T00:00:00|New Year|New Year|NewYear|True|
+2037|2037-01-19T00:00:00|2037-01-19T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2037|2037-02-16T00:00:00|2037-02-16T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2037|2037-05-25T00:00:00|2037-05-25T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2037|2037-06-19T00:00:00|2037-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2037|2037-07-04T00:00:00|2037-07-03T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2037|2037-09-07T00:00:00|2037-09-07T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2037|2037-10-12T00:00:00|2037-10-12T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2037|2037-11-11T00:00:00|2037-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2037|2037-11-26T00:00:00|2037-11-26T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2037|2037-12-25T00:00:00|2037-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2038|2038-01-01T00:00:00|2038-01-01T00:00:00|New Year|New Year|NewYear|True|
+2038|2038-01-18T00:00:00|2038-01-18T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2038|2038-02-15T00:00:00|2038-02-15T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2038|2038-05-31T00:00:00|2038-05-31T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2038|2038-06-19T00:00:00|2038-06-18T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2038|2038-07-04T00:00:00|2038-07-05T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2038|2038-09-06T00:00:00|2038-09-06T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2038|2038-10-11T00:00:00|2038-10-11T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2038|2038-11-11T00:00:00|2038-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2038|2038-11-25T00:00:00|2038-11-25T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2038|2038-12-25T00:00:00|2038-12-24T00:00:00|Christmas|Christmas|Christmas|True|
+2038|2039-01-01T00:00:00|2038-12-31T00:00:00|New Year|New Year|NewYear|True|
+2039|2039-01-01T00:00:00|2038-12-31T00:00:00|New Year|New Year|NewYear|True|
+2039|2039-01-17T00:00:00|2039-01-17T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2039|2039-02-21T00:00:00|2039-02-21T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2039|2039-05-30T00:00:00|2039-05-30T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2039|2039-06-19T00:00:00|2039-06-20T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2039|2039-07-04T00:00:00|2039-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2039|2039-09-05T00:00:00|2039-09-05T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2039|2039-10-10T00:00:00|2039-10-10T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2039|2039-11-11T00:00:00|2039-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2039|2039-11-24T00:00:00|2039-11-24T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2039|2039-12-25T00:00:00|2039-12-26T00:00:00|Christmas|Christmas|Christmas|True|
+2040|2040-01-01T00:00:00|2040-01-02T00:00:00|New Year|New Year|NewYear|True|
+2040|2040-01-16T00:00:00|2040-01-16T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2040|2040-02-20T00:00:00|2040-02-20T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2040|2040-05-28T00:00:00|2040-05-28T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2040|2040-06-19T00:00:00|2040-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2040|2040-07-04T00:00:00|2040-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2040|2040-09-03T00:00:00|2040-09-03T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2040|2040-10-08T00:00:00|2040-10-08T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2040|2040-11-11T00:00:00|2040-11-12T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2040|2040-11-22T00:00:00|2040-11-22T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2040|2040-12-25T00:00:00|2040-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2041|2041-01-01T00:00:00|2041-01-01T00:00:00|New Year|New Year|NewYear|True|
+2041|2041-01-21T00:00:00|2041-01-21T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2041|2041-02-18T00:00:00|2041-02-18T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2041|2041-05-27T00:00:00|2041-05-27T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2041|2041-06-19T00:00:00|2041-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2041|2041-07-04T00:00:00|2041-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2041|2041-09-02T00:00:00|2041-09-02T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2041|2041-10-14T00:00:00|2041-10-14T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2041|2041-11-11T00:00:00|2041-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2041|2041-11-28T00:00:00|2041-11-28T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2041|2041-12-25T00:00:00|2041-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2042|2042-01-01T00:00:00|2042-01-01T00:00:00|New Year|New Year|NewYear|True|
+2042|2042-01-20T00:00:00|2042-01-20T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2042|2042-02-17T00:00:00|2042-02-17T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2042|2042-05-26T00:00:00|2042-05-26T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2042|2042-06-19T00:00:00|2042-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2042|2042-07-04T00:00:00|2042-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2042|2042-09-01T00:00:00|2042-09-01T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2042|2042-10-13T00:00:00|2042-10-13T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2042|2042-11-11T00:00:00|2042-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2042|2042-11-27T00:00:00|2042-11-27T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2042|2042-12-25T00:00:00|2042-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2043|2043-01-01T00:00:00|2043-01-01T00:00:00|New Year|New Year|NewYear|True|
+2043|2043-01-19T00:00:00|2043-01-19T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2043|2043-02-16T00:00:00|2043-02-16T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2043|2043-05-25T00:00:00|2043-05-25T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2043|2043-06-19T00:00:00|2043-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2043|2043-07-04T00:00:00|2043-07-03T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2043|2043-09-07T00:00:00|2043-09-07T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2043|2043-10-12T00:00:00|2043-10-12T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2043|2043-11-11T00:00:00|2043-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2043|2043-11-26T00:00:00|2043-11-26T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2043|2043-12-25T00:00:00|2043-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2044|2044-01-01T00:00:00|2044-01-01T00:00:00|New Year|New Year|NewYear|True|
+2044|2044-01-18T00:00:00|2044-01-18T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2044|2044-02-15T00:00:00|2044-02-15T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2044|2044-05-30T00:00:00|2044-05-30T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2044|2044-06-19T00:00:00|2044-06-20T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2044|2044-07-04T00:00:00|2044-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2044|2044-09-05T00:00:00|2044-09-05T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2044|2044-10-10T00:00:00|2044-10-10T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2044|2044-11-11T00:00:00|2044-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2044|2044-11-24T00:00:00|2044-11-24T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2044|2044-12-25T00:00:00|2044-12-26T00:00:00|Christmas|Christmas|Christmas|True|
+2045|2045-01-01T00:00:00|2045-01-02T00:00:00|New Year|New Year|NewYear|True|
+2045|2045-01-16T00:00:00|2045-01-16T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2045|2045-02-20T00:00:00|2045-02-20T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2045|2045-05-29T00:00:00|2045-05-29T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2045|2045-06-19T00:00:00|2045-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2045|2045-07-04T00:00:00|2045-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2045|2045-09-04T00:00:00|2045-09-04T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2045|2045-10-09T00:00:00|2045-10-09T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2045|2045-11-11T00:00:00|2045-11-10T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2045|2045-11-23T00:00:00|2045-11-23T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2045|2045-12-25T00:00:00|2045-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2046|2046-01-01T00:00:00|2046-01-01T00:00:00|New Year|New Year|NewYear|True|
+2046|2046-01-15T00:00:00|2046-01-15T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2046|2046-02-19T00:00:00|2046-02-19T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2046|2046-05-28T00:00:00|2046-05-28T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2046|2046-06-19T00:00:00|2046-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2046|2046-07-04T00:00:00|2046-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2046|2046-09-03T00:00:00|2046-09-03T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2046|2046-10-08T00:00:00|2046-10-08T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2046|2046-11-11T00:00:00|2046-11-12T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2046|2046-11-22T00:00:00|2046-11-22T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2046|2046-12-25T00:00:00|2046-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2047|2047-01-01T00:00:00|2047-01-01T00:00:00|New Year|New Year|NewYear|True|
+2047|2047-01-21T00:00:00|2047-01-21T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2047|2047-02-18T00:00:00|2047-02-18T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2047|2047-05-27T00:00:00|2047-05-27T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2047|2047-06-19T00:00:00|2047-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2047|2047-07-04T00:00:00|2047-07-04T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2047|2047-09-02T00:00:00|2047-09-02T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2047|2047-10-14T00:00:00|2047-10-14T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2047|2047-11-11T00:00:00|2047-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2047|2047-11-28T00:00:00|2047-11-28T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2047|2047-12-25T00:00:00|2047-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2048|2048-01-01T00:00:00|2048-01-01T00:00:00|New Year|New Year|NewYear|True|
+2048|2048-01-20T00:00:00|2048-01-20T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2048|2048-02-17T00:00:00|2048-02-17T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2048|2048-05-25T00:00:00|2048-05-25T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2048|2048-06-19T00:00:00|2048-06-19T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2048|2048-07-04T00:00:00|2048-07-03T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2048|2048-09-07T00:00:00|2048-09-07T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2048|2048-10-12T00:00:00|2048-10-12T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2048|2048-11-11T00:00:00|2048-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2048|2048-11-26T00:00:00|2048-11-26T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2048|2048-12-25T00:00:00|2048-12-25T00:00:00|Christmas|Christmas|Christmas|True|
+2049|2049-01-01T00:00:00|2049-01-01T00:00:00|New Year|New Year|NewYear|True|
+2049|2049-01-18T00:00:00|2049-01-18T00:00:00|Martin Luther King Day|Martin Luther King Day|MartinLutherKing|True|
+2049|2049-02-15T00:00:00|2049-02-15T00:00:00|President's Day|President's Day|PresidentsDay|True|
+2049|2049-05-31T00:00:00|2049-05-31T00:00:00|Memorial Day|Memorial Day|MemorialDay|True|
+2049|2049-06-19T00:00:00|2049-06-18T00:00:00|Juneteenth|Juneteenth|Juneteenth|True|
+2049|2049-07-04T00:00:00|2049-07-05T00:00:00|Independence Day|Independence Day|IndependenceDay|True|
+2049|2049-09-06T00:00:00|2049-09-06T00:00:00|Labor Day|Labor Day|LaborDay|True|
+2049|2049-10-11T00:00:00|2049-10-11T00:00:00|Columbus Day|Columbus Day|ColumbusDay|True|
+2049|2049-11-11T00:00:00|2049-11-11T00:00:00|Veteran's Day|Veteran's Day|VeteransDay|True|
+2049|2049-11-25T00:00:00|2049-11-25T00:00:00|Thanksgiving|Thanksgiving|Thanksgiving|True|
+2049|2049-12-25T00:00:00|2049-12-24T00:00:00|Christmas|Christmas|Christmas|True|
+2049|2050-01-01T00:00:00|2049-12-31T00:00:00|New Year|New Year|NewYear|True|

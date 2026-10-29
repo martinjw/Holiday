@@ -42,8 +42,13 @@ namespace PublicHolidayTests
             var holidayCalendar = new LuxembourgPublicHoliday();
             var hols = holidayCalendar.PublicHolidays(2024);
             var holNames = holidayCalendar.PublicHolidayNames(2024);
-            Assert.IsTrue(11 == hols.Count, "Should be 11 holidays in 2024 (although 2 are on the same day-9/5/2024)");
+            //Europe Day and Ascension are both 9/5/2024: 11 holidays on 10 distinct days,
+            //the shared day carries both names
+            Assert.IsTrue(10 == hols.Count, "Should be 10 distinct holiday days in 2024 (Europe Day and Ascension share 9/5/2024)");
+            Assert.IsTrue(11 == holidayCalendar.PublicHolidaysInformation(2024).Count, "Should be 11 holidays in 2024");
             Assert.IsTrue(holNames.Count == hols.Count, "Names and holiday list are same");
+            Assert.IsTrue(holNames[new DateTime(2024, 5, 9)].Contains("Europadag") && holNames[new DateTime(2024, 5, 9)].Contains("Christi Himmelfaar"),
+                "Shared day carries both names");
         }
 
         [TestMethod]

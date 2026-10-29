@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="BenitoJuarezBirthdayMX" xml:space="preserve"><value>Natalício de Benito Juárez</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Navidad</value></data>
+  <data name="ConstitutionDayMX" xml:space="preserve"><value>Día de la Constitución</value></data>
+  <data name="IndependenceDayMX" xml:space="preserve"><value>Día de la Independencia</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Día laboral</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Año Nuevo</value></data>
+  <data name="PresidentialInaugurationMX" xml:space="preserve"><value>Transmisión del Poder Ejecutivo Federal</value></data>
+  <data name="RevolutionDayMX" xml:space="preserve"><value>Día de la Revolució</value></data>
+</root>

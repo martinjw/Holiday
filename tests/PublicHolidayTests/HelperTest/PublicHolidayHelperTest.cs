@@ -16,14 +16,18 @@ namespace PublicHolidayTests.HelperTest
             return Holidays.ContainsKey(dt);
         }
 
-        public override IDictionary<DateTime, string> PublicHolidayNames(int year)
+        protected override IList<Holiday> PublicHolidaysComplete(int year)
         {
-            var result =
-            from Holiday in Holidays
-            where Holiday.Key.Year == year
-            select Holiday;
+            return PublicHolidayNames(year)
+                .Select(pair => new Holiday(pair.Key, pair.Key, string.Join(", ", pair.Value), null))
+                .ToList();
+        }
 
-            return new Dictionary<DateTime, string>(result);
+        public override IDictionary<DateTime, string[]> PublicHolidayNames(int year)
+        {
+            return Holidays
+                .Where(holiday => holiday.Key.Year == year)
+                .ToDictionary(holiday => holiday.Key, holiday => new[] { holiday.Value });
         }
 
         public override IList<DateTime> PublicHolidays(int year)

@@ -77,7 +77,7 @@ namespace PublicHolidayTests
             Assert.IsTrue(actual, $"{holiday.ToString("D")} is not a holiday");
         }
 
-        [DataTestMethod]
+        [TestMethod]
         // Ramadan Bayram (Shawwal 1 / Eid al-Fitr) dates (UmAlQura algorithmic calendar) for years 2020-2040
         [DataRow(2020, 5, 24)]
         [DataRow(2021, 5, 13)]
