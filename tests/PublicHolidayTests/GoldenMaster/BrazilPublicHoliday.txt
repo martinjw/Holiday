@@ -1,0 +1,720 @@
+1990|1990-01-01T00:00:00|1990-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1990|1990-02-26T00:00:00|1990-02-26T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+1990|1990-02-27T00:00:00|1990-02-27T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+1990|1990-04-13T00:00:00|1990-04-13T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+1990|1990-04-21T00:00:00|1990-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+1990|1990-05-01T00:00:00|1990-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+1990|1990-06-14T00:00:00|1990-06-14T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+1990|1990-09-07T00:00:00|1990-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+1990|1990-10-12T00:00:00|1990-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+1990|1990-11-02T00:00:00|1990-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+1990|1990-11-15T00:00:00|1990-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+1990|1990-12-25T00:00:00|1990-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1991|1991-01-01T00:00:00|1991-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1991|1991-02-11T00:00:00|1991-02-11T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+1991|1991-02-12T00:00:00|1991-02-12T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+1991|1991-03-29T00:00:00|1991-03-29T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+1991|1991-04-21T00:00:00|1991-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+1991|1991-05-01T00:00:00|1991-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+1991|1991-05-30T00:00:00|1991-05-30T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+1991|1991-09-07T00:00:00|1991-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+1991|1991-10-12T00:00:00|1991-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+1991|1991-11-02T00:00:00|1991-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+1991|1991-11-15T00:00:00|1991-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+1991|1991-12-25T00:00:00|1991-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1992|1992-01-01T00:00:00|1992-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1992|1992-03-02T00:00:00|1992-03-02T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+1992|1992-03-03T00:00:00|1992-03-03T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+1992|1992-04-17T00:00:00|1992-04-17T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+1992|1992-04-21T00:00:00|1992-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+1992|1992-05-01T00:00:00|1992-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+1992|1992-06-18T00:00:00|1992-06-18T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+1992|1992-09-07T00:00:00|1992-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+1992|1992-10-12T00:00:00|1992-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+1992|1992-11-02T00:00:00|1992-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+1992|1992-11-15T00:00:00|1992-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+1992|1992-12-25T00:00:00|1992-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1993|1993-01-01T00:00:00|1993-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1993|1993-02-22T00:00:00|1993-02-22T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+1993|1993-02-23T00:00:00|1993-02-23T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+1993|1993-04-09T00:00:00|1993-04-09T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+1993|1993-04-21T00:00:00|1993-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+1993|1993-05-01T00:00:00|1993-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+1993|1993-06-10T00:00:00|1993-06-10T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+1993|1993-09-07T00:00:00|1993-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+1993|1993-10-12T00:00:00|1993-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+1993|1993-11-02T00:00:00|1993-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+1993|1993-11-15T00:00:00|1993-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+1993|1993-12-25T00:00:00|1993-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1994|1994-01-01T00:00:00|1994-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1994|1994-02-14T00:00:00|1994-02-14T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+1994|1994-02-15T00:00:00|1994-02-15T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+1994|1994-04-01T00:00:00|1994-04-01T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+1994|1994-04-21T00:00:00|1994-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+1994|1994-05-01T00:00:00|1994-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+1994|1994-06-02T00:00:00|1994-06-02T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+1994|1994-09-07T00:00:00|1994-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+1994|1994-10-12T00:00:00|1994-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+1994|1994-11-02T00:00:00|1994-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+1994|1994-11-15T00:00:00|1994-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+1994|1994-12-25T00:00:00|1994-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1995|1995-01-01T00:00:00|1995-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1995|1995-02-27T00:00:00|1995-02-27T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+1995|1995-02-28T00:00:00|1995-02-28T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+1995|1995-04-14T00:00:00|1995-04-14T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+1995|1995-04-21T00:00:00|1995-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+1995|1995-05-01T00:00:00|1995-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+1995|1995-06-15T00:00:00|1995-06-15T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+1995|1995-09-07T00:00:00|1995-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+1995|1995-10-12T00:00:00|1995-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+1995|1995-11-02T00:00:00|1995-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+1995|1995-11-15T00:00:00|1995-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+1995|1995-12-25T00:00:00|1995-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1996|1996-01-01T00:00:00|1996-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1996|1996-02-19T00:00:00|1996-02-19T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+1996|1996-02-20T00:00:00|1996-02-20T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+1996|1996-04-05T00:00:00|1996-04-05T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+1996|1996-04-21T00:00:00|1996-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+1996|1996-05-01T00:00:00|1996-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+1996|1996-06-06T00:00:00|1996-06-06T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+1996|1996-09-07T00:00:00|1996-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+1996|1996-10-12T00:00:00|1996-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+1996|1996-11-02T00:00:00|1996-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+1996|1996-11-15T00:00:00|1996-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+1996|1996-12-25T00:00:00|1996-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1997|1997-01-01T00:00:00|1997-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1997|1997-02-10T00:00:00|1997-02-10T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+1997|1997-02-11T00:00:00|1997-02-11T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+1997|1997-03-28T00:00:00|1997-03-28T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+1997|1997-04-21T00:00:00|1997-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+1997|1997-05-01T00:00:00|1997-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+1997|1997-05-29T00:00:00|1997-05-29T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+1997|1997-09-07T00:00:00|1997-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+1997|1997-10-12T00:00:00|1997-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+1997|1997-11-02T00:00:00|1997-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+1997|1997-11-15T00:00:00|1997-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+1997|1997-12-25T00:00:00|1997-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1998|1998-01-01T00:00:00|1998-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1998|1998-02-23T00:00:00|1998-02-23T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+1998|1998-02-24T00:00:00|1998-02-24T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+1998|1998-04-10T00:00:00|1998-04-10T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+1998|1998-04-21T00:00:00|1998-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+1998|1998-05-01T00:00:00|1998-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+1998|1998-06-11T00:00:00|1998-06-11T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+1998|1998-09-07T00:00:00|1998-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+1998|1998-10-12T00:00:00|1998-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+1998|1998-11-02T00:00:00|1998-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+1998|1998-11-15T00:00:00|1998-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+1998|1998-12-25T00:00:00|1998-12-25T00:00:00|Christmas|Natal|Christmas|True|
+1999|1999-01-01T00:00:00|1999-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+1999|1999-02-15T00:00:00|1999-02-15T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+1999|1999-02-16T00:00:00|1999-02-16T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+1999|1999-04-02T00:00:00|1999-04-02T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+1999|1999-04-21T00:00:00|1999-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+1999|1999-05-01T00:00:00|1999-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+1999|1999-06-03T00:00:00|1999-06-03T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+1999|1999-09-07T00:00:00|1999-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+1999|1999-10-12T00:00:00|1999-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+1999|1999-11-02T00:00:00|1999-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+1999|1999-11-15T00:00:00|1999-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+1999|1999-12-25T00:00:00|1999-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2000|2000-01-01T00:00:00|2000-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2000|2000-03-06T00:00:00|2000-03-06T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2000|2000-03-07T00:00:00|2000-03-07T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2000|2000-04-21T00:00:00|2000-04-21T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2000|2000-04-21T00:00:00|2000-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2000|2000-06-22T00:00:00|2000-06-22T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2000|2000-09-07T00:00:00|2000-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2000|2000-10-12T00:00:00|2000-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2000|2000-11-02T00:00:00|2000-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2000|2000-11-15T00:00:00|2000-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2000|2000-12-25T00:00:00|2000-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2001|2001-01-01T00:00:00|2001-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2001|2001-02-26T00:00:00|2001-02-26T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2001|2001-02-27T00:00:00|2001-02-27T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2001|2001-04-13T00:00:00|2001-04-13T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2001|2001-04-21T00:00:00|2001-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2001|2001-05-01T00:00:00|2001-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2001|2001-06-14T00:00:00|2001-06-14T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2001|2001-09-07T00:00:00|2001-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2001|2001-10-12T00:00:00|2001-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2001|2001-11-02T00:00:00|2001-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2001|2001-11-15T00:00:00|2001-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2001|2001-12-25T00:00:00|2001-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2002|2002-01-01T00:00:00|2002-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2002|2002-02-11T00:00:00|2002-02-11T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2002|2002-02-12T00:00:00|2002-02-12T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2002|2002-03-29T00:00:00|2002-03-29T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2002|2002-04-21T00:00:00|2002-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2002|2002-05-01T00:00:00|2002-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2002|2002-05-30T00:00:00|2002-05-30T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2002|2002-09-07T00:00:00|2002-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2002|2002-10-12T00:00:00|2002-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2002|2002-11-02T00:00:00|2002-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2002|2002-11-15T00:00:00|2002-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2002|2002-12-25T00:00:00|2002-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2003|2003-01-01T00:00:00|2003-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2003|2003-03-03T00:00:00|2003-03-03T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2003|2003-03-04T00:00:00|2003-03-04T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2003|2003-04-18T00:00:00|2003-04-18T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2003|2003-04-21T00:00:00|2003-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2003|2003-05-01T00:00:00|2003-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2003|2003-06-19T00:00:00|2003-06-19T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2003|2003-09-07T00:00:00|2003-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2003|2003-10-12T00:00:00|2003-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2003|2003-11-02T00:00:00|2003-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2003|2003-11-15T00:00:00|2003-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2003|2003-12-25T00:00:00|2003-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2004|2004-01-01T00:00:00|2004-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2004|2004-02-23T00:00:00|2004-02-23T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2004|2004-02-24T00:00:00|2004-02-24T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2004|2004-04-09T00:00:00|2004-04-09T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2004|2004-04-21T00:00:00|2004-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2004|2004-05-01T00:00:00|2004-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2004|2004-06-10T00:00:00|2004-06-10T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2004|2004-09-07T00:00:00|2004-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2004|2004-10-12T00:00:00|2004-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2004|2004-11-02T00:00:00|2004-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2004|2004-11-15T00:00:00|2004-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2004|2004-12-25T00:00:00|2004-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2005|2005-01-01T00:00:00|2005-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2005|2005-02-07T00:00:00|2005-02-07T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2005|2005-02-08T00:00:00|2005-02-08T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2005|2005-03-25T00:00:00|2005-03-25T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2005|2005-04-21T00:00:00|2005-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2005|2005-05-01T00:00:00|2005-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2005|2005-05-26T00:00:00|2005-05-26T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2005|2005-09-07T00:00:00|2005-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2005|2005-10-12T00:00:00|2005-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2005|2005-11-02T00:00:00|2005-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2005|2005-11-15T00:00:00|2005-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2005|2005-12-25T00:00:00|2005-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2006|2006-01-01T00:00:00|2006-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2006|2006-02-27T00:00:00|2006-02-27T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2006|2006-02-28T00:00:00|2006-02-28T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2006|2006-04-14T00:00:00|2006-04-14T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2006|2006-04-21T00:00:00|2006-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2006|2006-05-01T00:00:00|2006-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2006|2006-06-15T00:00:00|2006-06-15T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2006|2006-09-07T00:00:00|2006-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2006|2006-10-12T00:00:00|2006-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2006|2006-11-02T00:00:00|2006-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2006|2006-11-15T00:00:00|2006-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2006|2006-12-25T00:00:00|2006-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2007|2007-01-01T00:00:00|2007-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2007|2007-02-19T00:00:00|2007-02-19T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2007|2007-02-20T00:00:00|2007-02-20T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2007|2007-04-06T00:00:00|2007-04-06T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2007|2007-04-21T00:00:00|2007-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2007|2007-05-01T00:00:00|2007-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2007|2007-06-07T00:00:00|2007-06-07T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2007|2007-09-07T00:00:00|2007-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2007|2007-10-12T00:00:00|2007-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2007|2007-11-02T00:00:00|2007-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2007|2007-11-15T00:00:00|2007-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2007|2007-12-25T00:00:00|2007-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2008|2008-01-01T00:00:00|2008-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2008|2008-02-04T00:00:00|2008-02-04T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2008|2008-02-05T00:00:00|2008-02-05T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2008|2008-03-21T00:00:00|2008-03-21T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2008|2008-04-21T00:00:00|2008-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2008|2008-05-01T00:00:00|2008-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2008|2008-05-22T00:00:00|2008-05-22T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2008|2008-09-07T00:00:00|2008-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2008|2008-10-12T00:00:00|2008-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2008|2008-11-02T00:00:00|2008-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2008|2008-11-15T00:00:00|2008-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2008|2008-12-25T00:00:00|2008-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2009|2009-01-01T00:00:00|2009-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2009|2009-02-23T00:00:00|2009-02-23T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2009|2009-02-24T00:00:00|2009-02-24T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2009|2009-04-10T00:00:00|2009-04-10T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2009|2009-04-21T00:00:00|2009-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2009|2009-05-01T00:00:00|2009-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2009|2009-06-11T00:00:00|2009-06-11T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2009|2009-09-07T00:00:00|2009-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2009|2009-10-12T00:00:00|2009-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2009|2009-11-02T00:00:00|2009-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2009|2009-11-15T00:00:00|2009-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2009|2009-12-25T00:00:00|2009-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2010|2010-01-01T00:00:00|2010-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2010|2010-02-15T00:00:00|2010-02-15T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2010|2010-02-16T00:00:00|2010-02-16T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2010|2010-04-02T00:00:00|2010-04-02T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2010|2010-04-21T00:00:00|2010-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2010|2010-05-01T00:00:00|2010-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2010|2010-06-03T00:00:00|2010-06-03T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2010|2010-09-07T00:00:00|2010-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2010|2010-10-12T00:00:00|2010-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2010|2010-11-02T00:00:00|2010-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2010|2010-11-15T00:00:00|2010-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2010|2010-12-25T00:00:00|2010-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2011|2011-01-01T00:00:00|2011-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2011|2011-03-07T00:00:00|2011-03-07T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2011|2011-03-08T00:00:00|2011-03-08T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2011|2011-04-21T00:00:00|2011-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2011|2011-04-22T00:00:00|2011-04-22T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2011|2011-05-01T00:00:00|2011-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2011|2011-06-23T00:00:00|2011-06-23T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2011|2011-09-07T00:00:00|2011-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2011|2011-10-12T00:00:00|2011-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2011|2011-11-02T00:00:00|2011-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2011|2011-11-15T00:00:00|2011-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2011|2011-12-25T00:00:00|2011-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2012|2012-01-01T00:00:00|2012-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2012|2012-02-20T00:00:00|2012-02-20T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2012|2012-02-21T00:00:00|2012-02-21T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2012|2012-04-06T00:00:00|2012-04-06T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2012|2012-04-21T00:00:00|2012-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2012|2012-05-01T00:00:00|2012-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2012|2012-06-07T00:00:00|2012-06-07T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2012|2012-09-07T00:00:00|2012-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2012|2012-10-12T00:00:00|2012-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2012|2012-11-02T00:00:00|2012-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2012|2012-11-15T00:00:00|2012-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2012|2012-12-25T00:00:00|2012-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2013|2013-01-01T00:00:00|2013-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2013|2013-02-11T00:00:00|2013-02-11T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2013|2013-02-12T00:00:00|2013-02-12T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2013|2013-03-29T00:00:00|2013-03-29T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2013|2013-04-21T00:00:00|2013-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2013|2013-05-01T00:00:00|2013-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2013|2013-05-30T00:00:00|2013-05-30T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2013|2013-09-07T00:00:00|2013-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2013|2013-10-12T00:00:00|2013-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2013|2013-11-02T00:00:00|2013-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2013|2013-11-15T00:00:00|2013-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2013|2013-12-25T00:00:00|2013-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2014|2014-01-01T00:00:00|2014-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2014|2014-03-03T00:00:00|2014-03-03T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2014|2014-03-04T00:00:00|2014-03-04T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2014|2014-04-18T00:00:00|2014-04-18T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2014|2014-04-21T00:00:00|2014-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2014|2014-05-01T00:00:00|2014-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2014|2014-06-19T00:00:00|2014-06-19T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2014|2014-09-07T00:00:00|2014-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2014|2014-10-12T00:00:00|2014-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2014|2014-11-02T00:00:00|2014-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2014|2014-11-15T00:00:00|2014-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2014|2014-12-25T00:00:00|2014-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2015|2015-01-01T00:00:00|2015-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2015|2015-02-16T00:00:00|2015-02-16T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2015|2015-02-17T00:00:00|2015-02-17T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2015|2015-04-03T00:00:00|2015-04-03T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2015|2015-04-21T00:00:00|2015-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2015|2015-05-01T00:00:00|2015-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2015|2015-06-04T00:00:00|2015-06-04T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2015|2015-09-07T00:00:00|2015-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2015|2015-10-12T00:00:00|2015-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2015|2015-11-02T00:00:00|2015-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2015|2015-11-15T00:00:00|2015-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2015|2015-12-25T00:00:00|2015-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2016|2016-01-01T00:00:00|2016-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2016|2016-02-08T00:00:00|2016-02-08T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2016|2016-02-09T00:00:00|2016-02-09T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2016|2016-03-25T00:00:00|2016-03-25T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2016|2016-04-21T00:00:00|2016-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2016|2016-05-01T00:00:00|2016-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2016|2016-05-26T00:00:00|2016-05-26T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2016|2016-09-07T00:00:00|2016-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2016|2016-10-12T00:00:00|2016-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2016|2016-11-02T00:00:00|2016-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2016|2016-11-15T00:00:00|2016-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2016|2016-12-25T00:00:00|2016-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2017|2017-01-01T00:00:00|2017-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2017|2017-02-27T00:00:00|2017-02-27T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2017|2017-02-28T00:00:00|2017-02-28T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2017|2017-04-14T00:00:00|2017-04-14T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2017|2017-04-21T00:00:00|2017-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2017|2017-05-01T00:00:00|2017-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2017|2017-06-15T00:00:00|2017-06-15T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2017|2017-09-07T00:00:00|2017-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2017|2017-10-12T00:00:00|2017-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2017|2017-11-02T00:00:00|2017-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2017|2017-11-15T00:00:00|2017-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2017|2017-12-25T00:00:00|2017-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2018|2018-01-01T00:00:00|2018-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2018|2018-02-12T00:00:00|2018-02-12T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2018|2018-02-13T00:00:00|2018-02-13T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2018|2018-03-30T00:00:00|2018-03-30T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2018|2018-04-21T00:00:00|2018-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2018|2018-05-01T00:00:00|2018-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2018|2018-05-31T00:00:00|2018-05-31T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2018|2018-09-07T00:00:00|2018-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2018|2018-10-12T00:00:00|2018-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2018|2018-11-02T00:00:00|2018-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2018|2018-11-15T00:00:00|2018-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2018|2018-12-25T00:00:00|2018-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2019|2019-01-01T00:00:00|2019-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2019|2019-03-04T00:00:00|2019-03-04T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2019|2019-03-05T00:00:00|2019-03-05T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2019|2019-04-19T00:00:00|2019-04-19T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2019|2019-04-21T00:00:00|2019-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2019|2019-05-01T00:00:00|2019-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2019|2019-06-20T00:00:00|2019-06-20T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2019|2019-09-07T00:00:00|2019-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2019|2019-10-12T00:00:00|2019-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2019|2019-11-02T00:00:00|2019-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2019|2019-11-15T00:00:00|2019-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2019|2019-12-25T00:00:00|2019-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2020|2020-01-01T00:00:00|2020-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2020|2020-02-24T00:00:00|2020-02-24T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2020|2020-02-25T00:00:00|2020-02-25T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2020|2020-04-10T00:00:00|2020-04-10T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2020|2020-04-21T00:00:00|2020-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2020|2020-05-01T00:00:00|2020-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2020|2020-06-11T00:00:00|2020-06-11T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2020|2020-09-07T00:00:00|2020-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2020|2020-10-12T00:00:00|2020-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2020|2020-11-02T00:00:00|2020-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2020|2020-11-15T00:00:00|2020-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2020|2020-12-25T00:00:00|2020-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2021|2021-01-01T00:00:00|2021-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2021|2021-02-15T00:00:00|2021-02-15T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2021|2021-02-16T00:00:00|2021-02-16T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2021|2021-04-02T00:00:00|2021-04-02T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2021|2021-04-21T00:00:00|2021-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2021|2021-05-01T00:00:00|2021-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2021|2021-06-03T00:00:00|2021-06-03T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2021|2021-09-07T00:00:00|2021-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2021|2021-10-12T00:00:00|2021-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2021|2021-11-02T00:00:00|2021-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2021|2021-11-15T00:00:00|2021-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2021|2021-12-25T00:00:00|2021-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2022|2022-01-01T00:00:00|2022-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2022|2022-02-28T00:00:00|2022-02-28T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2022|2022-03-01T00:00:00|2022-03-01T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2022|2022-04-15T00:00:00|2022-04-15T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2022|2022-04-21T00:00:00|2022-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2022|2022-05-01T00:00:00|2022-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2022|2022-06-16T00:00:00|2022-06-16T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2022|2022-09-07T00:00:00|2022-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2022|2022-10-12T00:00:00|2022-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2022|2022-11-02T00:00:00|2022-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2022|2022-11-15T00:00:00|2022-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2022|2022-12-25T00:00:00|2022-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2023|2023-01-01T00:00:00|2023-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2023|2023-02-20T00:00:00|2023-02-20T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2023|2023-02-21T00:00:00|2023-02-21T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2023|2023-04-07T00:00:00|2023-04-07T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2023|2023-04-21T00:00:00|2023-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2023|2023-05-01T00:00:00|2023-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2023|2023-06-08T00:00:00|2023-06-08T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2023|2023-09-07T00:00:00|2023-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2023|2023-10-12T00:00:00|2023-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2023|2023-11-02T00:00:00|2023-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2023|2023-11-15T00:00:00|2023-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2023|2023-12-25T00:00:00|2023-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2024|2024-01-01T00:00:00|2024-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2024|2024-02-12T00:00:00|2024-02-12T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2024|2024-02-13T00:00:00|2024-02-13T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2024|2024-03-29T00:00:00|2024-03-29T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2024|2024-04-21T00:00:00|2024-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2024|2024-05-01T00:00:00|2024-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2024|2024-05-30T00:00:00|2024-05-30T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2024|2024-09-07T00:00:00|2024-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2024|2024-10-12T00:00:00|2024-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2024|2024-11-02T00:00:00|2024-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2024|2024-11-15T00:00:00|2024-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2024|2024-12-25T00:00:00|2024-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2025|2025-01-01T00:00:00|2025-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2025|2025-03-03T00:00:00|2025-03-03T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2025|2025-03-04T00:00:00|2025-03-04T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2025|2025-04-18T00:00:00|2025-04-18T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2025|2025-04-21T00:00:00|2025-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2025|2025-05-01T00:00:00|2025-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2025|2025-06-19T00:00:00|2025-06-19T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2025|2025-09-07T00:00:00|2025-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2025|2025-10-12T00:00:00|2025-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2025|2025-11-02T00:00:00|2025-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2025|2025-11-15T00:00:00|2025-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2025|2025-12-25T00:00:00|2025-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2026|2026-01-01T00:00:00|2026-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2026|2026-02-16T00:00:00|2026-02-16T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2026|2026-02-17T00:00:00|2026-02-17T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2026|2026-04-03T00:00:00|2026-04-03T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2026|2026-04-21T00:00:00|2026-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2026|2026-05-01T00:00:00|2026-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2026|2026-06-04T00:00:00|2026-06-04T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2026|2026-09-07T00:00:00|2026-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2026|2026-10-12T00:00:00|2026-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2026|2026-11-02T00:00:00|2026-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2026|2026-11-15T00:00:00|2026-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2026|2026-12-25T00:00:00|2026-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2027|2027-01-01T00:00:00|2027-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2027|2027-02-08T00:00:00|2027-02-08T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2027|2027-02-09T00:00:00|2027-02-09T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2027|2027-03-26T00:00:00|2027-03-26T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2027|2027-04-21T00:00:00|2027-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2027|2027-05-01T00:00:00|2027-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2027|2027-05-27T00:00:00|2027-05-27T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2027|2027-09-07T00:00:00|2027-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2027|2027-10-12T00:00:00|2027-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2027|2027-11-02T00:00:00|2027-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2027|2027-11-15T00:00:00|2027-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2027|2027-12-25T00:00:00|2027-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2028|2028-01-01T00:00:00|2028-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2028|2028-02-28T00:00:00|2028-02-28T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2028|2028-02-29T00:00:00|2028-02-29T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2028|2028-04-14T00:00:00|2028-04-14T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2028|2028-04-21T00:00:00|2028-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2028|2028-05-01T00:00:00|2028-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2028|2028-06-15T00:00:00|2028-06-15T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2028|2028-09-07T00:00:00|2028-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2028|2028-10-12T00:00:00|2028-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2028|2028-11-02T00:00:00|2028-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2028|2028-11-15T00:00:00|2028-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2028|2028-12-25T00:00:00|2028-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2029|2029-01-01T00:00:00|2029-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2029|2029-02-12T00:00:00|2029-02-12T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2029|2029-02-13T00:00:00|2029-02-13T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2029|2029-03-30T00:00:00|2029-03-30T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2029|2029-04-21T00:00:00|2029-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2029|2029-05-01T00:00:00|2029-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2029|2029-05-31T00:00:00|2029-05-31T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2029|2029-09-07T00:00:00|2029-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2029|2029-10-12T00:00:00|2029-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2029|2029-11-02T00:00:00|2029-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2029|2029-11-15T00:00:00|2029-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2029|2029-12-25T00:00:00|2029-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2030|2030-01-01T00:00:00|2030-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2030|2030-03-04T00:00:00|2030-03-04T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2030|2030-03-05T00:00:00|2030-03-05T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2030|2030-04-19T00:00:00|2030-04-19T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2030|2030-04-21T00:00:00|2030-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2030|2030-05-01T00:00:00|2030-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2030|2030-06-20T00:00:00|2030-06-20T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2030|2030-09-07T00:00:00|2030-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2030|2030-10-12T00:00:00|2030-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2030|2030-11-02T00:00:00|2030-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2030|2030-11-15T00:00:00|2030-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2030|2030-12-25T00:00:00|2030-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2031|2031-01-01T00:00:00|2031-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2031|2031-02-24T00:00:00|2031-02-24T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2031|2031-02-25T00:00:00|2031-02-25T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2031|2031-04-11T00:00:00|2031-04-11T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2031|2031-04-21T00:00:00|2031-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2031|2031-05-01T00:00:00|2031-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2031|2031-06-12T00:00:00|2031-06-12T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2031|2031-09-07T00:00:00|2031-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2031|2031-10-12T00:00:00|2031-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2031|2031-11-02T00:00:00|2031-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2031|2031-11-15T00:00:00|2031-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2031|2031-12-25T00:00:00|2031-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2032|2032-01-01T00:00:00|2032-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2032|2032-02-09T00:00:00|2032-02-09T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2032|2032-02-10T00:00:00|2032-02-10T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2032|2032-03-26T00:00:00|2032-03-26T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2032|2032-04-21T00:00:00|2032-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2032|2032-05-01T00:00:00|2032-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2032|2032-05-27T00:00:00|2032-05-27T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2032|2032-09-07T00:00:00|2032-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2032|2032-10-12T00:00:00|2032-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2032|2032-11-02T00:00:00|2032-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2032|2032-11-15T00:00:00|2032-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2032|2032-12-25T00:00:00|2032-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2033|2033-01-01T00:00:00|2033-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2033|2033-02-28T00:00:00|2033-02-28T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2033|2033-03-01T00:00:00|2033-03-01T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2033|2033-04-15T00:00:00|2033-04-15T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2033|2033-04-21T00:00:00|2033-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2033|2033-05-01T00:00:00|2033-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2033|2033-06-16T00:00:00|2033-06-16T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2033|2033-09-07T00:00:00|2033-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2033|2033-10-12T00:00:00|2033-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2033|2033-11-02T00:00:00|2033-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2033|2033-11-15T00:00:00|2033-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2033|2033-12-25T00:00:00|2033-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2034|2034-01-01T00:00:00|2034-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2034|2034-02-20T00:00:00|2034-02-20T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2034|2034-02-21T00:00:00|2034-02-21T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2034|2034-04-07T00:00:00|2034-04-07T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2034|2034-04-21T00:00:00|2034-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2034|2034-05-01T00:00:00|2034-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2034|2034-06-08T00:00:00|2034-06-08T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2034|2034-09-07T00:00:00|2034-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2034|2034-10-12T00:00:00|2034-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2034|2034-11-02T00:00:00|2034-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2034|2034-11-15T00:00:00|2034-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2034|2034-12-25T00:00:00|2034-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2035|2035-01-01T00:00:00|2035-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2035|2035-02-05T00:00:00|2035-02-05T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2035|2035-02-06T00:00:00|2035-02-06T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2035|2035-03-23T00:00:00|2035-03-23T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2035|2035-04-21T00:00:00|2035-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2035|2035-05-01T00:00:00|2035-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2035|2035-05-24T00:00:00|2035-05-24T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2035|2035-09-07T00:00:00|2035-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2035|2035-10-12T00:00:00|2035-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2035|2035-11-02T00:00:00|2035-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2035|2035-11-15T00:00:00|2035-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2035|2035-12-25T00:00:00|2035-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2036|2036-01-01T00:00:00|2036-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2036|2036-02-25T00:00:00|2036-02-25T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2036|2036-02-26T00:00:00|2036-02-26T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2036|2036-04-11T00:00:00|2036-04-11T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2036|2036-04-21T00:00:00|2036-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2036|2036-05-01T00:00:00|2036-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2036|2036-06-12T00:00:00|2036-06-12T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2036|2036-09-07T00:00:00|2036-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2036|2036-10-12T00:00:00|2036-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2036|2036-11-02T00:00:00|2036-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2036|2036-11-15T00:00:00|2036-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2036|2036-12-25T00:00:00|2036-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2037|2037-01-01T00:00:00|2037-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2037|2037-02-16T00:00:00|2037-02-16T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2037|2037-02-17T00:00:00|2037-02-17T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2037|2037-04-03T00:00:00|2037-04-03T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2037|2037-04-21T00:00:00|2037-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2037|2037-05-01T00:00:00|2037-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2037|2037-06-04T00:00:00|2037-06-04T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2037|2037-09-07T00:00:00|2037-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2037|2037-10-12T00:00:00|2037-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2037|2037-11-02T00:00:00|2037-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2037|2037-11-15T00:00:00|2037-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2037|2037-12-25T00:00:00|2037-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2038|2038-01-01T00:00:00|2038-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2038|2038-03-08T00:00:00|2038-03-08T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2038|2038-03-09T00:00:00|2038-03-09T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2038|2038-04-21T00:00:00|2038-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2038|2038-04-23T00:00:00|2038-04-23T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2038|2038-05-01T00:00:00|2038-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2038|2038-06-24T00:00:00|2038-06-24T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2038|2038-09-07T00:00:00|2038-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2038|2038-10-12T00:00:00|2038-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2038|2038-11-02T00:00:00|2038-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2038|2038-11-15T00:00:00|2038-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2038|2038-12-25T00:00:00|2038-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2039|2039-01-01T00:00:00|2039-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2039|2039-02-21T00:00:00|2039-02-21T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2039|2039-02-22T00:00:00|2039-02-22T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2039|2039-04-08T00:00:00|2039-04-08T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2039|2039-04-21T00:00:00|2039-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2039|2039-05-01T00:00:00|2039-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2039|2039-06-09T00:00:00|2039-06-09T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2039|2039-09-07T00:00:00|2039-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2039|2039-10-12T00:00:00|2039-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2039|2039-11-02T00:00:00|2039-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2039|2039-11-15T00:00:00|2039-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2039|2039-12-25T00:00:00|2039-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2040|2040-01-01T00:00:00|2040-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2040|2040-02-13T00:00:00|2040-02-13T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2040|2040-02-14T00:00:00|2040-02-14T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2040|2040-03-30T00:00:00|2040-03-30T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2040|2040-04-21T00:00:00|2040-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2040|2040-05-01T00:00:00|2040-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2040|2040-05-31T00:00:00|2040-05-31T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2040|2040-09-07T00:00:00|2040-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2040|2040-10-12T00:00:00|2040-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2040|2040-11-02T00:00:00|2040-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2040|2040-11-15T00:00:00|2040-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2040|2040-12-25T00:00:00|2040-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2041|2041-01-01T00:00:00|2041-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2041|2041-03-04T00:00:00|2041-03-04T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2041|2041-03-05T00:00:00|2041-03-05T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2041|2041-04-19T00:00:00|2041-04-19T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2041|2041-04-21T00:00:00|2041-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2041|2041-05-01T00:00:00|2041-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2041|2041-06-20T00:00:00|2041-06-20T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2041|2041-09-07T00:00:00|2041-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2041|2041-10-12T00:00:00|2041-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2041|2041-11-02T00:00:00|2041-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2041|2041-11-15T00:00:00|2041-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2041|2041-12-25T00:00:00|2041-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2042|2042-01-01T00:00:00|2042-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2042|2042-02-17T00:00:00|2042-02-17T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2042|2042-02-18T00:00:00|2042-02-18T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2042|2042-04-04T00:00:00|2042-04-04T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2042|2042-04-21T00:00:00|2042-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2042|2042-05-01T00:00:00|2042-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2042|2042-06-05T00:00:00|2042-06-05T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2042|2042-09-07T00:00:00|2042-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2042|2042-10-12T00:00:00|2042-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2042|2042-11-02T00:00:00|2042-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2042|2042-11-15T00:00:00|2042-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2042|2042-12-25T00:00:00|2042-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2043|2043-01-01T00:00:00|2043-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2043|2043-02-09T00:00:00|2043-02-09T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2043|2043-02-10T00:00:00|2043-02-10T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2043|2043-03-27T00:00:00|2043-03-27T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2043|2043-04-21T00:00:00|2043-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2043|2043-05-28T00:00:00|2043-05-28T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2043|2043-09-07T00:00:00|2043-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2043|2043-10-12T00:00:00|2043-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2043|2043-11-02T00:00:00|2043-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2043|2043-11-15T00:00:00|2043-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2043|2043-12-25T00:00:00|2043-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2044|2044-01-01T00:00:00|2044-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2044|2044-02-29T00:00:00|2044-02-29T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2044|2044-03-01T00:00:00|2044-03-01T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2044|2044-04-15T00:00:00|2044-04-15T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2044|2044-04-21T00:00:00|2044-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2044|2044-05-01T00:00:00|2044-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2044|2044-06-16T00:00:00|2044-06-16T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2044|2044-09-07T00:00:00|2044-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2044|2044-10-12T00:00:00|2044-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2044|2044-11-02T00:00:00|2044-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2044|2044-11-15T00:00:00|2044-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2044|2044-12-25T00:00:00|2044-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2045|2045-01-01T00:00:00|2045-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2045|2045-02-20T00:00:00|2045-02-20T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2045|2045-02-21T00:00:00|2045-02-21T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2045|2045-04-07T00:00:00|2045-04-07T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2045|2045-04-21T00:00:00|2045-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2045|2045-05-01T00:00:00|2045-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2045|2045-06-08T00:00:00|2045-06-08T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2045|2045-09-07T00:00:00|2045-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2045|2045-10-12T00:00:00|2045-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2045|2045-11-02T00:00:00|2045-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2045|2045-11-15T00:00:00|2045-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2045|2045-12-25T00:00:00|2045-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2046|2046-01-01T00:00:00|2046-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2046|2046-02-05T00:00:00|2046-02-05T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2046|2046-02-06T00:00:00|2046-02-06T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2046|2046-03-23T00:00:00|2046-03-23T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2046|2046-04-21T00:00:00|2046-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2046|2046-05-01T00:00:00|2046-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2046|2046-05-24T00:00:00|2046-05-24T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2046|2046-09-07T00:00:00|2046-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2046|2046-10-12T00:00:00|2046-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2046|2046-11-02T00:00:00|2046-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2046|2046-11-15T00:00:00|2046-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2046|2046-12-25T00:00:00|2046-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2047|2047-01-01T00:00:00|2047-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2047|2047-02-25T00:00:00|2047-02-25T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2047|2047-02-26T00:00:00|2047-02-26T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2047|2047-04-12T00:00:00|2047-04-12T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2047|2047-04-21T00:00:00|2047-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2047|2047-05-01T00:00:00|2047-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2047|2047-06-13T00:00:00|2047-06-13T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2047|2047-09-07T00:00:00|2047-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2047|2047-10-12T00:00:00|2047-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2047|2047-11-02T00:00:00|2047-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2047|2047-11-15T00:00:00|2047-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2047|2047-12-25T00:00:00|2047-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2048|2048-01-01T00:00:00|2048-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2048|2048-02-17T00:00:00|2048-02-17T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2048|2048-02-18T00:00:00|2048-02-18T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2048|2048-04-03T00:00:00|2048-04-03T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2048|2048-04-21T00:00:00|2048-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2048|2048-05-01T00:00:00|2048-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2048|2048-06-04T00:00:00|2048-06-04T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2048|2048-09-07T00:00:00|2048-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2048|2048-10-12T00:00:00|2048-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2048|2048-11-02T00:00:00|2048-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2048|2048-11-15T00:00:00|2048-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2048|2048-12-25T00:00:00|2048-12-25T00:00:00|Christmas|Natal|Christmas|True|
+2049|2049-01-01T00:00:00|2049-01-01T00:00:00|New Year|Ano Novo|NewYear|True|
+2049|2049-03-01T00:00:00|2049-03-01T00:00:00|Carnival Monday|Carnaval|CarnivalBR1|True|
+2049|2049-03-02T00:00:00|2049-03-02T00:00:00|Carnival Tuesday|Carnaval Terça-Feira Gorda|CarnivalBR2|True|
+2049|2049-04-16T00:00:00|2049-04-16T00:00:00|Good Friday|Sexta Feira Santa|GoodFriday|True|
+2049|2049-04-21T00:00:00|2049-04-21T00:00:00|Tiradentes Day|Dia de Tiradentes|TiradentesBR|True|
+2049|2049-05-01T00:00:00|2049-05-01T00:00:00|Labour Day|Dia do Trabalho|LabourDay|True|
+2049|2049-06-17T00:00:00|2049-06-17T00:00:00|Corpus Christi|Corpus Christi|CorpusChristi|True|
+2049|2049-09-07T00:00:00|2049-09-07T00:00:00|Independence Day|Dia da Independência|IndependenceDayBR|True|
+2049|2049-10-12T00:00:00|2049-10-12T00:00:00|Our Lady of Aparecida|Nossa Senhora Aparecida|OurLadyAparecidaBR|True|
+2049|2049-11-02T00:00:00|2049-11-02T00:00:00|All Souls' Day|Dia dos Finados|AllSouls|True|
+2049|2049-11-15T00:00:00|2049-11-15T00:00:00|Republic Day|Dia da República|RepublicDayBR|True|
+2049|2049-12-25T00:00:00|2049-12-25T00:00:00|Christmas|Natal|Christmas|True|

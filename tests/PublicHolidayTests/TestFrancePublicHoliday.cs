@@ -159,8 +159,12 @@ namespace PublicHolidayTests
             for (int i = 1970; i < 2100; i++)
             {
                 var calendar = new FrancePublicHoliday();
-                var hols = calendar.PublicHolidays(i);
-                Assert.AreEqual(11, hols.Count, "Should be 11 holidays");
+                //always 11 holidays; when Ascension falls on 1 May or 8 May the two holidays
+                //share a day, so the distinct-day list has one entry fewer
+                var info = calendar.PublicHolidaysInformation(i);
+                Assert.AreEqual(11, info.Count, "Should be 11 holidays");
+                var expectedDays = info.Select(h => h.ObservedDate.Date).Distinct().Count();
+                Assert.AreEqual(expectedDays, calendar.PublicHolidays(i).Count, "One entry per distinct day");
             }
         }
 

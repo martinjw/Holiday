@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="CapitalDayKZ" xml:space="preserve"><value>День столицы</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Рождество Христово</value></data>
+  <data name="ConstitutionDayKZ" xml:space="preserve"><value>День Конституции</value></data>
+  <data name="DayAfterNewYear" xml:space="preserve"><value>Второй день нового года</value></data>
+  <data name="DefenderDayKZ" xml:space="preserve"><value>День Защитника Отечества</value></data>
+  <data name="FirstPresidentDayKZ" xml:space="preserve"><value>День Первого Президента</value></data>
+  <data name="IndependenceDayKZ" xml:space="preserve"><value>День Независимости Казахстана</value></data>
+  <data name="IndependenceDaySecondKZ" xml:space="preserve"><value>День Независимости Казахстана</value></data>
+  <data name="KurbanAitKZ" xml:space="preserve"><value>Курбан Айт</value></data>
+  <data name="NationUnityDayKZ" xml:space="preserve"><value>Праздник единства народа Казахстана</value></data>
+  <data name="NauryzKZ1" xml:space="preserve"><value>Наурыз мейрамы</value></data>
+  <data name="NauryzKZ2" xml:space="preserve"><value>Наурыз мейрамы</value></data>
+  <data name="NauryzKZ3" xml:space="preserve"><value>Наурыз мейрамы</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Новый год</value></data>
+  <data name="VictoryDayKZ" xml:space="preserve"><value>День Победы</value></data>
+  <data name="WomensDay" xml:space="preserve"><value>Международный женский день</value></data>
+</root>

@@ -1,0 +1,660 @@
+1990|1990-01-01T00:00:00|1990-01-01T00:00:00|New Year|Нова година|NewYear|True|
+1990|1990-01-02T00:00:00|1990-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+1990|1990-01-07T00:00:00|1990-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+1990|1990-02-15T00:00:00|1990-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+1990|1990-02-16T00:00:00|1990-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+1990|1990-04-13T00:00:00|1990-04-13T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+1990|1990-04-15T00:00:00|1990-04-15T00:00:00|Easter|Васкрс|Easter|True|
+1990|1990-04-16T00:00:00|1990-04-16T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+1990|1990-05-01T00:00:00|1990-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+1990|1990-05-02T00:00:00|1990-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+1990|1990-11-11T00:00:00|1990-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+1991|1991-01-01T00:00:00|1991-01-01T00:00:00|New Year|Нова година|NewYear|True|
+1991|1991-01-02T00:00:00|1991-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+1991|1991-01-07T00:00:00|1991-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+1991|1991-02-15T00:00:00|1991-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+1991|1991-02-16T00:00:00|1991-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+1991|1991-04-05T00:00:00|1991-04-05T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+1991|1991-04-07T00:00:00|1991-04-07T00:00:00|Easter|Васкрс|Easter|True|
+1991|1991-04-08T00:00:00|1991-04-08T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+1991|1991-05-01T00:00:00|1991-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+1991|1991-05-02T00:00:00|1991-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+1991|1991-11-11T00:00:00|1991-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+1992|1992-01-01T00:00:00|1992-01-01T00:00:00|New Year|Нова година|NewYear|True|
+1992|1992-01-02T00:00:00|1992-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+1992|1992-01-07T00:00:00|1992-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+1992|1992-02-15T00:00:00|1992-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+1992|1992-02-16T00:00:00|1992-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+1992|1992-04-24T00:00:00|1992-04-24T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+1992|1992-04-26T00:00:00|1992-04-26T00:00:00|Easter|Васкрс|Easter|True|
+1992|1992-04-27T00:00:00|1992-04-27T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+1992|1992-05-01T00:00:00|1992-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+1992|1992-05-02T00:00:00|1992-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+1992|1992-11-11T00:00:00|1992-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+1993|1993-01-01T00:00:00|1993-01-01T00:00:00|New Year|Нова година|NewYear|True|
+1993|1993-01-02T00:00:00|1993-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+1993|1993-01-07T00:00:00|1993-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+1993|1993-02-15T00:00:00|1993-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+1993|1993-02-16T00:00:00|1993-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+1993|1993-04-16T00:00:00|1993-04-16T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+1993|1993-04-18T00:00:00|1993-04-18T00:00:00|Easter|Васкрс|Easter|True|
+1993|1993-04-19T00:00:00|1993-04-19T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+1993|1993-05-01T00:00:00|1993-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+1993|1993-05-02T00:00:00|1993-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+1993|1993-11-11T00:00:00|1993-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+1994|1994-01-01T00:00:00|1994-01-01T00:00:00|New Year|Нова година|NewYear|True|
+1994|1994-01-02T00:00:00|1994-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+1994|1994-01-07T00:00:00|1994-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+1994|1994-02-15T00:00:00|1994-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+1994|1994-02-16T00:00:00|1994-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+1994|1994-04-29T00:00:00|1994-04-29T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+1994|1994-05-01T00:00:00|1994-05-01T00:00:00|Easter|Васкрс|Easter|True|
+1994|1994-05-01T00:00:00|1994-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+1994|1994-05-02T00:00:00|1994-05-02T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+1994|1994-05-02T00:00:00|1994-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+1994|1994-11-11T00:00:00|1994-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+1995|1995-01-01T00:00:00|1995-01-01T00:00:00|New Year|Нова година|NewYear|True|
+1995|1995-01-02T00:00:00|1995-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+1995|1995-01-07T00:00:00|1995-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+1995|1995-02-15T00:00:00|1995-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+1995|1995-02-16T00:00:00|1995-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+1995|1995-04-21T00:00:00|1995-04-21T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+1995|1995-04-23T00:00:00|1995-04-23T00:00:00|Easter|Васкрс|Easter|True|
+1995|1995-04-24T00:00:00|1995-04-24T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+1995|1995-05-01T00:00:00|1995-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+1995|1995-05-02T00:00:00|1995-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+1995|1995-11-11T00:00:00|1995-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+1996|1996-01-01T00:00:00|1996-01-01T00:00:00|New Year|Нова година|NewYear|True|
+1996|1996-01-02T00:00:00|1996-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+1996|1996-01-07T00:00:00|1996-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+1996|1996-02-15T00:00:00|1996-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+1996|1996-02-16T00:00:00|1996-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+1996|1996-04-12T00:00:00|1996-04-12T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+1996|1996-04-14T00:00:00|1996-04-14T00:00:00|Easter|Васкрс|Easter|True|
+1996|1996-04-15T00:00:00|1996-04-15T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+1996|1996-05-01T00:00:00|1996-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+1996|1996-05-02T00:00:00|1996-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+1996|1996-11-11T00:00:00|1996-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+1997|1997-01-01T00:00:00|1997-01-01T00:00:00|New Year|Нова година|NewYear|True|
+1997|1997-01-02T00:00:00|1997-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+1997|1997-01-07T00:00:00|1997-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+1997|1997-02-15T00:00:00|1997-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+1997|1997-02-16T00:00:00|1997-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+1997|1997-04-25T00:00:00|1997-04-25T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+1997|1997-04-27T00:00:00|1997-04-27T00:00:00|Easter|Васкрс|Easter|True|
+1997|1997-04-28T00:00:00|1997-04-28T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+1997|1997-05-01T00:00:00|1997-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+1997|1997-05-02T00:00:00|1997-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+1997|1997-11-11T00:00:00|1997-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+1998|1998-01-01T00:00:00|1998-01-01T00:00:00|New Year|Нова година|NewYear|True|
+1998|1998-01-02T00:00:00|1998-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+1998|1998-01-07T00:00:00|1998-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+1998|1998-02-15T00:00:00|1998-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+1998|1998-02-16T00:00:00|1998-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+1998|1998-04-17T00:00:00|1998-04-17T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+1998|1998-04-19T00:00:00|1998-04-19T00:00:00|Easter|Васкрс|Easter|True|
+1998|1998-04-20T00:00:00|1998-04-20T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+1998|1998-05-01T00:00:00|1998-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+1998|1998-05-02T00:00:00|1998-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+1998|1998-11-11T00:00:00|1998-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+1999|1999-01-01T00:00:00|1999-01-01T00:00:00|New Year|Нова година|NewYear|True|
+1999|1999-01-02T00:00:00|1999-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+1999|1999-01-07T00:00:00|1999-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+1999|1999-02-15T00:00:00|1999-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+1999|1999-02-16T00:00:00|1999-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+1999|1999-04-09T00:00:00|1999-04-09T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+1999|1999-04-11T00:00:00|1999-04-11T00:00:00|Easter|Васкрс|Easter|True|
+1999|1999-04-12T00:00:00|1999-04-12T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+1999|1999-05-01T00:00:00|1999-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+1999|1999-05-02T00:00:00|1999-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+1999|1999-11-11T00:00:00|1999-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2000|2000-01-01T00:00:00|2000-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2000|2000-01-02T00:00:00|2000-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2000|2000-01-07T00:00:00|2000-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2000|2000-02-15T00:00:00|2000-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2000|2000-02-16T00:00:00|2000-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2000|2000-04-28T00:00:00|2000-04-28T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2000|2000-04-30T00:00:00|2000-04-30T00:00:00|Easter|Васкрс|Easter|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2000|2000-05-02T00:00:00|2000-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2000|2000-11-11T00:00:00|2000-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2001|2001-01-01T00:00:00|2001-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2001|2001-01-02T00:00:00|2001-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2001|2001-01-07T00:00:00|2001-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2001|2001-02-15T00:00:00|2001-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2001|2001-02-16T00:00:00|2001-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2001|2001-04-13T00:00:00|2001-04-13T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2001|2001-04-15T00:00:00|2001-04-15T00:00:00|Easter|Васкрс|Easter|True|
+2001|2001-04-16T00:00:00|2001-04-16T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2001|2001-05-01T00:00:00|2001-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2001|2001-05-02T00:00:00|2001-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2001|2001-11-11T00:00:00|2001-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2002|2002-01-01T00:00:00|2002-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2002|2002-01-02T00:00:00|2002-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2002|2002-01-07T00:00:00|2002-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2002|2002-02-15T00:00:00|2002-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2002|2002-02-16T00:00:00|2002-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2002|2002-05-01T00:00:00|2002-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2002|2002-05-02T00:00:00|2002-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2002|2002-05-03T00:00:00|2002-05-03T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2002|2002-05-05T00:00:00|2002-05-05T00:00:00|Easter|Васкрс|Easter|True|
+2002|2002-05-06T00:00:00|2002-05-06T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2002|2002-11-11T00:00:00|2002-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2003|2003-01-01T00:00:00|2003-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2003|2003-01-02T00:00:00|2003-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2003|2003-01-07T00:00:00|2003-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2003|2003-02-15T00:00:00|2003-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2003|2003-02-16T00:00:00|2003-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2003|2003-04-25T00:00:00|2003-04-25T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2003|2003-04-27T00:00:00|2003-04-27T00:00:00|Easter|Васкрс|Easter|True|
+2003|2003-04-28T00:00:00|2003-04-28T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2003|2003-05-01T00:00:00|2003-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2003|2003-05-02T00:00:00|2003-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2003|2003-11-11T00:00:00|2003-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2004|2004-01-01T00:00:00|2004-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2004|2004-01-02T00:00:00|2004-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2004|2004-01-07T00:00:00|2004-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2004|2004-02-15T00:00:00|2004-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2004|2004-02-16T00:00:00|2004-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2004|2004-04-09T00:00:00|2004-04-09T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2004|2004-04-11T00:00:00|2004-04-11T00:00:00|Easter|Васкрс|Easter|True|
+2004|2004-04-12T00:00:00|2004-04-12T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2004|2004-05-01T00:00:00|2004-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2004|2004-05-02T00:00:00|2004-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2004|2004-11-11T00:00:00|2004-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2005|2005-01-01T00:00:00|2005-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2005|2005-01-02T00:00:00|2005-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2005|2005-01-07T00:00:00|2005-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2005|2005-02-15T00:00:00|2005-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2005|2005-02-16T00:00:00|2005-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2005|2005-04-29T00:00:00|2005-04-29T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2005|2005-05-01T00:00:00|2005-05-01T00:00:00|Easter|Васкрс|Easter|True|
+2005|2005-05-01T00:00:00|2005-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2005|2005-05-02T00:00:00|2005-05-02T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2005|2005-05-02T00:00:00|2005-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2005|2005-11-11T00:00:00|2005-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2006|2006-01-01T00:00:00|2006-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2006|2006-01-02T00:00:00|2006-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2006|2006-01-07T00:00:00|2006-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2006|2006-02-15T00:00:00|2006-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2006|2006-02-16T00:00:00|2006-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2006|2006-04-21T00:00:00|2006-04-21T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2006|2006-04-23T00:00:00|2006-04-23T00:00:00|Easter|Васкрс|Easter|True|
+2006|2006-04-24T00:00:00|2006-04-24T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2006|2006-05-01T00:00:00|2006-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2006|2006-05-02T00:00:00|2006-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2006|2006-11-11T00:00:00|2006-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2007|2007-01-01T00:00:00|2007-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2007|2007-01-02T00:00:00|2007-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2007|2007-01-07T00:00:00|2007-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2007|2007-02-15T00:00:00|2007-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2007|2007-02-16T00:00:00|2007-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2007|2007-04-06T00:00:00|2007-04-06T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2007|2007-04-08T00:00:00|2007-04-08T00:00:00|Easter|Васкрс|Easter|True|
+2007|2007-04-09T00:00:00|2007-04-09T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2007|2007-05-01T00:00:00|2007-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2007|2007-05-02T00:00:00|2007-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2007|2007-11-11T00:00:00|2007-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2008|2008-01-01T00:00:00|2008-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2008|2008-01-02T00:00:00|2008-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2008|2008-01-07T00:00:00|2008-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2008|2008-02-15T00:00:00|2008-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2008|2008-02-16T00:00:00|2008-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2008|2008-04-25T00:00:00|2008-04-25T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2008|2008-04-27T00:00:00|2008-04-27T00:00:00|Easter|Васкрс|Easter|True|
+2008|2008-04-28T00:00:00|2008-04-28T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2008|2008-05-01T00:00:00|2008-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2008|2008-05-02T00:00:00|2008-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2008|2008-11-11T00:00:00|2008-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2009|2009-01-01T00:00:00|2009-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2009|2009-01-02T00:00:00|2009-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2009|2009-01-07T00:00:00|2009-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2009|2009-02-15T00:00:00|2009-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2009|2009-02-16T00:00:00|2009-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2009|2009-04-17T00:00:00|2009-04-17T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2009|2009-04-19T00:00:00|2009-04-19T00:00:00|Easter|Васкрс|Easter|True|
+2009|2009-04-20T00:00:00|2009-04-20T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2009|2009-05-01T00:00:00|2009-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2009|2009-05-02T00:00:00|2009-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2009|2009-11-11T00:00:00|2009-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2010|2010-01-01T00:00:00|2010-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2010|2010-01-02T00:00:00|2010-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2010|2010-01-07T00:00:00|2010-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2010|2010-02-15T00:00:00|2010-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2010|2010-02-16T00:00:00|2010-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2010|2010-04-02T00:00:00|2010-04-02T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2010|2010-04-04T00:00:00|2010-04-04T00:00:00|Easter|Васкрс|Easter|True|
+2010|2010-04-05T00:00:00|2010-04-05T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2010|2010-05-01T00:00:00|2010-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2010|2010-05-02T00:00:00|2010-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2010|2010-11-11T00:00:00|2010-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2011|2011-01-01T00:00:00|2011-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2011|2011-01-02T00:00:00|2011-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2011|2011-01-07T00:00:00|2011-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2011|2011-02-15T00:00:00|2011-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2011|2011-02-16T00:00:00|2011-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2011|2011-04-22T00:00:00|2011-04-22T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2011|2011-04-24T00:00:00|2011-04-24T00:00:00|Easter|Васкрс|Easter|True|
+2011|2011-04-25T00:00:00|2011-04-25T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2011|2011-05-01T00:00:00|2011-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2011|2011-05-02T00:00:00|2011-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2011|2011-11-11T00:00:00|2011-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2012|2012-01-01T00:00:00|2012-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2012|2012-01-02T00:00:00|2012-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2012|2012-01-07T00:00:00|2012-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2012|2012-02-15T00:00:00|2012-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2012|2012-02-16T00:00:00|2012-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2012|2012-04-13T00:00:00|2012-04-13T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2012|2012-04-15T00:00:00|2012-04-15T00:00:00|Easter|Васкрс|Easter|True|
+2012|2012-04-16T00:00:00|2012-04-16T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2012|2012-05-01T00:00:00|2012-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2012|2012-05-02T00:00:00|2012-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2012|2012-11-11T00:00:00|2012-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2013|2013-01-01T00:00:00|2013-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2013|2013-01-02T00:00:00|2013-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2013|2013-01-07T00:00:00|2013-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2013|2013-02-15T00:00:00|2013-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2013|2013-02-16T00:00:00|2013-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2013|2013-05-01T00:00:00|2013-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2013|2013-05-02T00:00:00|2013-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2013|2013-05-03T00:00:00|2013-05-03T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2013|2013-05-05T00:00:00|2013-05-05T00:00:00|Easter|Васкрс|Easter|True|
+2013|2013-05-06T00:00:00|2013-05-06T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2013|2013-11-11T00:00:00|2013-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2014|2014-01-01T00:00:00|2014-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2014|2014-01-02T00:00:00|2014-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2014|2014-01-07T00:00:00|2014-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2014|2014-02-15T00:00:00|2014-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2014|2014-02-16T00:00:00|2014-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2014|2014-04-18T00:00:00|2014-04-18T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2014|2014-04-20T00:00:00|2014-04-20T00:00:00|Easter|Васкрс|Easter|True|
+2014|2014-04-21T00:00:00|2014-04-21T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2014|2014-05-01T00:00:00|2014-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2014|2014-05-02T00:00:00|2014-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2014|2014-11-11T00:00:00|2014-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2015|2015-01-01T00:00:00|2015-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2015|2015-01-02T00:00:00|2015-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2015|2015-01-07T00:00:00|2015-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2015|2015-02-15T00:00:00|2015-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2015|2015-02-16T00:00:00|2015-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2015|2015-04-10T00:00:00|2015-04-10T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2015|2015-04-12T00:00:00|2015-04-12T00:00:00|Easter|Васкрс|Easter|True|
+2015|2015-04-13T00:00:00|2015-04-13T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2015|2015-05-01T00:00:00|2015-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2015|2015-05-02T00:00:00|2015-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2015|2015-11-11T00:00:00|2015-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2016|2016-01-01T00:00:00|2016-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2016|2016-01-02T00:00:00|2016-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2016|2016-01-07T00:00:00|2016-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2016|2016-02-15T00:00:00|2016-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2016|2016-02-16T00:00:00|2016-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2016|2016-04-29T00:00:00|2016-04-29T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2016|2016-05-01T00:00:00|2016-05-01T00:00:00|Easter|Васкрс|Easter|True|
+2016|2016-05-01T00:00:00|2016-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2016|2016-05-02T00:00:00|2016-05-02T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2016|2016-05-02T00:00:00|2016-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2016|2016-11-11T00:00:00|2016-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2017|2017-01-01T00:00:00|2017-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2017|2017-01-02T00:00:00|2017-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2017|2017-01-07T00:00:00|2017-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2017|2017-02-15T00:00:00|2017-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2017|2017-02-16T00:00:00|2017-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2017|2017-04-14T00:00:00|2017-04-14T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2017|2017-04-16T00:00:00|2017-04-16T00:00:00|Easter|Васкрс|Easter|True|
+2017|2017-04-17T00:00:00|2017-04-17T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2017|2017-05-01T00:00:00|2017-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2017|2017-05-02T00:00:00|2017-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2017|2017-11-11T00:00:00|2017-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2018|2018-01-01T00:00:00|2018-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2018|2018-01-02T00:00:00|2018-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2018|2018-01-07T00:00:00|2018-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2018|2018-02-15T00:00:00|2018-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2018|2018-02-16T00:00:00|2018-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2018|2018-04-06T00:00:00|2018-04-06T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2018|2018-04-08T00:00:00|2018-04-08T00:00:00|Easter|Васкрс|Easter|True|
+2018|2018-04-09T00:00:00|2018-04-09T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2018|2018-05-01T00:00:00|2018-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2018|2018-05-02T00:00:00|2018-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2018|2018-11-11T00:00:00|2018-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2019|2019-01-01T00:00:00|2019-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2019|2019-01-02T00:00:00|2019-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2019|2019-01-07T00:00:00|2019-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2019|2019-02-15T00:00:00|2019-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2019|2019-02-16T00:00:00|2019-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2019|2019-04-26T00:00:00|2019-04-26T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2019|2019-04-28T00:00:00|2019-04-28T00:00:00|Easter|Васкрс|Easter|True|
+2019|2019-04-29T00:00:00|2019-04-29T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2019|2019-05-01T00:00:00|2019-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2019|2019-05-02T00:00:00|2019-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2019|2019-11-11T00:00:00|2019-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2020|2020-01-01T00:00:00|2020-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2020|2020-01-02T00:00:00|2020-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2020|2020-01-07T00:00:00|2020-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2020|2020-02-15T00:00:00|2020-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2020|2020-02-16T00:00:00|2020-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2020|2020-04-17T00:00:00|2020-04-17T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2020|2020-04-19T00:00:00|2020-04-19T00:00:00|Easter|Васкрс|Easter|True|
+2020|2020-04-20T00:00:00|2020-04-20T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2020|2020-05-01T00:00:00|2020-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2020|2020-05-02T00:00:00|2020-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2020|2020-11-11T00:00:00|2020-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2021|2021-01-01T00:00:00|2021-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2021|2021-01-02T00:00:00|2021-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2021|2021-01-07T00:00:00|2021-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2021|2021-02-15T00:00:00|2021-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2021|2021-02-16T00:00:00|2021-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2021|2021-04-30T00:00:00|2021-04-30T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2021|2021-05-01T00:00:00|2021-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2021|2021-05-02T00:00:00|2021-05-02T00:00:00|Easter|Васкрс|Easter|True|
+2021|2021-05-02T00:00:00|2021-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2021|2021-05-03T00:00:00|2021-05-03T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2021|2021-11-11T00:00:00|2021-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2022|2022-01-01T00:00:00|2022-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2022|2022-01-02T00:00:00|2022-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2022|2022-01-07T00:00:00|2022-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2022|2022-02-15T00:00:00|2022-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2022|2022-02-16T00:00:00|2022-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2022|2022-04-22T00:00:00|2022-04-22T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2022|2022-04-24T00:00:00|2022-04-24T00:00:00|Easter|Васкрс|Easter|True|
+2022|2022-04-25T00:00:00|2022-04-25T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2022|2022-05-01T00:00:00|2022-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2022|2022-05-02T00:00:00|2022-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2022|2022-11-11T00:00:00|2022-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2023|2023-01-01T00:00:00|2023-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2023|2023-01-02T00:00:00|2023-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2023|2023-01-07T00:00:00|2023-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2023|2023-02-15T00:00:00|2023-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2023|2023-02-16T00:00:00|2023-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2023|2023-04-14T00:00:00|2023-04-14T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2023|2023-04-16T00:00:00|2023-04-16T00:00:00|Easter|Васкрс|Easter|True|
+2023|2023-04-17T00:00:00|2023-04-17T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2023|2023-05-01T00:00:00|2023-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2023|2023-05-02T00:00:00|2023-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2023|2023-11-11T00:00:00|2023-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2024|2024-01-01T00:00:00|2024-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2024|2024-01-02T00:00:00|2024-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2024|2024-01-07T00:00:00|2024-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2024|2024-02-15T00:00:00|2024-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2024|2024-02-16T00:00:00|2024-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2024|2024-05-01T00:00:00|2024-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2024|2024-05-02T00:00:00|2024-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2024|2024-05-03T00:00:00|2024-05-03T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2024|2024-05-05T00:00:00|2024-05-05T00:00:00|Easter|Васкрс|Easter|True|
+2024|2024-05-06T00:00:00|2024-05-06T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2024|2024-11-11T00:00:00|2024-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2025|2025-01-01T00:00:00|2025-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2025|2025-01-02T00:00:00|2025-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2025|2025-01-07T00:00:00|2025-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2025|2025-02-15T00:00:00|2025-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2025|2025-02-16T00:00:00|2025-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2025|2025-04-18T00:00:00|2025-04-18T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2025|2025-04-20T00:00:00|2025-04-20T00:00:00|Easter|Васкрс|Easter|True|
+2025|2025-04-21T00:00:00|2025-04-21T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2025|2025-05-01T00:00:00|2025-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2025|2025-05-02T00:00:00|2025-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2025|2025-11-11T00:00:00|2025-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2026|2026-01-01T00:00:00|2026-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2026|2026-01-02T00:00:00|2026-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2026|2026-01-07T00:00:00|2026-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2026|2026-02-15T00:00:00|2026-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2026|2026-02-16T00:00:00|2026-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2026|2026-04-10T00:00:00|2026-04-10T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2026|2026-04-12T00:00:00|2026-04-12T00:00:00|Easter|Васкрс|Easter|True|
+2026|2026-04-13T00:00:00|2026-04-13T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2026|2026-05-01T00:00:00|2026-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2026|2026-05-02T00:00:00|2026-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2026|2026-11-11T00:00:00|2026-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2027|2027-01-01T00:00:00|2027-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2027|2027-01-02T00:00:00|2027-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2027|2027-01-07T00:00:00|2027-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2027|2027-02-15T00:00:00|2027-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2027|2027-02-16T00:00:00|2027-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2027|2027-04-30T00:00:00|2027-04-30T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2027|2027-05-01T00:00:00|2027-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2027|2027-05-02T00:00:00|2027-05-02T00:00:00|Easter|Васкрс|Easter|True|
+2027|2027-05-02T00:00:00|2027-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2027|2027-05-03T00:00:00|2027-05-03T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2027|2027-11-11T00:00:00|2027-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2028|2028-01-01T00:00:00|2028-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2028|2028-01-02T00:00:00|2028-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2028|2028-01-07T00:00:00|2028-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2028|2028-02-15T00:00:00|2028-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2028|2028-02-16T00:00:00|2028-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2028|2028-04-14T00:00:00|2028-04-14T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2028|2028-04-16T00:00:00|2028-04-16T00:00:00|Easter|Васкрс|Easter|True|
+2028|2028-04-17T00:00:00|2028-04-17T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2028|2028-05-01T00:00:00|2028-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2028|2028-05-02T00:00:00|2028-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2028|2028-11-11T00:00:00|2028-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2029|2029-01-01T00:00:00|2029-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2029|2029-01-02T00:00:00|2029-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2029|2029-01-07T00:00:00|2029-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2029|2029-02-15T00:00:00|2029-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2029|2029-02-16T00:00:00|2029-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2029|2029-04-06T00:00:00|2029-04-06T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2029|2029-04-08T00:00:00|2029-04-08T00:00:00|Easter|Васкрс|Easter|True|
+2029|2029-04-09T00:00:00|2029-04-09T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2029|2029-05-01T00:00:00|2029-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2029|2029-05-02T00:00:00|2029-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2029|2029-11-11T00:00:00|2029-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2030|2030-01-01T00:00:00|2030-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2030|2030-01-02T00:00:00|2030-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2030|2030-01-07T00:00:00|2030-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2030|2030-02-15T00:00:00|2030-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2030|2030-02-16T00:00:00|2030-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2030|2030-04-26T00:00:00|2030-04-26T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2030|2030-04-28T00:00:00|2030-04-28T00:00:00|Easter|Васкрс|Easter|True|
+2030|2030-04-29T00:00:00|2030-04-29T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2030|2030-05-01T00:00:00|2030-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2030|2030-05-02T00:00:00|2030-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2030|2030-11-11T00:00:00|2030-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2031|2031-01-01T00:00:00|2031-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2031|2031-01-02T00:00:00|2031-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2031|2031-01-07T00:00:00|2031-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2031|2031-02-15T00:00:00|2031-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2031|2031-02-16T00:00:00|2031-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2031|2031-04-11T00:00:00|2031-04-11T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2031|2031-04-13T00:00:00|2031-04-13T00:00:00|Easter|Васкрс|Easter|True|
+2031|2031-04-14T00:00:00|2031-04-14T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2031|2031-05-01T00:00:00|2031-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2031|2031-05-02T00:00:00|2031-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2031|2031-11-11T00:00:00|2031-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2032|2032-01-01T00:00:00|2032-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2032|2032-01-02T00:00:00|2032-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2032|2032-01-07T00:00:00|2032-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2032|2032-02-15T00:00:00|2032-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2032|2032-02-16T00:00:00|2032-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2032|2032-04-30T00:00:00|2032-04-30T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2032|2032-05-01T00:00:00|2032-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2032|2032-05-02T00:00:00|2032-05-02T00:00:00|Easter|Васкрс|Easter|True|
+2032|2032-05-02T00:00:00|2032-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2032|2032-05-03T00:00:00|2032-05-03T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2032|2032-11-11T00:00:00|2032-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2033|2033-01-01T00:00:00|2033-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2033|2033-01-02T00:00:00|2033-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2033|2033-01-07T00:00:00|2033-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2033|2033-02-15T00:00:00|2033-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2033|2033-02-16T00:00:00|2033-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2033|2033-04-22T00:00:00|2033-04-22T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2033|2033-04-24T00:00:00|2033-04-24T00:00:00|Easter|Васкрс|Easter|True|
+2033|2033-04-25T00:00:00|2033-04-25T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2033|2033-05-01T00:00:00|2033-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2033|2033-05-02T00:00:00|2033-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2033|2033-11-11T00:00:00|2033-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2034|2034-01-01T00:00:00|2034-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2034|2034-01-02T00:00:00|2034-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2034|2034-01-07T00:00:00|2034-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2034|2034-02-15T00:00:00|2034-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2034|2034-02-16T00:00:00|2034-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2034|2034-04-07T00:00:00|2034-04-07T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2034|2034-04-09T00:00:00|2034-04-09T00:00:00|Easter|Васкрс|Easter|True|
+2034|2034-04-10T00:00:00|2034-04-10T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2034|2034-05-01T00:00:00|2034-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2034|2034-05-02T00:00:00|2034-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2034|2034-11-11T00:00:00|2034-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2035|2035-01-01T00:00:00|2035-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2035|2035-01-02T00:00:00|2035-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2035|2035-01-07T00:00:00|2035-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2035|2035-02-15T00:00:00|2035-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2035|2035-02-16T00:00:00|2035-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2035|2035-04-27T00:00:00|2035-04-27T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2035|2035-04-29T00:00:00|2035-04-29T00:00:00|Easter|Васкрс|Easter|True|
+2035|2035-04-30T00:00:00|2035-04-30T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2035|2035-05-01T00:00:00|2035-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2035|2035-05-02T00:00:00|2035-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2035|2035-11-11T00:00:00|2035-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2036|2036-01-01T00:00:00|2036-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2036|2036-01-02T00:00:00|2036-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2036|2036-01-07T00:00:00|2036-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2036|2036-02-15T00:00:00|2036-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2036|2036-02-16T00:00:00|2036-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2036|2036-04-18T00:00:00|2036-04-18T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2036|2036-04-20T00:00:00|2036-04-20T00:00:00|Easter|Васкрс|Easter|True|
+2036|2036-04-21T00:00:00|2036-04-21T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2036|2036-05-01T00:00:00|2036-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2036|2036-05-02T00:00:00|2036-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2036|2036-11-11T00:00:00|2036-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2037|2037-01-01T00:00:00|2037-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2037|2037-01-02T00:00:00|2037-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2037|2037-01-07T00:00:00|2037-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2037|2037-02-15T00:00:00|2037-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2037|2037-02-16T00:00:00|2037-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2037|2037-04-03T00:00:00|2037-04-03T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2037|2037-04-05T00:00:00|2037-04-05T00:00:00|Easter|Васкрс|Easter|True|
+2037|2037-04-06T00:00:00|2037-04-06T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2037|2037-05-01T00:00:00|2037-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2037|2037-05-02T00:00:00|2037-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2037|2037-11-11T00:00:00|2037-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2038|2038-01-01T00:00:00|2038-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2038|2038-01-02T00:00:00|2038-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2038|2038-01-07T00:00:00|2038-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2038|2038-02-15T00:00:00|2038-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2038|2038-02-16T00:00:00|2038-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2038|2038-04-23T00:00:00|2038-04-23T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2038|2038-04-25T00:00:00|2038-04-25T00:00:00|Easter|Васкрс|Easter|True|
+2038|2038-04-26T00:00:00|2038-04-26T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2038|2038-05-01T00:00:00|2038-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2038|2038-05-02T00:00:00|2038-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2038|2038-11-11T00:00:00|2038-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2039|2039-01-01T00:00:00|2039-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2039|2039-01-02T00:00:00|2039-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2039|2039-01-07T00:00:00|2039-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2039|2039-02-15T00:00:00|2039-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2039|2039-02-16T00:00:00|2039-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2039|2039-04-15T00:00:00|2039-04-15T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2039|2039-04-17T00:00:00|2039-04-17T00:00:00|Easter|Васкрс|Easter|True|
+2039|2039-04-18T00:00:00|2039-04-18T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2039|2039-05-01T00:00:00|2039-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2039|2039-05-02T00:00:00|2039-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2039|2039-11-11T00:00:00|2039-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2040|2040-01-01T00:00:00|2040-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2040|2040-01-02T00:00:00|2040-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2040|2040-01-07T00:00:00|2040-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2040|2040-02-15T00:00:00|2040-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2040|2040-02-16T00:00:00|2040-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2040|2040-05-01T00:00:00|2040-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2040|2040-05-02T00:00:00|2040-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2040|2040-05-04T00:00:00|2040-05-04T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2040|2040-05-06T00:00:00|2040-05-06T00:00:00|Easter|Васкрс|Easter|True|
+2040|2040-05-07T00:00:00|2040-05-07T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2040|2040-11-11T00:00:00|2040-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2041|2041-01-01T00:00:00|2041-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2041|2041-01-02T00:00:00|2041-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2041|2041-01-07T00:00:00|2041-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2041|2041-02-15T00:00:00|2041-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2041|2041-02-16T00:00:00|2041-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2041|2041-04-19T00:00:00|2041-04-19T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2041|2041-04-21T00:00:00|2041-04-21T00:00:00|Easter|Васкрс|Easter|True|
+2041|2041-04-22T00:00:00|2041-04-22T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2041|2041-05-01T00:00:00|2041-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2041|2041-05-02T00:00:00|2041-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2041|2041-11-11T00:00:00|2041-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2042|2042-01-01T00:00:00|2042-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2042|2042-01-02T00:00:00|2042-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2042|2042-01-07T00:00:00|2042-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2042|2042-02-15T00:00:00|2042-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2042|2042-02-16T00:00:00|2042-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2042|2042-04-11T00:00:00|2042-04-11T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2042|2042-04-13T00:00:00|2042-04-13T00:00:00|Easter|Васкрс|Easter|True|
+2042|2042-04-14T00:00:00|2042-04-14T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2042|2042-05-01T00:00:00|2042-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2042|2042-05-02T00:00:00|2042-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2042|2042-11-11T00:00:00|2042-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2043|2043-01-01T00:00:00|2043-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2043|2043-01-02T00:00:00|2043-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2043|2043-01-07T00:00:00|2043-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2043|2043-02-15T00:00:00|2043-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2043|2043-02-16T00:00:00|2043-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2043|2043-05-02T00:00:00|2043-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2043|2043-05-03T00:00:00|2043-05-03T00:00:00|Easter|Васкрс|Easter|True|
+2043|2043-05-04T00:00:00|2043-05-04T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2043|2043-11-11T00:00:00|2043-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2044|2044-01-01T00:00:00|2044-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2044|2044-01-02T00:00:00|2044-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2044|2044-01-07T00:00:00|2044-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2044|2044-02-15T00:00:00|2044-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2044|2044-02-16T00:00:00|2044-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2044|2044-04-22T00:00:00|2044-04-22T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2044|2044-04-24T00:00:00|2044-04-24T00:00:00|Easter|Васкрс|Easter|True|
+2044|2044-04-25T00:00:00|2044-04-25T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2044|2044-05-01T00:00:00|2044-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2044|2044-05-02T00:00:00|2044-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2044|2044-11-11T00:00:00|2044-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2045|2045-01-01T00:00:00|2045-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2045|2045-01-02T00:00:00|2045-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2045|2045-01-07T00:00:00|2045-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2045|2045-02-15T00:00:00|2045-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2045|2045-02-16T00:00:00|2045-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2045|2045-04-07T00:00:00|2045-04-07T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2045|2045-04-09T00:00:00|2045-04-09T00:00:00|Easter|Васкрс|Easter|True|
+2045|2045-04-10T00:00:00|2045-04-10T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2045|2045-05-01T00:00:00|2045-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2045|2045-05-02T00:00:00|2045-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2045|2045-11-11T00:00:00|2045-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2046|2046-01-01T00:00:00|2046-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2046|2046-01-02T00:00:00|2046-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2046|2046-01-07T00:00:00|2046-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2046|2046-02-15T00:00:00|2046-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2046|2046-02-16T00:00:00|2046-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2046|2046-04-27T00:00:00|2046-04-27T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2046|2046-04-29T00:00:00|2046-04-29T00:00:00|Easter|Васкрс|Easter|True|
+2046|2046-04-30T00:00:00|2046-04-30T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2046|2046-05-01T00:00:00|2046-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2046|2046-05-02T00:00:00|2046-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2046|2046-11-11T00:00:00|2046-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2047|2047-01-01T00:00:00|2047-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2047|2047-01-02T00:00:00|2047-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2047|2047-01-07T00:00:00|2047-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2047|2047-02-15T00:00:00|2047-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2047|2047-02-16T00:00:00|2047-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2047|2047-04-19T00:00:00|2047-04-19T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2047|2047-04-21T00:00:00|2047-04-21T00:00:00|Easter|Васкрс|Easter|True|
+2047|2047-04-22T00:00:00|2047-04-22T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2047|2047-05-01T00:00:00|2047-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2047|2047-05-02T00:00:00|2047-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2047|2047-11-11T00:00:00|2047-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2048|2048-01-01T00:00:00|2048-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2048|2048-01-02T00:00:00|2048-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2048|2048-01-07T00:00:00|2048-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2048|2048-02-15T00:00:00|2048-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2048|2048-02-16T00:00:00|2048-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2048|2048-04-03T00:00:00|2048-04-03T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2048|2048-04-05T00:00:00|2048-04-05T00:00:00|Easter|Васкрс|Easter|True|
+2048|2048-04-06T00:00:00|2048-04-06T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2048|2048-05-01T00:00:00|2048-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2048|2048-05-02T00:00:00|2048-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2048|2048-11-11T00:00:00|2048-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|
+2049|2049-01-01T00:00:00|2049-01-01T00:00:00|New Year|Нова година|NewYear|True|
+2049|2049-01-02T00:00:00|2049-01-02T00:00:00|Day After New Year|Нова година|DayAfterNewYear|True|
+2049|2049-01-07T00:00:00|2049-01-07T00:00:00|Christmas (Orthodox)|Божић|Christmas|True|
+2049|2049-02-15T00:00:00|2049-02-15T00:00:00|Statehood Day|Дан државности Србије|NationalDayRS1|True|
+2049|2049-02-16T00:00:00|2049-02-16T00:00:00|Statehood Day Holiday|Дан државности Србије|NationalDayRS2|True|
+2049|2049-04-23T00:00:00|2049-04-23T00:00:00|Good Friday|Велики петак|GoodFriday|True|
+2049|2049-04-25T00:00:00|2049-04-25T00:00:00|Easter|Васкрс|Easter|True|
+2049|2049-04-26T00:00:00|2049-04-26T00:00:00|Easter Monday|Васкрсни понедељак|EasterMonday|True|
+2049|2049-05-01T00:00:00|2049-05-01T00:00:00|Labour Day|Празник рада|LabourDay|True|
+2049|2049-05-02T00:00:00|2049-05-02T00:00:00|Labour Day Holiday|Празник рада|LabourDaySecondRS|True|
+2049|2049-11-11T00:00:00|2049-11-11T00:00:00|Armistice Day|Дан примирја|Armistice|True|

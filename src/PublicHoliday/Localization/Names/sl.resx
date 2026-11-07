@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AllSaints" xml:space="preserve"><value>Dan spomina na mrtve</value></data>
+  <data name="Assumption" xml:space="preserve"><value>Marijino vnebovzetje</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Božič</value></data>
+  <data name="DayAfterNewYear" xml:space="preserve"><value>Novo leto, drugi januar</value></data>
+  <data name="EasterMonday" xml:space="preserve"><value>Velikonočni ponedeljek</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Dan dela 1.maj</value></data>
+  <data name="LabourDaySecondSI" xml:space="preserve"><value>Dan dela 1.maj</value></data>
+  <data name="NationalDaySI" xml:space="preserve"><value>Dan državnosti</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Novo leto, prvi januar</value></data>
+  <data name="PreserenDaySI" xml:space="preserve"><value>Prešernov dan</value></data>
+  <data name="ReformationDay" xml:space="preserve"><value>Dan reformacije</value></data>
+  <data name="ResistanceDaySI" xml:space="preserve"><value>Dan upora proti okupatorju</value></data>
+  <data name="UnityDaySI" xml:space="preserve"><value>Day suverenosti in enotnosti</value></data>
+</root>

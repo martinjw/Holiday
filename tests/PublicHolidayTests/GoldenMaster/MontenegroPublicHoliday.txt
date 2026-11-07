@@ -1,0 +1,780 @@
+1990|1990-01-01T00:00:00|1990-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+1990|1990-01-02T00:00:00|1990-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+1990|1990-01-06T00:00:00|1990-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+1990|1990-01-07T00:00:00|1990-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+1990|1990-04-13T00:00:00|1990-04-13T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+1990|1990-04-16T00:00:00|1990-04-16T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+1990|1990-05-01T00:00:00|1990-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+1990|1990-05-02T00:00:00|1990-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+1990|1990-05-21T00:00:00|1990-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+1990|1990-05-22T00:00:00|1990-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+1990|1990-07-13T00:00:00|1990-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+1990|1990-07-14T00:00:00|1990-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+1990|1990-11-13T00:00:00|1990-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+1991|1991-01-01T00:00:00|1991-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+1991|1991-01-02T00:00:00|1991-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+1991|1991-01-06T00:00:00|1991-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+1991|1991-01-07T00:00:00|1991-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+1991|1991-04-05T00:00:00|1991-04-05T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+1991|1991-04-08T00:00:00|1991-04-08T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+1991|1991-05-01T00:00:00|1991-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+1991|1991-05-02T00:00:00|1991-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+1991|1991-05-21T00:00:00|1991-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+1991|1991-05-22T00:00:00|1991-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+1991|1991-07-13T00:00:00|1991-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+1991|1991-07-14T00:00:00|1991-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+1991|1991-11-13T00:00:00|1991-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+1992|1992-01-01T00:00:00|1992-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+1992|1992-01-02T00:00:00|1992-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+1992|1992-01-06T00:00:00|1992-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+1992|1992-01-07T00:00:00|1992-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+1992|1992-04-24T00:00:00|1992-04-24T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+1992|1992-04-27T00:00:00|1992-04-27T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+1992|1992-05-01T00:00:00|1992-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+1992|1992-05-02T00:00:00|1992-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+1992|1992-05-21T00:00:00|1992-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+1992|1992-05-22T00:00:00|1992-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+1992|1992-07-13T00:00:00|1992-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+1992|1992-07-14T00:00:00|1992-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+1992|1992-11-13T00:00:00|1992-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+1993|1993-01-01T00:00:00|1993-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+1993|1993-01-02T00:00:00|1993-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+1993|1993-01-06T00:00:00|1993-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+1993|1993-01-07T00:00:00|1993-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+1993|1993-04-16T00:00:00|1993-04-16T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+1993|1993-04-19T00:00:00|1993-04-19T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+1993|1993-05-01T00:00:00|1993-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+1993|1993-05-02T00:00:00|1993-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+1993|1993-05-21T00:00:00|1993-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+1993|1993-05-22T00:00:00|1993-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+1993|1993-07-13T00:00:00|1993-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+1993|1993-07-14T00:00:00|1993-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+1993|1993-11-13T00:00:00|1993-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+1994|1994-01-01T00:00:00|1994-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+1994|1994-01-02T00:00:00|1994-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+1994|1994-01-06T00:00:00|1994-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+1994|1994-01-07T00:00:00|1994-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+1994|1994-04-29T00:00:00|1994-04-29T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+1994|1994-05-01T00:00:00|1994-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+1994|1994-05-02T00:00:00|1994-05-02T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+1994|1994-05-02T00:00:00|1994-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+1994|1994-05-21T00:00:00|1994-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+1994|1994-05-22T00:00:00|1994-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+1994|1994-07-13T00:00:00|1994-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+1994|1994-07-14T00:00:00|1994-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+1994|1994-11-13T00:00:00|1994-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+1995|1995-01-01T00:00:00|1995-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+1995|1995-01-02T00:00:00|1995-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+1995|1995-01-06T00:00:00|1995-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+1995|1995-01-07T00:00:00|1995-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+1995|1995-04-21T00:00:00|1995-04-21T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+1995|1995-04-24T00:00:00|1995-04-24T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+1995|1995-05-01T00:00:00|1995-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+1995|1995-05-02T00:00:00|1995-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+1995|1995-05-21T00:00:00|1995-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+1995|1995-05-22T00:00:00|1995-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+1995|1995-07-13T00:00:00|1995-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+1995|1995-07-14T00:00:00|1995-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+1995|1995-11-13T00:00:00|1995-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+1996|1996-01-01T00:00:00|1996-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+1996|1996-01-02T00:00:00|1996-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+1996|1996-01-06T00:00:00|1996-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+1996|1996-01-07T00:00:00|1996-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+1996|1996-04-12T00:00:00|1996-04-12T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+1996|1996-04-15T00:00:00|1996-04-15T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+1996|1996-05-01T00:00:00|1996-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+1996|1996-05-02T00:00:00|1996-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+1996|1996-05-21T00:00:00|1996-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+1996|1996-05-22T00:00:00|1996-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+1996|1996-07-13T00:00:00|1996-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+1996|1996-07-14T00:00:00|1996-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+1996|1996-11-13T00:00:00|1996-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+1997|1997-01-01T00:00:00|1997-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+1997|1997-01-02T00:00:00|1997-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+1997|1997-01-06T00:00:00|1997-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+1997|1997-01-07T00:00:00|1997-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+1997|1997-04-25T00:00:00|1997-04-25T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+1997|1997-04-28T00:00:00|1997-04-28T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+1997|1997-05-01T00:00:00|1997-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+1997|1997-05-02T00:00:00|1997-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+1997|1997-05-21T00:00:00|1997-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+1997|1997-05-22T00:00:00|1997-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+1997|1997-07-13T00:00:00|1997-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+1997|1997-07-14T00:00:00|1997-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+1997|1997-11-13T00:00:00|1997-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+1998|1998-01-01T00:00:00|1998-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+1998|1998-01-02T00:00:00|1998-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+1998|1998-01-06T00:00:00|1998-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+1998|1998-01-07T00:00:00|1998-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+1998|1998-04-17T00:00:00|1998-04-17T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+1998|1998-04-20T00:00:00|1998-04-20T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+1998|1998-05-01T00:00:00|1998-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+1998|1998-05-02T00:00:00|1998-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+1998|1998-05-21T00:00:00|1998-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+1998|1998-05-22T00:00:00|1998-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+1998|1998-07-13T00:00:00|1998-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+1998|1998-07-14T00:00:00|1998-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+1998|1998-11-13T00:00:00|1998-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+1999|1999-01-01T00:00:00|1999-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+1999|1999-01-02T00:00:00|1999-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+1999|1999-01-06T00:00:00|1999-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+1999|1999-01-07T00:00:00|1999-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+1999|1999-04-09T00:00:00|1999-04-09T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+1999|1999-04-12T00:00:00|1999-04-12T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+1999|1999-05-01T00:00:00|1999-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+1999|1999-05-02T00:00:00|1999-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+1999|1999-05-21T00:00:00|1999-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+1999|1999-05-22T00:00:00|1999-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+1999|1999-07-13T00:00:00|1999-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+1999|1999-07-14T00:00:00|1999-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+1999|1999-11-13T00:00:00|1999-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2000|2000-01-01T00:00:00|2000-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2000|2000-01-02T00:00:00|2000-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2000|2000-01-06T00:00:00|2000-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2000|2000-01-07T00:00:00|2000-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2000|2000-04-28T00:00:00|2000-04-28T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2000|2000-05-01T00:00:00|2000-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2000|2000-05-02T00:00:00|2000-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2000|2000-05-21T00:00:00|2000-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2000|2000-05-22T00:00:00|2000-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2000|2000-07-13T00:00:00|2000-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2000|2000-07-14T00:00:00|2000-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2000|2000-11-13T00:00:00|2000-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2001|2001-01-01T00:00:00|2001-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2001|2001-01-02T00:00:00|2001-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2001|2001-01-06T00:00:00|2001-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2001|2001-01-07T00:00:00|2001-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2001|2001-04-13T00:00:00|2001-04-13T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2001|2001-04-16T00:00:00|2001-04-16T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2001|2001-05-01T00:00:00|2001-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2001|2001-05-02T00:00:00|2001-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2001|2001-05-21T00:00:00|2001-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2001|2001-05-22T00:00:00|2001-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2001|2001-07-13T00:00:00|2001-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2001|2001-07-14T00:00:00|2001-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2001|2001-11-13T00:00:00|2001-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2002|2002-01-01T00:00:00|2002-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2002|2002-01-02T00:00:00|2002-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2002|2002-01-06T00:00:00|2002-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2002|2002-01-07T00:00:00|2002-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2002|2002-05-01T00:00:00|2002-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2002|2002-05-02T00:00:00|2002-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2002|2002-05-03T00:00:00|2002-05-03T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2002|2002-05-06T00:00:00|2002-05-06T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2002|2002-05-21T00:00:00|2002-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2002|2002-05-22T00:00:00|2002-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2002|2002-07-13T00:00:00|2002-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2002|2002-07-14T00:00:00|2002-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2002|2002-11-13T00:00:00|2002-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2003|2003-01-01T00:00:00|2003-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2003|2003-01-02T00:00:00|2003-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2003|2003-01-06T00:00:00|2003-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2003|2003-01-07T00:00:00|2003-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2003|2003-04-25T00:00:00|2003-04-25T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2003|2003-04-28T00:00:00|2003-04-28T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2003|2003-05-01T00:00:00|2003-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2003|2003-05-02T00:00:00|2003-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2003|2003-05-21T00:00:00|2003-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2003|2003-05-22T00:00:00|2003-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2003|2003-07-13T00:00:00|2003-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2003|2003-07-14T00:00:00|2003-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2003|2003-11-13T00:00:00|2003-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2004|2004-01-01T00:00:00|2004-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2004|2004-01-02T00:00:00|2004-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2004|2004-01-06T00:00:00|2004-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2004|2004-01-07T00:00:00|2004-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2004|2004-04-09T00:00:00|2004-04-09T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2004|2004-04-12T00:00:00|2004-04-12T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2004|2004-05-01T00:00:00|2004-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2004|2004-05-02T00:00:00|2004-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2004|2004-05-21T00:00:00|2004-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2004|2004-05-22T00:00:00|2004-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2004|2004-07-13T00:00:00|2004-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2004|2004-07-14T00:00:00|2004-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2004|2004-11-13T00:00:00|2004-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2005|2005-01-01T00:00:00|2005-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2005|2005-01-02T00:00:00|2005-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2005|2005-01-06T00:00:00|2005-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2005|2005-01-07T00:00:00|2005-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2005|2005-04-29T00:00:00|2005-04-29T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2005|2005-05-01T00:00:00|2005-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2005|2005-05-02T00:00:00|2005-05-02T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2005|2005-05-02T00:00:00|2005-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2005|2005-05-21T00:00:00|2005-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2005|2005-05-22T00:00:00|2005-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2005|2005-07-13T00:00:00|2005-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2005|2005-07-14T00:00:00|2005-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2005|2005-11-13T00:00:00|2005-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2006|2006-01-01T00:00:00|2006-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2006|2006-01-02T00:00:00|2006-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2006|2006-01-06T00:00:00|2006-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2006|2006-01-07T00:00:00|2006-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2006|2006-04-21T00:00:00|2006-04-21T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2006|2006-04-24T00:00:00|2006-04-24T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2006|2006-05-01T00:00:00|2006-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2006|2006-05-02T00:00:00|2006-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2006|2006-05-21T00:00:00|2006-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2006|2006-05-22T00:00:00|2006-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2006|2006-07-13T00:00:00|2006-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2006|2006-07-14T00:00:00|2006-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2006|2006-11-13T00:00:00|2006-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2007|2007-01-01T00:00:00|2007-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2007|2007-01-02T00:00:00|2007-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2007|2007-01-06T00:00:00|2007-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2007|2007-01-07T00:00:00|2007-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2007|2007-04-06T00:00:00|2007-04-06T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2007|2007-04-09T00:00:00|2007-04-09T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2007|2007-05-01T00:00:00|2007-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2007|2007-05-02T00:00:00|2007-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2007|2007-05-21T00:00:00|2007-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2007|2007-05-22T00:00:00|2007-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2007|2007-07-13T00:00:00|2007-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2007|2007-07-14T00:00:00|2007-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2007|2007-11-13T00:00:00|2007-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2008|2008-01-01T00:00:00|2008-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2008|2008-01-02T00:00:00|2008-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2008|2008-01-06T00:00:00|2008-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2008|2008-01-07T00:00:00|2008-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2008|2008-04-25T00:00:00|2008-04-25T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2008|2008-04-28T00:00:00|2008-04-28T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2008|2008-05-01T00:00:00|2008-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2008|2008-05-02T00:00:00|2008-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2008|2008-05-21T00:00:00|2008-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2008|2008-05-22T00:00:00|2008-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2008|2008-07-13T00:00:00|2008-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2008|2008-07-14T00:00:00|2008-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2008|2008-11-13T00:00:00|2008-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2009|2009-01-01T00:00:00|2009-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2009|2009-01-02T00:00:00|2009-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2009|2009-01-06T00:00:00|2009-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2009|2009-01-07T00:00:00|2009-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2009|2009-04-17T00:00:00|2009-04-17T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2009|2009-04-20T00:00:00|2009-04-20T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2009|2009-05-01T00:00:00|2009-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2009|2009-05-02T00:00:00|2009-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2009|2009-05-21T00:00:00|2009-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2009|2009-05-22T00:00:00|2009-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2009|2009-07-13T00:00:00|2009-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2009|2009-07-14T00:00:00|2009-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2009|2009-11-13T00:00:00|2009-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2010|2010-01-01T00:00:00|2010-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2010|2010-01-02T00:00:00|2010-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2010|2010-01-06T00:00:00|2010-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2010|2010-01-07T00:00:00|2010-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2010|2010-04-02T00:00:00|2010-04-02T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2010|2010-04-05T00:00:00|2010-04-05T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2010|2010-05-01T00:00:00|2010-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2010|2010-05-02T00:00:00|2010-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2010|2010-05-21T00:00:00|2010-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2010|2010-05-22T00:00:00|2010-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2010|2010-07-13T00:00:00|2010-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2010|2010-07-14T00:00:00|2010-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2010|2010-11-13T00:00:00|2010-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2011|2011-01-01T00:00:00|2011-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2011|2011-01-02T00:00:00|2011-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2011|2011-01-06T00:00:00|2011-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2011|2011-01-07T00:00:00|2011-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2011|2011-04-22T00:00:00|2011-04-22T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2011|2011-04-25T00:00:00|2011-04-25T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2011|2011-05-01T00:00:00|2011-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2011|2011-05-02T00:00:00|2011-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2011|2011-05-21T00:00:00|2011-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2011|2011-05-22T00:00:00|2011-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2011|2011-07-13T00:00:00|2011-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2011|2011-07-14T00:00:00|2011-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2011|2011-11-13T00:00:00|2011-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2012|2012-01-01T00:00:00|2012-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2012|2012-01-02T00:00:00|2012-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2012|2012-01-06T00:00:00|2012-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2012|2012-01-07T00:00:00|2012-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2012|2012-04-13T00:00:00|2012-04-13T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2012|2012-04-16T00:00:00|2012-04-16T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2012|2012-05-01T00:00:00|2012-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2012|2012-05-02T00:00:00|2012-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2012|2012-05-21T00:00:00|2012-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2012|2012-05-22T00:00:00|2012-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2012|2012-07-13T00:00:00|2012-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2012|2012-07-14T00:00:00|2012-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2012|2012-11-13T00:00:00|2012-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2013|2013-01-01T00:00:00|2013-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2013|2013-01-02T00:00:00|2013-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2013|2013-01-06T00:00:00|2013-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2013|2013-01-07T00:00:00|2013-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2013|2013-05-01T00:00:00|2013-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2013|2013-05-02T00:00:00|2013-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2013|2013-05-03T00:00:00|2013-05-03T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2013|2013-05-06T00:00:00|2013-05-06T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2013|2013-05-21T00:00:00|2013-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2013|2013-05-22T00:00:00|2013-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2013|2013-07-13T00:00:00|2013-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2013|2013-07-14T00:00:00|2013-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2013|2013-11-13T00:00:00|2013-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2014|2014-01-01T00:00:00|2014-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2014|2014-01-02T00:00:00|2014-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2014|2014-01-06T00:00:00|2014-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2014|2014-01-07T00:00:00|2014-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2014|2014-04-18T00:00:00|2014-04-18T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2014|2014-04-21T00:00:00|2014-04-21T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2014|2014-05-01T00:00:00|2014-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2014|2014-05-02T00:00:00|2014-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2014|2014-05-21T00:00:00|2014-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2014|2014-05-22T00:00:00|2014-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2014|2014-07-13T00:00:00|2014-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2014|2014-07-14T00:00:00|2014-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2014|2014-11-13T00:00:00|2014-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2015|2015-01-01T00:00:00|2015-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2015|2015-01-02T00:00:00|2015-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2015|2015-01-06T00:00:00|2015-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2015|2015-01-07T00:00:00|2015-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2015|2015-04-10T00:00:00|2015-04-10T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2015|2015-04-13T00:00:00|2015-04-13T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2015|2015-05-01T00:00:00|2015-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2015|2015-05-02T00:00:00|2015-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2015|2015-05-21T00:00:00|2015-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2015|2015-05-22T00:00:00|2015-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2015|2015-07-13T00:00:00|2015-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2015|2015-07-14T00:00:00|2015-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2015|2015-11-13T00:00:00|2015-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2016|2016-01-01T00:00:00|2016-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2016|2016-01-02T00:00:00|2016-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2016|2016-01-06T00:00:00|2016-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2016|2016-01-07T00:00:00|2016-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2016|2016-04-29T00:00:00|2016-04-29T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2016|2016-05-01T00:00:00|2016-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2016|2016-05-02T00:00:00|2016-05-02T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2016|2016-05-02T00:00:00|2016-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2016|2016-05-21T00:00:00|2016-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2016|2016-05-22T00:00:00|2016-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2016|2016-07-13T00:00:00|2016-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2016|2016-07-14T00:00:00|2016-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2016|2016-11-13T00:00:00|2016-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2017|2017-01-01T00:00:00|2017-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2017|2017-01-02T00:00:00|2017-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2017|2017-01-06T00:00:00|2017-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2017|2017-01-07T00:00:00|2017-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2017|2017-04-14T00:00:00|2017-04-14T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2017|2017-04-17T00:00:00|2017-04-17T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2017|2017-05-01T00:00:00|2017-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2017|2017-05-02T00:00:00|2017-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2017|2017-05-21T00:00:00|2017-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2017|2017-05-22T00:00:00|2017-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2017|2017-07-13T00:00:00|2017-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2017|2017-07-14T00:00:00|2017-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2017|2017-11-13T00:00:00|2017-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2018|2018-01-01T00:00:00|2018-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2018|2018-01-02T00:00:00|2018-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2018|2018-01-06T00:00:00|2018-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2018|2018-01-07T00:00:00|2018-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2018|2018-04-06T00:00:00|2018-04-06T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2018|2018-04-09T00:00:00|2018-04-09T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2018|2018-05-01T00:00:00|2018-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2018|2018-05-02T00:00:00|2018-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2018|2018-05-21T00:00:00|2018-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2018|2018-05-22T00:00:00|2018-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2018|2018-07-13T00:00:00|2018-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2018|2018-07-14T00:00:00|2018-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2018|2018-11-13T00:00:00|2018-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2019|2019-01-01T00:00:00|2019-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2019|2019-01-02T00:00:00|2019-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2019|2019-01-06T00:00:00|2019-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2019|2019-01-07T00:00:00|2019-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2019|2019-04-26T00:00:00|2019-04-26T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2019|2019-04-29T00:00:00|2019-04-29T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2019|2019-05-01T00:00:00|2019-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2019|2019-05-02T00:00:00|2019-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2019|2019-05-21T00:00:00|2019-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2019|2019-05-22T00:00:00|2019-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2019|2019-07-13T00:00:00|2019-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2019|2019-07-14T00:00:00|2019-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2019|2019-11-13T00:00:00|2019-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2020|2020-01-01T00:00:00|2020-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2020|2020-01-02T00:00:00|2020-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2020|2020-01-06T00:00:00|2020-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2020|2020-01-07T00:00:00|2020-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2020|2020-04-17T00:00:00|2020-04-17T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2020|2020-04-20T00:00:00|2020-04-20T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2020|2020-05-01T00:00:00|2020-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2020|2020-05-02T00:00:00|2020-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2020|2020-05-21T00:00:00|2020-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2020|2020-05-22T00:00:00|2020-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2020|2020-07-13T00:00:00|2020-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2020|2020-07-14T00:00:00|2020-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2020|2020-11-13T00:00:00|2020-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2021|2021-01-01T00:00:00|2021-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2021|2021-01-02T00:00:00|2021-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2021|2021-01-06T00:00:00|2021-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2021|2021-01-07T00:00:00|2021-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2021|2021-04-30T00:00:00|2021-04-30T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2021|2021-05-01T00:00:00|2021-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2021|2021-05-02T00:00:00|2021-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2021|2021-05-03T00:00:00|2021-05-03T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2021|2021-05-21T00:00:00|2021-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2021|2021-05-22T00:00:00|2021-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2021|2021-07-13T00:00:00|2021-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2021|2021-07-14T00:00:00|2021-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2021|2021-11-13T00:00:00|2021-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2022|2022-01-01T00:00:00|2022-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2022|2022-01-02T00:00:00|2022-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2022|2022-01-06T00:00:00|2022-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2022|2022-01-07T00:00:00|2022-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2022|2022-04-22T00:00:00|2022-04-22T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2022|2022-04-25T00:00:00|2022-04-25T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2022|2022-05-01T00:00:00|2022-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2022|2022-05-02T00:00:00|2022-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2022|2022-05-21T00:00:00|2022-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2022|2022-05-22T00:00:00|2022-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2022|2022-07-13T00:00:00|2022-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2022|2022-07-14T00:00:00|2022-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2022|2022-11-13T00:00:00|2022-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2023|2023-01-01T00:00:00|2023-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2023|2023-01-02T00:00:00|2023-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2023|2023-01-06T00:00:00|2023-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2023|2023-01-07T00:00:00|2023-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2023|2023-04-14T00:00:00|2023-04-14T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2023|2023-04-17T00:00:00|2023-04-17T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2023|2023-05-01T00:00:00|2023-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2023|2023-05-02T00:00:00|2023-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2023|2023-05-21T00:00:00|2023-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2023|2023-05-22T00:00:00|2023-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2023|2023-07-13T00:00:00|2023-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2023|2023-07-14T00:00:00|2023-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2023|2023-11-13T00:00:00|2023-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2024|2024-01-01T00:00:00|2024-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2024|2024-01-02T00:00:00|2024-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2024|2024-01-06T00:00:00|2024-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2024|2024-01-07T00:00:00|2024-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2024|2024-05-01T00:00:00|2024-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2024|2024-05-02T00:00:00|2024-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2024|2024-05-03T00:00:00|2024-05-03T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2024|2024-05-06T00:00:00|2024-05-06T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2024|2024-05-21T00:00:00|2024-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2024|2024-05-22T00:00:00|2024-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2024|2024-07-13T00:00:00|2024-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2024|2024-07-14T00:00:00|2024-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2024|2024-11-13T00:00:00|2024-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2025|2025-01-01T00:00:00|2025-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2025|2025-01-02T00:00:00|2025-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2025|2025-01-06T00:00:00|2025-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2025|2025-01-07T00:00:00|2025-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2025|2025-04-18T00:00:00|2025-04-18T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2025|2025-04-21T00:00:00|2025-04-21T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2025|2025-05-01T00:00:00|2025-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2025|2025-05-02T00:00:00|2025-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2025|2025-05-21T00:00:00|2025-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2025|2025-05-22T00:00:00|2025-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2025|2025-07-13T00:00:00|2025-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2025|2025-07-14T00:00:00|2025-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2025|2025-11-13T00:00:00|2025-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2026|2026-01-01T00:00:00|2026-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2026|2026-01-02T00:00:00|2026-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2026|2026-01-06T00:00:00|2026-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2026|2026-01-07T00:00:00|2026-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2026|2026-04-10T00:00:00|2026-04-10T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2026|2026-04-13T00:00:00|2026-04-13T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2026|2026-05-01T00:00:00|2026-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2026|2026-05-02T00:00:00|2026-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2026|2026-05-21T00:00:00|2026-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2026|2026-05-22T00:00:00|2026-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2026|2026-07-13T00:00:00|2026-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2026|2026-07-14T00:00:00|2026-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2026|2026-11-13T00:00:00|2026-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2027|2027-01-01T00:00:00|2027-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2027|2027-01-02T00:00:00|2027-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2027|2027-01-06T00:00:00|2027-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2027|2027-01-07T00:00:00|2027-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2027|2027-04-30T00:00:00|2027-04-30T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2027|2027-05-01T00:00:00|2027-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2027|2027-05-02T00:00:00|2027-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2027|2027-05-03T00:00:00|2027-05-03T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2027|2027-05-21T00:00:00|2027-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2027|2027-05-22T00:00:00|2027-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2027|2027-07-13T00:00:00|2027-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2027|2027-07-14T00:00:00|2027-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2027|2027-11-13T00:00:00|2027-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2028|2028-01-01T00:00:00|2028-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2028|2028-01-02T00:00:00|2028-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2028|2028-01-06T00:00:00|2028-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2028|2028-01-07T00:00:00|2028-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2028|2028-04-14T00:00:00|2028-04-14T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2028|2028-04-17T00:00:00|2028-04-17T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2028|2028-05-01T00:00:00|2028-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2028|2028-05-02T00:00:00|2028-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2028|2028-05-21T00:00:00|2028-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2028|2028-05-22T00:00:00|2028-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2028|2028-07-13T00:00:00|2028-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2028|2028-07-14T00:00:00|2028-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2028|2028-11-13T00:00:00|2028-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2029|2029-01-01T00:00:00|2029-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2029|2029-01-02T00:00:00|2029-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2029|2029-01-06T00:00:00|2029-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2029|2029-01-07T00:00:00|2029-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2029|2029-04-06T00:00:00|2029-04-06T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2029|2029-04-09T00:00:00|2029-04-09T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2029|2029-05-01T00:00:00|2029-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2029|2029-05-02T00:00:00|2029-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2029|2029-05-21T00:00:00|2029-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2029|2029-05-22T00:00:00|2029-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2029|2029-07-13T00:00:00|2029-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2029|2029-07-14T00:00:00|2029-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2029|2029-11-13T00:00:00|2029-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2030|2030-01-01T00:00:00|2030-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2030|2030-01-02T00:00:00|2030-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2030|2030-01-06T00:00:00|2030-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2030|2030-01-07T00:00:00|2030-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2030|2030-04-26T00:00:00|2030-04-26T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2030|2030-04-29T00:00:00|2030-04-29T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2030|2030-05-01T00:00:00|2030-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2030|2030-05-02T00:00:00|2030-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2030|2030-05-21T00:00:00|2030-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2030|2030-05-22T00:00:00|2030-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2030|2030-07-13T00:00:00|2030-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2030|2030-07-14T00:00:00|2030-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2030|2030-11-13T00:00:00|2030-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2031|2031-01-01T00:00:00|2031-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2031|2031-01-02T00:00:00|2031-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2031|2031-01-06T00:00:00|2031-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2031|2031-01-07T00:00:00|2031-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2031|2031-04-11T00:00:00|2031-04-11T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2031|2031-04-14T00:00:00|2031-04-14T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2031|2031-05-01T00:00:00|2031-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2031|2031-05-02T00:00:00|2031-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2031|2031-05-21T00:00:00|2031-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2031|2031-05-22T00:00:00|2031-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2031|2031-07-13T00:00:00|2031-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2031|2031-07-14T00:00:00|2031-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2031|2031-11-13T00:00:00|2031-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2032|2032-01-01T00:00:00|2032-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2032|2032-01-02T00:00:00|2032-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2032|2032-01-06T00:00:00|2032-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2032|2032-01-07T00:00:00|2032-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2032|2032-04-30T00:00:00|2032-04-30T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2032|2032-05-01T00:00:00|2032-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2032|2032-05-02T00:00:00|2032-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2032|2032-05-03T00:00:00|2032-05-03T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2032|2032-05-21T00:00:00|2032-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2032|2032-05-22T00:00:00|2032-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2032|2032-07-13T00:00:00|2032-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2032|2032-07-14T00:00:00|2032-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2032|2032-11-13T00:00:00|2032-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2033|2033-01-01T00:00:00|2033-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2033|2033-01-02T00:00:00|2033-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2033|2033-01-06T00:00:00|2033-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2033|2033-01-07T00:00:00|2033-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2033|2033-04-22T00:00:00|2033-04-22T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2033|2033-04-25T00:00:00|2033-04-25T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2033|2033-05-01T00:00:00|2033-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2033|2033-05-02T00:00:00|2033-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2033|2033-05-21T00:00:00|2033-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2033|2033-05-22T00:00:00|2033-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2033|2033-07-13T00:00:00|2033-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2033|2033-07-14T00:00:00|2033-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2033|2033-11-13T00:00:00|2033-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2034|2034-01-01T00:00:00|2034-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2034|2034-01-02T00:00:00|2034-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2034|2034-01-06T00:00:00|2034-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2034|2034-01-07T00:00:00|2034-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2034|2034-04-07T00:00:00|2034-04-07T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2034|2034-04-10T00:00:00|2034-04-10T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2034|2034-05-01T00:00:00|2034-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2034|2034-05-02T00:00:00|2034-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2034|2034-05-21T00:00:00|2034-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2034|2034-05-22T00:00:00|2034-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2034|2034-07-13T00:00:00|2034-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2034|2034-07-14T00:00:00|2034-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2034|2034-11-13T00:00:00|2034-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2035|2035-01-01T00:00:00|2035-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2035|2035-01-02T00:00:00|2035-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2035|2035-01-06T00:00:00|2035-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2035|2035-01-07T00:00:00|2035-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2035|2035-04-27T00:00:00|2035-04-27T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2035|2035-04-30T00:00:00|2035-04-30T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2035|2035-05-01T00:00:00|2035-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2035|2035-05-02T00:00:00|2035-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2035|2035-05-21T00:00:00|2035-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2035|2035-05-22T00:00:00|2035-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2035|2035-07-13T00:00:00|2035-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2035|2035-07-14T00:00:00|2035-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2035|2035-11-13T00:00:00|2035-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2036|2036-01-01T00:00:00|2036-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2036|2036-01-02T00:00:00|2036-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2036|2036-01-06T00:00:00|2036-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2036|2036-01-07T00:00:00|2036-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2036|2036-04-18T00:00:00|2036-04-18T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2036|2036-04-21T00:00:00|2036-04-21T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2036|2036-05-01T00:00:00|2036-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2036|2036-05-02T00:00:00|2036-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2036|2036-05-21T00:00:00|2036-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2036|2036-05-22T00:00:00|2036-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2036|2036-07-13T00:00:00|2036-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2036|2036-07-14T00:00:00|2036-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2036|2036-11-13T00:00:00|2036-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2037|2037-01-01T00:00:00|2037-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2037|2037-01-02T00:00:00|2037-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2037|2037-01-06T00:00:00|2037-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2037|2037-01-07T00:00:00|2037-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2037|2037-04-03T00:00:00|2037-04-03T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2037|2037-04-06T00:00:00|2037-04-06T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2037|2037-05-01T00:00:00|2037-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2037|2037-05-02T00:00:00|2037-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2037|2037-05-21T00:00:00|2037-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2037|2037-05-22T00:00:00|2037-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2037|2037-07-13T00:00:00|2037-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2037|2037-07-14T00:00:00|2037-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2037|2037-11-13T00:00:00|2037-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2038|2038-01-01T00:00:00|2038-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2038|2038-01-02T00:00:00|2038-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2038|2038-01-06T00:00:00|2038-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2038|2038-01-07T00:00:00|2038-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2038|2038-04-23T00:00:00|2038-04-23T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2038|2038-04-26T00:00:00|2038-04-26T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2038|2038-05-01T00:00:00|2038-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2038|2038-05-02T00:00:00|2038-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2038|2038-05-21T00:00:00|2038-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2038|2038-05-22T00:00:00|2038-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2038|2038-07-13T00:00:00|2038-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2038|2038-07-14T00:00:00|2038-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2038|2038-11-13T00:00:00|2038-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2039|2039-01-01T00:00:00|2039-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2039|2039-01-02T00:00:00|2039-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2039|2039-01-06T00:00:00|2039-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2039|2039-01-07T00:00:00|2039-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2039|2039-04-15T00:00:00|2039-04-15T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2039|2039-04-18T00:00:00|2039-04-18T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2039|2039-05-01T00:00:00|2039-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2039|2039-05-02T00:00:00|2039-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2039|2039-05-21T00:00:00|2039-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2039|2039-05-22T00:00:00|2039-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2039|2039-07-13T00:00:00|2039-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2039|2039-07-14T00:00:00|2039-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2039|2039-11-13T00:00:00|2039-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2040|2040-01-01T00:00:00|2040-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2040|2040-01-02T00:00:00|2040-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2040|2040-01-06T00:00:00|2040-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2040|2040-01-07T00:00:00|2040-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2040|2040-05-01T00:00:00|2040-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2040|2040-05-02T00:00:00|2040-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2040|2040-05-04T00:00:00|2040-05-04T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2040|2040-05-07T00:00:00|2040-05-07T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2040|2040-05-21T00:00:00|2040-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2040|2040-05-22T00:00:00|2040-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2040|2040-07-13T00:00:00|2040-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2040|2040-07-14T00:00:00|2040-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2040|2040-11-13T00:00:00|2040-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2041|2041-01-01T00:00:00|2041-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2041|2041-01-02T00:00:00|2041-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2041|2041-01-06T00:00:00|2041-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2041|2041-01-07T00:00:00|2041-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2041|2041-04-19T00:00:00|2041-04-19T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2041|2041-04-22T00:00:00|2041-04-22T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2041|2041-05-01T00:00:00|2041-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2041|2041-05-02T00:00:00|2041-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2041|2041-05-21T00:00:00|2041-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2041|2041-05-22T00:00:00|2041-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2041|2041-07-13T00:00:00|2041-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2041|2041-07-14T00:00:00|2041-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2041|2041-11-13T00:00:00|2041-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2042|2042-01-01T00:00:00|2042-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2042|2042-01-02T00:00:00|2042-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2042|2042-01-06T00:00:00|2042-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2042|2042-01-07T00:00:00|2042-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2042|2042-04-11T00:00:00|2042-04-11T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2042|2042-04-14T00:00:00|2042-04-14T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2042|2042-05-01T00:00:00|2042-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2042|2042-05-02T00:00:00|2042-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2042|2042-05-21T00:00:00|2042-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2042|2042-05-22T00:00:00|2042-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2042|2042-07-13T00:00:00|2042-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2042|2042-07-14T00:00:00|2042-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2042|2042-11-13T00:00:00|2042-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2043|2043-01-01T00:00:00|2043-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2043|2043-01-02T00:00:00|2043-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2043|2043-01-06T00:00:00|2043-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2043|2043-01-07T00:00:00|2043-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2043|2043-05-01T00:00:00|2043-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2043|2043-05-02T00:00:00|2043-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2043|2043-05-04T00:00:00|2043-05-04T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2043|2043-05-21T00:00:00|2043-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2043|2043-05-22T00:00:00|2043-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2043|2043-07-13T00:00:00|2043-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2043|2043-07-14T00:00:00|2043-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2043|2043-11-13T00:00:00|2043-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2044|2044-01-01T00:00:00|2044-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2044|2044-01-02T00:00:00|2044-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2044|2044-01-06T00:00:00|2044-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2044|2044-01-07T00:00:00|2044-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2044|2044-04-22T00:00:00|2044-04-22T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2044|2044-04-25T00:00:00|2044-04-25T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2044|2044-05-01T00:00:00|2044-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2044|2044-05-02T00:00:00|2044-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2044|2044-05-21T00:00:00|2044-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2044|2044-05-22T00:00:00|2044-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2044|2044-07-13T00:00:00|2044-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2044|2044-07-14T00:00:00|2044-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2044|2044-11-13T00:00:00|2044-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2045|2045-01-01T00:00:00|2045-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2045|2045-01-02T00:00:00|2045-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2045|2045-01-06T00:00:00|2045-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2045|2045-01-07T00:00:00|2045-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2045|2045-04-07T00:00:00|2045-04-07T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2045|2045-04-10T00:00:00|2045-04-10T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2045|2045-05-01T00:00:00|2045-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2045|2045-05-02T00:00:00|2045-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2045|2045-05-21T00:00:00|2045-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2045|2045-05-22T00:00:00|2045-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2045|2045-07-13T00:00:00|2045-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2045|2045-07-14T00:00:00|2045-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2045|2045-11-13T00:00:00|2045-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2046|2046-01-01T00:00:00|2046-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2046|2046-01-02T00:00:00|2046-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2046|2046-01-06T00:00:00|2046-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2046|2046-01-07T00:00:00|2046-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2046|2046-04-27T00:00:00|2046-04-27T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2046|2046-04-30T00:00:00|2046-04-30T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2046|2046-05-01T00:00:00|2046-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2046|2046-05-02T00:00:00|2046-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2046|2046-05-21T00:00:00|2046-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2046|2046-05-22T00:00:00|2046-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2046|2046-07-13T00:00:00|2046-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2046|2046-07-14T00:00:00|2046-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2046|2046-11-13T00:00:00|2046-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2047|2047-01-01T00:00:00|2047-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2047|2047-01-02T00:00:00|2047-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2047|2047-01-06T00:00:00|2047-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2047|2047-01-07T00:00:00|2047-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2047|2047-04-19T00:00:00|2047-04-19T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2047|2047-04-22T00:00:00|2047-04-22T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2047|2047-05-01T00:00:00|2047-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2047|2047-05-02T00:00:00|2047-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2047|2047-05-21T00:00:00|2047-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2047|2047-05-22T00:00:00|2047-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2047|2047-07-13T00:00:00|2047-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2047|2047-07-14T00:00:00|2047-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2047|2047-11-13T00:00:00|2047-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2048|2048-01-01T00:00:00|2048-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2048|2048-01-02T00:00:00|2048-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2048|2048-01-06T00:00:00|2048-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2048|2048-01-07T00:00:00|2048-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2048|2048-04-03T00:00:00|2048-04-03T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2048|2048-04-06T00:00:00|2048-04-06T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2048|2048-05-01T00:00:00|2048-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2048|2048-05-02T00:00:00|2048-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2048|2048-05-21T00:00:00|2048-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2048|2048-05-22T00:00:00|2048-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2048|2048-07-13T00:00:00|2048-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2048|2048-07-14T00:00:00|2048-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2048|2048-11-13T00:00:00|2048-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|
+2049|2049-01-01T00:00:00|2049-01-01T00:00:00|New Year|Nova godina|NewYear|True|
+2049|2049-01-02T00:00:00|2049-01-02T00:00:00|Day After New Year|Nova godina|DayAfterNewYear|True|
+2049|2049-01-06T00:00:00|2049-01-06T00:00:00|Christmas Eve (Orthodox)|Badnji dan|ChristmasEve|True|
+2049|2049-01-07T00:00:00|2049-01-07T00:00:00|Christmas (Orthodox)|Božić|Christmas|True|
+2049|2049-04-23T00:00:00|2049-04-23T00:00:00|Good Friday|Veliki petak|GoodFriday|True|
+2049|2049-04-26T00:00:00|2049-04-26T00:00:00|Easter Monday|Uskrsni ponedeljak|EasterMonday|True|
+2049|2049-05-01T00:00:00|2049-05-01T00:00:00|Labour Day|Praznik rada|LabourDay|True|
+2049|2049-05-02T00:00:00|2049-05-02T00:00:00|Labour Day Holiday|Praznik rada|LabourDaySecondME|True|
+2049|2049-05-21T00:00:00|2049-05-21T00:00:00|Independence Day|Dan nezavisnosti|IndependenceDayME|True|
+2049|2049-05-22T00:00:00|2049-05-22T00:00:00|Independence Day Holiday|Dan nezavisnosti|IndependenceDaySecondME|True|
+2049|2049-07-13T00:00:00|2049-07-13T00:00:00|Statehood Day|Dan državnostia|StatehoodDayME|True|
+2049|2049-07-14T00:00:00|2049-07-14T00:00:00|Statehood Day Holiday|Dan državnosti|StatehoodDaySecondME|True|
+2049|2049-11-13T00:00:00|2049-11-13T00:00:00|Njegoš Day|Njegosev Dan|NegoshevDayME|True|

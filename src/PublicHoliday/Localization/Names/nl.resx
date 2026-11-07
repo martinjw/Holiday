@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AllSaints" xml:space="preserve"><value>Allerheiligen</value></data>
+  <data name="AllSouls" xml:space="preserve"><value>Allerzielen</value></data>
+  <data name="Armistice" xml:space="preserve"><value>Wapenstilstand</value></data>
+  <data name="Ascension" xml:space="preserve"><value>Onze-Lieve-Heer-Hemelvaart</value></data>
+  <data name="Assumption" xml:space="preserve"><value>Onze-Lieve-Vrouw-Hemelvaart</value></data>
+  <data name="BelgianNationalDay" xml:space="preserve"><value>Nationale feestdag</value></data>
+  <data name="BoxingDay" xml:space="preserve"><value>Tweede Kerstdag</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Kerstmis</value></data>
+  <data name="ChristmasEve" xml:space="preserve"><value>Kerstavond</value></data>
+  <data name="CorpusChristi" xml:space="preserve"><value>Sacramentsdag</value></data>
+  <data name="DayAfterNewYear" xml:space="preserve"><value>Tweede nieuwjaarsdag</value></data>
+  <data name="Easter" xml:space="preserve"><value>Eerste Paasdag</value></data>
+  <data name="EasterMonday" xml:space="preserve"><value>Paasmaandag</value></data>
+  <data name="Epiphany" xml:space="preserve"><value>Driekoningen</value></data>
+  <data name="GoodFriday" xml:space="preserve"><value>Goede Vrijdag</value></data>
+  <data name="ImmaculateConception" xml:space="preserve"><value>Onbevlekte Ontvangenis</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Dag van de Arbeid</value></data>
+  <data name="MaundyThursday" xml:space="preserve"><value>Witte Donderdag</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Nieuwjaar</value></data>
+  <data name="NewYearsEve" xml:space="preserve"><value>Oudejaarsavond</value></data>
+  <data name="PentecostMonday" xml:space="preserve"><value>Pinkstermaandag</value></data>
+  <data name="SaintStephensDay" xml:space="preserve"><value>Tweede Kerstdag</value></data>
+  <data name="WhitSunday" xml:space="preserve"><value>Eerste Pinksterdag</value></data>
+  <data name="WorkersDayZA" xml:space="preserve"><value>Dag van de Arbeid</value></data>
+</root>

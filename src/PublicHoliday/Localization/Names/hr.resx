@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AllSaints" xml:space="preserve"><value>Svi sveti</value></data>
+  <data name="AntiFascistStruggleDayHR" xml:space="preserve"><value>Dan antifašističke borbe</value></data>
+  <data name="Assumption" xml:space="preserve"><value>Velika Gospa</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Božić</value></data>
+  <data name="CorpusChristi" xml:space="preserve"><value>Tijelovo</value></data>
+  <data name="EasterMonday" xml:space="preserve"><value>Uskrsni ponedjeljak</value></data>
+  <data name="Epiphany" xml:space="preserve"><value>Bogojavljenje ili Sveta tri kralja</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Praznik rada</value></data>
+  <data name="NationalDayHR" xml:space="preserve"><value>Dan državnosti</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Nova godina</value></data>
+  <data name="RemembranceDayHR" xml:space="preserve"><value>Dan sjećanja na žrtve Domovinskog rata i Dan sjećanja na žrtvu Vukovara i Škabrnje</value></data>
+  <data name="SaintStephensDay" xml:space="preserve"><value>Sveti Stjepan</value></data>
+  <data name="VictoryDayHR" xml:space="preserve"><value>Dan pobjede i domovinske zahvalnosti i Dan hrvatskih branitelja</value></data>
+</root>

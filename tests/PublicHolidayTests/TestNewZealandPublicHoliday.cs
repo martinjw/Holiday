@@ -129,15 +129,14 @@ namespace PublicHolidayTests
         public void AnzacDaySameDayAsEasterMonday2011() {
             var holidayCalendar = new NewZealandPublicHoliday();
             var hols = holidayCalendar.PublicHolidayNames(2011);
-            Assert.IsTrue(10 == hols.Count, "Should be 10 holidays in 2011");
+            //ANZAC Day and Easter Monday were both 25 April 2011: 10 holidays on 9 distinct
+            //days, the shared day carries both names
+            Assert.IsTrue(9 == hols.Count, "Should be 9 distinct holiday days in 2011");
+            Assert.IsTrue(10 == holidayCalendar.PublicHolidaysInformation(2011).Count, "Should be 10 holidays in 2011");
 
-            var (anzacDay, _) = hols.FirstOrDefault(x => x.Value.Equals("ANZAC Day", StringComparison.CurrentCultureIgnoreCase));
-            var (easterMonday, _) = hols.FirstOrDefault(x => x.Value.Equals("Easter Monday", StringComparison.CurrentCultureIgnoreCase));
-
-            Assert.IsFalse(anzacDay == default(DateTime), "ANZAC Day not found in 2011");
-            Assert.IsFalse(easterMonday == default(DateTime), "Easter Monday not found in 2011");
-
-            Assert.IsTrue(anzacDay.Date.Equals(easterMonday.Date), $"ANZAC Day and Easter Monday fell on the same day in 2011");
+            var sharedDay = hols[new DateTime(2011, 4, 25)];
+            Assert.IsTrue(sharedDay.Contains("ANZAC Day"), "ANZAC Day not found on 25 April 2011");
+            Assert.IsTrue(sharedDay.Contains("Easter Monday"), "Easter Monday not found on 25 April 2011");
         }
 
         [TestMethod]

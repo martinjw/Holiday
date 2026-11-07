@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AllSaints" xml:space="preserve"><value>Dia de Todos-os-Santos</value></data>
+  <data name="Assumption" xml:space="preserve"><value>Assunção de Nossa Senhora</value></data>
+  <data name="AzoresDayPT" xml:space="preserve"><value>Dia dos Açores</value></data>
+  <data name="CarnivalPT" xml:space="preserve"><value>Carnaval</value></data>
+  <data name="Christmas" xml:space="preserve"><value>Natal</value></data>
+  <data name="CorpusChristi" xml:space="preserve"><value>Corpo de Deus</value></data>
+  <data name="Easter" xml:space="preserve"><value>Domingo de Páscoa</value></data>
+  <data name="FirstOctavePT" xml:space="preserve"><value>Primeira Oitava</value></data>
+  <data name="FreedomDayPT" xml:space="preserve"><value>Dia da Liberdade</value></data>
+  <data name="GoodFriday" xml:space="preserve"><value>Sexta-feira Santa</value></data>
+  <data name="ImmaculateConception" xml:space="preserve"><value>Imaculada Conceição</value></data>
+  <data name="IndependenceRestorationDayPT" xml:space="preserve"><value>Restauração da Independência</value></data>
+  <data name="LabourDay" xml:space="preserve"><value>Dia do Trabalhador</value></data>
+  <data name="MadeiraAutonomyDayPT" xml:space="preserve"><value>Dia da Madeira</value></data>
+  <data name="NewYear" xml:space="preserve"><value>Ano Novo</value></data>
+  <data name="PortugalDayPT" xml:space="preserve"><value>Dia de Portugal, de Camões e das Comunidades Portuguesas</value></data>
+  <data name="RepublicDayPT" xml:space="preserve"><value>Implantação da República</value></data>
+</root>

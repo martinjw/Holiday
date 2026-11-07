@@ -1,7 +1,9 @@
 ﻿using System;
+using PublicHoliday.HolidayDefinitions.Christian;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PublicHoliday;
+using PublicHoliday.Dates;
 using PublicHolidayTests.HelperTest;
 
 namespace PublicHolidayTests
@@ -24,7 +26,7 @@ namespace PublicHolidayTests
         public void TestGetEaster(int year, int month, int day)
         {
             var holiday = new DateTime(year, month, day);
-            var result = HolidayCalculator.GetEaster(year);
+            var result = EasterCalculator.GetEaster(year);
 
             Assert.IsTrue(result.DayOfWeek == DayOfWeek.Sunday, $"{result.ToString("D")} is not Sunday");
             Assert.AreEqual(holiday, result, $"{result.ToString("D")} is not the {holiday} - should be Easter");
@@ -123,7 +125,7 @@ namespace PublicHolidayTests
 
             IPublicHolidays PublicHolidaysTest = new PublicHolidayHelperTest() { Holidays = Holidaystest };
 
-            var result = HolidayCalculator.NextWorkingDay(PublicHolidaysTest, datetest, opendaysubstract, sameDay);
+            var result = WorkingDayCalculator.NextWorkingDay(PublicHolidaysTest, datetest, opendaysubstract, sameDay);
 
             Assert.IsTrue(result.DayOfWeek != DayOfWeek.Saturday || result.DayOfWeek != DayOfWeek.Sunday, $"{result.ToString("D")} is not between Monday and Friday");
             Assert.AreEqual(dateresult, result, $"{result.ToString("D")} is not the {dateresult} - {description}");
@@ -136,7 +138,7 @@ namespace PublicHolidayTests
             {
 
                 var datetest = new DateTime(2021, 10, 22);
-                var result = HolidayCalculator.NextWorkingDay(new PublicHolidayHelperTest(), datetest, -1);
+                var result = WorkingDayCalculator.NextWorkingDay(new PublicHolidayHelperTest(), datetest, -1);
 
                 Assert.Fail("Not ArgumentOutOfRangeException");
             });
@@ -178,7 +180,7 @@ namespace PublicHolidayTests
 
             IPublicHolidays PublicHolidaysTest = new PublicHolidayHelperTest() { Holidays = Holidaystest };
 
-            var result = HolidayCalculator.PreviousWorkingDay(PublicHolidaysTest, datetest, opendaysubstract, sameDay);
+            var result = WorkingDayCalculator.PreviousWorkingDay(PublicHolidaysTest, datetest, opendaysubstract, sameDay);
 
             Assert.IsTrue(result.DayOfWeek != DayOfWeek.Saturday || result.DayOfWeek != DayOfWeek.Sunday, $"{result.ToString("D")} is not between Monday and Friday");
             Assert.AreEqual(dateresult, result, $"{result.ToString("D")} is not the {dateresult} - {description}");
@@ -191,7 +193,7 @@ namespace PublicHolidayTests
             {
 
                 var datetest = new DateTime(2021, 10, 22);
-                var result = HolidayCalculator.PreviousWorkingDay(new PublicHolidayHelperTest(), datetest, -1);
+                var result = WorkingDayCalculator.PreviousWorkingDay(new PublicHolidayHelperTest(), datetest, -1);
 
                 Assert.Fail("Not ArgumentOutOfRangeException");
             });
