@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using PublicHoliday.HolidayDefinitions;
 using PublicHoliday.HolidayDefinitions.Christian;
 using Christian = PublicHoliday.HolidayDefinitions.Christian;
 using Common = PublicHoliday.HolidayDefinitions.Common;
@@ -11,13 +10,13 @@ using PublicHoliday.Localization;
 
 namespace PublicHoliday
 {
-    /// <summary>
-    /// Holiday calendar for the Netherlands
-    /// </summary>
-    /// <remarks>
-    /// Easter Sunday is a public holiday in the Netherlands, but it is always Sunday (not a normal working day). To include it in <c>PublicHolidays</c> set <see cref="IncludeEasterSunday"/> to true.
-    /// </remarks>
-    public class DutchPublicHoliday : PublicHolidayBase
+	/// <summary>
+	/// Holiday calendar for the Netherlands
+	/// </summary>
+	/// <remarks>
+	/// Easter Sunday is a public holiday in the Netherlands, but it is always Sunday (not a normal working day). To include it in <c>PublicHolidays</c> set <see cref="IncludeEasterSunday"/> to true.
+	/// </remarks>
+	public class DutchPublicHoliday : PublicHolidayBase
 	{
 
 		/// <summary>
@@ -51,33 +50,33 @@ namespace PublicHoliday
 			return EasterCalculator.GoodFriday(EasterCalculator.GetEaster(year));
 		}
 
-        /// <summary>
-        /// Easter Sunday / Eerste paasdag
-        /// </summary>
-        public static DateTime EasterSunday(int year)
-        {
-            var hol = EasterCalculator.GetEaster(year);
-            return hol;
-        }
+		/// <summary>
+		/// Easter Sunday / Eerste paasdag
+		/// </summary>
+		public static DateTime EasterSunday(int year)
+		{
+			var hol = EasterCalculator.GetEaster(year);
+			return hol;
+		}
 
-        /// <summary>
-        /// Include Easter Sunday as a public holiday.
-        /// </summary>
-        /// <value>
-        /// Set to <c>true</c> to see Easter Sunday in <c>PublicHolidays</c> and <c>PublicHolidayNames</c>.
-        /// </value>
-        public bool IncludeEasterSunday
-        {
-            get { return _includeEasterSunday; }
-            set { _includeEasterSunday = value; ClearHolidayCache(); }
-        }
-        private bool _includeEasterSunday;
-        /// <summary>
-        /// Easter Monday 1st Monday after Easter - Paasmaandag
-        /// </summary>
-        /// <param name="year">The year.</param>
-        /// <returns>Date of in the given year.</returns>
-        public static DateTime EasterMonday(int year)
+		/// <summary>
+		/// Include Easter Sunday as a public holiday.
+		/// </summary>
+		/// <value>
+		/// Set to <c>true</c> to see Easter Sunday in <c>PublicHolidays</c> and <c>PublicHolidayNames</c>.
+		/// </value>
+		public bool IncludeEasterSunday
+		{
+			get { return _includeEasterSunday; }
+			set { _includeEasterSunday = value; ClearHolidayCache(); }
+		}
+		private bool _includeEasterSunday;
+		/// <summary>
+		/// Easter Monday 1st Monday after Easter - Paasmaandag
+		/// </summary>
+		/// <param name="year">The year.</param>
+		/// <returns>Date of in the given year.</returns>
+		public static DateTime EasterMonday(int year)
 		{
 			return EasterCalculator.EasterMonday(EasterCalculator.GetEaster(year));
 		}

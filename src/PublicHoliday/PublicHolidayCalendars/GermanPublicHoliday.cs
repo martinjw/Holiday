@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using PublicHoliday.HolidayDefinitions;
 using PublicHoliday.HolidayDefinitions.Christian;
 using Christian = PublicHoliday.HolidayDefinitions.Christian;
 using Common = PublicHoliday.HolidayDefinitions.Common;

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using PublicHoliday.HolidayDefinitions;
 using Local = PublicHoliday.HolidayDefinitions.CountrySpecific.USA;
 using PublicHoliday.HolidayDefinitions.Base;
 using PublicHoliday.Dates;
