@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using PublicHoliday.HolidayDefinitions;
-using PublicHoliday.HolidayDefinitions.Christian;
+﻿using System.Collections.Generic;
+using System.Globalization;
+using PublicHoliday.HolidayDefinitions.Base;
+using PublicHoliday.Localization;
 using Christian = PublicHoliday.HolidayDefinitions.Christian;
 using Common = PublicHoliday.HolidayDefinitions.Common;
 using Local = PublicHoliday.HolidayDefinitions.CountrySpecific.Finland;
-using PublicHoliday.HolidayDefinitions.Base;
-using System.Globalization;
-using PublicHoliday.Localization;
 // ReSharper disable StringLiteralTypo
 
 namespace PublicHoliday

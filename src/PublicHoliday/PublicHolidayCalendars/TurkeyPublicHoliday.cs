@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using PublicHoliday.HolidayDefinitions;
+using PublicHoliday.HolidayDefinitions.Base;
 using PublicHoliday.HolidayDefinitions.Islamic;
+using PublicHoliday.Localization;
 using Common = PublicHoliday.HolidayDefinitions.Common;
 using Local = PublicHoliday.HolidayDefinitions.CountrySpecific.Turkey;
-using PublicHoliday.HolidayDefinitions.Base;
-using PublicHoliday.Localization;
 
 
 namespace PublicHoliday

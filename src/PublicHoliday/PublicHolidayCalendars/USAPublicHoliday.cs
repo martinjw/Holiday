@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Local = PublicHoliday.HolidayDefinitions.CountrySpecific.USA;
-using PublicHoliday.HolidayDefinitions.Base;
 using PublicHoliday.Dates;
+using PublicHoliday.HolidayDefinitions.Base;
+using Local = PublicHoliday.HolidayDefinitions.CountrySpecific.USA;
 
 namespace PublicHoliday
 {

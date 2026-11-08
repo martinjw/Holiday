@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using PublicHoliday.HolidayDefinitions;
+using System.Globalization;
+using PublicHoliday.HolidayDefinitions.Base;
 using PublicHoliday.HolidayDefinitions.Christian;
+using PublicHoliday.Localization;
 using Christian = PublicHoliday.HolidayDefinitions.Christian;
 using Common = PublicHoliday.HolidayDefinitions.Common;
 using Local = PublicHoliday.HolidayDefinitions.CountrySpecific.Sweden;
-using PublicHoliday.HolidayDefinitions.Base;
-using System.Globalization;
-using PublicHoliday.Localization;
 
 namespace PublicHoliday
 {

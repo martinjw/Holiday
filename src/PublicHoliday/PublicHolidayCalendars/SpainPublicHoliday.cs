@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
+using PublicHoliday.HolidayDefinitions.Base;
 using PublicHoliday.HolidayDefinitions.Christian;
+using PublicHoliday.Localization;
 using Christian = PublicHoliday.HolidayDefinitions.Christian;
 using Common = PublicHoliday.HolidayDefinitions.Common;
 using Local = PublicHoliday.HolidayDefinitions.CountrySpecific.Spain;
-using PublicHoliday.HolidayDefinitions.Base;
-using System.Globalization;
-using PublicHoliday.Localization;
 
 namespace PublicHoliday
 {
     /// <summary>
     /// Finds Spanish public holidays.
     /// Public holidays on Sundays are not deferred to following weekday automatically-
-    /// they may be taken at an arbitary date.
+    /// they may be taken at an arbitrary date.
     /// </summary>
     /// <remarks>
     /// - We don't infer bridge days for holidays on Tues/Thurs.

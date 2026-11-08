@@ -1,13 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
-using PublicHoliday.HolidayDefinitions;
+using PublicHoliday.Dates;
+using PublicHoliday.HolidayDefinitions.Base;
+using PublicHoliday.Localization;
 using Common = PublicHoliday.HolidayDefinitions.Common;
 using Local = PublicHoliday.HolidayDefinitions.CountrySpecific.Japan;
-using PublicHoliday.HolidayDefinitions.Base;
-using System.Globalization;
-using PublicHoliday.Localization;
-using PublicHoliday.Dates;
 
 namespace PublicHoliday
 {
