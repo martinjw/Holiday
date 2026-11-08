@@ -196,7 +196,7 @@ namespace PublicHoliday.Dates
         /// </summary>
         public static int BusinessDaysBetween(IPublicHolidays holidayCalendar, DateTime start, DateTime end)
         {
-            if (end <= start) return 0;
+            if (end < start) return 0;
             var count = 0;
             var dt = start;
 

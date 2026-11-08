@@ -241,6 +241,28 @@ namespace PublicHolidayTests
 
             Assert.AreEqual(6, result);
         }
+
+        [TestMethod]
+        public void TestBusinessDaysBetweenSameWorkingDay()
+        {
+            var testCalendar = new PublicHolidayHelperTest();
+            var day = new DateTime(2024, 12, 24);
+
+            var result = testCalendar.BusinessDaysBetween(day, day);
+
+            Assert.AreEqual(1, result);
+        }
+
+        [TestMethod]
+        public void TestBusinessDaysBetweenSameNonWorkingDay()
+        {
+            var testCalendar = new PublicHolidayHelperTest();
+            var day = new DateTime(2024, 12, 28);
+
+            var result = testCalendar.BusinessDaysBetween(day, day);
+
+            Assert.AreEqual(0, result);
+        }
     }
 
 }
