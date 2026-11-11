@@ -1,0 +1,47 @@
+name: Publish NuGet Package
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Release tag to publish (e.g. v1.1.2)"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download package from GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p artifacts
+
+          gh release download "${{ github.event.inputs.release_tag }}" \
+            --pattern "*.nupkg" \
+            --dir artifacts
+
+          echo "Downloaded packages:"
+          ls -la artifacts
+
+      - name: NuGet login (OIDC Trusted Publishing)
+        id: login
+        uses: NuGet/login@v1
+        with:
+          user: Martinjw
+
+      - name: Publish package
+        run: |
+          dotnet nuget push "artifacts/*.nupkg" \
+            --api-key "${{ steps.login.outputs.NUGET_API_KEY }}" \
+            --source "https://api.nuget.org/v3/index.json"
+
+      - name: Summary
+        run: |
+          echo "Published release tag: ${{ github.event.inputs.release_tag }}"
