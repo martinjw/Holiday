@@ -24,6 +24,7 @@ jobs:
           mkdir -p artifacts
 
           gh release download "${{ github.event.inputs.release_tag }}" \
+            --repo "${{ github.repository }}" \
             --pattern "*.nupkg" \
             --dir artifacts
 
