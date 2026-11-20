@@ -33,6 +33,27 @@ namespace PublicHolidayTests
         }
 
         [TestMethod]
+        [DataRow(1850, 5, 5)]
+        [DataRow(1899, 4, 30)]
+        [DataRow(1900, 4, 22)]
+        [DataRow(2024, 5, 5)]
+        [DataRow(2025, 4, 20)]
+        [DataRow(2099, 4, 12)]
+        [DataRow(2100, 5, 2)]
+        [DataRow(2101, 4, 24)]
+        [DataRow(2200, 4, 6)]
+        public void TestGetOrthodoxEaster(int year, int month, int day)
+        {
+            //Julian calendar Easter shown as a Gregorian date. The Julian calendar is
+            //12 days behind before 1900 and 14 days behind from March 2100.
+            var holiday = new DateTime(year, month, day);
+            var result = EasterCalculator.GetOrthodoxEaster(year);
+
+            Assert.IsTrue(result.DayOfWeek == DayOfWeek.Sunday, $"{result.ToString("D")} is not Sunday");
+            Assert.AreEqual(holiday, result, $"{result.ToString("D")} is not the {holiday} - should be Orthodox Easter");
+        }
+
+        [TestMethod]
         [DataRow(2021, 10, 09, 10, 11, "should be monday")]
         [DataRow(2021, 10, 10, 10, 11, "should be monday")]
         [DataRow(2021, 10, 7, 10, 7, "should be same day")]
