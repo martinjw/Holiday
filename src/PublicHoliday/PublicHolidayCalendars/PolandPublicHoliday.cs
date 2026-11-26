@@ -107,7 +107,7 @@ namespace PublicHoliday
         private static readonly HolidayDefinition[] Definitions =
         {
             new Common.NewYear(),
-            new Christian.Epiphany(),
+            new Christian.Epiphany { AppliesInYear = EpiphanyIsPublic },
             new Christian.EasterSunday { EnglishName = "Easter Sunday" },
             new Christian.EasterMonday(),
             new Common.LabourDay(),
@@ -121,6 +121,9 @@ namespace PublicHoliday
             new Christian.Christmas(),
             new Christian.SaintStephensDay(),
         };
+
+        //a day off again from 2011 (Dz.U. 2010 nr 224 poz. 1459)
+        private static bool EpiphanyIsPublic(int year) => year >= 2011;
 
         //public holiday from 2025 onwards
         private static bool ChristmasEveIsPublic(int year) => year >= 2025;
