@@ -164,5 +164,17 @@ namespace PublicHolidayTests
                 Assert.IsTrue(holNames.ContainsKey(expectedHoliday), $"Name for {expectedHoliday.ToString("D")} is missing");
             }
         }
+
+        [TestMethod]
+        [DataRow(2010, false)]
+        [DataRow(2011, true)]
+        public void TestEpiphanyFrom2011(int year, bool expected)
+        {
+            //Epiphany is a day off again from 2011 (Dz.U. 2010 nr 224 poz. 1459)
+            var epiphany = new DateTime(year, 1, 6);
+            var holidayCalendar = new PolandPublicHoliday();
+            Assert.AreEqual(expected, holidayCalendar.IsPublicHoliday(epiphany));
+            Assert.AreEqual(expected, holidayCalendar.PublicHolidays(year).Contains(epiphany));
+        }
     }
 }
